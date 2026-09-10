@@ -1,0 +1,18 @@
+{
+  "id": "landing-minimal",
+  "name": "미니멀 랜딩",
+  "description": "제품·서비스 하나를 소개하는 한 장짜리 랜딩 페이지",
+  "tags": ["landing", "one-page", "product"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    { "key": "brand",        "where": "index.html", "desc": "상단 좌측 브랜드명과 푸터 이름" },
+    { "key": "hero.title",   "where": "index.html", "desc": "히어로 대제목 — 한 문장으로 무엇인지" },
+    { "key": "hero.subtitle","where": "index.html", "desc": "히어로 보조 설명 1~2문장" },
+    { "key": "cta",          "where": "index.html", "desc": "주요 행동 버튼 문구와 링크" },
+    { "key": "features",     "where": "index.html", "desc": "특징 카드 3개 (제목 + 설명)" },
+    { "key": "stats",        "where": "index.html", "desc": "숫자 지표 3개" },
+    { "key": "contact",      "where": "index.html", "desc": "푸터 이메일·주소·SNS" },
+    { "key": "theme",        "where": "styles.css", "desc": ":root 의 색·라운드·폰트 토큰" }
+  ]
+}

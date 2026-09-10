@@ -1,0 +1,18 @@
+{
+  "id": "shop-single",
+  "name": "단일 상품 소개",
+  "description": "상품 하나를 설명하고 구매로 이어지는 소개 페이지",
+  "tags": ["shop", "product", "one-page"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    { "key": "brand",       "where": "index.html", "desc": "상단 브랜드명과 푸터 이름" },
+    { "key": "product",     "where": "index.html", "desc": "상품명·한 줄 설명·가격" },
+    { "key": "options",     "where": "index.html", "desc": "선택 옵션(용량·색상 등)과 옵션별 가격 차이" },
+    { "key": "highlights",  "where": "index.html", "desc": "상품 특징 3~4개" },
+    { "key": "specs",       "where": "index.html", "desc": "상세 정보 표 (항목 · 값)" },
+    { "key": "faq",         "where": "index.html", "desc": "자주 묻는 질문 목록" },
+    { "key": "shipping",    "where": "index.html", "desc": "배송·교환 안내 문구" },
+    { "key": "theme",       "where": "styles.css", "desc": ":root 의 색·라운드·폰트 토큰" }
+  ]
+}

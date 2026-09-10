@@ -1,0 +1,107 @@
+/* 디자인 토큰 */
+:root {
+  --ink: #1a1714;
+  --ink-soft: #6f6459;
+  --line: #e8e2da;
+  --bg: #fdfbf8;
+  --surface: #ffffff;
+  --accent: #8a6a45;
+  --accent-ink: #ffffff;
+  --radius: 12px;
+  --font: system-ui, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --wrap: 70rem;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0; font-family: var(--font); color: var(--ink); background: var(--bg);
+  line-height: 1.65; -webkit-font-smoothing: antialiased;
+}
+
+.wrap { width: min(100% - 2.5rem, var(--wrap)); margin-inline: auto; }
+a { color: inherit; }
+
+.site-header { border-bottom: 1px solid var(--line); background: var(--surface); }
+.site-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 4rem; }
+.brand { font-weight: 700; letter-spacing: -.02em; text-decoration: none; }
+.site-nav { display: flex; gap: 1.4rem; }
+.site-nav a { text-decoration: none; color: var(--ink-soft); font-size: .95rem; }
+.site-nav a:hover { color: var(--ink); }
+
+/* 상품 */
+.product { padding: clamp(2.5rem, 6vw, 4.5rem) 0; }
+.product-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 5vw, 4rem); align-items: start; }
+
+/* 상품 사진 — 외부 이미지 없이 CSS 로만 그린다 */
+.gallery { display: grid; gap: .75rem; }
+.shot {
+  aspect-ratio: 1; border-radius: var(--radius); border: 1px solid var(--line);
+  background:
+    radial-gradient(circle at 34% 30%, var(--a, #d8c3a5), transparent 60%),
+    radial-gradient(circle at 70% 74%, var(--b, #a68a64), transparent 55%),
+    #f1ebe3;
+}
+.shot-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; }
+.shot-row .shot { aspect-ratio: 1; border-radius: calc(var(--radius) - 4px); }
+
+.product-info h1 { font-size: clamp(1.8rem, 4.4vw, 2.6rem); letter-spacing: -.03em; margin: 0 0 .6rem; }
+.tagline { color: var(--ink-soft); margin: 0 0 1.5rem; font-size: 1.05rem; }
+.price { display: flex; align-items: baseline; gap: .6rem; margin-bottom: 1.75rem; }
+.price strong { font-size: 1.75rem; letter-spacing: -.02em; }
+.price del { color: var(--ink-soft); font-size: 1.05rem; }
+.price .off { color: var(--accent); font-weight: 600; font-size: .95rem; }
+
+.option-group { margin-bottom: 1.5rem; }
+.option-group h2 { font-size: .875rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-soft); margin: 0 0 .6rem; }
+.options { display: flex; gap: .5rem; flex-wrap: wrap; }
+.option {
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  padding: .6rem 1.1rem; border-radius: 99px; font: inherit; font-size: .925rem; cursor: pointer;
+  transition: all .15s ease;
+}
+.option:hover { border-color: var(--ink-soft); }
+.option[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: #fff; }
+
+.buy {
+  display: block; width: 100%; padding: .95rem 1.5rem; border: 0; border-radius: calc(var(--radius) - 2px);
+  background: var(--accent); color: var(--accent-ink); font: inherit; font-weight: 600; font-size: 1rem;
+  cursor: pointer; transition: filter .15s ease;
+}
+.buy:hover { filter: brightness(1.08); }
+.shipping-note { color: var(--ink-soft); font-size: .9rem; margin: .9rem 0 0; text-align: center; }
+
+.highlights { list-style: none; padding: 1.5rem 0 0; margin: 1.5rem 0 0; border-top: 1px solid var(--line); display: grid; gap: .7rem; }
+.highlights li { display: grid; grid-template-columns: 1.25rem 1fr; gap: .6rem; font-size: .95rem; }
+.highlights li::before { content: "—"; color: var(--accent); }
+
+/* 상세 */
+.section { padding: clamp(2.5rem, 6vw, 4rem) 0; border-top: 1px solid var(--line); }
+.section h2 { font-size: clamp(1.35rem, 3vw, 1.75rem); letter-spacing: -.02em; margin: 0 0 1.5rem; }
+
+.specs { width: 100%; border-collapse: collapse; font-size: .95rem; }
+.specs th, .specs td { text-align: left; padding: .85rem 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.specs th { width: 11rem; color: var(--ink-soft); font-weight: 500; }
+
+.faq { display: grid; gap: .6rem; }
+details {
+  border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface);
+  padding: 1rem 1.25rem;
+}
+details[open] { border-color: var(--ink-soft); }
+summary { cursor: pointer; font-weight: 600; font-size: .975rem; list-style: none; }
+summary::-webkit-details-marker { display: none; }
+summary::after { content: "+"; float: right; color: var(--ink-soft); font-weight: 400; }
+details[open] summary::after { content: "−"; }
+details p { margin: .8rem 0 0; color: var(--ink-soft); font-size: .95rem; }
+
+.site-footer { border-top: 1px solid var(--line); padding: 2.5rem 0; color: var(--ink-soft); font-size: .9rem; }
+.site-footer .wrap { display: flex; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+.site-footer a { text-decoration: none; }
+.site-footer a:hover { color: var(--ink); }
+
+@media (max-width: 780px) {
+  .product-grid { grid-template-columns: 1fr; }
+  .specs th { width: 7.5rem; }
+}

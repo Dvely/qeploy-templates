@@ -1,0 +1,61 @@
+# templates/ 를 빌드해 GitHub Pages 로 발행한다.
+# 발행물은 셋이다 — 데모(t/<id>/), 카탈로그(catalog.json), 씨앗(src/<id>.tar.gz).
+# BE 는 catalog.json 을, 컨테이너는 tar.gz 를 이 URL 에서 받는다. 따라서 Pages 발행이
+# 곧 배포다 — main 에 머지되면 카탈로그가 바로 바뀐다.
+name: Deploy templates to Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 발행은 하나씩. 앞선 실행을 취소하면 반쯤 올라간 카탈로그가 남을 수 있다.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 빌드
+        run: node scripts/build.mjs
+      - name: 카탈로그 확인
+        run: |
+          node -e "
+            const c = require('./site/catalog.json');
+            if (!Array.isArray(c.templates) || c.templates.length === 0) throw new Error('카탈로그가 비었다');
+            for (const t of c.templates) {
+              if (!t.demoUrl || !t.sourceUrl) throw new Error(t.id + ': URL 누락');
+            }
+            console.log('템플릿 ' + c.templates.length + '종 확인');
+          "
+          # 데모 진입 파일이 실제로 있는지 본다. 없으면 갤러리가 빈 iframe 을 띄운다.
+          for dir in site/t/*/; do
+            test -f "$dir/index.html" || { echo "$dir: index.html 없음"; exit 1; }
+          done
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

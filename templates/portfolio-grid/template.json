@@ -1,0 +1,17 @@
+{
+  "id": "portfolio-grid",
+  "name": "포트폴리오 그리드",
+  "description": "작업물을 격자로 보여주는 개인·스튜디오 포트폴리오",
+  "tags": ["portfolio", "gallery", "personal"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    { "key": "name",      "where": "index.html", "desc": "상단 이름 또는 스튜디오명" },
+    { "key": "intro",     "where": "index.html", "desc": "첫 화면 한 줄 소개와 직함" },
+    { "key": "works",     "where": "index.html", "desc": "작업물 카드 (제목·분류·연도). data-category 로 필터가 걸린다" },
+    { "key": "filters",   "where": "index.html", "desc": "상단 분류 버튼 목록 — works 의 data-category 와 값이 같아야 한다" },
+    { "key": "about",     "where": "index.html", "desc": "소개 문단과 이력 목록" },
+    { "key": "contact",   "where": "index.html", "desc": "이메일·SNS 링크" },
+    { "key": "theme",     "where": "styles.css", "desc": ":root 의 색·폰트·격자 토큰" }
+  ]
+}
