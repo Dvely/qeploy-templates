@@ -1,0 +1,20 @@
+{
+  "id": "sports-club",
+  "name": "스포츠 클럽 홈",
+  "description": "종목·프로그램·용품을 한곳에서 고르는 스포츠 클럽 홈",
+  "tags": ["sports", "club", "one-page"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    { "key": "brand",      "where": "index.html", "desc": "상단 브랜드명과 푸터 상호" },
+    { "key": "hero",       "where": "index.html", "desc": "히어로 제목·부제·주요 버튼. 사진은 images/hero.png" },
+    { "key": "stats",      "where": "index.html", "desc": "히어로 아래 숫자 지표 3개" },
+    { "key": "sports",     "where": "index.html", "desc": "종목 바로가기. data-jump 값은 프로그램·용품 data-category 와 같아야 한다" },
+    { "key": "programs",   "where": "index.html", "desc": "이번 주 프로그램 카드. data-category · data-day 가 필터에 쓰인다. 사진은 images/ 의 png" },
+    { "key": "gear",       "where": "index.html", "desc": "용품 카드 (이름·가격). data-category 가 종목 필터와 맞아야 한다. 사진은 images/ 의 png" },
+    { "key": "stories",    "where": "index.html", "desc": "회원 후기 3개" },
+    { "key": "join",       "where": "index.html", "desc": "가입 안내 제목·가격·버튼" },
+    { "key": "footer",     "where": "index.html", "desc": "주소·이메일·약관 링크" },
+    { "key": "theme",      "where": "styles.css", "desc": ":root 의 색·라운드·폰트 토큰. --accent 는 강조색" }
+  ]
+}
