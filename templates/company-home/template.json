@@ -1,0 +1,19 @@
+{
+  "id": "company-home",
+  "name": "기업 소개 홈",
+  "description": "회사 소개·사업 영역·소식·채용으로 이어지는 기업 홈",
+  "tags": ["company", "corporate", "one-page"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    { "key": "brand",      "where": "index.html", "desc": "상단 브랜드명과 푸터 상호" },
+    { "key": "hero",       "where": "index.html", "desc": "히어로 제목·부제·버튼. 사진은 images/hero.png" },
+    { "key": "stats",      "where": "index.html", "desc": "숫자 지표 4개" },
+    { "key": "about",      "where": "index.html", "desc": "회사 소개 문단과 연혁 목록" },
+    { "key": "business",   "where": "index.html", "desc": "사업 영역 카드 3개. 사진은 images/biz-*.png" },
+    { "key": "news",       "where": "index.html", "desc": "소식 카드. data-category 가 필터와 같아야 한다" },
+    { "key": "careers",    "where": "index.html", "desc": "채용 안내 제목·문장·버튼" },
+    { "key": "contact",    "where": "index.html", "desc": "주소·전화·이메일" },
+    { "key": "theme",      "where": "styles.css", "desc": ":root 의 색·라운드·폰트 토큰" }
+  ]
+}
