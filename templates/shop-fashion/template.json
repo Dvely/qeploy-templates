@@ -1,0 +1,19 @@
+{
+  "id": "shop-fashion",
+  "name": "패션 쇼핑몰 홈",
+  "description": "추천·랭킹·카테고리로 옷을 고르는 패션 커머스 홈",
+  "tags": ["shop", "fashion", "commerce"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    { "key": "brand",      "where": "index.html", "desc": "상단 브랜드명과 푸터 상호" },
+    { "key": "notice",     "where": "index.html", "desc": "최상단 배송·혜택 안내 띠" },
+    { "key": "banners",    "where": "index.html", "desc": "히어로 배너 제목·부제. 색은 --a/--b 토큰" },
+    { "key": "categories", "where": "index.html", "desc": "바로가기와 필터 버튼. data-filter 값은 상품 data-category 와 같아야 한다" },
+    { "key": "deals",      "where": "index.html", "desc": "오늘 마감 특가 카드" },
+    { "key": "products",   "where": "index.html", "desc": "상품 카드 (브랜드·이름·가격·할인). data-category · data-rank · data-name 이 필터에 쓰인다" },
+    { "key": "looks",      "where": "index.html", "desc": "코디 카드 제목과 구성 품목 수" },
+    { "key": "footer",     "where": "index.html", "desc": "사업자 정보·고객센터·약관 링크" },
+    { "key": "theme",      "where": "styles.css", "desc": ":root 의 색·라운드·폰트 토큰. --sale 은 할인율 색" }
+  ]
+}

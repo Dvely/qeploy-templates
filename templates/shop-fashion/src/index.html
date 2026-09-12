@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>옷결 — 매일 입는 옷을 고르는 가게</title>
+  <meta name="description" content="상의부터 신발까지, 오늘 입을 옷을 추천과 랭킹으로 고릅니다.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <p class="notice">전 상품 무료배송 · 저녁 6시 이전 주문 당일 출고</p>
+
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand" href="#">옷결</a>
+
+      <form class="search" role="search">
+        <label class="sr-only" for="q">상품 검색</label>
+        <input id="q" name="q" type="search" placeholder="브랜드, 상품명으로 찾기" autocomplete="off">
+      </form>
+
+      <nav class="header-actions" aria-label="쇼핑">
+        <a href="#saved">찜</a>
+        <a href="#cart">장바구니 <span class="cart-count" data-cart="0">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="기획전">
+      <div class="wrap hero-grid">
+        <a class="banner banner-main" href="#products" style="--a:#c4b4a0; --b:#6d5a48">
+          <span class="banner-kicker">가을 첫 주</span>
+          <strong>바람 막기 좋은 아우터</strong>
+          <span>트렌치부터 경량패딩까지, 지금 입는 겉옷</span>
+        </a>
+        <a class="banner banner-side" href="#products" style="--a:#b7c4c2; --b:#3d4f4c">
+          <span class="banner-kicker">이번 주 코디</span>
+          <strong>출근길에 겹쳐 입기</strong>
+        </a>
+      </div>
+    </section>
+
+    <nav class="shortcuts" aria-label="카테고리 바로가기">
+      <div class="wrap shortcut-row">
+        <a href="#products" data-jump="top"><span class="shortcut-icon" style="--a:#e8d9c8"></span>상의</a>
+        <a href="#products" data-jump="bottom"><span class="shortcut-icon" style="--a:#cfd6de"></span>하의</a>
+        <a href="#products" data-jump="outer"><span class="shortcut-icon" style="--a:#d8c4b0"></span>아우터</a>
+        <a href="#products" data-jump="shoes"><span class="shortcut-icon" style="--a:#c8b8a8"></span>신발</a>
+        <a href="#products" data-jump="bag"><span class="shortcut-icon" style="--a:#ddd2c4"></span>가방</a>
+      </div>
+    </nav>
+
+    <section class="section deals" id="deals">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>오늘만 이 가격</h2>
+            <p>자정에 끝납니다. 재고가 있으면 그대로 출고합니다.</p>
+          </div>
+          <p class="timer" aria-live="polite">마감까지 <strong data-timer>—</strong></p>
+        </div>
+
+        <div class="deal-row">
+          <article class="deal">
+            <div class="thumb tall" style="--a:#d9c7b0; --b:#8a6d52"></div>
+            <div class="deal-body">
+              <span class="shop">저녁바람</span>
+              <h3>싱글 트렌치코트</h3>
+              <div class="price"><em>24%</em><strong>128,000원</strong><del>168,000원</del></div>
+            </div>
+          </article>
+          <article class="deal">
+            <div class="thumb tall" style="--a:#c5cdd4; --b:#5a6670"></div>
+            <div class="deal-body">
+              <span class="shop">새벽</span>
+              <h3>후드 경량패딩</h3>
+              <div class="price"><em>25%</em><strong>89,000원</strong><del>119,000원</del></div>
+            </div>
+          </article>
+          <article class="deal">
+            <div class="thumb tall" style="--a:#e2d2bc; --b:#9a7b55"></div>
+            <div class="deal-body">
+              <span class="shop">온기</span>
+              <h3>울 하프집 니트</h3>
+              <div class="price"><em>25%</em><strong>54,000원</strong><del>72,000원</del></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="products">
+      <div class="wrap">
+        <div class="feed-head">
+          <div class="tabs" role="tablist" aria-label="상품 정렬">
+            <button class="tab" type="button" role="tab" data-sort="recommend" aria-selected="true">추천</button>
+            <button class="tab" type="button" role="tab" data-sort="rank" aria-selected="false">랭킹</button>
+          </div>
+          <div class="filters" role="group" aria-label="상품 분류">
+            <button class="filter" type="button" data-filter="all" aria-pressed="true">전체</button>
+            <button class="filter" type="button" data-filter="top" aria-pressed="false">상의</button>
+            <button class="filter" type="button" data-filter="bottom" aria-pressed="false">하의</button>
+            <button class="filter" type="button" data-filter="outer" aria-pressed="false">아우터</button>
+            <button class="filter" type="button" data-filter="shoes" aria-pressed="false">신발</button>
+            <button class="filter" type="button" data-filter="bag" aria-pressed="false">가방</button>
+          </div>
+        </div>
+
+        <div class="products" data-sort="recommend">
+          <a class="product" href="#" data-category="top" data-rank="4" data-name="느린결 오버핏 옥스퍼드 셔츠">
+            <div class="thumb tall" style="--a:#efe4d4; --b:#b89a72">
+              <button class="wish" type="button" aria-pressed="false" aria-label="찜하기"></button>
+              <span class="rank">4</span>
+            </div>
+            <div class="product-body">
+              <span class="shop">느린결</span>
+              <h3>오버핏 옥스퍼드 셔츠</h3>
+              <div class="price"><em>25%</em><strong>39,000원</strong></div>
+              <span class="chip">무료배송</span>
+            </div>
+          </a>
+          <a class="product" href="#" data-category="bottom" data-rank="3" data-name="골목 와이드 코튼 팬츠">
+            <div class="thumb tall" style="--a:#cfd6de; --b:#5d6b78">
+              <button class="wish" type="button" aria-pressed="false" aria-label="찜하기"></button>
+              <span class="rank">3</span>
+            </div>
+            <div class="product-body">
+              <span class="shop">골목</span>
+              <h3>와이드 코튼 팬츠</h3>
+              <div class="price"><em>23%</em><strong>48,000원</strong></div>
+              <span class="chip">무료배송</span>
+            </div>
+          </a>
+          <a class="product" href="#" data-category="outer" data-rank="1" data-name="저녁바람 싱글 트렌치코트">
+            <div class="thumb tall" style="--a:#d9c7b0; --b:#8a6d52">
+              <button class="wish" type="button" aria-pressed="false" aria-label="찜하기"></button>
+              <span class="rank">1</span>
+            </div>
+            <div class="product-body">
+              <span class="shop">저녁바람</span>
+              <h3>싱글 트렌치코트</h3>
+              <div class="price"><em>24%</em><strong>128,000원</strong></div>
+              <span class="chip">무료배송</span>
+            </div>
+          </a>
+          <a class="product" href="#" data-category="shoes" data-rank="6" data-name="한낮 캔버스 스니커즈">
+            <div class="thumb tall" style="--a:#e8e0d4; --b:#8b8070">
+              <button class="wish" type="button" aria-pressed="false" aria-label="찜하기"></button>
+              <span class="rank">6</span>
+            </div>
+            <div class="product-body">
+              <span class="shop">한낮</span>
+              <h3>캔버스 스니커즈</h3>
+              <div class="price"><em>25%</em><strong>59,000원</strong></div>
+              <span class="chip">무료배송</span>
+            </div>
+          </a>
+          <a class="product" href="#" data-category="bag" data-rank="8" data-name="결가방 미니 크로스백">
+            <div class="thumb tall" style="--a:#ddd2c4; --b:#7a6654">
+              <button class="wish" type="button" aria-pressed="false" aria-label="찜하기"></button>
+              <span class="rank">8</span>
+            </div>
+            <div class="product-body">
+              <span class="shop">결가방</span>
+              <h3>미니 크로스백</h3>
+              <div class="price"><em>22%</em><strong>42,000원</strong></div>
+              <span class="chip">무료배송</span>
+            </div>
+          </a>
+          <a class="product" href="#" data-category="top" data-rank="2" data-name="온기 울 하프집 니트">
+            <div class="thumb tall" style="--a:#e2d2bc; --b:#9a7b55">
+              <button class="wish" type="button" aria-pressed="false" aria-label="찜하기"></button>
+              <span class="rank">2</span>
+            </div>
+            <div class="product-body">
+              <span class="shop">온기</span>
+              <h3>울 하프집 니트</h3>
+              <div class="price"><em>25%</em><strong>54,000원</strong></div>
+              <span class="chip">무료배송</span>
+            </div>
+          </a>
+          <a class="product" href="#" data-category="bottom" data-rank="7" data-name="바닥 플리츠 롱스커트">
+            <div class="thumb tall" style="--a:#d8c8d0; --b:#7a5d68">
+              <button class="wish" type="button" aria-pressed="false" aria-label="찜하기"></button>
+              <span class="rank">7</span>
+            </div>
+            <div class="product-body">
+              <span class="shop">바닥</span>
+              <h3>플리츠 롱스커트</h3>
+              <div class="price"><em>21%</em><strong>46,000원</strong></div>
+              <span class="chip">무료배송</span>
+            </div>
+          </a>
+          <a class="product" href="#" data-category="outer" data-rank="5" data-name="새벽 후드 경량패딩">
+            <div class="thumb tall" style="--a:#c5cdd4; --b:#5a6670">
+              <button class="wish" type="button" aria-pressed="false" aria-label="찜하기"></button>
+              <span class="rank">5</span>
+            </div>
+            <div class="product-body">
+              <span class="shop">새벽</span>
+              <h3>후드 경량패딩</h3>
+              <div class="price"><em>25%</em><strong>89,000원</strong></div>
+              <span class="chip">무료배송</span>
+            </div>
+          </a>
+          <a class="product" href="#" data-category="shoes" data-rank="9" data-name="돌길 스웨이드 로퍼">
+            <div class="thumb tall" style="--a:#d4c4b0; --b:#6e5844">
+              <button class="wish" type="button" aria-pressed="false" aria-label="찜하기"></button>
+              <span class="rank">9</span>
+            </div>
+            <div class="product-body">
+              <span class="shop">돌길</span>
+              <h3>스웨이드 로퍼</h3>
+              <div class="price"><em>23%</em><strong>68,000원</strong></div>
+              <span class="chip">무료배송</span>
+            </div>
+          </a>
+          <a class="product" href="#" data-category="bag" data-rank="10" data-name="주머니 나일론 백팩">
+            <div class="thumb tall" style="--a:#c8d0c4; --b:#4f5c4a">
+              <button class="wish" type="button" aria-pressed="false" aria-label="찜하기"></button>
+              <span class="rank">10</span>
+            </div>
+            <div class="product-body">
+              <span class="shop">주머니</span>
+              <h3>나일론 백팩</h3>
+              <div class="price"><em>25%</em><strong>51,000원</strong></div>
+              <span class="chip">무료배송</span>
+            </div>
+          </a>
+        </div>
+
+        <p class="empty" hidden>이 분류에는 아직 올린 상품이 없습니다.</p>
+      </div>
+    </section>
+
+    <section class="section looks" id="looks">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>이렇게 입어보세요</h2>
+            <p>한 번에 고르기 어렵다면 코디부터 고르면 됩니다.</p>
+          </div>
+        </div>
+        <div class="look-row">
+          <a class="look" href="#products">
+            <div class="thumb look-thumb" style="--a:#c4b4a0; --b:#5a4636"></div>
+            <div class="look-body"><h3>출근길 레이어드</h3><span>상의 · 아우터 · 신발 3종</span></div>
+          </a>
+          <a class="look" href="#products">
+            <div class="thumb look-thumb" style="--a:#b7c4c2; --b:#3d4f4c"></div>
+            <div class="look-body"><h3>주말 산책</h3><span>니트 · 팬츠 · 스니커즈 3종</span></div>
+          </a>
+          <a class="look" href="#products">
+            <div class="thumb look-thumb" style="--a:#d8c4b8; --b:#6a4a40"></div>
+            <div class="look-body"><h3>저녁 약속</h3><span>셔츠 · 스커트 · 로퍼 3종</span></div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <p><strong>옷결</strong></p>
+          <p>고객센터 평일 10:00–17:00</p>
+          <p>hello@example.com</p>
+          <p>서울특별시 어딘가 12, 3층</p>
+        </div>
+        <div class="footer-links">
+          <a href="#">이용약관</a>
+          <a href="#">개인정보처리방침</a>
+          <a href="#">입점 문의</a>
+        </div>
+      </div>
+      <p class="legal">옷결은 통신판매중개자가 아니라 직접 판매하는 가게의 예시 페이지입니다. 실제 주문·결제·배송은 되지 않습니다.</p>
+      <p class="copyright">© 2026 옷결. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <nav class="dock" aria-label="하단 메뉴">
+    <a href="#" aria-current="page">홈</a>
+    <a href="#products">카테고리</a>
+    <a href="#saved">찜</a>
+    <a href="#cart">마이</a>
+  </nav>
+
+  <script src="main.js"></script>
+</body>
+</html>
