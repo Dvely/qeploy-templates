@@ -1,0 +1,18 @@
+{
+  "id": "cook-home",
+  "name": "요리 스튜디오 홈",
+  "description": "레시피와 요리 수업을 고르는 주방 스튜디오 홈",
+  "tags": ["food", "recipe", "studio"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    { "key": "brand",      "where": "index.html", "desc": "상단 브랜드명과 푸터 상호" },
+    { "key": "hero",       "where": "index.html", "desc": "히어로 제목·부제·버튼. 사진은 images/hero.png" },
+    { "key": "classes",    "where": "index.html", "desc": "이번 주 수업 카드. data-day 가 요일 필터에 쓰인다" },
+    { "key": "recipes",    "where": "index.html", "desc": "레시피 카드. data-category · data-name 이 필터·검색에 쓰인다. 사진은 images/ 의 png" },
+    { "key": "about",      "where": "index.html", "desc": "주방 소개 문단. 사진은 images/kitchen.png" },
+    { "key": "reserve",    "where": "index.html", "desc": "수업 신청 안내와 폼 문구" },
+    { "key": "footer",     "where": "index.html", "desc": "주소·이메일·약관 링크" },
+    { "key": "theme",      "where": "styles.css", "desc": ":root 의 색·라운드·폰트 토큰" }
+  ]
+}

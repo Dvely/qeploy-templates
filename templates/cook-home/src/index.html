@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>저녁상 — 오늘 저녁을 같이 만드는 주방</title>
+  <meta name="description" content="집밥 레시피와 소규모 요리 수업. 저녁상을 차리는 법을 같이 익힙니다.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand" href="#">저녁상</a>
+      <nav class="site-nav">
+        <a href="#classes">수업</a>
+        <a href="#recipes">레시피</a>
+        <a href="#about">주방</a>
+        <a class="btn" href="#reserve">자리 예약</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-photo" src="images/hero.png" alt="">
+      <div class="wrap hero-copy">
+        <span class="eyebrow">집밥 스튜디오</span>
+        <h1>오늘 저녁은<br>같이 차려도 됩니다</h1>
+        <p>한 상에 올리는 국과 반찬부터, 손님 오기 전 면 요리까지. 저녁상은 네 명이 둘러앉는 주방에서 수업을 합니다.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#classes">이번 주 수업</a>
+          <a class="btn btn-ghost" href="#recipes">레시피 보기</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section classes" id="classes">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>이번 주 수업</h2>
+            <p>정원은 네 명입니다. 재료는 주방에서 준비합니다.</p>
+          </div>
+          <div class="days" role="group" aria-label="요일">
+            <button class="day" type="button" data-day="all" aria-pressed="true">전체</button>
+            <button class="day" type="button" data-day="wed" aria-pressed="false">수</button>
+            <button class="day" type="button" data-day="fri" aria-pressed="false">금</button>
+            <button class="day" type="button" data-day="sat" aria-pressed="false">토</button>
+          </div>
+        </div>
+
+        <div class="class-list">
+          <article class="klass" data-day="wed">
+            <div class="thumb"><img src="images/stew.png" alt=""></div>
+            <div class="klass-body">
+              <span class="tag">수 19:30</span>
+              <h3>된장찌개와 기본 반찬</h3>
+              <p>된장을 먼저 맛보고, 감자·양파 두께만 맞춥니다.</p>
+              <span class="meta">남은 자리 2 · 2시간</span>
+            </div>
+          </article>
+          <article class="klass" data-day="fri">
+            <div class="thumb"><img src="images/noodle.png" alt=""></div>
+            <div class="klass-body">
+              <span class="tag">금 19:00</span>
+              <h3>손님 오기 전 칼국수</h3>
+              <p>반죽을 밀고, 육수는 미리 끓여 둡니다.</p>
+              <span class="meta">남은 자리 1 · 2시간 30분</span>
+            </div>
+          </article>
+          <article class="klass" data-day="sat">
+            <div class="thumb"><img src="images/dessert.png" alt=""></div>
+            <div class="klass-body">
+              <span class="tag">토 11:00</span>
+              <h3>주말 아침 호두 롤케이크</h3>
+              <p>오븐 온도만 지키면 됩니다. 아이와 같이 와도 됩니다.</p>
+              <span class="meta">남은 자리 3 · 2시간</span>
+            </div>
+          </article>
+          <article class="klass" data-day="sat">
+            <div class="thumb"><img src="images/grill.png" alt=""></div>
+            <div class="klass-body">
+              <span class="tag">토 16:00</span>
+              <h3>고등어 한 마리와 무조림</h3>
+              <p>비린내 잡는 법과 간을 맞추는 순서를 같이 봅니다.</p>
+              <span class="meta">남은 자리 2 · 2시간</span>
+            </div>
+          </article>
+        </div>
+        <p class="empty-class" hidden>이 요일에는 열린 수업이 없습니다.</p>
+      </div>
+    </section>
+
+    <section class="section recipes" id="recipes">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>레시피</h2>
+            <p>수업에서 쓰는 순서 그대로 적어 두었습니다.</p>
+          </div>
+          <form class="search" role="search">
+            <label class="sr-only" for="q">레시피 검색</label>
+            <input id="q" name="q" type="search" placeholder="이름이나 재료로 찾기" autocomplete="off">
+          </form>
+        </div>
+        <div class="filters" role="group" aria-label="레시피 분류">
+          <button class="filter" type="button" data-filter="all" aria-pressed="true">전체</button>
+          <button class="filter" type="button" data-filter="stew" aria-pressed="false">국·찌개</button>
+          <button class="filter" type="button" data-filter="noodle" aria-pressed="false">면</button>
+          <button class="filter" type="button" data-filter="side" aria-pressed="false">반찬</button>
+          <button class="filter" type="button" data-filter="dessert" aria-pressed="false">디저트</button>
+        </div>
+
+        <div class="recipe-grid">
+          <a class="recipe" href="#" data-category="stew" data-name="된장찌개 감자 양파">
+            <div class="thumb tall"><img src="images/stew.png" alt=""></div>
+            <div class="recipe-body">
+              <span class="shop">국·찌개 · 25분</span>
+              <h3>된장찌개</h3>
+            </div>
+          </a>
+          <a class="recipe" href="#" data-category="noodle" data-name="칼국수 육수 반죽">
+            <div class="thumb tall"><img src="images/noodle.png" alt=""></div>
+            <div class="recipe-body">
+              <span class="shop">면 · 40분</span>
+              <h3>손칼국수</h3>
+            </div>
+          </a>
+          <a class="recipe" href="#" data-category="dessert" data-name="호두 롤케이크 오븐">
+            <div class="thumb tall"><img src="images/dessert.png" alt=""></div>
+            <div class="recipe-body">
+              <span class="shop">디저트 · 50분</span>
+              <h3>호두 롤케이크</h3>
+            </div>
+          </a>
+          <a class="recipe" href="#" data-category="side" data-name="고등어 무조림 구이">
+            <div class="thumb tall"><img src="images/grill.png" alt=""></div>
+            <div class="recipe-body">
+              <span class="shop">반찬 · 30분</span>
+              <h3>고등어 무조림</h3>
+            </div>
+          </a>
+          <a class="recipe" href="#" data-category="side" data-name="기본 반찬 나물 집밥">
+            <div class="thumb tall"><img src="images/sides.png" alt=""></div>
+            <div class="recipe-body">
+              <span class="shop">반찬 · 20분</span>
+              <h3>나물 세 가지</h3>
+            </div>
+          </a>
+          <a class="recipe" href="#" data-category="stew" data-name="맑은 콩나물국">
+            <div class="thumb tall"><img src="images/soup.png" alt=""></div>
+            <div class="recipe-body">
+              <span class="shop">국·찌개 · 15분</span>
+              <h3>맑은 콩나물국</h3>
+            </div>
+          </a>
+        </div>
+        <p class="empty" hidden>이 분류에는 아직 올린 레시피가 없습니다.</p>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="wrap about-grid">
+        <div class="thumb about-photo"><img src="images/kitchen.png" alt=""></div>
+        <div>
+          <h2>네 명이 앉는 주방</h2>
+          <p>저녁상은 식당이 아닙니다. 가스레인지 두 대와 큰 도마가 있는 집에서, 그날 저녁을 같이 만듭니다.</p>
+          <p>레시피는 계량을 적되, 간은 솥 앞에서 맞춥니다. 남긴 음식은 가져가셔도 됩니다.</p>
+          <ul class="notes">
+            <li>서울 마포 어딘가 14, 1층</li>
+            <li>수업 전날 재료 목록을 보냅니다</li>
+            <li>알레르기는 예약 시 적어 주세요</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reserve" id="reserve">
+      <div class="wrap reserve-grid">
+        <div>
+          <h2>자리 예약</h2>
+          <p>원하는 수업을 고르고 이름을 남겨 주세요. 확인 메일을 보냅니다. 이 페이지는 예시라 실제로 메일이 가지 않습니다.</p>
+        </div>
+        <form class="inquiry" action="#" method="get">
+          <label>이름 <input name="name" type="text" autocomplete="name" required></label>
+          <label>이메일 <input name="email" type="email" autocomplete="email" required></label>
+          <label>수업
+            <select name="klass">
+              <option>된장찌개와 기본 반찬 · 수</option>
+              <option>손님 오기 전 칼국수 · 금</option>
+              <option>주말 아침 호두 롤케이크 · 토</option>
+              <option>고등어 한 마리와 무조림 · 토</option>
+            </select>
+          </label>
+          <button class="btn" type="submit">예약 남기기</button>
+          <p class="form-note" hidden>예시라 전송되지 않았습니다. 문구만 바뀌었습니다.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <p><strong>저녁상</strong></p>
+          <p>hello@example.com</p>
+          <p>서울특별시 마포 어딘가 14, 1층</p>
+        </div>
+        <div class="footer-links">
+          <a href="#">이용약관</a>
+          <a href="#">개인정보처리방침</a>
+        </div>
+      </div>
+      <p class="copyright">© 2026 저녁상. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
