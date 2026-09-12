@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>질주 — 뛰는 사람을 위한 스포츠 클럽</title>
+  <meta name="description" content="러닝, 축구, 트레이닝, 아웃도어. 이번 주 프로그램과 용품을 한곳에서 고릅니다.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand" href="#">질주</a>
+      <nav class="site-nav">
+        <a href="#sports">종목</a>
+        <a href="#programs">프로그램</a>
+        <a href="#gear">용품</a>
+        <a class="btn" href="#join">가입하기</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div>
+          <span class="eyebrow">이번 달 캠페인</span>
+          <h1>새벽에 나가면<br>길이 비어 있습니다</h1>
+          <p>한강 러닝부터 주말 축구, 근력 클래스까지. 혼자 시작해도 다음 주에는 같이 뛰는 사람이 생깁니다.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#programs">이번 주 일정 보기</a>
+            <a class="btn btn-ghost" href="#gear">용품 둘러보기</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true"><img src="images/hero.png" alt=""></div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="wrap stats-row">
+        <div class="stat"><strong>1,280</strong><span>이번 달 뛴 회원</span></div>
+        <div class="stat"><strong>18</strong><span>주간 프로그램</span></div>
+        <div class="stat"><strong>9</strong><span>상주 코치</span></div>
+      </div>
+    </section>
+
+    <nav class="section sports" id="sports" aria-label="종목">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>종목 고르기</h2>
+            <p>하나를 고르면 아래 프로그램과 용품이 함께 걸러집니다.</p>
+          </div>
+        </div>
+        <div class="sport-row">
+          <button class="sport" type="button" data-jump="run" aria-pressed="false">
+            <span class="sport-icon"><img src="images/run-hangang.png" alt=""></span>
+            <strong>러닝</strong>
+            <span>도로 · 트레일</span>
+          </button>
+          <button class="sport" type="button" data-jump="football" aria-pressed="false">
+            <span class="sport-icon"><img src="images/football.png" alt=""></span>
+            <strong>축구</strong>
+            <span>풋살 · 11인제</span>
+          </button>
+          <button class="sport" type="button" data-jump="train" aria-pressed="false">
+            <span class="sport-icon"><img src="images/gym.png" alt=""></span>
+            <strong>트레이닝</strong>
+            <span>근력 · 컨디션</span>
+          </button>
+          <button class="sport" type="button" data-jump="outdoor" aria-pressed="false">
+            <span class="sport-icon"><img src="images/trail.png" alt=""></span>
+            <strong>아웃도어</strong>
+            <span>트레일 · 하이킹</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="section programs" id="programs">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>이번 주 프로그램</h2>
+            <p>정원은 현장보다 여기서 먼저 마감됩니다.</p>
+          </div>
+          <div class="days" role="group" aria-label="요일">
+            <button class="day" type="button" data-day="all" aria-pressed="true">전체</button>
+            <button class="day" type="button" data-day="tue" aria-pressed="false">화</button>
+            <button class="day" type="button" data-day="thu" aria-pressed="false">목</button>
+            <button class="day" type="button" data-day="sat" aria-pressed="false">토</button>
+            <button class="day" type="button" data-day="sun" aria-pressed="false">일</button>
+          </div>
+        </div>
+
+        <div class="program-list">
+          <article class="program" data-category="run" data-day="tue">
+            <div class="thumb"><img src="images/run-hangang.png" alt=""></div>
+            <div class="program-body">
+              <span class="tag">러닝 · 화 06:20</span>
+              <h3>한강 새벽 러닝 8km</h3>
+              <p>여의나루에서 출발합니다. 초보 페이스 그룹이 따로 있습니다.</p>
+              <span class="meta">잠실 클럽하우스 · 남은 자리 6</span>
+            </div>
+          </article>
+          <article class="program" data-category="football" data-day="thu">
+            <div class="thumb"><img src="images/futsal.png" alt=""></div>
+            <div class="program-body">
+              <span class="tag">축구 · 목 20:00</span>
+              <h3>목요 풋살 리그</h3>
+              <p>6대6, 40분 두 경기. 유니폼은 현장에서 나눠 드립니다.</p>
+              <span class="meta">성수 실내구장 · 남은 자리 3</span>
+            </div>
+          </article>
+          <article class="program" data-category="train" data-day="sat">
+            <div class="thumb"><img src="images/gym.png" alt=""></div>
+            <div class="program-body">
+              <span class="tag">트레이닝 · 토 10:00</span>
+              <h3>근력 기초 클래스</h3>
+              <p>스쿼트와 힙힌지부터 맞춥니다. 기구를 처음 써도 됩니다.</p>
+              <span class="meta">성수 짐 · 남은 자리 8</span>
+            </div>
+          </article>
+          <article class="program" data-category="outdoor" data-day="sun">
+            <div class="thumb"><img src="images/trail.png" alt=""></div>
+            <div class="program-body">
+              <span class="tag">아웃도어 · 일 07:30</span>
+              <h3>북한산 트레일 하프</h3>
+              <p>우이동에서 시작해 대남문으로 내려옵니다. 스틱은 빌려 드립니다.</p>
+              <span class="meta">우이역 집합 · 남은 자리 4</span>
+            </div>
+          </article>
+          <article class="program" data-category="run" data-day="sat">
+            <div class="thumb"><img src="images/track.png" alt=""></div>
+            <div class="program-body">
+              <span class="tag">러닝 · 토 07:00</span>
+              <h3>템포런 6km</h3>
+              <p>5km 기록 잡으려는 사람을 위한 인터벌입니다.</p>
+              <span class="meta">잠실 트랙 · 남은 자리 10</span>
+            </div>
+          </article>
+          <article class="program" data-category="football" data-day="sun">
+            <div class="thumb"><img src="images/football.png" alt=""></div>
+            <div class="program-body">
+              <span class="tag">축구 · 일 16:00</span>
+              <h3>일요일 11인제 친선</h3>
+              <p>90분 풀타임. 골키퍼는 돌아가며 봅니다.</p>
+              <span class="meta">난지 축구장 · 남은 자리 5</span>
+            </div>
+          </article>
+        </div>
+        <p class="empty" hidden>이 조건에는 이번 주 프로그램이 없습니다.</p>
+      </div>
+    </section>
+
+    <section class="section gear" id="gear">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>클럽 용품</h2>
+            <p>프로그램에서 쓰는 것과 같은 모델을 둡니다.</p>
+          </div>
+          <div class="filters" role="group" aria-label="용품 분류">
+            <button class="filter" type="button" data-filter="all" aria-pressed="true">전체</button>
+            <button class="filter" type="button" data-filter="run" aria-pressed="false">러닝</button>
+            <button class="filter" type="button" data-filter="football" aria-pressed="false">축구</button>
+            <button class="filter" type="button" data-filter="train" aria-pressed="false">트레이닝</button>
+            <button class="filter" type="button" data-filter="outdoor" aria-pressed="false">아웃도어</button>
+          </div>
+        </div>
+
+        <div class="gear-grid">
+          <a class="item" href="#" data-category="run">
+            <div class="thumb tall"><img src="images/shoes.png" alt=""></div>
+            <div class="item-body">
+              <span class="shop">러닝</span>
+              <h3>로드 러닝화</h3>
+              <strong>129,000원</strong>
+            </div>
+          </a>
+          <a class="item" href="#" data-category="run">
+            <div class="thumb tall"><img src="images/jacket.png" alt=""></div>
+            <div class="item-body">
+              <span class="shop">러닝</span>
+              <h3>가벼운 윈드재킷</h3>
+              <strong>86,000원</strong>
+            </div>
+          </a>
+          <a class="item" href="#" data-category="football">
+            <div class="thumb tall"><img src="images/jersey.png" alt=""></div>
+            <div class="item-body">
+              <span class="shop">축구</span>
+              <h3>클럽 유니폼 홈</h3>
+              <strong>64,000원</strong>
+            </div>
+          </a>
+          <a class="item" href="#" data-category="train">
+            <div class="thumb tall"><img src="images/belt.png" alt=""></div>
+            <div class="item-body">
+              <span class="shop">트레이닝</span>
+              <h3>리프트 벨트</h3>
+              <strong>42,000원</strong>
+            </div>
+          </a>
+          <a class="item" href="#" data-category="outdoor">
+            <div class="thumb tall"><img src="images/poles.png" alt=""></div>
+            <div class="item-body">
+              <span class="shop">아웃도어</span>
+              <h3>트레일 스틱 한 쌍</h3>
+              <strong>58,000원</strong>
+            </div>
+          </a>
+          <a class="item" href="#" data-category="train">
+            <div class="thumb tall"><img src="images/shorts.png" alt=""></div>
+            <div class="item-body">
+              <span class="shop">트레이닝</span>
+              <h3>트레이닝 쇼츠</h3>
+              <strong>39,000원</strong>
+            </div>
+          </a>
+        </div>
+        <p class="empty-gear" hidden>이 종목 용품은 아직 올리지 않았습니다.</p>
+      </div>
+    </section>
+
+    <section class="section stories" id="stories">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>같이 뛴 사람들</h2>
+            <p>기록보다, 다음 주에 다시 나온 이야기를 남깁니다.</p>
+          </div>
+        </div>
+        <div class="story-row">
+          <article class="story">
+            <p>“처음엔 뒤만 쫓았는데, 한 달 뒤에 앞에서 페이스를 불렀습니다.”</p>
+            <span>민재 · 러닝 멤버</span>
+          </article>
+          <article class="story">
+            <p>“축구를 오래 쉬었는데, 목요일이 다시 경기일로 돌아왔습니다.”</p>
+            <span>서윤 · 풋살 멤버</span>
+          </article>
+          <article class="story">
+            <p>“헬스장만 다니다가, 산에서 숨이 차는 맛이 다시 났습니다.”</p>
+            <span>도현 · 아웃도어 멤버</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="join">
+      <div class="wrap">
+        <div class="join-band">
+          <div>
+            <h2>이번 달부터 같이 뛰어도 됩니다</h2>
+            <p>월 39,000원. 프로그램은 횟수 제한 없이 신청합니다. 용품은 회원가입니다.</p>
+          </div>
+          <a class="btn" href="#">가입 신청하기</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <p><strong>질주</strong></p>
+          <p>hello@example.com</p>
+          <p>서울특별시 어딘가 88, 1층</p>
+          <p>평일 10:00–20:00 · 주말 08:00–16:00</p>
+        </div>
+        <div class="footer-links">
+          <a href="#">이용약관</a>
+          <a href="#">개인정보처리방침</a>
+          <a href="#">코치 지원</a>
+        </div>
+      </div>
+      <p class="copyright">© 2026 질주. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

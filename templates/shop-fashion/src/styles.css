@@ -72,33 +72,32 @@ a { color: inherit; }
 }
 .cart-count[data-cart="0"] { background: #cfcfcf; color: #555; }
 
-/* 상품 사진 — 외부 이미지 없이 CSS 로만 그린다. --a/--b 를 카드마다 다르게 준다. */
+/* 상품 사진 — src/images/ 의 로컬 파일을 쓴다. */
 .thumb {
-  background:
-    radial-gradient(circle at 30% 24%, var(--a, #ddd), transparent 58%),
-    radial-gradient(circle at 74% 78%, var(--b, #888), transparent 55%),
-    #eee;
-  position: relative;
+  position: relative; overflow: hidden; background: #eee;
 }
+.thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .thumb.tall { aspect-ratio: 3 / 4; }
+.thumb.tall img, .look-thumb img { position: absolute; inset: 0; }
 
 /* 배너 */
 .hero { padding: 1.25rem 0 0; }
 .hero-grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: .75rem; }
 .banner {
-  display: flex; flex-direction: column; justify-content: flex-end;
+  position: relative; display: flex; flex-direction: column; justify-content: flex-end;
   min-height: 16rem; padding: 1.6rem 1.7rem; text-decoration: none;
-  border-radius: var(--radius); overflow: hidden; color: #fff;
-  background:
-    linear-gradient(180deg, transparent 28%, rgba(18, 18, 18, .62) 100%),
-    radial-gradient(circle at 28% 20%, var(--a), transparent 55%),
-    radial-gradient(circle at 80% 80%, var(--b), transparent 50%),
-    #b8aaa0;
+  border-radius: var(--radius); overflow: hidden; color: #fff; background: #8a7a6c;
 }
+.banner > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.banner::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(180deg, transparent 28%, rgba(18, 18, 18, .62) 100%);
+}
+.banner-copy { position: relative; z-index: 1; display: grid; }
 .banner:hover { filter: brightness(1.04); }
 .banner-kicker { font-size: .78rem; letter-spacing: .04em; opacity: .85; }
 .banner strong { font-size: clamp(1.35rem, 3vw, 1.85rem); letter-spacing: -.03em; margin: .25rem 0 .35rem; }
-.banner span:last-child { font-size: .95rem; opacity: .9; }
+.banner-copy span:last-child { font-size: .95rem; opacity: .9; }
 .banner-side { min-height: 16rem; }
 
 /* 카테고리 바로가기 */
@@ -112,11 +111,9 @@ a { color: inherit; }
 }
 .shortcut-icon {
   width: 3.4rem; height: 3.4rem; border-radius: 50%;
-  background:
-    radial-gradient(circle at 35% 30%, #fff8, transparent 50%),
-    var(--a, #e8e0d6);
-  border: 1px solid var(--line);
+  overflow: hidden; border: 1px solid var(--line); background: #eee;
 }
+.shortcut-icon img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .shortcut-row a:hover .shortcut-icon { transform: translateY(-2px); }
 
 /* 섹션 공통 */
@@ -210,7 +207,7 @@ a { color: inherit; }
   border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
 }
 .look:hover { border-color: #cfcfcf; }
-.look-thumb { aspect-ratio: 16 / 10; }
+.look-thumb { aspect-ratio: 16 / 10; position: relative; }
 .look-body { padding: .95rem 1.05rem 1.15rem; }
 .look-body h3 { margin: 0 0 .25rem; font-size: 1.02rem; letter-spacing: -.02em; }
 .look-body span { color: var(--ink-soft); font-size: .85rem; }
