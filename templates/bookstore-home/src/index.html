@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>결책방 — 천천히 고르는 골목 서점</title>
+  <meta name="description" content="신간보다 다시 읽는 책을 먼저 둡니다. 결책방은 골목의 작은 서점입니다.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand" href="#">결책방</a>
+      <nav class="site-nav">
+        <a href="#books">책</a>
+        <a href="#events">모임</a>
+        <a href="#visit">오는 길</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <img class="hero-photo" src="images/hero.png" alt="">
+      <div class="wrap hero-copy">
+        <span class="eyebrow">성수 골목</span>
+        <h1>한 권을<br>끝까지 고릅니다</h1>
+        <p>신간 테이블은 작습니다. 다시 읽어도 되는 책을 먼저 올려 둡니다.</p>
+      </div>
+    </section>
+    <section class="section" id="books">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>이번 주 책</h2>
+            <p>직원이 읽고 남은 문장만 짧게 적습니다.</p>
+          </div>
+          <div class="filters" role="group" aria-label="분류">
+            <button class="filter" type="button" data-filter="all" aria-pressed="true">전체</button>
+            <button class="filter" type="button" data-filter="novel" aria-pressed="false">소설</button>
+            <button class="filter" type="button" data-filter="essay" aria-pressed="false">에세이</button>
+            <button class="filter" type="button" data-filter="poem" aria-pressed="false">시</button>
+          </div>
+        </div>
+        <div class="grid">
+          <article class="card" data-category="novel">
+            <div class="thumb tall"><img src="images/stack.png" alt=""></div>
+            <div class="body"><span>소설</span><h3>밤을 건너는 집</h3><p>가족이 한 문장씩 줄어드는 이야기.</p></div>
+          </article>
+          <article class="card" data-category="essay">
+            <div class="thumb tall"><img src="images/essay.png" alt=""></div>
+            <div class="body"><span>에세이</span><h3>걷는 일의 기록</h3><p>출퇴근길을 다시 걷고 적은 글.</p></div>
+          </article>
+          <article class="card" data-category="poem">
+            <div class="thumb tall"><img src="images/poem.png" alt=""></div>
+            <div class="body"><span>시</span><h3>창문 아래</h3><p>짧아서 버스에서 다 읽힙니다.</p></div>
+          </article>
+          <article class="card" data-category="essay">
+            <div class="thumb tall"><img src="images/nook.png" alt=""></div>
+            <div class="body"><span>에세이</span><h3>서점의 오후</h3><p>손님이 놓고 간 메모를 모았습니다.</p></div>
+          </article>
+        </div>
+        <p class="empty" hidden>이 분류에는 아직 올린 책이 없습니다.</p>
+      </div>
+    </section>
+    <section class="section muted" id="events">
+      <div class="wrap">
+        <h2>이번 달 모임</h2>
+        <ul class="events">
+          <li><time>9.19 토</time><span>천천히 읽기 — 『밤을 건너는 집』 앞부분</span></li>
+          <li><time>9.26 토</time><span>시 낭독. 가져오신 시 한 편</span></li>
+        </ul>
+      </div>
+    </section>
+    <section class="section" id="visit">
+      <div class="wrap">
+        <h2>오는 길</h2>
+        <p>서울 성수 어딘가 8, 1층. 화–일 12:00–20:00. 월요일 쉽니다.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">© 2026 결책방 · hello@example.com</div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
