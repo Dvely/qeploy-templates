@@ -1,0 +1,14 @@
+{
+  "id": "interior-home",
+  "name": "인테리어 홈",
+  "description": "시공 사례를 보여주는 인테리어 스튜디오 홈",
+  "tags": ["interior", "studio", "one-page"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    { "key": "brand",   "where": "index.html", "desc": "스튜디오명과 푸터 상호" },
+    { "key": "hero",    "where": "index.html", "desc": "히어로 제목. 사진은 images/hero.png" },
+    { "key": "works",   "where": "index.html", "desc": "사례 카드. data-category 가 필터와 같아야 한다" },
+    { "key": "theme",   "where": "styles.css", "desc": ":root 의 색·라운드·폰트 토큰" }
+  ]
+}

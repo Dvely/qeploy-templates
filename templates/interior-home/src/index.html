@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>결공간 — 고쳐 쓰는 집을 만듭니다</title>
+  <meta name="description" content="부분 공사와 전체 공사. 결공간은 도면보다 쓰는 동선을 먼저 봅니다.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand" href="#">결공간</a>
+      <nav class="site-nav">
+        <a href="#works">사례</a>
+        <a href="#ask">상담</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <img class="hero-photo" src="images/hero.png" alt="">
+      <div class="wrap hero-copy">
+        <span class="eyebrow">주거 리모델링</span>
+        <h1>벽을 허물기 전에<br>동선을 그립니다</h1>
+        <p>부엌과 현관만 손보는 공사가 많습니다. 견적은 현장 본 다음 날 보냅니다.</p>
+      </div>
+    </section>
+    <section class="section" id="works">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>사례</h2>
+            <p>최근 마친 집입니다. 주소는 적지 않습니다.</p>
+          </div>
+          <div class="filters" role="group" aria-label="공간">
+            <button class="filter" type="button" data-filter="all" aria-pressed="true">전체</button>
+            <button class="filter" type="button" data-filter="living" aria-pressed="false">거실</button>
+            <button class="filter" type="button" data-filter="kitchen" aria-pressed="false">주방</button>
+            <button class="filter" type="button" data-filter="room" aria-pressed="false">방</button>
+          </div>
+        </div>
+        <div class="grid">
+          <article class="card" data-category="living">
+            <div class="thumb"><img src="images/hero.png" alt=""></div>
+            <div class="body"><span>거실</span><h3>창을 넓힌 마포 집</h3><p>2026 · 부분 공사</p></div>
+          </article>
+          <article class="card" data-category="kitchen">
+            <div class="thumb"><img src="images/kitchen.png" alt=""></div>
+            <div class="body"><span>주방</span><h3>싱크를 옮긴 성수 집</h3><p>2025 · 부분 공사</p></div>
+          </article>
+          <article class="card" data-category="room">
+            <div class="thumb"><img src="images/room.png" alt=""></div>
+            <div class="body"><span>방</span><h3>다락을 방으로</h3><p>2025 · 전체 공사</p></div>
+          </article>
+        </div>
+        <p class="empty" hidden>이 분류에는 아직 올린 사례가 없습니다.</p>
+      </div>
+    </section>
+    <section class="section muted" id="ask">
+      <div class="wrap">
+        <h2>상담</h2>
+        <p>평면도와 사진 몇 장을 hello@example.com 으로 보내 주세요. 서울·경기만 갑니다.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">© 2026 결공간</div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
