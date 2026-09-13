@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>온결의원 — 오래 듣는 동네 의원</title>
+  <meta name="description" content="내과와 가정의학. 온결의원은 예약 시간을 지키려고 하는 동네 의원입니다.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand" href="#">온결의원</a>
+      <nav class="site-nav">
+        <a href="#care">진료</a>
+        <a href="#hours">시간</a>
+        <a href="#visit">오시는 길</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <img class="hero-photo" src="images/hero.png" alt="">
+      <div class="wrap hero-copy">
+        <span class="eyebrow">가정의학 · 내과</span>
+        <h1>증상을 먼저<br>듣고 시작합니다</h1>
+        <p>초진은 20분을 잡아 둡니다. 검사는 필요한 것만 권합니다. 이 페이지는 예시이며 실제 진료가 아닙니다.</p>
+      </div>
+    </section>
+    <section class="section" id="care">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>진료</h2>
+            <p>만성 질환 관리와 감기·소화 증상을 주로 봅니다.</p>
+          </div>
+          <div class="filters" role="group" aria-label="진료">
+            <button class="filter" type="button" data-filter="all" aria-pressed="true">전체</button>
+            <button class="filter" type="button" data-filter="care" aria-pressed="false">진료</button>
+            <button class="filter" type="button" data-filter="info" aria-pressed="false">안내</button>
+          </div>
+        </div>
+        <div class="grid">
+          <article class="card" data-category="care">
+            <div class="thumb"><img src="images/consult.png" alt=""></div>
+            <div class="body"><span>진료</span><h3>초진 상담</h3><p>약을 정하기 전에 경과를 적습니다.</p></div>
+          </article>
+          <article class="card" data-category="care">
+            <div class="thumb"><img src="images/hall.png" alt=""></div>
+            <div class="body"><span>진료</span><h3>만성 질환 관리</h3><p>혈압·혈당은 같은 요일에 오시면 됩니다.</p></div>
+          </article>
+          <article class="card" data-category="info">
+            <div class="thumb"><img src="images/hero.png" alt=""></div>
+            <div class="body"><span>안내</span><h3>예약</h3><p>전화 02-0000-0000. 당일 예약도 받습니다.</p></div>
+          </article>
+        </div>
+        <p class="empty" hidden>이 분류에는 아직 올린 항목이 없습니다.</p>
+      </div>
+    </section>
+    <section class="section muted" id="hours">
+      <div class="wrap">
+        <h2>시간</h2>
+        <table class="hours">
+          <tbody>
+            <tr><th>월·화·목·금</th><td>9:00–18:00 (점심 12:30–13:30)</td></tr>
+            <tr><th>수</th><td>9:00–13:00</td></tr>
+            <tr><th>토</th><td>9:00–13:00</td></tr>
+            <tr><th>일·공휴일</th><td>쉽니다</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section" id="visit">
+      <div class="wrap">
+        <h2>오시는 길</h2>
+        <p>서울특별시 어딘가 55, 2층. 엘리베이터 있습니다. hello@example.com</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">© 2026 온결의원 · 예시 페이지이며 실제 의료 기관이 아닙니다.</div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
