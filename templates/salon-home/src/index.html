@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>결머리 — 자르고 말리는 데 시간을 둡니다</title>
+  <meta name="description" content="커트와 염색. 결머리는 한 타임에 한 명만 받습니다.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand" href="#">결머리</a>
+      <nav class="site-nav">
+        <a href="#menu">메뉴</a>
+        <a href="#book">예약</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <img class="hero-photo" src="images/hero.png" alt="">
+      <div class="wrap hero-copy">
+        <span class="eyebrow">한남 골목</span>
+        <h1>자르고 말리는 데<br>시간을 둡니다</h1>
+        <p>한 타임에 한 명입니다. 상담 15분, 시술은 서두르지 않습니다.</p>
+      </div>
+    </section>
+    <section class="section" id="menu">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>메뉴</h2>
+            <p>가격은 기장과 상태에 따라 현장에서 다시 말합니다.</p>
+          </div>
+          <div class="filters" role="group" aria-label="시술">
+            <button class="filter" type="button" data-filter="all" aria-pressed="true">전체</button>
+            <button class="filter" type="button" data-filter="cut" aria-pressed="false">커트</button>
+            <button class="filter" type="button" data-filter="color" aria-pressed="false">컬러</button>
+          </div>
+        </div>
+        <div class="grid">
+          <article class="card" data-category="cut">
+            <div class="thumb"><img src="images/cut.png" alt=""></div>
+            <div class="body"><span>커트</span><h3>커트</h3><p>45,000원부터</p></div>
+          </article>
+          <article class="card" data-category="color">
+            <div class="thumb"><img src="images/color.png" alt=""></div>
+            <div class="body"><span>컬러</span><h3>염색</h3><p>90,000원부터</p></div>
+          </article>
+          <article class="card" data-category="cut">
+            <div class="thumb"><img src="images/hero.png" alt=""></div>
+            <div class="body"><span>커트</span><h3>커트 + 클리닉</h3><p>70,000원부터</p></div>
+          </article>
+        </div>
+        <p class="empty" hidden>이 분류에는 아직 올린 메뉴가 없습니다.</p>
+      </div>
+    </section>
+    <section class="section muted" id="book">
+      <div class="wrap">
+        <h2>예약</h2>
+        <p>화–일 11:00–20:00. 월요일 쉽니다. hello@example.com · 서울 한남 어딘가 6</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">© 2026 결머리</div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

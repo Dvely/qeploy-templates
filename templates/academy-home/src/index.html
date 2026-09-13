@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>나루교실 — 여섯 명이 앉는 학원</title>
+  <meta name="description" content="수학, 영어, 글쓰기. 나루교실은 한 반을 여섯 명으로 닫습니다.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand" href="#">나루교실</a>
+      <nav class="site-nav">
+        <a href="#courses">수업</a>
+        <a href="#way">방식</a>
+        <a href="#ask">문의</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <img class="hero-photo" src="images/hero.png" alt="">
+      <div class="wrap hero-copy">
+        <span class="eyebrow">중등 · 고등</span>
+        <h1>모르는 곳을<br>그날 끝냅니다</h1>
+        <p>숙제를 많이 내지 않습니다. 틀린 문제 세 개를 다음 시간까지 다시 풉니다.</p>
+      </div>
+    </section>
+    <section class="section" id="courses">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>수업</h2>
+            <p>한 반은 여섯 명입니다. 빈자리가 있으면 중간에 들어와도 됩니다.</p>
+          </div>
+          <div class="filters" role="group" aria-label="과목">
+            <button class="filter" type="button" data-filter="all" aria-pressed="true">전체</button>
+            <button class="filter" type="button" data-filter="math" aria-pressed="false">수학</button>
+            <button class="filter" type="button" data-filter="eng" aria-pressed="false">영어</button>
+            <button class="filter" type="button" data-filter="write" aria-pressed="false">글쓰기</button>
+          </div>
+        </div>
+        <div class="grid">
+          <article class="card" data-category="math">
+            <div class="thumb"><img src="images/math.png" alt=""></div>
+            <div class="body"><span>수학</span><h3>중학 수학 저녁반</h3><p>화·목 19:00 · 남은 자리 2</p></div>
+          </article>
+          <article class="card" data-category="eng">
+            <div class="thumb"><img src="images/eng.png" alt=""></div>
+            <div class="body"><span>영어</span><h3>고등 독해</h3><p>수·금 20:00 · 남은 자리 1</p></div>
+          </article>
+          <article class="card" data-category="write">
+            <div class="thumb"><img src="images/write.png" alt=""></div>
+            <div class="body"><span>글쓰기</span><h3>주말 논술</h3><p>토 10:00 · 남은 자리 3</p></div>
+          </article>
+        </div>
+        <p class="empty" hidden>이 과목에는 아직 연 반이 없습니다.</p>
+      </div>
+    </section>
+    <section class="section muted" id="way">
+      <div class="wrap">
+        <h2>방식</h2>
+        <p>첫 주는 진단만 합니다. 교재는 학원에서 고르지 않고, 학교에서 쓰는 것을 가져오시면 됩니다.</p>
+      </div>
+    </section>
+    <section class="section" id="ask">
+      <div class="wrap">
+        <h2>문의</h2>
+        <p>hello@example.com · 서울 어딘가 9, 3층. 평일 14:00–21:00</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">© 2026 나루교실</div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

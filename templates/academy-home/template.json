@@ -1,0 +1,14 @@
+{
+  "id": "academy-home",
+  "name": "학원 홈",
+  "description": "과목과 수업을 고르는 작은 학원 홈",
+  "tags": ["education", "academy", "one-page"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    { "key": "brand",    "where": "index.html", "desc": "학원명과 푸터 상호" },
+    { "key": "hero",     "where": "index.html", "desc": "히어로 제목. 사진은 images/hero.png" },
+    { "key": "courses",  "where": "index.html", "desc": "수업 카드. data-category 가 필터와 같아야 한다" },
+    { "key": "theme",    "where": "styles.css", "desc": ":root 의 색·라운드·폰트 토큰" }
+  ]
+}

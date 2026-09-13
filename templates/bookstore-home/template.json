@@ -1,0 +1,15 @@
+{
+  "id": "bookstore-home",
+  "name": "서점 홈",
+  "description": "신간과 추천을 보여주는 작은 서점 홈",
+  "tags": ["bookstore", "culture", "one-page"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    { "key": "brand",   "where": "index.html", "desc": "상단 서점명과 푸터 상호" },
+    { "key": "hero",    "where": "index.html", "desc": "히어로 제목·부제. 사진은 images/hero.png" },
+    { "key": "books",   "where": "index.html", "desc": "책 카드. data-category 가 필터와 같아야 한다" },
+    { "key": "events",  "where": "index.html", "desc": "이번 달 모임 목록" },
+    { "key": "theme",   "where": "styles.css", "desc": ":root 의 색·라운드·폰트 토큰" }
+  ]
+}

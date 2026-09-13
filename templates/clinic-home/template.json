@@ -1,0 +1,15 @@
+{
+  "id": "clinic-home",
+  "name": "의원 홈",
+  "description": "진료 안내와 오는 길을 보여주는 의원 홈",
+  "tags": ["clinic", "care", "one-page"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    { "key": "brand",    "where": "index.html", "desc": "의원명과 푸터 상호" },
+    { "key": "hero",     "where": "index.html", "desc": "히어로 제목. 사진은 images/hero.png" },
+    { "key": "care",     "where": "index.html", "desc": "진료 분야 카드. data-category 가 필터와 같아야 한다" },
+    { "key": "hours",    "where": "index.html", "desc": "진료 시간 표" },
+    { "key": "theme",    "where": "styles.css", "desc": ":root 의 색·라운드·폰트 토큰" }
+  ]
+}

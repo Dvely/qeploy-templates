@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>하룻결 — 하루만 머물러도 되는 집</title>
+  <meta name="description" content="방 세 칸, 아침 한 상. 하룻결은 양평의 작은 숙소입니다.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand" href="#">하룻결</a>
+      <nav class="site-nav">
+        <a href="#rooms">객실</a>
+        <a href="#day">하루</a>
+        <a href="#book">예약</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <img class="hero-photo" src="images/hero.png" alt="">
+      <div class="wrap hero-copy">
+        <span class="eyebrow">양평</span>
+        <h1>하루만 머물러도<br>되는 집</h1>
+        <p>방은 세 칸입니다. 마당과 아침 상은 같이 씁니다. 체크인은 네 시입니다.</p>
+      </div>
+    </section>
+    <section class="section" id="rooms">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>객실</h2>
+            <p>창이 어디로 열리는지로 고르시면 됩니다.</p>
+          </div>
+          <div class="filters" role="group" aria-label="객실">
+            <button class="filter" type="button" data-filter="all" aria-pressed="true">전체</button>
+            <button class="filter" type="button" data-filter="room" aria-pressed="false">방</button>
+            <button class="filter" type="button" data-filter="amenity" aria-pressed="false">부대</button>
+          </div>
+        </div>
+        <div class="grid">
+          <article class="card" data-category="room">
+            <div class="thumb"><img src="images/room.png" alt=""></div>
+            <div class="body"><span>방</span><h3>마루방</h3><p>마당이 보이는 큰 창. 2인.</p><strong>120,000원</strong></div>
+          </article>
+          <article class="card" data-category="amenity">
+            <div class="thumb"><img src="images/bath.png" alt=""></div>
+            <div class="body"><span>부대</span><h3>나무 욕조</h3><p>객실마다 하나씩 있습니다.</p></div>
+          </article>
+          <article class="card" data-category="amenity">
+            <div class="thumb"><img src="images/meal.png" alt=""></div>
+            <div class="body"><span>부대</span><h3>아침 상</h3><p>8시에 주방에서 차립니다.</p></div>
+          </article>
+        </div>
+        <p class="empty" hidden>이 분류에는 아직 올린 방이 없습니다.</p>
+      </div>
+    </section>
+    <section class="section muted" id="day">
+      <div class="wrap">
+        <h2>하루</h2>
+        <ol class="timeline">
+          <li><time>16:00</time><span>체크인. 열쇠는 현관 상자</span></li>
+          <li><time>18:30</time><span>마당 불. 저녁은 각자</span></li>
+          <li><time>08:00</time><span>아침 상</span></li>
+          <li><time>11:00</time><span>체크아웃</span></li>
+        </ol>
+      </div>
+    </section>
+    <section class="section" id="book">
+      <div class="wrap">
+        <h2>예약</h2>
+        <p>hello@example.com 으로 날짜와 인원을 보내 주세요. 이 페이지는 예시라 결제가 되지 않습니다.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">© 2026 하룻결 · 경기도 양평 어딘가 21</div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

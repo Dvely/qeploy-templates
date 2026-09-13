@@ -1,0 +1,14 @@
+{
+  "id": "travel-home",
+  "name": "여행 홈",
+  "description": "작은 일정을 고르는 여행사 홈",
+  "tags": ["travel", "tour", "one-page"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    { "key": "brand",  "where": "index.html", "desc": "상호와 푸터 이름" },
+    { "key": "hero",   "where": "index.html", "desc": "히어로 제목. 사진은 images/hero.png" },
+    { "key": "trips",  "where": "index.html", "desc": "일정 카드. data-category 가 필터와 같아야 한다" },
+    { "key": "theme",  "where": "styles.css", "desc": ":root 의 색·라운드·폰트 토큰" }
+  ]
+}

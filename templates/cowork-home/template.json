@@ -1,0 +1,14 @@
+{
+  "id": "cowork-home",
+  "name": "공유오피스 홈",
+  "description": "좌석과 회의실을 고르는 공유오피스 홈",
+  "tags": ["cowork", "office", "one-page"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    { "key": "brand",  "where": "index.html", "desc": "상호와 푸터 이름" },
+    { "key": "hero",   "where": "index.html", "desc": "히어로 제목. 사진은 images/hero.png" },
+    { "key": "plans",  "where": "index.html", "desc": "좌석 카드. data-category 가 필터와 같아야 한다" },
+    { "key": "theme",  "where": "styles.css", "desc": ":root 의 색·라운드·폰트 토큰" }
+  ]
+}

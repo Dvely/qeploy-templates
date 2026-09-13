@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>책상옆 — 하루만 앉아도 되는 사무실</title>
+  <meta name="description" content="핫데스크, 부스, 회의실. 책상옆은 성수의 작은 공유오피스입니다.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand" href="#">책상옆</a>
+      <nav class="site-nav">
+        <a href="#plans">좌석</a>
+        <a href="#ask">문의</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <img class="hero-photo" src="images/hero.png" alt="">
+      <div class="wrap hero-copy">
+        <span class="eyebrow">성수</span>
+        <h1>하루만 앉아도<br>되는 사무실</h1>
+        <p>와이파이와 콘센트, 필터 커피만 있습니다. 전화 부스 두 칸은 10분 단위입니다.</p>
+      </div>
+    </section>
+    <section class="section" id="plans">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>좌석</h2>
+            <p>월 회원은 부스를 먼저 고를 수 있습니다.</p>
+          </div>
+          <div class="filters" role="group" aria-label="좌석">
+            <button class="filter" type="button" data-filter="all" aria-pressed="true">전체</button>
+            <button class="filter" type="button" data-filter="desk" aria-pressed="false">좌석</button>
+            <button class="filter" type="button" data-filter="room" aria-pressed="false">방</button>
+          </div>
+        </div>
+        <div class="grid">
+          <article class="card" data-category="desk">
+            <div class="thumb"><img src="images/hero.png" alt=""></div>
+            <div class="body"><span>좌석</span><h3>하루 핫데스크</h3><p>22,000원</p></div>
+          </article>
+          <article class="card" data-category="room">
+            <div class="thumb"><img src="images/booth.png" alt=""></div>
+            <div class="body"><span>방</span><h3>1인 부스 월</h3><p>390,000원</p></div>
+          </article>
+          <article class="card" data-category="room">
+            <div class="thumb"><img src="images/meet.png" alt=""></div>
+            <div class="body"><span>방</span><h3>회의실 1시간</h3><p>18,000원 · 4인</p></div>
+          </article>
+        </div>
+        <p class="empty" hidden>이 분류에는 아직 올린 좌석이 없습니다.</p>
+      </div>
+    </section>
+    <section class="section muted" id="ask">
+      <div class="wrap">
+        <h2>문의</h2>
+        <p>평일 8:00–22:00 · 주말 10:00–18:00. hello@example.com · 서울 성수 어딘가 18, 4층</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">© 2026 책상옆</div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>발자국 — 동네에서 맡기는 반려동물 공간</title>
+  <meta name="description" content="산책, 미용, 하루 맡김. 발자국은 한 번에 여섯 마리만 받습니다.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand" href="#">발자국</a>
+      <nav class="site-nav">
+        <a href="#services">서비스</a>
+        <a href="#note">안내</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <img class="hero-photo" src="images/hero.png" alt="">
+      <div class="wrap hero-copy">
+        <span class="eyebrow">연남</span>
+        <h1>여섯 마리만<br>같이 봅니다</h1>
+        <p>하루 맡김은 오전에 산책을 넣고, 사진은 저녁에 보냅니다. 첫날은 두 시간만 맡아 봅니다.</p>
+      </div>
+    </section>
+    <section class="section" id="services">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>서비스</h2>
+            <p>강아지와 고양이 모두 받습니다. 접종이 끝난 아이만 맡습니다.</p>
+          </div>
+          <div class="filters" role="group" aria-label="서비스">
+            <button class="filter" type="button" data-filter="all" aria-pressed="true">전체</button>
+            <button class="filter" type="button" data-filter="stay" aria-pressed="false">맡김</button>
+            <button class="filter" type="button" data-filter="groom" aria-pressed="false">미용</button>
+          </div>
+        </div>
+        <div class="grid">
+          <article class="card" data-category="stay">
+            <div class="thumb"><img src="images/dog.png" alt=""></div>
+            <div class="body"><span>맡김</span><h3>하루 산책 맡김</h3><p>35,000원 · 강아지</p></div>
+          </article>
+          <article class="card" data-category="stay">
+            <div class="thumb"><img src="images/cat.png" alt=""></div>
+            <div class="body"><span>맡김</span><h3>고양이 하루</h3><p>30,000원 · 독립 공간</p></div>
+          </article>
+          <article class="card" data-category="groom">
+            <div class="thumb"><img src="images/groom.png" alt=""></div>
+            <div class="body"><span>미용</span><h3>목욕 · 부분 미용</h3><p>몸무게에 따라 현장에서</p></div>
+          </article>
+        </div>
+        <p class="empty" hidden>이 분류에는 아직 올린 서비스가 없습니다.</p>
+      </div>
+    </section>
+    <section class="section muted" id="note">
+      <div class="wrap">
+        <h2>안내</h2>
+        <p>화–일 9:00–19:00. 월요일 쉽니다. hello@example.com · 서울 연남 어딘가 4</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">© 2026 발자국</div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
