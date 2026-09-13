@@ -1,0 +1,15 @@
+{
+  "id": "stay-home",
+  "name": "숙소 홈",
+  "description": "객실과 하루 일정을 소개하는 작은 숙소 홈",
+  "tags": ["stay", "travel", "one-page"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    { "key": "brand",  "where": "index.html", "desc": "숙소명과 푸터 상호" },
+    { "key": "hero",   "where": "index.html", "desc": "히어로 제목. 사진은 images/hero.png" },
+    { "key": "rooms",  "where": "index.html", "desc": "객실 카드. data-category 가 필터와 같아야 한다" },
+    { "key": "day",    "where": "index.html", "desc": "하루 일정 목록" },
+    { "key": "theme",  "where": "styles.css", "desc": ":root 의 색·라운드·폰트 토큰" }
+  ]
+}
