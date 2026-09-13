@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>먼길 — 하루나 이틀만 떠나는 일정</title>
+  <meta name="description" content="바다, 산, 섬. 먼길은 열 명 이하로 떠나는 짧은 일정만 엽니다.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand" href="#">먼길</a>
+      <nav class="site-nav">
+        <a href="#trips">일정</a>
+        <a href="#ask">문의</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <img class="hero-photo" src="images/hero.png" alt="">
+      <div class="wrap hero-copy">
+        <span class="eyebrow">국내 단기</span>
+        <h1>멀리 가지 않고<br>하루를 바꿉니다</h1>
+        <p>가이드는 한 명, 손님은 열 명까지입니다. 숙소는 체인이 아니라 주인 있는 집입니다.</p>
+      </div>
+    </section>
+    <section class="section" id="trips">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>이번 달 일정</h2>
+            <p>모이면 출발하고, 안 모이면 환불합니다.</p>
+          </div>
+          <div class="filters" role="group" aria-label="일정">
+            <button class="filter" type="button" data-filter="all" aria-pressed="true">전체</button>
+            <button class="filter" type="button" data-filter="sea" aria-pressed="false">바다</button>
+            <button class="filter" type="button" data-filter="mountain" aria-pressed="false">산</button>
+            <button class="filter" type="button" data-filter="island" aria-pressed="false">섬</button>
+          </div>
+        </div>
+        <div class="grid">
+          <article class="card" data-category="sea">
+            <div class="thumb"><img src="images/hero.png" alt=""></div>
+            <div class="body"><span>바다 · 1박</span><h3>동해 새벽 길</h3><p>9.20–21 · 남은 자리 3</p></div>
+          </article>
+          <article class="card" data-category="mountain">
+            <div class="thumb"><img src="images/mountain.png" alt=""></div>
+            <div class="body"><span>산 · 당일</span><h3>가을 마을 걷기</h3><p>9.27 · 남은 자리 5</p></div>
+          </article>
+          <article class="card" data-category="island">
+            <div class="thumb"><img src="images/island.png" alt=""></div>
+            <div class="body"><span>섬 · 1박</span><h3>남쪽 항구</h3><p>10.4–5 · 남은 자리 2</p></div>
+          </article>
+        </div>
+        <p class="empty" hidden>이 분류에는 아직 연 일정이 없습니다.</p>
+      </div>
+    </section>
+    <section class="section muted" id="ask">
+      <div class="wrap">
+        <h2>문의</h2>
+        <p>hello@example.com · 이 페이지는 예시라 예약·결제가 되지 않습니다.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">© 2026 먼길</div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
