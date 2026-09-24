@@ -3,6 +3,7 @@
 // 산출물 셋:
 //   site/catalog.json          BE 가 카탈로그 API 로 서빙하는 정본
 //   site/t/<id>/               데모. FE 갤러리가 iframe 으로 띄운다
+//   site/t/<id>/thumbnail.jpg  목록 카드용. scripts/thumbnails.mjs 가 데모를 찍어 만든다
 //   site/src/<id>.tar.gz       씨앗. 첫 CODE 스텝에서 컨테이너가 받아 푼다
 //
 // 씨딩을 tarball 로 주는 이유: 컨테이너 안에서 파일 목록을 몰라도 한 번의 GET + tar 로 끝난다.
@@ -50,6 +51,9 @@ for (const id of ids) {
     catalog.push({
         ...manifest,
         demoUrl: `${BASE}/t/${id}/`,
+        // 파일은 build 다음에 도는 thumbnails.mjs 가 만든다. URL 규칙이 한곳에 있어야
+        // 스크립트와 카탈로그가 어긋나지 않으므로 여기서 정한다.
+        thumbnailUrl: `${BASE}/t/${id}/thumbnail.jpg`,
         sourceUrl: `${BASE}/src/${id}.tar.gz`,
     });
 }

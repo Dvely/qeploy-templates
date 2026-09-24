@@ -28,21 +28,32 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: 의존성
+        run: npm ci || npm install
       - name: 빌드
         run: node scripts/build.mjs
+      # 목록 카드용 썸네일. 손으로 커밋해 두면 템플릿을 고칠 때 같이 고치지 않아 반드시 어긋나므로,
+      # 발행할 데모를 그대로 찍는다 — 템플릿이 곧 정본이 된다.
+      - name: 썸네일 캡처
+        run: |
+          npx playwright install --with-deps chromium
+          node scripts/thumbnails.mjs
       - name: 카탈로그 확인
         run: |
           node -e "
             const c = require('./site/catalog.json');
             if (!Array.isArray(c.templates) || c.templates.length === 0) throw new Error('카탈로그가 비었다');
             for (const t of c.templates) {
-              if (!t.demoUrl || !t.sourceUrl) throw new Error(t.id + ': URL 누락');
+              if (!t.demoUrl || !t.sourceUrl || !t.thumbnailUrl) throw new Error(t.id + ': URL 누락');
             }
             console.log('템플릿 ' + c.templates.length + '종 확인');
           "
           # 데모 진입 파일이 실제로 있는지 본다. 없으면 갤러리가 빈 iframe 을 띄운다.
           for dir in site/t/*/; do
             test -f "$dir/index.html" || { echo "$dir: index.html 없음"; exit 1; }
+            # 카탈로그가 thumbnailUrl 을 약속했는데 파일이 없으면 FE 카드가 깨진 이미지가 된다.
+            # 약속과 실물이 어긋나는 것을 발행 전에 막는다.
+            test -s "$dir/thumbnail.jpg" || { echo "$dir: thumbnail.jpg 없음(또는 0바이트)"; exit 1; }
           done
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request'
