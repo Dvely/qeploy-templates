@@ -1,0 +1,13 @@
+{
+  "name": "qeploy-templates",
+  "private": true,
+  "type": "module",
+  "description": "Qeploy 퍼블리싱 템플릿. templates/ 를 빌드해 GitHub Pages 로 발행한다.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "thumbnails": "node scripts/thumbnails.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.49.1"
+  }
+}
