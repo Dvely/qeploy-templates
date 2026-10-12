@@ -1,0 +1,50 @@
+{
+  "id": "lumiere",
+  "name": "루미에르 · 메디컬 뷰티",
+  "description": "시술 탐색과 의료진 소개, 케이스 리뷰와 상세 상담 화면을 담은 미니멀 메디컬 뷰티 템플릿",
+  "tags": [
+    "clinic",
+    "beauty",
+    "medical",
+    "curation"
+  ],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    {
+      "key": "brand",
+      "where": "index.html",
+      "desc": "LUMIÈRE 로고, 브랜드 문구와 푸터. 상세 페이지 lumiere-treatment.html에도 동일하게 반영한다."
+    },
+    {
+      "key": "hero",
+      "where": "index.html",
+      "desc": "히어로 문구와 images/lumiere-suite.jpg"
+    },
+    {
+      "key": "treatments",
+      "where": "index.html",
+      "desc": "시술 카드의 제목, 가격, 데이터 분류. lumiere.js의 treatments 데이터와 상세 페이지도 맞춘다."
+    },
+    {
+      "key": "doctors",
+      "where": "index.html",
+      "desc": "의료진 프로필 카드. 의료진 이름·사진·소개는 예시 콘텐츠."
+    },
+    {
+      "key": "details",
+      "where": "lumiere-treatment.html",
+      "desc": "시술 갤러리, 구성, 의료진, 리뷰, 진료 시간과 위치 안내"
+    },
+    {
+      "key": "interactions",
+      "where": "lumiere.js",
+      "desc": "시술 검색·필터·정렬, 상담 양식, 보관함과 갤러리 동작. 상담 양식은 입력 내용을 저장하거나 전송하지 않는다."
+    },
+    {
+      "key": "theme",
+      "where": "lumiere.css",
+      "desc": ":root의 색상·폰트·라운드 토큰. 스타일과 아이콘은 모두 로컬 자산."
+    }
+  ]
+}
