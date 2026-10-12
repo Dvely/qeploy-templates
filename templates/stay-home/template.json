@@ -1,15 +1,45 @@
 {
   "id": "stay-home",
   "name": "숙소 홈",
-  "description": "객실과 하루 일정을 소개하는 작은 숙소 홈",
-  "tags": ["stay", "travel", "one-page"],
+  "description": "감각적인 숙소 사진과 테마 검색, 추천 컬렉션과 저널을 담은 숙소 큐레이션 홈",
+  "tags": [
+    "stay",
+    "travel",
+    "curation",
+    "one-page"
+  ],
   "stack": "vanilla",
   "entry": "index.html",
   "contentHints": [
-    { "key": "brand",  "where": "index.html", "desc": "숙소명과 푸터 상호" },
-    { "key": "hero",   "where": "index.html", "desc": "히어로 제목. 사진은 images/hero.png" },
-    { "key": "rooms",  "where": "index.html", "desc": "객실 카드. data-category 가 필터와 같아야 한다" },
-    { "key": "day",    "where": "index.html", "desc": "하루 일정 목록" },
-    { "key": "theme",  "where": "styles.css", "desc": ":root 의 색·라운드·폰트 토큰" }
+    {
+      "key": "brand",
+      "where": "index.html",
+      "desc": "하룻결 브랜드명, 헤더와 푸터 문구"
+    },
+    {
+      "key": "hero",
+      "where": "index.html",
+      "desc": "계절 컬렉션 히어로 문구와 images/autumn.jpg 등 3개 슬라이드"
+    },
+    {
+      "key": "stays",
+      "where": "index.html",
+      "desc": "숙소 카드의 이름·지역·정원·가격. data-category·data-location·data-capacity를 검색 조건과 맞춘다"
+    },
+    {
+      "key": "journal",
+      "where": "index.html",
+      "desc": "공간 이야기 카드의 제목과 본문, 이미지"
+    },
+    {
+      "key": "newsletter",
+      "where": "index.html",
+      "desc": "브랜드 소개, 뉴스레터 문구와 문의 이메일. 구독은 예시 동작"
+    },
+    {
+      "key": "theme",
+      "where": "styles.css",
+      "desc": ":root의 색상·글꼴·여백·라운드 토큰"
+    }
   ]
 }
