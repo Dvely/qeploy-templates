@@ -1,12 +1,12 @@
 {
   "id": "harutgyeol",
   "name": "HARUTGYEOL · 하룻결",
-  "description": "하룻결의 감각적인 숙소 사진과 테마 검색, 추천 컬렉션과 저널을 담은 숙소 큐레이션 홈",
+  "description": "숙소 12개와 저널 3개의 상세 페이지, 기획전·탐색·찜·예약 문의로 이어지는 숙소 큐레이션 사이트",
   "tags": [
     "stay",
     "travel",
     "curation",
-    "one-page"
+    "multi-page"
   ],
   "stack": "vanilla",
   "entry": "index.html",
@@ -14,32 +14,37 @@
     {
       "key": "brand",
       "where": "index.html",
-      "desc": "HARUTGYEOL(하룻결) 브랜드명, 헤더와 푸터 문구"
+      "desc": "HARUTGYEOL(하룻결) 로고, 공통 헤더·푸터와 브랜드 문구. 빌드 시 하위 페이지에 함께 반영된다."
     },
     {
       "key": "hero",
       "where": "index.html",
-      "desc": "계절 컬렉션 히어로 문구와 images/autumn.jpg 등 3개 슬라이드"
+      "desc": "홈의 계절 히어로 문구와 3초 자동 페이드 배너"
     },
     {
       "key": "stays",
-      "where": "index.html",
-      "desc": "숙소 카드의 이름·지역·정원·가격. data-category·data-location·data-capacity를 검색 조건과 맞춘다"
+      "where": "harutgyeol-data.js",
+      "desc": "숙소 12개의 이름·지역·가격·시설·공간 소개. npm run build가 홈 카드와 개별 상세 페이지를 갱신한다."
     },
     {
-      "key": "journal",
-      "where": "index.html",
-      "desc": "공간 이야기 카드의 제목과 본문, 이미지"
+      "key": "journals",
+      "where": "harutgyeol-data.js",
+      "desc": "저널 3개의 제목·본문·목차·작성자·연관 숙소"
     },
     {
-      "key": "newsletter",
-      "where": "index.html",
-      "desc": "브랜드 소개, 뉴스레터 문구와 문의 이메일. 구독은 예시 동작"
+      "key": "collections",
+      "where": "harutgyeol-data.js",
+      "desc": "기획전 7개의 소개·사진·숙소 구성"
+    },
+    {
+      "key": "booking",
+      "where": "harutgyeol.js",
+      "desc": "검색 조건·날짜·인원 전달, 예상 금액과 예약 문의 양식. 입력한 개인 정보는 저장·전송하지 않는다."
     },
     {
       "key": "theme",
       "where": "harutgyeol.css",
-      "desc": ":root의 색상·글꼴·여백·라운드 토큰"
+      "desc": ":root 색상·폰트 토큰과 홈 스타일. harutgyeol-pages.css는 상세·목록·예약 페이지 공통 스타일."
     }
   ]
 }
