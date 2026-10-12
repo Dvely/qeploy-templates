@@ -19,12 +19,12 @@
     {
       "key": "books",
       "where": "pages-data.js",
-      "desc": "도서명·가격·저자·분류·소개·표지. 상세 페이지는 book 쿼리로 선택한다."
+      "desc": "도서 5권의 가격·저자·목차·문장·소개·이미지 정본. pages-build.mjs로 상세 화면을 재생성한다."
     },
     {
       "key": "programs",
-      "where": "pages.js",
-      "desc": "북클럽·북토크의 제목·금액·진행 기간. program 쿼리로 선택한다."
+      "where": "pages-data.js",
+      "desc": "북클럽·북토크별 제목·금액·인원·시간표·진행자·관련 도서."
     },
     {
       "key": "home",
@@ -33,18 +33,23 @@
     },
     {
       "key": "details",
-      "where": "pages-book.html, pages-club.html, pages-event.html",
-      "desc": "도서 상세·클럽 커리큘럼·북토크 시간표와 예시 구매/예약 흐름"
+      "where": "pages-build.mjs",
+      "desc": "고유한 주소의 상세·탐색·신청 화면 58개를 생성하는 자체 완결형 생성기. node pages-build.mjs로 갱신한다."
     },
     {
       "key": "theme",
-      "where": "pages.css",
-      "desc": ":root의 색·서체·라운드 토큰"
+      "where": "pages.css, pages-details.css",
+      "desc": "공통 :root 토큰과 홈·상세 화면 배치."
     },
     {
       "key": "images",
       "where": "images/",
       "desc": "화면에서 사용하는 로컬 원본 해상도 이미지"
+    },
+    {
+      "key": "flows",
+      "where": "pages-details.js",
+      "desc": "보관함·장바구니·수량·주문·현장/온라인/무료 모임 신청·공간 대관·확인 화면의 체험 동작."
     }
   ]
 }
