@@ -105,8 +105,6 @@
   $$('[data-catalog-category]').forEach(btn=>btn.addEventListener('click',()=>{category=btn.dataset.catalogCategory;$$('[data-catalog-category]').forEach(el=>el.setAttribute('aria-pressed',String(el===btn)));filterCatalog();}));
   $('[data-catalog-sort]')?.addEventListener('change',e=>{const parent=$('[data-catalog-card]')?.parentElement;if(!parent)return;const direction=e.target.value==='high'?-1:1;const cards=$$('[data-catalog-card]');cards.forEach((card,i)=>card.dataset.order??=i);cards.sort((a,b)=>e.target.value==='recommended'?Number(a.dataset.order)-Number(b.dataset.order):(Number(a.dataset.price)-Number(b.dataset.price))*direction).forEach(card=>parent.append(card));});
   if($('[data-catalog-search]')&&params.has('q'))$('[data-catalog-search]').value=params.get('q');filterCatalog();
-  const menu=$('.mobile-menu'),nav=$('#pages-navigation');menu?.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));nav.classList.toggle('is-open',open);});
-  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu?.getAttribute('aria-expanded')==='true'){menu.setAttribute('aria-expanded','false');nav.classList.remove('is-open');menu.focus();}});
   dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
   renderCart();renderSaved();renderCheckout();renderBooking();renderReservation();renderConfirmation();syncSaved();updateCartBadge();
 })();

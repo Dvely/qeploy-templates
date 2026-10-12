@@ -25,7 +25,5 @@
     if(el.hasAttribute('data-reset-search')){query='';category='all';$$('[data-book-filter]').forEach(btn=>btn.setAttribute('aria-pressed',String(btn.dataset.bookFilter==='all')));$('header input[type="search"]').value='';filter();const url=new URL(location.href);url.searchParams.delete('q');history.replaceState(null,'',url);return;}
     if(el.hasAttribute('data-dismiss-promo')){if($('#hide-promo').checked)storage.write('hide-promo',new Date().toDateString());promo.hidden=true;}
   });
-  const menu=$('.mobile-menu'),nav=$('#pages-navigation');menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));nav.classList.toggle('is-open',open);});
-  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu.getAttribute('aria-expanded')==='true'){menu.setAttribute('aria-expanded','false');nav.classList.remove('is-open');menu.focus();}});
   dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
 })();

@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="pages.css">
 <script defer="" src="pages-data.js">
 </script>
+<script defer src="pages-navigation.js"></script>
 <script defer src="pages-details.js"></script>
 <meta name="description" content="PAGES 템플릿의 이용과 정보 처리 안내.">
 <title>저작권 안내 | PAGES 페이지스</title>
@@ -36,7 +37,7 @@
 </div>
 <!-- Main Top Tier: Brand Logo, Wide Search Bar, Utility Links -->
 <div class="bg-background/95 border-b border-surface-container-high/60">
-<div class="max-w-[1280px] mx-auto px-gutter h-20 flex items-center justify-between gap-space-lg">
+<div class="pages-brand-row max-w-[1280px] mx-auto px-gutter h-20 flex items-center justify-between gap-space-lg">
 <!-- Brand Logo -->
 <a class="flex items-baseline gap-2 shrink-0 group" data-path="home" href="index.html">
 <div class="flex flex-col">
@@ -88,10 +89,10 @@
 </div>
 <!-- Bottom Tier: GNB Navigation & Category Bar -->
 <div class="bg-surface-container-lowest border-b border-surface-container-high shadow-xs">
-<div class="max-w-[1280px] mx-auto px-gutter flex items-center justify-between h-11">
+<div class="pages-nav-row max-w-[1280px] mx-auto px-gutter flex items-center justify-between h-11">
 <div class="flex items-center h-full">
 <!-- Quick Category Button (YES24 '빠른분야찾기' style) -->
-<button class="h-full bg-primary hover:bg-[#152e24] text-white px-space-md font-label-md text-label-md font-medium flex items-center gap-1.5 transition-colors shrink-0" type="button" data-categories="">
+<button class="pages-category-trigger h-full bg-primary hover:bg-[#152e24] text-white px-space-md font-label-md text-label-md font-medium flex items-center gap-1.5 transition-colors shrink-0" type="button" data-categories="">
 <svg class="icon  text-[17px]" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 <path d="M3 6h18M3 12h18M3 18h18">
 </path>
@@ -125,14 +126,15 @@
 <span class="text-surface-container-high">·</span>
 <a class="hover:text-primary transition-colors text-primary font-medium" href="pages-benefits.html">북클럽 리워드</a>
 </div>
-</div>
-</div>
 <button type="button" class="mobile-menu" aria-label="메뉴 열기" aria-expanded="false" aria-controls="pages-navigation">
 <svg class="icon" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 <path d="M3 6h18M3 12h18M3 18h18">
 </path>
 </svg>
+<span>전체 메뉴</span>
 </button>
+</div>
+</div>
 </header><main id="main" class="d-main"><div class="d-wrap"><nav class="d-crumbs" aria-label="현재 위치"><a href="index.html">홈</a><span>/</span><span>저작권 안내</span></nav><header class="d-intro"><p class="eyebrow">PAGES INFORMATION</p><h1>저작권 안내</h1><p>PAGES 템플릿의 이용과 정보 처리 안내.</p></header><article class="d-policy"><section class="d-section"><p class="eyebrow">PAGES EDITORIAL</p><h2>콘텐츠의 성격</h2><p>도서·작가·장소와 원고는 디자인을 위한 예시 콘텐츠입니다. 실제 출판 정보나 저자의 공식 사이트를 나타내지 않습니다.</p></section><section class="d-section"><p class="eyebrow">PAGES EDITORIAL</p><h2>이미지와 스타일</h2><p>사용자가 지정한 Stitch 시안에서 제공된 로컬 이미지를 사용합니다. 폰트와 스타일 라이선스는 소스 폴더의 fonts 및 licenses에 포함되어 있습니다.</p></section><section class="d-section"><p class="eyebrow">PAGES EDITORIAL</p><h2>문의 안내</h2><p>템플릿의 연락처 hello@pages.example.com은 실제 접수를 위한 주소가 아닙니다.</p></section><a class="secondary-button" href="pages-mypage.html">나의 서재 관리 →</a></article></div></main><footer class="w-full bg-surface-container-low/90 border-t border-surface-container-high py-space-2xl">
 <div class="max-w-[1280px] mx-auto px-gutter">
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl pb-space-xl">
