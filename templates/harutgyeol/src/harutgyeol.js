@@ -195,7 +195,11 @@ document.querySelectorAll('[data-period]').forEach((button) => button.addEventLi
 }));
 
 const slides = [...document.querySelectorAll('.hero-slide')];
+const slideInterval = 3000;
 let slideIndex = 0;
+let slideTimer;
+let slidePaused = false;
+const playbackButton = document.querySelector('.hero-playback');
 function showSlide(index) {
   slideIndex = (index + slides.length) % slides.length;
   slides.forEach((slide, i) => {
@@ -204,8 +208,30 @@ function showSlide(index) {
   });
   document.querySelector('.hero-page').textContent = `${String(slideIndex + 1).padStart(2, '0')} / ${String(slides.length).padStart(2, '0')}`;
 }
-document.querySelectorAll('[data-slide]').forEach((button) => button.addEventListener('click', () => showSlide(slideIndex + Number(button.dataset.slide))));
+function restartSlideTimer() {
+  clearInterval(slideTimer);
+  if (!document.hidden && !slidePaused) {
+    slideTimer = setInterval(() => showSlide(slideIndex + 1), slideInterval);
+  }
+}
+document.querySelectorAll('[data-slide]').forEach((button) => button.addEventListener('click', () => {
+  showSlide(slideIndex + Number(button.dataset.slide));
+  restartSlideTimer();
+}));
+playbackButton.addEventListener('click', () => {
+  slidePaused = !slidePaused;
+  playbackButton.setAttribute('aria-pressed', String(slidePaused));
+  playbackButton.setAttribute('aria-label', slidePaused ? '슬라이드 자동재생 시작' : '슬라이드 자동재생 일시정지');
+  playbackButton.querySelector('svg').innerHTML = slidePaused
+    ? '<path d="m9 5 11 7-11 7Z"/>'
+    : '<path d="M9 5v14M15 5v14"/>';
+  restartSlideTimer();
+});
+document.addEventListener('visibilitychange', restartSlideTimer);
+window.addEventListener('pagehide', () => clearInterval(slideTimer));
+window.addEventListener('pageshow', restartSlideTimer);
 showSlide(0);
+restartSlideTimer();
 
 const menuToggle = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('.site-nav');

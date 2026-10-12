@@ -1,7 +1,7 @@
 {
-  "id": "stay-home",
-  "name": "숙소 홈",
-  "description": "감각적인 숙소 사진과 테마 검색, 추천 컬렉션과 저널을 담은 숙소 큐레이션 홈",
+  "id": "harutgyeol",
+  "name": "HARUTGYEOL · 하룻결",
+  "description": "하룻결의 감각적인 숙소 사진과 테마 검색, 추천 컬렉션과 저널을 담은 숙소 큐레이션 홈",
   "tags": [
     "stay",
     "travel",
@@ -14,7 +14,7 @@
     {
       "key": "brand",
       "where": "index.html",
-      "desc": "하룻결 브랜드명, 헤더와 푸터 문구"
+      "desc": "HARUTGYEOL(하룻결) 브랜드명, 헤더와 푸터 문구"
     },
     {
       "key": "hero",
@@ -38,7 +38,7 @@
     },
     {
       "key": "theme",
-      "where": "styles.css",
+      "where": "harutgyeol.css",
       "desc": ":root의 색상·글꼴·여백·라운드 토큰"
     }
   ]
