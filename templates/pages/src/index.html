@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="pages.css">
+<script defer="" src="pages-data.js">
+</script>
+<script defer="" src="pages.js">
+</script>
+<meta name="description" content="책과 문장, 함께 읽는 시간을 만나는 PAGES 페이지스 서점 홈">
+<title>PAGES 페이지스 | 문장과 사유가 머무는 서점</title>
+</head>
+<body class="bg-background font-body-md text-body-md text-on-surface antialiased selection:bg-primary selection:text-white" data-page="home">
+<a class="skip-link" href="#main">본문 바로가기</a>
+<header class="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-surface-container-high/70 pages-header">
+<!-- Top Announcement Ribbon -->
+<div class="bg-primary text-white/90 py-1 px-gutter border-b border-primary-container">
+<div class="max-w-[1280px] mx-auto flex items-center justify-between font-label-sm text-[11px] tracking-normal">
+<div class="flex items-center gap-space-sm">
+<span class="inline-block w-1.5 h-1.5 rounded-full bg-primary-fixed-dim animate-pulse">
+</span>
+<span class="">📖 [이달의 북클럽] 이서헌 작가와 함께하는 현대 소설 읽기 3기 모집 중 (선착순 마감)</span>
+</div>
+<div class="flex items-center gap-space-md text-white/80">
+<a class="hover:text-white transition-colors" href="#pages-dialog" data-panel="app" data-panel-title="도서앱 다운받고 1,000P 받기">도서앱 다운받고 1,000P 받기</a>
+<span class="text-white/40">|</span>
+<a class="text-white hover:text-primary-fixed transition-colors flex items-center gap-0.5 underline underline-offset-2" data-path="club-application" href="pages-club.html">
+<span class="">이달의 혜택 모아보기</span>
+<svg class="icon  text-[13px]" data-icon="arrow_forward" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16m-6-6 6 6-6 6">
+</path>
+</svg>
+</a>
+</div>
+</div>
+</div>
+<!-- Main Top Tier: Brand Logo, Wide Search Bar, Utility Links -->
+<div class="bg-background/95 border-b border-surface-container-high/60">
+<div class="max-w-[1280px] mx-auto px-gutter h-20 flex items-center justify-between gap-space-lg">
+<!-- Brand Logo -->
+<a class="flex items-baseline gap-2 shrink-0 group" data-path="home" href="index.html">
+<div class="flex flex-col">
+<span class="font-headline-md text-[26px] tracking-tighter text-on-surface font-normal group-hover:text-primary transition-colors leading-none">PAGES</span>
+<span class="text-[9px] tracking-widest text-outline uppercase font-light mt-0.5">ATELIER LITTÉRAIRE</span>
+</div>
+<span class="font-serif-kr text-[12px] tracking-widest text-outline uppercase font-light self-end mb-0.5">페이지스</span>
+</a>
+<!-- Center Prominent Search Bar (YES24 style) -->
+<div class="flex-1 max-w-2xl mx-space-md hidden md:block">
+<form action="index.html" class="relative flex items-center w-full bg-surface-container-lowest border-2 border-primary rounded-lg shadow-xs overflow-hidden focus-within:border-primary-container" role="search" data-search="">
+<input class="w-full px-space-md py-2.5 bg-transparent border-none outline-none font-body-sm text-[14px] text-on-surface placeholder:text-outline/70 focus:ring-0" placeholder="도서, 작가, 독서 모임을 검색하세요" type="search" name="q" aria-label="도서와 프로그램 검색">
+<button aria-label="검색하기" class="h-full px-space-md bg-transparent text-primary hover:text-on-surface transition-colors flex items-center justify-center shrink-0" type="submit">
+<svg class="icon  text-[24px]" data-icon="search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M21 21l-5-5M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0">
+</path>
+</svg>
+</button>
+</form>
+</div>
+<!-- Right Utilities: Auth & Commerce Action Links -->
+<div class="flex items-center gap-space-md shrink-0 font-label-md text-[13px] text-on-surface-variant">
+<div class="hidden sm:flex items-center gap-space-sm text-outline">
+<a class="hover:text-primary transition-colors" data-path="login" href="#pages-dialog" data-panel="account" data-panel-title="로그인">로그인</a>
+<span class="text-surface-container-high">|</span>
+<a class="hover:text-primary transition-colors" data-path="signup" href="#pages-dialog" data-panel="account" data-panel-title="회원가입">회원가입</a>
+<span class="text-surface-container-high">|</span>
+<a class="hover:text-primary transition-colors" data-path="mypage" href="#pages-dialog" data-panel="saved" data-panel-title="마이페이지">마이페이지</a>
+<span class="text-surface-container-high">|</span>
+<a class="hover:text-primary transition-colors flex items-center gap-1" data-path="cart" href="#pages-dialog" data-panel="cart" data-panel-title="장바구니">
+<svg class="icon  text-[16px]" data-icon="shopping_bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 7h14l1 14H4ZM9 8V6a3 3 0 0 1 6 0v2">
+</path>
+</svg>
+<span class="">장바구니</span>
+</a>
+</div>
+<div class="h-4 w-px bg-surface-container-high hidden sm:block">
+</div>
+<a class="hidden lg:inline-flex items-center justify-center font-label-sm text-[12px] bg-primary text-white hover:bg-[#152e24] px-space-md py-2 rounded-full transition-all tracking-wide shadow-sm" data-path="host-application" href="#pages-dialog" data-panel="contact" data-panel-title="클럽 개설 / 호스트 지원">클럽 개설 / 호스트 지원</a>
+<button type="button" class="w-8 h-8 rounded-full bg-surface-container-high text-primary flex items-center justify-center shrink-0 border border-surface-container-highest cursor-pointer hover:bg-surface-container transition-colors" data-panel="saved" aria-label="나의 보관함">
+<svg class="icon  text-[17px]" data-icon="person" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0M4 21v-3a8 8 0 0 1 16 0v3">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+<!-- Bottom Tier: GNB Navigation & Category Bar -->
+<div class="bg-surface-container-lowest border-b border-surface-container-high shadow-xs">
+<div class="max-w-[1280px] mx-auto px-gutter flex items-center justify-between h-11">
+<div class="flex items-center h-full">
+<!-- Quick Category Button (YES24 '빠른분야찾기' style) -->
+<button class="h-full bg-primary hover:bg-[#152e24] text-white px-space-md font-label-md text-label-md font-medium flex items-center gap-1.5 transition-colors shrink-0" type="button" data-categories="">
+<svg class="icon  text-[17px]" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 6h18M3 12h18M3 18h18">
+</path>
+</svg>
+<span class="">전체 카테고리</span>
+</button>
+<!-- Main Horizontal GNB Links -->
+<nav class="hidden md:flex items-center h-full px-space-md gap-space-lg font-label-md text-[13px] text-on-surface-variant shrink-0" id="pages-navigation">
+<form class="mobile-search" action="index.html" data-search="" role="search">
+<input type="search" name="q" aria-label="도서와 프로그램 검색" placeholder="도서, 작가, 모임 검색">
+<button type="submit" aria-label="검색하기">검색</button>
+</form>
+<a class="hover:text-primary font-semibold text-primary transition-colors" data-path="curated-books" href="index.html#books">도서 탐색</a>
+<a class="hover:text-primary transition-colors" href="index.html#books">베스트</a>
+<a class="hover:text-primary transition-colors" href="index.html#books">신상품</a>
+<a class="hover:text-primary transition-colors" data-path="book-clubs" href="pages-club.html">독서 모임 &amp; 클럽</a>
+<a class="hover:text-primary transition-colors" data-path="author-events" href="pages-event.html">작가 북토크 &amp; 워크숍</a>
+<a class="hover:text-primary transition-colors" data-path="articles-reviews" href="index.html#reviews">아티클 &amp; 서평</a>
+<a class="hover:text-primary text-primary/90 font-medium transition-colors flex items-center gap-1" href="index.html#books">
+<span class="w-1.5 h-1.5 rounded-full bg-primary">
+</span>
+<span class="">에디터스 초이스</span>
+</a>
+</nav>
+</div>
+<!-- Right Trending Tag Keywords -->
+<div class="hidden xl:flex items-center gap-space-md font-label-sm text-[12px] text-outline shrink-0">
+<a class="hover:text-primary transition-colors font-medium text-on-surface" href="index.html#books">2026 가을 문학전</a>
+<span class="text-surface-container-high">·</span>
+<a class="hover:text-primary transition-colors" href="#pages-dialog" data-panel="contact" data-panel-title="이달의 사은품">이달의 사은품</a>
+<span class="text-surface-container-high">·</span>
+<a class="hover:text-primary transition-colors text-primary font-medium" href="pages-club.html">북클럽 리워드</a>
+</div>
+</div>
+</div>
+<button type="button" class="mobile-menu" aria-label="메뉴 열기" aria-expanded="false" aria-controls="pages-navigation">
+<svg class="icon" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 6h18M3 12h18M3 18h18">
+</path>
+</svg>
+</button>
+</header>
+<main class="w-full bg-background min-h-[calc(100vh-280px)]" style="padding-top: 148px;" id="main">
+<div class="flex flex-col w-full">
+<!-- SECTION 1: EDITORIAL HERO & CURATION DISCOVERY -->
+<section class="relative w-full max-w-[1280px] mx-auto px-gutter pb-space-xl pt-space-md" id="editorial">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md items-stretch">
+<!-- Left/Main Wide Feature Showcase (Col 9 or 10 on desktop) -->
+<div class="lg:col-span-9 flex flex-col bg-surface-container-low border border-surface-container-high rounded-xl overflow-hidden relative shadow-[0_4px_24px_rgba(0,0,0,0.04)]">
+<!-- Banner Body Container -->
+<div class="relative min-h-[380px] lg:min-h-[420px] flex flex-col justify-between p-space-lg lg:p-space-xl bg-[#f5f2eb]/70 overflow-hidden">
+<!-- Decorative Subtle Background Elements -->
+<div class="absolute -right-16 -bottom-16 w-80 h-80 rounded-full bg-primary/5 pointer-events-none">
+</div>
+<!-- Top Tagline & Issue Indicator -->
+<div class="relative z-10 flex items-center justify-between">
+<div class="inline-flex items-center gap-space-xs px-3 py-1 rounded-full bg-surface-container-lowest border border-surface-container-high text-primary font-label-sm text-label-sm shadow-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse">
+</span>
+<span class="">2026 가을 문학전 에디토리얼 특별 기획</span>
+</div>
+<div class="hidden sm:flex items-center gap-2 font-label-sm text-label-sm text-outline">
+<span class="font-medium text-primary" data-hero-index="">01</span>
+<span class="">/</span>
+<span class="">05</span>
+</div>
+</div>
+<!-- Center Editorial Text Content -->
+<div class="relative z-10 max-w-lg space-y-space-sm my-auto py-space-md">
+<h1 class="font-headline-lg text-headline-lg lg:text-[42px] lg:leading-[52px] text-on-surface font-light tracking-tight">2026 가을 문학전<br>
+<span class="font-serif-kr italic font-normal text-primary">‘사유의 문장들’</span>
+</h1>
+<p class="font-body-md text-body-md text-on-surface-variant font-light leading-relaxed">PAGES 에디터와 북 마스터가 함께 선별한 거장의 대표 텍스트와 디지털 낭독 가이드, 단독 북마크 에디션을 만나보세요.</p>
+<div class="pt-space-xs flex items-center gap-space-sm">
+<a href="pages-book.html?book=garden" class="inline-flex items-center gap-1.5 px-space-lg py-2.5 rounded-full bg-primary hover:bg-[#152e24] text-white font-label-md text-label-md transition-all shadow-sm" data-hero-link="">
+<span class="">기획전 바로가기</span>
+<svg class="icon  text-[16px]" data-icon="arrow_forward" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16m-6-6 6 6-6 6">
+</path>
+</svg>
+</a>
+<span class="font-label-sm text-label-sm text-outline">디지털 굿즈 포함 한정 수량</span>
+</div>
+</div>
+<!-- Floating Promo Modal/Card Overlay (remixed from Image pop-up banner) -->
+<div class="relative lg:absolute lg:right-6 lg:top-6 lg:bottom-6 w-full lg:w-72 bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-xl p-space-md flex flex-col justify-between z-20 mt-space-md lg:mt-0" data-promo="">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between pb-1 border-b border-surface-container-high/60">
+<span class="font-label-sm text-[10px] text-primary uppercase font-bold tracking-wider">EDITOR'S CHOICE</span>
+<span class="text-outline font-label-sm text-[11px]">이달의 추천 도서</span>
+</div>
+<div class="flex gap-space-sm items-center pt-1">
+<div class="w-16 h-20 shrink-0 rounded overflow-hidden bg-surface-container border border-surface-container-high/70 shadow-xs">
+<img src="images/pages-light-cover.jpg" alt="추천 도서 표지" class="w-full h-full object-cover" loading="eager" decoding="async">
+</div>
+<div class="space-y-0.5 flex-1 min-w-0">
+<span class="font-label-sm text-[10px] text-primary bg-primary/10 px-1.5 py-0.5 rounded">단독 선공개</span>
+<a href="pages-book.html?book=light">
+<h4 class="font-serif-kr text-[14px] text-on-surface font-semibold truncate">빛과 잔상의 철학</h4>
+</a>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-2 leading-tight font-light">무리의 속도에서 벗어나 나만의 시선을 찾는 시간</p>
+</div>
+</div>
+</div>
+<div class="pt-space-xs border-t border-surface-container-high/60 flex items-center justify-between text-outline font-label-sm text-[11px]">
+<label class="flex items-center gap-1 cursor-pointer hover:text-on-surface transition-colors">
+<input type="checkbox" class="rounded border-outline-variant text-primary focus:ring-0 w-3 h-3" id="hide-promo">
+<span class="">오늘 그만 보기</span>
+</label>
+<button type="button" class="hover:text-on-surface font-medium underline underline-offset-2 transition-colors" data-dismiss-promo="">닫기</button>
+</div>
+</div>
+</div>
+<!-- Bottom Segmented Navigation Tab Bar -->
+<div class="w-full bg-surface-container-lowest border-t border-surface-container-high grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 text-center divide-x divide-surface-container-high">
+<button type="button" class="py-3 px-2 text-primary font-label-md text-label-md font-semibold bg-surface-container-low/80 border-b-2 border-primary transition-colors flex items-center justify-center gap-1" data-hero-tab="0" aria-pressed="true">
+<span class="truncate">2026 가을 문학전</span>
+</button>
+<button type="button" class="py-3 px-2 text-on-surface-variant hover:text-primary hover:bg-surface-container-low font-label-md text-label-md transition-colors" data-hero-tab="1" aria-pressed="false">
+<span class="truncate">윤서진의 문장들</span>
+</button>
+<button type="button" class="py-3 px-2 text-on-surface-variant hover:text-primary hover:bg-surface-container-low font-label-md text-label-md transition-colors hidden sm:block" data-hero-tab="2" aria-pressed="false">
+<span class="truncate">함께 읽을 책 선택</span>
+</button>
+<button type="button" class="py-3 px-2 text-on-surface-variant hover:text-primary hover:bg-surface-container-low font-label-md text-label-md transition-colors hidden lg:block" data-hero-tab="3" aria-pressed="false">
+<span class="truncate">한서우 전작</span>
+</button>
+<button type="button" class="py-3 px-2 text-on-surface-variant hover:text-primary hover:bg-surface-container-low font-label-md text-label-md transition-colors hidden lg:block" data-hero-tab="4" aria-pressed="false">
+<span class="truncate">스페셜 기획전 Pick</span>
+</button>
+</div>
+</div>
+<!-- Right Side-Curation Rail (Col 3 on desktop) -->
+<div class="lg:col-span-3 flex flex-col bg-surface-container-lowest border border-surface-container-high rounded-xl p-space-md justify-between shadow-[0_2px_12px_rgba(0,0,0,0.03)]">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between pb-2 border-b border-surface-container-high">
+<span class="font-label-sm text-[11px] text-outline uppercase tracking-wider">CURATOR'S DESK</span>
+<span class="font-label-sm text-[10px] text-primary bg-primary/10 px-1.5 py-0.5 rounded font-medium">단독</span>
+</div>
+<div class="space-y-1">
+<p class="font-label-sm text-label-sm text-outline font-light">한서우</p>
+<h3 class="font-headline-sm text-[17px] text-on-surface font-semibold leading-snug">3년 만의<br>신작 장편소설 컬렉션</h3>
+</div>
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden bg-surface-container-low border border-surface-container-high/60 group">
+<img src="images/pages-curator-library.jpg" alt="신작 장편소설" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" decoding="async">
+<div class="absolute bottom-2 left-2 right-2 bg-white/90 backdrop-blur-sm rounded py-1 px-2 text-center border border-white/60">
+<span class="font-label-sm text-[11px] text-primary font-medium">단독 북토크 초청권 포함</span>
+</div>
+</div>
+</div>
+<div class="pt-space-xs border-t border-surface-container-high/60 flex items-center justify-between">
+<span class="font-label-sm text-[11px] text-outline">예약 한정 100부</span>
+<a href="pages-event.html" class="font-label-sm text-[12px] text-primary hover:underline font-semibold flex items-center gap-0.5">
+<span class="">예약하기</span>
+<svg class="icon  text-[13px]" data-icon="chevron_right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m9 5 7 7-7 7">
+</path>
+</svg>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: READING CHALLENGE & LIVE COMMUNITY TICKER -->
+<section class="w-full bg-surface-container-low/70 border-y border-surface-container-high/80 py-space-xl" id="clubs">
+<div class="max-w-[1280px] mx-auto px-gutter space-y-space-lg">
+<!-- Challenge Section Header & Live Metric Badge -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-space-xs text-primary font-label-sm text-label-sm font-semibold tracking-wider uppercase">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse">
+</span>
+<span class="">매일 15분 독서 습관 챌린지</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-light tracking-tight">
+            하루 한 문장 완주하고, <span class="font-serif-kr italic font-normal text-primary">다음 도서 지원금</span>을 받으세요
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+            끝까지 읽지 못했던 고전도, 함께 읽으면 끝이 보입니다. 환급형 리워드로 완성하는 독서 습관.
+          </p>
+</div>
+<!-- Live Activity Counter Card -->
+<div class="bg-surface-container-lowest px-space-lg py-3 rounded-lg border border-surface-container-high flex items-center gap-space-lg shrink-0">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-surface-container-low flex items-center justify-center text-primary">
+<svg class="icon  text-[18px]" data-icon="group" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M10 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0M2 21v-4a5 5 0 0 1 10 0v4M18 4a3 3 0 0 1 0 6M17 13a5 5 0 0 1 5 5v3">
+</path>
+</svg>
+</div>
+<div>
+<p class="font-label-sm text-label-sm text-outline">현재 챌린저</p>
+<p class="font-headline-sm text-headline-sm text-on-surface font-normal">1,420<span class="font-body-sm text-body-sm font-light text-on-surface-variant ml-0.5">명</span>
+</p>
+</div>
+</div>
+<div class="h-7 w-px bg-surface-container-high">
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<svg class="icon  text-[18px]" data-icon="verified" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 5v15M3 4c4-1 7 0 9 1 2-1 5-2 9-1v15c-4-1-7 0-9 1-2-1-5-2-9-1Z">
+</path>
+</svg>
+</div>
+<div>
+<p class="font-label-sm text-label-sm text-outline">이번 주 인증 문장</p>
+<p class="font-headline-sm text-headline-sm text-on-surface font-normal">8,930<span class="font-body-sm text-body-sm font-light text-on-surface-variant ml-0.5">개</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Real-time Rolling Feed Ticker -->
+<div class="bg-surface-container-lowest border border-surface-container-high rounded-full px-space-lg py-2 flex items-center justify-between overflow-hidden shadow-xs">
+<div class="flex items-center gap-space-sm shrink-0">
+<svg class="icon  text-primary text-[17px]" data-icon="bolt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 5v15M3 4c4-1 7 0 9 1 2-1 5-2 9-1v15c-4-1-7 0-9 1-2-1-5-2-9-1Z">
+</path>
+</svg>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">LIVE VERIFICATION</span>
+</div>
+<div class="relative h-6 w-full max-w-2xl overflow-hidden mx-space-md">
+<div class="transition-transform duration-500 flex flex-col" id="tickerFeed" style="transform: translateY(0px);">
+<div class="h-6 flex items-center font-body-sm text-body-sm text-on-surface-variant truncate">
+<span class="font-medium text-on-surface mr-2">이*영 님</span> 42일차 『카라마조프 가의 형제들』 완독 인증 (+200P 적립 완료)
+            </div>
+<div class="h-6 flex items-center font-body-sm text-body-sm text-on-surface-variant truncate">
+<span class="font-semibold text-on-surface mr-2">박*현 님</span> 14일차 『작은 것들의 신』 문장 필사 미션 완수 (+100P 적립)
+            </div>
+<div class="h-6 flex items-center font-body-sm text-body-sm text-on-surface-variant truncate">
+<span class="font-semibold text-on-surface mr-2">정*우 님</span> 『쇼펜하우어 아포리즘』 첫 주차 라이브 북토크 체크인
+            </div>
+</div>
+</div>
+<a class="shrink-0 font-label-sm text-label-sm text-primary hover:underline font-semibold flex items-center gap-0.5" href="index.html#reviews">
+<span class="">인증 피드 둘러보기</span>
+<svg class="icon  text-[14px]" data-icon="chevron_right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m9 5 7 7-7 7">
+</path>
+</svg>
+</a>
+</div>
+<!-- 4 Challenge Club Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Challenge Card 1 -->
+<div class="bg-surface-container-lowest rounded-lg border border-surface-container-high hover:border-primary/40 transition-all duration-300 flex flex-col group overflow-hidden" data-search-card="" data-search-type="club">
+<a href="pages-club.html?program=classics" aria-label="하루 한 페이지 고전 읽기: 오디세이아 상세 보기" tabindex="-1">
+<div class="relative h-44 overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Leather-bound classic novel lying on a dark walnut library table alongside an antique brass reading magnifying glass and dried pressed flowers in warm golden lighting" style="background-image: url(&quot;images/pages-classics-salon.jpg&quot;);" role="img" aria-label="함께 읽는 고전 살롱">
+</div>
+<div class="absolute top-2.5 left-2.5 bg-primary text-white px-2 py-0.5 rounded font-label-sm text-[10px] tracking-wide font-medium">
+              습관 30일반
+            </div>
+<div class="absolute bottom-2.5 right-2.5 bg-black/60 backdrop-blur-sm text-white px-2 py-0.5 rounded font-label-sm text-[10px] flex items-center gap-1">
+<svg class="icon  text-[13px] text-yellow-300" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<span class="">4.9 (184명)</span>
+</div>
+</div>
+</a>
+<div class="p-space-md flex-1 flex flex-col justify-between space-y-space-md">
+<div class="space-y-1.5">
+<p class="font-label-sm text-label-sm text-outline">호스트 김지운 에디터</p>
+<a href="pages-club.html?program=classics">
+<h3 class="font-headline-sm text-[16px] leading-[22px] text-on-surface font-semibold group-hover:text-primary transition-colors line-clamp-1">
+                하루 한 페이지 고전 읽기: 오디세이아
+              </h3>
+</a>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 font-light">
+                난해한 서양 고전을 매일 15분 오디오 해설과 함께 나누어 완독하는 밀착 가이드 클럽.
+              </p>
+</div>
+<div class="space-y-1.5 pt-space-xs border-t border-surface-container-high/60">
+<div class="flex justify-between items-center font-label-sm text-[11px]">
+<span class="text-outline">기수 완주율</span>
+<span class="text-primary font-semibold">96% 달성 중</span>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 96%">
+</div>
+</div>
+<div class="flex items-baseline justify-between pt-1">
+<div>
+<span class="font-label-sm text-label-sm text-outline line-through">59,000원</span>
+<span class="font-headline-sm text-[17px] text-primary font-semibold ml-1">39,000원</span>
+</div>
+<span class="font-label-sm text-[10px] text-primary bg-primary/10 px-1.5 py-0.5 rounded font-medium">100% 환급가능</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Challenge Card 2 -->
+<div class="bg-surface-container-lowest rounded-lg border border-surface-container-high hover:border-primary/40 transition-all duration-300 flex flex-col group overflow-hidden" data-search-card="" data-search-type="club">
+<a href="pages-club.html?program=novels" aria-label="한서우 전작 탐독 클럽 상세 보기" tabindex="-1">
+<div class="relative h-44 overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Collection of minimalist Japanese literature novels on a light birch wood shelf with a cup of green tea and gentle morning sunlight" style="background-image: url(&quot;images/pages-curator-library.jpg&quot;);" role="img" aria-label="소설가의 서가">
+</div>
+<div class="absolute top-2.5 left-2.5 bg-primary text-white px-2 py-0.5 rounded font-label-sm text-[10px] tracking-wide font-medium">
+              작가 집중 4주
+            </div>
+<div class="absolute bottom-2.5 right-2.5 bg-black/60 backdrop-blur-sm text-white px-2 py-0.5 rounded font-label-sm text-[10px] flex items-center gap-1">
+<svg class="icon  text-[13px] text-yellow-300" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<span class="">5.0 (210명)</span>
+</div>
+</div>
+</a>
+<div class="p-space-md flex-1 flex flex-col justify-between space-y-space-md">
+<div class="space-y-1.5">
+<p class="font-label-sm text-label-sm text-outline">호스트 한정우 번역가</p>
+<a href="pages-club.html?program=novels">
+<h3 class="font-headline-sm text-[16px] leading-[22px] text-on-surface font-semibold group-hover:text-primary transition-colors line-clamp-1">
+                한서우 전작 탐독 클럽
+              </h3>
+</a>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 font-light">
+                초기 단편부터 최신 장편까지, 하루키 특유의 문체와 배경 음악(재즈/클래식)을 해체 분석합니다.
+              </p>
+</div>
+<div class="space-y-1.5 pt-space-xs border-t border-surface-container-high/60">
+<div class="flex justify-between items-center font-label-sm text-[11px]">
+<span class="text-outline">기수 완주율</span>
+<span class="text-primary font-semibold">92% 달성 중</span>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 92%">
+</div>
+</div>
+<div class="flex items-baseline justify-between pt-1">
+<div>
+<span class="font-headline-sm text-[17px] text-on-surface font-semibold">48,000원</span>
+</div>
+<span class="font-label-sm text-[10px] text-secondary bg-surface-container px-1.5 py-0.5 rounded font-medium">온라인 LIVE 살롱</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Challenge Card 3 -->
+<div class="bg-surface-container-lowest rounded-lg border border-surface-container-high hover:border-primary/40 transition-all duration-300 flex flex-col group overflow-hidden" data-search-card="" data-search-type="club">
+<a href="pages-club.html?program=philosophy" aria-label="철학자의 밤: 현대 사상 입문 살롱 상세 보기" tabindex="-1">
+<div class="relative h-44 overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Cozy library evening setting with warm Edison bulb desk lamp, philosophy journals, notebooks filled with ink annotations, and cup of warm herbal tea" style="background-image: url(&quot;images/pages-philosophy-salon.jpg&quot;);" role="img" aria-label="철학 토론 살롱">
+</div>
+<div class="absolute top-2.5 left-2.5 bg-primary text-white px-2 py-0.5 rounded font-label-sm text-[10px] tracking-wide font-medium">
+              사유 입문 6주
+            </div>
+<div class="absolute bottom-2.5 right-2.5 bg-black/60 backdrop-blur-sm text-white px-2 py-0.5 rounded font-label-sm text-[10px] flex items-center gap-1">
+<svg class="icon  text-[13px] text-yellow-300" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<span class="">4.9 (96명)</span>
+</div>
+</div>
+</a>
+<div class="p-space-md flex-1 flex flex-col justify-between space-y-space-md">
+<div class="space-y-1.5">
+<p class="font-label-sm text-label-sm text-outline">호스트 이소담 철학연구자</p>
+<a href="pages-club.html?program=philosophy">
+<h3 class="font-headline-sm text-[16px] leading-[22px] text-on-surface font-semibold group-hover:text-primary transition-colors line-clamp-1">
+                철학자의 밤: 현대 사상 입문 살롱
+              </h3>
+</a>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 font-light">
+                니체, 사르트르, 푸코의 텍스트를 통해 현대 사회의 불안과 선택의 자유를 토론합니다.
+              </p>
+</div>
+<div class="space-y-1.5 pt-space-xs border-t border-surface-container-high/60">
+<div class="flex justify-between items-center font-label-sm text-[11px]">
+<span class="text-outline">기수 완주율</span>
+<span class="text-primary font-semibold">98% 달성 중</span>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 98%">
+</div>
+</div>
+<div class="flex items-baseline justify-between pt-1">
+<div>
+<span class="font-headline-sm text-[17px] text-on-surface font-semibold">55,000원</span>
+</div>
+<span class="font-label-sm text-[10px] text-primary bg-primary/10 px-1.5 py-0.5 rounded font-medium">서촌 라운지 연계</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Challenge Card 4 -->
+<div class="bg-surface-container-lowest rounded-lg border border-surface-container-high hover:border-primary/40 transition-all duration-300 flex flex-col group overflow-hidden" data-search-card="" data-search-type="club">
+<a href="pages-club.html?program=morning" aria-label="일요일 아침 에세이 필사 &amp; 티타임 상세 보기" tabindex="-1">
+<div class="relative h-44 overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Fountain pen resting on handcrafted linen writing paper notebook with delicate cursive Korean calligraphy quotes and a ceramic mug on rustic linen cloth" style="background-image: url(&quot;images/pages-morning-writing.jpg&quot;);" role="img" aria-label="아침 필사 공간">
+</div>
+<div class="absolute top-2.5 left-2.5 bg-surface-container-highest text-on-surface-variant px-2 py-0.5 rounded font-label-sm text-[10px] tracking-wide font-medium">
+              모닝 루틴 21일
+            </div>
+<div class="absolute bottom-2.5 right-2.5 bg-black/60 backdrop-blur-sm text-white px-2 py-0.5 rounded font-label-sm text-[10px] flex items-center gap-1">
+<svg class="icon  text-[13px] text-yellow-300" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<span class="">4.9 (340명)</span>
+</div>
+</div>
+</a>
+<div class="p-space-md flex-1 flex flex-col justify-between space-y-space-md">
+<div class="space-y-1.5">
+<p class="font-label-sm text-label-sm text-outline">호스트 서율 작가</p>
+<a href="pages-club.html?program=morning">
+<h3 class="font-headline-sm text-[16px] leading-[22px] text-on-surface font-semibold group-hover:text-primary transition-colors line-clamp-1">
+                일요일 아침 에세이 필사 &amp; 티타임
+              </h3>
+</a>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 font-light">
+                고요한 주말 아침, 정돈된 한 문장을 필사하고 찻잔을 마주하며 마음의 균형을 되찾습니다.
+              </p>
+</div>
+<div class="space-y-1.5 pt-space-xs border-t border-surface-container-high/60">
+<div class="flex justify-between items-center font-label-sm text-[11px]">
+<span class="text-outline">기수 완주율</span>
+<span class="text-primary font-semibold">95% 달성 중</span>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 95%">
+</div>
+</div>
+<div class="flex items-baseline justify-between pt-1">
+<div>
+<span class="font-headline-sm text-[17px] text-on-surface font-semibold">무료 참여</span>
+</div>
+<span class="font-label-sm text-[10px] text-outline">오픈 커뮤니티</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: EDITOR'S CHOICE CURATED BOOK SHELVES -->
+<section class="w-full max-w-[1280px] mx-auto px-gutter py-space-2xl space-y-space-xl" id="books">
+<div class="results-bar" hidden="">
+<span id="search-result-count" role="status">
+</span>
+<button type="button" data-reset-search="">검색 초기화</button>
+</div>
+<p id="empty-results" class="empty-results" hidden="">검색 결과가 없습니다. 다른 제목이나 작가를 입력해 보세요.</p>
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm border-b border-surface-container-high pb-space-sm">
+<div class="space-y-space-xs">
+<span class="font-label-sm text-label-sm text-primary font-semibold uppercase tracking-widest">EDITOR'S SELECTION</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-light">
+          계절의 냄새를 닮은 서가, <span class="font-serif-kr italic text-primary">에디터스 초이스</span>
+</h2>
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+          책방 지기가 직접 넘겨본 문장 중 가장 깊은 울림을 남긴 네 가지 테마의 도서 모음입니다.
+        </p>
+</div>
+<!-- Curated Category Tabs -->
+<div class="flex items-center gap-space-sm overflow-x-auto" id="bookThemeTabs">
+<button class="px-space-sm py-2 border-b-2 border-primary text-primary font-label-lg text-label-lg whitespace-nowrap font-medium" type="button" data-book-filter="all" aria-pressed="true">가을 사유의 문장</button>
+<button class="px-space-sm py-2 border-b-2 border-transparent text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg transition-colors whitespace-nowrap" type="button" data-book-filter="literature" aria-pressed="false">도시를 떠나 마주한 숲</button>
+<button class="px-space-sm py-2 border-b-2 border-transparent text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg transition-colors whitespace-nowrap" type="button" data-book-filter="humanities" aria-pressed="false">인문학적 사유</button>
+<button class="px-space-sm py-2 border-b-2 border-transparent text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg transition-colors whitespace-nowrap" type="button" data-book-filter="art" aria-pressed="false">디자인 &amp; 예술 서가</button>
+</div>
+</div>
+<!-- Curated Book Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Book 1 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl border border-surface-container-high hover:border-primary/40 hover:shadow-sm transition-all flex flex-col justify-between space-y-space-md" data-search-card="" data-search-type="book" data-category="essay" data-book-card="quiet">
+<div class="space-y-space-md">
+<a href="pages-book.html?book=quiet" aria-label="사물의 고요한 소리 상세 보기" tabindex="-1">
+<div class="relative w-full aspect-[2/3] rounded-lg overflow-hidden bg-surface-container-low border border-surface-container-high/60">
+<img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="images/pages-quiet-cover.jpg" alt="사물의 고요한 소리 책 표지" loading="lazy" decoding="async">
+<span class="absolute top-2 right-2 bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-[10px] px-2 py-0.5 rounded border border-surface-container-high">독립출판</span>
+</div>
+</a>
+<div class="space-y-1">
+<p class="font-label-sm text-label-sm text-outline">라이프 / 에세이 · 페이지스 문고</p>
+<a href="pages-book.html?book=quiet">
+<h3 class="font-serif-kr text-[17px] text-on-surface font-normal">사물의 고요한 소리</h3>
+</a>
+<p class="font-body-sm text-body-sm text-on-surface-variant font-light">서다온 저</p>
+</div>
+<div class="bg-surface-container-low/70 p-2.5 rounded border-l-2 border-primary space-y-0.5">
+<p class="font-serif-kr text-[12px] leading-relaxed text-on-surface-variant italic">
+              “이 책을 읽고 나면 일상의 계절 냄새가 완전히 달라집니다.”
+            </p>
+<p class="font-label-sm text-[10px] text-outline text-right">— 에디터 M</p>
+</div>
+</div>
+<div class="space-y-space-sm pt-space-xs border-t border-surface-container-high/50">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-[17px] text-on-surface font-normal">16,200원</span>
+<span class="font-label-sm text-[11px] text-primary">무료배송</span>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="py-2 px-space-xs bg-surface-container-low hover:bg-surface-container border border-surface-container-high text-on-surface font-label-sm text-[12px] rounded transition-colors flex items-center justify-center gap-1" type="button" data-quote="우리가 고요해질 때에만 비로소 사물들은 자기만의 빛깔로 속삭이기 시작한다." data-quote-title="사물의 고요한 소리">
+<svg class="icon  text-[15px]" data-icon="format_quote" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 6h6v7H6l-2 5M14 6h6v7h-4l-2 5">
+</path>
+</svg>
+<span class="">한 문장 보기</span>
+</button>
+<button class="py-2 px-space-xs bg-primary hover:bg-[#152e24] text-white font-label-sm text-[12px] rounded transition-colors flex items-center justify-center gap-1" type="button" data-add-book="quiet">
+<svg class="icon  text-[15px]" data-icon="shopping_bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 7h14l1 14H4ZM9 8V6a3 3 0 0 1 6 0v2">
+</path>
+</svg>
+<span class="">장바구니 담기</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Book 2 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl border border-surface-container-high hover:border-primary/40 hover:shadow-sm transition-all flex flex-col justify-between space-y-space-md" data-search-card="" data-search-type="book" data-category="humanities" data-book-card="light">
+<div class="space-y-space-md">
+<a href="pages-book.html?book=light" aria-label="빛과 잔상의 철학 상세 보기" tabindex="-1">
+<div class="relative w-full aspect-[2/3] rounded-lg overflow-hidden bg-surface-container-low border border-surface-container-high/60">
+<img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="images/pages-light-cover.jpg" alt="빛과 잔상의 철학 책 표지" loading="lazy" decoding="async">
+<span class="absolute top-2 right-2 bg-primary text-white font-label-sm text-[10px] px-2 py-0.5 rounded">베스트 큐레이션</span>
+</div>
+</a>
+<div class="space-y-1">
+<p class="font-label-sm text-label-sm text-outline">인문 / 철학 · 페이지스 문고</p>
+<a href="pages-book.html?book=light">
+<h3 class="font-serif-kr text-[17px] text-on-surface font-normal">빛과 잔상의 철학</h3>
+</a>
+<p class="font-body-sm text-body-sm text-on-surface-variant font-light">윤서진 저</p>
+</div>
+<div class="bg-surface-container-low/70 p-2.5 rounded border-l-2 border-primary space-y-0.5">
+<p class="font-serif-kr text-[12px] leading-relaxed text-on-surface-variant italic">
+              “현대인의 산란한 시선을 다시 단 하나의 본질로 수렴시키는 맑은 문장들.”
+            </p>
+<p class="font-label-sm text-[10px] text-outline text-right">— 북마스터 S</p>
+</div>
+</div>
+<div class="space-y-space-sm pt-space-xs border-t border-surface-container-high/50">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-[17px] text-on-surface font-normal">18,000원</span>
+<span class="font-label-sm text-[11px] text-primary">10% 적립</span>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="py-2 px-space-xs bg-surface-container-low hover:bg-surface-container border border-surface-container-high text-on-surface font-label-sm text-[12px] rounded transition-colors flex items-center justify-center gap-1" type="button" data-quote="빛을 보기 위해 우리는 눈을 뜨지만, 잔상을 이해하기 위해서는 천천히 눈을 감아야 한다." data-quote-title="빛과 잔상의 철학">
+<svg class="icon  text-[15px]" data-icon="format_quote" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 6h6v7H6l-2 5M14 6h6v7h-4l-2 5">
+</path>
+</svg>
+<span class="">한 문장 보기</span>
+</button>
+<button class="py-2 px-space-xs bg-primary hover:bg-[#152e24] text-white font-label-sm text-[12px] rounded transition-colors flex items-center justify-center gap-1" type="button" data-add-book="light">
+<svg class="icon  text-[15px]" data-icon="shopping_bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 7h14l1 14H4ZM9 8V6a3 3 0 0 1 6 0v2">
+</path>
+</svg>
+<span class="">장바구니 담기</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Book 3 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl border border-surface-container-high hover:border-primary/40 hover:shadow-sm transition-all flex flex-col justify-between space-y-space-md" data-search-card="" data-search-type="book" data-category="art" data-book-card="teacup">
+<div class="space-y-space-md">
+<a href="pages-book.html?book=teacup" aria-label="디자이너의 찻잔 상세 보기" tabindex="-1">
+<div class="relative w-full aspect-[2/3] rounded-lg overflow-hidden bg-surface-container-low border border-surface-container-high/60">
+<img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="images/pages-teacup-cover.jpg" alt="디자이너의 찻잔 책 표지" loading="lazy" decoding="async">
+<span class="absolute top-2 right-2 bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-[10px] px-2 py-0.5 rounded border border-surface-container-high">한정 장정본</span>
+</div>
+</a>
+<div class="space-y-1">
+<p class="font-label-sm text-label-sm text-outline">예술 / 디자인 · 페이지스 문고</p>
+<a href="pages-book.html?book=teacup">
+<h3 class="font-serif-kr text-[17px] text-on-surface font-normal">디자이너의 찻잔</h3>
+</a>
+<p class="font-body-sm text-body-sm text-on-surface-variant font-light">민유라 저</p>
+</div>
+<div class="bg-surface-container-low/70 p-2.5 rounded border-l-2 border-primary space-y-0.5">
+<p class="font-serif-kr text-[12px] leading-relaxed text-on-surface-variant italic">
+              “손에 닿는 촉감만으로도 일상의 번잡함이 차분히 가라앉습니다.”
+            </p>
+<p class="font-label-sm text-[10px] text-outline text-right">— 에디터 K</p>
+</div>
+</div>
+<div class="space-y-space-sm pt-space-xs border-t border-surface-container-high/50">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-[17px] text-on-surface font-normal">22,000원</span>
+<span class="font-label-sm text-[11px] text-secondary">친환경 포장</span>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="py-2 px-space-xs bg-surface-container-low hover:bg-surface-container border border-surface-container-high text-on-surface font-label-sm text-[12px] rounded transition-colors flex items-center justify-center gap-1" type="button" data-quote="물건의 온도는 만드는 사람의 손끝에서 멈추지 않고, 사용하는 이의 손바닥 안에서 완성된다." data-quote-title="디자이너의 찻잔">
+<svg class="icon  text-[15px]" data-icon="format_quote" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 6h6v7H6l-2 5M14 6h6v7h-4l-2 5">
+</path>
+</svg>
+<span class="">한 문장 보기</span>
+</button>
+<button class="py-2 px-space-xs bg-primary hover:bg-[#152e24] text-white font-label-sm text-[12px] rounded transition-colors flex items-center justify-center gap-1" type="button" data-add-book="teacup">
+<svg class="icon  text-[15px]" data-icon="shopping_bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 7h14l1 14H4ZM9 8V6a3 3 0 0 1 6 0v2">
+</path>
+</svg>
+<span class="">장바구니 담기</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Book 4 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl border border-surface-container-high hover:border-primary/40 hover:shadow-sm transition-all flex flex-col justify-between space-y-space-md" data-search-card="" data-search-type="book" data-category="literature" data-book-card="winter">
+<div class="space-y-space-md">
+<a href="pages-book.html?book=winter" aria-label="우리가 겨울을 건너는 방식 상세 보기" tabindex="-1">
+<div class="relative w-full aspect-[2/3] rounded-lg overflow-hidden bg-surface-container-low border border-surface-container-high/60">
+<img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="images/pages-winter-cover.jpg" alt="우리가 겨울을 건너는 방식 책 표지" loading="lazy" decoding="async">
+<span class="absolute top-2 right-2 bg-primary text-white font-label-sm text-[10px] px-2 py-0.5 rounded">에디터 대상</span>
+</div>
+</a>
+<div class="space-y-1">
+<p class="font-label-sm text-label-sm text-outline">문학 / 소설 · 페이지스 문고</p>
+<a href="pages-book.html?book=winter">
+<h3 class="font-serif-kr text-[17px] text-on-surface font-normal">우리가 겨울을 건너는 방식</h3>
+</a>
+<p class="font-body-sm text-body-sm text-on-surface-variant font-light">한서우 저</p>
+</div>
+<div class="bg-surface-container-low/70 p-2.5 rounded border-l-2 border-primary space-y-0.5">
+<p class="font-serif-kr text-[12px] leading-relaxed text-on-surface-variant italic">
+              “겨울의 문턱에서 서로의 온기를 나누며 조용히 건네고 싶은 한 권.”
+            </p>
+<p class="font-label-sm text-[10px] text-outline text-right">— 북클럽 호스트 J</p>
+</div>
+</div>
+<div class="space-y-space-sm pt-space-xs border-t border-surface-container-high/50">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-[17px] text-on-surface font-normal">15,300원</span>
+<span class="font-label-sm text-[11px] text-secondary">작가 친필 사인본</span>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="py-2 px-space-xs bg-surface-container-low hover:bg-surface-container border border-surface-container-high text-on-surface font-label-sm text-[12px] rounded transition-colors flex items-center justify-center gap-1" type="button" data-quote="추위는 멀리 있지 않지만, 서로의 체온을 기억하는 한 우리는 얼어붙지 않는다." data-quote-title="우리가 겨울을 건너는 방식">
+<svg class="icon  text-[15px]" data-icon="format_quote" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 6h6v7H6l-2 5M14 6h6v7h-4l-2 5">
+</path>
+</svg>
+<span class="">한 문장 보기</span>
+</button>
+<button class="py-2 px-space-xs bg-primary hover:bg-[#152e24] text-white font-label-sm text-[12px] rounded transition-colors flex items-center justify-center gap-1" type="button" data-add-book="winter">
+<svg class="icon  text-[15px]" data-icon="shopping_bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 7h14l1 14H4ZM9 8V6a3 3 0 0 1 6 0v2">
+</path>
+</svg>
+<span class="">장바구니 담기</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: OFFLINE SALON & LOUNGE EXPERIENCES (SEOCHON & SEONGSU) -->
+<section class="w-full bg-surface-container-low/60 border-y border-surface-container-high/70 py-space-2xl" id="spaces">
+<div class="max-w-[1280px] mx-auto px-gutter space-y-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="space-y-space-xs">
+<span class="font-label-sm text-label-sm text-primary font-semibold uppercase tracking-widest">OFFLINE SALON &amp; LOUNGE</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-light">
+            사유가 머무는 공간, <span class="font-serif-kr italic text-primary">서촌 살롱 &amp; 성수 북라운지</span>
+</h2>
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+            책과 커피, 그리고 정갈한 다과가 함께하는 PAGES의 오프라인 공간에서 이번 주말 프라이빗 북토크를 경험해보세요.
+          </p>
+</div>
+<a class="inline-flex items-center gap-space-xs font-label-lg text-label-lg text-primary hover:underline underline-offset-4" href="#pages-dialog" data-panel="membership" data-panel-title="라운지 멤버십 &amp; 대관 가이드 보기">
+<span class="">라운지 멤버십 &amp; 대관 가이드 보기</span>
+<svg class="icon  text-[17px]" data-icon="arrow_forward" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16m-6-6 6 6-6 6">
+</path>
+</svg>
+</a>
+</div>
+<!-- Salon Locations & Programs Bento Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Left Bento: Seochon Salon Card (7 Cols) -->
+<div class="lg:col-span-7 bg-surface-container-lowest rounded-xl overflow-hidden border border-surface-container-high/80 flex flex-col" data-search-card="" data-search-type="event">
+<a href="pages-event.html" aria-label="북토크 상세 보기" tabindex="-1">
+<div class="relative h-64 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center" data-alt="Atmospheric modern Hanok book salon interior in Seochon Seoul with wooden rafters, warm ambient pendant lights, curated bookshelf wall, and readers having quiet coffee conversation" style="background-image: url(&quot;images/pages-seochon-lounge.jpg&quot;);" role="img" aria-label="서촌 북라운지">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent">
+</div>
+<div class="absolute bottom-4 left-4 text-white">
+<span class="bg-primary text-white px-2.5 py-0.5 rounded font-label-sm text-[11px] font-medium">서촌 한옥 살롱</span>
+<h3 class="font-serif-kr text-[22px] mt-1 text-white">PAGES 서촌 · 자하문로 24길</h3>
+</div>
+<div class="absolute top-4 right-4 bg-white/95 backdrop-blur-sm text-on-surface px-3 py-1 rounded-full font-label-sm text-[11px] border border-surface-container-high">
+              이번 주말 좌석 잔여: 4석
+            </div>
+</div>
+</a>
+<div class="p-space-lg space-y-space-md">
+<div class="flex items-center justify-between pb-space-xs border-b border-surface-container-high/80">
+<div>
+<span class="font-label-sm text-label-sm text-primary font-medium">이번 주 토요일 오후 3:00</span>
+<a href="pages-event.html">
+<h4 class="font-headline-sm text-[17px] text-on-surface font-semibold">건축가 서지안과 나누는 「공간이 만든 문장」</h4>
+</a>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary font-normal">35,000원</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed font-light">
+              서촌 고택의 툇마루에서 진행되는 소규모 12인 밀착 북토크. 참가자 전원에게 계절 핸드드립 커피와 작가의 미공개 친필 에세이 엽서 세트가 제공됩니다.
+            </p>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center font-normal text-primary">
+<svg class="icon  text-[18px]" data-icon="menu_book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 5v15M3 4c4-1 7 0 9 1 2-1 5-2 9-1v15c-4-1-7 0-9 1-2-1-5-2-9-1Z">
+</path>
+</svg>
+</div>
+<div>
+<p class="font-label-md text-label-md font-semibold text-on-surface">호스트: 이서헌 소설가</p>
+<p class="font-label-sm text-label-sm text-outline">대표작 『파도가 바다의 일이라면』 외</p>
+</div>
+</div>
+<a class="px-space-lg py-2 bg-primary hover:bg-[#152e24] text-white font-label-md text-label-md rounded-full transition-colors" href="pages-event.html">
+                북토크 신청하기
+              </a>
+</div>
+</div>
+</div>
+<!-- Right Bento: Seongsu Book Lounge Card (5 Cols) -->
+<div class="lg:col-span-5 bg-surface-container-lowest rounded-xl overflow-hidden border border-surface-container-high/80 flex flex-col justify-between" data-search-card="" data-search-type="event">
+<a href="pages-event.html?program=reading" aria-label="낭독회 상세 보기" tabindex="-1">
+<div class="relative h-56 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center" data-alt="Minimalist industrial chic book lounge in Seongsu-dong Seoul with concrete textures, floor-to-ceiling glass walls, sleek reading desks, and indoor lush green fiddle leaf trees" style="background-image: url(&quot;images/pages-seongsu-lounge.jpg&quot;);" role="img" aria-label="성수 북라운지">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent">
+</div>
+<div class="absolute bottom-4 left-4 text-white">
+<span class="bg-primary-container text-primary-fixed px-2.5 py-0.5 rounded font-label-sm text-[11px] font-medium">성수 포레스트 라운지</span>
+<h3 class="font-serif-kr text-[22px] mt-1 text-white">PAGES 성수 · 서울숲길 18</h3>
+</div>
+</div>
+</a>
+<div class="p-space-lg space-y-space-md flex-1 flex flex-col justify-between">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary font-medium">일요일 오전 11:00</span>
+<span class="font-label-sm text-label-sm text-outline">정원 16명 (마감 임박)</span>
+</div>
+<a href="pages-event.html?program=reading">
+<h4 class="font-headline-sm text-[17px] text-on-surface font-semibold">
+                번역가의 서재: 영미 시선집 원서 낭독회
+              </h4>
+</a>
+<p class="font-body-sm text-body-sm text-on-surface-variant font-light">
+                아침 햇살이 스며드는 숲뷰 서재에서 텍스트의 운율을 소리 내어 읽고 차를 마시는 프라이빗 세션.
+              </p>
+</div>
+<div class="pt-space-sm space-y-space-sm border-t border-surface-container-high/60">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-surface-container-low flex items-center justify-center text-primary">
+<svg class="icon  text-[17px]" data-icon="record_voice_over" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 5v15M3 4c4-1 7 0 9 1 2-1 5-2 9-1v15c-4-1-7 0-9 1-2-1-5-2-9-1Z">
+</path>
+</svg>
+</div>
+<div>
+<p class="font-label-md text-label-md font-semibold text-on-surface">호스트: 정민영 번역가</p>
+<p class="font-label-sm text-label-sm text-outline">영미 현대시 전문 번역</p>
+</div>
+</div>
+<a class="w-full py-2 bg-surface-container-low hover:bg-surface-container border border-surface-container-high text-on-surface font-label-md text-label-md rounded-full transition-colors" href="pages-event.html?program=reading">
+                낭독회 프로그램 예약 (28,000원)
+              </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: REAL MEMBER COMMUNITY REVIEWS & READING LOG -->
+<section class="w-full max-w-[1280px] mx-auto px-gutter py-space-2xl space-y-space-xl" id="reviews">
+<div class="text-center max-w-2xl mx-auto space-y-space-xs">
+<span class="font-label-sm text-label-sm text-primary font-semibold uppercase tracking-widest">COMMUNITY VOICES</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-light">
+        독자들이 남긴 생생한 문장과 서평
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+        책을 매개로 이어진 사람들의 진솔한 기록. 페이지스 북클럽에서 마음을 울린 후기들을 만나보세요.
+      </p>
+</div>
+<!-- Review Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Review Card 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl border border-surface-container-high hover:border-primary/40 transition-all space-y-space-md flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex text-amber-500">
+<svg class="icon  text-[16px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="icon  text-[16px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="icon  text-[16px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="icon  text-[16px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="icon  text-[16px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+</div>
+<span class="font-label-sm text-label-sm text-outline">3일 전</span>
+</div>
+<h4 class="font-serif-kr text-[17px] text-on-surface font-medium leading-snug">
+            “혼자였다면 30페이지에서 덮었을 고전, 끝까지 달렸습니다.”
+          </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed font-light">
+            하루 15분 인증 시스템 덕분에 의지가 약한 저도 오디세이아를 완독할 수 있었어요. 호스트님의 오디오 해설이 배경 지식을 쉽게 채워줘서 매일 아침 루틴이 되었습니다.
+          </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-sm border-t border-surface-container-high/60">
+<div class="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-medium text-xs">
+            JW
+          </div>
+<div>
+<p class="font-label-md text-label-md font-semibold text-on-surface">장지원 님</p>
+<p class="font-label-sm text-label-sm text-outline">참여 모임: 하루 한 페이지 고전 읽기</p>
+</div>
+</div>
+</div>
+<!-- Review Card 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl border border-surface-container-high hover:border-primary/40 transition-all space-y-space-md flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex text-amber-500">
+<svg class="icon  text-[16px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="icon  text-[16px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="icon  text-[16px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="icon  text-[16px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="icon  text-[16px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+</div>
+<span class="font-label-sm text-label-sm text-outline">5일 전</span>
+</div>
+<h4 class="font-serif-kr text-[17px] text-on-surface font-medium leading-snug">
+            “서촌 살롱에서의 두 시간이 한 달 치 피로를 씻어냈어요.”
+          </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed font-light">
+            비 오는 토요일 오후, 고택 대청마루에서 진행된 북토크는 평생 잊지 못할 추억입니다. 모르는 사람들과 같은 문장을 두고 깊은 이야기를 나누는 경험이 얼마나 따뜻한지 배웠습니다.
+          </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-sm border-t border-surface-container-high/60">
+<div class="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-medium text-xs">
+            SE
+          </div>
+<div>
+<p class="font-label-md text-label-md font-semibold text-on-surface">김서은 님</p>
+<p class="font-label-sm text-label-sm text-outline">참여 모임: 서촌 주말 북토크 살롱</p>
+</div>
+</div>
+</div>
+<!-- Review Card 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl border border-surface-container-high hover:border-primary/40 transition-all space-y-space-md flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex text-amber-500">
+<svg class="icon  text-[16px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="icon  text-[16px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="icon  text-[16px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="icon  text-[16px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="icon  text-[16px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+</div>
+<span class="font-label-sm text-label-sm text-outline">1주일 전</span>
+</div>
+<h4 class="font-serif-kr text-[17px] text-on-surface font-medium leading-snug">
+            “에디터의 큐레이션 노트를 읽는 재미가 쏠쏠합니다.”
+          </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed font-light">
+            베스트셀러 순위표에 질려 있었는데, PAGES에서 추천받은 독립출판물 세 권 모두 책장에 고이 모셔둘 인생 책이 되었습니다. 포장까지 정갈해서 선물용으로도 완벽해요.
+          </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-sm border-t border-surface-container-high/60">
+<div class="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-medium text-xs">
+            MH
+          </div>
+<div>
+<p class="font-label-md text-label-md font-semibold text-on-surface">윤민호 님</p>
+<p class="font-label-sm text-label-sm text-outline">구매 도서: 『사물의 고요한 소리』</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 6: INSPIRING MEMBERSHIP CALLOUT / HOST ONBOARDING -->
+<section class="w-full bg-surface-container-low/80 border-t border-surface-container-high/80 py-space-2xl" id="community">
+<div class="max-w-[1280px] mx-auto px-gutter">
+<div class="bg-surface-container-lowest rounded-2xl p-space-xl border border-surface-container-high shadow-xs flex flex-col lg:flex-row items-center justify-between gap-space-lg">
+<div class="space-y-space-sm max-w-2xl text-left">
+<span class="inline-block px-3 py-1 bg-primary/10 text-primary font-label-sm text-label-sm rounded-full font-medium">호스트 &amp; 리더 지원 상시 모집</span>
+<h3 class="font-headline-lg text-headline-lg text-on-surface font-light">
+            당신이 사랑하는 책으로,<br>
+            새로운 독서 공동체를 직접 열어보세요.
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed font-light">
+            출판물 기획자, 작가, 열정적인 애독자 누구나 PAGES의 호스트가 될 수 있습니다. 라운지 공간 지원, 참가자 모집 및 결제 정산까지 플랫폼이 든든하게 지원합니다.
+          </p>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-space-md shrink-0 w-full lg:w-auto">
+<a class="w-full sm:w-auto px-space-xl py-3 bg-primary hover:bg-[#152e24] text-white font-label-md text-label-md rounded-full transition-all text-center tracking-wide shadow-sm" href="#pages-dialog" data-panel="contact" data-panel-title="북클럽 호스트 지원하기">
+            북클럽 호스트 지원하기
+          </a>
+<a class="w-full sm:w-auto px-space-lg py-3 bg-surface-container-low hover:bg-surface-container border border-surface-container-high text-on-surface font-label-md text-label-md rounded-full transition-colors text-center" href="index.html">
+            PAGES 멤버십 안내
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- INTERACTIVE MODAL FOR "한 문장 보기" (Sentence Modal) -->
+
+<!-- FLOATING TOAST NOTIFICATION FOR CART & INTERACTIONS -->
+
+<!-- CLIENT-SIDE INTERACTIONS SCRIPT -->
+
+</div>
+</main>
+<footer class="w-full bg-surface-container-low/90 border-t border-surface-container-high py-space-2xl">
+<div class="max-w-[1280px] mx-auto px-gutter">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl pb-space-xl">
+<div class="lg:col-span-2 space-y-space-md">
+<div class="flex items-baseline gap-2">
+<span class="font-headline-md text-[22px] tracking-tight font-normal text-on-surface">PAGES</span>
+<span class="font-serif-kr text-[12px] text-outline font-light">페이지스</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant font-light leading-relaxed">문장과 사유가 머무는 일상의 안식처.<br>책을 읽고 나누며, 더 깊은 세계를 발견하는 현대인을 위한 북클럽 커뮤니티입니다.</p>
+<div class="pt-space-xs">
+<p class="font-label-lg text-label-lg text-on-surface font-medium">고객센터 hello@pages.example.com</p>
+<p class="font-body-sm text-body-sm text-outline">운영시간 10:00 - 18:00 (주말 및 공휴일 휴무)</p>
+<a class="inline-block mt-space-xs font-label-md text-label-md text-primary hover:text-primary-container underline underline-offset-4 transition-colors" data-path="curation-inquiry" href="#pages-dialog" data-panel="contact" data-panel-title="1:1 도서 큐레이션 문의하기">1:1 도서 큐레이션 문의하기</a>
+</div>
+</div>
+<div class="space-y-space-sm">
+<h4 class="font-label-sm text-label-sm text-on-surface font-semibold uppercase tracking-widest">도서 카테고리</h4>
+<ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant font-light">
+<li class="">
+<a class="hover:text-primary transition-colors" data-path="category-humanities" href="index.html#books">인문 / 철학</a>
+</li>
+<li class="">
+<a class="hover:text-primary transition-colors" data-path="category-literature" href="index.html#books">문학 / 소설</a>
+</li>
+<li class="">
+<a class="hover:text-primary transition-colors" data-path="category-art" href="index.html#books">예술 / 디자인</a>
+</li>
+<li class="">
+<a class="hover:text-primary transition-colors" data-path="category-essay" href="index.html#books">라이프 / 에세이</a>
+</li>
+</ul>
+</div>
+<div class="space-y-space-sm">
+<h4 class="font-label-sm text-label-sm text-on-surface font-semibold uppercase tracking-widest">오프라인 라운지</h4>
+<ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant font-light">
+<li class="">
+<a class="hover:text-primary transition-colors" data-path="lounge-seochon" href="index.html#spaces">서촌점 (서울 종로구 자하문로)</a>
+</li>
+<li class="">
+<a class="hover:text-primary transition-colors" data-path="lounge-seongsu" href="index.html#spaces">성수점 (서울 성동구 서울숲길)</a>
+</li>
+<li class="">
+<a class="hover:text-primary transition-colors" data-path="lounge-reservation" href="#pages-dialog" data-panel="membership" data-panel-title="서재 공간 대관 예약">서재 공간 대관 예약</a>
+</li>
+<li class="">
+<a class="hover:text-primary transition-colors" data-path="reading-membership" href="#pages-dialog" data-panel="membership" data-panel-title="라운지 멤버십 안내">라운지 멤버십 안내</a>
+</li>
+</ul>
+</div>
+<div class="space-y-space-sm">
+<h4 class="font-label-sm text-label-sm text-on-surface font-semibold uppercase tracking-widest">커뮤니티 &amp; 파트너십</h4>
+<ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant font-light">
+<li class="">
+<a class="hover:text-primary transition-colors" data-path="host-application" href="#pages-dialog" data-panel="contact" data-panel-title="북클럽 호스트 지원">북클럽 호스트 지원</a>
+</li>
+<li class="">
+<a class="hover:text-primary transition-colors" data-path="author-submission" href="#pages-dialog" data-panel="contact" data-panel-title="작가 및 출판사 제휴">작가 및 출판사 제휴</a>
+</li>
+<li class="">
+<a class="hover:text-primary transition-colors" data-path="corporate-reading" href="#pages-dialog" data-panel="contact" data-panel-title="기업 독서 프로그램">기업 독서 프로그램</a>
+</li>
+<li class="">
+<a class="hover:text-primary transition-colors" data-path="articles-reviews" href="#pages-dialog" data-panel="contact" data-panel-title="에디토리얼 서평 투고">에디토리얼 서평 투고</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="pt-space-lg border-t border-surface-container-high/80 flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md font-label-md text-label-md text-outline">
+<div class="flex flex-wrap items-center gap-space-md">
+<a class="text-on-surface-variant hover:text-on-surface font-medium" data-path="privacy-policy" href="#pages-dialog" data-panel="privacy" data-panel-title="개인정보처리방침">개인정보처리방침</a>
+<span class="text-surface-container-high">•</span>
+<a class="hover:text-on-surface" data-path="terms-of-service" href="#pages-dialog" data-panel="terms" data-panel-title="이용약관">이용약관</a>
+<span class="text-surface-container-high">•</span>
+<a class="hover:text-on-surface" data-path="copyright" href="#pages-dialog" data-panel="terms" data-panel-title="저작권 안내">저작권 안내</a>
+<span class="text-surface-container-high">•</span>
+<span class="">사업자등록번호: 예시 사업자</span>
+<span class="text-surface-container-high">•</span>
+<span class="">통신판매업신고: 예시 쇼핑몰</span>
+</div>
+<p class="text-label-sm font-label-sm text-outline">© 2025 PAGES Inc. All rights reserved.</p>
+</div>
+</div>
+<p class="demo-note">PAGES는 디자인 템플릿의 가상 서점입니다. 도서·인물·프로그램과 후기는 예시이며 구매 및 예약은 체험용입니다. 문의 hello@pages.example.com</p>
+</footer>
+
+<dialog id="pages-dialog" aria-labelledby="dialog-title">
+<div class="dialog-head">
+<div>
+<span class="eyebrow">PAGES ATELIER</span>
+<h2 id="dialog-title">
+</h2>
+</div>
+<button type="button" data-close="" aria-label="닫기">
+<svg class="icon" data-icon="close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 6 12 12M6 18 18 6">
+</path>
+</svg>
+</button>
+</div>
+<div id="dialog-body">
+</div>
+</dialog>
+<div id="pages-toast" role="status" hidden="">
+</div>
+
+
+
+</body>
+</html>
