@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>아틀리에에서 찾아보세요 | ATELIER CUISINE</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="atelier-cuisine.css">
+<script defer="" src="atelier-cuisine-data.js">
+</script>
+<script defer="" src="atelier-cuisine.js">
+</script>
+</head>
+<body data-page="support" >
+<a class="ac-skip" href="#main">본문 바로가기</a>
+<header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface/95 backdrop-blur-md shadow-[0_1px_8px_rgba(40,54,41,0.04)] ac-header">
+<div class="bg-primary-container text-surface px-margin-mobile md:px-margin text-center py-2 flex items-center justify-center gap-2">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-on-primary-container">Global Editorial</span>
+<p class="font-body-sm text-body-sm text-surface font-medium truncate">전세계 미식 여행: 지중해부터 동남아 스트리트 푸드까지 마스터 레시피 공개</p>
+</div>
+<div class="h-20 max-w-7xl mx-auto px-margin-mobile md:px-gutter flex items-center justify-between gap-space-lg">
+<a class="flex flex-col group flex-shrink-0 text-decoration-none" data-path="recipes" href="index.html">
+<span class="font-headline-sm text-headline-sm tracking-tight text-primary font-bold group-hover:text-secondary transition-colors">ATELIER CUISINE</span>
+<span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase">아틀리에 퀴진 · 에디토리얼</span>
+</a>
+<form data-search="" role="search" action="atelier-search.html">
+<div class="hidden md:flex flex-1 max-w-md items-center relative">
+<svg class="ac-icon  absolute left-3.5 text-outline text-[18px]" data-icon="search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M21 21l-5-5M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0">
+</path>
+</svg>
+<input class="w-full pl-10 pr-4 py-2 bg-surface-container-low rounded-full text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:bg-porcelain-white focus:ring-1 focus:ring-primary-container transition-all" placeholder="어떤 요리를 찾으시나요? 식재료, 국가별 요리, 셰프 검색..." type="search" name="q" aria-label="레시피, 식재료, 셰프 검색">
+</div>
+</form>
+<div class="flex items-center gap-space-md">
+<div class="hidden lg:flex items-center gap-space-sm font-label-md text-label-md text-on-surface-variant">
+<a class="hover:text-primary transition-colors py-1 px-2" data-path="login" href="atelier-login.html">로그인/회원가입</a>
+<span class="text-outline-variant">·</span>
+<a class="hover:text-primary transition-colors py-1 px-2 flex items-center gap-1" data-path="scrapbook" href="atelier-scrapbook.html">
+<svg class="ac-icon  text-[16px]" data-icon="bookmark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg>스크랩 북</a>
+<span class="text-outline-variant">·</span>
+<a class="hover:text-primary transition-colors py-1 px-2 flex items-center gap-1" data-path="cart" href="atelier-cart.html">
+<svg class="ac-icon  text-[16px]" data-icon="shopping_bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 7h14l1 14H4ZM9 8V6a3 3 0 0 1 6 0v2">
+</path>
+</svg>장바구니</a>
+</div>
+<a class="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0 shadow-sm" href="atelier-scrapbook.html" aria-label="나의 스크랩북">
+<svg class="ac-icon  text-on-primary text-[18px]" data-icon="person" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0M4 21v-3a8 8 0 0 1 16 0v3">
+</path>
+</svg>
+</a>
+</div>
+</div>
+<div class="bg-surface-container-low/70 backdrop-blur-sm">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-gutter flex items-center justify-between overflow-x-auto no-scrollbar">
+<nav class="flex items-center gap-space-lg py-2.5 whitespace-nowrap" data-active-classes="text-primary font-bold after:w-full" id="atelier-navigation">
+<form class="ac-mobile-search" data-search="" role="search" action="atelier-search.html">
+<input type="search" name="q" aria-label="레시피와 식재료 검색" placeholder="레시피, 식재료, 셰프 검색">
+<button type="submit">검색</button>
+</form>
+<a aria-current="page" class="transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-primary after:transition-all text-primary font-bold after:w-full" data-path="recipes" href="atelier-recipes.html">전체 레시피</a>
+<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="world-archive" href="atelier-world.html">세계 요리 아카이브</a>
+<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="monthly-cuisine" href="atelier-monthly.html">이달의 퀴진</a>
+<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="market" href="atelier-market.html">키친 &amp; 식재료 마켓</a>
+<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="chef-collection" href="atelier-chefs.html">셰프 컬렉션</a>
+</nav>
+</div>
+</div>
+<div class="bg-surface">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-gutter py-2 flex items-center gap-2 overflow-x-auto no-scrollbar">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider pl-1 pr-2 flex-shrink-0">Region</span>
+<div class="flex items-center gap-1.5 whitespace-nowrap">
+<button class="px-3 py-1 rounded-full bg-primary text-on-primary font-label-md text-label-md transition-all" type="button" data-go="atelier-recipes.html">전체</button>
+<button class="px-3 py-1 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all" type="button" data-go="atelier-world-french.html">🇫🇷 프렌치·양식</button>
+<button class="px-3 py-1 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all" type="button" data-go="atelier-world-japanese.html">🇯🇵 정갈한 일식</button>
+<button class="px-3 py-1 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all" type="button" data-go="atelier-world-chinese.html">🇨🇳 불맛 중식</button>
+<button class="px-3 py-1 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all" type="button" data-go="atelier-world-thai.html">🇹🇭 베트남·동남아</button>
+<button class="px-3 py-1 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all" type="button" data-go="atelier-world-italian.html">🇬🇷 지중해·이탈리안</button>
+<button class="px-3 py-1 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all" type="button" data-go="atelier-world-mexican.html">🇲🇽 멕시칸·라틴</button>
+<button class="px-3 py-1 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all" type="button" data-go="atelier-world-korean.html">🇰🇷 모던 한식</button>
+</div>
+</div>
+</div>
+<button class="ac-mobile-menu" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="atelier-navigation">
+<svg class="ac-icon" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 6h18M3 12h18M3 18h18">
+</path>
+</svg>
+</button>
+</header>
+<main id="main" class="ac-main">
+<div class="ac-wrap">
+<nav class="ac-crumbs" aria-label="현재 위치">
+<a href="index.html">홈</a>
+<span>/</span>
+<a href="atelier-recipes.html">아틀리에 아카이브</a>
+<span>/</span>
+<span>아틀리에에서 찾아보세요</span>
+</nav>
+<header class="ac-intro">
+<p class="eyebrow">ATELIER DISCOVERY</p>
+<h1>아틀리에에서 찾아보세요</h1>
+<p>레시피와 식재료, 셰프의 이야기를 한곳에서.</p>
+</header>
+<div class="ac-catalog-controls">
+<label>찾아보기<input type="search" data-catalog-search placeholder="레시피, 식재료, 셰프 검색">
+</label>
+<label>정렬<select data-catalog-sort>
+<option value="recommended">추천순</option>
+</select>
+</label>
+<p data-catalog-count role="status">
+</p>
+</div>
+<p data-catalog-empty hidden>찾는 항목이 없습니다. 다른 단어로 검색해 보세요.</p>
+<div class="ac-grid">
+<article class="ac-card" data-catalog-card data-cuisine="italian" data-search="시칠리아산 보타르가와 햇올리브오일 생면 탈리올리니 이탈리안 &amp; 지중해 마테오 리 생면 탈리올리니 보타르가 올리브오일 샬롯 마늘 레몬" data-price="25">
+<a href="atelier-recipe-bottarga.html">
+<img src="images/atelier-bottarga.jpg" alt="시칠리아산 보타르가와 햇올리브오일 생면 탈리올리니" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">이탈리안 &amp; 지중해 · 25분</p>
+<h3>시칠리아산 보타르가와 햇올리브오일 생면 탈리올리니</h3>
+<p>시칠리아산 보타르가와 햇올리브오일 생면 탈리올리니을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:bottarga" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="italian" data-search="지중해 햇올리브와 수제 생면 파스타 이탈리안 &amp; 지중해 마테오 리 생면 파스타 올리브오일 보타르가 파르메산" data-price="30">
+<a href="atelier-recipe-mediterranean.html">
+<img src="images/atelier-mediterranean-pasta.jpg" alt="지중해 햇올리브와 수제 생면 파스타" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">이탈리안 &amp; 지중해 · 30분</p>
+<h3>지중해 햇올리브와 수제 생면 파스타</h3>
+<p>지중해 햇올리브와 수제 생면 파스타을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:mediterranean" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="french" data-search="정통 부르고뉴 와인 비프 부르기뇽 프렌치 클래식 로렌 바우어 소고기 양파 당근 버섯 육수" data-price="120">
+<a href="atelier-recipe-bourguignon.html">
+<img src="images/atelier-bourguignon.jpg" alt="정통 부르고뉴 와인 비프 부르기뇽" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">프렌치 클래식 · 120분</p>
+<h3>정통 부르고뉴 와인 비프 부르기뇽</h3>
+<p>정통 부르고뉴 와인 비프 부르기뇽을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:bourguignon" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="japanese" data-search="자가제면 차슈 진국 돈코츠 라멘 일식 가이세키 하루 아오이 라멘 면 준비한 돈코츠 육수 익힌 차슈 달걀 대파" data-price="45">
+<a href="atelier-recipe-ramen.html">
+<img src="images/atelier-ramen.jpg" alt="자가제면 차슈 진국 돈코츠 라멘" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">일식 가이세키 · 45분</p>
+<h3>자가제면 차슈 진국 돈코츠 라멘</h3>
+<p>자가제면 차슈 진국 돈코츠 라멘을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:ramen" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="thai" data-search="소프트쉘 크랩 옐로우 푸팟퐁커리 동남아 스트리트 하루 아오이 소프트쉘 크랩 커리 파우더 양파 달걀 코코넛 밀크" data-price="35">
+<a href="atelier-recipe-thai-curry.html">
+<img src="images/atelier-thai-curry.jpg" alt="소프트쉘 크랩 옐로우 푸팟퐁커리" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">동남아 스트리트 · 35분</p>
+<h3>소프트쉘 크랩 옐로우 푸팟퐁커리</h3>
+<p>소프트쉘 크랩 옐로우 푸팟퐁커리을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:thai-curry" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="chinese" data-search="입안에서 녹아내리는 항저우 동파육 사천 &amp; 중화 미식 하루 아오이 삼겹살 대파 생강 간장 육수" data-price="120">
+<a href="atelier-recipe-dongpo.html">
+<img src="images/atelier-dongpo.jpg" alt="입안에서 녹아내리는 항저우 동파육" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">사천 &amp; 중화 미식 · 120분</p>
+<h3>입안에서 녹아내리는 항저우 동파육</h3>
+<p>입안에서 녹아내리는 항저우 동파육을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:dongpo" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="french" data-search="허브 향을 품은 프렌치 덕 콩피 프렌치 클래식 로렌 바우어 오리 다리 감자 허브 마늘" data-price="90">
+<a href="atelier-recipe-confit.html">
+<img src="images/atelier-confit.jpg" alt="허브 향을 품은 프렌치 덕 콩피" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">프렌치 클래식 · 90분</p>
+<h3>허브 향을 품은 프렌치 덕 콩피</h3>
+<p>허브 향을 품은 프렌치 덕 콩피을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:confit" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="italian" data-search="달걀과 치즈의 생면 카르보나라 이탈리안 &amp; 지중해 마테오 리 파스타 달걀 치즈 익힐 베이컨" data-price="25">
+<a href="atelier-recipe-carbonara.html">
+<img src="images/atelier-carbonara.jpg" alt="달걀과 치즈의 생면 카르보나라" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">이탈리안 &amp; 지중해 · 25분</p>
+<h3>달걀과 치즈의 생면 카르보나라</h3>
+<p>달걀과 치즈의 생면 카르보나라을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:carbonara" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="japanese" data-search="단새우와 우니를 곁들인 소바 테이블 일식 가이세키 하루 아오이 소바 면 익힌 새우 소바 육수 김" data-price="25">
+<a href="atelier-recipe-soba.html">
+<img src="images/atelier-soba.jpg" alt="단새우와 우니를 곁들인 소바 테이블" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">일식 가이세키 · 25분</p>
+<h3>단새우와 우니를 곁들인 소바 테이블</h3>
+<p>단새우와 우니를 곁들인 소바 테이블을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:soba" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="chinese" data-search="향신료와 채소를 곁들인 사천 카오위 사천 &amp; 중화 미식 하루 아오이 손질한 생선 채소 두반장 육수" data-price="50">
+<a href="atelier-recipe-kaoyu.html">
+<img src="images/atelier-kaoyu.jpg" alt="향신료와 채소를 곁들인 사천 카오위" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">사천 &amp; 중화 미식 · 50분</p>
+<h3>향신료와 채소를 곁들인 사천 카오위</h3>
+<p>향신료와 채소를 곁들인 사천 카오위을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:kaoyu" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="thai" data-search="레몬그라스 향의 똠얌꿍 동남아 스트리트 하루 아오이 새우 레몬그라스 라임 육수" data-price="30">
+<a href="atelier-recipe-tomyum.html">
+<img src="images/atelier-tomyum.jpg" alt="레몬그라스 향의 똠얌꿍" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">동남아 스트리트 · 30분</p>
+<h3>레몬그라스 향의 똠얌꿍</h3>
+<p>레몬그라스 향의 똠얌꿍을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:tomyum" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="mexican" data-search="따뜻한 콘소메와 비리아 타코 라틴 &amp; 타코 마테오 리 익힌 소고기 토르티야 치즈 육수" data-price="90">
+<a href="atelier-recipe-birria.html">
+<img src="images/atelier-tacos.jpg" alt="따뜻한 콘소메와 비리아 타코" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">라틴 &amp; 타코 · 90분</p>
+<h3>따뜻한 콘소메와 비리아 타코</h3>
+<p>따뜻한 콘소메와 비리아 타코을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:birria" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="korean" data-search="전복과 감태의 모던 솥밥 모던 코리안 하루 아오이 쌀 전복 감태 물" data-price="40">
+<a href="atelier-recipe-abalone.html">
+<img src="images/atelier-abalone.jpg" alt="전복과 감태의 모던 솥밥" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">모던 코리안 · 40분</p>
+<h3>전복과 감태의 모던 솥밥</h3>
+<p>전복과 감태의 모던 솥밥을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:abalone" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="indian" data-search="크림과 향신료의 인디안 버터치킨 인도 &amp; 오리엔트 로렌 바우어 닭고기 토마토 크림 향신료" data-price="45">
+<a href="atelier-recipe-butter-chicken.html">
+<img src="images/atelier-butter-chicken.jpg" alt="크림과 향신료의 인디안 버터치킨" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">인도 &amp; 오리엔트 · 45분</p>
+<h3>크림과 향신료의 인디안 버터치킨</h3>
+<p>크림과 향신료의 인디안 버터치킨을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:butter-chicken" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="italian" data-search="주말의 해산물 파에야 테이블 이탈리안 &amp; 지중해 마테오 리 쌀 손질한 해산물 육수 레몬" data-price="45">
+<a href="atelier-recipe-paella.html">
+<img src="images/atelier-paella.jpg" alt="주말의 해산물 파에야 테이블" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">이탈리안 &amp; 지중해 · 45분</p>
+<h3>주말의 해산물 파에야 테이블</h3>
+<p>주말의 해산물 파에야 테이블을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:paella" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="french" data-search="계절 채소의 프렌치 라타투이 프렌치 클래식 로렌 바우어 주키니 가지 토마토 올리브오일" data-price="50">
+<a href="atelier-recipe-ratatouille.html">
+<img src="images/atelier-ratatouille.jpg" alt="계절 채소의 프렌치 라타투이" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">프렌치 클래식 · 50분</p>
+<h3>계절 채소의 프렌치 라타투이</h3>
+<p>계절 채소의 프렌치 라타투이을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:ratatouille" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="chinese" data-search="향신료와 채소의 사천 훠궈 사천 &amp; 중화 미식 하루 아오이 육수 익힐 소고기 버섯 채소" data-price="35">
+<a href="atelier-recipe-hotpot.html">
+<img src="images/atelier-hotpot.jpg" alt="향신료와 채소의 사천 훠궈" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">사천 &amp; 중화 미식 · 35분</p>
+<h3>향신료와 채소의 사천 훠궈</h3>
+<p>향신료와 채소의 사천 훠궈을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:hotpot" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="italian" data-search="올리브오일과 허브의 돌문어 샐러드 이탈리안 &amp; 지중해 마테오 리 익힌 문어 채소 올리브오일 레몬" data-price="25">
+<a href="atelier-recipe-octopus.html">
+<img src="images/atelier-octopus.jpg" alt="올리브오일과 허브의 돌문어 샐러드" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">이탈리안 &amp; 지중해 · 25분</p>
+<h3>올리브오일과 허브의 돌문어 샐러드</h3>
+<p>올리브오일과 허브의 돌문어 샐러드을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:octopus" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="italian" data-search="토마토와 바질의 브루스케타 이탈리안 &amp; 지중해 마테오 리 사워도우 토마토 올리브오일 바질" data-price="15">
+<a href="atelier-recipe-bruschetta.html">
+<img src="images/atelier-bruschetta.jpg" alt="토마토와 바질의 브루스케타" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">이탈리안 &amp; 지중해 · 15분</p>
+<h3>토마토와 바질의 브루스케타</h3>
+<p>토마토와 바질의 브루스케타을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:bruschetta" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-cuisine="italian" data-search="지중해 아티초크와 민트 샐러드 이탈리안 &amp; 지중해 마테오 리 익힌 아티초크 올리브오일 민트 레몬" data-price="15">
+<a href="atelier-recipe-artichoke.html">
+<img src="images/atelier-artichoke.jpg" alt="지중해 아티초크와 민트 샐러드" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">이탈리안 &amp; 지중해 · 15분</p>
+<h3>지중해 아티초크와 민트 샐러드</h3>
+<p>지중해 아티초크와 민트 샐러드을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
+</div>
+</a>
+<button class="ac-save" type="button" data-save="recipe:artichoke" aria-pressed="false">◇ 스크랩</button>
+</article>
+<article class="ac-card" data-catalog-card data-category="pantry" data-search="아틀리에 햇올리브 엑스트라버진 오일 500ml 부드러운 향과 신선한 올리브의 풍미를 요리에 더하는 팬트리 셀렉션입니다." data-price="23900">
+<a href="atelier-product-olive-oil.html">
+<img src="images/atelier-olive-oil.jpg" alt="아틀리에 햇올리브 엑스트라버진 오일 500ml" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">EDITOR SELECT MARKET</p>
+<h3>아틀리에 햇올리브 엑스트라버진 오일 500ml</h3>
+<p>부드러운 향과 신선한 올리브의 풍미를 요리에 더하는 팬트리 셀렉션입니다.</p>
+<strong>23,900원</strong>
+</div>
+</a>
+<button class="ac-text-button" type="button" data-add-product="olive-oil">장바구니 담기 +</button>
+</article>
+<article class="ac-card" data-catalog-card data-category="tools" data-search="아틀리에 셰프 나이프 5종 &amp; 스테인리스 도마 재료를 손질하는 기본 동작부터 차분히 준비하는 키친웨어 예시입니다." data-price="25900">
+<a href="atelier-product-knife-set.html">
+<img src="images/atelier-knives.jpg" alt="아틀리에 셰프 나이프 5종 &amp; 스테인리스 도마" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">EDITOR SELECT MARKET</p>
+<h3>아틀리에 셰프 나이프 5종 &amp; 스테인리스 도마</h3>
+<p>재료를 손질하는 기본 동작부터 차분히 준비하는 키친웨어 예시입니다.</p>
+<strong>25,900원</strong>
+</div>
+</a>
+<button class="ac-text-button" type="button" data-add-product="knife-set">장바구니 담기 +</button>
+</article>
+<article class="ac-card" data-catalog-card data-category="tools" data-search="아틀리에 수동 생면 파스타 머신 반죽을 밀고 두께를 맞추는 과정을 경험하는 생면 도구입니다." data-price="139000">
+<a href="atelier-product-pasta-machine.html">
+<img src="images/atelier-pasta-machine.jpg" alt="아틀리에 수동 생면 파스타 머신" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">EDITOR SELECT MARKET</p>
+<h3>아틀리에 수동 생면 파스타 머신</h3>
+<p>반죽을 밀고 두께를 맞추는 과정을 경험하는 생면 도구입니다.</p>
+<strong>139,000원</strong>
+</div>
+</a>
+<button class="ac-text-button" type="button" data-add-product="pasta-machine">장바구니 담기 +</button>
+</article>
+<article class="ac-card" data-catalog-card data-category="pantry" data-search="카피르 라임 &amp; 갈랑갈 향신 허브 키트 세계 요리의 향을 살펴보는 허브와 향신료 큐레이션입니다." data-price="32800">
+<a href="atelier-product-herb-kit.html">
+<img src="images/atelier-herbs.jpg" alt="카피르 라임 &amp; 갈랑갈 향신 허브 키트" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">EDITOR SELECT MARKET</p>
+<h3>카피르 라임 &amp; 갈랑갈 향신 허브 키트</h3>
+<p>세계 요리의 향을 살펴보는 허브와 향신료 큐레이션입니다.</p>
+<strong>32,800원</strong>
+</div>
+</a>
+<button class="ac-text-button" type="button" data-add-product="herb-kit">장바구니 담기 +</button>
+</article>
+<article class="ac-card" data-catalog-card data-category="kits" data-search="마스터 클래스 향신료 &amp; 올리브오일 키트 셰프 클래스의 향과 산도를 집에서 살펴볼 수 있는 쿠킹 키트 예시입니다." data-price="89000">
+<a href="atelier-product-class-kit.html">
+<img src="images/atelier-class-kit.jpg" alt="마스터 클래스 향신료 &amp; 올리브오일 키트" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">EDITOR SELECT MARKET</p>
+<h3>마스터 클래스 향신료 &amp; 올리브오일 키트</h3>
+<p>셰프 클래스의 향과 산도를 집에서 살펴볼 수 있는 쿠킹 키트 예시입니다.</p>
+<strong>89,000원</strong>
+</div>
+</a>
+<button class="ac-text-button" type="button" data-add-product="class-kit">장바구니 담기 +</button>
+</article>
+<article class="ac-card" data-catalog-card data-category="pantry" data-search="세몰리나 생면 탈리올리니 200g 오일과 면수의 조합을 살펴보기 위한 생면 파스타 예시입니다." data-price="6900">
+<a href="atelier-product-fresh-pasta.html">
+<img src="images/atelier-pasta-ingredients.jpg" alt="세몰리나 생면 탈리올리니 200g" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">EDITOR SELECT MARKET</p>
+<h3>세몰리나 생면 탈리올리니 200g</h3>
+<p>오일과 면수의 조합을 살펴보기 위한 생면 파스타 예시입니다.</p>
+<strong>6,900원</strong>
+</div>
+</a>
+<button class="ac-text-button" type="button" data-add-product="fresh-pasta">장바구니 담기 +</button>
+</article>
+<article class="ac-card" data-catalog-card data-category="pantry" data-search="보타르가 어란 셀렉션 30g 파스타의 풍미를 마무리하는 보타르가 예시 셀렉션입니다." data-price="17400">
+<a href="atelier-product-bottarga.html">
+<img src="images/atelier-bottarga-gallery.jpg" alt="보타르가 어란 셀렉션 30g" loading="lazy">
+<div class="ac-card-copy">
+<p class="eyebrow">EDITOR SELECT MARKET</p>
+<h3>보타르가 어란 셀렉션 30g</h3>
+<p>파스타의 풍미를 마무리하는 보타르가 예시 셀렉션입니다.</p>
+<strong>17,400원</strong>
+</div>
+</a>
+<button class="ac-text-button" type="button" data-add-product="bottarga">장바구니 담기 +</button>
+</article>
+</div>
+</div>
+</main>
+<footer class="w-full bg-surface-container-low text-on-surface mt-space-3xl">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-gutter py-space-2xl">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-xl mb-space-2xl">
+<div class="md:col-span-5 flex flex-col gap-space-sm">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">ATELIER CUISINE</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">아틀리에 퀴진 미식 아카이브</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">미식의 정점과 일상의 테이블을 잇는 글로벌 퀴진 라이프스타일 매거진. 헤리티지 레시피와 마스터 셰프들의 노하우를 집약합니다.</p>
+<div class="flex items-center gap-space-md pt-2">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-outline uppercase">Customer Care</span>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">hello@atelier.example.com</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">운영시간: 평일 10:00 - 18:00 (점심 12:30 - 13:30 / 주말·공휴일 휴무)</span>
+</div>
+</div>
+</div>
+<div class="md:col-span-2 flex flex-col gap-space-sm">
+<span class="font-label-caps text-label-caps text-primary uppercase font-bold tracking-wider">Navigation</span>
+<ul class="flex flex-col gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<li>
+<a class="hover:text-primary transition-colors" data-path="recipes" href="atelier-recipes.html">전체 레시피</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="world-archive" href="atelier-world.html">세계 요리 아카이브</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="monthly-cuisine" href="atelier-monthly.html">이달의 퀴진</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="market" href="atelier-market.html">키친 &amp; 식재료 마켓</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="chef-collection" href="atelier-chefs.html">셰프 컬렉션</a>
+</li>
+</ul>
+</div>
+<div class="md:col-span-2 flex flex-col gap-space-sm">
+<span class="font-label-caps text-label-caps text-primary uppercase font-bold tracking-wider">Editorial &amp; Studio</span>
+<ul class="flex flex-col gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<li>
+<a class="hover:text-primary transition-colors" data-path="magazine-submission" href="atelier-submission.html">에디토리얼 기고·원고 투고</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="studio-rental" href="atelier-studio.html">쿠킹 스튜디오 대관 문의</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="b2b-partnership" href="atelier-partnership.html">셰프 컬래버레이션 B2B</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="brand-story" href="atelier-about.html">브랜드 스토리</a>
+</li>
+</ul>
+</div>
+<div class="md:col-span-3 flex flex-col gap-space-sm">
+<span class="font-label-caps text-label-caps text-primary uppercase font-bold tracking-wider">Atelier Newsletter</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">매주 목요일, 세계 각국의 제철 미식 스토리와 비밀 레시피를 메일함으로 전해드립니다.</p>
+<form data-local-form="newsletter">
+<div class="flex items-center gap-2 mt-1">
+<input class="w-full px-3 py-2 bg-porcelain-white rounded-lg text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary" placeholder="이메일 주소를 입력하세요" type="email" name="email" required="" aria-label="소식 받을 이메일">
+<button class="px-4 py-2 bg-primary text-on-primary rounded-lg font-label-md text-label-md whitespace-nowrap hover:bg-primary-container transition-all" type="submit">구독</button>
+</div>
+</form>
+</div>
+</div>
+<div class="pt-space-lg flex flex-col gap-3 font-body-sm text-body-sm text-outline">
+<div class="flex flex-wrap items-center gap-x-4 gap-y-1">
+<span class="font-bold text-on-surface">주식회사 아틀리에 퀴진 미디어</span>
+<span>대표이사: 한지민</span>
+<span>사업자등록번호: 예시 정보</span>
+<span>통신판매업신고: 제 2024-서울강남-04192호</span>
+<span>개인정보보호책임자: 정서원</span>
+</div>
+<p>서울특별시 강남구 도산대로 45길 18 아틀리에 퀴진 사옥 3F-5F | 이메일: editorial@ateliercuisine.kr</p>
+<div class="flex flex-wrap items-center justify-between gap-4 pt-4 text-outline">
+<div class="flex items-center gap-4">
+<a class="text-on-surface font-semibold hover:underline" data-path="terms" href="atelier-terms.html">이용약관</a>
+<a class="text-on-surface font-semibold hover:underline" data-path="privacy" href="atelier-privacy.html">개인정보처리방침</a>
+<a class="hover:underline" data-path="operating-guidelines" href="atelier-guidelines.html">운영원칙</a>
+<a class="hover:underline" data-path="notice" href="atelier-notice.html">공지사항</a>
+</div>
+<p>© 2026 ATELIER CUISINE Inc. All rights reserved.</p>
+</div>
+</div>
+</div>
+<p class="ac-demo-note">ATELIER CUISINE는 디자인 템플릿의 가상 요리 스튜디오입니다. 인물·상품·후기는 예시이며 주문과 수강 신청은 체험용입니다. 입력한 연락처는 저장하거나 전송하지 않습니다.</p>
+</footer>
+<dialog id="atelier-dialog" aria-labelledby="atelier-dialog-title">
+<div class="ac-dialog-head">
+<h2 id="atelier-dialog-title">
+</h2>
+<button type="button" data-close="" aria-label="닫기">
+<svg class="ac-icon" data-icon="close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 6 12 12M6 18 18 6">
+</path>
+</svg>
+</button>
+</div>
+<div id="atelier-dialog-body">
+</div>
+</dialog>
+<div id="atelier-status" role="status" hidden>
+</div>
+</body>
+</html>
