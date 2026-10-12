@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="pages.css">
 <script defer="" src="pages-data.js">
 </script>
+<script defer src="pages-navigation.js"></script>
 <script defer src="pages-details.js"></script>
 <meta name="description" content="한 권을 읽고 나누는 즐거움을 더하는 작은 제안.">
 <title>이달의 독서 혜택 | PAGES 페이지스</title>
@@ -36,7 +37,7 @@
 </div>
 <!-- Main Top Tier: Brand Logo, Wide Search Bar, Utility Links -->
 <div class="bg-background/95 border-b border-surface-container-high/60">
-<div class="max-w-[1280px] mx-auto px-gutter h-20 flex items-center justify-between gap-space-lg">
+<div class="pages-brand-row max-w-[1280px] mx-auto px-gutter h-20 flex items-center justify-between gap-space-lg">
 <!-- Brand Logo -->
 <a class="flex items-baseline gap-2 shrink-0 group" data-path="home" href="index.html">
 <div class="flex flex-col">
@@ -88,10 +89,10 @@
 </div>
 <!-- Bottom Tier: GNB Navigation & Category Bar -->
 <div class="bg-surface-container-lowest border-b border-surface-container-high shadow-xs">
-<div class="max-w-[1280px] mx-auto px-gutter flex items-center justify-between h-11">
+<div class="pages-nav-row max-w-[1280px] mx-auto px-gutter flex items-center justify-between h-11">
 <div class="flex items-center h-full">
 <!-- Quick Category Button (YES24 '빠른분야찾기' style) -->
-<button class="h-full bg-primary hover:bg-[#152e24] text-white px-space-md font-label-md text-label-md font-medium flex items-center gap-1.5 transition-colors shrink-0" type="button" data-categories="">
+<button class="pages-category-trigger h-full bg-primary hover:bg-[#152e24] text-white px-space-md font-label-md text-label-md font-medium flex items-center gap-1.5 transition-colors shrink-0" type="button" data-categories="">
 <svg class="icon  text-[17px]" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 <path d="M3 6h18M3 12h18M3 18h18">
 </path>
@@ -125,14 +126,15 @@
 <span class="text-surface-container-high">·</span>
 <a class="hover:text-primary transition-colors text-primary font-medium" href="pages-benefits.html">북클럽 리워드</a>
 </div>
-</div>
-</div>
 <button type="button" class="mobile-menu" aria-label="메뉴 열기" aria-expanded="false" aria-controls="pages-navigation">
 <svg class="icon" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 <path d="M3 6h18M3 12h18M3 18h18">
 </path>
 </svg>
+<span>전체 메뉴</span>
 </button>
+</div>
+</div>
 </header><main id="main" class="d-main"><div class="d-wrap"><nav class="d-crumbs" aria-label="현재 위치"><a href="index.html">홈</a><span>/</span><span>이달의 독서 혜택</span></nav><header class="d-intro"><p class="eyebrow">PAGES READING PRIVILEGES</p><h1>이달의 독서 혜택</h1><p>한 권을 읽고 나누는 즐거움을 더하는 작은 제안.</p></header><section class="d-section"><p class="eyebrow">PAGES EDITORIAL</p><h2>책과 함께 준비한 것들</h2><div class="d-benefits"><div><span>01</span><h3>에디터의 읽기 질문</h3><p>각 도서의 목차와 함께 읽을 문장을 상세 화면에서 만나보세요.</p><a class="primary-button" href="pages-books.html">도서 살펴보기 →</a></div><div><span>02</span><h3>완독 챌린지</h3><p>매일의 작은 읽기를 모임과 함께 이어갑니다.</p><a class="primary-button" href="pages-club-classics.html">챌린지 보기 →</a></div><div><span>03</span><h3>문장 북마크</h3><p>좋아하는 책을 보관하고 마음에 남은 한 줄을 기록합니다.</p><a class="primary-button" href="pages-mypage.html">보관함 열기 →</a></div></div></section><section class="d-section"><p class="eyebrow">PAGES EDITORIAL</p><h2>함께 읽는 계절의 서가</h2><div class="d-grid"><article class="d-card" data-catalog-card data-category="humanities" data-search="사유의 정원 정하온 불안의 시대에 나를 지키는 태도" data-price="17820"><a href="pages-book.html"><img class="d-cover" src="images/pages-garden-cover.jpg" alt="사유의 정원 표지" loading="lazy"><div class="d-card-copy"><p class="eyebrow">PAGES EDITOR'S CHOICE</p><h3>사유의 정원</h3><p>정하온 · 불안의 시대에 나를 지키는 태도</p><strong>17,820원</strong></div></a><button class="d-text-button" data-add-book="garden" type="button">장바구니 담기 +</button></article><article class="d-card" data-catalog-card data-category="essay" data-search="사물의 고요한 소리 서다온 익숙한 물건이 건네는 다정한 안부" data-price="16200"><a href="pages-book-quiet.html"><img class="d-cover" src="images/pages-quiet-cover.jpg" alt="사물의 고요한 소리 표지" loading="lazy"><div class="d-card-copy"><p class="eyebrow">PAGES EDITOR'S CHOICE</p><h3>사물의 고요한 소리</h3><p>서다온 · 익숙한 물건이 건네는 다정한 안부</p><strong>16,200원</strong></div></a><button class="d-text-button" data-add-book="quiet" type="button">장바구니 담기 +</button></article><article class="d-card" data-catalog-card data-category="humanities" data-search="빛과 잔상의 철학 윤서진 나만의 시선을 찾는 시간" data-price="18000"><a href="pages-book-light.html"><img class="d-cover" src="images/pages-light-cover.jpg" alt="빛과 잔상의 철학 표지" loading="lazy"><div class="d-card-copy"><p class="eyebrow">PAGES EDITOR'S CHOICE</p><h3>빛과 잔상의 철학</h3><p>윤서진 · 나만의 시선을 찾는 시간</p><strong>18,000원</strong></div></a><button class="d-text-button" data-add-book="light" type="button">장바구니 담기 +</button></article><article class="d-card" data-catalog-card data-category="art" data-search="디자이너의 찻잔 민유라 손끝에서 시작되는 생활의 미학" data-price="22000"><a href="pages-book-teacup.html"><img class="d-cover" src="images/pages-teacup-cover.jpg" alt="디자이너의 찻잔 표지" loading="lazy"><div class="d-card-copy"><p class="eyebrow">PAGES EDITOR'S CHOICE</p><h3>디자이너의 찻잔</h3><p>민유라 · 손끝에서 시작되는 생활의 미학</p><strong>22,000원</strong></div></a><button class="d-text-button" data-add-book="teacup" type="button">장바구니 담기 +</button></article><article class="d-card" data-catalog-card data-category="literature" data-search="우리가 겨울을 건너는 방식 한서우 서로의 온기를 기억하는 이야기" data-price="15300"><a href="pages-book-winter.html"><img class="d-cover" src="images/pages-winter-cover.jpg" alt="우리가 겨울을 건너는 방식 표지" loading="lazy"><div class="d-card-copy"><p class="eyebrow">PAGES EDITOR'S CHOICE</p><h3>우리가 겨울을 건너는 방식</h3><p>한서우 · 서로의 온기를 기억하는 이야기</p><strong>15,300원</strong></div></a><button class="d-text-button" data-add-book="winter" type="button">장바구니 담기 +</button></article></div></section></div></main><footer class="w-full bg-surface-container-low/90 border-t border-surface-container-high py-space-2xl">
 <div class="max-w-[1280px] mx-auto px-gutter">
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl pb-space-xl">
