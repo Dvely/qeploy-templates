@@ -12,6 +12,7 @@ import { readdir, readFile, mkdir, cp, writeFile } from 'node:fs/promises';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import path from 'node:path';
+import { buildHarutgyeolPages } from './harutgyeol-pages.mjs';
 
 const run = promisify(execFile);
 const ROOT = path.resolve(import.meta.dirname, '..');
@@ -20,6 +21,8 @@ const OUT = path.join(ROOT, 'site');
 const BASE = process.env.PAGES_BASE_URL ?? 'https://dvely.github.io/qeploy-templates';
 
 const REQUIRED = ['id', 'name', 'description', 'stack', 'contentHints'];
+
+await buildHarutgyeolPages();
 
 const ids = (await readdir(SRC, { withFileTypes: true }))
     .filter((e) => e.isDirectory())
