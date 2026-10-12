@@ -1,0 +1,51 @@
+{
+  "id": "atelier-cuisine",
+  "name": "아틀리에 퀴진",
+  "description": "세계 요리 레시피와 셰프 클래스, 식재료 마켓을 연결하는 미식 스튜디오",
+  "tags": [
+    "food",
+    "recipe",
+    "studio",
+    "market",
+    "multi-page"
+  ],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    {
+      "key": "brand",
+      "where": "index.html",
+      "desc": "ATELIER CUISINE 로고와 헤더·푸터. 기존 요리 스튜디오 템플릿을 대체한다."
+    },
+    {
+      "key": "content",
+      "where": "atelier-cuisine-data.js",
+      "desc": "레시피 20개, 상품 7개, 국가별 퀴진 8개, 셰프와 클래스 콘텐츠 정본."
+    },
+    {
+      "key": "references",
+      "where": "layouts/",
+      "desc": "Stitch 원본 레시피·클래스·올리브오일 상품 상세 레이아웃."
+    },
+    {
+      "key": "details",
+      "where": "atelier-cuisine-build.mjs",
+      "desc": "자기 완결형 상세·탐색·주문·신청 화면 생성기. node atelier-cuisine-build.mjs로 갱신한다."
+    },
+    {
+      "key": "flows",
+      "where": "atelier-cuisine.js",
+      "desc": "인분별 계량·타이머·스크랩·상품 수량·장바구니·주문·수강 신청·조리 노트 미리보기."
+    },
+    {
+      "key": "theme",
+      "where": "atelier-cuisine.css",
+      "desc": ":root 색·서체·라운드 토큰과 홈·상세 화면 스타일."
+    },
+    {
+      "key": "images",
+      "where": "images/",
+      "desc": "원본 해상도의 로컬 미식 이미지."
+    }
+  ]
+}

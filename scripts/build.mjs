@@ -14,6 +14,7 @@ import { promisify } from 'node:util';
 import path from 'node:path';
 import { buildHarutgyeolPages } from './harutgyeol-pages.mjs';
 import { buildPagesDetails } from './pages-details.mjs';
+import { buildAtelierCuisine } from './atelier-cuisine-pages.mjs';
 
 const run = promisify(execFile);
 const ROOT = path.resolve(import.meta.dirname, '..');
@@ -25,6 +26,7 @@ const REQUIRED = ['id', 'name', 'description', 'stack', 'contentHints'];
 
 await buildHarutgyeolPages();
 await buildPagesDetails();
+await buildAtelierCuisine();
 
 const ids = (await readdir(SRC, { withFileTypes: true }))
     .filter((e) => e.isDirectory())

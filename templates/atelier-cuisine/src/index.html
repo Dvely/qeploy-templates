@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>ATELIER CUISINE 아틀리에 퀴진 | 세계의 요리와 테이블</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="atelier-cuisine.css">
+<script defer="" src="atelier-cuisine-data.js">
+</script>
+<script defer="" src="atelier-cuisine.js">
+</script>
+</head>
+<body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-container" data-page="home" data-id="">
+<a class="ac-skip" href="#main">본문 바로가기</a>
+<header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface/95 backdrop-blur-md shadow-[0_1px_8px_rgba(40,54,41,0.04)] ac-header">
+<div class="bg-primary-container text-surface px-margin-mobile md:px-margin text-center py-2 flex items-center justify-center gap-2">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-on-primary-container">Global Editorial</span>
+<p class="font-body-sm text-body-sm text-surface font-medium truncate">전세계 미식 여행: 지중해부터 동남아 스트리트 푸드까지 마스터 레시피 공개</p>
+</div>
+<div class="h-20 max-w-7xl mx-auto px-margin-mobile md:px-gutter flex items-center justify-between gap-space-lg">
+<a class="flex flex-col group flex-shrink-0 text-decoration-none" data-path="recipes" href="index.html">
+<span class="font-headline-sm text-headline-sm tracking-tight text-primary font-bold group-hover:text-secondary transition-colors">ATELIER CUISINE</span>
+<span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase">아틀리에 퀴진 · 에디토리얼</span>
+</a>
+<form data-search="" role="search" action="atelier-search.html">
+<div class="hidden md:flex flex-1 max-w-md items-center relative">
+<svg class="ac-icon  absolute left-3.5 text-outline text-[18px]" data-icon="search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M21 21l-5-5M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0">
+</path>
+</svg>
+<input class="w-full pl-10 pr-4 py-2 bg-surface-container-low rounded-full text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:bg-porcelain-white focus:ring-1 focus:ring-primary-container transition-all" placeholder="어떤 요리를 찾으시나요? 식재료, 국가별 요리, 셰프 검색..." type="search" name="q" aria-label="레시피, 식재료, 셰프 검색">
+</div>
+</form>
+<div class="flex items-center gap-space-md">
+<div class="hidden lg:flex items-center gap-space-sm font-label-md text-label-md text-on-surface-variant">
+<a class="hover:text-primary transition-colors py-1 px-2" data-path="login" href="atelier-login.html">로그인/회원가입</a>
+<span class="text-outline-variant">·</span>
+<a class="hover:text-primary transition-colors py-1 px-2 flex items-center gap-1" data-path="scrapbook" href="atelier-scrapbook.html">
+<svg class="ac-icon  text-[16px]" data-icon="bookmark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg>스크랩 북</a>
+<span class="text-outline-variant">·</span>
+<a class="hover:text-primary transition-colors py-1 px-2 flex items-center gap-1" data-path="cart" href="atelier-cart.html">
+<svg class="ac-icon  text-[16px]" data-icon="shopping_bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 7h14l1 14H4ZM9 8V6a3 3 0 0 1 6 0v2">
+</path>
+</svg>장바구니</a>
+</div>
+<a class="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0 shadow-sm" href="atelier-scrapbook.html" aria-label="나의 스크랩북">
+<svg class="ac-icon  text-on-primary text-[18px]" data-icon="person" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0M4 21v-3a8 8 0 0 1 16 0v3">
+</path>
+</svg>
+</a>
+</div>
+</div>
+<div class="bg-surface-container-low/70 backdrop-blur-sm">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-gutter flex items-center justify-between overflow-x-auto no-scrollbar">
+<nav class="flex items-center gap-space-lg py-2.5 whitespace-nowrap" data-active-classes="text-primary font-bold after:w-full" id="atelier-navigation">
+<form class="ac-mobile-search" data-search="" role="search" action="atelier-search.html">
+<input type="search" name="q" aria-label="레시피와 식재료 검색" placeholder="레시피, 식재료, 셰프 검색">
+<button type="submit">검색</button>
+</form>
+<a aria-current="page" class="transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-primary after:transition-all text-primary font-bold after:w-full" data-path="recipes" href="atelier-recipes.html">전체 레시피</a>
+<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="world-archive" href="atelier-world.html">세계 요리 아카이브</a>
+<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="monthly-cuisine" href="atelier-monthly.html">이달의 퀴진</a>
+<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="market" href="atelier-market.html">키친 &amp; 식재료 마켓</a>
+<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="chef-collection" href="atelier-chefs.html">셰프 컬렉션</a>
+</nav>
+</div>
+</div>
+<div class="bg-surface">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-gutter py-2 flex items-center gap-2 overflow-x-auto no-scrollbar">
+<span class="font-label-caps text-label-caps text-outline uppercase tracking-wider pl-1 pr-2 flex-shrink-0">Region</span>
+<div class="flex items-center gap-1.5 whitespace-nowrap">
+<button class="px-3 py-1 rounded-full bg-primary text-on-primary font-label-md text-label-md transition-all" type="button" data-go="atelier-recipes.html">전체</button>
+<button class="px-3 py-1 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all" type="button" data-go="atelier-world-french.html">🇫🇷 프렌치·양식</button>
+<button class="px-3 py-1 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all" type="button" data-go="atelier-world-japanese.html">🇯🇵 정갈한 일식</button>
+<button class="px-3 py-1 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all" type="button" data-go="atelier-world-chinese.html">🇨🇳 불맛 중식</button>
+<button class="px-3 py-1 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all" type="button" data-go="atelier-world-thai.html">🇹🇭 베트남·동남아</button>
+<button class="px-3 py-1 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all" type="button" data-go="atelier-world-italian.html">🇬🇷 지중해·이탈리안</button>
+<button class="px-3 py-1 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all" type="button" data-go="atelier-world-mexican.html">🇲🇽 멕시칸·라틴</button>
+<button class="px-3 py-1 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all" type="button" data-go="atelier-world-korean.html">🇰🇷 모던 한식</button>
+</div>
+</div>
+</div>
+<button class="ac-mobile-menu" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="atelier-navigation">
+<svg class="ac-icon" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 6h18M3 12h18M3 18h18">
+</path>
+</svg>
+</button>
+</header>
+<main class="w-full pt-44 bg-surface min-h-screen" id="main">
+<div class="flex flex-col w-full">
+<!-- LIVE TICKER & GLOBAL CULINARY PULSE -->
+<section class="w-full bg-surface-container-low px-margin-mobile md:px-gutter py-3" id="home-filters">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3">
+<div class="flex items-center gap-2.5">
+<span class="flex h-2.5 w-2.5 relative">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-on-tertiary-container opacity-75">
+</span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-tertiary-container">
+</span>
+</span>
+<span class="font-label-caps text-label-caps text-primary tracking-wider uppercase font-bold">Live Atelier Pulse</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-medium">지금 이 순간, <span class="text-primary font-bold">1,480명</span>의 퀴진 애호가들이 전세계 요리에 도전 중입니다</span>
+</div>
+<div class="flex items-center gap-3 overflow-hidden text-ellipsis whitespace-nowrap bg-porcelain-white py-1.5 px-3 rounded-full shadow-sm">
+<svg class="ac-icon  text-[16px] text-secondary" data-icon="workspace_premium" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m5 12 4 4L19 6">
+</path>
+</svg>
+<p class="font-body-sm text-body-sm text-on-surface truncate">
+<span class="font-semibold text-primary">서울 용산구 김**님</span>이 <span class="text-secondary font-medium">'스페인 발렌시아 사프란 해산물 빠에야'</span> 마스터 완료!
+        </p>
+<div class="flex items-center text-on-tertiary-container text-[12px]">★★★★★</div>
+</div>
+</div>
+</section>
+<!-- WORLD CUISINE VOYAGE: CATEGORY NAVIGATOR -->
+<section class="w-full px-margin-mobile md:px-gutter py-space-xl" id="world">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm mb-space-lg">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-1">Global Terroir &amp; Heritage</span>
+<h2 class="font-headline-md text-headline-md text-primary font-bold">세계 8대 퀴진 오디세이</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">
+          지중해의 풍요로운 올리브 밭에서부터 방콕 밤거리의 웍 프라이까지. 아틀리에 퀴진이 엄선한 전세계 정통 레시피와 큐레이션을 경험하세요.
+        </p>
+</div>
+<!-- Cuisine Category Bento Cards -->
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-3">
+<!-- 1. French -->
+<a class="group flex flex-col p-3 rounded-xl bg-porcelain-white hover:bg-linen-tint transition-all duration-300 shadow-sm text-left" href="atelier-world-french.html">
+<div class="w-full aspect-square rounded-lg overflow-hidden mb-2 relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-confit.jpg" alt="Exquisite French duck confit with golden crisped skin served alongside thyme roasted potatoes on an artisan linen-draped stoneware plate, soft daylight editorial style, warm tones" loading="eager" decoding="async">
+<span class="absolute top-2 left-2 bg-surface/90 px-1.5 py-0.5 rounded text-[11px] font-label-caps text-primary">FR</span>
+</div>
+<span class="font-label-lg text-label-lg text-primary font-bold group-hover:text-secondary truncate">프렌치 클래식</span>
+<span class="font-body-sm text-body-sm text-outline truncate text-[12px]">덕 콩피 · 부르기뇽</span>
+</a>
+<!-- 2. Italian -->
+<a class="group flex flex-col p-3 rounded-xl bg-porcelain-white hover:bg-linen-tint transition-all duration-300 shadow-sm text-left" href="atelier-world-italian.html">
+<div class="w-full aspect-square rounded-lg overflow-hidden mb-2 relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-carbonara.jpg" alt="Handcrafted fresh tagliatelle pasta swirled in golden egg yolk sauce topped with shaved black summer truffles and parmesan, warm atmospheric Italian rustic culinary photography" loading="lazy" decoding="async">
+<span class="absolute top-2 left-2 bg-surface/90 px-1.5 py-0.5 rounded text-[11px] font-label-caps text-primary">IT</span>
+</div>
+<span class="font-label-lg text-label-lg text-primary font-bold group-hover:text-secondary truncate">이탈리안 생면</span>
+<span class="font-body-sm text-body-sm text-outline truncate text-[12px]">보타르가 · 수제파스타</span>
+</a>
+<!-- 3. Japanese -->
+<a class="group flex flex-col p-3 rounded-xl bg-porcelain-white hover:bg-linen-tint transition-all duration-300 shadow-sm text-left" href="atelier-world-japanese.html">
+<div class="w-full aspect-square rounded-lg overflow-hidden mb-2 relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-soba.jpg" alt="Japanese kaiseki artisan soba noodles crowned with sweet amaebi prawns, fresh sea urchin uni and wasabi leaf on ceramic plate, serene Kyoto zen lighting aesthetic" loading="lazy" decoding="async">
+<span class="absolute top-2 left-2 bg-surface/90 px-1.5 py-0.5 rounded text-[11px] font-label-caps text-primary">JP</span>
+</div>
+<span class="font-label-lg text-label-lg text-primary font-bold group-hover:text-secondary truncate">일식 가이세키</span>
+<span class="font-body-sm text-body-sm text-outline truncate text-[12px]">단새우 우니 · 스키야키</span>
+</a>
+<!-- 4. Chinese -->
+<a class="group flex flex-col p-3 rounded-xl bg-porcelain-white hover:bg-linen-tint transition-all duration-300 shadow-sm text-left" href="atelier-world-chinese.html">
+<div class="w-full aspect-square rounded-lg overflow-hidden mb-2 relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-kaoyu.jpg" alt="Vibrant Sichuan grilled fish Kaoyu in bubbling chili broth with peppercorns, scallions, steam rising, high dynamic range rich culinary photography" loading="lazy" decoding="async">
+<span class="absolute top-2 left-2 bg-surface/90 px-1.5 py-0.5 rounded text-[11px] font-label-caps text-primary">CN</span>
+</div>
+<span class="font-label-lg text-label-lg text-primary font-bold group-hover:text-secondary truncate">사천 &amp; 중화 미식</span>
+<span class="font-body-sm text-body-sm text-outline truncate text-[12px]">마라 카오위 · 동파육</span>
+</a>
+<!-- 5. Southeast Asian -->
+<a class="group flex flex-col p-3 rounded-xl bg-porcelain-white hover:bg-linen-tint transition-all duration-300 shadow-sm text-left" href="atelier-world-thai.html">
+<div class="w-full aspect-square rounded-lg overflow-hidden mb-2 relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-tomyum.jpg" alt="Aromatic Thai Tom Yum Goong soup with giant river prawns, lemongrass stalks, galangal, kaffir lime leaves in rustic pottery bowl, vibrant tropical natural light" loading="lazy" decoding="async">
+<span class="absolute top-2 left-2 bg-surface/90 px-1.5 py-0.5 rounded text-[11px] font-label-caps text-primary">TH/VN</span>
+</div>
+<span class="font-label-lg text-label-lg text-primary font-bold group-hover:text-secondary truncate">동남아 스트리트</span>
+<span class="font-body-sm text-body-sm text-outline truncate text-[12px]">똠얌꿍 · 분짜 · 푸팟퐁</span>
+</a>
+<!-- 6. Mexican -->
+<a class="group flex flex-col p-3 rounded-xl bg-porcelain-white hover:bg-linen-tint transition-all duration-300 shadow-sm text-left" href="atelier-world-mexican.html">
+<div class="w-full aspect-square rounded-lg overflow-hidden mb-2 relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-tacos.jpg" alt="Artisanal Mexican birria tacos with slow braised beef, melted Oaxaca cheese, cilantro and dipping consome broth on clay platter, earthy warm tones" loading="lazy" decoding="async">
+<span class="absolute top-2 left-2 bg-surface/90 px-1.5 py-0.5 rounded text-[11px] font-label-caps text-primary">MX</span>
+</div>
+<span class="font-label-lg text-label-lg text-primary font-bold group-hover:text-secondary truncate">라틴 &amp; 타코</span>
+<span class="font-body-sm text-body-sm text-outline truncate text-[12px]">비리아 타코 · 세비체</span>
+</a>
+<!-- 7. Modern Korean -->
+<a class="group flex flex-col p-3 rounded-xl bg-porcelain-white hover:bg-linen-tint transition-all duration-300 shadow-sm text-left" href="atelier-world-korean.html">
+<div class="w-full aspect-square rounded-lg overflow-hidden mb-2 relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-abalone.jpg" alt="Modern Korean abalone and gamtae seaweed pot rice in a black cast iron cocotte, glistening rice grains, edible flowers and delicate seasonal banchan on dark wood table" loading="lazy" decoding="async">
+<span class="absolute top-2 left-2 bg-surface/90 px-1.5 py-0.5 rounded text-[11px] font-label-caps text-primary">KR</span>
+</div>
+<span class="font-label-lg text-label-lg text-primary font-bold group-hover:text-secondary truncate">모던 코리안</span>
+<span class="font-body-sm text-body-sm text-outline truncate text-[12px]">전복 감태 솥밥 · 갈비찜</span>
+</a>
+<!-- 8. Indian & Spice -->
+<a class="group flex flex-col p-3 rounded-xl bg-porcelain-white hover:bg-linen-tint transition-all duration-300 shadow-sm text-left" href="atelier-world-indian.html">
+<div class="w-full aspect-square rounded-lg overflow-hidden mb-2 relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-butter-chicken.jpg" alt="Rich Indian butter chicken makhani with swirl of cream and fresh coriander alongside blistered garlic naan on hammered brass plate, moody dramatic spice lighting" loading="lazy" decoding="async">
+<span class="absolute top-2 left-2 bg-surface/90 px-1.5 py-0.5 rounded text-[11px] font-label-caps text-primary">IN/ME</span>
+</div>
+<span class="font-label-lg text-label-lg text-primary font-bold group-hover:text-secondary truncate">인도 &amp; 오리엔트</span>
+<span class="font-body-sm text-body-sm text-outline truncate text-[12px]">버터치킨 · 샤크슈카</span>
+</a>
+</div>
+</div>
+</section>
+<!-- EDITORIAL HERO SHOWCASE: MONTHLY FEATURED MASTER RECIPE -->
+<section class="w-full px-margin-mobile md:px-gutter py-space-xl bg-linen-tint" id="seasonal">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Visual Presentation (7 Cols) -->
+<div class="lg:col-span-7 relative group">
+<div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-xl bg-porcelain-white">
+<img class="w-full h-full object-cover group-hover:scale-102 transition-transform duration-700" src="images/atelier-mediterranean-pasta.jpg" alt="Cinematic close-up of handmade Mediterranean tagliolini pasta tossed with golden Greek extra virgin olive oil, burst cherry tomatoes, crushed capers, fresh oregano and flaky sea salt, sun-drenched coastal villa table" loading="lazy" decoding="async">
+<!-- Badges Overlay -->
+<div class="absolute top-4 left-4 flex flex-wrap gap-2">
+<span class="bg-primary text-on-primary font-label-caps text-label-caps px-3 py-1 rounded-full uppercase tracking-widest shadow-sm">
+                이달의 마스터 레시피
+              </span>
+<span class="bg-porcelain-white/90 backdrop-blur-sm text-primary font-label-md text-label-md px-2.5 py-1 rounded-full flex items-center gap-1 shadow-sm">
+<svg class="ac-icon  text-[14px] text-tertiary-container" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg> 4.98 (582 리뷰)
+              </span>
+</div>
+<!-- Floating Card: Tasting Profile -->
+<div class="absolute bottom-4 left-4 right-4 bg-porcelain-white/95 backdrop-blur-md p-4 rounded-xl shadow-lg flex flex-wrap items-center justify-between gap-4">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-primary font-bold text-label-lg">
+                  CH
+                </div>
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase block">Head Curator</span>
+<p class="font-label-md text-label-md font-bold text-primary">마테오 셰프 (前 로마 마스터 1스타)</p>
+</div>
+</div>
+<div class="flex items-center gap-4 text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-1">
+<svg class="ac-icon  text-[18px] text-outline" data-icon="timer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M9 2h6M12 6v6l3 2M20 13a8 8 0 1 1-16 0 8 8 0 0 1 16 0">
+</path>
+</svg>
+<span>조리 25분</span>
+</div>
+<div class="flex items-center gap-1">
+<svg class="ac-icon  text-[18px] text-outline" data-icon="tune" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m5 12 4 4L19 6">
+</path>
+</svg>
+<span>난이도 중급</span>
+</div>
+<div class="flex items-center gap-1">
+<svg class="ac-icon  text-[18px] text-outline" data-icon="local_fire_department" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 3c-2 5-7 6-7 12a7 7 0 0 0 14 0c0-5-4-6-3-10-2 2-2 4-4 5 1-3 1-5 0-7Z">
+</path>
+</svg>
+<span>520 kcal</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Recipe Content & Action (5 Cols) -->
+<div class="lg:col-span-5 flex flex-col justify-center">
+<div class="flex items-center gap-2 mb-2">
+<span class="font-label-caps text-label-caps text-tertiary uppercase tracking-widest">Atelier Monthly Curated Cuisine</span>
+<span class="text-outline-variant">/</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase">Issue No. 42</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary font-serif font-bold leading-tight mb-4" id="home-title">
+            지중해에서 온 햇올리브와<br>수제 생면 파스타의 계절
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-6 leading-relaxed">
+            “진정한 파스타의 미학은 복잡한 양념이 아닌, 갓 짜낸 첫 번째 콜드프레스 올리브유와 알 덴테로 삶아낸 생면의 담백한 마찰에서 시작됩니다.”
+            그리스 산토리니 햇올리브와 케이퍼, 이탈리아 직수입 세몰리나 밀가루로 완성하는 지중해 정통의 식탁을 공개합니다.
+          </p>
+<!-- Interactive Scale & Ingredient Box -->
+<div class="bg-porcelain-white p-4 rounded-xl shadow-sm mb-6 flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-primary font-bold flex items-center gap-1.5">
+<svg class="ac-icon  text-[18px] text-secondary" data-icon="kitchen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m5 12 4 4L19 6">
+</path>
+</svg>
+                미장플라스 (Mise-en-Place) 준비량
+              </span>
+<div class="flex bg-surface-container rounded-full p-0.5">
+<button class="px-2.5 py-0.5 text-xs font-semibold rounded-full bg-primary text-on-primary" type="button" data-servings="2">2인분</button>
+<button class="px-2.5 py-0.5 text-xs font-medium text-on-surface-variant hover:text-primary" type="button" data-servings="4">4인분</button>
+<button class="px-2.5 py-0.5 text-xs font-medium text-on-surface-variant hover:text-primary" type="button" data-servings="6">파티(6인)</button>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-2 pt-1 font-body-sm text-body-sm text-on-surface">
+<div class="flex items-center justify-between bg-surface-container-low px-3 py-1.5 rounded-lg">
+<span>이탈리아 카푸토 세몰리나</span>
+<span class="font-bold text-secondary" data-base-qty="200" data-unit="g">200g</span>
+</div>
+<div class="flex items-center justify-between bg-surface-container-low px-3 py-1.5 rounded-lg">
+<span>유기농 아틀리에 햇올리브오일</span>
+<span class="font-bold text-secondary" data-base-qty="45" data-unit="ml">45ml</span>
+</div>
+<div class="flex items-center justify-between bg-surface-container-low px-3 py-1.5 rounded-lg">
+<span>지중해 염장 케이퍼베리</span>
+<span class="font-bold text-secondary" data-base-qty="30" data-unit="g">30g</span>
+</div>
+<div class="flex items-center justify-between bg-surface-container-low px-3 py-1.5 rounded-lg">
+<span>24개월 파르미지아노 레지아노</span>
+<span class="font-bold text-secondary" data-base-qty="25" data-unit="g">25g</span>
+</div>
+</div>
+</div>
+<!-- Buttons -->
+<div class="flex items-center gap-3">
+<a class="flex-1 py-3.5 px-6 rounded-full bg-primary text-on-primary font-label-lg text-label-lg font-bold text-center hover:bg-primary-container transition-all shadow-md flex items-center justify-center gap-2" href="atelier-recipe-mediterranean.html" data-servings-link="">
+<svg class="ac-icon  text-[20px]" data-icon="menu_book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 5v15M3 4c4-1 7 0 9 1 2-1 5-2 9-1v15c-4-1-7 0-9 1-2-1-5-2-9-1Z">
+</path>
+</svg>
+              마스터 레시피 단계별 보기
+            </a>
+<button class="py-3.5 px-5 rounded-full bg-secondary text-on-secondary font-label-lg text-label-lg font-bold hover:bg-on-secondary-container transition-all shadow-md flex items-center justify-center gap-1.5" type="button" data-recipe-basket="mediterranean">
+<svg class="ac-icon  text-[20px]" data-icon="add_shopping_cart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 3h2l3 14h12l2-10H6M9 21h1M18 21h1M12 3v8M8 7h8">
+</path>
+</svg>
+              재료 원클릭 담기
+            </button>
+<button class="w-12 h-12 rounded-full bg-porcelain-white text-primary flex items-center justify-center shadow-sm hover:bg-surface-container transition-all" type="button" data-save="recipe:mediterranean">
+<svg class="ac-icon  text-[20px]" data-icon="bookmark_border" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- MASTER CHEF MASTERCLASS COLUMN & VIDEO PREVIEW -->
+<section class="w-full px-margin-mobile md:px-gutter py-space-2xl bg-surface" id="master-class">
+<div class="max-w-7xl mx-auto">
+<div class="bg-primary text-on-primary rounded-2xl overflow-hidden p-6 md:p-12 relative shadow-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-5 flex flex-col gap-4 z-10">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-widest">Master Chef Masterclass</span>
+<h3 class="font-headline-lg text-headline-lg text-porcelain-white font-serif font-bold">
+              마스터 셰프가 전하는<br>전세계 퀴진의 시크릿 킥
+            </h3>
+<p class="font-body-md text-body-md text-surface-variant leading-relaxed">
+              “불과 기름이 만나는 0.5초의 순간, 동남아의 깊은 감칠맛을 내는 팜슈거 카라멜라이징과 프렌치 소스의 유화 법칙.”
+              아틀리에 퀴진 마스터 셰프들이 숨겨둔 테크닉을 비디오 클래스로 만나보세요.
+            </p>
+<div class="flex flex-col gap-2 pt-2">
+<div class="flex items-center gap-3 text-body-sm font-body-sm text-surface">
+<span class="w-6 h-6 rounded-full bg-surface-tint flex items-center justify-center text-xs font-bold text-porcelain-white">1</span>
+<span>02:14 - 사천 화자오 기름을 태우지 않고 불향 입히기</span>
+</div>
+<div class="flex items-center gap-3 text-body-sm font-body-sm text-surface">
+<span class="w-6 h-6 rounded-full bg-surface-tint flex items-center justify-center text-xs font-bold text-porcelain-white">2</span>
+<span>05:40 - 지중해식 에멀전(유화)으로 소스 분리 막는 비법</span>
+</div>
+<div class="flex items-center gap-3 text-body-sm font-body-sm text-surface">
+<span class="w-6 h-6 rounded-full bg-surface-tint flex items-center justify-center text-xs font-bold text-porcelain-white">3</span>
+<span>09:22 - 멕시칸 칠리 파우더와 라임즙의 황금 산도 밸런스</span>
+</div>
+</div>
+<div class="pt-4 flex items-center gap-4">
+<button class="px-6 py-3 bg-tertiary-container text-on-primary rounded-full font-label-lg text-label-lg font-bold hover:bg-on-tertiary-container transition-all flex items-center gap-2" type="button" data-go="atelier-class-master.html">
+<svg class="ac-icon  text-[20px]" data-icon="play_arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m8 4 12 8-12 8Z">
+</path>
+</svg>
+                무료 마스터 클래스 둘러보기
+              </button>
+<span class="text-body-sm font-body-sm text-outline-variant">총 18분 강좌 · 노트</span>
+</div>
+</div>
+<div class="lg:col-span-7 relative">
+<div class="w-full aspect-video rounded-xl overflow-hidden relative shadow-2xl group cursor-pointer">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-chef-preview.jpg" alt="Culinary chef in professional dark chef coat gently plating seared scallops with saffron foam using precision culinary tweezers in a sleek atmospheric Michelin star kitchen studio" loading="lazy" decoding="async">
+<div class="absolute inset-0 bg-primary/40 flex items-center justify-center group-hover:bg-primary/30 transition-all">
+<div class="w-20 h-20 rounded-full bg-porcelain-white text-primary flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform">
+<svg class="ac-icon  text-[36px] ml-1" data-icon="play_arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m8 4 12 8-12 8Z">
+</path>
+</svg>
+</div>
+</div>
+<span class="absolute bottom-4 right-4 bg-primary/80 backdrop-blur-sm text-porcelain-white font-label-caps text-label-caps px-3 py-1 rounded-full">
+                18:24
+              </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- EDITOR'S CHOICE: WORLD TABLE RECIPE SELECTION -->
+<section class="w-full px-margin-mobile md:px-gutter py-space-2xl bg-surface" id="recipes">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm mb-space-lg">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-1">Curated Repertoire</span>
+<h2 class="font-headline-md text-headline-md text-primary font-bold">에디터 초이스: 세계의 테이블</h2>
+</div>
+<a class="font-label-lg text-label-lg text-secondary hover:text-primary font-semibold flex items-center gap-1" href="atelier-recipes.html">
+          전체 레시피 탐색하기
+          <svg class="ac-icon  text-[18px]" data-icon="arrow_forward" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16m-6-6 6 6-6 6">
+</path>
+</svg>
+</a>
+</div>
+<!-- Filterable Tabs -->
+<div class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-3 mb-space-md">
+<button class="px-4 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md font-bold whitespace-nowrap shadow-sm" type="button" data-home-filter="all" aria-pressed="true">전체보기</button>
+<button class="px-4 py-2 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md whitespace-nowrap transition-all" type="button" data-home-filter="french" aria-pressed="false">🇫🇷 유러피안 &amp; 프렌치</button>
+<button class="px-4 py-2 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md whitespace-nowrap transition-all" type="button" data-home-filter="japanese" aria-pressed="false">🇯🇵 아시안 &amp; 정통 일식</button>
+<button class="px-4 py-2 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md whitespace-nowrap transition-all" type="button" data-home-filter="thai" aria-pressed="false">🇹🇭 동남아 에스닉 &amp; 타이</button>
+<button class="px-4 py-2 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md whitespace-nowrap transition-all" type="button" data-home-filter="chinese" aria-pressed="false">🇨🇳 중화 사천 &amp; 딤섬</button>
+<button class="px-4 py-2 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md whitespace-nowrap transition-all" type="button" data-home-filter="mexican" aria-pressed="false">🇲🇽 아메리칸 &amp; 타코</button>
+</div>
+<!-- 4-Column Recipe Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Recipe Card 1 -->
+<div class="group flex flex-col bg-porcelain-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300" data-recipe-card="bourguignon" data-cuisine="french">
+
+<div class="relative aspect-[4/3] overflow-hidden">
+<a href="atelier-recipe-bourguignon.html" class="block w-full h-full" aria-label="레시피 상세 보기" tabindex="-1">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-bourguignon.jpg" alt="Traditional French beef bourguignon simmering in a cast iron pot with glazed pearl onions, mushrooms, red wine reduction, crusty baguette on the side" loading="lazy" decoding="async">
+</a>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-porcelain-white/80 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-tertiary-container transition-colors" type="button" data-save="recipe:bourguignon" aria-pressed="false">
+<svg class="ac-icon  text-[18px]" data-icon="bookmark_border" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg>
+</button>
+<span class="absolute bottom-3 left-3 bg-surface/90 backdrop-blur-sm px-2 py-0.5 rounded text-[11px] font-label-caps text-primary">🇫🇷 프랑스 부르고뉴</span>
+</div>
+
+<div class="p-4 flex flex-col flex-1">
+<div class="flex items-center gap-2 mb-1.5 text-on-surface-variant font-body-sm text-[12px]">
+<span class="flex items-center gap-0.5">
+<svg class="ac-icon  text-[14px]" data-icon="timer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M9 2h6M12 6v6l3 2M20 13a8 8 0 1 1-16 0 8 8 0 0 1 16 0">
+</path>
+</svg> 90분</span>
+<span>·</span>
+<span class="flex items-center gap-0.5">
+<svg class="ac-icon  text-[14px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg> 4.96</span>
+<span>·</span>
+<span>난이도 상급</span>
+</div>
+<a href="atelier-recipe-bourguignon.html">
+<h3 class="font-headline-sm text-[18px] leading-snug text-primary font-bold group-hover:text-secondary transition-colors mb-1">
+              정통 부르고뉴 와인 비프 부르기뇽
+            </h3>
+</a>
+<p class="font-body-sm text-body-sm text-outline line-clamp-2 mb-4">
+              피노 누아 와인에 12시간 숙성한 소고기 사태와 펄 어니언의 깊고 그윽한 풍미.
+            </p>
+<div class="mt-auto pt-3 flex items-center justify-between border-t border-border-subtle">
+<div class="flex items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-secondary-fixed flex items-center justify-center text-xs font-bold text-primary">J</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-medium">로렌 바우어 셰프</span>
+</div>
+<span class="font-label-caps text-label-caps text-secondary font-bold">1,890 스크랩</span>
+</div>
+</div>
+</div>
+<!-- Recipe Card 2 -->
+<div class="group flex flex-col bg-porcelain-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300" data-recipe-card="ramen" data-cuisine="japanese">
+
+<div class="relative aspect-[4/3] overflow-hidden">
+<a href="atelier-recipe-ramen.html" class="block w-full h-full" aria-label="레시피 상세 보기" tabindex="-1">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-ramen.jpg" alt="Traditional Japanese tonkotsu ramen with deep rich cloudy broth, tender sliced rolled chashu pork, seasoned ramen egg with runny yolk, nori, scallions on dark ceramic bowl" loading="lazy" decoding="async">
+</a>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-porcelain-white/80 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-tertiary-container transition-colors" type="button" data-save="recipe:ramen" aria-pressed="false">
+<svg class="ac-icon  text-[18px]" data-icon="bookmark_border" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg>
+</button>
+<span class="absolute bottom-3 left-3 bg-surface/90 backdrop-blur-sm px-2 py-0.5 rounded text-[11px] font-label-caps text-primary">🇯🇵 일본 후쿠오카</span>
+</div>
+
+<div class="p-4 flex flex-col flex-1">
+<div class="flex items-center gap-2 mb-1.5 text-on-surface-variant font-body-sm text-[12px]">
+<span class="flex items-center gap-0.5">
+<svg class="ac-icon  text-[14px]" data-icon="timer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M9 2h6M12 6v6l3 2M20 13a8 8 0 1 1-16 0 8 8 0 0 1 16 0">
+</path>
+</svg> 45분</span>
+<span>·</span>
+<span class="flex items-center gap-0.5">
+<svg class="ac-icon  text-[14px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg> 4.99</span>
+<span>·</span>
+<span>난이도 중급</span>
+</div>
+<a href="atelier-recipe-ramen.html">
+<h3 class="font-headline-sm text-[18px] leading-snug text-primary font-bold group-hover:text-secondary transition-colors mb-1">
+              자가제면 차슈 진국 돈코츠 라멘
+            </h3>
+</a>
+<p class="font-body-sm text-body-sm text-outline line-clamp-2 mb-4">
+              가정에서 완성하는 8시간 우린 풍미의 돈사골 베이스와 수제 간장 타레 레시피.
+            </p>
+<div class="mt-auto pt-3 flex items-center justify-between border-t border-border-subtle">
+<div class="flex items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-secondary-fixed flex items-center justify-center text-xs font-bold text-primary">K</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-medium">켄지 마스터</span>
+</div>
+<span class="font-label-caps text-label-caps text-secondary font-bold">2,410 스크랩</span>
+</div>
+</div>
+</div>
+<!-- Recipe Card 3 -->
+<div class="group flex flex-col bg-porcelain-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300" data-recipe-card="thai-curry" data-cuisine="thai">
+
+<div class="relative aspect-[4/3] overflow-hidden">
+<a href="atelier-recipe-thai-curry.html" class="block w-full h-full" aria-label="레시피 상세 보기" tabindex="-1">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-thai-curry.jpg" alt="Golden crisp Thai soft shell crab in aromatic yellow egg curry sauce, Poo Pad Pong Karee with celery leaves, red peppers, warm steaming jasmine rice in coconut bowl" loading="lazy" decoding="async">
+</a>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-porcelain-white/80 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-tertiary-container transition-colors" type="button" data-save="recipe:thai-curry" aria-pressed="false">
+<svg class="ac-icon  text-[18px]" data-icon="bookmark_border" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg>
+</button>
+<span class="absolute bottom-3 left-3 bg-surface/90 backdrop-blur-sm px-2 py-0.5 rounded text-[11px] font-label-caps text-primary">🇹🇭 태국 방콕</span>
+</div>
+
+<div class="p-4 flex flex-col flex-1">
+<div class="flex items-center gap-2 mb-1.5 text-on-surface-variant font-body-sm text-[12px]">
+<span class="flex items-center gap-0.5">
+<svg class="ac-icon  text-[14px]" data-icon="timer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M9 2h6M12 6v6l3 2M20 13a8 8 0 1 1-16 0 8 8 0 0 1 16 0">
+</path>
+</svg> 30분</span>
+<span>·</span>
+<span class="flex items-center gap-0.5">
+<svg class="ac-icon  text-[14px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg> 4.92</span>
+<span>·</span>
+<span>난이도 쉬움</span>
+</div>
+<a href="atelier-recipe-thai-curry.html">
+<h3 class="font-headline-sm text-[18px] leading-snug text-primary font-bold group-hover:text-secondary transition-colors mb-1">
+              소프트쉘 크랩 옐로우 푸팟퐁커리
+            </h3>
+</a>
+<p class="font-body-sm text-body-sm text-outline line-clamp-2 mb-4">
+              바삭하게 튀긴 게살과 몽글몽글 부드러운 코코넛 칠리 오일 에그 소스의 완벽한 조화.
+            </p>
+<div class="mt-auto pt-3 flex items-center justify-between border-t border-border-subtle">
+<div class="flex items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-secondary-fixed flex items-center justify-center text-xs font-bold text-primary">S</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-medium">솜차이 연구가</span>
+</div>
+<span class="font-label-caps text-label-caps text-secondary font-bold">1,450 스크랩</span>
+</div>
+</div>
+</div>
+<!-- Recipe Card 4 -->
+<div class="group flex flex-col bg-porcelain-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300" data-recipe-card="dongpo" data-cuisine="chinese">
+
+<div class="relative aspect-[4/3] overflow-hidden">
+<a href="atelier-recipe-dongpo.html" class="block w-full h-full" aria-label="레시피 상세 보기" tabindex="-1">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-dongpo.jpg" alt="Traditional Chinese Dongpo pork braised pork belly glazed in dark aromatic sweet soy sauce with tender bok choy on elegant celadon plate, soft steam rising" loading="lazy" decoding="async">
+</a>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-porcelain-white/80 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-tertiary-container transition-colors" type="button" data-save="recipe:dongpo" aria-pressed="false">
+<svg class="ac-icon  text-[18px]" data-icon="bookmark_border" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg>
+</button>
+<span class="absolute bottom-3 left-3 bg-surface/90 backdrop-blur-sm px-2 py-0.5 rounded text-[11px] font-label-caps text-primary">🇨🇳 중국 항저우</span>
+</div>
+
+<div class="p-4 flex flex-col flex-1">
+<div class="flex items-center gap-2 mb-1.5 text-on-surface-variant font-body-sm text-[12px]">
+<span class="flex items-center gap-0.5">
+<svg class="ac-icon  text-[14px]" data-icon="timer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M9 2h6M12 6v6l3 2M20 13a8 8 0 1 1-16 0 8 8 0 0 1 16 0">
+</path>
+</svg> 80분</span>
+<span>·</span>
+<span class="flex items-center gap-0.5">
+<svg class="ac-icon  text-[14px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg> 4.95</span>
+<span>·</span>
+<span>난이도 중급</span>
+</div>
+<a href="atelier-recipe-dongpo.html">
+<h3 class="font-headline-sm text-[18px] leading-snug text-primary font-bold group-hover:text-secondary transition-colors mb-1">
+              입안에서 녹아내리는 항저우 동파육
+            </h3>
+</a>
+<p class="font-body-sm text-body-sm text-outline line-clamp-2 mb-4">
+              소흥주와 흑설탕의 은은한 캐러멜화로 기름기는 쏙 빼고 젤라틴의 탄력을 극대화한 레시피.
+            </p>
+<div class="mt-auto pt-3 flex items-center justify-between border-t border-border-subtle">
+<div class="flex items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-secondary-fixed flex items-center justify-center text-xs font-bold text-primary">L</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-medium">이연복 컬렉션</span>
+</div>
+<span class="font-label-caps text-label-caps text-secondary font-bold">3,120 스크랩</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- GLOBAL PANTRY & ARTISANAL KITCHENWARE MARKET (inspired by curation logic) -->
+<section class="w-full px-margin-mobile md:px-gutter py-space-2xl bg-surface-container-low" id="market">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm mb-space-lg">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="bg-tertiary-container text-on-primary font-label-caps text-label-caps px-2 py-0.5 rounded font-bold uppercase">Market Exclusive</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Global Pantry &amp; Cookware</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-primary font-bold">에디터 셀렉트 마켓 &amp; 키친웨어</h2>
+</div>
+<div class="flex items-center gap-2">
+<a class="px-3.5 py-1.5 rounded-full bg-porcelain-white text-on-surface hover:text-primary font-label-md text-label-md shadow-sm" href="atelier-market.html">단독특가전</a>
+<a class="px-3.5 py-1.5 rounded-full bg-porcelain-white text-on-surface hover:text-primary font-label-md text-label-md shadow-sm" href="atelier-market.html">직수입 식재료</a>
+<a class="px-3.5 py-1.5 rounded-full bg-porcelain-white text-on-surface hover:text-primary font-label-md text-label-md shadow-sm" href="atelier-chefs.html">셰프의 도구</a>
+</div>
+</div>
+<!-- Market Items Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Item 1 -->
+<div class="group flex flex-col bg-porcelain-white rounded-2xl p-4 shadow-sm hover:shadow-md transition-all">
+<a href="atelier-product-olive-oil.html" tabindex="-1" aria-label="상품 상세 보기">
+<div class="relative aspect-square rounded-xl overflow-hidden mb-3 bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-olive-home.jpg" alt="Greek organic extra virgin olive oil dark glass bottle with minimalistic typography label, green olive branch accents, warm natural daylight" loading="lazy" decoding="async">
+<span class="absolute top-2 left-2 bg-tertiary-container text-on-primary font-label-caps text-label-caps px-2 py-0.5 rounded font-bold">2일 남음</span>
+<span class="absolute bottom-2 left-2 bg-surface/90 text-primary font-label-md text-label-md px-2 py-0.5 rounded shadow-sm">단독특가</span>
+</div>
+</a>
+<div class="flex flex-col flex-1">
+<span class="font-label-caps text-label-caps text-outline uppercase mb-1">그리스 산토리니 산지직송</span>
+<a href="atelier-product-olive-oil.html">
+<h3 class="font-label-lg text-label-lg font-bold text-primary group-hover:text-secondary transition-colors line-clamp-2 mb-2">
+              순수의 땅, 그리스산 '아틀리에' 26년산 유기농 올리브오일 500ml
+            </h3>
+</a>
+<div class="mt-auto pt-2 flex flex-col gap-1">
+<div class="flex items-baseline gap-2">
+<span class="font-headline-sm text-headline-sm font-bold text-tertiary-container">32%</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary">23,900원</span>
+<span class="font-body-sm text-body-sm text-outline line-through">35,000원</span>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="bg-surface-container text-on-surface-variant font-label-caps text-label-caps px-2 py-0.5 rounded">무료배송</span>
+<button class="w-9 h-9 rounded-full bg-primary text-on-primary flex items-center justify-center hover:bg-secondary transition-colors" type="button" data-add-product="olive-oil">
+<svg class="ac-icon  text-[18px]" data-icon="shopping_bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 7h14l1 14H4ZM9 8V6a3 3 0 0 1 6 0v2">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="group flex flex-col bg-porcelain-white rounded-2xl p-4 shadow-sm hover:shadow-md transition-all">
+<a href="atelier-product-knife-set.html" tabindex="-1" aria-label="상품 상세 보기">
+<div class="relative aspect-square rounded-xl overflow-hidden mb-3 bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-knives.jpg" alt="High precision German and French stainless steel chef knife with damascus steel wave pattern and ergonomic pakkawood handle lying on dark walnut board" loading="lazy" decoding="async">
+<span class="absolute top-2 left-2 bg-secondary text-on-secondary font-label-caps text-label-caps px-2 py-0.5 rounded font-bold">셰프 강력추천</span>
+<span class="absolute bottom-2 left-2 bg-surface/90 text-primary font-label-md text-label-md px-2 py-0.5 rounded shadow-sm">단독최저가</span>
+</div>
+</a>
+<div class="flex flex-col flex-1">
+<span class="font-label-caps text-label-caps text-outline uppercase mb-1">프랑스 사바티에 헤리티지</span>
+<a href="atelier-product-knife-set.html">
+<h3 class="font-label-lg text-label-lg font-bold text-primary group-hover:text-secondary transition-colors line-clamp-2 mb-2">
+              아틀리에 셰프 나이프 5종 세트 + ALL 스테인레스 도마
+            </h3>
+</a>
+<div class="mt-auto pt-2 flex flex-col gap-1">
+<div class="flex items-baseline gap-2">
+<span class="font-headline-sm text-headline-sm font-bold text-tertiary-container">83%</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary">25,900원</span>
+<span class="font-body-sm text-body-sm text-outline line-through">148,000원</span>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="bg-surface-container text-on-surface-variant font-label-caps text-label-caps px-2 py-0.5 rounded">한정수량 150개</span>
+<button class="w-9 h-9 rounded-full bg-primary text-on-primary flex items-center justify-center hover:bg-secondary transition-colors" type="button" data-add-product="knife-set">
+<svg class="ac-icon  text-[18px]" data-icon="shopping_bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 7h14l1 14H4ZM9 8V6a3 3 0 0 1 6 0v2">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="group flex flex-col bg-porcelain-white rounded-2xl p-4 shadow-sm hover:shadow-md transition-all">
+<a href="atelier-product-pasta-machine.html" tabindex="-1" aria-label="상품 상세 보기">
+<div class="relative aspect-square rounded-xl overflow-hidden mb-3 bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-pasta-machine.jpg" alt="Authentic Italian Marcato Atlas 150 manual chrome pasta machine with freshly rolled yellow pasta ribbons draping elegantly onto a wooden floured worktop" loading="lazy" decoding="async">
+<span class="absolute top-2 left-2 bg-primary text-on-primary font-label-caps text-label-caps px-2 py-0.5 rounded font-bold">공동구매 1일 남음</span>
+<span class="absolute bottom-2 left-2 bg-surface/90 text-primary font-label-md text-label-md px-2 py-0.5 rounded shadow-sm">이탈리아 직수입</span>
+</div>
+</a>
+<div class="flex flex-col flex-1">
+<span class="font-label-caps text-label-caps text-outline uppercase mb-1">이탈리아 마르카토 오리지널</span>
+<a href="atelier-product-pasta-machine.html">
+<h3 class="font-label-lg text-label-lg font-bold text-primary group-hover:text-secondary transition-colors line-clamp-2 mb-2">
+              아틀리에 수동 생면 파스타 머신 (크롬 실버)
+            </h3>
+</a>
+<div class="mt-auto pt-2 flex flex-col gap-1">
+<div class="flex items-baseline gap-2">
+<span class="font-headline-sm text-headline-sm font-bold text-tertiary-container">30%</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary">139,000원</span>
+<span class="font-body-sm text-body-sm text-outline line-through">199,000원</span>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="bg-surface-container text-on-surface-variant font-label-caps text-label-caps px-2 py-0.5 rounded">무료배송</span>
+<button class="w-9 h-9 rounded-full bg-primary text-on-primary flex items-center justify-center hover:bg-secondary transition-colors" type="button" data-add-product="pasta-machine">
+<svg class="ac-icon  text-[18px]" data-icon="shopping_bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 7h14l1 14H4ZM9 8V6a3 3 0 0 1 6 0v2">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="group flex flex-col bg-porcelain-white rounded-2xl p-4 shadow-sm hover:shadow-md transition-all">
+<a href="atelier-product-herb-kit.html" tabindex="-1" aria-label="상품 상세 보기">
+<div class="relative aspect-square rounded-xl overflow-hidden mb-3 bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-herbs.jpg" alt="Gourmet Southeast Asian herb seasoning set with fresh galangal root, kaffir lime leaves, birds eye chilies and authentic fish sauce bottle arranged in artisan woven tray" loading="lazy" decoding="async">
+<span class="absolute top-2 left-2 bg-tertiary-container text-on-primary font-label-caps text-label-caps px-2 py-0.5 rounded font-bold">New</span>
+<span class="absolute bottom-2 left-2 bg-surface/90 text-primary font-label-md text-label-md px-2 py-0.5 rounded shadow-sm">방콕 프레시 직배송</span>
+</div>
+</a>
+<div class="flex flex-col flex-1">
+<span class="font-label-caps text-label-caps text-outline uppercase mb-1">태국 직수입 퀴진 키트</span>
+<a href="atelier-product-herb-kit.html">
+<h3 class="font-label-lg text-label-lg font-bold text-primary group-hover:text-secondary transition-colors line-clamp-2 mb-2">
+              아틀리에 카피르 라임 리프 + 리얼 갈랑갈 생허브 밀키트 세트
+            </h3>
+</a>
+<div class="mt-auto pt-2 flex flex-col gap-1">
+<div class="flex items-baseline gap-2">
+<span class="font-headline-sm text-headline-sm font-bold text-tertiary-container">33%</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary">32,800원</span>
+<span class="font-body-sm text-body-sm text-outline line-through">49,000원</span>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="bg-surface-container text-on-surface-variant font-label-caps text-label-caps px-2 py-0.5 rounded">무료배송</span>
+<button class="w-9 h-9 rounded-full bg-primary text-on-primary flex items-center justify-center hover:bg-secondary transition-colors" type="button" data-add-product="herb-kit">
+<svg class="ac-icon  text-[18px]" data-icon="shopping_bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 7h14l1 14H4ZM9 8V6a3 3 0 0 1 6 0v2">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- COMMUNITY STORIES: GLOBAL TABLE FEED -->
+<section class="w-full px-margin-mobile md:px-gutter py-space-2xl bg-surface" id="table">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm mb-space-lg">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-1">Our Community</span>
+<h2 class="font-headline-md text-headline-md text-primary font-bold">독자들의 세계 요리 테이블 (Global Table Feed)</h2>
+</div>
+<button class="px-5 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md font-bold flex items-center gap-1.5 self-start md:self-auto hover:bg-primary-container transition-all" type="button" data-go="atelier-share-table.html">
+<svg class="ac-icon  text-[18px]" data-icon="photo_camera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 7h4l2-3h6l2 3h4v14H3ZM16 13a4 4 0 1 1-8 0 4 4 0 0 1 8 0">
+</path>
+</svg>
+          내 테이블 자랑하기
+        </button>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+<!-- Community Card 1 -->
+<a href="atelier-recipe-paella.html" aria-label="독자의 요리 레시피 보기">
+<div class="group relative rounded-xl overflow-hidden aspect-square shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-paella.jpg" alt="Home chef table setting with artisanal Spanish seafood paella in big black pan with lemons, white wine glasses and happy rustic party atmosphere" loading="lazy" decoding="async">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex flex-col justify-end p-3 text-porcelain-white">
+<span class="font-label-caps text-[10px] text-secondary-fixed">@mari_atelier</span>
+<p class="font-body-sm text-body-sm font-semibold truncate">주말 스페인식 빠에야 파티</p>
+<div class="flex items-center gap-1 text-[11px] text-surface-dim">
+<svg class="ac-icon  text-[12px]" data-icon="favorite" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m5 12 4 4L19 6">
+</path>
+</svg> 248
+            </div>
+</div>
+</div>
+</a>
+<!-- Community Card 2 -->
+<a href="atelier-recipe-birria.html" aria-label="독자의 요리 레시피 보기">
+<div class="group relative rounded-xl overflow-hidden aspect-square shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-taco-table.jpg" alt="Top-down view of Mexican Birria tacos with melted cheese dip in a cozy wooden dining room with cocktails" loading="lazy" decoding="async">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex flex-col justify-end p-3 text-porcelain-white">
+<span class="font-label-caps text-[10px] text-secondary-fixed">@jun_gourmet</span>
+<p class="font-body-sm text-body-sm font-semibold truncate">비리아 타코 3시간 끓였어요</p>
+<div class="flex items-center gap-1 text-[11px] text-surface-dim">
+<svg class="ac-icon  text-[12px]" data-icon="favorite" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m5 12 4 4L19 6">
+</path>
+</svg> 189
+            </div>
+</div>
+</div>
+</a>
+<!-- Community Card 3 -->
+<a href="atelier-recipe-soba.html" aria-label="독자의 요리 레시피 보기">
+<div class="group relative rounded-xl overflow-hidden aspect-square shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-soba-table.jpg" alt="Handcrafted Japanese soba dipping noodles with sea urchin uni in an aesthetic minimal apartment table setting" loading="lazy" decoding="async">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex flex-col justify-end p-3 text-porcelain-white">
+<span class="font-label-caps text-[10px] text-secondary-fixed">@soba_lover</span>
+<p class="font-body-sm text-body-sm font-semibold truncate">우니 냉소바의 여름 끝자락</p>
+<div class="flex items-center gap-1 text-[11px] text-surface-dim">
+<svg class="ac-icon  text-[12px]" data-icon="favorite" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m5 12 4 4L19 6">
+</path>
+</svg> 342
+            </div>
+</div>
+</div>
+</a>
+<!-- Community Card 4 -->
+<a href="atelier-recipe-ratatouille.html" aria-label="독자의 요리 레시피 보기">
+<div class="group relative rounded-xl overflow-hidden aspect-square shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-ratatouille.jpg" alt="Homemade French ratatouille beautifully spiraled in round baking dish fresh out of the oven with herbs" loading="lazy" decoding="async">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex flex-col justify-end p-3 text-porcelain-white">
+<span class="font-label-caps text-[10px] text-secondary-fixed">@claire_table</span>
+<p class="font-body-sm text-body-sm font-semibold truncate">영화 속 그 라타투이 완성</p>
+<div class="flex items-center gap-1 text-[11px] text-surface-dim">
+<svg class="ac-icon  text-[12px]" data-icon="favorite" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m5 12 4 4L19 6">
+</path>
+</svg> 410
+            </div>
+</div>
+</div>
+</a>
+<!-- Community Card 5 -->
+<a href="atelier-recipe-hotpot.html" aria-label="독자의 요리 레시피 보기">
+<div class="group relative rounded-xl overflow-hidden aspect-square shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-hotpot.jpg" alt="Spicy bubbling Sichuan hotpot soup with beef rolls, mushrooms, lotus root in a contemporary home dining room setting" loading="lazy" decoding="async">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex flex-col justify-end p-3 text-porcelain-white">
+<span class="font-label-caps text-[10px] text-secondary-fixed">@spicy_chef_choi</span>
+<p class="font-body-sm text-body-sm font-semibold truncate">집에서 즐기는 사천 마라의 밤</p>
+<div class="flex items-center gap-1 text-[11px] text-surface-dim">
+<svg class="ac-icon  text-[12px]" data-icon="favorite" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m5 12 4 4L19 6">
+</path>
+</svg> 276
+            </div>
+</div>
+</div>
+</a>
+<!-- Community Card 6 -->
+<a href="atelier-recipe-abalone.html" aria-label="독자의 요리 레시피 보기">
+<div class="group relative rounded-xl overflow-hidden aspect-square shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/atelier-korean-table.jpg" alt="Traditional Korean abalone hot stone pot rice with side dishes arranged with fine dining precision on a brass table" loading="lazy" decoding="async">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex flex-col justify-end p-3 text-porcelain-white">
+<span class="font-label-caps text-[10px] text-secondary-fixed">@jeju_epicure</span>
+<p class="font-body-sm text-body-sm font-semibold truncate">제주 활전복 감태 솥밥</p>
+<div class="flex items-center gap-1 text-[11px] text-surface-dim">
+<svg class="ac-icon  text-[12px]" data-icon="favorite" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m5 12 4 4L19 6">
+</path>
+</svg> 520
+            </div>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
+<!-- EDITORIAL NEWSLETTER CTA STRIP -->
+<section class="w-full px-margin-mobile md:px-gutter py-space-xl bg-linen-tint" id="newsletter">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-space-lg">
+<div class="flex flex-col gap-1 text-center md:text-left">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest font-bold">Every Thursday In Your Inbox</span>
+<h3 class="font-headline-md text-headline-md text-primary font-bold">목요일 아침, 전세계의 식탁을 메일함으로 배달합니다</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-xl">
+          마스터 셰프의 시크릿 킥, 제철 식재료 산지 직송 소식, 그리고 놓칠 수 없는 단독 공동구매 특가 혜택을 가장 먼저 받아보세요.
+        </p>
+</div>
+<form data-local-form="newsletter">
+<div class="flex items-center gap-2 w-full md:w-auto max-w-md">
+<input class="w-full px-4 py-3 bg-porcelain-white rounded-full text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none shadow-sm" placeholder="이메일 주소를 입력하세요" type="email" name="email" required="" aria-label="소식 받을 이메일">
+<button class="px-6 py-3 bg-primary text-on-primary rounded-full font-label-md text-label-md font-bold whitespace-nowrap hover:bg-primary-container transition-all shadow-md" type="submit">
+          무료 구독
+        </button>
+</div>
+</form>
+</div>
+</section>
+</div>
+</main>
+<footer class="w-full bg-surface-container-low text-on-surface mt-space-3xl">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-gutter py-space-2xl">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-xl mb-space-2xl">
+<div class="md:col-span-5 flex flex-col gap-space-sm">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">ATELIER CUISINE</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">아틀리에 퀴진 미식 아카이브</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">미식의 정점과 일상의 테이블을 잇는 글로벌 퀴진 라이프스타일 매거진. 헤리티지 레시피와 마스터 셰프들의 노하우를 집약합니다.</p>
+<div class="flex items-center gap-space-md pt-2">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-outline uppercase">Customer Care</span>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">hello@atelier.example.com</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">운영시간: 평일 10:00 - 18:00 (점심 12:30 - 13:30 / 주말·공휴일 휴무)</span>
+</div>
+</div>
+</div>
+<div class="md:col-span-2 flex flex-col gap-space-sm">
+<span class="font-label-caps text-label-caps text-primary uppercase font-bold tracking-wider">Navigation</span>
+<ul class="flex flex-col gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<li>
+<a class="hover:text-primary transition-colors" data-path="recipes" href="atelier-recipes.html">전체 레시피</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="world-archive" href="atelier-world.html">세계 요리 아카이브</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="monthly-cuisine" href="atelier-monthly.html">이달의 퀴진</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="market" href="atelier-market.html">키친 &amp; 식재료 마켓</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="chef-collection" href="atelier-chefs.html">셰프 컬렉션</a>
+</li>
+</ul>
+</div>
+<div class="md:col-span-2 flex flex-col gap-space-sm">
+<span class="font-label-caps text-label-caps text-primary uppercase font-bold tracking-wider">Editorial &amp; Studio</span>
+<ul class="flex flex-col gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<li>
+<a class="hover:text-primary transition-colors" data-path="magazine-submission" href="atelier-submission.html">에디토리얼 기고·원고 투고</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="studio-rental" href="atelier-studio.html">쿠킹 스튜디오 대관 문의</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="b2b-partnership" href="atelier-partnership.html">셰프 컬래버레이션 B2B</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="brand-story" href="atelier-about.html">브랜드 스토리</a>
+</li>
+</ul>
+</div>
+<div class="md:col-span-3 flex flex-col gap-space-sm">
+<span class="font-label-caps text-label-caps text-primary uppercase font-bold tracking-wider">Atelier Newsletter</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">매주 목요일, 세계 각국의 제철 미식 스토리와 비밀 레시피를 메일함으로 전해드립니다.</p>
+<form data-local-form="newsletter">
+<div class="flex items-center gap-2 mt-1">
+<input class="w-full px-3 py-2 bg-porcelain-white rounded-lg text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary" placeholder="이메일 주소를 입력하세요" type="email" name="email" required="" aria-label="소식 받을 이메일">
+<button class="px-4 py-2 bg-primary text-on-primary rounded-lg font-label-md text-label-md whitespace-nowrap hover:bg-primary-container transition-all" type="submit">구독</button>
+</div>
+</form>
+</div>
+</div>
+<div class="pt-space-lg flex flex-col gap-3 font-body-sm text-body-sm text-outline">
+<div class="flex flex-wrap items-center gap-x-4 gap-y-1">
+<span class="font-bold text-on-surface">주식회사 아틀리에 퀴진 미디어</span>
+<span>대표이사: 한지민</span>
+<span>사업자등록번호: 예시 정보</span>
+<span>통신판매업신고: 제 2024-서울강남-04192호</span>
+<span>개인정보보호책임자: 정서원</span>
+</div>
+<p>서울특별시 강남구 도산대로 45길 18 아틀리에 퀴진 사옥 3F-5F | 이메일: editorial@ateliercuisine.kr</p>
+<div class="flex flex-wrap items-center justify-between gap-4 pt-4 text-outline">
+<div class="flex items-center gap-4">
+<a class="text-on-surface font-semibold hover:underline" data-path="terms" href="atelier-terms.html">이용약관</a>
+<a class="text-on-surface font-semibold hover:underline" data-path="privacy" href="atelier-privacy.html">개인정보처리방침</a>
+<a class="hover:underline" data-path="operating-guidelines" href="atelier-guidelines.html">운영원칙</a>
+<a class="hover:underline" data-path="notice" href="atelier-notice.html">공지사항</a>
+</div>
+<p>© 2026 ATELIER CUISINE Inc. All rights reserved.</p>
+</div>
+</div>
+</div>
+<p class="ac-demo-note">ATELIER CUISINE는 디자인 템플릿의 가상 요리 스튜디오입니다. 인물·상품·후기는 예시이며 주문과 수강 신청은 체험용입니다. 입력한 연락처는 저장하거나 전송하지 않습니다.</p>
+</footer>
+<dialog id="atelier-dialog" aria-labelledby="atelier-dialog-title">
+<div class="ac-dialog-head">
+<h2 id="atelier-dialog-title">
+</h2>
+<button type="button" data-close="" aria-label="닫기">
+<svg class="ac-icon" data-icon="close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 6 12 12M6 18 18 6">
+</path>
+</svg>
+</button>
+</div>
+<div id="atelier-dialog-body">
+</div>
+</dialog>
+<div id="atelier-status" role="status" hidden="">
+</div>
+
+
+
+</body>
+</html>
