@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="flexspace.css">
+<script defer="" src="flexspace-data.js">
+</script>
+<script defer="" src="flexspace.js">
+</script>
+<title>성수 아틀리에점 | FLEXSPACE</title>
+</head>
+<body class="bg-surface font-body-md text-on-surface antialiased" data-page="branch" data-branch="seongsu">
+<a class="fx-skip" href="#main">본문 바로가기</a>
+<header class="fixed top-0 left-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] fx-header">
+<div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-6 fx-header-row">
+<div class="flex items-center gap-10">
+<a class="flex items-center gap-3 fx-brand" data-path="home" href="index.html">
+<span class="font-headline-md text-headline-md tracking-tight uppercase text-primary font-medium">FLEXSPACE</span>
+<span class="font-label-sm text-label-sm tracking-wider text-on-surface-variant uppercase hidden sm:inline-block">플렉스스페이스</span>
+</a>
+<nav class="hidden xl:flex items-center gap-8" data-active-classes="text-primary font-medium" id="flexspace-navigation">
+<a class="fx-nav-link" data-path="locations" href="flexspace-locations.html" aria-current="page">지점 찾기</a>
+<a class="fx-nav-link" data-path="solutions" href="flexspace-solutions.html">오피스 솔루션</a>
+<a class="fx-nav-link" data-path="price-estimate" href="flexspace-estimate.html">맞춤 견적 계산기</a>
+<a class="fx-nav-link" data-path="member-perks" href="flexspace-benefits.html">입주 멤버 혜택</a>
+<a class="fx-nav-link" data-path="book-tour" href="flexspace-tour.html">투어 예약</a>
+</nav>
+</div>
+<div class="flex items-center gap-4 lg:gap-6 fx-header-tools">
+<a class="hidden md:flex font-label-md text-label-md text-on-surface-variant" href="flexspace-about.html">브랜드 안내</a>
+<a class="hidden lg:flex items-center gap-1.5 font-label-md text-label-md text-on-surface" href="flexspace-contact.html">
+<svg class="fx-icon  text-[16px] text-on-surface-variant" data-icon="call" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 3h4l2 6-3 2c2 3 3 4 6 6l2-3 6 2v4c-9 3-20-8-17-17Z">
+</path>
+</svg>
+<span class="tracking-tight font-medium">문의 안내</span>
+</a>
+<a class="inline-flex items-center justify-center h-10 px-4 bg-primary-container text-on-primary font-label-md text-label-md rounded hover:bg-surface-tint transition-colors fx-header-tour" data-path="book-tour" href="flexspace-tour.html">무료 방문 투어 신청</a>
+<a class="fx-account" href="flexspace-saved.html" aria-label="관심 지점 보관함">
+<svg class="fx-icon" data-icon="bookmark_border" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg>
+</a>
+<button class="fx-menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="flexspace-navigation">
+<svg class="fx-icon" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 6h18M3 12h18M3 18h18">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</header>
+<main class="w-full pt-20 bg-surface min-h-screen" id="main">
+<div class="flex flex-col w-full">
+<!-- Top Breadcrumb & Quick Actions Bar -->
+<section class="w-full bg-surface-container-low/70 py-3">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-wrap items-center justify-between gap-4">
+<nav aria-label="Breadcrumb" class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant">
+<a class="hover:text-primary transition-colors flex items-center gap-1" data-path="home" href="index.html">
+<svg class="fx-icon  text-[15px]" data-icon="home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 9v12h18V9M2 9l2-6h16l2 6M8 21v-7h8v7M2 9c0 4 5 4 5 0 0 4 5 4 5 0 0 4 5 4 5 0 0 4 5 4 5 0">
+</path>
+</svg> 홈
+        </a>
+<span class="text-outline-variant">/</span>
+<a class="hover:text-primary transition-colors" data-path="locations" href="flexspace-locations.html">지점 찾기</a>
+<span class="text-outline-variant">/</span>
+<a class="hover:text-primary transition-colors" data-path="locations" href="flexspace-locations.html">성수권역</a>
+<span class="text-outline-variant">/</span>
+<span class="text-primary font-medium">성수 아틀리에점</span>
+</nav>
+<div class="flex items-center gap-4 font-label-sm text-label-sm">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-surface-container-lowest text-primary shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse">
+</span>
+          오늘 투어 가능 잔여 4석
+        </span>
+<button class="inline-flex items-center gap-1 text-on-surface-variant hover:text-primary transition-colors" type="button" data-share="" aria-label="지점 주소 복사">
+<svg class="fx-icon  text-[16px]" data-icon="share" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M18 5l-12 7 12 7M21 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0M9 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0M21 19a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
+</path>
+</svg> 공유하기
+        </button>
+<button class="inline-flex items-center gap-1 text-on-surface-variant hover:text-primary transition-colors" type="button" data-save-branch="seongsu" aria-pressed="false" aria-label="성수 아틀리에점 보관하기">
+<svg class="fx-icon  text-[16px]" data-icon="bookmark_border" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg> 관심지점
+        </button>
+</div>
+</div>
+</section>
+<!-- Branch Header Title & Badges -->
+<section class="w-full pt-8 pb-6 bg-surface">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 pb-6">
+<div class="space-y-3">
+<div class="flex flex-wrap items-center gap-2">
+<span class="px-2.5 py-0.5 rounded bg-primary-container text-on-primary font-label-sm text-label-sm uppercase tracking-wider">Flagship Tier-1</span>
+<span class="px-2.5 py-0.5 rounded bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">성수권역</span>
+<span class="inline-flex items-center gap-1 text-on-surface-variant font-label-md text-label-md ml-1">
+<svg class="fx-icon  text-[16px] text-amber-600" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<strong class="text-on-surface">4.94</strong> (입주사 만족도 조사 94개사)
+            </span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight">플렉스스페이스 성수 아틀리에점</h1>
+<p class="fx-branch-summary">유연하게 대화하고 몰입할 수 있는 라운지와 독립 룸을 연결한 크리에이티브 팀의 작업 공간입니다.</p>
+<div class="flex flex-wrap items-center gap-x-4 gap-y-1 font-body-sm text-body-sm text-on-surface-variant">
+<span class="flex items-center gap-1 text-primary font-medium">
+<svg class="fx-icon  text-[18px]" data-icon="directions_walk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+              성수역 도보 6분
+            </span>
+<span class="hidden sm:inline text-outline-variant">·</span>
+<span>센터필드 맞은편 파이낸셜 프라자 9F~14F</span>
+<span class="hidden sm:inline text-outline-variant">·</span>
+<span>운영면적 4,280㎡ (약 1,300평)</span>
+</div>
+</div>
+<!-- Spec Tags Pill Box -->
+<div class="flex flex-wrap gap-1.5 max-w-lg">
+<span class="px-3 py-1 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<svg class="fx-icon  text-[14px]" data-icon="wb_sunny" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg> 스카이 라운지 14F
+          </span>
+<span class="px-3 py-1 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<svg class="fx-icon  text-[14px]" data-icon="headphones" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg> 포커스 사일런트 존
+          </span>
+<span class="px-3 py-1 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<svg class="fx-icon  text-[14px]" data-icon="groups" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M7 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6M17 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6M1 21v-3a6 6 0 0 1 12 0v3M13 15a6 6 0 0 1 10 3v3">
+</path>
+</svg> 세미나룸 100인 수용
+          </span>
+<span class="px-3 py-1 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<svg class="fx-icon  text-[14px]" data-icon="nest_clock_farsight_analog" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg> 24/7 카드키 개방
+          </span>
+<span class="px-3 py-1 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<svg class="fx-icon  text-[14px]" data-icon="local_parking" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg> 지하 4개층 발렛 주차
+          </span>
+</div>
+</div>
+</div>
+</section>
+<!-- Architectural Gallery Bento Mosaic -->
+<section class="w-full pb-12 bg-surface">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-3 h-auto md:h-[520px]">
+<!-- Main Large Photo (14F Sky Lounge) -->
+<div class="md:col-span-7 h-72 md:h-full relative overflow-hidden rounded group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" src="images/flexspace-seongsu-branch.jpg" alt="플렉스스페이스 성수 아틀리에점 라운지" loading="eager" decoding="async" data-main-gallery="">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent pointer-events-none">
+</div>
+<div class="absolute bottom-5 left-5 right-5 flex items-end justify-between text-on-primary">
+<div>
+<span class="font-label-sm text-label-sm tracking-wider uppercase opacity-90 text-primary-fixed">14F Penthouse Level</span>
+<p class="font-headline-sm text-headline-sm font-semibold">스카이 라운지 &amp; 파노라마 시티뷰 바</p>
+<p class="font-body-sm text-body-sm opacity-80 mt-0.5">도심의 풍경을 조망하며 즐기는 바리스타 드립 바와 캐주얼 미팅 공간</p>
+</div>
+<span class="hidden sm:inline-flex px-2.5 py-1 rounded bg-primary-container/80 backdrop-blur font-label-sm text-label-sm text-on-primary">
+              실물 전경
+            </span>
+</div>
+</div>
+<!-- 3 Side Mosaic Photos -->
+<div class="md:col-span-5 grid grid-cols-2 md:grid-rows-2 gap-3 h-auto md:h-full">
+<!-- Photo 2: Private Executive Office -->
+<div class="col-span-2 md:col-span-2 h-44 md:h-full relative overflow-hidden rounded group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" src="images/flexspace-lounge-plan.jpg" alt="플렉스스페이스 공간 · executive-room" loading="lazy" decoding="async">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-transparent to-transparent pointer-events-none">
+</div>
+<div class="absolute bottom-3 left-4 text-on-primary">
+<span class="font-label-sm text-label-sm opacity-90 text-secondary-fixed">10~13F Private Suites</span>
+<p class="font-headline-sm text-headline-sm font-medium">독립형 프라이빗 스위트</p>
+</div>
+</div>
+<!-- Photo 3: Open Atrium & Library Lounge -->
+<div class="relative overflow-hidden rounded h-36 md:h-full group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" src="images/flexspace-private-suite.jpg" alt="플렉스스페이스 공간 · community-lounge" loading="lazy" decoding="async">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-transparent to-transparent pointer-events-none">
+</div>
+<div class="absolute bottom-2.5 left-3 text-on-primary">
+<p class="font-label-md text-label-md font-semibold">9F 라이브러리 아트리움</p>
+</div>
+</div>
+<!-- Photo 4: Acoustic Soundproof Phonebooth & Focus Pod -->
+<div class="relative overflow-hidden rounded h-36 md:h-full group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" src="images/flexspace-phone-booth.jpg" alt="플렉스스페이스 공간 · phone-booth" loading="lazy" decoding="async">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-transparent to-transparent pointer-events-none">
+</div>
+<div class="absolute bottom-2.5 left-3 text-on-primary">
+<p class="font-label-md text-label-md font-semibold">초고밀도 폰부스 (14개소)</p>
+</div>
+<div class="absolute top-2.5 right-2.5 px-2 py-0.5 rounded bg-primary-container/80 text-on-primary font-label-sm text-label-sm">
+              +18장 더보기
+            </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Body Content: Two-Column Split with Sticky Tour Widget -->
+<section class="w-full pb-20 bg-surface">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+<!-- LEFT CONTENT COLUMN (8 Cols) -->
+<div class="lg:col-span-8 space-y-16">
+<!-- 1. Interactive Floor Plan & Level Directory -->
+<div class="space-y-6">
+<div class="flex items-center justify-between pb-3">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">Spatial Blueprint</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">층별 안내 &amp; 평면 레이아웃</h2>
+</div>
+<span class="hidden sm:inline-flex font-body-sm text-body-sm text-on-surface-variant">
+              9F - 14F 총 6개 층 특화 구성
+            </span>
+</div>
+<!-- Floor Selector Buttons -->
+<div class="flex flex-wrap gap-2 p-1.5 bg-surface-container-low rounded">
+<button class="floor-tab active px-4 py-2 rounded text-left font-label-md text-label-md bg-primary-container text-on-primary transition-all shadow-sm" id="btn-14f" type="button" data-floor="14f" aria-pressed="false">
+<span class="font-headline-sm block">14F</span>
+<span class="text-xs opacity-90">스카이라운지 &amp; 테라스바</span>
+</button>
+<button class="floor-tab px-4 py-2 rounded text-left font-label-md text-label-md bg-surface-container-lowest text-on-surface hover:bg-surface-variant transition-all" id="btn-12f" type="button" data-floor="12f" aria-pressed="false">
+<span class="font-headline-sm block">12~13F</span>
+<span class="text-xs text-on-surface-variant">엔터프라이즈 전용층 (50~150인)</span>
+</button>
+<button class="floor-tab px-4 py-2 rounded text-left font-label-md text-label-md bg-surface-container-lowest text-on-surface hover:bg-surface-variant transition-all" id="btn-10f" type="button" data-floor="10f" aria-pressed="false">
+<span class="font-headline-sm block">10~11F</span>
+<span class="text-xs text-on-surface-variant">프라이빗 오피스 (1~20인)</span>
+</button>
+<button class="floor-tab px-4 py-2 rounded text-left font-label-md text-label-md bg-surface-container-lowest text-on-surface hover:bg-surface-variant transition-all" id="btn-9f" type="button" data-floor="9f" aria-pressed="false">
+<span class="font-headline-sm block">9F</span>
+<span class="text-xs text-on-surface-variant">웰컴 로비 &amp; 메인 미팅룸 센터</span>
+</button>
+</div>
+<!-- Floor Interactive Map & Details Box -->
+<div class="bg-surface-container-lowest rounded p-6 shadow-sm space-y-6">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4">
+<div id="floor-meta-text">
+<span class="px-2 py-0.5 rounded bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">최고층 스카이라운지 레벨</span>
+<h3 class="font-headline-md text-headline-md text-primary mt-1">14F : 커뮤니티 라운지, 오픈 테라스 &amp; 카페</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">도심의 전망이 한눈에 내려다보이는 파노라마 뷰. 데일리 네트워킹과 티타임을 위한 휴식 허브.</p>
+</div>
+<div class="flex items-center gap-2 self-start md:self-auto font-label-sm text-label-sm">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-surface-container text-on-surface">
+<span class="w-2.5 h-2.5 rounded bg-primary-container">
+</span> 공용 공간
+                </span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-surface-container text-on-surface">
+<span class="w-2.5 h-2.5 rounded bg-tertiary-fixed-dim">
+</span> 전용/예약 시설
+                </span>
+</div>
+</div>
+<!-- Architectural SVG Floorplan Diagram -->
+<div class="w-full bg-surface-container-low/60 rounded p-4 relative overflow-hidden">
+<svg class="w-full h-auto text-on-surface select-none" fill="none" viewBox="0 0 740 320" xmlns="http://www.w3.org/2000/svg">
+<!-- Perimeter Walls -->
+<rect class="stroke-primary-container" fill="#FFFFFF" height="280" rx="4" stroke-width="2.5" width="700" x="20" y="20">
+</rect>
+<!-- Core & Elevators -->
+<rect class="fill-surface-container-highest" height="90" rx="2" stroke="#42484a" stroke-width="1" width="120" x="310" y="22">
+</rect>
+<text class="fill-on-surface font-label-sm text-[11px] font-semibold" text-anchor="middle" x="370" y="55">ELEVATOR CORE</text>
+<text class="fill-on-surface-variant font-label-sm text-[9px]" text-anchor="middle" x="370" y="75">초고속 EV 6기</text>
+<!-- Zone A: Panoramic Sky Terrace (14F dynamic highlight) -->
+<g class="cursor-pointer group">
+<rect class="fill-primary-fixed/40 hover:fill-primary-fixed transition-colors" height="110" rx="2" stroke="#0D2229" stroke-dasharray="3 3" stroke-width="1.2" width="260" x="30" y="30">
+</rect>
+<text class="fill-primary font-headline-sm text-[13px] font-bold" text-anchor="middle" x="160" y="75">오픈 스카이 테라스 &amp; 그린월</text>
+<text class="fill-on-surface-variant font-label-sm text-[10px]" text-anchor="middle" x="160" y="95">야외 미팅 / 커피 라운지</text>
+</g>
+<!-- Zone B: Specialty Brew Bar & Dining -->
+<g class="cursor-pointer group">
+<rect class="fill-surface-container-low hover:fill-surface-variant transition-colors" height="140" rx="2" stroke="#0D2229" stroke-width="1.2" width="260" x="30" y="150">
+</rect>
+<text class="fill-primary font-headline-sm text-[13px] font-bold" text-anchor="middle" x="160" y="210">스페셜티 카페 &amp; 비어 탭</text>
+<text class="fill-on-surface-variant font-label-sm text-[10px]" text-anchor="middle" x="160" y="230">펠트/프릳츠 원두 바리스타 스테이션</text>
+</g>
+<!-- Zone C: Quiet Working Atrium -->
+<g class="cursor-pointer group">
+<rect class="fill-secondary-container/40 hover:fill-secondary-container transition-colors" height="110" rx="2" stroke="#0D2229" stroke-width="1.2" width="260" x="450" y="30">
+</rect>
+<text class="fill-primary font-headline-sm text-[13px] font-bold" text-anchor="middle" x="580" y="75">포커스 콰이어트 존 (Silent Lounge)</text>
+<text class="fill-on-surface-variant font-label-sm text-[10px]" text-anchor="middle" x="580" y="95">집중 데스크 32석 / 통화 금지구역</text>
+</g>
+<!-- Zone D: High-spec Boardroom (14F-A) -->
+<g class="cursor-pointer group">
+<rect class="fill-tertiary-fixed/30 hover:fill-tertiary-fixed transition-colors" height="140" rx="2" stroke="#0D2229" stroke-width="1.2" width="125" x="450" y="150">
+</rect>
+<text class="fill-primary font-headline-sm text-[12px] font-bold" text-anchor="middle" x="512" y="210">VIP 보드룸 (16인)</text>
+<text class="fill-on-surface-variant font-label-sm text-[9px]" text-anchor="middle" x="512" y="230">4K 화상회의 / 하만카돈</text>
+</g>
+<!-- Zone E: Phone booths & Wellness Room -->
+<g class="cursor-pointer group">
+<rect class="fill-surface-container-high hover:fill-surface-variant transition-colors" height="140" rx="2" stroke="#0D2229" stroke-width="1.2" width="125" x="585" y="150">
+</rect>
+<text class="fill-primary font-headline-sm text-[12px] font-bold" text-anchor="middle" x="647" y="210">폰부스 4구 &amp; 릴랙스 룸</text>
+<text class="fill-on-surface-variant font-label-sm text-[9px]" text-anchor="middle" x="647" y="230">바디프랜드 안마체어 2대</text>
+</g>
+</svg>
+</div>
+<!-- Floor Highlights Meta Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-2">
+<div class="p-3 bg-surface-container-low rounded">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">운영 층고</span>
+<span class="font-headline-sm text-headline-sm text-primary">3.2m 개방형</span>
+</div>
+<div class="p-3 bg-surface-container-low rounded">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">소음 차단 등급</span>
+<span class="font-headline-sm text-headline-sm text-primary">STC 48dB 차음</span>
+</div>
+<div class="p-3 bg-surface-container-low rounded">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">공기 청정 솔루션</span>
+<span class="font-headline-sm text-headline-sm text-primary">HEPA 13 환기</span>
+</div>
+<div class="p-3 bg-surface-container-low rounded">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">출입 보안</span>
+<span class="font-headline-sm text-headline-sm text-primary">안면인식 게이트</span>
+</div>
+</div>
+</div>
+</div>
+<!-- 2. Real-time Room Availability & Pricing Table -->
+<div class="space-y-6">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 pb-2">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">Live Availability &amp; Rates</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">호실 구성 &amp; 월 이용료 예시</h2>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">
+              기준일자: 실시간 자동 연동 (관리비·인터넷·수도세 일체 포함)
+            </span>
+</div>
+<!-- Cards Stack -->
+<div class="space-y-3">
+<!-- Room 1: 2인실 독립 오피스 -->
+<div class="bg-surface-container-lowest rounded p-6 shadow-sm hover:shadow-md transition-shadow">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div class="space-y-1.5">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded bg-error-container text-on-error-container font-label-sm text-label-sm font-semibold">마감 임박 (잔여 1실)</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">10F - 1008호</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">2인실 프라이빗 독립 오피스</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                    스타트업 코파운더 전용 최적화. 에어론 체어 2기, 전동 모션데스크, 방음 글라스 도어, 도어락 완비
+                  </p>
+</div>
+<div class="flex flex-row md:flex-col items-baseline md:items-end justify-between md:justify-center gap-1 md:text-right pt-2 md:pt-0">
+<div class="flex items-center gap-2">
+
+<span class="px-1.5 py-0.5 rounded bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-bold">예시 요금</span>
+</div>
+<div class="font-headline-lg text-headline-lg text-primary font-bold">월 80<span class="font-headline-sm text-headline-sm font-normal">만원</span>
+</div>
+<a class="fx-room-detail" href="flexspace-room-seongsu-2.html">호실 상세 보기 →</a>
+<button class="mt-2 px-4 py-2 bg-primary-container text-on-primary font-label-md text-label-md rounded hover:bg-surface-tint transition-colors" type="button" data-room-tour="2인실 프라이빗 독립 오피스" data-room-capacity="2">
+                    이 호실 투어 예약
+                  </button>
+</div>
+</div>
+</div>
+<!-- Room 2: 6인실 프라이빗 스위트 -->
+<div class="bg-surface-container-lowest rounded p-6 shadow-sm hover:shadow-md transition-shadow">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div class="space-y-1.5">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">잔여 2실</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">11F - 1102호 / 1105호</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">6인실 프라이빗 스위트</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                    팀 단위 스케일업 최적 구조. 내부 미니 화이트보드 파티션 및 독립 유선 LAN 기가비트 구축
+                  </p>
+</div>
+<div class="flex flex-row md:flex-col items-baseline md:items-end justify-between md:justify-center gap-1 md:text-right pt-2 md:pt-0">
+<div class="flex items-center gap-2">
+
+<span class="px-1.5 py-0.5 rounded bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-bold">예시 요금</span>
+</div>
+<div class="font-headline-lg text-headline-lg text-primary font-bold">월 207<span class="font-headline-sm text-headline-sm font-normal">만원</span>
+</div>
+<a class="fx-room-detail" href="flexspace-room-seongsu-6.html">호실 상세 보기 →</a>
+<button class="mt-2 px-4 py-2 bg-primary-container text-on-primary font-label-md text-label-md rounded hover:bg-surface-tint transition-colors" type="button" data-room-tour="6인실 프라이빗 스위트" data-room-capacity="6">
+                    이 호실 투어 예약
+                  </button>
+</div>
+</div>
+</div>
+<!-- Room 3: 15인실 파운더스 룸 -->
+<div class="bg-surface-container-lowest rounded p-6 shadow-sm hover:shadow-md transition-shadow">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div class="space-y-1.5">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm">즉시 입주 협의</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">11F - Corner Suite</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">15인실 파운더스 코너 스위트</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                    2면 통창 도심 조망권, 대표실/임원실 가벽 분리 시공 옵션 무상 제공, 전용 락커룸
+                  </p>
+</div>
+<div class="flex flex-row md:flex-col items-baseline md:items-end justify-between md:justify-center gap-1 md:text-right pt-2 md:pt-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant">계약 기간별 추가 할인</span>
+<div class="font-headline-lg text-headline-lg text-primary font-bold">월 585<span class="font-headline-sm text-headline-sm font-normal">만원~</span>
+</div>
+<a class="fx-room-detail" href="flexspace-room-seongsu-15.html">호실 상세 보기 →</a>
+<button class="mt-2 px-4 py-2 bg-surface-container-highest text-on-surface font-label-md text-label-md rounded hover:bg-surface-variant transition-colors" type="button" data-room-tour="15인실 파운더스 코너 스위트" data-room-capacity="15">
+                    상담 및 견적서 수령
+                  </button>
+</div>
+</div>
+</div>
+<!-- Room 4: 50인 이상 엔터프라이즈 맞춤형 -->
+<div class="bg-primary-container text-on-primary rounded p-6 shadow-sm">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+<div class="space-y-2">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded bg-secondary text-on-secondary font-label-sm text-label-sm uppercase font-semibold">Enterprise Custom</span>
+<span class="font-label-sm text-label-sm text-on-primary-container">12F~13F 전체 또는 반층</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-primary">50인 ~ 150인 엔터프라이즈 전용층 빌드</h3>
+<p class="font-body-sm text-body-sm text-on-primary-container max-w-xl">
+                    사옥 수준의 보안(단독 카드키 게이트, 폐쇄망 전용 랙), CI 사이니지 부착, 맞춤 회의실 및 임원 집무실 레이아웃 설계 제공
+                  </p>
+</div>
+<div class="shrink-0 text-left md:text-right">
+<span class="font-label-sm text-label-sm text-on-primary-container block">전담 공간 컨설턴트 1:1 배정</span>
+<p class="font-headline-sm text-headline-sm text-on-primary font-semibold mb-3">맞춤 견적 및 제안서</p>
+<a class="fx-room-detail" href="flexspace-solution-enterprise.html?branch=seongsu">호실 상세 보기 →</a>
+<button class="px-5 py-2.5 bg-surface-container-lowest text-primary font-label-md text-label-md rounded hover:bg-surface transition-colors shadow" type="button" data-room-tour="엔터프라이즈 전용층 (50인+)" data-room-capacity="80">
+                    기업 맞춤 플랜 상담 신청
+                  </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- 3. Amenities & Facilities Specification (입주사 멤버 혜택) -->
+<div class="space-y-6">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">Premium Amenities</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">입주 멤버 전용 시설 및 하드웨어 스펙</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">업무의 질과 구성원의 피로도를 근본적으로 개선하는 최고 사양의 설비가 기본 포함됩니다.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+<!-- Amenity Item 1 -->
+<div class="bg-surface-container-lowest p-5 rounded space-y-2.5 shadow-sm">
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center text-primary">
+<svg class="fx-icon  text-[22px]" data-icon="chair_alt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary">허먼밀러 풀옵션 의자</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                전 좌석 정품 Herman Miller Aeron 체어 완비로 하루 10시간 이상 몰입하는 팀원의 허리 건강 지원
+              </p>
+</div>
+<!-- Amenity Item 2 -->
+<div class="bg-surface-container-lowest p-5 rounded space-y-2.5 shadow-sm">
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center text-primary">
+<svg class="fx-icon  text-[22px]" data-icon="wifi_tethering" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary">1Gbps 보안 이중화 망</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                KT &amp; LG U+ 물리적 이중 회선, 독립 VLAN 서브넷 구축으로 안정적인 글로벌 서버 환경 제공
+              </p>
+</div>
+<!-- Amenity Item 3 -->
+<div class="bg-surface-container-lowest p-5 rounded space-y-2.5 shadow-sm">
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center text-primary">
+<svg class="fx-icon  text-[22px]" data-icon="meeting_room" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 21V3h13v18M17 8h4v13M9 11h1M2 21h20">
+</path>
+</svg>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary">12개 스마트 미팅룸</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                4인~24인 화상회의실, 무선 화면 미러링 및 전자칠판, 크레딧 기반 모바일 간편 예약
+              </p>
+</div>
+<!-- Amenity Item 4 -->
+<div class="bg-surface-container-lowest p-5 rounded space-y-2.5 shadow-sm">
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center text-primary">
+<svg class="fx-icon  text-[22px]" data-icon="phone_in_talk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary">방음 폰부스 14개소</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                3겹 흡음 패널과 저소음 환기팬이 설치된 개인 통화 부스로 프라이빗한 비즈니스 콜 보장
+              </p>
+</div>
+<!-- Amenity Item 5 -->
+<div class="bg-surface-container-lowest p-5 rounded space-y-2.5 shadow-sm">
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center text-primary">
+<svg class="fx-icon  text-[22px]" data-icon="coffee" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 4h13v10a6 6 0 0 1-12 0V4ZM16 6h2a3 3 0 0 1 0 6h-2M2 21h18M6 1v1M11 1v1">
+</path>
+</svg>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary">스페셜티 원두 3종 &amp; 바</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                펠트/프릳츠 최고급 원두 전자동 머신 3대, 초정탄산수 디스펜서, 유기농 티 6종 매일 무료 리필
+              </p>
+</div>
+<!-- Amenity Item 6 -->
+<div class="bg-surface-container-lowest p-5 rounded space-y-2.5 shadow-sm">
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center text-primary">
+<svg class="fx-icon  text-[22px]" data-icon="spa" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 22V8m0 7C3 15 1 9 2 5c7 0 10 5 10 10Zm0-4c9 0 10-6 10-10-7 0-10 5-10 10Z">
+</path>
+</svg>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary">웰니스 &amp; 릴랙스 룸</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                바디프랜드 하이엔드 안마의자 2실 및 여성 전용 수유·모유 착유실, 온열 매트 휴게존 완비
+              </p>
+</div>
+</div>
+</div>
+<!-- 4. Location & Parking Guide -->
+<div class="space-y-6">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">Location &amp; Access</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">오시는 길 및 주차 안내</h2>
+</div>
+<!-- Static Map Component -->
+<div class="w-full h-72 rounded shadow-sm bg-cover bg-center relative" data-location="Seoul, Yeoksam Station Exit 3 Teheran-ro" style="">
+<div class="absolute bottom-4 left-4 bg-surface-container-lowest/95 backdrop-blur px-4 py-3 rounded shadow max-w-sm">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-red-600">
+</span>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">성수 아틀리에점</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">서울 성동구 성수 · 예시 공간</p>
+</div>
+</div>
+<!-- Directions Grid Details -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="bg-surface-container-lowest p-5 rounded space-y-3 shadow-sm">
+<div class="flex items-center gap-2 text-primary font-medium">
+<svg class="fx-icon  text-[20px] text-amber-700" data-icon="subway" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<h4 class="font-headline-sm text-headline-sm">지하철 및 대중교통</h4>
+</div>
+<ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-2">
+<span class="px-1.5 py-0.2 rounded bg-emerald-600 text-white font-label-sm text-label-sm mt-0.5">2호선</span>
+<span>
+성수역 도보 6분</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="px-1.5 py-0.2 rounded bg-emerald-600 text-white font-label-sm text-label-sm mt-0.5">2호선</span>
+<span>
+선택한 권역의 대중교통 접근 안내 예시입니다.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="px-1.5 py-0.2 rounded bg-blue-600 text-white font-label-sm text-label-sm mt-0.5">버스</span>
+<span>근처 정류장과 이동 동선은 실제 운영 시 안내해 주세요.</span>
+</li>
+</ul>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded space-y-3 shadow-sm">
+<div class="flex items-center gap-2 text-primary font-medium">
+<svg class="fx-icon  text-[20px] text-amber-700" data-icon="local_parking" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<h4 class="font-headline-sm text-headline-sm">주차 및 발렛 파킹</h4>
+</div>
+<ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-2">
+<svg class="fx-icon  text-[16px] text-primary mt-1" data-icon="check_circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span>
+<strong>방문 투어 및 게스트 주차:</strong> 본관 지하 자주식 주차장 2시간 전액 무료 지원</span>
+</li>
+<li class="flex items-start gap-2">
+<svg class="fx-icon  text-[16px] text-primary mt-1" data-icon="check_circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span>
+<strong>입주사 월 정기주차:</strong> 대당 월 18만원 (호실 규모별 무료 배정 대수 협의)</span>
+</li>
+<li class="flex items-start gap-2">
+<svg class="fx-icon  text-[16px] text-primary mt-1" data-icon="check_circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span>
+<strong>전문 발렛 부스:</strong> 1층 정문 승하차 공간에서 평일 08:30~18:30 발렛 서비스 운영</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN: Sticky Booking & Tour Form Widget (4 Cols) -->
+<div class="lg:col-span-4 sticky top-28 space-y-4">
+<!-- Main Booking Card -->
+<div class="bg-surface-container-lowest rounded p-6 shadow-md border-t-4 border-primary">
+<div class="space-y-2 pb-4">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">Fast Pass Booking</span>
+<span class="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 font-label-sm text-label-sm">소요시간 1분</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">이 지점 무료 투어 신청</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              전담 매니저의 1:1 공간 안내, 라운지 시음 체험 및 견적 상담을 즉시 확정합니다.
+            </p>
+</div>
+<form class="space-y-4 pt-2" id="tour-form" data-form-kind="tour">
+<!-- Selected Branch Readonly Info -->
+<div class="p-3 bg-surface-container-low rounded flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">방문 대상 지점</span>
+<span class="font-label-md text-label-md text-primary font-semibold">성수 아틀리에점 </span>
+</div>
+<svg class="fx-icon  text-primary text-[20px]" data-icon="pin_drop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 22 5 12a8 8 0 1 1 14 0ZM15 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
+</path>
+</svg>
+</div>
+<!-- Interested Capacity Select -->
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-primary font-medium block" for="room-type">
+                관심 인원 및 오피스 유형 <span class="text-error">*</span>
+</label>
+<select class="w-full h-11 px-3 bg-surface-container-lowest rounded font-body-sm text-body-sm text-on-surface focus:outline-none focus:ring-1 focus:ring-primary shadow-sm" id="room-type" required="" name="room-type">
+<option value="2인실 프라이빗 독립 오피스">2인실 독립 오피스 (프로모션 월 89만)</option>
+<option value="6인실 프라이빗 스위트">6인실 프라이빗 스위트 (프로모션 월 230만)</option>
+<option value="15인실 파운더스 코너 스위트">15인실 파운더스 룸 (월 650만원~)</option>
+<option value="엔터프라이즈 전용층 (50인+)">50인 이상 엔터프라이즈 커스텀 오피스</option>
+<option value="라운지 &amp; 핫데스크 멤버십">공용 라운지 &amp; 핫데스크 (개인 멤버)</option>
+</select>
+</div>
+<!-- Date & Time Row -->
+<div class="grid grid-cols-2 gap-2">
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-primary font-medium block" for="tour-date">
+                  방문 희망일 <span class="text-error">*</span>
+</label>
+<input class="w-full h-11 px-3 bg-surface-container-lowest rounded font-body-sm text-body-sm text-on-surface focus:outline-none focus:ring-1 focus:ring-primary shadow-sm" id="tour-date" required="" type="date" name="tour-date">
+</div>
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-primary font-medium block" for="tour-time">
+                  시간대 <span class="text-error">*</span>
+</label>
+<select class="w-full h-11 px-3 bg-surface-container-lowest rounded font-body-sm text-body-sm text-on-surface focus:outline-none focus:ring-1 focus:ring-primary shadow-sm" id="tour-time" required="" name="tour-time">
+<option value="10:00">오전 10:00</option>
+<option value="11:30">오전 11:30</option>
+<option selected="" value="14:00">오후 02:00</option>
+<option value="15:30">오후 03:30</option>
+<option value="17:00">오후 05:00</option>
+</select>
+</div>
+</div>
+<!-- Name Input -->
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-primary font-medium block" for="applicant-name">
+                신청자 성함 / 기업명 <span class="text-error">*</span>
+</label>
+<input class="w-full h-11 px-3 bg-surface-container-lowest rounded font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary shadow-sm" id="applicant-name" placeholder="예: 김민수 / 넥스트웨이브" required="" type="text" name="applicant-name" maxlength="120">
+</div>
+<!-- Contact Input -->
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-primary font-medium block" for="applicant-phone">
+                연락처 <span class="text-error">*</span>
+</label>
+<input class="w-full h-11 px-3 bg-surface-container-lowest rounded font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary shadow-sm" id="applicant-phone" placeholder="010-0000-0000" required="" type="tel" name="applicant-phone" maxlength="120">
+</div>
+<!-- Agreement Check -->
+<div class="flex items-start gap-2 pt-1">
+<input class="mt-1 w-4 h-4 rounded text-primary focus:ring-0 cursor-pointer" id="privacy-agree" required="" type="checkbox" name="privacy-agree">
+<label class="font-body-sm text-body-sm text-on-surface-variant cursor-pointer" for="privacy-agree">
+                개인정보 수집 및 투어 예약 안내 알림톡 발송에 동의합니다. (무료)
+              </label>
+</div>
+<!-- Submit Button -->
+<button class="w-full h-12 bg-primary text-on-primary font-label-lg text-label-lg rounded hover:bg-surface-tint transition-all shadow flex items-center justify-center gap-2" type="submit">
+<svg class="fx-icon  text-[18px]" data-icon="calendar_month" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 5h18v16H3ZM7 2v6M17 2v6M3 11h18M8 15h1M15 15h1">
+</path>
+</svg>
+<span>1분 만에 투어 예약 확정하기</span>
+</button>
+</form>
+<!-- Success Alert Message (Hidden initially) -->
+
+<!-- Fast Contact Footer Inside Widget -->
+<div class="mt-6 pt-4 space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-center justify-between">
+<span>지점 직통 유선 상담</span>
+<a class="text-primary font-semibold hover:underline" href="flexspace-contact.html">문의 안내</a>
+</div>
+<div class="flex items-center justify-between text-xs">
+<span>운영시간</span>
+<span>평일 09:00 - 18:00 (주말/공휴일 협의)</span>
+</div>
+</div>
+</div>
+<!-- Manager Quick Card -->
+<div class="bg-surface-container-low rounded p-4 flex items-center gap-3">
+<img class="w-12 h-12 rounded-full object-cover shrink-0" src="images/flexspace-community-manager.jpg" alt="플렉스스페이스 공간 · community-manager" loading="lazy" decoding="async">
+<div>
+<div class="flex items-center gap-1.5">
+<span class="font-label-md text-label-md font-semibold text-primary">이서윤 커뮤니티 리드</span>
+<span class="px-1.5 py-0.2 bg-surface-container-lowest text-on-surface font-label-sm text-label-sm rounded">지점 커뮤니티 매니저</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs mt-0.5">
+              "팀의 규모와 비즈니스 형태에 가장 알맞은 최적 동선 호실을 안내해 드립니다."
+            </p>
+</div>
+</div>
+<!-- Corporate Relocation FAQ Banner -->
+<div class="bg-surface-container-lowest rounded p-5 space-y-2 shadow-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">FAQ &amp; Inquiry</span>
+<h4 class="font-headline-sm text-headline-sm text-primary">자주 묻는 질문</h4>
+<details class="group py-1 cursor-pointer">
+<summary class="font-label-md text-label-md text-on-surface list-none flex justify-between items-center group-hover:text-primary">
+<span>당일 즉시 계약 및 입주가 가능한가요?</span>
+<svg class="fx-icon  text-[16px] group-open:rotate-180 transition-transform" data-icon="expand_more" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</summary>
+<p class="font-body-sm text-body-sm text-on-surface-variant pt-2 text-xs">
+              네, 인테리어와 집기 세팅이 완비되어 있어 전자계약 체결 및 보증금 결제 후 당일 24시간 카드키 발급 및 입주가 즉시 가능합니다.
+            </p>
+</details>
+<details class="group py-1 cursor-pointer">
+<summary class="font-label-md text-label-md text-on-surface list-none flex justify-between items-center group-hover:text-primary">
+<span>법인 주소지 사업자등록 지원되나요?</span>
+<svg class="fx-icon  text-[16px] group-open:rotate-180 transition-transform" data-icon="expand_more" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</summary>
+<p class="font-body-sm text-body-sm text-on-surface-variant pt-2 text-xs">
+              모든 전용 오피스 계약 시 본점 및 지점 사업자등록 주소지 임대차계약서가 무상 발급되며, 우편물 수령 및 알림 서비스가 기본 제공됩니다.
+            </p>
+</details>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive JavaScript Behavior -->
+
+</div>
+</main>
+<footer class="w-full bg-surface-container-low text-on-surface-variant mt-space-xl">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-12">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12">
+<div class="lg:col-span-2 space-y-4">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm tracking-tight uppercase text-primary font-medium">FLEXSPACE</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">프리미엄 비즈니스 라운지 &amp; 오피스</span>
+</div>
+<p class="font-body-sm text-body-sm leading-relaxed text-on-surface-variant max-w-sm">유연한 공간 구조와 감각적인 건축 설계를 통해 비즈니스의 격을 높이는 엔터프라이즈 맞춤형 프리미엄 코워킹 플레이스.</p>
+<div class="pt-2 space-y-1 font-body-sm text-body-sm">
+<div class="flex items-center gap-2">
+<span class="font-medium text-on-surface">고객센터</span>
+<span class="font-label-md text-label-md text-primary font-semibold">문의 안내</span>
+</div>
+<p class="text-on-surface-variant">운영시간: 평일 09:00 - 18:00 (점심시간 12:00 - 13:00)</p>
+<p class="text-on-surface-variant">제휴 및 입주 제안: hello@flexspace.example.com</p>
+</div>
+</div>
+<div class="space-y-3">
+<h4 class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">주요 거점 네트워크</h4>
+<ul class="space-y-2 font-body-sm text-body-sm">
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-branch-gangnam.html">강남 테헤란로 하이엔드 라운지</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-branch-yeouido.html">여의도 파이낸스 타워 센터</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-branch-cbd.html">을지로 시티뷰 비즈니스 허브</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-branch-seongsu.html">성수 아틀리에 크리에이티브 스페이스</a>
+</li>
+</ul>
+</div>
+<div class="space-y-3">
+<h4 class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">솔루션 &amp; 서비스</h4>
+<ul class="space-y-2 font-body-sm text-body-sm">
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-solution-private.html">독립형 프라이빗 오피스</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-solution-enterprise.html">엔터프라이즈 커스텀 오피스</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-solution-lounge.html">전용 데스크 &amp; 핫데스크</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" data-path="price-estimate" href="flexspace-estimate.html">견적 시뮬레이터</a>
+</li>
+</ul>
+</div>
+<div class="space-y-3">
+<h4 class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">기업 정보 &amp; 지원</h4>
+<ul class="space-y-2 font-body-sm text-body-sm">
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-benefits.html">입주사 제휴 혜택</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" data-path="book-tour" href="flexspace-tour.html">무료 공간 투어 예약</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-about.html">브랜드 스토리</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-faq.html">자주 묻는 질문</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-cases.html">오피스 구축 이야기</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="pt-8 mt-4 space-y-4">
+<div class="flex flex-wrap gap-x-6 gap-y-2 font-label-md text-label-md">
+<a class="font-medium text-primary hover:underline" href="flexspace-privacy.html">개인정보처리방침</a>
+<a class="hover:text-on-surface transition-colors" href="flexspace-terms.html">이용약관</a>
+<a class="hover:text-on-surface transition-colors" href="flexspace-terms.html">입주 규정</a>
+<a class="hover:text-on-surface transition-colors" href="flexspace-contact.html">제휴 및 가맹 문의</a>
+<a class="hover:text-on-surface transition-colors" href="flexspace-locations.html">오시는 길</a>
+</div>
+<div class="font-body-sm text-body-sm leading-relaxed text-outline space-y-1">
+<p>(주)플렉스스페이스코리아 | 대표이사: 한지훈 | 사업자등록번호: 예시 정보 | 통신판매업신고: 제 2026-서울강남-1892호</p>
+<p>본사: 서울특별시 강남구 테헤란로 152 강남파이낸스센터 18층 | 대표전화: 문의 안내 | 팩스: 02-588-8901</p>
+<p>© 2026 FLEXSPACE Korea Co., Ltd. All rights reserved.</p>
+</div>
+</div>
+</div>
+<p class="fx-demo-note">FLEXSPACE는 가상의 오피스 브랜드입니다. 공간·입주사·요금·후기는 예시이며 견적과 투어 신청은 체험용입니다. 입력한 연락처는 저장하거나 전송하지 않습니다.</p>
+</footer>
+<dialog id="flexspace-dialog" aria-labelledby="flexspace-dialog-title">
+<div class="fx-dialog-head">
+<h2 id="flexspace-dialog-title">
+</h2>
+<button type="button" data-close="" aria-label="닫기">
+<svg class="fx-icon" data-icon="close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 6 12 12M6 18 18 6">
+</path>
+</svg>
+</button>
+</div>
+<div id="flexspace-dialog-body">
+</div>
+</dialog>
+<div id="flexspace-status" role="status" hidden="">
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

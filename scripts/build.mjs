@@ -15,6 +15,7 @@ import path from 'node:path';
 import { buildHarutgyeolPages } from './harutgyeol-pages.mjs';
 import { buildPagesDetails } from './pages-details.mjs';
 import { buildAtelierCuisine } from './atelier-cuisine-pages.mjs';
+import { buildFlexspacePages } from './flexspace-pages.mjs';
 
 const run = promisify(execFile);
 const ROOT = path.resolve(import.meta.dirname, '..');
@@ -27,6 +28,7 @@ const REQUIRED = ['id', 'name', 'description', 'stack', 'contentHints'];
 await buildHarutgyeolPages();
 await buildPagesDetails();
 await buildAtelierCuisine();
+await buildFlexspacePages();
 
 const ids = (await readdir(SRC, { withFileTypes: true }))
     .filter((e) => e.isDirectory())
@@ -53,7 +55,9 @@ for (const id of ids) {
     const src = path.join(dir, 'src');
     await cp(src, path.join(OUT, 't', id), { recursive: true });
     // -C 로 src 안에서 묶어야 압축 해제 시 경로에 src/ 가 끼지 않는다.
-    await run('tar', ['-czf', path.join(OUT, 'src', `${id}.tar.gz`), '-C', src, '.']);
+    await run('tar', ['-czf', path.join(OUT, 'src', `${id}.tar.gz`), '-C', src, '.'], {
+        env: { ...process.env, COPYFILE_DISABLE: '1' },
+    });
 
     catalog.push({
         ...manifest,
