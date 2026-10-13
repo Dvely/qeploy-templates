@@ -15,12 +15,12 @@
 <body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-container" data-page="class" data-id="master">
 <a class="ac-skip" href="#main">본문 바로가기</a>
 <header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface/95 backdrop-blur-md shadow-[0_1px_8px_rgba(40,54,41,0.04)] ac-header">
-<div class="bg-primary-container text-surface px-margin-mobile md:px-margin text-center py-2 flex items-center justify-center gap-2">
+<div class="bg-primary-container text-surface px-margin-mobile md:px-margin text-center py-2 flex items-center justify-center gap-2 ac-announcement">
 <span class="font-label-caps text-label-caps uppercase tracking-widest text-on-primary-container">Global Editorial</span>
 <p class="font-body-sm text-body-sm text-surface font-medium truncate">전세계 미식 여행: 지중해부터 동남아 스트리트 푸드까지 마스터 레시피 공개</p>
 </div>
-<div class="h-20 max-w-7xl mx-auto px-margin-mobile md:px-gutter flex items-center justify-between gap-space-lg">
-<a class="flex flex-col group flex-shrink-0 text-decoration-none" data-path="recipes" href="index.html">
+<div class="h-20 max-w-7xl mx-auto px-margin-mobile md:px-gutter flex items-center justify-between gap-space-lg ac-brand-row">
+<a class="flex flex-col group flex-shrink-0 text-decoration-none ac-brand" data-path="recipes" href="index.html">
 <span class="font-headline-sm text-headline-sm tracking-tight text-primary font-bold group-hover:text-secondary transition-colors">ATELIER CUISINE</span>
 <span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase">아틀리에 퀴진 · 에디토리얼</span>
 </a>
@@ -33,7 +33,7 @@
 <input class="w-full pl-10 pr-4 py-2 bg-surface-container-low rounded-full text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:bg-porcelain-white focus:ring-1 focus:ring-primary-container transition-all" placeholder="어떤 요리를 찾으시나요? 식재료, 국가별 요리, 셰프 검색..." type="search" name="q" aria-label="레시피, 식재료, 셰프 검색">
 </div>
 </form>
-<div class="flex items-center gap-space-md">
+<div class="flex items-center gap-space-md ac-header-tools">
 <div class="hidden lg:flex items-center gap-space-sm font-label-md text-label-md text-on-surface-variant">
 <a class="hover:text-primary transition-colors py-1 px-2" data-path="login" href="atelier-login.html">로그인/회원가입</a>
 <span class="text-outline-variant">·</span>
@@ -49,15 +49,21 @@
 </path>
 </svg>장바구니</a>
 </div>
-<a class="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0 shadow-sm" href="atelier-scrapbook.html" aria-label="나의 스크랩북">
-<svg class="ac-icon  text-on-primary text-[18px]" data-icon="person" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<path d="M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0M4 21v-3a8 8 0 0 1 16 0v3">
+<a class="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0 shadow-sm ac-account" href="atelier-scrapbook.html" aria-label="나의 스크랩북">
+<svg class="ac-icon  text-on-primary text-[18px]" data-icon="bookmark_border" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
 </path>
 </svg>
 </a>
+<button class="ac-mobile-menu" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="atelier-navigation">
+<svg class="ac-icon" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 6h18M3 12h18M3 18h18">
+</path>
+</svg>
+</button>
 </div>
 </div>
-<div class="bg-surface-container-low/70 backdrop-blur-sm">
+<div class="bg-surface-container-low/70 backdrop-blur-sm ac-nav-tier">
 <div class="max-w-7xl mx-auto px-margin-mobile md:px-gutter flex items-center justify-between overflow-x-auto no-scrollbar">
 <nav class="flex items-center gap-space-lg py-2.5 whitespace-nowrap" data-active-classes="text-primary font-bold after:w-full" id="atelier-navigation">
 <form class="ac-mobile-search" data-search="" role="search" action="atelier-search.html">
@@ -72,8 +78,8 @@
 </nav>
 </div>
 </div>
-<div class="bg-surface">
-<div class="max-w-7xl mx-auto px-margin-mobile md:px-gutter py-2 flex items-center gap-2 overflow-x-auto no-scrollbar">
+<div class="bg-surface ac-region-tier">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-gutter py-2 flex items-center gap-2 overflow-x-auto no-scrollbar ac-region-row">
 <span class="font-label-caps text-label-caps text-outline uppercase tracking-wider pl-1 pr-2 flex-shrink-0">Region</span>
 <div class="flex items-center gap-1.5 whitespace-nowrap">
 <button class="px-3 py-1 rounded-full bg-primary text-on-primary font-label-md text-label-md transition-all" type="button" data-go="atelier-recipes.html">전체</button>
@@ -87,12 +93,7 @@
 </div>
 </div>
 </div>
-<button class="ac-mobile-menu" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="atelier-navigation">
-<svg class="ac-icon" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<path d="M3 6h18M3 12h18M3 18h18">
-</path>
-</svg>
-</button>
+
 </header>
 <main class="w-full pt-44 bg-surface min-h-screen" id="main">
 <div class="flex flex-col w-full">
@@ -153,9 +154,9 @@
 <span class="px-3 py-1 rounded-full bg-primary/80 backdrop-blur-md text-on-primary font-label-caps text-label-caps tracking-widest uppercase flex items-center gap-1.5 shadow-sm">
 <span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse">
 </span>
-              Studio Master Stream
+              셰프 조리 노트
             </span>
-<span class="px-2.5 py-1 rounded-full bg-surface/30 backdrop-blur-md text-porcelain-white font-label-caps text-label-caps">DOLBY ATMOS</span>
+<span class="px-2.5 py-1 rounded-full bg-surface/30 backdrop-blur-md text-porcelain-white font-label-caps text-label-caps">IMAGE NOTES</span>
 </div>
 <div class="absolute inset-0 flex items-center justify-center">
 <button aria-label="영상 재생/일시정지" class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-porcelain-white/90 text-primary flex items-center justify-center shadow-xl hover:scale-105 active:scale-95 transition-all backdrop-blur-sm" id="main-play-btn" data-lesson-play="" type="button">
@@ -165,48 +166,41 @@
 </svg>
 </button>
 </div>
-<div class="absolute bottom-0 left-0 right-0 p-4 md:p-6 flex flex-col gap-2.5 bg-gradient-to-t from-charcoal-ink via-charcoal-ink/80 to-transparent">
+
+</div>
+<div class="ac-lesson-toolbar p-4 md:p-6 flex flex-col gap-2.5 bg-charcoal-ink rounded-xl">
 <div class="w-full h-1.5 bg-surface-container/30 hover:h-2.5 rounded-full overflow-hidden cursor-pointer transition-all relative">
 <div class="h-full bg-secondary rounded-full" id="video-progress" style="width: 38.6%;">
 </div>
 </div>
-<div class="flex items-center justify-between text-porcelain-white font-label-md text-label-md pt-1">
-<div class="flex items-center gap-3">
+<div class="flex items-center justify-between text-porcelain-white font-label-md text-label-md pt-1 ac-lesson-controls">
+<div class="flex items-center gap-3 ac-lesson-transport">
 <button class="hover:text-secondary-fixed transition-colors" data-lesson-play="" type="button">
 <svg class="ac-icon  text-[20px]" data-icon="play_arrow" id="bottom-play-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 <path d="m8 4 12 8-12 8Z">
 </path>
 </svg>
 </button>
-<button class="hover:text-secondary-fixed transition-colors" data-lesson-prev="" type="button">
+<button class="hover:text-secondary-fixed transition-colors" data-lesson-prev="" type="button" aria-label="이전 조리 노트">
 <svg class="ac-icon  text-[20px]" data-icon="replay_10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<path d="m5 12 4 4L19 6">
+<path d="m15 5-7 7 7 7">
 </path>
 </svg>
 </button>
-<button class="hover:text-secondary-fixed transition-colors" data-lesson-next="" type="button">
+<button class="hover:text-secondary-fixed transition-colors" data-lesson-next="" type="button" aria-label="다음 조리 노트">
 <svg class="ac-icon  text-[20px]" data-icon="forward_10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<path d="m5 12 4 4L19 6">
+<path d="m9 5 7 7-7 7">
 </path>
 </svg>
 </button>
-<div class="flex items-center gap-1.5 ml-2">
-<svg class="ac-icon  text-[18px]" data-icon="volume_up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<path d="m5 12 4 4L19 6">
-</path>
-</svg>
-<div class="w-16 h-1 bg-surface-container/50 rounded-full hidden sm:block">
-<div class="w-4/5 h-full bg-porcelain-white rounded-full">
-</div>
-</div>
-</div>
+
 <span class="font-body-sm text-body-sm text-surface-container-high tracking-wider pl-1">
-<span id="current-time-display">조리 노트</span> / 47:35
-                </span>
+<span id="current-time-display">조리 노트</span>
+</span>
 </div>
-<div class="flex items-center gap-3">
+<div class="flex items-center gap-3 ac-lesson-tools">
 <div class="relative">
-<button class="px-2 py-0.5 rounded bg-surface-container-highest/20 hover:bg-surface-container-highest/40 text-porcelain-white font-label-caps text-label-caps flex items-center gap-0.5" id="speed-dropdown-btn" data-speed-menu="" type="button">
+<button class="px-2 py-0.5 rounded bg-surface-container-highest/20 hover:bg-surface-container-highest/40 text-porcelain-white font-label-caps text-label-caps flex items-center gap-0.5" id="speed-dropdown-btn" data-speed-menu="" type="button" aria-label="노트 자동 넘기기 속도">
 <span id="speed-indicator">1.0x</span>
 <svg class="ac-icon  text-[14px]" data-icon="expand_more" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 <path d="m6 9 6 6 6-6">
@@ -225,19 +219,18 @@
                     노트
                   </button>
 </div>
-<button class="hover:text-secondary-fixed transition-colors" data-lesson-caption="" type="button">
+<button class="hover:text-secondary-fixed transition-colors" data-lesson-caption="" type="button" aria-label="조리 노트 설명 표시">
 <svg class="ac-icon  text-[20px]" data-icon="subtitles" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<path d="m5 12 4 4L19 6">
+<path d="M3 5h18v14H3ZM6 10h4m3 0h5M6 14h12">
 </path>
 </svg>
 </button>
-<button class="hover:text-secondary-fixed transition-colors" data-fullscreen="lesson" type="button">
+<button class="hover:text-secondary-fixed transition-colors" data-fullscreen="lesson" type="button" aria-label="조리 이미지 크게 보기">
 <svg class="ac-icon  text-[20px]" data-icon="fullscreen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 <path d="M3 8V3h5M16 3h5v5M21 16v5h-5M8 21H3v-5">
 </path>
 </svg>
 </button>
-</div>
 </div>
 </div>
 </div>
@@ -771,6 +764,8 @@
 </dialog>
 <div id="atelier-status" role="status" hidden="">
 </div>
+
+
 
 
 </body>
