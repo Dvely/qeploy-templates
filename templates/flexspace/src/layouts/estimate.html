@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="flexspace.css">
+<script defer="" src="flexspace-data.js">
+</script>
+<script defer="" src="flexspace.js">
+</script>
+<title>FLEXSPACE 플렉스스페이스</title>
+</head>
+<body class="bg-surface font-body-md text-on-surface antialiased" data-page="estimate" data-branch="">
+<a class="fx-skip" href="#main">본문 바로가기</a>
+<header class="fixed top-0 left-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] fx-header">
+<div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-6 fx-header-row">
+<div class="flex items-center gap-10">
+<a class="flex items-center gap-3 fx-brand" data-path="home" href="index.html">
+<span class="font-headline-md text-headline-md tracking-tight uppercase text-primary font-medium">FLEXSPACE</span>
+<span class="font-label-sm text-label-sm tracking-wider text-on-surface-variant uppercase hidden sm:inline-block">플렉스스페이스</span>
+</a>
+<nav class="hidden xl:flex items-center gap-8" data-active-classes="text-primary font-medium" id="flexspace-navigation">
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="locations" href="flexspace-locations.html">지점 찾기</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="solutions" href="flexspace-solutions.html">오피스 솔루션</a>
+<a aria-current="page" class="transition-colors text-primary font-medium" data-path="price-estimate" href="flexspace-estimate.html">맞춤 견적 계산기</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="member-perks" href="flexspace-benefits.html">입주 멤버 혜택</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors fx-header-tour" data-path="book-tour" href="flexspace-tour.html">투어 예약</a>
+</nav>
+</div>
+<div class="flex items-center gap-4 lg:gap-6 fx-header-tools">
+<a class="hidden md:flex font-label-md text-label-md text-on-surface-variant" href="flexspace-about.html">브랜드 안내</a>
+<a class="hidden lg:flex items-center gap-1.5 font-label-md text-label-md text-on-surface" href="flexspace-contact.html">
+<svg class="fx-icon  text-[16px] text-on-surface-variant" data-icon="call" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 3h4l2 6-3 2c2 3 3 4 6 6l2-3 6 2v4c-9 3-20-8-17-17Z">
+</path>
+</svg>
+<span class="tracking-tight font-medium">문의 안내</span>
+</a>
+<a class="inline-flex items-center justify-center h-10 px-4 bg-primary-container text-on-primary font-label-md text-label-md rounded hover:bg-surface-tint transition-colors fx-header-tour" data-path="book-tour" href="flexspace-tour.html">무료 방문 투어 신청</a>
+<a class="fx-account" href="flexspace-saved.html" aria-label="관심 지점 보관함">
+<svg class="fx-icon" data-icon="bookmark_border" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg>
+</a>
+<button class="fx-menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="flexspace-navigation">
+<svg class="fx-icon" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 6h18M3 12h18M3 18h18">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</header>
+<main class="w-full pt-20 bg-surface min-h-screen" id="main">
+<div class="flex flex-col w-full">
+<!-- Top Announcement Strip -->
+<div class="w-full bg-primary-container text-on-primary py-2.5 px-6">
+<div class="max-w-7xl mx-auto flex items-center justify-between font-label-md text-label-md">
+<div class="flex items-center gap-2">
+<span class="inline-block w-2 h-2 rounded-full bg-tertiary-fixed-dim animate-pulse">
+</span>
+<span class="text-primary-fixed tracking-wide font-medium">기업 맞춤 오피스 요금 안내</span>
+<span class="hidden md:inline text-on-primary-container">|</span>
+<span class="hidden md:inline text-surface-variant font-normal">인원·지점·계약 기간별 예시 요금 비교</span>
+</div>
+<div class="flex items-center gap-3 text-surface-variant">
+<span>맞춤 조건 상담: <strong class="text-surface-container-lowest font-medium tracking-tight">문의 안내</strong>
+</span>
+</div>
+</div>
+</div>
+<!-- Hero Headline & Intro -->
+<section class="relative w-full bg-surface-container-low pt-12 pb-16 overflow-hidden">
+<div class="absolute -right-24 -top-24 w-96 h-96 rounded-full bg-primary-fixed/30 blur-3xl pointer-events-none">
+</div>
+<div class="absolute left-1/3 bottom-0 w-80 h-80 rounded-full bg-secondary-fixed/40 blur-3xl pointer-events-none">
+</div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-8 pb-8">
+<div class="max-w-3xl space-y-4">
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded bg-surface-container-highest text-primary font-label-sm text-label-sm tracking-wider uppercase font-semibold">Instant Cost Simulator</span>
+<span class="text-outline-variant font-label-sm">●</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm">데이터 기반 투명 정찰제</span>
+</div>
+<h1 class="font-display-hero text-display-hero tracking-tight text-primary leading-tight">
+            우리 팀에 딱 맞는 오피스 견적,<br>
+<span class="text-surface-tint">30초 만에 시뮬레이션</span>하세요.
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            인원수와 거점 권역, 부가 인프라만 선택하면 초기 구축비 0원의 프리미엄 프라이빗 워크스페이스 예상 비용이 즉시 산출됩니다.
+            완성된 시뮬레이션 결과는 PDF 견적서로 즉시 보관 가능합니다.
+          </p>
+</div>
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-primary-container text-on-primary font-label-md text-label-md rounded shadow-sm hover:bg-surface-tint transition-all" data-path="book-tour" href="flexspace-contact.html">
+<svg class="fx-icon  text-[18px]" data-icon="calendar_month" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 5h18v16H3ZM7 2v6M17 2v6M3 11h18M8 15h1M15 15h1">
+</path>
+</svg>
+<span>전문 컨설턴트 상담 예약</span>
+</a>
+<button class="inline-flex items-center justify-center gap-2 px-5 py-3.5 bg-surface-container-lowest text-primary font-label-md text-label-md rounded shadow-sm hover:bg-surface-container-high transition-colors" id="quickSampleBtn" type="button" data-sample="">
+<svg class="fx-icon  text-[18px]" data-icon="tune" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span>인기 10인실 조건 바로 채우기</span>
+</button>
+</div>
+</div>
+<!-- Quick Metrics Bar -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-3 pt-6">
+<div class="p-4 bg-surface-container-lowest rounded shadow-sm flex items-center gap-3.5">
+<div class="w-10 h-10 rounded bg-surface-container-low flex items-center justify-center text-primary">
+<svg class="fx-icon  text-[22px]" data-icon="savings" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">보증금 부담 경감</div>
+<div class="font-headline-sm text-headline-sm text-primary font-semibold">최대 90% 절감</div>
+</div>
+</div>
+<div class="p-4 bg-surface-container-lowest rounded shadow-sm flex items-center gap-3.5">
+<div class="w-10 h-10 rounded bg-surface-container-low flex items-center justify-center text-primary">
+<svg class="fx-icon  text-[22px]" data-icon="handyman" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">인테리어 시공비</div>
+<div class="font-headline-sm text-headline-sm text-primary font-semibold">0원 (전액 무상)</div>
+</div>
+</div>
+<div class="p-4 bg-surface-container-lowest rounded shadow-sm flex items-center gap-3.5">
+<div class="w-10 h-10 rounded bg-surface-container-low flex items-center justify-center text-primary">
+<svg class="fx-icon  text-[22px]" data-icon="bolt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m13 2-9 12h7l-1 8 10-13h-7Z">
+</path>
+</svg>
+</div>
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">입주 준비 기간</div>
+<div class="font-headline-sm text-headline-sm text-primary font-semibold">당일 즉시 업무</div>
+</div>
+</div>
+<div class="p-4 bg-surface-container-lowest rounded shadow-sm flex items-center gap-3.5">
+<div class="w-10 h-10 rounded bg-surface-container-low flex items-center justify-center text-primary">
+<svg class="fx-icon  text-[22px]" data-icon="receipt_long" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 5v15M3 4c4-1 7 0 9 1 2-1 5-2 9-1v15c-4-1-7 0-9 1-2-1-5-2-9-1Z">
+</path>
+</svg>
+</div>
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">관리비 &amp; 냉난방비</div>
+<div class="font-headline-sm text-headline-sm text-primary font-semibold">월 0원 고정</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Multi-step Calculator Core -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-12 w-full">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Left Column: Step-by-Step Configuration Panels -->
+<div class="lg:col-span-7 xl:col-span-8 space-y-8">
+<!-- STEP 1: Headcount Selection -->
+<div class="bg-surface-container-lowest p-6 lg:p-8 rounded shadow-sm space-y-6">
+<div class="flex items-center justify-between pb-4">
+<div class="flex items-center gap-3">
+<span class="w-7 h-7 rounded bg-primary-container text-on-primary flex items-center justify-center font-label-md text-label-md font-semibold">01</span>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary font-medium tracking-tight">입주 희망 인원</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">정확한 인원수를 설정하시면 적정 전용 면적과 배치가 제안됩니다.</p>
+</div>
+</div>
+<div class="flex items-center gap-1.5 px-3 py-1.5 bg-surface-container-low rounded">
+<svg class="fx-icon  text-[16px] text-surface-tint" data-icon="straighten" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span class="font-label-md text-label-md text-primary font-semibold" id="recommendedArea">권장 18~22평 (59㎡)</span>
+</div>
+</div>
+<div class="space-y-5">
+<div class="flex items-end justify-between">
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">선택된 인원수</span>
+<div class="flex items-baseline gap-1">
+<span class="font-display-hero text-display-hero leading-none text-primary font-semibold" id="headcountDisplay">8</span>
+<span class="font-headline-md text-headline-md text-on-surface-variant font-medium">명</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<button class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-primary hover:bg-surface-container-high transition-colors" id="btnMinus" type="button">
+<svg class="fx-icon  text-[20px]" data-icon="remove" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16">
+</path>
+</svg>
+</button>
+<div class="relative">
+<input class="w-20 h-10 px-2 text-center font-headline-sm text-headline-sm font-semibold text-primary bg-surface-container-low rounded focus:outline-none focus:bg-surface-container-lowest" id="headcountInput" max="120" min="1" type="number" value="8" aria-label="headcountInput">
+</div>
+<button class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-primary hover:bg-surface-container-high transition-colors" id="btnPlus" type="button">
+<svg class="fx-icon  text-[20px]" data-icon="add" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 4v16M4 12h16">
+</path>
+</svg>
+</button>
+</div>
+</div>
+<!-- Custom Slider Track -->
+<div class="space-y-2 pt-2">
+<input class="w-full h-2 bg-surface-container-high rounded-lg appearance-none cursor-pointer accent-primary" id="headcountSlider" max="100" min="1" type="range" value="8" aria-label="headcountSlider">
+<div class="flex justify-between font-label-sm text-label-sm text-outline">
+<span>1인 (개인)</span>
+<span>10인</span>
+<span>30인</span>
+<span>50인</span>
+<span>100인+ (사옥형)</span>
+</div>
+</div>
+<!-- Quick Headcount Preset Chips -->
+<div class="flex flex-wrap gap-2 pt-2">
+<button class="preset-chip px-3 py-1.5 rounded font-label-md text-label-md bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-colors" data-val="1" type="button">1인 프리랜서</button>
+<button class="preset-chip px-3 py-1.5 rounded font-label-md text-label-md bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-colors" data-val="4" type="button">4인 스타트업</button>
+<button class="preset-chip px-3 py-1.5 rounded font-label-md text-label-md bg-primary-container text-on-primary transition-colors" data-val="8" type="button">8인 스케일업</button>
+<button class="preset-chip px-3 py-1.5 rounded font-label-md text-label-md bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-colors" data-val="20" type="button">20인 성장기업</button>
+<button class="preset-chip px-3 py-1.5 rounded font-label-md text-label-md bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-colors" data-val="50" type="button">50인+ 엔터프라이즈</button>
+</div>
+</div>
+</div>
+<!-- STEP 2: Location Selection -->
+<div class="bg-surface-container-lowest p-6 lg:p-8 rounded shadow-sm space-y-6">
+<div class="flex items-center justify-between pb-4">
+<div class="flex items-center gap-3">
+<span class="w-7 h-7 rounded bg-primary-container text-on-primary flex items-center justify-center font-label-md text-label-md font-semibold">02</span>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary font-medium tracking-tight">선호 권역 및 센터</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">서울 핵심 비즈니스 클러스터의 플래그십 센터를 선택하세요.</p>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-tertiary-container font-medium bg-secondary-container/50 px-2.5 py-1 rounded">모든 지점 무료 라운지 로밍</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5" id="locationGrid">
+<!-- Gangnam -->
+<label class="location-card relative p-4 rounded bg-surface-container-low cursor-pointer hover:bg-surface-container transition-all flex flex-col justify-between space-y-3" role="radio" tabindex="0" data-estimate-group="location" data-estimate-value="gangnam">
+<input checked="" class="sr-only" name="location" type="radio" value="gangnam">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-secondary-fixed-variant uppercase tracking-wider block">GBD 권역</span>
+<div class="font-headline-sm text-headline-sm text-primary font-medium">강남 테헤란로 플래그십</div>
+</div>
+<svg class="fx-icon  text-[20px] text-primary location-check" data-icon="check_circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+</div>
+<div class="space-y-1.5">
+<p class="font-body-sm text-body-sm text-on-surface-variant">역삼역·강남역 도보 3분 | 컨퍼런스홀·IR룸 완비</p>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-outline">
+<span>기준단가 62만원/인</span>
+<span>●</span>
+<span class="text-tertiary-container font-semibold">잔여 3실 (마감임박)</span>
+</div>
+</div>
+</label>
+<!-- Yeouido -->
+<label class="location-card relative p-4 rounded bg-surface cursor-pointer hover:bg-surface-container transition-all flex flex-col justify-between space-y-3" role="radio" tabindex="0" data-estimate-group="location" data-estimate-value="yeouido">
+<input class="sr-only" name="location" type="radio" value="yeouido">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-secondary-fixed-variant uppercase tracking-wider block">YBD 권역</span>
+<div class="font-headline-sm text-headline-sm text-primary font-medium">여의도 파이낸스 타워</div>
+</div>
+<svg class="fx-icon  text-[20px] text-outline-variant location-check" data-icon="radio_button_unchecked" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<div class="space-y-1.5">
+<p class="font-body-sm text-body-sm text-on-surface-variant">여의도역 지하 직통 | 한강 파노라마 뷰 라운지</p>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-outline">
+<span>기준단가 65만원/인</span>
+<span>●</span>
+<span>잔여 5실</span>
+</div>
+</div>
+</label>
+<!-- Euljiro -->
+<label class="location-card relative p-4 rounded bg-surface cursor-pointer hover:bg-surface-container transition-all flex flex-col justify-between space-y-3" role="radio" tabindex="0" data-estimate-group="location" data-estimate-value="cbd">
+<input class="sr-only" name="location" type="radio" value="cbd">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-secondary-fixed-variant uppercase tracking-wider block">CBD 권역</span>
+<div class="font-headline-sm text-headline-sm text-primary font-medium">광화문·을지로 시티뷰</div>
+</div>
+<svg class="fx-icon  text-[20px] text-outline-variant location-check" data-icon="radio_button_unchecked" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<div class="space-y-1.5">
+<p class="font-body-sm text-body-sm text-on-surface-variant">을지로입구역 도보 1분 | 대기업 계열사 및 금융 밀집</p>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-outline">
+<span>기준단가 58만원/인</span>
+<span>●</span>
+<span>잔여 4실</span>
+</div>
+</div>
+</label>
+<!-- Seongsu -->
+<label class="location-card relative p-4 rounded bg-surface cursor-pointer hover:bg-surface-container transition-all flex flex-col justify-between space-y-3" role="radio" tabindex="0" data-estimate-group="location" data-estimate-value="seongsu">
+<input class="sr-only" name="location" type="radio" value="seongsu">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-secondary-fixed-variant uppercase tracking-wider block">크리에이티브 권역</span>
+<div class="font-headline-sm text-headline-sm text-primary font-medium">성수 아틀리에 스페이스</div>
+</div>
+<svg class="fx-icon  text-[20px] text-outline-variant location-check" data-icon="radio_button_unchecked" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<div class="space-y-1.5">
+<p class="font-body-sm text-body-sm text-on-surface-variant">성수역 도보 4분 | 포토 스튜디오·테라스 라운지 구비</p>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-outline">
+<span>기준단가 54만원/인</span>
+<span>●</span>
+<span>잔여 2실</span>
+</div>
+</div>
+</label>
+</div>
+</div>
+<!-- STEP 3: Office Type Selection -->
+<div class="bg-surface-container-lowest p-6 lg:p-8 rounded shadow-sm space-y-6">
+<div class="flex items-center justify-between pb-4">
+<div class="flex items-center gap-3">
+<span class="w-7 h-7 rounded bg-primary-container text-on-primary flex items-center justify-center font-label-md text-label-md font-semibold">03</span>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary font-medium tracking-tight">오피스 타입</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">조직 규모 및 보안 요구도에 맞춘 최적화 레이아웃을 선택하세요.</p>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4" id="officeTypeGrid">
+<!-- Type 1: Hot Desk / Dedicated -->
+<label class="office-type-card p-5 rounded bg-surface cursor-pointer hover:bg-surface-container-low transition-all flex flex-col justify-between" role="radio" tabindex="0" data-estimate-group="officeType" data-estimate-value="dedicated">
+<input class="sr-only" name="officeType" type="radio" value="dedicated">
+<div class="space-y-3">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">1~4인 추천</span>
+<svg class="fx-icon  text-[18px] text-outline-variant office-check" data-icon="radio_button_unchecked" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<div class="font-headline-sm text-headline-sm text-primary font-medium">오픈 데스크 &amp; 라운지</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">자유로운 핫데스크 혹은 고정 지정석. 집중 업무 존 및 카페형 라운지 무제한 이용.</p>
+</div>
+<div class="pt-4 mt-4 bg-surface-container/30 -mx-5 -mb-5 p-4 rounded-b">
+<div class="font-label-sm text-label-sm text-outline">할인 전 기준가</div>
+<div class="font-headline-sm text-headline-sm text-primary font-semibold">390,000원 <span class="font-body-sm text-body-sm text-on-surface-variant font-normal">/인/월</span>
+</div>
+</div>
+</label>
+<!-- Type 2: Private Office (Recommended default) -->
+<label class="office-type-card p-5 rounded bg-surface-container-low cursor-pointer hover:bg-surface-container transition-all flex flex-col justify-between relative" role="radio" tabindex="0" data-estimate-group="officeType" data-estimate-value="private">
+<div class="absolute -top-3 left-4 px-2.5 py-0.5 rounded bg-primary-container text-on-primary font-label-sm text-label-sm tracking-wider font-semibold">
+                가장 인기
+              </div>
+<input checked="" class="sr-only" name="officeType" type="radio" value="private">
+<div class="space-y-3 pt-1">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-highest font-label-sm text-label-sm text-primary font-medium">3~40인 추천</span>
+<svg class="fx-icon  text-[18px] text-primary office-check" data-icon="check_circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+</div>
+<div class="font-headline-sm text-headline-sm text-primary font-medium">독립 프라이빗 스위트</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">방음벽 시공, 개별 지문/카드키 도어록, 허먼밀러 에어론 의자 및 모션데스크 풀세팅 제공.</p>
+</div>
+<div class="pt-4 mt-4 bg-surface-container/60 -mx-5 -mb-5 p-4 rounded-b">
+<div class="font-label-sm text-label-sm text-outline">할인 전 기준가</div>
+<div class="font-headline-sm text-headline-sm text-primary font-semibold">620,000원 <span class="font-body-sm text-body-sm text-on-surface-variant font-normal">/인/월</span>
+</div>
+</div>
+</label>
+<!-- Type 3: Enterprise Custom -->
+<label class="office-type-card p-5 rounded bg-surface cursor-pointer hover:bg-surface-container-low transition-all flex flex-col justify-between" role="radio" tabindex="0" data-estimate-group="officeType" data-estimate-value="enterprise">
+<input class="sr-only" name="officeType" type="radio" value="enterprise">
+<div class="space-y-3">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">30인 이상 추천</span>
+<svg class="fx-icon  text-[18px] text-outline-variant office-check" data-icon="radio_button_unchecked" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<div class="font-headline-sm text-headline-sm text-primary font-medium">기업 전용층 커스텀</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">단독 층 사용, 전용 미팅룸 및 임원실 설계, 독립 네트워크 망 분리 및 맞춤형 CI 브랜딩.</p>
+</div>
+<div class="pt-4 mt-4 bg-surface-container/30 -mx-5 -mb-5 p-4 rounded-b">
+<div class="font-label-sm text-label-sm text-outline">할인 전 기준가</div>
+<div class="font-headline-sm text-headline-sm text-primary font-semibold">750,000원 <span class="font-body-sm text-body-sm text-on-surface-variant font-normal">/인/월</span>
+</div>
+</div>
+</label>
+</div>
+</div>
+<!-- STEP 4: Duration & Add-on Infrastructure -->
+<div class="bg-surface-container-lowest p-6 lg:p-8 rounded shadow-sm space-y-6">
+<div class="flex items-center justify-between pb-4">
+<div class="flex items-center gap-3">
+<span class="w-7 h-7 rounded bg-primary-container text-on-primary flex items-center justify-center font-label-md text-label-md font-semibold">04</span>
+<div>
+<h3 class="font-headline-md text-headline-md text-primary font-medium tracking-tight">계약 기간 및 부가 인프라 옵션</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">장기 계약 시 최대 18% 추가 요율 감면이 실시간 반영됩니다.</p>
+</div>
+</div>
+</div>
+<!-- Contract Terms -->
+<div class="space-y-2">
+<label class="font-label-md text-label-md text-primary font-semibold block">계약 기간 선택</label>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3" id="termGrid">
+<label class="term-card p-3.5 rounded bg-surface cursor-pointer text-center hover:bg-surface-container transition-all" role="radio" tabindex="0" data-estimate-group="term" data-estimate-value="3">
+<input class="sr-only" name="term" type="radio" value="3">
+<div class="font-headline-sm text-headline-sm text-primary font-medium">3개월</div>
+<div class="font-label-sm text-label-sm text-outline">기본 요율 적용</div>
+</label>
+<label class="term-card p-3.5 rounded bg-surface cursor-pointer text-center hover:bg-surface-container transition-all" role="radio" tabindex="0" data-estimate-group="term" data-estimate-value="6">
+<input class="sr-only" name="term" type="radio" value="6">
+<div class="font-headline-sm text-headline-sm text-primary font-medium">6개월</div>
+<div class="font-label-sm text-label-sm text-secondary-container bg-surface-tint/20 rounded px-1 mt-0.5">5% 추가 할인</div>
+</label>
+<label class="term-card p-3.5 rounded bg-surface-container-low cursor-pointer text-center hover:bg-surface-container transition-all relative" role="radio" tabindex="0" data-estimate-group="term" data-estimate-value="12">
+<input checked="" class="sr-only" name="term" type="radio" value="12">
+<div class="font-headline-sm text-headline-sm text-primary font-medium">12개월</div>
+<div class="font-label-sm text-label-sm text-tertiary-container font-semibold bg-tertiary-fixed rounded px-1.5 mt-0.5">12% 파격 할인</div>
+</label>
+<label class="term-card p-3.5 rounded bg-surface cursor-pointer text-center hover:bg-surface-container transition-all" role="radio" tabindex="0" data-estimate-group="term" data-estimate-value="24">
+<input class="sr-only" name="term" type="radio" value="24">
+<div class="font-headline-sm text-headline-sm text-primary font-medium">24개월</div>
+<div class="font-label-sm text-label-sm text-on-tertiary-container bg-secondary-container rounded px-1.5 mt-0.5">18% 최대 할인</div>
+</label>
+</div>
+</div>
+<!-- Addon Checkboxes -->
+<div class="pt-4 space-y-3">
+<label class="font-label-md text-label-md text-primary font-semibold block">부가 업무 솔루션 (필요 시 선택)</label>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+<!-- Parking Addon -->
+<label class="p-3.5 rounded bg-surface hover:bg-surface-container transition-all cursor-pointer flex flex-col justify-between space-y-2">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-2">
+<input class="w-4 h-4 rounded text-primary focus:ring-0" id="addonParking" type="checkbox">
+<span class="font-headline-sm text-[16px] text-primary font-medium">전용 지정 주차</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">+18만/월</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">자주식 지정 주차 구역 (입주사 전용 배정)</p>
+</label>
+<!-- Extra Meeting Rooms -->
+<label class="p-3.5 rounded bg-surface hover:bg-surface-container transition-all cursor-pointer flex flex-col justify-between space-y-2">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-2">
+<input class="w-4 h-4 rounded text-primary focus:ring-0" id="addonCredits" type="checkbox">
+<span class="font-headline-sm text-[16px] text-primary font-medium">미팅룸 패키지 +30h</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">+15만/월</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">기본 40시간 외 추가 30시간 (대형 세미나실 포함)</p>
+</label>
+<!-- Server Rack -->
+<label class="p-3.5 rounded bg-surface hover:bg-surface-container transition-all cursor-pointer flex flex-col justify-between space-y-2">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-2">
+<input class="w-4 h-4 rounded text-primary focus:ring-0" id="addonRack" type="checkbox">
+<span class="font-headline-sm text-[16px] text-primary font-medium">전용 보안 IDC 랙</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">+25만/월</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">전용 분전함 및 24시간 항온항습 IDC 전산실 랙</p>
+</label>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Real-Time Summary Dashboard Card (Sticky) -->
+<div class="lg:col-span-5 xl:col-span-4 lg:sticky lg:top-24 space-y-4">
+<div class="bg-surface-container-lowest rounded-xl shadow-md p-6 lg:p-7 space-y-6 relative overflow-hidden">
+<!-- Subtle Top Indicator -->
+<div class="flex items-center justify-between pb-3">
+<div class="flex items-center gap-2">
+<span class="inline-block w-2.5 h-2.5 rounded-full bg-surface-tint">
+</span>
+<span class="font-label-md text-label-md font-semibold text-primary uppercase tracking-wider">실시간 견적 산출 명세</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline tracking-tight" id="liveTimestamp">2026.08 기준 실시간</span>
+</div>
+<!-- Configuration Preview Tags -->
+<div class="p-3.5 bg-surface-container-low rounded space-y-2">
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">선택 조건:</span>
+<span class="font-medium text-primary" id="summaryTagLocation">강남 테헤란로 플래그십</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">공간 및 규모:</span>
+<span class="font-medium text-primary" id="summaryTagType">독립 프라이빗 스위트 (8인)</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">계약 기간:</span>
+<span class="font-medium text-primary" id="summaryTagTerm">12개월 (12% 특별할인)</span>
+</div>
+</div>
+<!-- Breakdown Cost Table -->
+<div class="space-y-3 font-body-sm text-body-sm">
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>월 정상 정가</span>
+<span class="line-through text-outline" id="originalPrice">4,960,000원</span>
+</div>
+<!-- Promotion discounts -->
+<div class="flex justify-between items-center text-tertiary-container font-medium">
+<span class="flex items-center gap-1">
+<svg class="fx-icon  text-[16px]" data-icon="local_offer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span>신규 얼리버드 프로모션 (-15%)</span>
+</span>
+<span id="promoDiscount">-744,000원</span>
+</div>
+<div class="flex justify-between items-center text-tertiary-container font-medium" id="termDiscountRow">
+<span class="flex items-center gap-1">
+<svg class="fx-icon  text-[16px]" data-icon="history_toggle_off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span>12개월 장기 약정 할인 (-12%)</span>
+</span>
+<span id="termDiscount">-595,200원</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant" id="addonRow" style="display:none;">
+<span>선택 부가 인프라 합계</span>
+<span id="addonTotal">+0원</span>
+</div>
+<div class="h-px bg-surface-container my-2">
+</div>
+<!-- Final Monthly Cost Highlight -->
+<div class="space-y-1">
+<div class="flex justify-between items-baseline">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">월 예상 실납부액 (VAT 별도)</span>
+<span class="font-display-hero text-[34px] leading-tight text-primary font-bold tracking-tight" id="finalMonthlyPrice">3,620,800</span>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold">원/월</span>
+</div>
+</div>
+<p class="font-label-sm text-label-sm text-surface-tint">
+                1인 환산 기준: 월 약 <span class="font-semibold text-primary" id="perPersonPrice">452,600원</span> (정상가 대비 27% 인하)
+              </p>
+</div>
+<!-- Deposit Box -->
+<div class="p-3 bg-secondary-fixed/30 rounded flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-secondary-fixed-variant uppercase tracking-wide">입주 예치 보증금</span>
+<div class="font-headline-sm text-[16px] text-primary font-semibold" id="depositAmount">7,241,600원</div>
+</div>
+<span class="px-2 py-0.5 rounded bg-surface-container-lowest font-label-sm text-label-sm text-secondary font-medium">일반임대 대비 90% 세이브</span>
+</div>
+</div>
+<!-- 5 Free Perks Included -->
+<div class="space-y-2.5 pt-2">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-semibold block">월 이용료에 전액 포함된 무상 혜택 (5종)</span>
+<ul class="space-y-1.5 font-body-sm text-[13px] text-on-surface-variant">
+<li class="flex items-center gap-2">
+<svg class="fx-icon  text-[16px] text-surface-tint" data-icon="check_circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span>전국 플렉스스페이스 라운지 무제한 로밍 워크</span>
+</li>
+<li class="flex items-center gap-2">
+<svg class="fx-icon  text-[16px] text-surface-tint" data-icon="check_circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span>건물 관리비, 개별 냉난방비, 전기세, 수도세 전액 0원</span>
+</li>
+<li class="flex items-center gap-2">
+<svg class="fx-icon  text-[16px] text-surface-tint" data-icon="check_circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span>엔터프라이즈 전용 대칭형 기가비트 보안 WiFi</span>
+</li>
+<li class="flex items-center gap-2">
+<svg class="fx-icon  text-[16px] text-surface-tint" data-icon="check_circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span>월 기본 미팅룸 크레딧 40시간 무료 부여</span>
+</li>
+<li class="flex items-center gap-2">
+<svg class="fx-icon  text-[16px] text-surface-tint" data-icon="check_circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span>스페셜티 원두커피 4종, 티 셀렉션 및 시리얼 바 무제한</span>
+</li>
+</ul>
+</div>
+<!-- CTAs -->
+<div class="space-y-2.5 pt-2">
+<button class="w-full flex items-center justify-center gap-2 py-3.5 bg-primary-container text-on-primary font-label-md text-label-md rounded shadow-sm hover:bg-surface-tint transition-all" id="downloadPdfBtn" type="button" data-quote="">상세 견적서 보기·인쇄</button>
+<a class="w-full flex items-center justify-center gap-2 py-3 bg-surface-container text-primary font-label-md text-label-md rounded hover:bg-surface-container-high transition-colors" data-path="book-tour" href="flexspace-tour.html" data-estimate-tour="">
+<svg class="fx-icon  text-[18px]" data-icon="verified" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span>이 조건으로 방문 투어 예약하기</span>
+</a>
+</div>
+<div class="text-center font-label-sm text-label-sm text-outline">
+            * 본 시뮬레이션 금액은 실시간 입주 현황에 따라 일부 조정될 수 있습니다.
+          </div>
+</div>
+<!-- Mini Agent Card -->
+<div class="bg-surface-container-low p-4 rounded shadow-sm flex items-center gap-3">
+<div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center text-primary flex-shrink-0">
+<svg class="fx-icon  text-[24px]" data-icon="support_agent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<div class="space-y-0.5">
+<div class="font-label-md text-label-md text-primary font-semibold">기업 이전 전담 컨설턴트 직통 배정</div>
+<p class="font-body-sm text-[12px] text-on-surface-variant">사옥 이전 일정, 법인 계약 특약, 분할 결제 상담을 지원합니다.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Architectural Visual Breakout Section -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-8 w-full">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="relative h-64 rounded-xl overflow-hidden group">
+<a href="flexspace-branch-gangnam.html" aria-label="관련 지점 자세히 보기">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="images/flexspace-estimate-private.jpg" alt="플렉스스페이스 공간 · estimate-private" loading="eager" decoding="async">
+</a>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent flex flex-col justify-end p-5 text-on-primary">
+<span class="font-label-sm text-label-sm text-tertiary-fixed font-semibold tracking-wider uppercase">Acoustic Private Suites</span>
+<h4 class="font-headline-sm text-headline-sm text-on-primary font-medium">강남·테헤란 프라이빗 스위트</h4>
+<p class="font-body-sm text-body-sm text-surface-variant">방음 42dB 차음 시공 및 스마트 락킹</p>
+</div>
+</div>
+<div class="relative h-64 rounded-xl overflow-hidden group">
+<a href="flexspace-branch-seongsu.html" aria-label="관련 지점 자세히 보기">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="images/flexspace-estimate-lounge.jpg" alt="플렉스스페이스 공간 · estimate-lounge" loading="lazy" decoding="async">
+</a>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent flex flex-col justify-end p-5 text-on-primary">
+<span class="font-label-sm text-label-sm text-tertiary-fixed font-semibold tracking-wider uppercase">Business Hospitality</span>
+<h4 class="font-headline-sm text-headline-sm text-on-primary font-medium">여의도 파이낸스 스카이라운지</h4>
+<p class="font-body-sm text-body-sm text-surface-variant">고객 접견 및 프라이빗 IR 데스크 제공</p>
+</div>
+</div>
+<div class="relative h-64 rounded-xl overflow-hidden group">
+<a href="flexspace-branch-yeouido.html" aria-label="관련 지점 자세히 보기">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="images/flexspace-estimate-meeting.jpg" alt="플렉스스페이스 공간 · estimate-meeting" loading="lazy" decoding="async">
+</a>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent flex flex-col justify-end p-5 text-on-primary">
+<span class="font-label-sm text-label-sm text-tertiary-fixed font-semibold tracking-wider uppercase">Boardrooms &amp; Facilities</span>
+<h4 class="font-headline-sm text-headline-sm text-on-primary font-medium">을지로 4K 화상회의실</h4>
+<p class="font-body-sm text-body-sm text-surface-variant">글로벌 원격 회의 전용 시스코 시스템 구축</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Comparison Table: Traditional Lease vs FLEXSPACE -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-12 w-full">
+<div class="space-y-3 max-w-2xl pb-6">
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded bg-surface-container-highest text-primary font-label-sm text-label-sm tracking-wider uppercase font-semibold">TCO Cost Comparison</span>
+<span class="text-outline-variant font-label-sm">●</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm">총소유비용 분석</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight font-medium">
+        일반 오피스 임대 vs 플렉스스페이스
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        단순 월 임대료 이면에 숨겨진 인테리어 원상복구비, 건물 관리비, 라운지 운영 인건비까지 비교하면 압도적인 절감 효과를 체감할 수 있습니다.
+      </p>
+</div>
+<!-- Comparative Table Container -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-x-auto">
+<table class="w-full text-left min-w-[700px]">
+<thead>
+<tr class="bg-surface-container-low text-primary font-label-md text-label-md">
+<th class="py-4 px-6 font-semibold w-1/4">비교 항목 (10인실 기준)</th>
+<th class="py-4 px-6 font-semibold text-outline w-1/3">일반 프라임급 오피스 임대</th>
+<th class="py-4 px-6 font-semibold text-primary bg-primary-fixed/20 w-1/3">플렉스스페이스 (FLEXSPACE)</th>
+</tr>
+</thead>
+<tbody class="font-body-sm text-body-sm divide-y-0">
+<tr class="hover:bg-surface-container-low/40 transition-colors">
+<td class="py-4 px-6 font-medium text-primary">
+<div class="flex items-center gap-2">
+<svg class="fx-icon  text-[18px] text-surface-tint" data-icon="account_balance" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span>초기 보증금</span>
+</div>
+</td>
+<td class="py-4 px-6 text-on-surface-variant">
+              월세의 10~12배 (약 5,000만 ~ 1억 원 묶임)
+            </td>
+<td class="py-4 px-6 bg-primary-fixed/10 font-semibold text-primary">
+              단 2개월분 예치금 (약 700만 원, 90% 이상 절감)
+            </td>
+</tr>
+<tr class="hover:bg-surface-container-low/40 transition-colors">
+<td class="py-4 px-6 font-medium text-primary">
+<div class="flex items-center gap-2">
+<svg class="fx-icon  text-[18px] text-surface-tint" data-icon="architecture" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span>인테리어 시공 및 가구</span>
+</div>
+</td>
+<td class="py-4 px-6 text-on-surface-variant">
+              평당 250~350만 원 (약 4,000만 원 초기 비용 발생)
+            </td>
+<td class="py-4 px-6 bg-primary-fixed/10 font-semibold text-primary">
+              0원 (허먼밀러 의자, 맞춤 모션데스크 풀세팅 완비)
+            </td>
+</tr>
+<tr class="hover:bg-surface-container-low/40 transition-colors">
+<td class="py-4 px-6 font-medium text-primary">
+<div class="flex items-center gap-2">
+<svg class="fx-icon  text-[18px] text-surface-tint" data-icon="receipt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span>월 건물 관리비 및 유틸리티</span>
+</div>
+</td>
+<td class="py-4 px-6 text-on-surface-variant">
+              월 120만~200만 원 추가 청구 (냉난방 실비 부과)
+            </td>
+<td class="py-4 px-6 bg-primary-fixed/10 font-semibold text-primary">
+              0원 (관리비, 냉난방비, 전기/수도세 전액 무료 포함)
+            </td>
+</tr>
+<tr class="hover:bg-surface-container-low/40 transition-colors">
+<td class="py-4 px-6 font-medium text-primary">
+<div class="flex items-center gap-2">
+<svg class="fx-icon  text-[18px] text-surface-tint" data-icon="coffee" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 4h13v10a6 6 0 0 1-12 0V4ZM16 6h2a3 3 0 0 1 0 6h-2M2 21h18M6 1v1M11 1v1">
+</path>
+</svg>
+<span>F&amp;B 복지 및 청소 관리</span>
+</div>
+</td>
+<td class="py-4 px-6 text-on-surface-variant">
+              원두 머신 렌탈, 청소 용역 계약 (월 약 70만 원 소요)
+            </td>
+<td class="py-4 px-6 bg-primary-fixed/10 font-semibold text-primary">
+              스페셜티 원두 4종 무제한 &amp; 매일 전문 하우스키핑 0원
+            </td>
+</tr>
+<tr class="hover:bg-surface-container-low/40 transition-colors">
+<td class="py-4 px-6 font-medium text-primary">
+<div class="flex items-center gap-2">
+<svg class="fx-icon  text-[18px] text-surface-tint" data-icon="event_repeat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span>계약 유연성 및 원상복구</span>
+</div>
+</td>
+<td class="py-4 px-6 text-on-surface-variant">
+              최소 2~3년 장기 결속, 퇴실 시 수천만 원 원상복구비
+            </td>
+<td class="py-4 px-6 bg-primary-fixed/10 font-semibold text-primary">
+              3개월~자유 계약, 사업 확장에 따른 스케일업 즉시 가능
+            </td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Savings Bar Indicator -->
+<div class="mt-6 p-6 bg-surface-container-low rounded-xl flex flex-col md:flex-row items-center justify-between gap-4">
+<div class="space-y-1">
+<span class="font-headline-sm text-headline-sm text-primary font-medium">1년 기준 총 절감 비용(TCO) 시뮬레이션 결과</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">인테리어 초기 감가상각 및 관리비 합산 시 최소 <strong>5,400만 원 이상의 현금 유동성</strong>을 확보할 수 있습니다.</p>
+</div>
+<div class="flex items-center gap-4 flex-shrink-0">
+<div class="text-right">
+<div class="font-label-sm text-label-sm text-outline">평균 총비용 절감율</div>
+<div class="font-display-hero text-headline-lg text-primary font-bold">약 43.8% ↓</div>
+</div>
+<a class="px-5 py-3 bg-primary-container text-on-primary font-label-md text-label-md rounded shadow-sm hover:bg-surface-tint transition-all" data-path="book-tour" href="flexspace-contact.html">
+          기업 맞춤 재무 분석 요청
+        </a>
+</div>
+</div>
+</section>
+<!-- FAQ Section (Refined Architectural Tone) -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-10 w-full mb-12">
+<div class="border-t border-outline-variant/30 pt-10">
+<h3 class="font-headline-md text-headline-md text-primary font-medium tracking-tight mb-6">자주 묻는 질문</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="p-5 bg-surface-container-lowest rounded shadow-sm space-y-2">
+<h4 class="font-headline-sm text-[16px] text-primary font-semibold">Q. 계산기에서 산출된 금액 외에 추가로 청구되는 비용이 있나요?</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            없습니다. 관리비, 수도광열비, 인터넷 망 사용료, 청소비, 라운지 F&amp;B 이용료가 모두 포함된 올인클루시브(All-Inclusive) 정찰제 요금이며, 부가세(VAT 10%)만 별도 산정됩니다.
+          </p>
+</div>
+<div class="p-5 bg-surface-container-lowest rounded shadow-sm space-y-2">
+<h4 class="font-headline-sm text-[16px] text-primary font-semibold">Q. 계산 후 바로 방문 일정을 잡고 현장 룸을 볼 수 있나요?</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            네, 가능합니다. 우측 하단의 [방문 투어 예약하기]를 통해 시뮬레이션한 조건 그대로 전담 매니저에게 연결되며 당일 또는 익일 바로 실물 호실을 둘러보실 수 있습니다.
+          </p>
+</div>
+<div class="p-5 bg-surface-container-lowest rounded shadow-sm space-y-2">
+<h4 class="font-headline-sm text-[16px] text-primary font-semibold">Q. 중간에 팀원이 늘어나면 더 큰 사무실로 변경이 가능한가요?</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            위약금 없이 즉시 호실 확장이 가능합니다. 동일 건물 내 다른 호실로의 이동은 물론 타 권역(강남 ↔ 여의도 ↔ 을지로) 지점으로의 스케일업 전보도 유연하게 지원합니다.
+          </p>
+</div>
+<div class="p-5 bg-surface-container-lowest rounded shadow-sm space-y-2">
+<h4 class="font-headline-sm text-[16px] text-primary font-semibold">Q. 법인 맞춤형 인테리어 변경이나 간판 설치가 가능한가요?</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            프라이빗 스위트 및 엔터프라이즈 전용층의 경우 출입구 전용 사인보드, 회사 로고 엠블럼 부착, 전용 내부 미팅룸 구조 커스터마이징을 무상 컨설팅해 드립니다.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- PDF Download Modal (Hidden by Default) -->
+
+<!-- Interactive JavaScript Engine -->
+
+</div>
+</main>
+<footer class="w-full bg-surface-container-low text-on-surface-variant mt-space-xl">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-12">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12">
+<div class="lg:col-span-2 space-y-4">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm tracking-tight uppercase text-primary font-medium">FLEXSPACE</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">프리미엄 비즈니스 라운지 &amp; 오피스</span>
+</div>
+<p class="font-body-sm text-body-sm leading-relaxed text-on-surface-variant max-w-sm">유연한 공간 구조와 감각적인 건축 설계를 통해 비즈니스의 격을 높이는 엔터프라이즈 맞춤형 프리미엄 코워킹 플레이스.</p>
+<div class="pt-2 space-y-1 font-body-sm text-body-sm">
+<div class="flex items-center gap-2">
+<span class="font-medium text-on-surface">고객센터</span>
+<span class="font-label-md text-label-md text-primary font-semibold">문의 안내</span>
+</div>
+<p class="text-on-surface-variant">운영시간: 평일 09:00 - 18:00 (점심시간 12:00 - 13:00)</p>
+<p class="text-on-surface-variant">제휴 및 입주 제안: hello@flexspace.example.com</p>
+</div>
+</div>
+<div class="space-y-3">
+<h4 class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">주요 거점 네트워크</h4>
+<ul class="space-y-2 font-body-sm text-body-sm">
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-branch-gangnam.html">강남 테헤란로 하이엔드 라운지</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-branch-yeouido.html">여의도 파이낸스 타워 센터</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-branch-cbd.html">을지로 시티뷰 비즈니스 허브</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-branch-seongsu.html">성수 아틀리에 크리에이티브 스페이스</a>
+</li>
+</ul>
+</div>
+<div class="space-y-3">
+<h4 class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">솔루션 &amp; 서비스</h4>
+<ul class="space-y-2 font-body-sm text-body-sm">
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-solution-private.html">독립형 프라이빗 오피스</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-solution-enterprise.html">엔터프라이즈 커스텀 오피스</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-solution-lounge.html">전용 데스크 &amp; 핫데스크</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" data-path="price-estimate" href="flexspace-estimate.html">견적 시뮬레이터</a>
+</li>
+</ul>
+</div>
+<div class="space-y-3">
+<h4 class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">기업 정보 &amp; 지원</h4>
+<ul class="space-y-2 font-body-sm text-body-sm">
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-benefits.html">입주사 제휴 혜택</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" data-path="book-tour" href="flexspace-tour.html">무료 공간 투어 예약</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-about.html">브랜드 스토리</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-faq.html">자주 묻는 질문</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-cases.html">오피스 구축 이야기</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="pt-8 mt-4 space-y-4">
+<div class="flex flex-wrap gap-x-6 gap-y-2 font-label-md text-label-md">
+<a class="font-medium text-primary hover:underline" href="flexspace-privacy.html">개인정보처리방침</a>
+<a class="hover:text-on-surface transition-colors" href="flexspace-terms.html">이용약관</a>
+<a class="hover:text-on-surface transition-colors" href="flexspace-terms.html">입주 규정</a>
+<a class="hover:text-on-surface transition-colors" href="flexspace-contact.html">제휴 및 가맹 문의</a>
+<a class="hover:text-on-surface transition-colors" href="flexspace-locations.html">오시는 길</a>
+</div>
+<div class="font-body-sm text-body-sm leading-relaxed text-outline space-y-1">
+<p>(주)플렉스스페이스코리아 | 대표이사: 한지훈 | 사업자등록번호: 예시 정보 | 통신판매업신고: 제 2026-서울강남-1892호</p>
+<p>본사: 서울특별시 강남구 테헤란로 152 강남파이낸스센터 18층 | 대표전화: 문의 안내 | 팩스: 02-588-8901</p>
+<p>© 2026 FLEXSPACE Korea Co., Ltd. All rights reserved.</p>
+</div>
+</div>
+</div>
+<p class="fx-demo-note">FLEXSPACE는 가상의 오피스 브랜드입니다. 공간·입주사·요금·후기는 예시이며 견적과 투어 신청은 체험용입니다. 입력한 연락처는 저장하거나 전송하지 않습니다.</p>
+</footer>
+<dialog id="flexspace-dialog" aria-labelledby="flexspace-dialog-title">
+<div class="fx-dialog-head">
+<h2 id="flexspace-dialog-title">
+</h2>
+<button type="button" data-close="" aria-label="닫기">
+<svg class="fx-icon" data-icon="close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 6 12 12M6 18 18 6">
+</path>
+</svg>
+</button>
+</div>
+<div id="flexspace-dialog-body">
+</div>
+</dialog>
+<div id="flexspace-status" role="status" hidden="">
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>

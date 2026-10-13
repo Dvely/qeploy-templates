@@ -1,0 +1,16 @@
+{
+  "id": "flexspace",
+  "name": "플렉스스페이스",
+  "description": "기업 맞춤 오피스 솔루션과 지점·호실·구축 사례, 견적 계산 및 공간 투어 신청",
+  "tags": ["cowork", "office", "enterprise", "workspace", "booking"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    {"key":"brand","where":"index.html","desc":"FLEXSPACE 로고, 맞춤형 오피스 히어로와 브랜드 소개"},
+    {"key":"branches","where":"flexspace-data.js","desc":"네 지점의 이름·사진·지역·시설과 예시 요율"},
+    {"key":"solutions","where":"flexspace-data.js","desc":"오피스 솔루션의 규모·구성·진행 단계와 구축 사례·멤버 혜택"},
+    {"key":"layouts","where":"layouts/","desc":"Stitch 지점 상세·맞춤 견적·투어 신청 원본 레이아웃"},
+    {"key":"rates","where":"flexspace-data.js","desc":"지점별 인당 요율, 오피스 배율·기간 할인·부가 옵션과 프로모션 예시"},
+    {"key":"theme","where":"flexspace.css","desc":":root의 색상·서체 토큰과 모바일 메뉴·카드·폼 배치"}
+  ]
+}

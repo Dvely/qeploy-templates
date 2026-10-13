@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="flexspace.css">
+<script defer="" src="flexspace-data.js">
+</script>
+<script defer="" src="flexspace.js">
+</script>
+<title>FLEXSPACE 플렉스스페이스</title>
+</head>
+<body class="bg-surface font-body-md text-on-surface antialiased" data-page="tour" data-branch="">
+<a class="fx-skip" href="#main">본문 바로가기</a>
+<header class="fixed top-0 left-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] fx-header">
+<div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-6 fx-header-row">
+<div class="flex items-center gap-10">
+<a class="flex items-center gap-3 fx-brand" data-path="home" href="index.html">
+<span class="font-headline-md text-headline-md tracking-tight uppercase text-primary font-medium">FLEXSPACE</span>
+<span class="font-label-sm text-label-sm tracking-wider text-on-surface-variant uppercase hidden sm:inline-block">플렉스스페이스</span>
+</a>
+<nav class="hidden xl:flex items-center gap-8" data-active-classes="text-primary font-medium" id="flexspace-navigation">
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="locations" href="flexspace-locations.html">지점 찾기</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="solutions" href="flexspace-solutions.html">오피스 솔루션</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="price-estimate" href="flexspace-estimate.html">맞춤 견적 계산기</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="member-perks" href="flexspace-benefits.html">입주 멤버 혜택</a>
+<a aria-current="page" class="transition-colors text-primary font-medium fx-header-tour" data-path="book-tour" href="flexspace-tour.html">투어 예약</a>
+</nav>
+</div>
+<div class="flex items-center gap-4 lg:gap-6 fx-header-tools">
+<a class="hidden md:flex font-label-md text-label-md text-on-surface-variant" href="flexspace-about.html">브랜드 안내</a>
+<a class="hidden lg:flex items-center gap-1.5 font-label-md text-label-md text-on-surface" href="flexspace-contact.html">
+<svg class="fx-icon  text-[16px] text-on-surface-variant" data-icon="call" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 3h4l2 6-3 2c2 3 3 4 6 6l2-3 6 2v4c-9 3-20-8-17-17Z">
+</path>
+</svg>
+<span class="tracking-tight font-medium">문의 안내</span>
+</a>
+<a class="inline-flex items-center justify-center h-10 px-4 bg-primary-container text-on-primary font-label-md text-label-md rounded hover:bg-surface-tint transition-colors fx-header-tour" data-path="book-tour" href="flexspace-tour.html">무료 방문 투어 신청</a>
+<a class="fx-account" href="flexspace-saved.html" aria-label="관심 지점 보관함">
+<svg class="fx-icon" data-icon="bookmark_border" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg>
+</a>
+<button class="fx-menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="flexspace-navigation">
+<svg class="fx-icon" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 6h18M3 12h18M3 18h18">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</header>
+<main class="w-full pt-20 bg-surface min-h-screen" id="main">
+<div class="flex flex-col w-full">
+<!-- Top Visual Banner / Sub-hero -->
+<section class="relative w-full bg-surface-container overflow-hidden pt-12 pb-16 lg:pb-24">
+<div class="absolute inset-0 bg-gradient-to-r from-surface-container via-surface-container/95 to-surface-container-low pointer-events-none z-10">
+</div>
+<div class="absolute right-0 top-0 w-1/2 h-full opacity-30 hidden lg:block">
+<img class="w-full h-full object-cover" src="images/flexspace-tour-space.jpg" alt="플렉스스페이스 공간 · tour-space" loading="eager" decoding="async">
+</div>
+<div class="relative z-20 max-w-7xl mx-auto px-6 lg:px-12">
+<div class="max-w-3xl space-y-4">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-surface-container-lowest text-primary font-label-sm text-label-sm tracking-widest uppercase rounded">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container animate-pulse">
+</span>
+          VIP PRIVATE TOUR INVITATION
+        </div>
+<h1 class="font-headline-lg text-headline-lg lg:text-[44px] lg:leading-[54px] text-primary tracking-tight font-medium">
+          비즈니스의 내일이 시작되는 공간,<br class="hidden sm:inline"> 직접 둘러보고 결정하세요
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          전문 오피스 컨설턴트와의 1:1 맞춤 공간 투어 및 무료 일일 오피스 체험권을 증정합니다. 실제 입주 팀의 데일리 워크플로우를 그대로 경험해 보세요.
+        </p>
+<!-- Rapid Summary Pills -->
+<div class="pt-4 flex flex-wrap gap-4 sm:gap-6 font-label-md text-label-md text-on-surface-variant">
+<div class="flex items-center gap-2">
+<svg class="fx-icon  text-[18px] text-primary" data-icon="schedule" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M9 2h6M12 6v6l3 2M20 13a8 8 0 1 1-16 0 8 8 0 0 1 16 0">
+</path>
+</svg>
+<span>소요 시간: 약 30분</span>
+</div>
+<div class="flex items-center gap-2">
+<svg class="fx-icon  text-[18px] text-primary" data-icon="local_parking" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span>2시간 무료 주차 지원</span>
+</div>
+<div class="flex items-center gap-2">
+<svg class="fx-icon  text-[18px] text-primary" data-icon="verified" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span>방문 당일 100% 무료 체험 패스</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Booking Work Canvas (2-Column Grid) -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 -mt-8 relative z-30 mb-20 w-full">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Left Column: Comprehensive Interactive Booking Form (7 Cols) -->
+<form id="flexspace-tour-form" data-form-kind="tour" class="lg:col-span-7 bg-surface-container-lowest rounded-xl p-6 sm:p-10 shadow-sm space-y-10">
+<!-- Step 1: Location -->
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-tertiary-container uppercase tracking-wider">Step 01</span>
+<span class="font-label-md text-label-md text-on-surface-variant">서울 주요 권역 4개 지점</span>
+</div>
+<label class="block font-headline-sm text-headline-sm text-primary font-medium">
+            방문 희망 지점 선택
+          </label>
+<div class="relative">
+<select class="w-full h-13 px-4 bg-surface rounded text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none focus:ring-1 focus:ring-primary appearance-none cursor-pointer" id="branch-select" name="branch" aria-label="branch-select">
+<option value="gangnam">강남 테헤란로점</option>
+<option value="yeouido">여의도 IFC 파크점</option>
+<option value="seongsu">성수 아틀리에점</option>
+<option value="cbd">을지로 시그니처점</option>
+</select>
+<svg class="fx-icon  absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-on-surface-variant" data-icon="expand_more" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</div>
+</div>
+<!-- Step 2: Schedule & Time -->
+<div class="space-y-5">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-tertiary-container uppercase tracking-wider">Step 02</span>
+<span class="font-label-md text-label-md text-on-surface-variant">방문 일정 선택</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-medium">
+            투어 일정 및 시간 선택
+          </h2>
+<!-- Mini Date Selector Strip -->
+<div class="space-y-2">
+<span class="font-label-md text-label-md text-on-surface-variant block">방문 날짜</span>
+<div class="grid grid-cols-4 sm:grid-cols-7 gap-2" id="date-buttons">
+<button class="date-chip flex flex-col items-center justify-center p-2 rounded bg-primary text-on-primary" type="button" aria-pressed="false">
+<span class="font-label-sm text-label-sm opacity-80">오늘</span>
+<span class="font-headline-sm text-headline-sm font-semibold">24</span>
+<span class="font-label-sm text-label-sm opacity-80">월</span>
+</button>
+<button class="date-chip flex flex-col items-center justify-center p-2 rounded bg-surface text-on-surface hover:bg-surface-container transition-colors" type="button" aria-pressed="false">
+<span class="font-label-sm text-label-sm text-on-surface-variant">내일</span>
+<span class="font-headline-sm text-headline-sm font-semibold">25</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">화</span>
+</button>
+<button class="date-chip flex flex-col items-center justify-center p-2 rounded bg-surface text-on-surface hover:bg-surface-container transition-colors" type="button" aria-pressed="false">
+<span class="font-label-sm text-label-sm text-on-surface-variant">수</span>
+<span class="font-headline-sm text-headline-sm font-semibold">26</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">수</span>
+</button>
+<button class="date-chip flex flex-col items-center justify-center p-2 rounded bg-surface text-on-surface hover:bg-surface-container transition-colors" type="button" aria-pressed="false">
+<span class="font-label-sm text-label-sm text-on-surface-variant">목</span>
+<span class="font-headline-sm text-headline-sm font-semibold">27</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">목</span>
+</button>
+<button class="date-chip flex flex-col items-center justify-center p-2 rounded bg-surface text-on-surface hover:bg-surface-container transition-colors" type="button" aria-pressed="false">
+<span class="font-label-sm text-label-sm text-on-surface-variant">금</span>
+<span class="font-headline-sm text-headline-sm font-semibold">28</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">금</span>
+</button>
+<button class="date-chip flex flex-col items-center justify-center p-2 rounded bg-surface text-on-surface hover:bg-surface-container transition-colors" type="button" aria-pressed="false">
+<span class="font-label-sm text-label-sm text-on-surface-variant">월</span>
+<span class="font-headline-sm text-headline-sm font-semibold">31</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">월</span>
+</button>
+<button class="date-chip flex flex-col items-center justify-center p-2 rounded bg-surface text-on-surface hover:bg-surface-container transition-colors" type="button" aria-pressed="false">
+<span class="font-label-sm text-label-sm text-on-surface-variant">화</span>
+<span class="font-headline-sm text-headline-sm font-semibold">01</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">화</span>
+</button>
+</div>
+</div>
+<!-- Time Slots -->
+<div class="space-y-2 pt-2">
+<span class="font-label-md text-label-md text-on-surface-variant block">희망 시간대 (소요 30분)</span>
+<div class="grid grid-cols-2 sm:grid-cols-5 gap-2" id="time-slots">
+<button class="time-slot-btn py-3 px-2 rounded bg-surface-container text-on-surface font-label-md text-label-md text-center hover:bg-surface-variant transition-colors flex flex-col items-center" type="button" aria-pressed="false">
+<span>10:00</span>
+<span class="font-label-sm text-[10px] text-on-surface-variant">오전 슬롯</span>
+</button>
+<button class="time-slot-btn py-3 px-2 rounded bg-primary text-on-primary font-label-md text-label-md text-center transition-colors flex flex-col items-center" type="button" aria-pressed="false">
+<span>11:30</span>
+<span class="font-label-sm text-[10px] opacity-80">추천 시간</span>
+</button>
+<button class="time-slot-btn py-3 px-2 rounded bg-surface-container text-on-surface font-label-md text-label-md text-center hover:bg-surface-variant transition-colors flex flex-col items-center" type="button" aria-pressed="false">
+<span>14:00</span>
+<span class="font-label-sm text-[10px] text-on-surface-variant">오후 슬롯</span>
+</button>
+<button class="time-slot-btn py-3 px-2 rounded bg-surface-container text-on-surface font-label-md text-label-md text-center hover:bg-surface-variant transition-colors flex flex-col items-center" type="button" aria-pressed="false">
+<span>15:30</span>
+<span class="font-label-sm text-[10px] text-on-surface-variant">오후 슬롯</span>
+</button>
+<button class="time-slot-btn py-3 px-2 rounded bg-surface-container text-on-surface font-label-md text-label-md text-center hover:bg-surface-variant transition-colors flex flex-col items-center" type="button" aria-pressed="false">
+<span>17:00</span>
+<span class="font-label-sm text-[10px] text-on-surface-variant">마감 임박</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Step 3: Company & Contact Information -->
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-tertiary-container uppercase tracking-wider">Step 03</span>
+<span class="font-label-md text-label-md text-on-surface-variant">예약자 정보</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-medium">
+            기업 정보 입력
+          </h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="space-y-1.5 sm:col-span-2">
+<label class="block font-label-md text-label-md text-on-surface" for="flexspace-field-1">회사명 / 브랜드명 <span class="text-error">*</span>
+</label>
+<input class="w-full h-11 px-4 bg-surface rounded text-on-surface font-body-md text-body-md placeholder:text-outline focus:bg-surface-container-lowest focus:outline-none focus:ring-1 focus:ring-primary" placeholder="예: (주)플렉스인텔리전스" type="text" name="company" required="" maxlength="120" id="flexspace-field-1">
+</div>
+<div class="space-y-1.5">
+<label class="block font-label-md text-label-md text-on-surface" for="flexspace-field-2">신청자 성명 <span class="text-error">*</span>
+</label>
+<input class="w-full h-11 px-4 bg-surface rounded text-on-surface font-body-md text-body-md placeholder:text-outline focus:bg-surface-container-lowest focus:outline-none focus:ring-1 focus:ring-primary" placeholder="홍길동" type="text" name="name" required="" maxlength="120" id="flexspace-field-2">
+</div>
+<div class="space-y-1.5">
+<label class="block font-label-md text-label-md text-on-surface" for="flexspace-field-3">직함 / 부서</label>
+<input class="w-full h-11 px-4 bg-surface rounded text-on-surface font-body-md text-body-md placeholder:text-outline focus:bg-surface-container-lowest focus:outline-none focus:ring-1 focus:ring-primary" placeholder="피플앤컬처팀 팀장 / 대표" type="text" name="position" maxlength="120" id="flexspace-field-3">
+</div>
+<div class="space-y-1.5">
+<label class="block font-label-md text-label-md text-on-surface" for="flexspace-field-4">연락처 <span class="text-error">*</span>
+</label>
+<input class="w-full h-11 px-4 bg-surface rounded text-on-surface font-body-md text-body-md placeholder:text-outline focus:bg-surface-container-lowest focus:outline-none focus:ring-1 focus:ring-primary" placeholder="010-1234-5678" type="tel" name="phone" required="" maxlength="120" id="flexspace-field-4">
+</div>
+<div class="space-y-1.5">
+<label class="block font-label-md text-label-md text-on-surface" for="flexspace-field-5">업무용 이메일 <span class="text-error">*</span>
+</label>
+<input class="w-full h-11 px-4 bg-surface rounded text-on-surface font-body-md text-body-md placeholder:text-outline focus:bg-surface-container-lowest focus:outline-none focus:ring-1 focus:ring-primary" placeholder="contact@company.com" type="email" name="email" required="" maxlength="120" id="flexspace-field-5">
+</div>
+</div>
+</div>
+<!-- Step 4: Scale & Move-in Timing -->
+<div class="space-y-5">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-tertiary-container uppercase tracking-wider">Step 04</span>
+<span class="font-label-md text-label-md text-on-surface-variant">공간 요구사항</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-medium">
+            관심 오피스 규모 및 이사 예정 시기
+          </h2>
+<div class="space-y-3">
+<span class="font-label-md text-label-md text-on-surface-variant block">예상 입주 인원</span>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-2" id="capacity-options">
+<label class="flex items-center justify-center p-3 rounded bg-surface hover:bg-surface-container cursor-pointer transition-colors text-center font-label-md text-label-md text-on-surface has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input class="sr-only" name="capacity" type="radio" value="1-5">
+<span>1 ~ 5인실</span>
+</label>
+<label class="flex items-center justify-center p-3 rounded bg-surface hover:bg-surface-container cursor-pointer transition-colors text-center font-label-md text-label-md text-on-surface has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input checked="" class="sr-only" name="capacity" type="radio" value="6-15">
+<span>6 ~ 15인실</span>
+</label>
+<label class="flex items-center justify-center p-3 rounded bg-surface hover:bg-surface-container cursor-pointer transition-colors text-center font-label-md text-label-md text-on-surface has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input class="sr-only" name="capacity" type="radio" value="16-50">
+<span>16 ~ 50인실</span>
+</label>
+<label class="flex items-center justify-center p-3 rounded bg-surface hover:bg-surface-container cursor-pointer transition-colors text-center font-label-md text-label-md text-on-surface has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input class="sr-only" name="capacity" type="radio" value="50+">
+<span>50인 이상 (단독층)</span>
+</label>
+</div>
+</div>
+<div class="space-y-3 pt-1">
+<span class="font-label-md text-label-md text-on-surface-variant block">입주 희망 시기</span>
+<div class="grid grid-cols-3 gap-2">
+<label class="flex items-center justify-center p-3 rounded bg-surface hover:bg-surface-container cursor-pointer transition-colors text-center font-label-md text-label-md text-on-surface has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input checked="" class="sr-only" name="move_timing" type="radio" value="immediate">
+<span>즉시 입주</span>
+</label>
+<label class="flex items-center justify-center p-3 rounded bg-surface hover:bg-surface-container cursor-pointer transition-colors text-center font-label-md text-label-md text-on-surface has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input class="sr-only" name="move_timing" type="radio" value="1month">
+<span>1개월 이내</span>
+</label>
+<label class="flex items-center justify-center p-3 rounded bg-surface hover:bg-surface-container cursor-pointer transition-colors text-center font-label-md text-label-md text-on-surface has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input class="sr-only" name="move_timing" type="radio" value="2months+">
+<span>2개월 이후</span>
+</label>
+</div>
+</div>
+</div>
+<!-- Step 5: Special Requests & Facilities -->
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-tertiary-container uppercase tracking-wider">Step 05</span>
+<span class="font-label-md text-label-md text-on-surface-variant">맞춤 옵션</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-medium">
+            추가 문의 및 필요 시설 (다중 선택 가능)
+          </h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+<label class="flex items-center gap-3 p-3 bg-surface rounded hover:bg-surface-container transition-colors cursor-pointer text-on-surface">
+<input checked="" class="w-4 h-4 accent-primary rounded cursor-pointer" type="checkbox" name="facility-0">
+<span class="font-body-sm text-body-sm">다목적 회의실 및 포커스 부스 다수 필요</span>
+</label>
+<label class="flex items-center gap-3 p-3 bg-surface rounded hover:bg-surface-container transition-colors cursor-pointer text-on-surface">
+<input class="w-4 h-4 accent-primary rounded cursor-pointer" type="checkbox" name="facility-1">
+<span class="font-body-sm text-body-sm">독립 보안 랙 / 개별 전산 서버룸 필요</span>
+</label>
+<label class="flex items-center gap-3 p-3 bg-surface rounded hover:bg-surface-container transition-colors cursor-pointer text-on-surface">
+<input class="w-4 h-4 accent-primary rounded cursor-pointer" type="checkbox" name="facility-2">
+<span class="font-body-sm text-body-sm">반려동물 동반 친화 구역 선호 (펫 프렌들리)</span>
+</label>
+<label class="flex items-center gap-3 p-3 bg-surface rounded hover:bg-surface-container transition-colors cursor-pointer text-on-surface">
+<input class="w-4 h-4 accent-primary rounded cursor-pointer" type="checkbox" name="facility-3">
+<span class="font-body-sm text-body-sm">임원용 대표실(CEO Suite) 분리 구성</span>
+</label>
+</div>
+<div class="pt-2">
+<textarea class="w-full p-4 bg-surface rounded text-on-surface font-body-md text-body-md placeholder:text-outline focus:bg-surface-container-lowest focus:outline-none focus:ring-1 focus:ring-primary" placeholder="기타 특이사항이나 사전 요청 사항이 있으시면 편하게 작성해 주세요 (예: 동행 인원 3명, 24시간 보안 세팅 등)" rows="3" name="notes" aria-label="기타 특이사항이나 사전 요청 사항이 있으시면 편하게 작성해 주세요 (예: 동행 인원 3명, 24시간 보안 세팅 등)">
+</textarea>
+</div>
+</div>
+<!-- Agreement & Primary Action Button -->
+<div class="pt-4 space-y-5">
+<div class="p-4 bg-surface-container-low rounded-lg space-y-2">
+<label class="flex items-start gap-3 cursor-pointer">
+<input class="mt-0.5 w-4 h-4 accent-primary rounded cursor-pointer" required="" type="checkbox" name="consent">
+<span class="font-body-sm text-body-sm text-on-surface leading-snug">
+                [필수] 개인정보 수집 및 투어 예약 안내 목적의 알림톡·문자 수신에 동의합니다.
+              </span>
+</label>
+<p class="font-body-sm text-[12px] text-on-surface-variant pl-7">
+              플렉스스페이스는 개인정보보호법에 의거하여 방문 확인 및 맞춤 견적 발송 목적으로만 연락처를 활용합니다.
+            </p>
+</div>
+<button class="w-full h-14 bg-primary text-on-primary rounded font-label-lg text-label-lg flex items-center justify-center gap-2 hover:bg-surface-tint active:scale-[0.99] transition-all duration-150 shadow-md" type="submit">선택한 일정으로 투어 신청하기 →</button>
+<div class="flex items-center justify-center gap-2 text-on-surface-variant font-label-sm text-label-sm">
+<svg class="fx-icon  text-[14px]" data-icon="lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 10h14v11H5ZM8 10V6a4 4 0 0 1 8 0v4">
+</path>
+</svg>
+<span>신청 즉시 담당 매니저 배정 및 모바일 방문 패스가 발송됩니다.</span>
+</div>
+</div>
+</form>
+<!-- Right Column: Perks, Manager Profile & Tour Steps (5 Cols) -->
+<div class="lg:col-span-5 space-y-6">
+<!-- Perk Card (Highlight) -->
+<div class="bg-primary text-on-primary rounded-xl p-6 sm:p-8 space-y-6 shadow-md relative overflow-hidden">
+<div class="absolute -right-12 -bottom-12 w-48 h-48 bg-surface-tint/20 rounded-full blur-2xl pointer-events-none">
+</div>
+<div class="flex items-center justify-between relative z-10">
+<span class="font-label-sm text-label-sm tracking-wider uppercase text-tertiary-fixed">EXCLUSIVE INCENTIVE</span>
+<span class="px-2.5 py-0.5 bg-surface-container-lowest/10 text-on-primary text-label-sm font-label-sm rounded">선착순 한정</span>
+</div>
+<div class="space-y-1 relative z-10">
+<h3 class="font-headline-md text-headline-md font-medium text-on-primary">
+              투어 당일 특별 혜택 3종
+            </h3>
+<p class="font-body-sm text-body-sm text-inverse-primary">
+              현장 방문 투어 완료 시 귀사에 증정되는 독점 혜택입니다.
+            </p>
+</div>
+<div class="space-y-4 relative z-10">
+<div class="flex items-start gap-4 p-3.5 bg-surface-container-lowest/5 rounded">
+<div class="w-9 h-9 rounded bg-surface-container-lowest/10 flex items-center justify-center shrink-0 text-tertiary-fixed">
+<svg class="fx-icon  text-[20px]" data-icon="percent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<div class="space-y-0.5">
+<h4 class="font-label-md text-label-md font-medium text-on-primary">당일 계약 시 첫 달 임대료 50% 지원</h4>
+<p class="font-body-sm text-body-sm text-surface-dim">투어 당일 가계약 체결 시 초기 셋업 비용 및 첫 달 월세 반값 감면</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-3.5 bg-surface-container-lowest/5 rounded">
+<div class="w-9 h-9 rounded bg-surface-container-lowest/10 flex items-center justify-center shrink-0 text-tertiary-fixed">
+<svg class="fx-icon  text-[20px]" data-icon="badge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<div class="space-y-0.5">
+<h4 class="font-label-md text-label-md font-medium text-on-primary">투어 후 1일 무료 라운지 데이패스 증정</h4>
+<p class="font-body-sm text-body-sm text-surface-dim">투어 종료 즉시 당일 전 지점 자유 라운지 &amp; 핫데스크 업무 체험권 지급</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-3.5 bg-surface-container-lowest/5 rounded">
+<div class="w-9 h-9 rounded bg-surface-container-lowest/10 flex items-center justify-center shrink-0 text-tertiary-fixed">
+<svg class="fx-icon  text-[20px]" data-icon="coffee" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 4h13v10a6 6 0 0 1-12 0V4ZM16 6h2a3 3 0 0 1 0 6h-2M2 21h18M6 1v1M11 1v1">
+</path>
+</svg>
+</div>
+<div class="space-y-0.5">
+<h4 class="font-label-md text-label-md font-medium text-on-primary">바리스타 스페셜티 커피 &amp; 웰컴 키트</h4>
+<p class="font-body-sm text-body-sm text-surface-dim">FLEX 라운지 바리스타 브루잉 커피와 친환경 프리미엄 스테이셔너리 키트</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Manager Profile Card -->
+<div class="bg-surface-container-lowest rounded-xl p-6 sm:p-7 space-y-5 shadow-sm">
+<div class="flex items-center gap-4">
+<img class="w-14 h-14 rounded-full object-cover shrink-0" src="images/flexspace-tour-manager.jpg" alt="플렉스스페이스 공간 · tour-manager" loading="lazy" decoding="async">
+<div>
+<div class="inline-flex items-center gap-1.5 px-2 py-0.5 bg-secondary-container text-on-secondary-container font-label-sm text-label-sm rounded">
+<span>전담 공간 플래너</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-medium mt-1">김서윤 총괄 매니저</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">FLEXSPACE 강남 권역 공간 컨설팅 리드</p>
+</div>
+</div>
+<div class="p-4 bg-surface rounded font-body-sm text-body-sm text-on-surface leading-relaxed relative">
+<svg class="fx-icon  absolute top-2 right-3 text-surface-dim text-3xl" data-icon="format_quote" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 5h7v8H7l-2 5H3l2-5H3ZM14 5h7v8h-3l-2 5h-2l2-5h-2Z">
+</path>
+</svg>
+            “귀사의 팀 규모, 근무 주기, 그리고 브랜드 아이덴티티에 가장 완벽히 부합하는 최적의 오피스 호실과 층별 동선을 엄선해 투어 당일 상세히 가이드해 드리겠습니다.”
+          </div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-md text-label-md pt-1">
+<span class="flex items-center gap-1.5">
+<svg class="fx-icon  text-[16px] text-on-tertiary-container" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<strong class="text-on-surface">4.98</strong> 고객 만족도 (340+ 회차)
+            </span>
+<span class="flex items-center gap-1.5">
+<svg class="fx-icon  text-[16px]" data-icon="headset_mic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span>1:1 프라이빗 진행</span>
+</span>
+</div>
+</div>
+<!-- Tour Flow Roadmap -->
+<div class="bg-surface-container-lowest rounded-xl p-6 sm:p-7 space-y-5 shadow-sm">
+<div class="flex items-center justify-between">
+<h4 class="font-headline-sm text-headline-sm text-primary font-medium">투어 진행 순서 안내</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant">소요 시간 약 30분</span>
+</div>
+<div class="relative pl-6 space-y-6 before:content-[''] before:absolute before:left-2 before:top-2 before:bottom-2 before:w-0.5 before:bg-surface-variant">
+<!-- Step 1 -->
+<div class="relative">
+<span class="absolute -left-6 top-1 w-4 h-4 rounded-full bg-primary flex items-center justify-center ring-4 ring-surface-container-lowest">
+<span class="w-1.5 h-1.5 rounded-full bg-on-primary">
+</span>
+</span>
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm text-on-tertiary-container font-semibold">STAGE 01</span>
+<h5 class="font-label-lg text-label-lg font-medium text-primary">웰컴 미팅 및 니즈 상담 (10분)</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">
+                  웰컴 드링크와 함께 귀사의 현재 팀 규모, 입주 일정, 예산 범위, 필수 인프라 요건을 청취합니다.
+                </p>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="relative">
+<span class="absolute -left-6 top-1 w-4 h-4 rounded-full bg-primary flex items-center justify-center ring-4 ring-surface-container-lowest">
+<span class="w-1.5 h-1.5 rounded-full bg-on-primary">
+</span>
+</span>
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm text-on-tertiary-container font-semibold">STAGE 02</span>
+<h5 class="font-label-lg text-label-lg font-medium text-primary">층별 공간 및 실제 입주 호실 안내 (15분)</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">
+                  채광과 방음 성능을 직접 확인하는 전용 오피스, 미팅룸, 폰부스, 라운지 등 핵심 편의 인프라를 참관합니다.
+                </p>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="relative">
+<span class="absolute -left-6 top-1 w-4 h-4 rounded-full bg-primary flex items-center justify-center ring-4 ring-surface-container-lowest">
+<span class="w-1.5 h-1.5 rounded-full bg-on-primary">
+</span>
+</span>
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm text-on-tertiary-container font-semibold">STAGE 03</span>
+<h5 class="font-label-lg text-label-lg font-medium text-primary">맞춤 견적 및 당일 프로모션 안내 (5분)</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">
+                  투어 당일 즉시 적용 가능한 지점별 단독 할인 프로모션 및 최종 상세 견적서를 브리핑해 드립니다.
+                </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Location Map Snip Preview -->
+<div class="bg-surface-container-lowest rounded-xl p-5 shadow-sm space-y-3">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-primary font-medium flex items-center gap-1.5">
+<svg class="fx-icon  text-[16px] text-on-tertiary-container" data-icon="location_on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 22 5 12a8 8 0 1 1 14 0ZM15 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
+</path>
+</svg>
+              강남 테헤란로 하이엔드 라운지 오시는 길
+            </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">역삼역 3번 출구 150m</span>
+</div>
+<div class="w-full h-36 bg-cover bg-center rounded overflow-hidden relative" data-location="Seoul Teheran-ro Gangnam" style="">
+<div class="absolute inset-0 bg-primary/20 flex items-center justify-center">
+<div class="bg-surface-container-lowest/90 backdrop-blur px-3 py-1.5 rounded font-label-md text-label-md text-primary flex items-center gap-1 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-error">
+</span>
+<span>FLEXSPACE Gangnam Tower</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Accordion Section -->
+<section class="w-full bg-surface-container-low py-16 lg:py-24">
+<div class="max-w-4xl mx-auto px-6 lg:px-12 space-y-12">
+<div class="text-center space-y-3">
+<span class="font-label-sm text-label-sm text-on-tertiary-container uppercase tracking-widest">FREQUENTLY ASKED QUESTIONS</span>
+<h2 class="font-headline-lg text-headline-lg text-primary font-medium">방문 투어 관련 자주 묻는 질문</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-lg mx-auto">
+          궁금하신 사항을 사전에 확인하시고 더욱 편안하고 알찬 투어를 준비해 보세요.
+        </p>
+</div>
+<div class="space-y-4" id="faq-accordion">
+<!-- FAQ Item 1 -->
+<div class="bg-surface-container-lowest rounded-lg p-5 transition-colors">
+<button class="faq-toggle w-full flex items-center justify-between text-left font-headline-sm text-[17px] text-primary font-medium cursor-pointer" type="button" aria-expanded="false">
+<span>방문 투어 시 차량 주차 지원이 가능한가요?</span>
+<svg class="fx-icon  text-on-surface-variant transition-transform duration-200" data-icon="expand_more" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</button>
+<div class="faq-content mt-3 pt-3 text-on-surface-variant font-body-md text-body-md leading-relaxed hidden">
+            네, 전 지점 지하 자주식 또는 기계식 주차장을 완비하고 있습니다. 사전 예약된 투어 방문객 전원에게 <strong class="text-on-surface">최대 2시간 무료 주차권</strong>을 데스크에서 즉시 등록해 드립니다. SUV나 대형 세단 방문 시 사전 문의란에 메모해 주시면 최적 구역을 배정해 드립니다.
+          </div>
+</div>
+<!-- FAQ Item 2 -->
+<div class="bg-surface-container-lowest rounded-lg p-5 transition-colors">
+<button class="faq-toggle w-full flex items-center justify-between text-left font-headline-sm text-[17px] text-primary font-medium cursor-pointer" type="button" aria-expanded="false">
+<span>공간 투어는 실제로 얼마나 소요되나요?</span>
+<svg class="fx-icon  text-on-surface-variant transition-transform duration-200" data-icon="expand_more" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</button>
+<div class="faq-content mt-3 pt-3 text-on-surface-variant font-body-md text-body-md leading-relaxed hidden">
+            일반적으로 웰컴 상담부터 희망 호실 안내 및 프로모션 견적 브리핑까지 <strong class="text-on-surface">약 30분 내외</strong>로 진행됩니다. 투어 직후 당일 증정되는 '1일 무료 라운지 데이패스'를 활용하여 실제 업무를 체험하실 경우 원하시는 만큼 여유롭게 머무르실 수 있습니다.
+          </div>
+</div>
+<!-- FAQ Item 3 -->
+<div class="bg-surface-container-lowest rounded-lg p-5 transition-colors">
+<button class="faq-toggle w-full flex items-center justify-between text-left font-headline-sm text-[17px] text-primary font-medium cursor-pointer" type="button" aria-expanded="false">
+<span>팀원이나 공동 창업자와 함께 동행해도 되나요? 인원 제한이 있나요?</span>
+<svg class="fx-icon  text-on-surface-variant transition-transform duration-200" data-icon="expand_more" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</button>
+<div class="faq-content mt-3 pt-3 text-on-surface-variant font-body-md text-body-md leading-relaxed hidden">
+            물론입니다. 실무 담당자 및 임원진을 포함하여 <strong class="text-on-surface">최대 5인까지 동반 참관이 가능</strong>합니다. 동행 인원이 3명 이상이실 경우 폼 내 ‘추가 문의 사항’에 동행 인원수를 남겨주시면 보다 넓은 전용 미팅룸에서 맞춤 브리핑을 준비해 드리겠습니다.
+          </div>
+</div>
+<!-- FAQ Item 4 -->
+<div class="bg-surface-container-lowest rounded-lg p-5 transition-colors">
+<button class="faq-toggle w-full flex items-center justify-between text-left font-headline-sm text-[17px] text-primary font-medium cursor-pointer" type="button" aria-expanded="false">
+<span>투어 일정을 변경하거나 취소해야 할 경우 어떻게 해야 하나요?</span>
+<svg class="fx-icon  text-on-surface-variant transition-transform duration-200" data-icon="expand_more" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</button>
+<div class="faq-content mt-3 pt-3 text-on-surface-variant font-body-md text-body-md leading-relaxed hidden">
+            예약 완료 즉시 카카오 알림톡 및 문자로 발송되는 ‘나의 투어 모바일 링크’를 통해 클릭 한 번으로 방문 1시간 전까지 간편하게 일정을 변경하거나 취소하실 수 있습니다. 긴급 일정 변경은 고객센터(문의 안내)로도 실시간 조율이 가능합니다.
+          </div>
+</div>
+<!-- FAQ Item 5 -->
+<div class="bg-surface-container-lowest rounded-lg p-5 transition-colors">
+<button class="faq-toggle w-full flex items-center justify-between text-left font-headline-sm text-[17px] text-primary font-medium cursor-pointer" type="button" aria-expanded="false">
+<span>주말이나 공휴일에도 투어 방문이 가능한가요?</span>
+<svg class="fx-icon  text-on-surface-variant transition-transform duration-200" data-icon="expand_more" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</button>
+<div class="faq-content mt-3 pt-3 text-on-surface-variant font-body-md text-body-md leading-relaxed hidden">
+            심층적인 공간 컨설팅과 정밀한 견적 산출을 위해 전문 공간 매니저의 투어는 평일(월~금) 09:30 - 18:00 사이에 집중 운영됩니다. 주말 비대면 자율 투어(모바일 스마트키 출입)를 희망하시는 경우 별도 고객센터를 통해 신청해 주시면 안내를 도와드립니다.
+          </div>
+</div>
+</div>
+<!-- Quick Support Box -->
+<div class="p-6 bg-surface-container-lowest rounded-xl flex flex-col sm:flex-row items-center justify-between gap-4">
+<div class="space-y-1 text-center sm:text-left">
+<h4 class="font-label-lg text-label-lg font-medium text-primary">원하시는 시간대가 없거나 긴급 대규모 이전인가요?</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">50인 이상 엔터프라이즈 전담팀이 10분 내로 다이렉트 유선 상담을 지원합니다.</p>
+</div>
+<div class="flex items-center gap-3">
+<a class="inline-flex items-center gap-1.5 px-4 py-2.5 bg-surface text-primary rounded font-label-md text-label-md hover:bg-surface-variant transition-colors" href="flexspace-contact.html">
+<svg class="fx-icon  text-[16px]" data-icon="call" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 3h4l2 6-3 2c2 3 3 4 6 6l2-3 6 2v4c-9 3-20-8-17-17Z">
+</path>
+</svg>
+<span>문의 안내</span>
+</a>
+<button class="inline-flex items-center gap-1.5 px-4 py-2.5 bg-primary text-on-primary rounded font-label-md text-label-md hover:bg-surface-tint transition-colors" type="button" data-go="flexspace-contact.html">
+<svg class="fx-icon  text-[16px]" data-icon="chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 5h18v14H3Zm0 0 9 7 9-7">
+</path>
+</svg>
+<span>실시간 채널톡 문의</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Script for Form Chips & FAQ -->
+
+</div>
+</main>
+<footer class="w-full bg-surface-container-low text-on-surface-variant mt-space-xl">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-12">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12">
+<div class="lg:col-span-2 space-y-4">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm tracking-tight uppercase text-primary font-medium">FLEXSPACE</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">프리미엄 비즈니스 라운지 &amp; 오피스</span>
+</div>
+<p class="font-body-sm text-body-sm leading-relaxed text-on-surface-variant max-w-sm">유연한 공간 구조와 감각적인 건축 설계를 통해 비즈니스의 격을 높이는 엔터프라이즈 맞춤형 프리미엄 코워킹 플레이스.</p>
+<div class="pt-2 space-y-1 font-body-sm text-body-sm">
+<div class="flex items-center gap-2">
+<span class="font-medium text-on-surface">고객센터</span>
+<span class="font-label-md text-label-md text-primary font-semibold">문의 안내</span>
+</div>
+<p class="text-on-surface-variant">운영시간: 평일 09:00 - 18:00 (점심시간 12:00 - 13:00)</p>
+<p class="text-on-surface-variant">제휴 및 입주 제안: hello@flexspace.example.com</p>
+</div>
+</div>
+<div class="space-y-3">
+<h4 class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">주요 거점 네트워크</h4>
+<ul class="space-y-2 font-body-sm text-body-sm">
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-branch-gangnam.html">강남 테헤란로 하이엔드 라운지</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-branch-yeouido.html">여의도 파이낸스 타워 센터</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-branch-cbd.html">을지로 시티뷰 비즈니스 허브</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-branch-seongsu.html">성수 아틀리에 크리에이티브 스페이스</a>
+</li>
+</ul>
+</div>
+<div class="space-y-3">
+<h4 class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">솔루션 &amp; 서비스</h4>
+<ul class="space-y-2 font-body-sm text-body-sm">
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-solution-private.html">독립형 프라이빗 오피스</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-solution-enterprise.html">엔터프라이즈 커스텀 오피스</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-solution-lounge.html">전용 데스크 &amp; 핫데스크</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" data-path="price-estimate" href="flexspace-estimate.html">견적 시뮬레이터</a>
+</li>
+</ul>
+</div>
+<div class="space-y-3">
+<h4 class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">기업 정보 &amp; 지원</h4>
+<ul class="space-y-2 font-body-sm text-body-sm">
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-benefits.html">입주사 제휴 혜택</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" data-path="book-tour" href="flexspace-tour.html">무료 공간 투어 예약</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-about.html">브랜드 스토리</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-faq.html">자주 묻는 질문</a>
+</li>
+<li>
+<a class="hover:text-on-surface transition-colors" href="flexspace-cases.html">오피스 구축 이야기</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="pt-8 mt-4 space-y-4">
+<div class="flex flex-wrap gap-x-6 gap-y-2 font-label-md text-label-md">
+<a class="font-medium text-primary hover:underline" href="flexspace-privacy.html">개인정보처리방침</a>
+<a class="hover:text-on-surface transition-colors" href="flexspace-terms.html">이용약관</a>
+<a class="hover:text-on-surface transition-colors" href="flexspace-terms.html">입주 규정</a>
+<a class="hover:text-on-surface transition-colors" href="flexspace-contact.html">제휴 및 가맹 문의</a>
+<a class="hover:text-on-surface transition-colors" href="flexspace-locations.html">오시는 길</a>
+</div>
+<div class="font-body-sm text-body-sm leading-relaxed text-outline space-y-1">
+<p>(주)플렉스스페이스코리아 | 대표이사: 한지훈 | 사업자등록번호: 예시 정보 | 통신판매업신고: 제 2026-서울강남-1892호</p>
+<p>본사: 서울특별시 강남구 테헤란로 152 강남파이낸스센터 18층 | 대표전화: 문의 안내 | 팩스: 02-588-8901</p>
+<p>© 2026 FLEXSPACE Korea Co., Ltd. All rights reserved.</p>
+</div>
+</div>
+</div>
+<p class="fx-demo-note">FLEXSPACE는 가상의 오피스 브랜드입니다. 공간·입주사·요금·후기는 예시이며 견적과 투어 신청은 체험용입니다. 입력한 연락처는 저장하거나 전송하지 않습니다.</p>
+</footer>
+<dialog id="flexspace-dialog" aria-labelledby="flexspace-dialog-title">
+<div class="fx-dialog-head">
+<h2 id="flexspace-dialog-title">
+</h2>
+<button type="button" data-close="" aria-label="닫기">
+<svg class="fx-icon" data-icon="close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 6 12 12M6 18 18 6">
+</path>
+</svg>
+</button>
+</div>
+<div id="flexspace-dialog-body">
+</div>
+</dialog>
+<div id="flexspace-status" role="status" hidden="">
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
