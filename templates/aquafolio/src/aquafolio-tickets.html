@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="aquafolio.css">
+<script defer="" src="aquafolio-data.js">
+</script>
+<script defer="" src="aquafolio.js">
+</script>
+<title>이용안내 &amp; 티켓 예매 | AQUAFOLIO</title>
+</head>
+<body class="bg-surface font-body-md text-body-md text-on-surface antialiased selection:bg-primary-container selection:text-surface" data-page="tickets">
+<a class="aq-skip" href="#main">본문 바로가기</a>
+<header class="fixed top-0 left-0 right-0 w-full z-50 bg-abyss-surface/80 backdrop-blur-xl shadow-[0_12px_32px_rgba(2,14,32,0.65)] aq-header">
+<div class="h-20 w-full max-w-7xl mx-auto px-gutter flex items-center justify-between gap-space-md aq-header-row">
+<div class="flex items-center gap-space-lg">
+<a class="flex flex-col group aq-brand" data-path="home" href="index.html">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse">
+</span>
+<span class="font-headline-md text-headline-md tracking-wider text-sea-foam group-hover:text-primary-container transition-colors">AQUAFOLIO</span>
+</div>
+<span class="font-label-species-latin text-label-species-latin text-outline tracking-widest text-[10px] uppercase leading-none">MARINE SANCTUARY &amp; AQUARIUM</span>
+</a>
+<nav class="hidden xl:flex items-center gap-1" data-active-classes="bg-surface-variant text-primary-container font-semibold rounded-lg" id="aquafolio-navigation">
+<a class="px-space-sm py-2 rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-sea-foam hover:bg-surface-container transition-all" data-path="about" href="aquafolio-about.html">아쿠아리움 소개</a>
+<a class="px-space-sm py-2 rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-sea-foam hover:bg-surface-container transition-all" data-path="creatures" href="aquafolio-creatures.html">해양 생물 도감</a>
+<a class="px-space-sm py-2 rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-sea-foam hover:bg-surface-container transition-all" data-path="experiences" href="aquafolio-programs.html">생태 체험 &amp; 프로그램</a>
+<a class="px-space-sm py-2 transition-all bg-surface-variant text-primary-container font-semibold rounded-lg" data-path="tickets-and-info" href="aquafolio-tickets.html" aria-current="page">이용안내 &amp; 예매</a>
+<a class="px-space-sm py-2 rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-sea-foam hover:bg-surface-container transition-all" data-path="conservation" href="aquafolio-conservation.html">보존 &amp; 연구</a>
+</nav>
+</div>
+<div class="flex items-center gap-space-sm aq-header-tools">
+<div class="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-low">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed-dim">
+</span>
+<span class="font-label-data-mono text-label-data-mono text-sea-foam">오늘 10:00 - 20:00</span>
+</div>
+<a class="px-space-md py-2.5 rounded-xl bg-primary-container text-on-primary-fixed font-headline-sm text-body-sm font-bold flex items-center gap-1.5 shadow-[0_0_20px_-2px_rgba(0,229,255,0.35)] hover:bg-secondary-fixed transition-all aq-header-ticket" data-path="ticket-booking" href="aquafolio-tickets.html">
+<span>빠른 입장권 예매</span>
+<svg class="aq-icon  text-[18px]" data-icon="arrow_forward" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16m-6-6 6 6-6 6">
+</path>
+</svg>
+</a>
+<a class="aq-account" href="aquafolio-tickets.html#ticketing-booking-engine" aria-label="티켓 선택 화면">
+<svg class="aq-icon" data-icon="confirmation_number" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M2 6h20v4a2 2 0 0 0 0 4v4H2v-4a2 2 0 0 0 0-4Zm14 0v3m0 2v2m0 2v3">
+</path>
+</svg>
+</a>
+<button class="aq-menu-toggle" type="button" aria-label="메뉴 열기" aria-controls="aquafolio-navigation" aria-expanded="false">
+<svg class="aq-icon" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 6h18M3 12h18M3 18h18">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</header>
+<main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]" id="main">
+<div class="flex flex-col w-full text-on-surface">
+<!-- Atmospheric Ambient Background Light Bleeds -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-40 left-1/4 w-[650px] h-[650px] bg-primary-container/10 rounded-full blur-[140px] pointer-events-none">
+</div>
+<div class="absolute top-[40%] right-[-100px] w-[500px] h-[500px] bg-secondary-container/10 rounded-full blur-[130px] pointer-events-none">
+</div>
+<!-- Section 1: Editorial Header & Real-time Status Card -->
+<section class="max-w-7xl mx-auto px-gutter pt-8 pb-12 w-full">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Left: Page Mission & Operational Headlines -->
+<div class="lg:col-span-7 flex flex-col gap-4">
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-high w-fit shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse">
+</span>
+<span class="font-label-species-latin text-label-species-latin text-primary tracking-widest uppercase">DIRECT TICKETING PORTAL</span>
+<span class="text-outline-variant font-label-data-mono text-label-data-mono">|</span>
+<span class="font-label-data-mono text-label-data-mono text-sea-foam">실시간 모바일 발권 시스템</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-sea-foam tracking-tight">
+            아쿠아폴리오 입장권 예매 및 관람 안내
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            푸른 심해 55,000마리의 생명체와 만나는 순간. 온라인 사전 예매 시 현장 매표소 대기 없이 모바일 QR 바코드로 즉시 게이트 입장이 가능합니다.
+          </p>
+<div class="flex flex-wrap gap-3 pt-2">
+<div class="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-surface-container-low shadow-sm">
+<svg class="aq-icon  text-primary-container text-[18px]" data-icon="qr_code_scanner" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span class="font-body-sm text-body-sm text-sea-foam font-semibold">스마트 패스트트랙 즉시 입장</span>
+</div>
+<div class="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-surface-container-low shadow-sm">
+<svg class="aq-icon  text-secondary text-[18px]" data-icon="published_with_changes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span class="font-body-sm text-body-sm text-on-surface-variant">방문 당일 미사용 시 100% 전액 환불</span>
+</div>
+<div class="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-surface-container-low shadow-sm">
+<svg class="aq-icon  text-tertiary text-[18px]" data-icon="confirmation_number" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M2 6h20v4a2 2 0 0 0 0 4v4H2v-4a2 2 0 0 0 0-4Zm14 0v3m0 2v2m0 2v3">
+</path>
+</svg>
+<span class="font-body-sm text-body-sm text-on-surface-variant">온라인 예약 한정 최대 40% 우대</span>
+</div>
+</div>
+</div>
+<!-- Right: Real-time Operating Telemetry Card -->
+<div class="lg:col-span-5 bg-surface-container p-6 rounded-2xl shadow-xl flex flex-col gap-5">
+<div class="flex items-center justify-between pb-3">
+<div class="flex items-center gap-2">
+<svg class="aq-icon  text-primary text-[20px]" data-icon="schedule" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 6v6l4 2">
+</path>
+</svg>
+<span class="font-headline-sm text-headline-sm text-sea-foam">실시간 운영 안내</span>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high font-label-data-mono text-label-data-mono text-primary font-bold">
+              연중무휴 OPEN
+            </span>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<div class="p-3.5 rounded-xl bg-surface-container-low flex flex-col gap-1">
+<span class="font-label-data-mono text-label-data-mono text-outline">평일 (월 - 금)</span>
+<span class="font-headline-sm text-headline-sm text-sea-foam font-bold">10:00 - 20:00</span>
+<span class="font-caption text-caption text-on-surface-variant">입장 마감 19:00</span>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container-low flex flex-col gap-1">
+<span class="font-label-data-mono text-label-data-mono text-secondary-fixed">주말 및 공휴일</span>
+<span class="font-headline-sm text-headline-sm text-sea-foam font-bold">10:00 - 21:00</span>
+<span class="font-caption text-caption text-on-surface-variant">입장 마감 20:00</span>
+</div>
+</div>
+<!-- Live Capacity Indicator (Simulated Telemetry) -->
+<div class="p-4 rounded-xl bg-surface-container-high flex flex-col gap-2">
+<div class="flex items-center justify-between font-label-data-mono text-label-data-mono">
+<span class="text-on-surface-variant flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed animate-ping">
+</span>
+                현재 전시장 관람 혼잡도
+              </span>
+<span class="text-secondary font-bold">쾌적 (38% 수용 중)</span>
+</div>
+<div class="w-full bg-surface-container-lowest h-2 rounded-full overflow-hidden">
+<div class="bg-gradient-to-r from-secondary to-primary-container h-full w-[38%] rounded-full transition-all duration-500">
+</div>
+</div>
+<span class="font-caption text-caption text-outline">
+              * 관람 쾌적 지수: 대형 메인수조 및 해저터널 여유롭게 관람 가능
+            </span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Interactive Ticket Booking Engine (Step 1 -> Step 2 -> Sticky Checkout) -->
+<section class="max-w-7xl mx-auto px-gutter pb-20 w-full" id="ticketing-booking-engine">
+<div class="flex flex-col gap-8">
+<div class="flex items-center justify-between pb-2">
+<div>
+<span class="font-label-data-mono text-label-data-mono text-primary uppercase tracking-widest">STEP-BY-STEP RESERVATION</span>
+<h2 class="font-headline-lg text-headline-lg text-sea-foam">온라인 예매 패키지 셀렉터</h2>
+</div>
+<div class="hidden md:flex items-center gap-2 font-label-data-mono text-label-data-mono text-on-surface-variant">
+<span class="px-2 py-0.5 rounded bg-primary-container text-on-primary-fixed font-bold">1. 방문일 선택</span>
+<span>&gt;</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high">2. 티켓 권종</span>
+<span>&gt;</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high">3. 즉시 발권</span>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Left Main Column: Date & Ticket Type Selector (8 Cols) -->
+<div class="lg:col-span-8 flex flex-col gap-8">
+<!-- STEP 1: Date Picker Box -->
+<div class="p-6 rounded-2xl bg-surface-container shadow-lg flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-6 h-6 rounded-full bg-primary-container text-on-primary-fixed font-label-data-mono text-label-data-mono flex items-center justify-center font-bold">1</span>
+<span class="font-headline-sm text-headline-sm text-sea-foam">방문 일자 선택</span>
+</div>
+<span class="font-label-data-mono text-label-data-mono text-secondary" id="display-selected-date" aria-live="polite">2026. 05. 17 (토)</span>
+</div>
+<!-- Quick Date Selection Chips -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1 aq-quick-dates" id="quick-date-group">
+<button class="date-chip active px-4 py-3 rounded-xl bg-surface-container-high text-left flex flex-col gap-0.5 transition-all shadow-sm" data-date="2025. 05. 17 (토)" type="button" aria-pressed="false">
+<span class="font-label-data-mono text-label-data-mono text-primary font-bold">오늘 바로 방문</span>
+<span class="font-body-md text-body-md text-sea-foam font-bold">5월 17일 (토)</span>
+<span class="font-caption text-caption text-on-surface-variant">주말 운영 (21:00)</span>
+</button>
+<button class="date-chip px-4 py-3 rounded-xl bg-surface-container-low text-left flex flex-col gap-0.5 transition-all hover:bg-surface-container-high" data-date="2025. 05. 18 (일)" type="button" aria-pressed="false">
+<span class="font-label-data-mono text-label-data-mono text-outline">내일 방문</span>
+<span class="font-body-md text-body-md text-sea-foam font-bold">5월 18일 (일)</span>
+<span class="font-caption text-caption text-on-surface-variant">주말 운영 (21:00)</span>
+</button>
+<button class="date-chip px-4 py-3 rounded-xl bg-surface-container-low text-left flex flex-col gap-0.5 transition-all hover:bg-surface-container-high" data-date="2025. 05. 19 (월)" type="button" aria-pressed="false">
+<span class="font-label-data-mono text-label-data-mono text-outline">평일 한적한 관람</span>
+<span class="font-body-md text-body-md text-sea-foam font-bold">5월 19일 (월)</span>
+<span class="font-caption text-caption text-on-surface-variant">평일 운영 (20:00)</span>
+</button>
+<button class="date-chip px-4 py-3 rounded-xl bg-surface-container-low text-left flex flex-col gap-0.5 transition-all hover:bg-surface-container-high" data-date="2025. 05. 24 (토)" type="button" aria-pressed="false">
+<span class="font-label-data-mono text-label-data-mono text-outline">다음 주말</span>
+<span class="font-body-md text-body-md text-sea-foam font-bold">5월 24일 (토)</span>
+<span class="font-caption text-caption text-on-surface-variant">예약 가능</span>
+</button>
+</div>
+<!-- Inline Calendar Visual Matrix -->
+<div class="p-4 rounded-xl bg-surface-container-lowest mt-2 flex flex-col gap-3">
+<div class="flex items-center justify-between px-2 font-headline-sm text-body-md text-sea-foam aq-calendar-title">
+<div class="flex items-center gap-2">
+<svg class="aq-icon  text-[18px] text-primary" data-icon="calendar_month" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 5h18v16H3ZM7 2v6M17 2v6M3 11h18M8 15h1M15 15h1">
+</path>
+</svg>
+<span class="font-bold" data-calendar-label="">2026년 5월</span>
+</div>
+<div class="flex items-center gap-1">
+<button class="p-1 rounded hover:bg-surface-container text-on-surface-variant" type="button" data-calendar-month="-1" aria-label="이전 달">
+<svg class="aq-icon  text-[18px]" data-icon="chevron_left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m15 5-7 7 7 7">
+</path>
+</svg>
+</button>
+<button class="p-1 rounded hover:bg-surface-container text-on-surface-variant" type="button" data-calendar-month="1" aria-label="다음 달">
+<svg class="aq-icon  text-[18px]" data-icon="chevron_right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m9 5 7 7-7 7">
+</path>
+</svg>
+</button>
+</div>
+</div>
+<!-- Days of week -->
+<div class="grid grid-cols-7 text-center font-label-data-mono text-label-data-mono text-outline py-1">
+<span class="text-coral-alert">일</span>
+<span>월</span>
+<span>화</span>
+<span>수</span>
+<span>목</span>
+<span>금</span>
+<span class="text-secondary">토</span>
+</div>
+<!-- Date grid sample snippet -->
+<div class="grid grid-cols-7 text-center font-label-data-mono text-body-sm gap-1" id="aquafolio-calendar">
+<span class="py-2 text-outline-variant">11</span>
+<span class="py-2 text-outline-variant">12</span>
+<span class="py-2 text-outline-variant">13</span>
+<span class="py-2 text-outline-variant">14</span>
+<span class="py-2 text-outline-variant">15</span>
+<span class="py-2 text-outline-variant">16</span>
+<button class="py-2 rounded-lg bg-primary-container text-on-primary-fixed font-bold shadow-sm" type="button">17</button>
+<button class="py-2 rounded-lg hover:bg-surface-container text-sea-foam" type="button">18</button>
+<button class="py-2 rounded-lg hover:bg-surface-container text-sea-foam" type="button">19</button>
+<button class="py-2 rounded-lg hover:bg-surface-container text-sea-foam" type="button">20</button>
+<button class="py-2 rounded-lg hover:bg-surface-container text-sea-foam" type="button">21</button>
+<button class="py-2 rounded-lg hover:bg-surface-container text-sea-foam" type="button">22</button>
+<button class="py-2 rounded-lg hover:bg-surface-container text-sea-foam" type="button">23</button>
+<button class="py-2 rounded-lg hover:bg-surface-container text-sea-foam" type="button">24</button>
+</div>
+</div>
+</div>
+<!-- STEP 2: Ticket Type & Interactive Counter -->
+<div class="p-6 rounded-2xl bg-surface-container shadow-lg flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-6 h-6 rounded-full bg-primary-container text-on-primary-fixed font-label-data-mono text-label-data-mono flex items-center justify-center font-bold">2</span>
+<span class="font-headline-sm text-headline-sm text-sea-foam">권종 선택 및 인원 설정</span>
+</div>
+<span class="font-caption text-caption text-outline">최대 10매까지 일괄 예매 가능</span>
+</div>
+<!-- Ticket 1: 일반 성인/청소년 -->
+<div class="ticket-card p-5 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<div class="flex flex-col gap-1.5 max-w-sm">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-sea-foam">일반 입장권 (성인 / 청소년)</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-variant font-label-data-mono text-label-data-mono text-primary font-bold">24% OFF</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">만 13세 이상 중·고등학생 및 대인 기준</span>
+<div class="flex items-baseline gap-2 pt-1">
+<span class="font-headline-md text-headline-md font-bold text-primary-container">26,500원</span>
+<span class="font-body-sm text-body-sm text-outline line-through">35,000원</span>
+</div>
+</div>
+<div class="flex items-center justify-between sm:justify-end gap-3 self-end sm:self-center">
+<div class="flex items-center bg-surface-container-lowest rounded-xl p-1 shadow-inner">
+<button class="qty-btn-minus w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:text-primary transition-colors" data-id="adult" type="button" aria-label="adult 수량 줄이기">
+<svg class="aq-icon  text-[18px]" data-icon="remove" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16">
+</path>
+</svg>
+</button>
+<span class="qty-display w-12 text-center font-headline-sm text-headline-sm text-sea-foam font-bold" id="qty-adult">1</span>
+<button class="qty-btn-plus w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:text-primary transition-colors" data-id="adult" type="button" aria-label="adult 수량 늘리기">
+<svg class="aq-icon  text-[18px]" data-icon="add" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 4v16M4 12h16">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+<!-- Ticket 2: 어린이 소인 -->
+<div class="ticket-card p-5 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<div class="flex flex-col gap-1.5 max-w-sm">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-sea-foam">일반 입장권 (어린이)</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-variant font-label-data-mono text-label-data-mono text-primary font-bold">25% OFF</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">만 36개월 이상 ~ 만 12세 이하 (초등학생 이하)</span>
+<div class="flex items-baseline gap-2 pt-1">
+<span class="font-headline-md text-headline-md font-bold text-primary-container">23,000원</span>
+<span class="font-body-sm text-body-sm text-outline line-through">31,000원</span>
+</div>
+</div>
+<div class="flex items-center justify-between sm:justify-end gap-3 self-end sm:self-center">
+<div class="flex items-center bg-surface-container-lowest rounded-xl p-1 shadow-inner">
+<button class="qty-btn-minus w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:text-primary transition-colors" data-id="child" type="button" aria-label="child 수량 줄이기">
+<svg class="aq-icon  text-[18px]" data-icon="remove" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16">
+</path>
+</svg>
+</button>
+<span class="qty-display w-12 text-center font-headline-sm text-headline-sm text-sea-foam font-bold" id="qty-child">1</span>
+<button class="qty-btn-plus w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:text-primary transition-colors" data-id="child" type="button" aria-label="child 수량 늘리기">
+<svg class="aq-icon  text-[18px]" data-icon="add" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 4v16M4 12h16">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+<!-- Ticket 3: 가족 3인 패키지 (Popular High-converting) -->
+<div class="ticket-card p-5 rounded-xl bg-surface-container-high hover:bg-surface-bright transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-4 relative overflow-hidden">
+<div class="absolute top-0 right-0 px-3 py-1 bg-primary text-on-primary font-label-data-mono text-label-data-mono font-bold rounded-bl-xl uppercase tracking-wider">
+                  BEST POPULAR
+                </div>
+<div class="flex flex-col gap-1.5 max-w-sm">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-sea-foam">가족 3인 패키지 (성인2 + 소인1)</span>
+<span class="px-2 py-0.5 rounded-full bg-conservation-amber/20 font-label-data-mono text-label-data-mono text-conservation-amber font-bold">31% 특가</span>
+</div>
+<span class="font-body-sm text-body-sm text-secondary-fixed">해양 굿즈 샵 10% 스페셜 바우처 기본 증정</span>
+<div class="flex items-baseline gap-2 pt-1">
+<span class="font-headline-md text-headline-md font-bold text-primary-container">69,000원</span>
+<span class="font-body-sm text-body-sm text-outline line-through">101,000원</span>
+</div>
+</div>
+<div class="flex items-center justify-between sm:justify-end gap-3 self-end sm:self-center">
+<div class="flex items-center bg-surface-container-lowest rounded-xl p-1 shadow-inner">
+<button class="qty-btn-minus w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:text-primary transition-colors" data-id="family" type="button" aria-label="family 수량 줄이기">
+<svg class="aq-icon  text-[18px]" data-icon="remove" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16">
+</path>
+</svg>
+</button>
+<span class="qty-display w-12 text-center font-headline-sm text-headline-sm text-sea-foam font-bold" id="qty-family">0</span>
+<button class="qty-btn-plus w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:text-primary transition-colors" data-id="family" type="button" aria-label="family 수량 늘리기">
+<svg class="aq-icon  text-[18px]" data-icon="add" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 4v16M4 12h16">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+<!-- Ticket 4: 애프터 5 야간 특별권 -->
+<div class="ticket-card p-5 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<div class="flex flex-col gap-1.5 max-w-sm">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-sea-foam">애프터 5 (야간 특별권)</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-variant font-label-data-mono text-label-data-mono text-secondary font-bold">40% OFF</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">오후 17:00 이후 심야 여유 관람 (성인/소인 공통)</span>
+<div class="flex items-baseline gap-2 pt-1">
+<span class="font-headline-md text-headline-md font-bold text-primary-container">21,000원</span>
+<span class="font-body-sm text-body-sm text-outline line-through">35,000원</span>
+</div>
+</div>
+<div class="flex items-center justify-between sm:justify-end gap-3 self-end sm:self-center">
+<div class="flex items-center bg-surface-container-lowest rounded-xl p-1 shadow-inner">
+<button class="qty-btn-minus w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:text-primary transition-colors" data-id="night" type="button" aria-label="night 수량 줄이기">
+<svg class="aq-icon  text-[18px]" data-icon="remove" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16">
+</path>
+</svg>
+</button>
+<span class="qty-display w-12 text-center font-headline-sm text-headline-sm text-sea-foam font-bold" id="qty-night">0</span>
+<button class="qty-btn-plus w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:text-primary transition-colors" data-id="night" type="button" aria-label="night 수량 늘리기">
+<svg class="aq-icon  text-[18px]" data-icon="add" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 4v16M4 12h16">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+<!-- Ticket 5: 아쿠아 패스 (연간이용권) -->
+<div class="ticket-card p-5 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<div class="flex flex-col gap-1.5 max-w-sm">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-sea-foam">아쿠아 패스 (연간 회원권)</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container/20 font-label-data-mono text-label-data-mono text-secondary-fixed font-bold">365일 무제한</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">1년간 무제한 프리패스 + 카페테리아 및 기프트샵 20% 상시할인</span>
+<div class="flex items-baseline gap-2 pt-1">
+<span class="font-headline-md text-headline-md font-bold text-primary-container">140,000원</span>
+<span class="font-body-sm text-body-sm text-outline">소인 120,000원</span>
+</div>
+</div>
+<div class="flex items-center justify-between sm:justify-end gap-3 self-end sm:self-center">
+<div class="flex items-center bg-surface-container-lowest rounded-xl p-1 shadow-inner">
+<button class="qty-btn-minus w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:text-primary transition-colors" data-id="annual" type="button" aria-label="annual 수량 줄이기">
+<svg class="aq-icon  text-[18px]" data-icon="remove" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16">
+</path>
+</svg>
+</button>
+<span class="qty-display w-12 text-center font-headline-sm text-headline-sm text-sea-foam font-bold" id="qty-annual">0</span>
+<button class="qty-btn-plus w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:text-primary transition-colors" data-id="annual" type="button" aria-label="annual 수량 늘리기">
+<svg class="aq-icon  text-[18px]" data-icon="add" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 4v16M4 12h16">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Sticky Live Checkout Bar & Order Summary (4 Cols) -->
+<div class="lg:col-span-4 lg:sticky lg:top-24 flex flex-col gap-4">
+<div class="p-6 rounded-2xl bg-surface-container-high shadow-2xl flex flex-col gap-5">
+<div class="flex items-center justify-between pb-3">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-primary-container">
+</span>
+<span class="font-headline-sm text-headline-sm text-sea-foam">결제 예정 내역</span>
+</div>
+<span class="font-label-data-mono text-label-data-mono text-outline">실시간 정산</span>
+</div>
+<!-- Itemized Ticket Recaps -->
+<div class="space-y-2.5 font-body-sm text-body-sm text-on-surface-variant" id="ticket-item-list">
+<div class="flex justify-between items-center" id="summary-row-adult">
+<span>일반 성인 1매</span>
+<span class="font-label-data-mono text-label-data-mono text-sea-foam font-bold">26,500원</span>
+</div>
+<div class="flex justify-between items-center" id="summary-row-child">
+<span>일반 소인 1매</span>
+<span class="font-label-data-mono text-label-data-mono text-sea-foam font-bold">23,000원</span>
+</div>
+<div class="flex justify-between items-center hidden" id="summary-row-family">
+<span>가족 3인 패키지</span>
+<span class="font-label-data-mono text-label-data-mono text-sea-foam font-bold" id="summary-family-price">0원</span>
+</div>
+<div class="flex justify-between items-center hidden" id="summary-row-night">
+<span>애프터 5 야간권</span>
+<span class="font-label-data-mono text-label-data-mono text-sea-foam font-bold" id="summary-night-price">0원</span>
+</div>
+<div class="flex justify-between items-center hidden" id="summary-row-annual">
+<span>아쿠아 패스 연간권</span>
+<span class="font-label-data-mono text-label-data-mono text-sea-foam font-bold" id="summary-annual-price">0원</span>
+</div>
+</div>
+<!-- Financial Calculations -->
+<div class="p-4 rounded-xl bg-surface-container-low flex flex-col gap-2 font-body-sm text-body-sm">
+<div class="flex justify-between text-on-surface-variant">
+<span>정상 티켓 총액</span>
+<span class="font-label-data-mono text-label-data-mono line-through text-outline" id="total-original-price">66,000원</span>
+</div>
+<div class="flex justify-between text-secondary">
+<span>온라인 사전 예매 할인</span>
+<span class="font-label-data-mono text-label-data-mono font-bold" id="total-discount-price">-16,500원</span>
+</div>
+<div class="flex justify-between pt-2 text-sea-foam font-headline-sm text-headline-sm items-baseline">
+<span class="text-sea-foam">최종 결제 금액</span>
+<span class="font-headline-xl text-headline-xl text-primary-container font-extrabold" id="total-final-price" aria-live="polite">49,500원</span>
+</div>
+</div>
+<!-- Payment Method Selection Tabs -->
+<div class="flex flex-col gap-2">
+<span class="font-label-data-mono text-label-data-mono text-outline">간편 결제 수단 선택</span>
+<div class="grid grid-cols-3 gap-2">
+<button class="pay-method-btn active py-2 rounded-xl bg-surface-container text-primary-container font-label-data-mono text-label-data-mono font-bold flex flex-col items-center justify-center gap-1 shadow-sm" type="button" aria-pressed="false">
+<svg class="aq-icon  text-[20px]" data-icon="account_balance_wallet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M2 4h20v16H2ZM2 9h20M5 16h5">
+</path>
+</svg>
+<span>카카오페이</span>
+</button>
+<button class="pay-method-btn py-2 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface-variant font-label-data-mono text-label-data-mono flex flex-col items-center justify-center gap-1" type="button" aria-pressed="false">
+<svg class="aq-icon  text-[20px]" data-icon="send_to_mobile" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span>토스페이</span>
+</button>
+<button class="pay-method-btn py-2 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface-variant font-label-data-mono text-label-data-mono flex flex-col items-center justify-center gap-1" type="button" aria-pressed="false">
+<svg class="aq-icon  text-[20px]" data-icon="credit_card" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M2 4h20v16H2ZM2 9h20M5 16h5">
+</path>
+</svg>
+<span>신용카드</span>
+</button>
+</div>
+</div>
+<!-- Primary Action CTA -->
+<button class="w-full py-4 rounded-xl bg-primary-container text-on-primary-fixed font-headline-sm text-headline-sm font-bold flex items-center justify-center gap-2 shadow-[0_0_24px_rgba(0,229,255,0.35)] hover:bg-secondary-fixed transition-all cursor-pointer" id="btn-submit-booking" type="button">선택한 티켓 예매 확인하기 →</button>
+<div class="flex items-center justify-center gap-2 text-outline font-caption text-caption">
+<svg class="aq-icon  text-[16px] text-primary" data-icon="verified_user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span>256-bit SSL 암호화 안전 결제 보장</span>
+</div>
+</div>
+<!-- Fast Guidance Prompt -->
+<div class="p-4 rounded-xl bg-surface-container flex items-start gap-3">
+<svg class="aq-icon  text-secondary-container text-[20px] shrink-0" data-icon="info" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">
+                예매 완료 후 카카오 알림톡 및 문자메시지로 모바일 티켓 링크가 전송됩니다. 캡처본이 아닌 라이브 링크를 게이트 리더기에 태그해주세요.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Partner Discounts & Affiliates Grid -->
+<section class="max-w-7xl mx-auto px-gutter pb-20 w-full">
+<div class="p-8 rounded-2xl bg-surface-container shadow-xl flex flex-col gap-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div>
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high mb-2">
+<svg class="aq-icon  text-secondary text-[16px]" data-icon="loyalty" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span class="font-label-species-latin text-label-species-latin text-secondary uppercase">BENEFIT PARTNERS</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-sea-foam">제휴 카드 &amp; 통신사 우대 할인 혜택</h3>
+</div>
+<span class="font-body-sm text-body-sm text-outline max-w-md">
+            * 통신사 및 신용카드 제휴 할인은 1인 1일 1회 기준이며 기타 이벤트 중복 할인은 불가합니다.
+          </span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Telecom Discounts -->
+<div class="p-6 rounded-xl bg-surface-container-low flex flex-col justify-between gap-4">
+<div class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-data-mono text-label-data-mono text-primary font-bold">TELECOM PARTNERS</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-data-mono text-label-data-mono text-secondary">최대 30%</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-sea-foam">이동통신사 멤버십</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                SKT T멤버십 (VIP 30% / 일반 20%)<br>
+                KT 멤버십 (전고객 20% 포인트 차감)<br>
+                LG U+ U+멤버스 (VIP 30% 할인)
+              </p>
+</div>
+<div class="pt-3 font-caption text-caption text-outline">
+              * 온라인 예매 및 현장 키오스크에서 바코드 조회 후 즉시 할인
+            </div>
+</div>
+<!-- Credit Card Partnerships -->
+<div class="p-6 rounded-xl bg-surface-container-low flex flex-col justify-between gap-4">
+<div class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-data-mono text-label-data-mono text-primary font-bold">CREDIT CARDS</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-data-mono text-label-data-mono text-secondary">최대 40%</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-sea-foam">제휴 신용카드 청구할인</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                삼성카드 (실적 충족 시 30~40% 청구할인)<br>
+                현대카드 (M포인트 100% 사용 결제)<br>
+                신한카드 &amp; KB국민카드 (마이신한·포인트리 사용 가능)
+              </p>
+</div>
+<div class="pt-3 font-caption text-caption text-outline">
+              * 결제 페이지 결제사 선택 시 적용 가능 여부 실시간 확인
+            </div>
+</div>
+<!-- Social Care / Public Discounts -->
+<div class="p-6 rounded-xl bg-surface-container-low flex flex-col justify-between gap-4">
+<div class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-data-mono text-label-data-mono text-conservation-amber font-bold">PUBLIC WELFARE</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-data-mono text-label-data-mono text-conservation-amber">30% ~ 50%</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-sea-foam">우대 대상자 특별 할인</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                장애인 복지카드 소지자 (본인 및 동반 1인 40%)<br>
+                국가유공자 및 군인 (본인 및 동반 1인 50%)<br>
+                경로 우대 만 65세 이상 (신분증 제시 시 30%)
+              </p>
+</div>
+<div class="pt-3 font-caption text-caption text-outline">
+              * 관련 법정 신분증 및 증빙 서류 현장 인포메이션 지참 필수
+            </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4 & 5: Bento Grid (Location & Parking + Visitor Amenities) -->
+<section class="max-w-7xl mx-auto px-gutter pb-20 w-full" id="location">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Directions & Parking: 7 Cols -->
+<div class="lg:col-span-7 p-8 rounded-2xl bg-surface-container shadow-xl flex flex-col gap-6">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<svg class="aq-icon  text-primary text-[24px]" data-icon="pin_drop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 22-7-10a8 8 0 1 1 14 0ZM15 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
+</path>
+</svg>
+<h3 class="font-headline-lg text-headline-lg text-sea-foam">오시는 길 &amp; 주차 안내</h3>
+</div>
+<span class="font-label-data-mono text-label-data-mono text-secondary">잠실역 직통 연결</span>
+</div>
+<!-- Static Location Map Container -->
+<div class="w-full h-56 rounded-xl bg-cover bg-center overflow-hidden relative shadow-inner" data-location="Seoul Jamsil Station Lotte World Mall Aquarium" style="background-image: url('images/aquafolio-tickets-scene-01.jpg')">
+<div class="absolute bottom-3 left-3 px-3 py-1.5 rounded-lg bg-surface-container-lowest/90 backdrop-blur-md flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary-container">
+</span>
+<span class="font-label-data-mono text-label-data-mono text-sea-foam">서울특별시 송파구 올림픽로 300</span>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<!-- Transit Info -->
+<div class="p-4 rounded-xl bg-surface-container-low flex flex-col gap-2">
+<div class="flex items-center gap-2 text-sea-foam font-headline-sm text-body-lg">
+<svg class="aq-icon  text-primary text-[20px]" data-icon="directions_subway" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span>대중교통 지하철 이용</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                지하철 2호선 / 8호선 <strong class="text-sea-foam font-semibold">잠실역 1번·2번 출구</strong> 방면으로 이동하시면 아쿠아폴리오 입구와 지하로 바로 연결됩니다.
+              </p>
+</div>
+<!-- Parking Rates -->
+<div class="p-4 rounded-xl bg-surface-container-low flex flex-col gap-2">
+<div class="flex items-center gap-2 text-sea-foam font-headline-sm text-body-lg">
+<svg class="aq-icon  text-secondary text-[20px]" data-icon="local_parking" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 22V2h7a6 6 0 0 1 0 12H6M6 5h7a3 3 0 0 1 0 6H6">
+</path>
+</svg>
+<span>관람객 주차 혜택</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                아쿠아리움 당일 입장권 인증 시 <strong class="text-sea-foam font-semibold">기본 4시간 4,800원</strong> 정액 요금 적용 (이후 10분당 500원 부과).
+              </p>
+</div>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-high flex items-center justify-between font-body-sm text-body-sm">
+<div class="flex items-center gap-2 text-on-surface-variant">
+<svg class="aq-icon  text-primary text-[18px]" data-icon="receipt_long" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 5v15M3 4c4-1 7 0 9 1 2-1 5-2 9-1v15c-4-1-7 0-9 1-2-1-5-2-9-1Z">
+</path>
+</svg>
+<span>사전 주차 정산기 위치: 지하 1층 출구 게이트 정면 키오스크</span>
+</div>
+<a class="text-primary hover:underline font-label-data-mono text-label-data-mono flex items-center gap-0.5" href="aquafolio-about.html#location" target="_blank">
+<span>방문 위치 안내</span>
+<svg class="aq-icon  text-[14px]" data-icon="open_in_new" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</a>
+</div>
+</div>
+<!-- Amenities: 5 Cols -->
+<div class="lg:col-span-5 p-8 rounded-2xl bg-surface-container shadow-xl flex flex-col gap-6">
+<div class="flex items-center gap-2">
+<svg class="aq-icon  text-primary text-[24px]" data-icon="room_service" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<h3 class="font-headline-lg text-headline-lg text-sea-foam">관람객 편의시설</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            영유아 동반 가족 및 교통약자 관람객 모두가 안전하고 편안하게 관람할 수 있는 배리어프리 환경을 제공합니다.
+          </p>
+<div class="space-y-3">
+<div class="p-3.5 rounded-xl bg-surface-container-low flex items-start gap-3">
+<svg class="aq-icon  text-primary text-[22px] mt-0.5" data-icon="stroller" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<div>
+<h5 class="font-headline-sm text-body-md text-sea-foam">유모차 &amp; 휠체어 무료 대여</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">B1F 메인 인포메이션 데스크 (신분증 보관 후 무료 대여 가능)</p>
+</div>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container-low flex items-start gap-3">
+<svg class="aq-icon  text-secondary text-[22px] mt-0.5" data-icon="baby_changing_station" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<div>
+<h5 class="font-headline-sm text-body-md text-sea-foam">수유실 &amp; 기저귀 교환대</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">정수기, 온수기, 전자레인지, 독립형 모유 수유 부스 완비 (B1F/B2F)</p>
+</div>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container-low flex items-start gap-3">
+<svg class="aq-icon  text-tertiary text-[22px] mt-0.5" data-icon="lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 10h14v11H5ZM8 10V6a4 4 0 0 1 8 0v4">
+</path>
+</svg>
+<div>
+<h5 class="font-headline-sm text-body-md text-sea-foam">무인 물품보관함 (코인 라커)</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">캐리어 및 대형 짐 보관 가능 (소형 1,000원 / 대형 2,000원)</p>
+</div>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container-low flex items-start gap-3">
+<svg class="aq-icon  text-primary text-[22px] mt-0.5" data-icon="medical_services" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<div>
+<h5 class="font-headline-sm text-body-md text-sea-foam">의무실 &amp; 전문 간호사 상주</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">응급 처치 키트 및 자동심장충격기(AED) 구비, 전 구역 비상벨 설치</p>
+</div>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container-low flex items-start gap-3">
+<svg class="aq-icon  text-secondary text-[22px] mt-0.5" data-icon="service_toolbox" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<div>
+<h5 class="font-headline-sm text-body-md text-sea-foam">장애인 안내견 동반 입장 가능</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">공인 인증된 시각장애인 보조견은 전 구역 제약 없이 입장 가능합니다.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 6: Curated FAQ Accordion Section -->
+<section class="max-w-7xl mx-auto px-gutter pb-24 w-full">
+<div class="p-8 rounded-2xl bg-surface-container shadow-xl flex flex-col gap-6">
+<div class="flex items-center justify-between pb-2">
+<div>
+<span class="font-label-data-mono text-label-data-mono text-primary uppercase tracking-widest">NEED ASSISTANCE?</span>
+<h3 class="font-headline-lg text-headline-lg text-sea-foam">자주 묻는 질문 (FAQ)</h3>
+</div>
+<div class="hidden sm:flex items-center gap-2">
+<span class="font-body-sm text-body-sm text-outline">고객 지원 센터:</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">1661-2000</span>
+</div>
+</div>
+<div class="space-y-3" id="faq-accordion-group">
+<!-- FAQ 1 -->
+<div class="faq-item rounded-xl bg-surface-container-low overflow-hidden transition-all">
+<button class="faq-toggle w-full px-6 py-4.5 flex items-center justify-between text-left gap-4 hover:bg-surface-container-high transition-colors" type="button" aria-expanded="false">
+<div class="flex items-center gap-3">
+<span class="w-6 h-6 rounded-full bg-primary-container text-on-primary-fixed font-label-data-mono text-label-data-mono flex items-center justify-center font-bold">Q</span>
+<span class="font-headline-sm text-headline-sm text-sea-foam font-medium">예매한 티켓의 취소 및 환불 규정은 어떻게 되나요?</span>
+</div>
+<svg class="aq-icon  faq-arrow text-primary transition-transform duration-300" data-icon="expand_more" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</button>
+<div class="faq-content px-6 pb-5 pt-1 text-on-surface-variant font-body-md text-body-md hidden">
+              온라인을 통해 예매하신 모바일 티켓은 관람 지정일 당일 입장 마감 시간(평일 19:00 / 주말 20:00) 전까지 취소 신청 시 <strong class="text-sea-foam">위약금 없이 100% 전액 환불</strong>됩니다. 미사용 티켓 또한 관람일 자정이 지나면 자동으로 취소 환불 처리되어 불필요한 결제가 발생하지 않습니다.
+            </div>
+</div>
+<!-- FAQ 2 -->
+<div class="faq-item rounded-xl bg-surface-container-low overflow-hidden transition-all">
+<button class="faq-toggle w-full px-6 py-4.5 flex items-center justify-between text-left gap-4 hover:bg-surface-container-high transition-colors" type="button" aria-expanded="false">
+<div class="flex items-center gap-3">
+<span class="w-6 h-6 rounded-full bg-primary-container text-on-primary-fixed font-label-data-mono text-label-data-mono flex items-center justify-center font-bold">Q</span>
+<span class="font-headline-sm text-headline-sm text-sea-foam font-medium">관람 중 퇴장 후 재입장이 가능한가요?</span>
+</div>
+<svg class="aq-icon  faq-arrow text-primary transition-transform duration-300" data-icon="expand_more" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</button>
+<div class="faq-content px-6 pb-5 pt-1 text-on-surface-variant font-body-md text-body-md hidden">
+              쾌적한 관람 환경 유지와 보안을 위해 원칙적으로 1회 입장 후 재입장은 불가합니다. 단, 수유실 이용 등 긴급 사유나 안내데스크의 사전 승인이 있는 경우에 한하여 1회에 한해 제한적으로 재입장 도장을 날인해 드립니다.
+            </div>
+</div>
+<!-- FAQ 3 -->
+<div class="faq-item rounded-xl bg-surface-container-low overflow-hidden transition-all">
+<button class="faq-toggle w-full px-6 py-4.5 flex items-center justify-between text-left gap-4 hover:bg-surface-container-high transition-colors" type="button" aria-expanded="false">
+<div class="flex items-center gap-3">
+<span class="w-6 h-6 rounded-full bg-primary-container text-on-primary-fixed font-label-data-mono text-label-data-mono flex items-center justify-center font-bold">Q</span>
+<span class="font-headline-sm text-headline-sm text-sea-foam font-medium">외부 음식물이나 유모차 반입 기준이 궁금합니다.</span>
+</div>
+<svg class="aq-icon  faq-arrow text-primary transition-transform duration-300" data-icon="expand_more" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</button>
+<div class="faq-content px-6 pb-5 pt-1 text-on-surface-variant font-body-md text-body-md hidden">
+              수족관 내 생물 보호와 안전을 위해 뚜껑이 있는 음료(텀블러, 생수) 및 영유아 이유식을 제외한 일반 음식물(패스트푸드, 냄새가 강한 음식 등)의 반입은 제한됩니다. 유모차와 휠체어는 전 전시관 경사로 및 승강기가 마련되어 있어 편리하게 입장하실 수 있습니다.
+            </div>
+</div>
+<!-- FAQ 4 -->
+<div class="faq-item rounded-xl bg-surface-container-low overflow-hidden transition-all">
+<button class="faq-toggle w-full px-6 py-4.5 flex items-center justify-between text-left gap-4 hover:bg-surface-container-high transition-colors" type="button" aria-expanded="false">
+<div class="flex items-center gap-3">
+<span class="w-6 h-6 rounded-full bg-primary-container text-on-primary-fixed font-label-data-mono text-label-data-mono flex items-center justify-center font-bold">Q</span>
+<span class="font-headline-sm text-headline-sm text-sea-foam font-medium">15인 이상 단체 관람 및 도슨트 해설 예약은 어떻게 하나요?</span>
+</div>
+<svg class="aq-icon  faq-arrow text-primary transition-transform duration-300" data-icon="expand_more" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</button>
+<div class="faq-content px-6 pb-5 pt-1 text-on-surface-variant font-body-md text-body-md hidden">
+              15인 이상 유치원, 초·중·고교 및 기업 단체의 경우 전담 코디네이터가 배정되며 정규 관람료 대비 추가 단체 할인 및 맞춤형 도슨트 해설 프로그램이 지원됩니다. 상단 메뉴의 '단체 관람 및 도슨트 예약' 메뉴 또는 고객센터(1661-2000) 유선 연결을 통해 최소 방문 3일 전 신청해 주시기 바랍니다.
+            </div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</main>
+<footer class="w-full bg-surface-container-lowest pt-space-xl pb-16">
+<div class="max-w-7xl mx-auto px-gutter">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-lg pb-12">
+<div class="lg:col-span-2 flex flex-col gap-space-sm">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container">
+</span>
+<span class="font-headline-md text-headline-md tracking-wider text-sea-foam">AQUAFOLIO</span>
+</div>
+<p class="font-label-species-latin text-label-species-latin text-outline tracking-wider uppercase">Metropolitan Marine Sanctuary &amp; Biodiversity Research Institute</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant pr-space-lg leading-relaxed">아쿠아폴리오는 해양 생태계 보전과 인간의 공존을 연구하는 도심형 해양 연구 생태관입니다. 650여 종 55,000마리의 생명들과 함께 살아 숨쉬는 심해의 경이로움을 전합니다.</p>
+<div class="flex items-center gap-4 pt-2">
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-low">
+<svg class="aq-icon  text-secondary text-[16px]" data-icon="eco" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span class="font-label-data-mono text-label-data-mono text-on-surface">WAZA 정회원 기관</span>
+</div>
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-low">
+<svg class="aq-icon  text-conservation-amber text-[16px]" data-icon="verified" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span class="font-label-data-mono text-label-data-mono text-on-surface">해양동물 전문구조치료기관</span>
+</div>
+</div>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-lg text-sea-foam mb-space-sm">탐험 &amp; 전시</h4>
+<ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<li>
+<a class="hover:text-primary transition-colors" data-path="creatures" href="aquafolio-creatures.html">심해 존 (The Abyss)</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="creatures" href="aquafolio-creatures.html">산호초 산책로</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="creatures" href="aquafolio-creatures.html">펠라직 오픈오션</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="creatures" href="aquafolio-creatures.html">극지 생태 탐험관</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="experiences" href="aquafolio-programs.html">피딩 타임 &amp; 생태설명회</a>
+</li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-lg text-sea-foam mb-space-sm">이용 &amp; 편의</h4>
+<ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<li>
+<a class="hover:text-primary transition-colors" data-path="tickets-and-info" href="aquafolio-tickets.html">운영시간 및 요금안내</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="tickets-and-info" href="aquafolio-tickets.html#location">오시는 길 &amp; 주차안내</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="tickets-and-info" href="aquafolio-tickets.html">편의시설 &amp; 휠체어 대여</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="experiences" href="aquafolio-groups.html">단체 관람 및 도슨트 예약</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="tickets-and-info" href="aquafolio-tickets.html#faq-accordion-group">자주 묻는 질문 (FAQ)</a>
+</li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-lg text-sea-foam mb-space-sm">방문 센터 및 지원</h4>
+<div class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<p class="text-sea-foam font-headline-sm text-headline-sm">1661-2000</p>
+<p class="font-label-data-mono text-label-data-mono text-outline">운영시간 09:30 - 18:30 (연중무휴)</p>
+<p class="leading-relaxed">서울시 송파구 올림픽로 300<br>아쿠아폴리오 마린 콤플렉스 지하 1-2층</p>
+<a class="inline-block text-primary hover:underline font-label-data-mono text-label-data-mono pt-1" href="aquafolio-groups.html">단체 관람 문의</a>
+</div>
+</div>
+</div>
+<div class="pt-8 mt-4 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 font-caption text-caption text-outline">
+<div class="space-y-1">
+<p>(주)아쿠아폴리오 마린솔루션 | 대표이사: 해양연구단 | 사업자등록번호: 예시 정보 | 통신판매업신고: 2024-서울송파-1082호</p>
+<p>수족관 관리 및 서식지외보전기관 등록 제 11-호 | 동물원 및 수족관의 관리에 관한 법률 등록 시설</p>
+<p class="font-label-data-mono text-label-data-mono text-on-surface-variant">© 2026 AQUAFOLIO Marine Sanctuary &amp; Research Institute. All rights reserved.</p>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm font-body-sm text-body-sm text-on-surface-variant">
+<a class="hover:text-sea-foam transition-colors" href="aquafolio-privacy.html">개인정보처리방침</a>
+<span class="text-outline-variant">•</span>
+<a class="hover:text-sea-foam transition-colors" href="aquafolio-terms.html">이용약관</a>
+<span class="text-outline-variant">•</span>
+<a class="hover:text-sea-foam transition-colors" href="aquafolio-conservation.html">동물복지 윤리선언</a>
+<span class="text-outline-variant">•</span>
+<a class="hover:text-sea-foam transition-colors" href="aquafolio-privacy.html">영상정보처리기기 운영방침</a>
+</div>
+</div>
+</div>
+<p class="aq-demo-note">AQUAFOLIO는 디자인을 위한 가상의 아쿠아리움입니다. 전시·프로그램·요금·운영 정보는 예시이며, 실제 결제·예약·알림 발송은 진행하지 않습니다.</p>
+</footer>
+<dialog id="aquafolio-dialog" aria-labelledby="aquafolio-dialog-title">
+<div class="aq-dialog-head">
+<h2 id="aquafolio-dialog-title">
+</h2>
+<button type="button" data-close="" aria-label="닫기">
+<svg class="aq-icon" data-icon="close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 6 12 12M6 18 18 6">
+</path>
+</svg>
+</button>
+</div>
+<div id="aquafolio-dialog-body">
+</div>
+</dialog>
+<div id="aquafolio-status" role="status" hidden="">
+</div>
+
+
+
+
+
+
+</body>
+</html>
