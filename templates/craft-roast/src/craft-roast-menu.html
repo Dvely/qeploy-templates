@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<!-- Modern Clean Typography: Pretendard & Hanken Grotesk -->
+
+
+
+
+
+
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="craft-roast.css">
+<script defer="" src="craft-roast-data.js">
+</script>
+<script defer="" src="craft-roast.js">
+</script>
+<title>메뉴 &amp; 페어링 | CRAFT &amp; ROAST</title>
+</head>
+<body class="bg-surface font-sans text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-container" data-page="menu">
+<a class="cr-skip" href="#main">본문 바로가기</a>
+<!-- Header: Minimal Gallery Navigation -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-white/85 backdrop-blur-md border-b border-outline-variant/60 cr-header">
+<div class="h-16 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-6 cr-header-row">
+<div class="flex items-center gap-10">
+<a class="flex items-center gap-3 group" data-path="home" href="index.html">
+<span class="cr-monogram" aria-hidden="true">CR</span>
+<div class="flex flex-col">
+<span class="font-display font-medium text-base tracking-widest text-primary leading-none">CRAFT &amp; ROAST</span>
+<span class="text-[10px] text-zinc-500 tracking-wider uppercase mt-0.5 font-medium">크래프트 앤 로스트</span>
+</div>
+</a>
+<nav class="hidden xl:flex items-center gap-8 text-[13px] tracking-tight" id="craft-navigation">
+<a class="cr-nav-link" data-path="menu-and-pairing" href="index.html#signature-grid" aria-current="page">메뉴 &amp; 페어링</a>
+<a class="cr-nav-link" data-path="roastery-market" href="craft-roast-beans.html">시그니처 원두 &amp; 굿즈</a>
+<a class="cr-nav-link" data-path="spaces-and-stores" href="craft-roast-stores.html#store-locator">매장 &amp; 공간 찾기</a>
+<a class="cr-nav-link" data-path="brand-journal" href="index.html#pairing-guide">브랜드 저널</a>
+<a class="cr-nav-link" data-path="franchise-and-partnership" href="craft-roast-stores.html#franchise-inquiry">가맹 및 제휴</a>
+</nav>
+</div>
+<div class="flex items-center gap-3">
+<div class="hidden sm:flex items-center gap-2">
+<a class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-zinc-100/80 hover:bg-zinc-200 text-zinc-700 text-xs font-medium transition-colors" data-path="store-order" href="craft-roast-menu.html">
+<svg class="cr-icon  text-[15px] text-zinc-500" data-icon="coffee" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 4h13v10a6 6 0 0 1-12 0V4ZM16 6h2a3 3 0 0 1 0 6h-2M2 21h18M6 1v1M11 1v1">
+</path>
+</svg>
+            스토어 오더
+          </a>
+<a class="relative p-2 rounded-full text-zinc-600 hover:bg-zinc-100 hover:text-primary transition-colors" data-path="cart" href="#cart" data-panel="cart">
+<svg class="cr-icon  text-[20px]" data-icon="shopping_bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 7h14l1 14H4ZM9 8V6a3 3 0 0 1 6 0v2">
+</path>
+</svg>
+<span class="absolute top-1.5 right-1.5 w-1.5 h-1.5 rounded-full bg-bronze-accent">
+</span>
+</a>
+<a class="hidden md:inline-flex items-center text-xs text-zinc-600 hover:text-primary px-2.5 py-1.5 font-medium transition-colors" data-path="membership-login" href="#login" data-panel="login">
+            로그인
+          </a>
+</div>
+<a class="cr-account" href="#login" data-panel="login" aria-label="멤버십 로그인">
+<svg class="cr-icon" data-icon="person" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0M4 21v-3a8 8 0 0 1 16 0v3">
+</path>
+</svg>
+</a>
+<button class="cr-menu-toggle" type="button" aria-label="메뉴 열기" aria-controls="craft-navigation" aria-expanded="false">
+<svg class="cr-icon" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 6h18M3 12h18M3 18h18">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</header>
+<!-- Main Content Area -->
+<main class="w-full pt-16 bg-surface" id="main">
+<div class="flex flex-col w-full">
+<!-- Breadcrumb & Status Ribbon -->
+<div class="border-b border-outline-variant/60 bg-white">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 py-3 flex flex-wrap items-center justify-between gap-3 text-xs">
+<div class="flex items-center gap-2 text-zinc-500 font-medium">
+<a class="hover:text-primary transition-colors" href="index.html#signature-grid">시그니처 페어링</a>
+<span class="text-zinc-300">/</span>
+<a class="hover:text-primary transition-colors" href="index.html#signature-grid">아틀리에 셀렉션</a>
+<span class="text-zinc-300">/</span>
+<span class="text-primary font-medium">No. 07 발로나 캐러멜 &amp; 피스타치오</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-0.5 bg-bronze-light text-bronze-accent rounded-full text-[11px] font-medium tracking-wide">Chef's Signature Set</span>
+<span class="px-2.5 py-0.5 bg-primary text-white rounded-full text-[11px] font-medium tracking-wide">시즌 한정 페어링</span>
+</div>
+</div>
+</div>
+<!-- Main Container: Grid Section -->
+<div class="max-w-7xl mx-auto px-6 lg:px-12 py-10 lg:py-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+<!-- Left Column: Showcase & Editorial (Col 7) -->
+<div class="lg:col-span-7 flex flex-col gap-10">
+<!-- Dual Hero Showcase -->
+<div class="flex flex-col gap-3">
+<div class="grid grid-cols-12 gap-3 h-[440px] md:h-[480px]">
+<!-- Main Beverage Frame -->
+<div class="col-span-8 relative rounded-xl overflow-hidden border border-zinc-200/80 bg-zinc-100 group shadow-sm">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" src="images/craft-roast-caramel-latte.jpg" alt="커피와 디저트 페어링 · caramel-latte" loading="eager" decoding="async">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent">
+</div>
+<div class="absolute bottom-4 left-4 right-4 flex items-end justify-between text-white">
+<div>
+<span class="text-[11px] text-amber-200 font-medium tracking-widest uppercase block mb-0.5">Artisanal Beverage</span>
+<p class="font-display text-xl md:text-2xl font-semibold tracking-tight">발로나 솔티드 캐러멜 라떼</p>
+</div>
+<span class="text-xs bg-black/60 backdrop-blur-md px-2.5 py-1 rounded font-medium border border-white/20">Single Origin</span>
+</div>
+</div>
+<!-- Secondary Patisserie Frame & Micro Spec -->
+<div class="col-span-4 flex flex-col gap-3 h-full">
+<div class="relative flex-1 rounded-xl overflow-hidden border border-zinc-200/80 bg-zinc-100 group shadow-sm">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" src="images/craft-roast-pistachio-financier.jpg" alt="커피와 디저트 페어링 · pistachio-financier" loading="lazy" decoding="async">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent">
+</div>
+<div class="absolute bottom-3 left-3 right-3 text-white">
+<span class="text-[10px] text-amber-200 uppercase tracking-wider block font-medium">Bespoke Pastry</span>
+<p class="text-sm font-semibold leading-snug">피스타치오 피낭시에</p>
+</div>
+</div>
+<!-- Certification Micro Card -->
+<div class="rounded-xl border border-zinc-200/80 bg-white p-3.5 flex flex-col justify-between shadow-sm">
+<div class="flex items-center gap-1.5 text-bronze-accent">
+<svg class="cr-icon  text-[16px]" data-icon="verified" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span class="text-[11px] font-semibold tracking-wide uppercase">AOP 버터 인증</span>
+</div>
+<p class="text-xs text-zinc-600 leading-relaxed mt-1.5">프랑스 샤랑트 푸아투 AOP 버터를 185℃로 태워 고소한 풍미를 응축했습니다.</p>
+</div>
+</div>
+</div>
+<!-- Metadata & Hashtags -->
+<div class="flex flex-wrap items-center justify-between gap-2 pt-1 text-xs text-zinc-500">
+<div class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600">
+</span>
+<span>성수 아틀리에 매일 07:00 당일 로스팅 &amp; 현장 베이킹</span>
+</div>
+<div class="flex items-center gap-1.5 text-zinc-600 font-medium">
+<span class="px-2 py-0.5 rounded bg-zinc-100 border border-zinc-200/60">#발로나캐러멜</span>
+<span class="px-2 py-0.5 rounded bg-zinc-100 border border-zinc-200/60">#게랑드토판염</span>
+<span class="px-2 py-0.5 rounded bg-zinc-100 border border-zinc-200/60">#피스타치오</span>
+</div>
+</div>
+</div>
+<!-- Product Header & Narrative -->
+<div class="flex flex-col gap-3">
+<div>
+<span class="text-xs font-semibold text-bronze-accent tracking-widest uppercase">Craft &amp; Roast Sensory Duet</span>
+<h1 class="text-2xl md:text-3xl font-bold tracking-tight text-primary mt-1">발로나 솔티드 캐러멜 라떼 &amp; 피스타치오 피낭시에 세트</h1>
+</div>
+<div class="flex flex-wrap items-center gap-3 pt-1 text-xs">
+<div class="flex items-center gap-1 bg-white border border-zinc-200 px-2.5 py-1 rounded-full shadow-sm">
+<svg class="cr-icon  text-amber-500 text-[16px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<span class="font-bold text-zinc-900">4.9</span>
+<span class="text-zinc-500">(840개 정밀 리뷰)</span>
+</div>
+<span class="text-zinc-300">•</span>
+<span class="text-bronze-accent font-medium">주문 고객 96% '완벽한 페어링 조화' 평가</span>
+<span class="text-zinc-300">•</span>
+<span class="text-zinc-500">세트 구매 시 1,500원 할인 적용</span>
+</div>
+<p class="text-[14px] text-zinc-600 leading-relaxed mt-1">
+                정통 프렌치 발로나 솔티드 캐러멜과 게랑드 소금의 섬세한 단짠의 균형 위에, 에티오피아와 콜롬비아를 블렌딩한 미디엄 다크 로스트 에스프레소가 묵직한 바디감을 더합니다. 여기에 버터 풍미를 극대화하여 겉은 바삭하고 속은 쫀득한 수제 피스타치오 피낭시에를 곁들여 한 모금, 한 입마다 다층적인 텍스처를 선사합니다.
+              </p>
+</div>
+<!-- Nutrition Spec Card -->
+<div class="rounded-xl bg-white border border-zinc-200/80 p-5 shadow-sm">
+<div class="flex items-center justify-between pb-3 border-b border-zinc-100">
+<div class="flex items-center gap-2">
+<svg class="cr-icon  text-bronze-accent text-[20px]" data-icon="nutrition" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 6h18v15H3ZM8 6a4 4 0 0 1 8 0M12 3v3">
+</path>
+</svg>
+<h3 class="text-sm font-semibold text-primary">영양 성분 &amp; 밸런스 요약</h3>
+</div>
+<span class="text-xs text-zinc-400">1회 제공량 (라떼 355ml + 피낭시에 45g 기준)</span>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-3">
+<div class="p-3 bg-zinc-50 rounded-lg text-center border border-zinc-100">
+<span class="text-[11px] text-zinc-500 block mb-0.5">총 열량</span>
+<span class="font-display text-xl font-bold text-primary">435</span>
+<span class="text-[10px] text-zinc-400 block">kcal</span>
+</div>
+<div class="p-3 bg-zinc-50 rounded-lg text-center border border-zinc-100">
+<span class="text-[11px] text-zinc-500 block mb-0.5">당류 함량</span>
+<span class="font-display text-xl font-bold text-primary">22</span>
+<span class="text-[10px] text-zinc-400 block">g (일일 권장 22%)</span>
+</div>
+<div class="p-3 bg-zinc-50 rounded-lg text-center border border-zinc-100">
+<span class="text-[11px] text-zinc-500 block mb-0.5">카페인</span>
+<span class="font-display text-xl font-bold text-primary">145</span>
+<span class="text-[10px] text-zinc-400 block">mg (2 Shots)</span>
+</div>
+<div class="p-3 bg-zinc-50 rounded-lg text-center border border-zinc-100">
+<span class="text-[11px] text-zinc-500 block mb-0.5">나트륨</span>
+<span class="font-display text-xl font-bold text-primary">160</span>
+<span class="text-[10px] text-zinc-400 block">mg (게랑드 토판염)</span>
+</div>
+</div>
+</div>
+<!-- Barista Cupping Archive & Profile Chart -->
+<div class="rounded-xl bg-white border border-zinc-200/80 p-6 shadow-sm flex flex-col gap-5">
+<div class="flex items-center justify-between pb-3 border-b border-zinc-100">
+<div>
+<span class="text-[10px] font-semibold text-bronze-accent uppercase tracking-widest">Cupping Archive</span>
+<h3 class="text-base font-bold text-primary">바리스타 테이스팅 프로파일</h3>
+</div>
+<span class="text-xs bg-zinc-100 border border-zinc-200/80 text-zinc-700 px-3 py-1 rounded-full font-medium">SCA 86.5 Specialist Rated</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+<!-- SVG Radar Chart -->
+<div class="md:col-span-5 flex flex-col items-center justify-center p-3 rounded-lg bg-zinc-50 border border-zinc-100">
+<svg class="w-48 h-48 text-zinc-800" viewBox="0 0 200 200">
+<polygon fill="none" points="100,20 176,55 176,145 100,180 24,145 24,55" stroke="currentColor" stroke-opacity="0.12" stroke-width="1">
+</polygon>
+<polygon fill="none" points="100,45 152,70 152,130 100,155 48,130 48,70" stroke="currentColor" stroke-opacity="0.12" stroke-width="1">
+</polygon>
+<polygon fill="none" points="100,70 128,85 128,115 100,130 72,115 72,85" stroke="currentColor" stroke-opacity="0.12" stroke-width="1">
+</polygon>
+<line stroke="currentColor" stroke-opacity="0.15" stroke-width="1" x1="100" x2="100" y1="100" y2="20">
+</line>
+<line stroke="currentColor" stroke-opacity="0.15" stroke-width="1" x1="100" x2="176" y1="100" y2="55">
+</line>
+<line stroke="currentColor" stroke-opacity="0.15" stroke-width="1" x1="100" x2="176" y1="100" y2="145">
+</line>
+<line stroke="currentColor" stroke-opacity="0.15" stroke-width="1" x1="100" x2="100" y1="100" y2="180">
+</line>
+<line stroke="currentColor" stroke-opacity="0.15" stroke-width="1" x1="100" x2="24" y1="100" y2="145">
+</line>
+<line stroke="currentColor" stroke-opacity="0.15" stroke-width="1" x1="100" x2="24" y1="100" y2="55">
+</line>
+<polygon fill="#966a42" fill-opacity="0.22" points="100,25 165,65 160,135 100,165 40,130 52,75" stroke="#966a42" stroke-width="2">
+</polygon>
+<circle cx="100" cy="25" fill="#18181b" r="3">
+</circle>
+<circle cx="165" cy="65" fill="#18181b" r="3">
+</circle>
+<circle cx="160" cy="135" fill="#18181b" r="3">
+</circle>
+<circle cx="100" cy="165" fill="#18181b" r="3">
+</circle>
+<circle cx="40" cy="130" fill="#18181b" r="3">
+</circle>
+<circle cx="52" cy="75" fill="#18181b" r="3">
+</circle>
+<text fill="#27272a" font-size="9" font-weight="600" text-anchor="middle" x="100" y="14">아로마</text>
+<text fill="#27272a" font-size="9" font-weight="600" text-anchor="start" x="182" y="58">단맛</text>
+<text fill="#27272a" font-size="9" font-weight="600" text-anchor="start" x="182" y="148">바디감</text>
+<text fill="#27272a" font-size="9" font-weight="600" text-anchor="middle" x="100" y="195">애프터</text>
+<text fill="#27272a" font-size="9" font-weight="600" text-anchor="end" x="18" y="148">솔티드 밸런스</text>
+<text fill="#27272a" font-size="9" font-weight="600" text-anchor="end" x="18" y="58">산미</text>
+</svg>
+<span class="text-[10px] text-zinc-400 mt-1">C&amp;R 6-Point Sensory Index</span>
+</div>
+<!-- Sliders & Roast Status -->
+<div class="md:col-span-7 flex flex-col gap-4">
+<!-- Roast Segment Bar -->
+<div class="bg-zinc-50 border border-zinc-100 p-3.5 rounded-lg flex flex-col gap-2">
+<div class="flex justify-between items-center text-xs">
+<span class="font-semibold text-primary">로스팅 포인트: 미디엄 다크 (Agtron 45)</span>
+<span class="text-bronze-accent font-medium">French Roast Blend</span>
+</div>
+<div class="grid grid-cols-5 gap-1.5 h-2">
+<div class="bg-zinc-200 rounded-full">
+</div>
+<div class="bg-zinc-300 rounded-full">
+</div>
+<div class="bg-bronze-accent/60 rounded-full">
+</div>
+<div class="bg-zinc-900 rounded-full ring-2 ring-bronze-accent/40">
+</div>
+<div class="bg-zinc-200 rounded-full">
+</div>
+</div>
+<div class="flex justify-between text-[11px] text-zinc-400">
+<span>라이트</span>
+<span>미디엄</span>
+<span class="text-primary font-medium">미디엄다크 ★</span>
+<span>다크</span>
+<span>프렌치</span>
+</div>
+</div>
+<!-- Attribute Bars -->
+<div class="space-y-3">
+<div>
+<div class="flex justify-between text-xs mb-1">
+<span class="text-zinc-600">바디감 (Body)</span>
+<span class="font-semibold text-primary">4.5 / 5.0 (벨벳 실크 텍스처)</span>
+</div>
+<div class="w-full bg-zinc-100 h-1.5 rounded-full overflow-hidden">
+<div class="bg-zinc-800 h-full rounded-full" style="width: 90%;">
+</div>
+</div>
+</div>
+<div>
+<div class="flex justify-between text-xs mb-1">
+<span class="text-zinc-600">달콤함 (Sweetness)</span>
+<span class="font-semibold text-primary">4.0 / 5.0 (구운 캐러멜의 농밀함)</span>
+</div>
+<div class="w-full bg-zinc-100 h-1.5 rounded-full overflow-hidden">
+<div class="bg-bronze-accent h-full rounded-full" style="width: 80%;">
+</div>
+</div>
+</div>
+<div>
+<div class="flex justify-between text-xs mb-1">
+<span class="text-zinc-600">산미 (Acidity)</span>
+<span class="font-semibold text-primary">2.0 / 5.0 (절제된 부드러운 산미)</span>
+</div>
+<div class="w-full bg-zinc-100 h-1.5 rounded-full overflow-hidden">
+<div class="bg-zinc-300 h-full rounded-full" style="width: 40%;">
+</div>
+</div>
+</div>
+</div>
+<!-- Notes Badges -->
+<div class="flex flex-wrap gap-1.5 pt-1">
+<span class="px-2.5 py-1 bg-zinc-100 border border-zinc-200/60 rounded-md text-xs text-zinc-700 flex items-center gap-1 font-medium">
+<svg class="cr-icon  text-[13px] text-bronze-accent" data-icon="cookie" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 11h18v10H3ZM5 11V7h14v4M8 7V4M12 7V3M16 7V4M3 15c4 4 5-4 9 0 4 4 5-4 9 0">
+</path>
+</svg> 버터리 솔티드 캐러멜
+                    </span>
+<span class="px-2.5 py-1 bg-zinc-100 border border-zinc-200/60 rounded-md text-xs text-zinc-700 flex items-center gap-1 font-medium">
+<svg class="cr-icon  text-[13px] text-bronze-accent" data-icon="grass" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 22V8m0 7C3 15 1 9 2 5c7 0 10 5 10 10Zm0-4c9 0 10-6 10-10-7 0-10 5-10 10Z">
+</path>
+</svg> 구운 피스타치오
+                    </span>
+<span class="px-2.5 py-1 bg-zinc-100 border border-zinc-200/60 rounded-md text-xs text-zinc-700 flex items-center gap-1 font-medium">
+<svg class="cr-icon  text-[13px] text-bronze-accent" data-icon="grain" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 22V8m0 7C3 15 1 9 2 5c7 0 10 5 10 10Zm0-4c9 0 10-6 10-10-7 0-10 5-10 10Z">
+</path>
+</svg> 다크 카카오 닙스
+                    </span>
+</div>
+</div>
+</div>
+</div>
+<!-- Patissier Pairing Archive (3 Desserts) -->
+<div class="flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<div>
+<span class="text-[10px] font-semibold text-bronze-accent uppercase tracking-widest">Sommelier Curation</span>
+<h3 class="text-lg font-bold text-primary">파티시에 추천 페어링 아카이브</h3>
+</div>
+<a class="text-xs text-zinc-500 hover:text-primary transition-colors flex items-center gap-1 font-medium" href="index.html#signature-grid">
+                  전체 디저트 보기 <svg class="cr-icon  text-[14px]" data-icon="arrow_forward" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16m-6-6 6 6-6 6">
+</path>
+</svg>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+<!-- Card 1 -->
+<div class="bg-white rounded-xl border border-zinc-200/80 overflow-hidden shadow-sm flex flex-col group hover:border-zinc-300 transition-all">
+<div class="relative h-40 overflow-hidden bg-zinc-100">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="images/craft-roast-canele.jpg" alt="커피와 디저트 페어링 · canele" loading="lazy" decoding="async">
+<span class="absolute top-2 left-2 px-2 py-0.5 bg-black/70 text-white text-[10px] rounded backdrop-blur font-medium">식감 대비 극대화</span>
+</div>
+<div class="p-4 flex flex-col flex-1 justify-between gap-3">
+<div>
+<h4 class="text-sm font-semibold text-primary">바닐라 럼 까눌레</h4>
+<p class="text-xs text-zinc-500 line-clamp-2 mt-1 leading-relaxed">마다가스카르 바닐라빈과 다크 럼의 깊은 향이 짭조름한 캐러멜과 감미롭게 충돌합니다.</p>
+</div>
+<div class="flex items-center justify-between pt-2 border-t border-zinc-100">
+<span class="text-sm font-bold text-primary">3,800원</span>
+<button class="px-2.5 py-1 bg-zinc-100 hover:bg-zinc-900 hover:text-white text-zinc-700 rounded text-xs font-medium transition-colors" type="button" data-pairing-extra="3500">+ 페어링 추가</button>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-white rounded-xl border border-zinc-200/80 overflow-hidden shadow-sm flex flex-col group hover:border-zinc-300 transition-all">
+<div class="relative h-40 overflow-hidden bg-zinc-100">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="images/craft-roast-hazelnut-tart.jpg" alt="커피와 디저트 페어링 · hazelnut-tart" loading="lazy" decoding="async">
+<span class="absolute top-2 left-2 px-2 py-0.5 bg-bronze-accent text-white text-[10px] rounded font-medium">카카오 72%</span>
+</div>
+<div class="p-4 flex flex-col flex-1 justify-between gap-3">
+<div>
+<h4 class="text-sm font-semibold text-primary">헤이즐넛 가나슈 타르트</h4>
+<p class="text-xs text-zinc-500 line-clamp-2 mt-1 leading-relaxed">발로나 과나하 70% 가나슈의 진한 쌉싸름함이 라떼의 캐러멜 단맛을 정돈합니다.</p>
+</div>
+<div class="flex items-center justify-between pt-2 border-t border-zinc-100">
+<span class="text-sm font-bold text-primary">7,500원</span>
+<button class="px-2.5 py-1 bg-zinc-100 hover:bg-zinc-900 hover:text-white text-zinc-700 rounded text-xs font-medium transition-colors" type="button" data-pairing-extra="4800">+ 페어링 추가</button>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-white rounded-xl border border-zinc-200/80 overflow-hidden shadow-sm flex flex-col group hover:border-zinc-300 transition-all">
+<div class="relative h-40 overflow-hidden bg-zinc-100">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="images/craft-roast-butter-scone.jpg" alt="커피와 디저트 페어링 · butter-scone" loading="lazy" decoding="async">
+<span class="absolute top-2 left-2 px-2 py-0.5 bg-black/70 text-white text-[10px] rounded backdrop-blur font-medium">클래식 브런치</span>
+</div>
+<div class="p-4 flex flex-col flex-1 justify-between gap-3">
+<div>
+<h4 class="text-sm font-semibold text-primary">무화과 클로티드 크림 스콘</h4>
+<p class="text-xs text-zinc-500 line-clamp-2 mt-1 leading-relaxed">밀도 높은 고메 버터 스콘에 직접 졸인 무화과 콩포트로 담백한 균형감을 선사합니다.</p>
+</div>
+<div class="flex items-center justify-between pt-2 border-t border-zinc-100">
+<span class="text-sm font-bold text-primary">4,600원</span>
+<button class="px-2.5 py-1 bg-zinc-100 hover:bg-zinc-900 hover:text-white text-zinc-700 rounded text-xs font-medium transition-colors" type="button" data-pairing-extra="4200">+ 페어링 추가</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Barista Quote & Origin Card -->
+<div class="rounded-xl bg-white border border-zinc-200/80 p-6 shadow-sm grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+<div class="md:col-span-4 flex flex-col items-center text-center gap-2 border-b md:border-b-0 md:border-r border-zinc-100 pb-4 md:pb-0 md:pr-4">
+<div class="w-20 h-20 rounded-full overflow-hidden border-2 border-zinc-100 shadow-sm">
+<img class="w-full h-full object-cover" src="images/craft-roast-head-barista.jpg" alt="커피와 디저트 페어링 · head-barista" loading="lazy" decoding="async">
+</div>
+<div>
+<h4 class="text-sm font-bold text-primary">이윤서 헤드 바리스타</h4>
+<p class="text-[11px] text-bronze-accent font-medium">CRAFT &amp; ROAST Lab 성수</p>
+</div>
+<span class="px-2 py-0.5 bg-zinc-100 rounded text-[10px] text-zinc-500 font-medium">2023 KBRC 챔피언십 본선</span>
+</div>
+<div class="md:col-span-8 flex flex-col gap-2">
+<svg class="cr-icon  text-bronze-accent text-[24px]" data-icon="format_quote" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 5h7v8H7l-2 5H3l2-5H3ZM14 5h7v8h-3l-2 5h-2l2-5h-2Z">
+</path>
+</svg>
+<p class="text-sm font-medium text-zinc-800 leading-relaxed italic">
+                  "피스타치오 피낭시에의 고소한 견과류 뉘앙스와 발로나 솔티드 캐러멜의 진한 레이어가 겹쳐질 때, 라떼의 미디엄 다크 블렌드가 베이스로서 모든 향을 둥글게 감싸 안아줍니다."
+                </p>
+<p class="text-xs text-zinc-500 leading-relaxed mt-1">
+                  첫 모금은 젓지 않고 크림과 캐러멜의 차가운 층을 음미한 후, 피낭시에를 반 베어 물고 따뜻하게 섞어 마실 때 가장 극적인 플레이버의 궤적을 경험하실 수 있습니다.
+                </p>
+</div>
+</div>
+<!-- Allergy Guide Card -->
+<div class="rounded-xl bg-white border border-zinc-200/80 p-5 shadow-sm flex flex-col gap-3">
+<h4 class="text-xs font-semibold text-primary flex items-center gap-1.5">
+<svg class="cr-icon  text-zinc-400 text-[18px]" data-icon="info" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+                원재료 원산지 및 알레르기 안내
+              </h4>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+<div class="p-3 bg-zinc-50 rounded-lg border border-zinc-100">
+<span class="font-semibold text-zinc-800 block mb-1">알레르기 유발 물질</span>
+<span class="text-zinc-600 leading-relaxed">우유(국산), 계란(난류 국산), 밀(프랑스산 포리쉐 T55), 대두, 견과류(피스타치오 미국산, 아몬드분말 미국산) 함유</span>
+</div>
+<div class="p-3 bg-zinc-50 rounded-lg border border-zinc-100">
+<span class="font-semibold text-zinc-800 block mb-1">원재료 원산지</span>
+<span class="text-zinc-600 leading-relaxed">에스프레소 원두(에티오피아 50%, 콜롬비아 50%), 프랑스 샤랑트 푸아투 AOP 버터, 발로나 캐러멜 소스(프랑스)</span>
+</div>
+</div>
+<p class="text-[11px] text-zinc-400">* 본 제품은 땅콩, 호두, 잣, 메밀을 사용한 제조 시설과 동일 라인에서 제조됩니다.</p>
+</div>
+</div>
+<!-- Right Column: Sticky Minimal Order Panel (Col 5) -->
+<div class="lg:col-span-5 sticky top-24 flex flex-col gap-4">
+<div class="bg-white p-6 rounded-2xl border border-zinc-200 shadow-sm flex flex-col gap-5">
+<!-- Pricing Row -->
+<div class="flex items-baseline justify-between pb-4 border-b border-zinc-100">
+<div>
+<span class="text-[11px] font-semibold text-bronze-accent tracking-wider uppercase block mb-0.5">Set Special Offer</span>
+<div class="flex items-baseline gap-1.5">
+<span class="font-display text-3xl font-bold tracking-tight text-primary" id="totalPriceDisplay">12,800</span>
+<span class="text-lg font-medium text-primary">원</span>
+<span class="text-xs text-zinc-400 line-through ml-1">14,300원</span>
+</div>
+</div>
+<span class="px-2.5 py-1 bg-amber-50 text-amber-700 border border-amber-200/60 rounded-full text-xs font-semibold">10% SAVE</span>
+</div>
+<!-- Configurator Form -->
+<form class="flex flex-col gap-4" id="orderConfigForm">
+<!-- 1. Temperature -->
+<div class="flex flex-col gap-1.5">
+<label class="text-xs font-semibold text-primary flex items-center justify-between">
+<span>음료 온도 선택 (Temperature)</span>
+<span class="text-bronze-accent text-[11px] font-medium">아이스 권장 ★</span>
+</label>
+<div class="grid grid-cols-2 gap-2">
+<label class="flex items-center justify-center gap-2 p-2.5 rounded-lg border border-zinc-200 cursor-pointer text-xs font-medium transition-all bg-white text-zinc-700 hover:border-zinc-300 has-[:checked]:border-zinc-900 has-[:checked]:bg-zinc-900 has-[:checked]:text-white">
+<input checked="" class="sr-only" name="tempOption" type="radio" value="iced">
+<svg class="cr-icon  text-[16px]" data-icon="ac_unit" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span>ICED (권장)</span>
+</label>
+<label class="flex items-center justify-center gap-2 p-2.5 rounded-lg border border-zinc-200 cursor-pointer text-xs font-medium transition-all bg-white text-zinc-700 hover:border-zinc-300 has-[:checked]:border-zinc-900 has-[:checked]:bg-zinc-900 has-[:checked]:text-white">
+<input class="sr-only" name="tempOption" type="radio" value="hot">
+<svg class="cr-icon  text-[16px]" data-icon="local_fire_department" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 3c-2 5-7 6-7 12a7 7 0 0 0 14 0c0-5-4-6-3-10-2 2-2 4-4 5 1-3 1-5 0-7Z">
+</path>
+</svg>
+<span>HOT (따뜻하게)</span>
+</label>
+</div>
+</div>
+<!-- 2. Coffee Beans -->
+<div class="flex flex-col gap-1.5">
+<label class="text-xs font-semibold text-primary flex items-center justify-between">
+<span>원두 셀렉션 (Bean Blend)</span>
+<span class="text-zinc-400 text-[11px]">기본 포함</span>
+</label>
+<div class="space-y-1.5">
+<label class="flex items-start justify-between p-3 rounded-lg border border-zinc-200 cursor-pointer transition-all bg-white has-[:checked]:border-zinc-900 has-[:checked]:bg-zinc-50/50">
+<div class="flex items-start gap-2.5">
+<input checked="" class="mt-0.5 accent-zinc-900" name="beanOption" type="radio" value="classic">
+<div>
+<span class="text-xs font-semibold text-primary block">시그니처 다크 아틀리에 블렌드</span>
+<span class="text-[11px] text-zinc-500 block mt-0.5">카카오 &amp; 구운 견과류의 묵직한 바디감 (기본)</span>
+</div>
+</div>
+<span class="text-xs text-zinc-400 font-medium">+0원</span>
+</label>
+<label class="flex items-start justify-between p-3 rounded-lg border border-zinc-200 cursor-pointer transition-all bg-white has-[:checked]:border-zinc-900 has-[:checked]:bg-zinc-50/50">
+<div class="flex items-start gap-2.5">
+<input class="mt-0.5 accent-zinc-900" name="beanOption" type="radio" value="decaf">
+<div>
+<span class="text-xs font-semibold text-primary block">스위스 워터 디카페인 블렌드</span>
+<span class="text-[11px] text-zinc-500 block mt-0.5">화학물질 없이 카페인 99.9% 제거, 편안한 풍미</span>
+</div>
+</div>
+<span class="text-xs text-bronze-accent font-semibold">+500원</span>
+</label>
+</div>
+</div>
+<!-- 3. Milk Base -->
+<div class="flex flex-col gap-1.5">
+<label class="text-xs font-semibold text-primary">우유 베이스 (Milk Base)</label>
+<div class="grid grid-cols-3 gap-2">
+<label class="flex flex-col items-center justify-center p-2 rounded-lg border border-zinc-200 cursor-pointer text-center bg-white text-zinc-700 transition-all hover:border-zinc-300 has-[:checked]:border-zinc-900 has-[:checked]:bg-zinc-900 has-[:checked]:text-white">
+<input checked="" class="sr-only" name="milkOption" type="radio" value="whole">
+<span class="text-xs font-medium">매일 1A 전유</span>
+<span class="text-[10px] opacity-70 mt-0.5">+0원</span>
+</label>
+<label class="flex flex-col items-center justify-center p-2 rounded-lg border border-zinc-200 cursor-pointer text-center bg-white text-zinc-700 transition-all hover:border-zinc-300 has-[:checked]:border-zinc-900 has-[:checked]:bg-zinc-900 has-[:checked]:text-white">
+<input class="sr-only" name="milkOption" type="radio" value="oat">
+<span class="text-xs font-medium">오틀리 귀리유</span>
+<span class="text-[10px] opacity-70 mt-0.5">+600원</span>
+</label>
+<label class="flex flex-col items-center justify-center p-2 rounded-lg border border-zinc-200 cursor-pointer text-center bg-white text-zinc-700 transition-all hover:border-zinc-300 has-[:checked]:border-zinc-900 has-[:checked]:bg-zinc-900 has-[:checked]:text-white">
+<input class="sr-only" name="milkOption" type="radio" value="lactose_free">
+<span class="text-xs font-medium">락토프리</span>
+<span class="text-[10px] opacity-70 mt-0.5">+400원</span>
+</label>
+</div>
+</div>
+<!-- 4. Shots & Sweetness -->
+<div class="grid grid-cols-2 gap-2">
+<div class="flex flex-col gap-1">
+<label class="text-[11px] font-semibold text-zinc-700">에스프레소 샷</label>
+<select class="w-full bg-zinc-50 border border-zinc-200 text-zinc-800 text-xs rounded-lg px-2.5 py-2 focus:border-zinc-900 focus:outline-none" id="shotSelect" name="shots">
+<option value="0">기본 (2샷) +0원</option>
+<option value="1">1샷 추가 (3샷) +700원</option>
+<option value="-1">연하게 (1샷) +0원</option>
+</select>
+</div>
+<div class="flex flex-col gap-1">
+<label class="text-[11px] font-semibold text-zinc-700">캐러멜 당도</label>
+<select class="w-full bg-zinc-50 border border-zinc-200 text-zinc-800 text-xs rounded-lg px-2.5 py-2 focus:border-zinc-900 focus:outline-none" name="sweetness" aria-label="캐러멜 당도">
+<option value="100">기본 (100%)</option>
+<option value="70">덜 달게 (70%)</option>
+<option value="120">더 달콤하게 (120%)</option>
+</select>
+</div>
+</div>
+<!-- 5. Service Type -->
+<div class="flex flex-col gap-1.5">
+<label class="text-xs font-semibold text-primary">이용 형태 (Service Mode)</label>
+<div class="grid grid-cols-2 gap-2">
+<label class="flex items-center justify-center gap-1.5 p-2 rounded-lg border border-zinc-200 cursor-pointer text-center text-xs font-medium text-zinc-700 bg-white transition-all hover:border-zinc-300 has-[:checked]:border-zinc-900 has-[:checked]:bg-zinc-100 has-[:checked]:text-zinc-900">
+<input checked="" class="sr-only" name="dineOption" type="radio" value="dine_in">
+<svg class="cr-icon  text-[16px]" data-icon="local_cafe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 4h13v10a6 6 0 0 1-12 0V4ZM16 6h2a3 3 0 0 1 0 6h-2M2 21h18M6 1v1M11 1v1">
+</path>
+</svg>
+<span>매장 갤러리 잔</span>
+</label>
+<label class="flex items-center justify-center gap-1.5 p-2 rounded-lg border border-zinc-200 cursor-pointer text-center text-xs font-medium text-zinc-700 bg-white transition-all hover:border-zinc-300 has-[:checked]:border-zinc-900 has-[:checked]:bg-zinc-100 has-[:checked]:text-zinc-900">
+<input class="sr-only" name="dineOption" type="radio" value="takeout">
+<svg class="cr-icon  text-[16px]" data-icon="takeout_dining" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span>친환경 포장</span>
+</label>
+</div>
+</div>
+<!-- Nearby Store Banner -->
+<div class="flex items-center justify-between p-2.5 rounded-lg bg-zinc-50 border border-zinc-200/80 text-xs">
+<div class="flex items-center gap-2">
+<svg class="cr-icon  text-bronze-accent text-[18px]" data-icon="near_me" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 22 5 12a8 8 0 1 1 14 0ZM15 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
+</path>
+</svg>
+<div>
+<span class="font-medium text-primary block leading-none">성수 아틀리에점 (180m)</span>
+<span class="text-[11px] text-zinc-400 mt-0.5 block">현재 대기 약 7분 • 즉시 픽업</span>
+</div>
+</div>
+<button class="text-[11px] text-zinc-500 underline hover:text-primary" type="button" data-panel="store-choice">변경</button>
+</div>
+<!-- Action CTA -->
+<div class="flex flex-col gap-2 pt-1">
+<button class="w-full py-3.5 bg-zinc-900 text-white rounded-xl text-sm font-semibold flex items-center justify-center gap-2 hover:bg-black transition-all shadow-sm active:scale-[0.99]" id="btnQuickOrder" type="button" data-order="" data-item="caramel-pair">
+<svg class="cr-icon  text-[18px]" data-icon="electric_bolt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m13 2-9 12h7l-1 8 10-13h-7Z">
+</path>
+</svg>
+<span id="btnOrderText">가까운 매장으로 즉시 스마트 오더 (12,800원)</span>
+</button>
+<div class="grid grid-cols-2 gap-2">
+<button class="py-2.5 bg-white border border-zinc-200 text-zinc-800 rounded-xl text-xs font-medium flex items-center justify-center gap-1.5 hover:bg-zinc-50 transition-colors" type="button" data-order="" data-item="caramel-pair">
+<svg class="cr-icon  text-[16px]" data-icon="featured_seasonal_and_gifts" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 7h14l1 14H4ZM9 8V6a3 3 0 0 1 6 0v2">
+</path>
+</svg>
+<span>선물하기</span>
+</button>
+<button class="py-2.5 bg-white border border-zinc-200 text-zinc-800 rounded-xl text-xs font-medium flex items-center justify-center gap-1.5 hover:bg-zinc-50 transition-colors" id="btnCartToast" type="button" data-add="" data-item="caramel-pair">
+<svg class="cr-icon  text-[16px]" data-icon="shopping_bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 7h14l1 14H4ZM9 8V6a3 3 0 0 1 6 0v2">
+</path>
+</svg>
+<span>장바구니 담기</span>
+</button>
+</div>
+</div>
+</form>
+<!-- Safety & Stamp Micro Badges -->
+<div class="flex items-center justify-center gap-3 text-zinc-400 text-[11px] pt-1 border-t border-zinc-100">
+<span class="flex items-center gap-1">
+<svg class="cr-icon  text-[14px]" data-icon="bolt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m13 2-9 12h7l-1 8 10-13h-7Z">
+</path>
+</svg> 모바일 스탬프 2개 적립</span>
+<span>•</span>
+<span class="flex items-center gap-1">
+<svg class="cr-icon  text-[14px]" data-icon="lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 10h14v11H5ZM8 10V6a4 4 0 0 1 8 0v4">
+</path>
+</svg> 안전 결제 보장</span>
+</div>
+</div>
+<!-- Quality Assurance Notice -->
+<div class="p-4 rounded-xl bg-white border border-zinc-200/80 text-zinc-600 flex items-start gap-3 shadow-sm text-xs">
+<svg class="cr-icon  text-bronze-accent text-[18px] mt-0.5" data-icon="verified_user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<div class="flex flex-col gap-0.5 leading-relaxed">
+<span class="font-semibold text-primary">C&amp;R 신선도 &amp; 온도 보증제</span>
+<span>주문 즉시 에스프레소를 추출하며, 피낭시에는 오븐 리히팅을 거쳐 최상의 크러스트 컨디션으로 제공됩니다.</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Real Photo Reviews Feed Section -->
+<div class="mt-16 pt-12 border-t border-zinc-200/80 flex flex-col gap-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div>
+<span class="text-[10px] font-semibold text-bronze-accent uppercase tracking-widest">Verified Guest Journal</span>
+<h2 class="text-2xl font-bold tracking-tight text-primary mt-1">고객들의 리얼 테이스팅 피드</h2>
+</div>
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-1 bg-white border border-zinc-200 px-3 py-1.5 rounded-full shadow-sm text-xs">
+<svg class="cr-icon  text-amber-500 text-[18px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<span class="font-bold text-zinc-900 text-sm">4.9</span>
+<span class="text-zinc-400">/ 5.0</span>
+</div>
+<button class="px-3.5 py-1.5 bg-zinc-900 text-white rounded-lg text-xs font-medium hover:bg-black transition-colors" type="button" data-panel="review">리뷰 작성하기</button>
+</div>
+</div>
+<!-- Filter Pills -->
+<div class="flex flex-wrap gap-2 text-xs">
+<button class="px-3 py-1.5 rounded-full bg-zinc-900 text-white font-medium" type="button" data-review-filter="0">전체 리뷰 (840)</button>
+<button class="px-3 py-1.5 rounded-full bg-white border border-zinc-200 text-zinc-600 hover:border-zinc-300 font-medium" type="button" data-review-filter="1">포토 리뷰 (512)</button>
+<button class="px-3 py-1.5 rounded-full bg-white border border-zinc-200 text-zinc-600 hover:border-zinc-300 font-medium" type="button" data-review-filter="2">페어링 만족도 최고 (428)</button>
+<button class="px-3 py-1.5 rounded-full bg-white border border-zinc-200 text-zinc-600 hover:border-zinc-300 font-medium" type="button" data-review-filter="3">오트밀크 변경 후기 (94)</button>
+</div>
+<!-- Review 3 Columns Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+<!-- Review Card 1 -->
+<div class="p-4 rounded-xl bg-white border border-zinc-200/80 shadow-sm flex flex-col justify-between gap-4">
+<div class="flex flex-col gap-2.5">
+<div class="h-44 rounded-lg overflow-hidden relative bg-zinc-100">
+<img class="w-full h-full object-cover" src="images/craft-roast-review-latte.jpg" alt="커피와 디저트 페어링 · review-latte" loading="lazy" decoding="async">
+<span class="absolute bottom-2 right-2 px-2 py-0.5 bg-black/70 text-white text-[10px] rounded backdrop-blur">성수 아틀리에점</span>
+</div>
+<div class="flex items-center justify-between pt-0.5 text-xs">
+<div class="flex text-amber-500">
+<svg class="cr-icon  text-[15px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="cr-icon  text-[15px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="cr-icon  text-[15px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="cr-icon  text-[15px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="cr-icon  text-[15px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+</div>
+<span class="text-zinc-400 text-[11px]">2일 전</span>
+</div>
+<h5 class="text-sm font-semibold text-primary">인생 솔티드 캐러멜 라떼를 만났습니다</h5>
+<p class="text-xs text-zinc-600 leading-relaxed">
+                  너무 달기만 한 프랜차이즈 캐러멜 라떼랑 격이 달라요. 게랑드 소금의 짭조름한 킥이 발로나의 깊은 풍미를 제대로 끌어올려 줍니다. 피낭시에 바삭함은 진짜 프랑스 현지 수준!
+                </p>
+</div>
+<div class="flex items-center justify-between pt-2 border-t border-zinc-100 text-xs">
+<div class="flex items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-zinc-100 border border-zinc-200 flex items-center justify-center text-[10px] font-bold text-zinc-700">민</div>
+<span class="font-medium text-primary">김*민 님</span>
+</div>
+<span class="text-[11px] text-zinc-400">오트밀크 변경</span>
+</div>
+</div>
+<!-- Review Card 2 -->
+<div class="p-4 rounded-xl bg-white border border-zinc-200/80 shadow-sm flex flex-col justify-between gap-4">
+<div class="flex flex-col gap-2.5">
+<div class="h-44 rounded-lg overflow-hidden relative bg-zinc-100">
+<img class="w-full h-full object-cover" src="images/craft-roast-review-financier.jpg" alt="커피와 디저트 페어링 · review-financier" loading="lazy" decoding="async">
+<span class="absolute bottom-2 right-2 px-2 py-0.5 bg-black/70 text-white text-[10px] rounded backdrop-blur">한남 쇼룸점</span>
+</div>
+<div class="flex items-center justify-between pt-0.5 text-xs">
+<div class="flex text-amber-500">
+<svg class="cr-icon  text-[15px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="cr-icon  text-[15px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="cr-icon  text-[15px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="cr-icon  text-[15px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="cr-icon  text-[15px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+</div>
+<span class="text-zinc-400 text-[11px]">4일 전</span>
+</div>
+<h5 class="text-sm font-semibold text-primary">페어링 세트로 꼭 드세요. 무조건입니다.</h5>
+<p class="text-xs text-zinc-600 leading-relaxed">
+                  단품으로 마실 때보다 피낭시에 한 입 먹고 라떼 마실 때 피스타치오의 고소함과 커피 바디감이 겹치면서 폭발적인 맛이 납니다. 재구매 의사 200%.
+                </p>
+</div>
+<div class="flex items-center justify-between pt-2 border-t border-zinc-100 text-xs">
+<div class="flex items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-zinc-100 border border-zinc-200 flex items-center justify-center text-[10px] font-bold text-zinc-700">준</div>
+<span class="font-medium text-primary">박*준 님</span>
+</div>
+<span class="text-[11px] text-zinc-400">ICED / 기본</span>
+</div>
+</div>
+<!-- Review Card 3 -->
+<div class="p-4 rounded-xl bg-white border border-zinc-200/80 shadow-sm flex flex-col justify-between gap-4">
+<div class="flex flex-col gap-2.5">
+<div class="h-44 rounded-lg overflow-hidden relative bg-zinc-100">
+<img class="w-full h-full object-cover" src="images/craft-roast-review-takeaway.jpg" alt="커피와 디저트 페어링 · review-takeaway" loading="lazy" decoding="async">
+<span class="absolute bottom-2 right-2 px-2 py-0.5 bg-black/70 text-white text-[10px] rounded backdrop-blur">도산 플래그십</span>
+</div>
+<div class="flex items-center justify-between pt-0.5 text-xs">
+<div class="flex text-amber-500">
+<svg class="cr-icon  text-[15px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="cr-icon  text-[15px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="cr-icon  text-[15px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="cr-icon  text-[15px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<svg class="cr-icon  text-[15px]" data-icon="star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+</div>
+<span class="text-zinc-400 text-[11px]">1주일 전</span>
+</div>
+<h5 class="text-sm font-semibold text-primary">디카페인으로 마셔도 완벽한 밸런스</h5>
+<p class="text-xs text-zinc-600 leading-relaxed">
+                  오후 4시에 디카페인으로 주문했는데, 원두 풍미 손실 없이 묵직하고 고소해서 놀랐습니다. 피낭시에는 겉면 바삭함이 포장해와도 살아있어서 감탄했어요.
+                </p>
+</div>
+<div class="flex items-center justify-between pt-2 border-t border-zinc-100 text-xs">
+<div class="flex items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-zinc-100 border border-zinc-200 flex items-center justify-center text-[10px] font-bold text-zinc-700">서</div>
+<span class="font-medium text-primary">최*서 님</span>
+</div>
+<span class="text-[11px] text-zinc-400">디카페인 변경</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Interactive Logic for Pricing Calculation -->
+
+<!-- Clean Minimal Footer -->
+<footer class="w-full bg-white border-t border-zinc-200 mt-20">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 py-14">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-10 border-b border-zinc-100">
+<div class="lg:col-span-5 flex flex-col gap-3">
+<div class="flex items-center gap-2">
+<span class="font-display font-semibold text-lg text-primary">CRAFT &amp; ROAST</span>
+<span class="text-[10px] text-bronze-accent bg-bronze-light px-2 py-0.5 rounded-full font-medium">ROASTERY &amp; ATELIER</span>
+</div>
+<p class="text-xs text-zinc-500 max-w-sm leading-relaxed">
+            원두와 시간, 정직한 추출이 빚어내는 온전한 미식 경험. 엄선된 떼루아의 스페셜티 커피와 정통 파티세리 디저트 페어링을 제안합니다.
+          </p>
+<div class="flex items-center gap-1.5 mt-1 text-xs text-zinc-500">
+<svg class="cr-icon  text-bronze-accent text-[18px]" data-icon="verified" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span>Specialty Coffee &amp; Seasonal Patisserie Team</span>
+</div>
+</div>
+<div class="lg:col-span-2 flex flex-col gap-2 text-xs">
+<span class="font-semibold text-primary mb-1">브랜드 아카이브</span>
+<a class="text-zinc-500 hover:text-primary transition-colors" data-path="brand-journal" href="index.html#pairing-guide">로스터리 저널</a>
+<a class="text-zinc-500 hover:text-primary transition-colors" data-path="spaces-and-stores" href="craft-roast-stores.html#store-locator">아틀리에 쇼룸</a>
+<a class="text-zinc-500 hover:text-primary transition-colors" data-path="franchise-and-partnership" href="craft-roast-stores.html#franchise-inquiry">B2B 원두 납품 &amp; 제휴</a>
+<a class="text-zinc-500 hover:text-primary transition-colors" data-path="sustainability" href="craft-roast-stores.html">지속 가능 파트너십</a>
+</div>
+<div class="lg:col-span-2 flex flex-col gap-2 text-xs">
+<span class="font-semibold text-primary mb-1">고객 경험 센터</span>
+<span class="text-sm font-bold text-primary">고객 문의 안내</span>
+<span class="text-zinc-500">평일 09:30 - 18:00 (주말 휴무)</span>
+<a class="text-bronze-accent hover:underline mt-0.5" href="mailto:hello@craft-roast.example.com">hello@craft-roast.example.com</a>
+</div>
+<div class="lg:col-span-3 flex flex-col gap-2.5 text-xs">
+<span class="font-semibold text-primary">뉴스레터 구독</span>
+<p class="text-zinc-500 leading-relaxed">매월 새로운 싱글 오리진 수확 소식과 계절 디저트 페어링 가이드를 보내드립니다.</p>
+<form class="flex items-center gap-2 mt-1" data-local-form="newsletter">
+<input class="flex-1 px-3 py-2 bg-zinc-50 border border-zinc-200 rounded-lg text-xs text-primary placeholder:text-zinc-400 focus:outline-none focus:border-zinc-900" placeholder="이메일 주소" type="email" name="email" required="" aria-label="소식 받을 이메일">
+<button class="px-3.5 py-2 bg-zinc-900 text-white rounded-lg text-xs font-medium hover:bg-black transition-colors" type="submit">구독</button>
+</form>
+</div>
+</div>
+<div class="pt-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-xs text-zinc-400">
+<div class="flex flex-wrap items-center gap-x-4 gap-y-1">
+<span class="font-medium text-zinc-600">(주)크래프트앤로스트</span>
+<span>대표: 한서진</span>
+<span>사업자번호: 예시 사업자 정보</span>
+<span>통신판매업신고: 제2024-서울성수-1108호</span>
+<span>서울시 성동구 연무장길 74</span>
+</div>
+<div class="flex items-center gap-4">
+<a class="hover:text-primary transition-colors" href="#information" data-panel="information">이용약관</a>
+<a class="hover:text-primary transition-colors font-medium text-zinc-600" href="#information" data-panel="information">개인정보처리방침</a>
+<a class="hover:text-primary transition-colors" href="#information" data-panel="information">원산지 정보</a>
+</div>
+</div>
+<div class="mt-4 text-left md:text-center text-[11px] text-zinc-400">
+        © 2026 CRAFT &amp; ROAST Artisanal Roastery Atelier. All Rights Reserved.
+      </div>
+</div>
+<p class="cr-demo-note">CRAFT &amp; ROAST는 가상의 카페 브랜드입니다. 상품·매장·평가는 예시이며 주문과 상담은 체험용입니다. 입력한 연락처는 저장하거나 전송하지 않습니다.</p>
+</footer>
+<dialog id="craft-dialog" aria-labelledby="craft-dialog-title">
+<div class="cr-dialog-head">
+<h2 id="craft-dialog-title">
+</h2>
+<button type="button" data-close="" aria-label="닫기">
+<svg class="cr-icon" data-icon="close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 6 12 12M6 18 18 6">
+</path>
+</svg>
+</button>
+</div>
+<div id="craft-dialog-body">
+</div>
+</dialog>
+<div id="craft-status" role="status" hidden="">
+</div>
+</body>
+</html>
