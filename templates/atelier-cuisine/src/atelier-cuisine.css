@@ -3223,6 +3223,12 @@ input:where([type='file']):focus {
 .ac-card-copy h3 {font:400 20px/1.6 var(--font-serif);margin:12px 0;color:rgb(var(--primary));}
 .ac-card-copy p {font-size:12px;color:rgb(var(--outline));line-height:1.8;margin-top:8px;}
 .ac-card-copy strong {font-size:17px;font-weight:500;display:block;margin-top:16px;}
+.ac-recipe-card {display:flex;flex-direction:column;}
+.ac-recipe-card > a {flex:1;}
+.ac-card-footer {display:flex;align-items:center;justify-content:flex-end;padding:14px 22px;border-top:1px solid rgb(var(--outline-variant)/.25);}
+.ac-card-footer .ac-save {justify-content:center;min-height:44px;margin:0;padding:10px 16px;border-radius:999px;background:rgb(var(--linen-tint));white-space:nowrap;transition:background .2s,border-color .2s;}
+.ac-card-footer .ac-save:hover {border-color:rgb(var(--primary));}
+.ac-card-footer .ac-save[aria-pressed="true"] {background:rgb(var(--primary-fixed));border-color:rgb(var(--primary));}
 .ac-card>.ac-text-button {margin:0 22px 22px;}
 .ac-two-column {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px;align-items:start;}
 .ac-prose {font-size:15px;line-height:2;color:rgb(var(--on-surface-variant));}
@@ -3306,3 +3312,8 @@ html{scroll-behavior:smooth;scroll-padding-top:180px}body{font-family:var(--font
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 .ac-header form[data-search]:not(.ac-mobile-search){flex:1;min-width:0;max-width:520px}.ac-header form[data-search]:not(.ac-mobile-search)>div{width:100%;max-width:none}main{padding-top:calc(var(--atelier-header-height,180px) + 24px)!important}main .grid>*{min-width:0}main .flex>*{min-width:0}@media(max-width:767px){main .whitespace-nowrap{white-space:normal}main button{max-width:100%}main .inline-flex{flex-wrap:wrap}.ac-header form[data-search]:not(.ac-mobile-search){display:none}}
 main .text-ellipsis{max-width:100%}
+#atelier-navigation > .ac-nav-link {position:relative;padding:4px 0;color:rgb(var(--on-surface-variant));font-size:14px;font-weight:500;line-height:1.8;letter-spacing:.02em;text-decoration:none;}
+#atelier-navigation > .ac-nav-link::after {content:"";position:absolute;left:0;bottom:0;width:100%;height:2px;background:rgb(var(--primary));transform:scaleX(0);transform-origin:left;transition:transform .2s;}
+#atelier-navigation > .ac-nav-link:hover {color:rgb(var(--primary));}
+#atelier-navigation > .ac-nav-link[aria-current="page"] {color:rgb(var(--primary));font-weight:700;}
+#atelier-navigation > .ac-nav-link[aria-current="page"]::after {transform:scaleX(1);}

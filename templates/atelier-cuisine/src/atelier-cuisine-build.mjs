@@ -16,10 +16,14 @@ export async function buildAtelierCuisine(){
   const pages=new Map();
   const intro=(title,desc,label='ATELIER EDITORIAL')=>`<header class="ac-intro"><p class="eyebrow">${esc(label)}</p><h1>${esc(title)}</h1><p>${esc(desc)}</p></header>`;
   const section=(title,body,label='ATELIER CUISINE')=>`<section class="ac-section"><p class="eyebrow">${label}</p><h2>${esc(title)}</h2>${body}</section>`;
+  function activeNavigation(html,file){
+    const active=file==='index.html'||/^atelier-recipe(?:s|-.+)\.html$/.test(file)?'recipes':/^atelier-world(?:-.+)?\.html$/.test(file)?'world-archive':file==='atelier-monthly.html'?'monthly-cuisine':/^atelier-(?:market|product-.+|cart|checkout)\.html$/.test(file)?'market':/^atelier-(?:chefs|chef-.+|class-.+|enroll)\.html$/.test(file)?'chef-collection':null;
+    return html.replace(/<nav\b[^>]*\bid="atelier-navigation"[^>]*>[\s\S]*?<\/nav>/,nav=>nav.replace(/<a\b([^>]*data-path="([^"]+)"[^>]*)>/g,(_,attrs,key)=>`<a${attrs.replace(/\saria-current="[^"]*"/g,'').replace(/class="[^"]*"/,'class="ac-nav-link"')}${key===active?' aria-current="page"':''}>`));
+  }
   function page(file,title,desc,body,attrs=''){
     pages.set(file,`<!doctype html><html lang="ko">${head.replace(/<title>[\s\S]*?<\/title>/,`<title>${esc(title)} | ATELIER CUISINE</title>`)}<body data-page="support" ${attrs}><a class="ac-skip" href="#main">본문 바로가기</a>${header}<main id="main" class="ac-main"><div class="ac-wrap"><nav class="ac-crumbs" aria-label="현재 위치"><a href="index.html">홈</a><span>/</span><a href="atelier-recipes.html">아틀리에 아카이브</a><span>/</span><span>${esc(title)}</span></nav>${body}</div></main>${footer}${dialog}<div id="atelier-status" role="status" hidden></div></body></html>`);
   }
-  const recipeCard=r=>`<article class="ac-card" data-catalog-card data-cuisine="${r.cuisine}" data-search="${esc(r.title+' '+data.worlds.find(w=>w.id===r.cuisine).title+' '+data.chefs.find(c=>c.id===r.chefId).name+' '+r.ingredients.map(x=>x.name).join(' '))}" data-price="${r.minutes}"><a href="${r.url}"><img src="${r.image}" alt="${esc(r.title)}" loading="lazy"><div class="ac-card-copy"><p class="eyebrow">${esc(data.worlds.find(w=>w.id===r.cuisine).title)} · ${r.minutes}분</p><h3>${esc(r.title)}</h3><p>${esc(r.intro)}</p></div></a><button class="ac-save" type="button" data-save="recipe:${r.id}" aria-pressed="false">◇ 스크랩</button></article>`;
+  const recipeCard=r=>`<article class="ac-card ac-recipe-card" data-catalog-card data-cuisine="${r.cuisine}" data-search="${esc(r.title+' '+data.worlds.find(w=>w.id===r.cuisine).title+' '+data.chefs.find(c=>c.id===r.chefId).name+' '+r.ingredients.map(x=>x.name).join(' '))}" data-price="${r.minutes}"><a href="${r.url}"><img src="${r.image}" alt="${esc(r.title)}" loading="lazy"><div class="ac-card-copy"><p class="eyebrow">${esc(data.worlds.find(w=>w.id===r.cuisine).title)} · ${r.minutes}분</p><h3>${esc(r.title)}</h3><p>${esc(r.intro)}</p></div></a><div class="ac-card-footer"><button class="ac-save" type="button" data-save="recipe:${r.id}" aria-pressed="false"><svg class="ac-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4Z"></path></svg><span data-save-label>스크랩</span></button></div></article>`;
   const productCard=p=>`<article class="ac-card" data-catalog-card data-category="${p.category}" data-search="${esc(p.name+' '+p.intro)}" data-price="${p.price}"><a href="${p.url}"><img src="${p.image}" alt="${esc(p.name)}" loading="lazy"><div class="ac-card-copy"><p class="eyebrow">EDITOR SELECT MARKET</p><h3>${esc(p.name)}</h3><p>${esc(p.intro)}</p><strong>${money(p.price)}</strong></div></a><button class="ac-text-button" type="button" data-add-product="${p.id}">장바구니 담기 +</button></article>`;
   const grid=(items,render)=>`<div class="ac-grid">${items.map(render).join('')}</div>`;
   const recipeGrid=ids=>grid(ids.map(recipe).filter(Boolean),recipeCard);
@@ -61,8 +65,8 @@ export async function buildAtelierCuisine(){
   for(const[id,title,desc]of policies)page(`atelier-${id}.html`,title,desc,`${intro(title,'아틀리에 퀴진의 이용 안내.','ATELIER INFORMATION')}<article class="ac-policy">${section(title,`<p>${esc(desc)}</p>`)}${button('index.html','홈으로 돌아가기',true)}</article>`);
   let synced=home.replace(/<title>[\s\S]*?<\/title>/,'<title>ATELIER CUISINE 아틀리에 퀴진 | 세계의 요리와 테이블</title>');
   synced=synced.replace(/href="atelier-recipes.html" data-path="recipes"/, 'href="index.html" data-path="recipes"');
-  await writeFile(path.join(src,'index.html'),synced);
-  for(const[file,html]of pages)await writeFile(path.join(src,file),html.replace(/></g,'>\n<').split('\n').map(l=>l.trimEnd()).join('\n').trimEnd()+'\n');
+  await writeFile(path.join(src,'index.html'),activeNavigation(synced,'index.html'));
+  for(const[file,html]of pages)await writeFile(path.join(src,file),activeNavigation(html,file).replace(/></g,'>\n<').split('\n').map(l=>l.trimEnd()).join('\n').trimEnd()+'\n');
   await writeFile(path.join(src,'atelier-routes.json'),JSON.stringify([...pages.keys()],null,2)+'\n');
   console.log(`아틀리에 퀴진 상세·탐색·신청 화면 ${pages.size}개 생성`);
 }

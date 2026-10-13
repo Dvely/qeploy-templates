@@ -63,11 +63,11 @@
 <input type="search" name="q" aria-label="레시피와 식재료 검색" placeholder="레시피, 식재료, 셰프 검색">
 <button type="submit">검색</button>
 </form>
-<a aria-current="page" class="transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-primary after:transition-all text-primary font-bold after:w-full" data-path="recipes" href="atelier-recipes.html">전체 레시피</a>
-<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="world-archive" href="atelier-world.html">세계 요리 아카이브</a>
-<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="monthly-cuisine" href="atelier-monthly.html">이달의 퀴진</a>
-<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="market" href="atelier-market.html">키친 &amp; 식재료 마켓</a>
-<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="chef-collection" href="atelier-chefs.html">셰프 컬렉션</a>
+<a class="ac-nav-link" data-path="recipes" href="atelier-recipes.html" aria-current="page">전체 레시피</a>
+<a class="ac-nav-link" data-path="world-archive" href="atelier-world.html">세계 요리 아카이브</a>
+<a class="ac-nav-link" data-path="monthly-cuisine" href="atelier-monthly.html">이달의 퀴진</a>
+<a class="ac-nav-link" data-path="market" href="atelier-market.html">키친 &amp; 식재료 마켓</a>
+<a class="ac-nav-link" data-path="chef-collection" href="atelier-chefs.html">셰프 컬렉션</a>
 </nav>
 </div>
 </div>
@@ -274,7 +274,7 @@
 <p class="eyebrow">ATELIER CUISINE</p>
 <h2>이 레시피도 살펴보세요</h2>
 <div class="ac-grid">
-<article class="ac-card" data-catalog-card data-cuisine="french" data-search="허브 향을 품은 프렌치 덕 콩피 프렌치 클래식 로렌 바우어 오리 다리 감자 허브 마늘" data-price="90">
+<article class="ac-card ac-recipe-card" data-catalog-card data-cuisine="french" data-search="허브 향을 품은 프렌치 덕 콩피 프렌치 클래식 로렌 바우어 오리 다리 감자 허브 마늘" data-price="90">
 <a href="atelier-recipe-confit.html">
 <img src="images/atelier-confit.jpg" alt="허브 향을 품은 프렌치 덕 콩피" loading="lazy">
 <div class="ac-card-copy">
@@ -283,9 +283,17 @@
 <p>허브 향을 품은 프렌치 덕 콩피을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
 </div>
 </a>
-<button class="ac-save" type="button" data-save="recipe:confit" aria-pressed="false">◇ 스크랩</button>
+<div class="ac-card-footer">
+<button class="ac-save" type="button" data-save="recipe:confit" aria-pressed="false">
+<svg class="ac-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg>
+<span data-save-label>스크랩</span>
+</button>
+</div>
 </article>
-<article class="ac-card" data-catalog-card data-cuisine="french" data-search="계절 채소의 프렌치 라타투이 프렌치 클래식 로렌 바우어 주키니 가지 토마토 올리브오일" data-price="50">
+<article class="ac-card ac-recipe-card" data-catalog-card data-cuisine="french" data-search="계절 채소의 프렌치 라타투이 프렌치 클래식 로렌 바우어 주키니 가지 토마토 올리브오일" data-price="50">
 <a href="atelier-recipe-ratatouille.html">
 <img src="images/atelier-ratatouille.jpg" alt="계절 채소의 프렌치 라타투이" loading="lazy">
 <div class="ac-card-copy">
@@ -294,7 +302,15 @@
 <p>계절 채소의 프렌치 라타투이을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
 </div>
 </a>
-<button class="ac-save" type="button" data-save="recipe:ratatouille" aria-pressed="false">◇ 스크랩</button>
+<div class="ac-card-footer">
+<button class="ac-save" type="button" data-save="recipe:ratatouille" aria-pressed="false">
+<svg class="ac-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg>
+<span data-save-label>스크랩</span>
+</button>
+</div>
 </article>
 </div>
 </section>
