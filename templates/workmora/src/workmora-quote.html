@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="공간·가구 상담 요청 · 팀의 일하는 방식에 맞는 가구와 공간을 만나는 WORKMORA 오피스 룩북.">
+<meta name="theme-color" content="#265266">
+<title>공간·가구 상담 요청 | 워크모라</title>
+<link rel="stylesheet" href="workmora.css">
+<link rel="stylesheet" href="workmora-mobile.css">
+<script src="workmora-data.js" defer>
+</script>
+<script src="workmora.js" defer>
+</script>
+</head>
+<body data-page="quote" >
+<a class="skip-link" href="#main">본문으로 건너뛰기</a>
+<header class="site-header">
+<div class="header-inner">
+<a href="index.html" class="wordmark" aria-label="워크모라 홈">WORKMORA<span>OFFICE LOOKBOOK</span>
+</a>
+<nav class="desktop-nav" aria-label="주 메뉴">
+<a href="workmora-why.html" data-nav="why">Why WORKMORA?</a>
+<a href="workmora-collection.html" data-nav="collection">납품사례</a>
+<a href="workmora-tailoring.html" data-nav="tailoring">맞춤견적</a>
+<a href="workmora-review.html" data-nav="review">이용후기</a>
+</nav>
+<div class="header-actions">
+<a class="store-link" href="workmora-contact.html">전국매장위치 <span>↗</span>
+</a>
+<button type="button" class="menu-toggle" aria-label="전체 메뉴 열기" aria-expanded="false" aria-controls="mobile-menu">
+<span>
+</span>
+<span>
+</span>
+</button>
+</div>
+</div>
+</header>
+<div class="mobile-menu" id="mobile-menu" hidden>
+<nav aria-label="전체 메뉴">
+<a href="workmora-why.html">Why WORKMORA?</a>
+<a href="workmora-collection.html">납품사례</a>
+<a href="workmora-tailoring.html">맞춤견적</a>
+<a href="workmora-review.html">이용후기</a>
+<a href="workmora-contact.html">전국매장위치</a>
+<a href="workmora-quote.html">견적 문의하기</a>
+</nav>
+<p>일의 리듬을 만드는 가구.</p>
+</div>
+<main id="main">
+<section class="page-intro container">
+<p class="eyebrow">MAKE YOUR NEXT WORKPLACE</p>
+<h1>우리 팀의 다음 공간을<br>함께 그려볼까요?</h1>
+<p class="intro-description">가구 구성과 필요한 공간을 정리해 상담 내용을 확인해 보세요.</p>
+</section>
+<section class="container section compact quote-layout">
+<div>
+<section class="quote-selection">
+<h2>상담할 가구</h2>
+<div id="quote-items">
+</div>
+<a class="text-button" href="workmora-collection.html">가구 추가하기 ＋</a>
+</section>
+<form id="quote-form">
+<h2>팀과 공간에 대해 알려주세요.</h2>
+<div class="form-grid">
+<label>팀·회사명 <input name="company" required maxlength="80" placeholder="팀 또는 회사 이름">
+</label>
+<label>담당자 이름 <input name="name" required autocomplete="name" maxlength="40" placeholder="이름">
+</label>
+<label>이메일 <input name="email" type="email" required autocomplete="email" placeholder="name@example.com">
+</label>
+<label>연락처 <input name="phone" type="tel" required autocomplete="tel" maxlength="24" placeholder="연락받을 번호">
+</label>
+<label>인원 <select name="people" required>
+<option value="">인원을 선택하세요</option>
+<option>1~10인</option>
+<option>10~30인</option>
+<option>30~50인</option>
+<option>50인이상</option>
+</select>
+</label>
+<label>필요예산 <select name="budget" required>
+<option value="">예산을 선택하세요</option>
+<option>1천만원 이하</option>
+<option>1~2천만원</option>
+<option>2~3천만원</option>
+<option>3천만원 이상</option>
+</select>
+</label>
+<label>세부공간 <select name="space" required>
+<option value="">공간을 선택하세요</option>
+<option>사무</option>
+<option>임원,서재</option>
+<option>공용,휴게</option>
+<option>회의실</option>
+<option>특수공간</option>
+</select>
+</label>
+<label>톤앤매너 <select name="tone" required>
+<option value="">분위기를 선택하세요</option>
+<option>베이직</option>
+<option>캐쥬얼</option>
+<option>디자인</option>
+<option>우드</option>
+</select>
+</label>
+<label>상담 방식 <select name="method">
+<option>온라인 상담</option>
+<option>쇼룸 방문</option>
+</select>
+</label>
+<label>희망 상담일 <input type="date" name="date" required>
+</label>
+<label class="full">공간에 관한 이야기 <textarea name="message" rows="4" maxlength="1200" placeholder="원하는 가구 구성과 공간의 크기, 일정 등을 알려주세요.">
+</textarea>
+</label>
+</div>
+<label class="consent">
+<input type="checkbox" name="consent" required>입력한 내용을 미리보기에서 확인하는 데 동의합니다.</label>
+<p class="form-note">실제 접수나 개인정보 저장 없이 상담 내용을 확인하는 화면입니다.</p>
+<button class="button primary" type="submit">상담 요청 내용 확인하기 <span>↗</span>
+</button>
+</form>
+<section id="quote-confirmation" class="quote-confirmation" hidden>
+</section>
+</div>
+<aside class="quote-aside">
+<p class="eyebrow">YOUR WORKPLACE PLAN</p>
+<h2>작은 디테일부터,<br>공간의 전체까지.</h2>
+<img src="images/workmora-meeting.png" alt="편안한 테이블과 좌석의 회의 공간">
+<ol>
+<li>
+<span>01</span> 우리 팀의 조건 정리</li>
+<li>
+<span>02</span> 어울리는 가구 구성 선택</li>
+<li>
+<span>03</span> 상담 요청 내용 확인</li>
+</ol>
+<p>가구를 고르는 기준이 아직 명확하지 않다면, 네 가지 질문부터 시작하세요.</p>
+<a class="text-button" href="workmora-tailoring.html">맞춤 공간 찾기 →</a>
+</aside>
+</section>
+</main>
+<section class="consult-banner container">
+<div>
+<p class="eyebrow">LET'S MAKE YOUR WORKPLACE</p>
+<h2>우리 팀에게 맞는 공간,<br>함께 찾아볼까요?</h2>
+</div>
+<a class="button light" href="workmora-quote.html">가구·공간 상담하기 <span>↗</span>
+</a>
+</section>
+<footer class="site-footer">
+<div class="footer-top container">
+<a class="wordmark" href="index.html">WORKMORA<span>OFFICE LOOKBOOK</span>
+</a>
+<div class="footer-links">
+<a href="workmora-collection.html">가구 컬렉션</a>
+<a href="workmora-tailoring.html">맞춤견적</a>
+<a href="workmora-contact.html">쇼룸 안내</a>
+</div>
+<a href="mailto:hello@example.com">hello@example.com</a>
+</div>
+<div class="footer-bottom container">
+<p>가상의 브랜드로 구성한 오피스 가구 룩북입니다.</p>
+<p>© 2026 WORKMORA. Your work, your space.</p>
+<button type="button" class="to-top" aria-label="맨 위로 이동">↑</button>
+</div>
+</footer>
+<a class="floating-quote" href="workmora-quote.html">견적문의 <span class="selection-count" hidden>0</span>
+</a>
+<dialog id="notice-dialog" aria-labelledby="notice-title">
+<div class="dialog-head">
+<h2 id="notice-title">안내</h2>
+<button type="button" data-dialog-close aria-label="닫기">×</button>
+</div>
+<div id="notice-content">
+</div>
+</dialog>
+<div id="toast" role="status" hidden>
+</div>
+</body>
+</html>
