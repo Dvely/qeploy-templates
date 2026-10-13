@@ -14,12 +14,12 @@
 <body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-container" data-page="home" data-id="">
 <a class="ac-skip" href="#main">본문 바로가기</a>
 <header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface/95 backdrop-blur-md shadow-[0_1px_8px_rgba(40,54,41,0.04)] ac-header">
-<div class="bg-primary-container text-surface px-margin-mobile md:px-margin text-center py-2 flex items-center justify-center gap-2">
+<div class="bg-primary-container text-surface px-margin-mobile md:px-margin text-center py-2 flex items-center justify-center gap-2 ac-announcement">
 <span class="font-label-caps text-label-caps uppercase tracking-widest text-on-primary-container">Global Editorial</span>
 <p class="font-body-sm text-body-sm text-surface font-medium truncate">전세계 미식 여행: 지중해부터 동남아 스트리트 푸드까지 마스터 레시피 공개</p>
 </div>
-<div class="h-20 max-w-7xl mx-auto px-margin-mobile md:px-gutter flex items-center justify-between gap-space-lg">
-<a class="flex flex-col group flex-shrink-0 text-decoration-none" data-path="recipes" href="index.html">
+<div class="h-20 max-w-7xl mx-auto px-margin-mobile md:px-gutter flex items-center justify-between gap-space-lg ac-brand-row">
+<a class="flex flex-col group flex-shrink-0 text-decoration-none ac-brand" data-path="recipes" href="index.html">
 <span class="font-headline-sm text-headline-sm tracking-tight text-primary font-bold group-hover:text-secondary transition-colors">ATELIER CUISINE</span>
 <span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase">아틀리에 퀴진 · 에디토리얼</span>
 </a>
@@ -32,7 +32,7 @@
 <input class="w-full pl-10 pr-4 py-2 bg-surface-container-low rounded-full text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:bg-porcelain-white focus:ring-1 focus:ring-primary-container transition-all" placeholder="어떤 요리를 찾으시나요? 식재료, 국가별 요리, 셰프 검색..." type="search" name="q" aria-label="레시피, 식재료, 셰프 검색">
 </div>
 </form>
-<div class="flex items-center gap-space-md">
+<div class="flex items-center gap-space-md ac-header-tools">
 <div class="hidden lg:flex items-center gap-space-sm font-label-md text-label-md text-on-surface-variant">
 <a class="hover:text-primary transition-colors py-1 px-2" data-path="login" href="atelier-login.html">로그인/회원가입</a>
 <span class="text-outline-variant">·</span>
@@ -48,15 +48,21 @@
 </path>
 </svg>장바구니</a>
 </div>
-<a class="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0 shadow-sm" href="atelier-scrapbook.html" aria-label="나의 스크랩북">
-<svg class="ac-icon  text-on-primary text-[18px]" data-icon="person" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<path d="M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0M4 21v-3a8 8 0 0 1 16 0v3">
+<a class="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0 shadow-sm ac-account" href="atelier-scrapbook.html" aria-label="나의 스크랩북">
+<svg class="ac-icon  text-on-primary text-[18px]" data-icon="bookmark_border" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
 </path>
 </svg>
 </a>
+<button class="ac-mobile-menu" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="atelier-navigation">
+<svg class="ac-icon" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 6h18M3 12h18M3 18h18">
+</path>
+</svg>
+</button>
 </div>
 </div>
-<div class="bg-surface-container-low/70 backdrop-blur-sm">
+<div class="bg-surface-container-low/70 backdrop-blur-sm ac-nav-tier">
 <div class="max-w-7xl mx-auto px-margin-mobile md:px-gutter flex items-center justify-between overflow-x-auto no-scrollbar">
 <nav class="flex items-center gap-space-lg py-2.5 whitespace-nowrap" data-active-classes="text-primary font-bold after:w-full" id="atelier-navigation">
 <form class="ac-mobile-search" data-search="" role="search" action="atelier-search.html">
@@ -71,8 +77,8 @@
 </nav>
 </div>
 </div>
-<div class="bg-surface">
-<div class="max-w-7xl mx-auto px-margin-mobile md:px-gutter py-2 flex items-center gap-2 overflow-x-auto no-scrollbar">
+<div class="bg-surface ac-region-tier">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-gutter py-2 flex items-center gap-2 overflow-x-auto no-scrollbar ac-region-row">
 <span class="font-label-caps text-label-caps text-outline uppercase tracking-wider pl-1 pr-2 flex-shrink-0">Region</span>
 <div class="flex items-center gap-1.5 whitespace-nowrap">
 <button class="px-3 py-1 rounded-full bg-primary text-on-primary font-label-md text-label-md transition-all" type="button" data-go="atelier-recipes.html">전체</button>
@@ -86,19 +92,14 @@
 </div>
 </div>
 </div>
-<button class="ac-mobile-menu" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="atelier-navigation">
-<svg class="ac-icon" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<path d="M3 6h18M3 12h18M3 18h18">
-</path>
-</svg>
-</button>
+
 </header>
 <main class="w-full pt-44 bg-surface min-h-screen" id="main">
 <div class="flex flex-col w-full">
 <!-- LIVE TICKER & GLOBAL CULINARY PULSE -->
 <section class="w-full bg-surface-container-low px-margin-mobile md:px-gutter py-3" id="home-filters">
-<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3">
-<div class="flex items-center gap-2.5">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 ac-pulse">
+<div class="flex items-center gap-2.5 ac-pulse-summary">
 <span class="flex h-2.5 w-2.5 relative">
 <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-on-tertiary-container opacity-75">
 </span>
@@ -108,7 +109,7 @@
 <span class="font-label-caps text-label-caps text-primary tracking-wider uppercase font-bold">Live Atelier Pulse</span>
 <span class="font-body-sm text-body-sm text-on-surface-variant font-medium">지금 이 순간, <span class="text-primary font-bold">1,480명</span>의 퀴진 애호가들이 전세계 요리에 도전 중입니다</span>
 </div>
-<div class="flex items-center gap-3 overflow-hidden text-ellipsis whitespace-nowrap bg-porcelain-white py-1.5 px-3 rounded-full shadow-sm">
+<div class="flex items-center gap-3 overflow-hidden text-ellipsis whitespace-nowrap bg-porcelain-white py-1.5 px-3 rounded-full shadow-sm ac-pulse-update">
 <svg class="ac-icon  text-[16px] text-secondary" data-icon="workspace_premium" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 <path d="m5 12 4 4L19 6">
 </path>
@@ -116,7 +117,7 @@
 <p class="font-body-sm text-body-sm text-on-surface truncate">
 <span class="font-semibold text-primary">서울 용산구 김**님</span>이 <span class="text-secondary font-medium">'스페인 발렌시아 사프란 해산물 빠에야'</span> 마스터 완료!
         </p>
-<div class="flex items-center text-on-tertiary-container text-[12px]">★★★★★</div>
+<div class="flex items-center text-on-tertiary-container text-[12px] ac-pulse-stars">★★★★★</div>
 </div>
 </div>
 </section>
@@ -133,7 +134,7 @@
         </p>
 </div>
 <!-- Cuisine Category Bento Cards -->
-<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-3">
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-3 ac-world-grid">
 <!-- 1. French -->
 <a class="group flex flex-col p-3 rounded-xl bg-porcelain-white hover:bg-linen-tint transition-all duration-300 shadow-sm text-left" href="atelier-world-french.html">
 <div class="w-full aspect-square rounded-lg overflow-hidden mb-2 relative">
@@ -282,7 +283,7 @@
           </p>
 <!-- Interactive Scale & Ingredient Box -->
 <div class="bg-porcelain-white p-4 rounded-xl shadow-sm mb-6 flex flex-col gap-3">
-<div class="flex items-center justify-between">
+<div class="flex items-center justify-between ac-mise-head">
 <span class="font-label-md text-label-md text-primary font-bold flex items-center gap-1.5">
 <svg class="ac-icon  text-[18px] text-secondary" data-icon="kitchen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 <path d="m5 12 4 4L19 6">
@@ -290,13 +291,13 @@
 </svg>
                 미장플라스 (Mise-en-Place) 준비량
               </span>
-<div class="flex bg-surface-container rounded-full p-0.5">
+<div class="flex bg-surface-container rounded-full p-0.5 ac-seasonal-servings">
 <button class="px-2.5 py-0.5 text-xs font-semibold rounded-full bg-primary text-on-primary" type="button" data-servings="2">2인분</button>
 <button class="px-2.5 py-0.5 text-xs font-medium text-on-surface-variant hover:text-primary" type="button" data-servings="4">4인분</button>
 <button class="px-2.5 py-0.5 text-xs font-medium text-on-surface-variant hover:text-primary" type="button" data-servings="6">파티(6인)</button>
 </div>
 </div>
-<div class="grid grid-cols-2 gap-2 pt-1 font-body-sm text-body-sm text-on-surface">
+<div class="grid grid-cols-2 gap-2 pt-1 font-body-sm text-body-sm text-on-surface ac-mise-grid">
 <div class="flex items-center justify-between bg-surface-container-low px-3 py-1.5 rounded-lg">
 <span>이탈리아 카푸토 세몰리나</span>
 <span class="font-bold text-secondary" data-base-qty="200" data-unit="g">200g</span>
@@ -316,7 +317,7 @@
 </div>
 </div>
 <!-- Buttons -->
-<div class="flex items-center gap-3">
+<div class="flex items-center gap-3 ac-seasonal-actions">
 <a class="flex-1 py-3.5 px-6 rounded-full bg-primary text-on-primary font-label-lg text-label-lg font-bold text-center hover:bg-primary-container transition-all shadow-md flex items-center justify-center gap-2" href="atelier-recipe-mediterranean.html" data-servings-link="">
 <svg class="ac-icon  text-[20px]" data-icon="menu_book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 <path d="M12 5v15M3 4c4-1 7 0 9 1 2-1 5-2 9-1v15c-4-1-7 0-9 1-2-1-5-2-9-1Z">
@@ -370,7 +371,7 @@
 <span>09:22 - 멕시칸 칠리 파우더와 라임즙의 황금 산도 밸런스</span>
 </div>
 </div>
-<div class="pt-4 flex items-center gap-4">
+<div class="pt-4 flex items-center gap-4 ac-class-preview-actions">
 <button class="px-6 py-3 bg-tertiary-container text-on-primary rounded-full font-label-lg text-label-lg font-bold hover:bg-on-tertiary-container transition-all flex items-center gap-2" type="button" data-go="atelier-class-master.html">
 <svg class="ac-icon  text-[20px]" data-icon="play_arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 <path d="m8 4 12 8-12 8Z">
@@ -911,8 +912,8 @@
           마스터 셰프의 시크릿 킥, 제철 식재료 산지 직송 소식, 그리고 놓칠 수 없는 단독 공동구매 특가 혜택을 가장 먼저 받아보세요.
         </p>
 </div>
-<form data-local-form="newsletter">
-<div class="flex items-center gap-2 w-full md:w-auto max-w-md">
+<form data-local-form="newsletter" class="ac-newsletter-form">
+<div class="flex items-center gap-2 w-full md:w-auto max-w-md ac-newsletter-fields">
 <input class="w-full px-4 py-3 bg-porcelain-white rounded-full text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none shadow-sm" placeholder="이메일 주소를 입력하세요" type="email" name="email" required="" aria-label="소식 받을 이메일">
 <button class="px-6 py-3 bg-primary text-on-primary rounded-full font-label-md text-label-md font-bold whitespace-nowrap hover:bg-primary-container transition-all shadow-md" type="submit">
           무료 구독
@@ -1026,6 +1027,8 @@
 </dialog>
 <div id="atelier-status" role="status" hidden="">
 </div>
+
+
 
 
 
