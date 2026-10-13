@@ -3317,3 +3317,11 @@ main .text-ellipsis{max-width:100%}
 #atelier-navigation > .ac-nav-link:hover {color:rgb(var(--primary));}
 #atelier-navigation > .ac-nav-link[aria-current="page"] {color:rgb(var(--primary));font-weight:700;}
 #atelier-navigation > .ac-nav-link[aria-current="page"]::after {transform:scaleX(1);}
+.ac-recipe-actions {display:grid;gap:12px;margin-top:24px;}
+.ac-recipe-actions > .ac-actions {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;}
+.ac-recipe-actions .ac-button,.ac-recipe-actions .ac-secondary {width:100%;min-height:48px;margin:0;padding:12px 16px;line-height:1.6;word-break:keep-all;text-align:center;}
+.ac-recipe-actions .ac-recipe-basket {background:rgb(var(--linen-tint));color:rgb(var(--primary));border-color:rgb(var(--primary)/.25);}
+.ac-recipe-actions .ac-secondary:hover {background:rgb(var(--surface-container));border-color:rgb(var(--primary));}
+.ac-recipe-actions .ac-caption {margin:0;text-align:center;}
+@media(max-width:480px){.ac-recipe-actions > .ac-actions {grid-template-columns:1fr;}}
+@media print{.ac-recipe-actions{display:none!important;}}
