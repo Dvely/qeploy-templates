@@ -1,0 +1,3 @@
+# Keep downloaded design documents as binary assets.
+*.pdf binary
+*.ai binary
