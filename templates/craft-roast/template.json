@@ -1,0 +1,16 @@
+{
+  "id": "craft-roast",
+  "name": "크래프트 앤 로스트",
+  "description": "스페셜티 로스터리와 파티세리, 메뉴 페어링·원두 마켓·매장 및 가맹 안내",
+  "tags": ["cafe", "coffee", "roastery", "patisserie", "shop", "franchise"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    { "key": "brand", "where": "index.html", "desc": "CRAFT & ROAST 로고, 히어로와 브랜드 소개" },
+    { "key": "menu", "where": "craft-roast-data.js", "desc": "시그니처 메뉴의 이름·이미지·가격·소개 및 분류" },
+    { "key": "pairing", "where": "craft-roast-menu.html", "desc": "라떼·피낭시에 페어링, 원두·우유·온도와 추가 구성 선택" },
+    { "key": "beans", "where": "craft-roast-beans.html", "desc": "원두 소개, 분쇄·수량·구독 옵션과 브루잉 가이드" },
+    { "key": "stores", "where": "craft-roast-stores.html", "desc": "매장 탐색, 공간 이미지, 가맹 모델·비용 예시와 문의 양식" },
+    { "key": "theme", "where": "craft-roast.css", "desc": ":root의 색상과 글꼴 토큰, 반응형 메뉴와 카드 스타일" }
+  ]
+}
