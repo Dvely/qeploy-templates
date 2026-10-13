@@ -1,0 +1,15 @@
+{
+  "id": "aquafolio",
+  "name": "아쿠아폴리오",
+  "description": "깊고 푸른 바다의 아쿠아리움과 해양 생물 도감·생태 프로그램·티켓 예매",
+  "tags": ["aquarium", "marine", "experience", "ticket", "dark"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    {"key":"brand","where":"index.html","desc":"AQUAFOLIO 로고와 바다 히어로·전시·추천 관람 코스"},
+    {"key":"creatures","where":"aquafolio-data.js","desc":"해양 생물 이름·설명·위치·사진과 프로그램·체험 정보"},
+    {"key":"tickets","where":"aquafolio-data.js","desc":"권종별 예시 정가·판매가, 날짜와 수량 선택"},
+    {"key":"programs","where":"aquafolio-programs.html","desc":"정규 프로그램 타임테이블과 특별 체험 카드"},
+    {"key":"theme","where":"aquafolio.css","desc":":root 색상·서체 토큰과 반응형 헤더·카드·모달 배치"}
+  ]
+}

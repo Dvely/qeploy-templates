@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="aquafolio.css">
+<script defer="" src="aquafolio-data.js">
+</script>
+<script defer="" src="aquafolio.js">
+</script>
+<title>생태 체험 &amp; 프로그램 | AQUAFOLIO</title>
+</head>
+<body class="bg-surface font-body-md text-body-md text-on-surface antialiased selection:bg-primary-container selection:text-surface" data-page="programs">
+<a class="aq-skip" href="#main">본문 바로가기</a>
+<header class="fixed top-0 left-0 right-0 w-full z-50 bg-abyss-surface/80 backdrop-blur-xl shadow-[0_12px_32px_rgba(2,14,32,0.65)] aq-header">
+<div class="h-20 w-full max-w-7xl mx-auto px-gutter flex items-center justify-between gap-space-md aq-header-row">
+<div class="flex items-center gap-space-lg">
+<a class="flex flex-col group aq-brand" data-path="home" href="index.html">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse">
+</span>
+<span class="font-headline-md text-headline-md tracking-wider text-sea-foam group-hover:text-primary-container transition-colors">AQUAFOLIO</span>
+</div>
+<span class="font-label-species-latin text-label-species-latin text-outline tracking-widest text-[10px] uppercase leading-none">MARINE SANCTUARY &amp; AQUARIUM</span>
+</a>
+<nav class="hidden xl:flex items-center gap-1" data-active-classes="bg-surface-variant text-primary-container font-semibold rounded-lg" id="aquafolio-navigation">
+<a class="px-space-sm py-2 rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-sea-foam hover:bg-surface-container transition-all" data-path="about" href="aquafolio-about.html">아쿠아리움 소개</a>
+<a class="px-space-sm py-2 rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-sea-foam hover:bg-surface-container transition-all" data-path="creatures" href="aquafolio-creatures.html">해양 생물 도감</a>
+<a class="px-space-sm py-2 transition-all bg-surface-variant text-primary-container font-semibold rounded-lg" data-path="experiences" href="aquafolio-programs.html" aria-current="page">생태 체험 &amp; 프로그램</a>
+<a class="px-space-sm py-2 rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-sea-foam hover:bg-surface-container transition-all" data-path="tickets-and-info" href="aquafolio-tickets.html">이용안내 &amp; 예매</a>
+<a class="px-space-sm py-2 rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-sea-foam hover:bg-surface-container transition-all" data-path="conservation" href="aquafolio-conservation.html">보존 &amp; 연구</a>
+</nav>
+</div>
+<div class="flex items-center gap-space-sm aq-header-tools">
+<div class="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-low">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed-dim">
+</span>
+<span class="font-label-data-mono text-label-data-mono text-sea-foam">오늘 10:00 - 20:00</span>
+</div>
+<a class="px-space-md py-2.5 rounded-xl bg-primary-container text-on-primary-fixed font-headline-sm text-body-sm font-bold flex items-center gap-1.5 shadow-[0_0_20px_-2px_rgba(0,229,255,0.35)] hover:bg-secondary-fixed transition-all aq-header-ticket" data-path="ticket-booking" href="aquafolio-tickets.html">
+<span>빠른 입장권 예매</span>
+<svg class="aq-icon  text-[18px]" data-icon="arrow_forward" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16m-6-6 6 6-6 6">
+</path>
+</svg>
+</a>
+<a class="aq-account" href="aquafolio-tickets.html#ticketing-booking-engine" aria-label="티켓 선택 화면">
+<svg class="aq-icon" data-icon="confirmation_number" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M2 6h20v4a2 2 0 0 0 0 4v4H2v-4a2 2 0 0 0 0-4Zm14 0v3m0 2v2m0 2v3">
+</path>
+</svg>
+</a>
+<button class="aq-menu-toggle" type="button" aria-label="메뉴 열기" aria-controls="aquafolio-navigation" aria-expanded="false">
+<svg class="aq-icon" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 6h18M3 12h18M3 18h18">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</header>
+<main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]" id="main">
+<div class="flex flex-col w-full">
+<!-- Top Ambient Glow Field -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[900px] h-[360px] bg-gradient-to-b from-primary-container/15 via-secondary/10 to-transparent blur-3xl pointer-events-none">
+</div>
+<!-- Section 1: Hero Header & Date Selector Rail -->
+<section class="relative w-full max-w-7xl mx-auto px-gutter pt-8 pb-10 aq-program-intro">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 pb-8">
+<div class="space-y-3 max-w-3xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-abyss-surface/80 border-0 text-sea-foam">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-ping">
+</span>
+<span class="font-label-species-latin text-label-species-latin uppercase tracking-widest text-primary-fixed-dim">Daily Schedule &amp; Encounters</span>
+<span class="text-outline text-caption">•</span>
+<span class="font-label-data-mono text-label-data-mono text-sea-foam" data-program-day-label="">2026.10.24 FRI</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-sea-foam tracking-tight">
+            바다와 더 가까워지는 특별한 순간,<br>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary-container to-secondary">생태 체험 &amp; 프로그램</span>
+</h1>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            아쿠아폴리오의 전문 아쿠아리스트, 해양 생물학 연구원들과 호흡하는 현장 라이브 퍼포먼스 및 심층 교육 세션을 시간대별로 만나보세요.
+          </p>
+</div>
+<!-- Telemetry Summary Pill -->
+<div class="flex items-center gap-3 p-3 rounded-xl bg-surface-container-low shadow-xl">
+<div class="px-3 py-2 rounded-lg bg-abyss-surface text-center">
+<span class="block font-label-data-mono text-label-data-mono text-outline">오늘 총 세션</span>
+<span class="font-headline-sm text-headline-sm text-primary-container font-bold">14회차</span>
+</div>
+<div class="px-3 py-2 rounded-lg bg-abyss-surface text-center">
+<span class="block font-label-data-mono text-label-data-mono text-outline">현재 진행 가능</span>
+<span class="font-headline-sm text-headline-sm text-sea-foam font-bold">9개 관람관</span>
+</div>
+<div class="px-3 py-2 rounded-lg bg-abyss-surface text-center">
+<span class="block font-label-data-mono text-label-data-mono text-outline">수조 정규수온</span>
+<span class="font-label-data-mono text-headline-sm text-secondary font-bold">18.4°C</span>
+</div>
+</div>
+</div>
+<!-- Weekly Calendar / Date Rail -->
+<div class="w-full p-2.5 rounded-2xl bg-surface-container-low/90 backdrop-blur-md shadow-2xl flex flex-col md:flex-row items-center justify-between gap-3">
+<div class="flex items-center gap-2 overflow-x-auto w-full md:w-auto py-1 px-1">
+<button class="flex flex-col items-center justify-center min-w-[76px] py-2.5 px-3 rounded-xl bg-surface-container-high text-on-surface-variant hover:text-sea-foam hover:bg-surface-variant transition-all aq-date" type="button" data-program-date="0">
+<span class="font-label-species-latin text-caption uppercase">WED</span>
+<span class="font-headline-sm text-headline-sm font-semibold">22</span>
+<span class="font-label-data-mono text-[10px] text-outline">종료</span>
+</button>
+<button class="flex flex-col items-center justify-center min-w-[76px] py-2.5 px-3 rounded-xl bg-surface-container-high text-on-surface-variant hover:text-sea-foam hover:bg-surface-variant transition-all aq-date" type="button" data-program-date="1">
+<span class="font-label-species-latin text-caption uppercase">THU</span>
+<span class="font-headline-sm text-headline-sm font-semibold">23</span>
+<span class="font-label-data-mono text-[10px] text-outline">어제</span>
+</button>
+<!-- Active Today -->
+<button class="flex flex-col items-center justify-center min-w-[86px] py-2.5 px-4 rounded-xl bg-primary-container text-on-primary-fixed shadow-[0_0_24px_rgba(0,229,255,0.45)] transform scale-[1.02] transition-all aq-date" type="button" data-program-date="2">
+<span class="font-label-species-latin text-caption font-bold uppercase tracking-wider">TODAY</span>
+<span class="font-headline-sm text-headline-sm font-extrabold">24 금</span>
+<span class="font-label-data-mono text-[10px] text-on-primary-fixed-variant font-bold">일정 보기</span>
+</button>
+<button class="flex flex-col items-center justify-center min-w-[76px] py-2.5 px-3 rounded-xl bg-surface-container-high text-sea-foam hover:bg-surface-variant transition-all aq-date" type="button" data-program-date="3">
+<span class="font-label-species-latin text-caption uppercase">SAT</span>
+<span class="font-headline-sm text-headline-sm font-semibold">25</span>
+<span class="font-label-data-mono text-[10px] text-secondary">주말특판</span>
+</button>
+<button class="flex flex-col items-center justify-center min-w-[76px] py-2.5 px-3 rounded-xl bg-surface-container-high text-sea-foam hover:bg-surface-variant transition-all aq-date" type="button" data-program-date="4">
+<span class="font-label-species-latin text-caption uppercase">SUN</span>
+<span class="font-headline-sm text-headline-sm font-semibold">26</span>
+<span class="font-label-data-mono text-[10px] text-secondary">주말특판</span>
+</button>
+<button class="flex flex-col items-center justify-center min-w-[76px] py-2.5 px-3 rounded-xl bg-surface-container-high text-on-surface-variant hover:text-sea-foam hover:bg-surface-variant transition-all aq-date" type="button" data-program-date="5">
+<span class="font-label-species-latin text-caption uppercase">MON</span>
+<span class="font-headline-sm text-headline-sm font-semibold">27</span>
+<span class="font-label-data-mono text-[10px] text-outline">예약가능</span>
+</button>
+<button class="flex flex-col items-center justify-center min-w-[76px] py-2.5 px-3 rounded-xl bg-surface-container-high text-on-surface-variant hover:text-sea-foam hover:bg-surface-variant transition-all aq-date" type="button" data-program-date="6">
+<span class="font-label-species-latin text-caption uppercase">TUE</span>
+<span class="font-headline-sm text-headline-sm font-semibold">28</span>
+<span class="font-label-data-mono text-[10px] text-outline">예약가능</span>
+</button>
+</div>
+<!-- Filter Quick-Pills -->
+<div class="flex items-center gap-1.5 w-full md:w-auto justify-end px-2 aq-program-filters">
+<span class="font-label-data-mono text-label-data-mono text-outline mr-2 hidden sm:inline">태그 필터</span>
+<button class="px-3 py-1.5 rounded-lg bg-surface-variant text-primary-container font-label-data-mono text-body-sm font-semibold" type="button" data-program-filter="all">전체보기</button>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant hover:text-sea-foam font-label-data-mono text-body-sm transition-colors" type="button" data-program-filter="performance">공연/미디어</button>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant hover:text-sea-foam font-label-data-mono text-body-sm transition-colors" type="button" data-program-filter="talk">생태설명회</button>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant hover:text-sea-foam font-label-data-mono text-body-sm transition-colors" type="button" data-program-filter="feeding">식사 피딩</button>
+</div>
+</div>
+<p class="aq-results" data-schedule-date="" role="status">
+</p>
+</section>
+</div>
+<!-- Section 2: 실시간 프로그램 타임테이블 (Live Program Schedule - Timeline View) -->
+<section class="w-full max-w-7xl mx-auto px-gutter py-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<svg class="aq-icon  text-primary-container text-[20px]" data-icon="schedule" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 6v6l4 2">
+</path>
+</svg>
+<span class="font-label-species-latin text-label-species-latin uppercase tracking-widest text-outline">CHRONOLOGICAL PROGRAM MATRIX</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-sea-foam">타임테이블 &amp; 현장 퍼포먼스</h2>
+</div>
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed-dim">
+</span>
+<span class="font-caption text-caption text-sea-foam">모든 정규 프로그램은 당일 입장권 소지 시 현장 무료 관람</span>
+</div>
+<button class="hidden sm:flex items-center gap-1 px-3 py-1.5 rounded-lg bg-surface-variant text-sea-foam hover:bg-surface-bright text-body-sm font-medium transition-colors" type="button" data-reminder="">
+<svg class="aq-icon  text-[16px]" data-icon="notifications_active" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 17V9a7 7 0 0 1 14 0v8l2 2H3Zm5 4h4M2 5l2-2m16 0 2 2">
+</path>
+</svg>
+<span>오늘 일정 보관</span>
+</button>
+</div>
+</div>
+<!-- Timeline Grid Container -->
+<div class="space-y-4">
+<!-- Row 1: 11:00 / 14:30 수중 발레 & 미디어 퍼포먼스 -->
+<div class="p-6 rounded-2xl bg-abyss-surface/80 hover:bg-abyss-elevated transition-all shadow-xl group" data-program-card="performance">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+<!-- Time Rail Column -->
+<div class="lg:col-span-3 flex lg:flex-col items-start lg:items-start justify-between lg:justify-center gap-2">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-primary-container shadow-[0_0_8px_rgba(0,229,255,0.8)]">
+</span>
+<span class="font-headline-md text-headline-md text-primary font-bold tracking-tight">11:00 / 14:30</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-0.5 rounded-full bg-primary/10 text-primary font-label-data-mono text-label-data-mono">20분 소요</span>
+<span class="px-2.5 py-0.5 rounded-full bg-secondary/15 text-secondary font-label-data-mono text-label-data-mono">하루 2회</span>
+</div>
+</div>
+<!-- Content Details -->
+<div class="lg:col-span-6 space-y-2">
+<div class="flex flex-wrap items-center gap-2">
+<span class="font-label-species-latin text-caption text-primary-fixed-dim tracking-wider uppercase font-semibold">Acrobatic Marine Performance</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-sea-foam font-caption text-caption">메인수조 (딥블루 오션)</span>
+<span class="px-2 py-0.5 rounded bg-secondary-container/20 text-secondary-fixed font-caption text-caption font-semibold">입장객 무료</span>
+<span class="px-2 py-0.5 rounded bg-surface-variant text-on-surface-variant font-caption text-caption">유아 추천 ★★★</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-sea-foam group-hover:text-primary transition-colors flex items-center gap-2">
+              [수중 발레 &amp; 미디어 퍼포먼스] '푸른 바다의 전설'
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              가로 25m 대형 아크릴 수조에서 펼쳐지는 싱크로나이즈드 국대 출신 다이버들의 유려한 군무와 4K 맵핑 미디어 파사드가 융합된 판타지 아트 퍼포먼스입니다.
+            </p>
+<div class="flex items-center gap-2 text-primary-fixed text-caption pt-1">
+<svg class="aq-icon  text-[16px] text-primary-container" data-icon="lightbulb" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M8 15a7 7 0 1 1 8 0l-1 4H9ZM9 22h6">
+</path>
+</svg>
+<span>관람 팁: 공연 시작 10분 전 메인 아크릴 계단형 좌석(B1 구역)에 착석하시면 미디어 맵핑 전경을 한눈에 담을 수 있습니다.</span>
+</div>
+</div>
+<!-- Visual / Status Side -->
+<div class="lg:col-span-3 flex flex-row lg:flex-col items-center lg:items-end justify-between gap-3">
+<div class="hidden sm:block w-full lg:w-48 h-24 rounded-xl overflow-hidden relative shadow-inner">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" style="background-image: url('images/aquafolio-programs-scene-01.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-abyss-surface/90 to-transparent">
+</div>
+<span class="absolute bottom-1.5 left-2 font-label-data-mono text-[10px] text-sea-foam">Main Ocean Viewport</span>
+</div>
+<button class="w-full sm:w-auto px-4 py-2 rounded-xl bg-surface-container-high text-sea-foam hover:bg-surface-variant font-body-sm font-semibold flex items-center justify-center gap-1.5 transition-all" type="button" data-program-detail="program-0">
+<span>상세 위치 확인</span>
+<svg class="aq-icon  text-[16px]" data-icon="pin_drop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 22-7-10a8 8 0 1 1 14 0ZM15 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+<!-- Row 2: 11:30 / 15:00 벨루가 생태 설명회 -->
+<div class="p-6 rounded-2xl bg-abyss-surface/80 hover:bg-abyss-elevated transition-all shadow-xl group" data-program-card="talk">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+<!-- Time Rail Column -->
+<div class="lg:col-span-3 flex lg:flex-col items-start lg:items-start justify-between lg:justify-center gap-2">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-secondary-fixed-dim shadow-[0_0_8px_rgba(76,214,251,0.8)]">
+</span>
+<span class="font-headline-md text-headline-md text-sea-foam font-bold tracking-tight">11:30 / 15:00</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary/10 text-secondary font-label-data-mono text-label-data-mono">15분 소요</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-data-mono text-label-data-mono">하루 2회</span>
+</div>
+</div>
+<!-- Content Details -->
+<div class="lg:col-span-6 space-y-2">
+<div class="flex flex-wrap items-center gap-2">
+<span class="font-label-species-latin text-caption text-secondary tracking-wider uppercase font-semibold">Delphinapterus leucas Bio-Talk</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-sea-foam font-caption text-caption">벨루가존 (극지연구관 2F)</span>
+<span class="px-2 py-0.5 rounded bg-secondary-container/20 text-secondary-fixed font-caption text-caption font-semibold">입장객 무료</span>
+<span class="px-2 py-0.5 rounded bg-surface-variant text-on-surface-variant font-caption text-caption">온가족 인기</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-sea-foam group-hover:text-secondary transition-colors flex items-center gap-2">
+              [벨루가 생태 설명회] '하얀 고래 벨루가의 일상'
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              초음파를 통한 의사소통 방식, 멜론(이마의 지방조직)의 놀라운 생체 기능, 그리고 북극해 환경 보전을 위한 행동 풍부화 훈련 현장을 아쿠아리스트의 친절한 해설로 전합니다.
+            </p>
+<div class="flex items-center gap-2 text-primary-fixed text-caption pt-1">
+<svg class="aq-icon  text-[16px] text-secondary" data-icon="mic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M9 5a3 3 0 0 1 6 0v7a3 3 0 0 1-6 0ZM5 10v2a7 7 0 0 0 14 0v-2M12 19v3M8 22h8">
+</path>
+</svg>
+<span>관람 팁: 벨루가가 내는 신비로운 '바다의 카나리아' 음향을 수중 하이드로폰 마이크를 통해 실시간으로 생생하게 청취할 수 있습니다.</span>
+</div>
+</div>
+<!-- Visual / Status Side -->
+<div class="lg:col-span-3 flex flex-row lg:flex-col items-center lg:items-end justify-between gap-3">
+<div class="hidden sm:block w-full lg:w-48 h-24 rounded-xl overflow-hidden relative shadow-inner">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" style="background-image: url('images/aquafolio-programs-scene-02.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-abyss-surface/90 to-transparent">
+</div>
+<span class="absolute bottom-1.5 left-2 font-label-data-mono text-[10px] text-sea-foam">Beluga Habitat Lab</span>
+</div>
+<button class="w-full sm:w-auto px-4 py-2 rounded-xl bg-surface-container-high text-sea-foam hover:bg-surface-variant font-body-sm font-semibold flex items-center justify-center gap-1.5 transition-all" type="button" data-program-detail="program-1">
+<span>상세 위치 확인</span>
+<svg class="aq-icon  text-[16px]" data-icon="pin_drop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 22-7-10a8 8 0 1 1 14 0ZM15 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+<!-- Row 3: 12:00 / 16:00 바다사자 & 수달 식사 시간 -->
+<div class="p-6 rounded-2xl bg-abyss-surface/80 hover:bg-abyss-elevated transition-all shadow-xl group" data-program-card="feeding">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+<!-- Time Rail Column -->
+<div class="lg:col-span-3 flex lg:flex-col items-start lg:items-start justify-between lg:justify-center gap-2">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-conservation-amber shadow-[0_0_8px_rgba(230,93,25,0.8)]">
+</span>
+<span class="font-headline-md text-headline-md text-sea-foam font-bold tracking-tight">12:00 / 16:00</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-0.5 rounded-full bg-conservation-amber/15 text-conservation-amber font-label-data-mono text-label-data-mono">15분 소요</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-data-mono text-label-data-mono">하루 2회</span>
+</div>
+</div>
+<!-- Content Details -->
+<div class="lg:col-span-6 space-y-2">
+<div class="flex flex-wrap items-center gap-2">
+<span class="font-label-species-latin text-caption text-conservation-amber tracking-wider uppercase font-semibold">Marine Mammals Feeding &amp; Welfare</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-sea-foam font-caption text-caption">해양포유류존 (연안생태관 1F)</span>
+<span class="px-2 py-0.5 rounded bg-secondary-container/20 text-secondary-fixed font-caption text-caption font-semibold">입장객 무료</span>
+<span class="px-2 py-0.5 rounded bg-surface-variant text-on-surface-variant font-caption text-caption">어린이 적극추천</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-sea-foam group-hover:text-conservation-amber transition-colors flex items-center gap-2">
+              [바다사자 &amp; 작은발톱수달 식사 시간] 아쿠아리스트와의 긍정강화 교감
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              생물들의 자연스러운 본능을 자극하는 퍼즐 피더 먹이주기와 건강검진 메디컬 트레이닝 과정을 여과 없이 관찰하는 생태 복지형 교감 시간입니다.
+            </p>
+<div class="flex items-center gap-2 text-primary-fixed text-caption pt-1">
+<svg class="aq-icon  text-[16px] text-conservation-amber" data-icon="restaurant" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 2v7a3 3 0 0 0 6 0V2M7 2v20M20 2c-5 3-5 10 0 10Zm0 10v10">
+</path>
+</svg>
+<span>관람 팁: 수달의 작은 손가락을 활용한 조개 까기 행동과 캘리포니아 바다사자의 시원한 수중 점프를 가까이서 볼 수 있습니다.</span>
+</div>
+</div>
+<!-- Visual / Status Side -->
+<div class="lg:col-span-3 flex flex-row lg:flex-col items-center lg:items-end justify-between gap-3">
+<div class="hidden sm:block w-full lg:w-48 h-24 rounded-xl overflow-hidden relative shadow-inner">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform data-alt duration-500" style="background-image: url('images/aquafolio-programs-scene-03.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-abyss-surface/90 to-transparent">
+</div>
+<span class="absolute bottom-1.5 left-2 font-label-data-mono text-[10px] text-sea-foam">Mammal Sanctuary</span>
+</div>
+<button class="w-full sm:w-auto px-4 py-2 rounded-xl bg-surface-container-high text-sea-foam hover:bg-surface-variant font-body-sm font-semibold flex items-center justify-center gap-1.5 transition-all" type="button" data-program-detail="program-2">
+<span>상세 위치 확인</span>
+<svg class="aq-icon  text-[16px]" data-icon="pin_drop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 22-7-10a8 8 0 1 1 14 0ZM15 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+<!-- Row 4: 13:00 / 16:30 메인수조 메가 피딩쇼 -->
+<div class="p-6 rounded-2xl bg-abyss-surface/80 hover:bg-abyss-elevated transition-all shadow-xl group" data-program-card="feeding">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+<!-- Time Rail Column -->
+<div class="lg:col-span-3 flex lg:flex-col items-start lg:items-start justify-between lg:justify-center gap-2">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-primary-container shadow-[0_0_8px_rgba(0,229,255,0.8)]">
+</span>
+<span class="font-headline-md text-headline-md text-primary font-bold tracking-tight">13:00 / 16:30</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-0.5 rounded-full bg-primary/10 text-primary font-label-data-mono text-label-data-mono">15분 소요</span>
+<span class="px-2.5 py-0.5 rounded-full bg-secondary/15 text-secondary font-label-data-mono text-label-data-mono">시그니처 쇼</span>
+</div>
+</div>
+<!-- Content Details -->
+<div class="lg:col-span-6 space-y-2">
+<div class="flex flex-wrap items-center gap-2">
+<span class="font-label-species-latin text-caption text-primary-fixed-dim tracking-wider uppercase font-semibold">Pelagic Apex Feeding Ritual</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-sea-foam font-caption text-caption">메인수조 (딥블루 오션)</span>
+<span class="px-2 py-0.5 rounded bg-secondary-container/20 text-secondary-fixed font-caption text-caption font-semibold">입장객 무료</span>
+<span class="px-2 py-0.5 rounded bg-surface-variant text-on-surface-variant font-caption text-caption">박진감 최고</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-sea-foam group-hover:text-primary transition-colors flex items-center gap-2">
+              [메인수조 메가 피딩쇼] 가오리와 상어들의 장엄한 수중 피딩
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              전문 다이버가 직접 수심 11m 깊이로 잠수하여 얼룩매가오리, 샌드타이거상어, 흑가오리 등 3,000여 마리의 대형 어종 무리에게 먹이를 주는 경이로운 수중 장관입니다.
+            </p>
+<div class="flex items-center gap-2 text-primary-fixed text-caption pt-1">
+<svg class="aq-icon  text-[16px] text-primary-container" data-icon="info" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span>관람 팁: 웃는 얼굴 모양의 대형 가오리 배판과 먹이를 삼키는 순간의 역동적인 수중 촬영이 가장 인기 있는 하이라이트입니다.</span>
+</div>
+</div>
+<!-- Visual / Status Side -->
+<div class="lg:col-span-3 flex flex-row lg:flex-col items-center lg:items-end justify-between gap-3">
+<div class="hidden sm:block w-full lg:w-48 h-24 rounded-xl overflow-hidden relative shadow-inner">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" style="background-image: url('images/aquafolio-programs-scene-04.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-abyss-surface/90 to-transparent">
+</div>
+<span class="absolute bottom-1.5 left-2 font-label-data-mono text-[10px] text-sea-foam">Pelagic Deep Basin</span>
+</div>
+<button class="w-full sm:w-auto px-4 py-2 rounded-xl bg-surface-container-high text-sea-foam hover:bg-surface-variant font-body-sm font-semibold flex items-center justify-center gap-1.5 transition-all" type="button" data-program-detail="program-3">
+<span>상세 위치 확인</span>
+<svg class="aq-icon  text-[16px]" data-icon="pin_drop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 22-7-10a8 8 0 1 1 14 0ZM15 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+<!-- Row 5: 14:00 / 17:00 펭귄 생태 설명회 & 퀴즈쇼 -->
+<div class="p-6 rounded-2xl bg-abyss-surface/80 hover:bg-abyss-elevated transition-all shadow-xl group" data-program-card="talk">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+<!-- Time Rail Column -->
+<div class="lg:col-span-3 flex lg:flex-col items-start lg:items-start justify-between lg:justify-center gap-2">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-secondary-fixed-dim shadow-[0_0_8px_rgba(76,214,251,0.8)]">
+</span>
+<span class="font-headline-md text-headline-md text-sea-foam font-bold tracking-tight">14:00 / 17:00</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary/10 text-secondary font-label-data-mono text-label-data-mono">15분 소요</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-data-mono text-label-data-mono">참여형 퀴즈</span>
+</div>
+</div>
+<!-- Content Details -->
+<div class="lg:col-span-6 space-y-2">
+<div class="flex flex-wrap items-center gap-2">
+<span class="font-label-species-latin text-caption text-secondary tracking-wider uppercase font-semibold">Spheniscus Humboldti Edu-Quiz</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-sea-foam font-caption text-caption">펭귄 빌리지 (지하 2F)</span>
+<span class="px-2 py-0.5 rounded bg-secondary-container/20 text-secondary-fixed font-caption text-caption font-semibold">입장객 무료</span>
+<span class="px-2 py-0.5 rounded bg-surface-variant text-on-surface-variant font-caption text-caption">기념품 증정</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-sea-foam group-hover:text-secondary transition-colors flex items-center gap-2">
+              [펭귄 생태 설명회 &amp; 퀴즈쇼] 뒤뚱뒤뚱 남극 젠투 &amp; 훔볼트 펭귄
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              온대성 훔볼트 펭귄과 극지방 젠투 펭귄의 날개 구조, 깃털 방수 원리를 재미있는 인터랙티브 퀴즈로 배우고 정답자에게는 아쿠아폴리오 배지를 선물합니다.
+            </p>
+<div class="flex items-center gap-2 text-primary-fixed text-caption pt-1">
+<svg class="aq-icon  text-[16px] text-secondary" data-icon="workspace_premium" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z">
+</path>
+</svg>
+<span>관람 팁: 생태설명회 직후 펭귄들의 번개 같은 고속 수중 잠영 시연이 연계 진행됩니다.</span>
+</div>
+</div>
+<!-- Visual / Status Side -->
+<div class="lg:col-span-3 flex flex-row lg:flex-col items-center lg:items-end justify-between gap-3">
+<div class="hidden sm:block w-full lg:w-48 h-24 rounded-xl overflow-hidden relative shadow-inner">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" style="background-image: url('images/aquafolio-programs-scene-05.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-abyss-surface/90 to-transparent">
+</div>
+<span class="absolute bottom-1.5 left-2 font-label-data-mono text-[10px] text-sea-foam">Penguin Village Lab</span>
+</div>
+<button class="w-full sm:w-auto px-4 py-2 rounded-xl bg-surface-container-high text-sea-foam hover:bg-surface-variant font-body-sm font-semibold flex items-center justify-center gap-1.5 transition-all" type="button" data-program-detail="program-4">
+<span>상세 위치 확인</span>
+<svg class="aq-icon  text-[16px]" data-icon="pin_drop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 22-7-10a8 8 0 1 1 14 0ZM15 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: 유료 심층 아쿠아 체험 프로그램 (VIP In-Depth Experiential Programs) -->
+<section class="w-full max-w-7xl mx-auto px-gutter py-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<svg class="aq-icon  text-primary-container text-[20px]" data-icon="stars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span class="font-label-species-latin text-label-species-latin uppercase tracking-widest text-primary-fixed-dim">PREMIUM EXPERIENTIAL ARCHIVE</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-sea-foam">유료 심층 아쿠아 체험 프로그램</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">수족관 이면의 연구 공간 탐방부터 직접 수조에 잠수하는 생태 몰입형 프리미엄 코스 (사전 예약제 운영)</p>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-data-mono text-label-data-mono text-outline">예약 유의사항:</span>
+<span class="font-caption text-caption text-sea-foam bg-surface-container-high px-3 py-1 rounded-lg">입장권 별도 구매 필수 • 회차당 정원 6~10인 한정</span>
+</div>
+</div>
+<!-- 4-Card Responsive Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Card 1: 백사이드 투어 -->
+<div class="flex flex-col justify-between p-5 rounded-2xl bg-abyss-surface/90 hover:bg-abyss-elevated transition-all shadow-2xl group relative overflow-hidden">
+<div class="space-y-4">
+<div class="w-full h-44 rounded-xl overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" style="background-image: url('images/aquafolio-programs-scene-06.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-abyss-surface to-transparent">
+</div>
+<span class="absolute top-2.5 left-2.5 px-2.5 py-0.5 rounded-full bg-primary-container text-on-primary-fixed font-label-data-mono text-[11px] font-bold">인기 NO.1</span>
+<div class="absolute bottom-2 left-2 right-2 flex items-center justify-between text-caption text-sea-foam font-label-data-mono">
+<span>수조 상부 캣워크</span>
+<span class="text-primary">회당 40분</span>
+</div>
+</div>
+<div>
+<span class="font-label-species-latin text-caption text-outline uppercase tracking-wider">Backstage Aqua Tour</span>
+<h3 class="font-headline-sm text-headline-sm text-sea-foam group-hover:text-primary transition-colors mt-0.5">
+              백사이드 투어
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 line-clamp-3">
+              일반 관람객 출입 제한 구역인 수조 상부 캣워크, 먹이 조리실, 대형 LSS 수질 정화 시설을 탐방하며 가오리 피딩에 직접 참여합니다.
+            </p>
+</div>
+<!-- Specs List -->
+<div class="space-y-1.5 p-3 rounded-xl bg-surface-container-low text-caption">
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>대상 연령</span>
+<span class="text-sea-foam font-semibold">만 6세 이상 (보호자 동반)</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>준비물</span>
+<span class="text-sea-foam">미끄럼 방지 편한 운동화</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>정원</span>
+<span class="text-sea-foam font-label-data-mono">회당 최대 10명</span>
+</div>
+</div>
+</div>
+<div class="pt-5 mt-4 flex items-center justify-between bg-transparent">
+<div>
+<span class="font-label-data-mono text-[10px] text-outline block">1인 체험료</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">25,000<span class="text-body-sm font-normal text-sea-foam">원</span>
+</span>
+</div>
+<button class="px-3.5 py-2 rounded-xl bg-primary-container text-on-primary-fixed font-body-sm font-bold shadow-[0_0_14px_rgba(0,229,255,0.3)] hover:bg-secondary-fixed transition-all flex items-center gap-1" type="button" data-experience="experience-0">
+<span>체험 예약</span>
+<svg class="aq-icon  text-[16px]" data-icon="arrow_forward" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16m-6-6 6 6-6 6">
+</path>
+</svg>
+</button>
+</div>
+</div>
+<!-- Card 2: 주니어 아쿠아리스트 클래스 -->
+<div class="flex flex-col justify-between p-5 rounded-2xl bg-abyss-surface/90 hover:bg-abyss-elevated transition-all shadow-2xl group relative overflow-hidden">
+<div class="space-y-4">
+<div class="w-full h-44 rounded-xl overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" style="background-image: url('images/aquafolio-programs-scene-07.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-abyss-surface to-transparent">
+</div>
+<span class="absolute top-2.5 left-2.5 px-2.5 py-0.5 rounded-full bg-secondary-fixed-dim text-on-secondary-fixed font-label-data-mono text-[11px] font-bold">수료증 발급</span>
+<div class="absolute bottom-2 left-2 right-2 flex items-center justify-between text-caption text-sea-foam font-label-data-mono">
+<span>해양생물 의무실</span>
+<span class="text-secondary">회당 60분</span>
+</div>
+</div>
+<div>
+<span class="font-label-species-latin text-caption text-outline uppercase tracking-wider">Junior Aquarist Academy</span>
+<h3 class="font-headline-sm text-headline-sm text-sea-foam group-hover:text-secondary transition-colors mt-0.5">
+              주니어 아쿠아리스트
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 line-clamp-3">
+              초등학생 전용 1일 사육사 과정. 생물 영양식 조리, 체온 및 수질 측정, 해양동물 응급 치료 체험 후 정식 주니어 사육사 수료증을 수여합니다.
+            </p>
+</div>
+<!-- Specs List -->
+<div class="space-y-1.5 p-3 rounded-xl bg-surface-container-low text-caption">
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>대상 연령</span>
+<span class="text-sea-foam font-semibold">초등 1학년 ~ 6학년</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>준비물</span>
+<span class="text-sea-foam">제공 (체험복 가운 증정)</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>정원</span>
+<span class="text-sea-foam font-label-data-mono">회당 최대 8명</span>
+</div>
+</div>
+</div>
+<div class="pt-5 mt-4 flex items-center justify-between bg-transparent">
+<div>
+<span class="font-label-data-mono text-[10px] text-outline block">1인 체험료</span>
+<span class="font-headline-sm text-headline-sm text-sea-foam font-bold">45,000<span class="text-body-sm font-normal text-on-surface-variant">원</span>
+</span>
+</div>
+<button class="px-3.5 py-2 rounded-xl bg-primary-container text-on-primary-fixed font-body-sm font-bold shadow-[0_0_14px_rgba(0,229,255,0.3)] hover:bg-secondary-fixed transition-all flex items-center gap-1" type="button" data-experience="experience-1">
+<span>체험 예약</span>
+<svg class="aq-icon  text-[16px]" data-icon="arrow_forward" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16m-6-6 6 6-6 6">
+</path>
+</svg>
+</button>
+</div>
+</div>
+<!-- Card 3: 메인수조 씨워커 & 스쿠버 다이빙 -->
+<div class="flex flex-col justify-between p-5 rounded-2xl bg-abyss-surface/90 hover:bg-abyss-elevated transition-all shadow-2xl group relative overflow-hidden">
+<div class="space-y-4">
+<div class="w-full h-44 rounded-xl overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" style="background-image: url('images/aquafolio-programs-scene-08.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-abyss-surface to-transparent">
+</div>
+<span class="absolute top-2.5 left-2.5 px-2.5 py-0.5 rounded-full bg-conservation-amber text-sea-foam font-label-data-mono text-[11px] font-bold">VIP 다이빙</span>
+<div class="absolute bottom-2 left-2 right-2 flex items-center justify-between text-caption text-sea-foam font-label-data-mono">
+<span>메인수조 (수심 7m)</span>
+<span class="text-secondary">회당 50분</span>
+</div>
+</div>
+<div>
+<span class="font-label-species-latin text-caption text-outline uppercase tracking-wider">Sea Walker &amp; Scuba</span>
+<h3 class="font-headline-sm text-headline-sm text-sea-foam group-hover:text-primary transition-colors mt-0.5">
+              씨워커 &amp; 수중 산책
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 line-clamp-3">
+              특수 공기 공급 헬멧을 착용하고 수영을 못해도 안전하게 25m 메인 수조 바닥을 직접 거니는 궁극의 심해 언더워터 워킹 프로그램입니다.
+            </p>
+</div>
+<!-- Specs List -->
+<div class="space-y-1.5 p-3 rounded-xl bg-surface-container-low text-caption">
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>대상 연령</span>
+<span class="text-sea-foam font-semibold">만 12세 이상 (신장 140cm 이상)</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>준비물</span>
+<span class="text-sea-foam">수영복 &amp; 개인 세면도구</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>정원</span>
+<span class="text-sea-foam font-label-data-mono">회당 최대 4명 밀착 케어</span>
+</div>
+</div>
+</div>
+<div class="pt-5 mt-4 flex items-center justify-between bg-transparent">
+<div>
+<span class="font-label-data-mono text-[10px] text-outline block">1인 체험료</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">110,000<span class="text-body-sm font-normal text-sea-foam">원</span>
+</span>
+</div>
+<button class="px-3.5 py-2 rounded-xl bg-primary-container text-on-primary-fixed font-body-sm font-bold shadow-[0_0_14px_rgba(0,229,255,0.3)] hover:bg-secondary-fixed transition-all flex items-center gap-1" type="button" data-experience="experience-2">
+<span>체험 예약</span>
+<svg class="aq-icon  text-[16px]" data-icon="arrow_forward" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16m-6-6 6 6-6 6">
+</path>
+</svg>
+</button>
+</div>
+</div>
+<!-- Card 4: 해양 생태 과학교실 -->
+<div class="flex flex-col justify-between p-5 rounded-2xl bg-abyss-surface/90 hover:bg-abyss-elevated transition-all shadow-2xl group relative overflow-hidden">
+<div class="space-y-4">
+<div class="w-full h-44 rounded-xl overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" style="background-image: url('images/aquafolio-programs-scene-09.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-abyss-surface to-transparent">
+</div>
+<span class="absolute top-2.5 left-2.5 px-2.5 py-0.5 rounded-full bg-surface-variant text-sea-foam font-label-data-mono text-[11px] font-bold">STEM 과학인증</span>
+<div class="absolute bottom-2 left-2 right-2 flex items-center justify-between text-caption text-sea-foam font-label-data-mono">
+<span>해양생명 바이오랩</span>
+<span class="text-primary-fixed-dim">회당 40분</span>
+</div>
+</div>
+<div>
+<span class="font-label-species-latin text-caption text-outline uppercase tracking-wider">Marine Bio STEM Lab</span>
+<h3 class="font-headline-sm text-headline-sm text-sea-foam group-hover:text-primary transition-colors mt-0.5">
+              해양 생태 과학교실
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 line-clamp-3">
+              광학 현미경을 활용한 살아있는 발광 플랑크톤 관찰, 산호 프래깅(인공 번식) 워크숍 및 해양 미세플라스틱 정화 키트 제작 체험입니다.
+            </p>
+</div>
+<!-- Specs List -->
+<div class="space-y-1.5 p-3 rounded-xl bg-surface-container-low text-caption">
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>대상 연령</span>
+<span class="text-sea-foam font-semibold">초등 3학년 ~ 성인</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>준비물</span>
+<span class="text-sea-foam">별도 준비물 없음 (교재 증정)</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>정원</span>
+<span class="text-sea-foam font-label-data-mono">회당 최대 12명</span>
+</div>
+</div>
+</div>
+<div class="pt-5 mt-4 flex items-center justify-between bg-transparent">
+<div>
+<span class="font-label-data-mono text-[10px] text-outline block">1인 체험료</span>
+<span class="font-headline-sm text-headline-sm text-sea-foam font-bold">20,000<span class="text-body-sm font-normal text-on-surface-variant">원</span>
+</span>
+</div>
+<button class="px-3.5 py-2 rounded-xl bg-primary-container text-on-primary-fixed font-body-sm font-bold shadow-[0_0_14px_rgba(0,229,255,0.3)] hover:bg-secondary-fixed transition-all flex items-center gap-1" type="button" data-experience="experience-3">
+<span>체험 예약</span>
+<svg class="aq-icon  text-[16px]" data-icon="arrow_forward" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16m-6-6 6 6-6 6">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: 단체 및 학교 교육 프로그램 안내 (School & Group Education) -->
+<section class="w-full max-w-7xl mx-auto px-gutter py-10">
+<div class="p-8 md:p-10 rounded-3xl bg-surface-container-low shadow-2xl relative overflow-hidden">
+<!-- Ambient light bubble -->
+<div class="absolute -right-20 -bottom-20 w-96 h-96 bg-primary-container/10 rounded-full blur-3xl pointer-events-none">
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
+<div class="lg:col-span-7 space-y-4">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-variant text-secondary">
+<svg class="aq-icon  text-[18px]" data-icon="school" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 5v15M3 4c4-1 7 0 9 1 2-1 5-2 9-1v15c-4-1-7 0-9 1-2-1-5-2-9-1Z">
+</path>
+</svg>
+<span class="font-label-data-mono text-label-data-mono font-bold uppercase tracking-wider">Academic Outreach &amp; Field Study</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-sea-foam">
+            단체 &amp; 학교 맞춤형 해양 생태 도슨트 탐방
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            유치원, 초·중·고교 및 학술 연구단체를 위한 전문 해양 해설사 1:1 동행 도슨트 투어와 학년별 수준 맞춤형 워크북 패키지를 제공합니다. 20인 이상 단체 방문 시 최대 35% 할인 혜택이 적용됩니다.
+          </p>
+<!-- 3-Step Process Rail -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
+<div class="p-3.5 rounded-xl bg-abyss-surface/70">
+<span class="font-label-data-mono text-[11px] text-primary-container font-bold">STEP 01</span>
+<h4 class="font-headline-sm text-body-md text-sea-foam mt-1 font-semibold">일정 및 인원 협의</h4>
+<p class="font-caption text-caption text-on-surface-variant mt-0.5">희망 일자 최소 2주 전 온라인 접수</p>
+</div>
+<div class="p-3.5 rounded-xl bg-abyss-surface/70">
+<span class="font-label-data-mono text-[11px] text-secondary font-bold">STEP 02</span>
+<h4 class="font-headline-sm text-body-md text-sea-foam mt-1 font-semibold">커리큘럼 매칭</h4>
+<p class="font-caption text-caption text-on-surface-variant mt-0.5">유아/초등/중고등 학술 코스 지정</p>
+</div>
+<div class="p-3.5 rounded-xl bg-abyss-surface/70">
+<span class="font-label-data-mono text-[11px] text-sea-foam font-bold">STEP 03</span>
+<h4 class="font-headline-sm text-body-md text-sea-foam mt-1 font-semibold">도슨트 전담 배정</h4>
+<p class="font-caption text-caption text-on-surface-variant mt-0.5">전용 음향 수신기 및 교재 무상 제공</p>
+</div>
+</div>
+</div>
+<!-- Group Action Drawer -->
+<div class="lg:col-span-5 p-6 rounded-2xl bg-abyss-surface/90 shadow-xl space-y-4">
+<div class="flex items-center justify-between pb-3">
+<div>
+<span class="font-label-data-mono text-label-data-mono text-outline">단체 전문 상담</span>
+<p class="font-headline-md text-headline-md text-sea-foam font-bold">02-3488-8820</p>
+</div>
+<div class="px-3 py-1 rounded-full bg-secondary/15 text-secondary font-label-data-mono text-caption font-semibold">
+              평일 09:30 - 17:30
+            </div>
+</div>
+<div class="space-y-2 text-body-sm text-on-surface-variant">
+<div class="flex items-center gap-2">
+<svg class="aq-icon  text-primary-container text-[18px]" data-icon="verified" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span>교육부 '꿈길' 진로체험 인증 인증기관</span>
+</div>
+<div class="flex items-center gap-2">
+<svg class="aq-icon  text-primary-container text-[18px]" data-icon="verified" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span>대형 버스 전용 주차장 무료 지원 (사전 접수 시)</span>
+</div>
+<div class="flex items-center gap-2">
+<svg class="aq-icon  text-primary-container text-[18px]" data-icon="verified" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span>인솔 교사 및 지도자 무료 입장권 제공 (15명당 1인)</span>
+</div>
+</div>
+<div class="pt-2 flex flex-col sm:flex-row gap-2.5">
+<button class="w-full py-3 rounded-xl bg-primary-container text-on-primary-fixed font-headline-sm text-body-sm font-bold shadow-[0_0_20px_rgba(0,229,255,0.35)] hover:bg-secondary-fixed transition-all text-center" type="button" data-go="aquafolio-groups.html">
+              단체 관람 신청하기
+            </button>
+<button class="w-full sm:w-auto px-4 py-3 rounded-xl bg-surface-container-high text-sea-foam hover:bg-surface-variant text-body-sm font-semibold transition-all text-center flex items-center justify-center gap-1" type="button" data-go="aquafolio-guide.html">
+<svg class="aq-icon  text-[18px]" data-icon="download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 3v12m-5-5 5 5 5-5M4 18v3h16v-3">
+</path>
+</svg>
+<span>소개서 PDF</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: 관람 에티켓 & 안전 가이드 (Visitor Courtesy & Safety) -->
+<section class="w-full max-w-7xl mx-auto px-gutter pt-4 pb-16">
+<div class="p-6 md:p-8 rounded-2xl bg-surface-container-lowest shadow-xl">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+<div class="flex items-center gap-2.5">
+<svg class="aq-icon  text-conservation-amber text-[24px]" data-icon="shield_with_heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-sea-foam">해양생물 보호를 위한 관람 에티켓 &amp; 안전 약속</h3>
+<p class="font-body-sm text-body-sm text-outline">모든 생명체들의 스트레스를 최소화하고 건강한 환경을 지키기 위해 준수해 주세요.</p>
+</div>
+</div>
+<span class="font-label-species-latin text-label-data-mono text-outline tracking-wider uppercase">Ethical Animal Welfare Standard</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+<!-- Etiquette 1 -->
+<div class="flex items-start gap-3.5 p-4 rounded-xl bg-surface-container-low/70">
+<div class="w-10 h-10 rounded-xl bg-coral-alert/15 text-coral-alert flex items-center justify-center shrink-0">
+<svg class="aq-icon  text-[22px]" data-icon="touch_app" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-md text-sea-foam font-semibold">수조 유리 두드리기 금지</h4>
+<p class="font-caption text-caption text-on-surface-variant mt-1 leading-snug">
+              유리를 치는 미세한 음파 충격은 수중 생물들의 청각과 측선 기관에 극심한 스트레스를 줍니다.
+            </p>
+</div>
+</div>
+<!-- Etiquette 2 -->
+<div class="flex items-start gap-3.5 p-4 rounded-xl bg-surface-container-low/70">
+<div class="w-10 h-10 rounded-xl bg-coral-alert/15 text-coral-alert flex items-center justify-center shrink-0">
+<svg class="aq-icon  text-[22px]" data-icon="flash_off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-md text-sea-foam font-semibold">플래시 촬영 절대 금지</h4>
+<p class="font-caption text-caption text-on-surface-variant mt-1 leading-snug">
+              어두운 심해 서식 어종 및 벨루가, 펭귄의 시신경을 손상시킬 수 있으므로 무플래시로 촬영해 주세요.
+            </p>
+</div>
+</div>
+<!-- Etiquette 3 -->
+<div class="flex items-start gap-3.5 p-4 rounded-xl bg-surface-container-low/70">
+<div class="w-10 h-10 rounded-xl bg-coral-alert/15 text-coral-alert flex items-center justify-center shrink-0">
+<svg class="aq-icon  text-[22px]" data-icon="no_food" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-md text-sea-foam font-semibold">외부 먹이 투여 금지</h4>
+<p class="font-caption text-caption text-on-surface-variant mt-1 leading-snug">
+              지정된 프로그램 외 과자, 음료 등 이물질 투여는 수질 오염 및 동물 소화기 질환을 유발합니다.
+            </p>
+</div>
+</div>
+<!-- Etiquette 4 -->
+<div class="flex items-start gap-3.5 p-4 rounded-xl bg-surface-container-low/70">
+<div class="w-10 h-10 rounded-xl bg-primary-container/15 text-primary flex items-center justify-center shrink-0">
+<svg class="aq-icon  text-[22px]" data-icon="child_friendly" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-md text-sea-foam font-semibold">어린이 손잡기 &amp; 정숙 관람</h4>
+<p class="font-caption text-caption text-on-surface-variant mt-1 leading-snug">
+              관람 통로가 어두우므로 보호자는 어린아이의 손을 잡고 뛰지 않도록 안전 지도를 부탁드립니다.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer class="w-full bg-surface-container-lowest pt-space-xl pb-16">
+<div class="max-w-7xl mx-auto px-gutter">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-lg pb-12">
+<div class="lg:col-span-2 flex flex-col gap-space-sm">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container">
+</span>
+<span class="font-headline-md text-headline-md tracking-wider text-sea-foam">AQUAFOLIO</span>
+</div>
+<p class="font-label-species-latin text-label-species-latin text-outline tracking-wider uppercase">Metropolitan Marine Sanctuary &amp; Biodiversity Research Institute</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant pr-space-lg leading-relaxed">아쿠아폴리오는 해양 생태계 보전과 인간의 공존을 연구하는 도심형 해양 연구 생태관입니다. 650여 종 55,000마리의 생명들과 함께 살아 숨쉬는 심해의 경이로움을 전합니다.</p>
+<div class="flex items-center gap-4 pt-2">
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-low">
+<svg class="aq-icon  text-secondary text-[16px]" data-icon="eco" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span class="font-label-data-mono text-label-data-mono text-on-surface">WAZA 정회원 기관</span>
+</div>
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-low">
+<svg class="aq-icon  text-conservation-amber text-[16px]" data-icon="verified" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span class="font-label-data-mono text-label-data-mono text-on-surface">해양동물 전문구조치료기관</span>
+</div>
+</div>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-lg text-sea-foam mb-space-sm">탐험 &amp; 전시</h4>
+<ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<li>
+<a class="hover:text-primary transition-colors" data-path="creatures" href="aquafolio-creatures.html">심해 존 (The Abyss)</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="creatures" href="aquafolio-creatures.html">산호초 산책로</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="creatures" href="aquafolio-creatures.html">펠라직 오픈오션</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="creatures" href="aquafolio-creatures.html">극지 생태 탐험관</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="experiences" href="aquafolio-programs.html">피딩 타임 &amp; 생태설명회</a>
+</li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-lg text-sea-foam mb-space-sm">이용 &amp; 편의</h4>
+<ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<li>
+<a class="hover:text-primary transition-colors" data-path="tickets-and-info" href="aquafolio-tickets.html">운영시간 및 요금안내</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="tickets-and-info" href="aquafolio-tickets.html#location">오시는 길 &amp; 주차안내</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="tickets-and-info" href="aquafolio-tickets.html">편의시설 &amp; 휠체어 대여</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="experiences" href="aquafolio-groups.html">단체 관람 및 도슨트 예약</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="tickets-and-info" href="aquafolio-tickets.html#faq-accordion-group">자주 묻는 질문 (FAQ)</a>
+</li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-lg text-sea-foam mb-space-sm">방문 센터 및 지원</h4>
+<div class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<p class="text-sea-foam font-headline-sm text-headline-sm">1661-2000</p>
+<p class="font-label-data-mono text-label-data-mono text-outline">운영시간 09:30 - 18:30 (연중무휴)</p>
+<p class="leading-relaxed">서울시 송파구 올림픽로 300<br>아쿠아폴리오 마린 콤플렉스 지하 1-2층</p>
+<a class="inline-block text-primary hover:underline font-label-data-mono text-label-data-mono pt-1" href="aquafolio-groups.html">단체 관람 문의</a>
+</div>
+</div>
+</div>
+<div class="pt-8 mt-4 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 font-caption text-caption text-outline">
+<div class="space-y-1">
+<p>(주)아쿠아폴리오 마린솔루션 | 대표이사: 해양연구단 | 사업자등록번호: 예시 정보 | 통신판매업신고: 2024-서울송파-1082호</p>
+<p>수족관 관리 및 서식지외보전기관 등록 제 11-호 | 동물원 및 수족관의 관리에 관한 법률 등록 시설</p>
+<p class="font-label-data-mono text-label-data-mono text-on-surface-variant">© 2026 AQUAFOLIO Marine Sanctuary &amp; Research Institute. All rights reserved.</p>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm font-body-sm text-body-sm text-on-surface-variant">
+<a class="hover:text-sea-foam transition-colors" href="aquafolio-privacy.html">개인정보처리방침</a>
+<span class="text-outline-variant">•</span>
+<a class="hover:text-sea-foam transition-colors" href="aquafolio-terms.html">이용약관</a>
+<span class="text-outline-variant">•</span>
+<a class="hover:text-sea-foam transition-colors" href="aquafolio-conservation.html">동물복지 윤리선언</a>
+<span class="text-outline-variant">•</span>
+<a class="hover:text-sea-foam transition-colors" href="aquafolio-privacy.html">영상정보처리기기 운영방침</a>
+</div>
+</div>
+</div>
+<p class="aq-demo-note">AQUAFOLIO는 디자인을 위한 가상의 아쿠아리움입니다. 전시·프로그램·요금·운영 정보는 예시이며, 실제 결제·예약·알림 발송은 진행하지 않습니다.</p>
+</footer>
+<dialog id="aquafolio-dialog" aria-labelledby="aquafolio-dialog-title">
+<div class="aq-dialog-head">
+<h2 id="aquafolio-dialog-title">
+</h2>
+<button type="button" data-close="" aria-label="닫기">
+<svg class="aq-icon" data-icon="close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 6 12 12M6 18 18 6">
+</path>
+</svg>
+</button>
+</div>
+<div id="aquafolio-dialog-body">
+</div>
+</dialog>
+<div id="aquafolio-status" role="status" hidden="">
+</div>
+
+
+
+
+
+
+</body>
+</html>

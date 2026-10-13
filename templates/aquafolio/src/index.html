@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="aquafolio.css">
+<script defer="" src="aquafolio-data.js">
+</script>
+<script defer="" src="aquafolio.js">
+</script>
+<title>AQUAFOLIO 아쿠아폴리오 | 깊고 푸른 바다</title>
+</head>
+<body class="bg-surface font-body-md text-body-md text-on-surface antialiased selection:bg-primary-container selection:text-surface" data-page="home">
+<a class="aq-skip" href="#main">본문 바로가기</a>
+<header class="fixed top-0 left-0 right-0 w-full z-50 bg-abyss-surface/80 backdrop-blur-xl shadow-[0_12px_32px_rgba(2,14,32,0.65)] aq-header">
+<div class="h-20 w-full max-w-7xl mx-auto px-gutter flex items-center justify-between gap-space-md aq-header-row">
+<div class="flex items-center gap-space-lg">
+<a class="flex flex-col group aq-brand" data-path="home" href="index.html">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse">
+</span>
+<span class="font-headline-md text-headline-md tracking-wider text-sea-foam group-hover:text-primary-container transition-colors">AQUAFOLIO</span>
+</div>
+<span class="font-label-species-latin text-label-species-latin text-outline tracking-widest text-[10px] uppercase leading-none">MARINE SANCTUARY &amp; AQUARIUM</span>
+</a>
+<nav class="hidden xl:flex items-center gap-1" data-active-classes="bg-surface-variant text-primary-container font-semibold rounded-lg" id="aquafolio-navigation">
+<a class="px-space-sm py-2 rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-sea-foam hover:bg-surface-container transition-all" data-path="about" href="aquafolio-about.html" aria-current="page">아쿠아리움 소개</a>
+<a class="px-space-sm py-2 rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-sea-foam hover:bg-surface-container transition-all" data-path="creatures" href="aquafolio-creatures.html">해양 생물 도감</a>
+<a class="px-space-sm py-2 rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-sea-foam hover:bg-surface-container transition-all" data-path="experiences" href="aquafolio-programs.html">생태 체험 &amp; 프로그램</a>
+<a class="px-space-sm py-2 rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-sea-foam hover:bg-surface-container transition-all" data-path="tickets-and-info" href="aquafolio-tickets.html">이용안내 &amp; 예매</a>
+<a class="px-space-sm py-2 rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-sea-foam hover:bg-surface-container transition-all" data-path="conservation" href="aquafolio-conservation.html">보존 &amp; 연구</a>
+</nav>
+</div>
+<div class="flex items-center gap-space-sm aq-header-tools">
+<div class="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-low">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed-dim">
+</span>
+<span class="font-label-data-mono text-label-data-mono text-sea-foam">오늘 10:00 - 20:00</span>
+</div>
+<a class="px-space-md py-2.5 rounded-xl bg-primary-container text-on-primary-fixed font-headline-sm text-body-sm font-bold flex items-center gap-1.5 shadow-[0_0_20px_-2px_rgba(0,229,255,0.35)] hover:bg-secondary-fixed transition-all aq-header-ticket" data-path="ticket-booking" href="aquafolio-tickets.html">
+<span>빠른 입장권 예매</span>
+<svg class="aq-icon  text-[18px]" data-icon="arrow_forward" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16m-6-6 6 6-6 6">
+</path>
+</svg>
+</a>
+<a class="aq-account" href="aquafolio-tickets.html#ticketing-booking-engine" aria-label="티켓 선택 화면">
+<svg class="aq-icon" data-icon="confirmation_number" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M2 6h20v4a2 2 0 0 0 0 4v4H2v-4a2 2 0 0 0 0-4Zm14 0v3m0 2v2m0 2v3">
+</path>
+</svg>
+</a>
+<button class="aq-menu-toggle" type="button" aria-label="메뉴 열기" aria-controls="aquafolio-navigation" aria-expanded="false">
+<svg class="aq-icon" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 6h18M3 12h18M3 18h18">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</header>
+<main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]" id="main">
+<div class="flex flex-col w-full">
+<!-- 1. CINEMATIC HERO SECTION -->
+<section class="relative w-full overflow-hidden bg-abyss-surface -mt-20 pt-20" id="ocean">
+<!-- Ambient Bioluminescent Water Backing -->
+<div class="absolute inset-0 z-0 pointer-events-none opacity-40">
+<div class="absolute -top-32 left-1/4 w-[600px] h-[600px] rounded-full bg-primary-container/20 blur-[140px]">
+</div>
+<div class="absolute top-1/3 right-10 w-[500px] h-[500px] rounded-full bg-secondary-container/25 blur-[160px]">
+</div>
+<div class="absolute bottom-10 left-1/3 w-[450px] h-[450px] rounded-full bg-surface-container-highest/60 blur-[120px]">
+</div>
+</div>
+<!-- Hero Background Visual Canvas -->
+<div class="relative w-full min-h-[740px] lg:min-h-[820px] flex items-center">
+<div class="absolute inset-0 z-0 bg-cover bg-center" style="background-image: url('images/aquafolio-home-scene-13.jpg')">
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/65 to-surface-dim/40">
+</div>
+<div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/75 to-transparent">
+</div>
+</div>
+<!-- Hero Content Container -->
+<div class="relative z-10 w-full max-w-7xl mx-auto px-gutter py-space-xl flex flex-col justify-between h-full">
+<div class="max-w-3xl space-y-space-md pt-8 lg:pt-14">
+<!-- Sanctuary Classification Pill -->
+<div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-surface-container-high/70 backdrop-blur-md shadow-sm aq-hero-badge">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-ping">
+</span>
+<span class="font-label-species-latin text-label-species-latin text-primary uppercase tracking-widest text-[11px]">Benthic Deep Sanctuary &amp; Research Complex</span>
+<span class="text-outline text-xs">/</span>
+<span class="font-label-data-mono text-label-data-mono text-sea-foam text-[11px]">ZONE 01-05 REAL-TIME FEED</span>
+</div>
+<!-- Main Typography Stack -->
+<h1 class="font-headline-xl text-headline-xl lg:text-display-hero font-extrabold text-sea-foam tracking-tight leading-tight">
+            도심 속에서 마주하는<br>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-container via-primary to-secondary-fixed">깊고 푸른 바다의 신비,</span>
+<br>
+            아쿠아폴리오
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed pt-1">
+            국내 최대 25m 메인 수조, 650종 55,000여 마리의 해양 생명들이 펼치는 환상적인 생태 하모니. 투명한 심해 아크릴 너머로 살아 숨 쉬는 생명의 경이로움을 오감으로 마주하세요.
+          </p>
+<!-- Dual CTAs -->
+<div class="flex flex-wrap items-center gap-space-sm pt-4">
+<a class="px-space-lg py-3.5 rounded-xl bg-primary-container text-on-primary-fixed font-headline-sm text-body-md font-bold flex items-center gap-2 shadow-[0_0_24px_-2px_rgba(0,229,255,0.4)] hover:bg-secondary-fixed hover:scale-[1.02] transition-all" data-path="ticket-booking" href="aquafolio-tickets.html">
+<svg class="aq-icon  text-[20px]" data-icon="confirmation_number" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M2 6h20v4a2 2 0 0 0 0 4v4H2v-4a2 2 0 0 0 0-4Zm14 0v3m0 2v2m0 2v3">
+</path>
+</svg>
+<span>온라인 예매 (최대 30% 할인)</span>
+</a>
+<a class="px-space-md py-3.5 rounded-xl bg-surface-container-high/80 text-sea-foam font-headline-sm text-body-md hover:bg-surface-variant transition-all flex items-center gap-2 shadow-sm" href="#daily-programs">
+<svg class="aq-icon  text-secondary text-[20px]" data-icon="schedule" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 6v6l4 2">
+</path>
+</svg>
+<span>오늘의 생태 프로그램 보기</span>
+</a>
+</div>
+</div>
+<!-- Realtime Visitor Intelligence Bar -->
+<div class="mt-14 w-full grid grid-cols-1 md:grid-cols-3 gap-3 p-3 rounded-2xl bg-surface-container/85 backdrop-blur-xl shadow-xl">
+<div class="flex items-center gap-3.5 p-3 rounded-xl bg-surface-container-low/80">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary-container">
+<svg class="aq-icon  text-[22px]" data-icon="nest_clock_farsight_analog" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<div class="min-w-0">
+<div class="font-label-data-mono text-label-data-mono text-outline text-[10px] uppercase tracking-wider">Opening Hours</div>
+<div class="font-headline-sm text-body-md text-sea-foam truncate">10:00 ~ 20:00 (입장 마감 19:00)</div>
+</div>
+</div>
+<div class="flex items-center gap-3.5 p-3 rounded-xl bg-surface-container-low/80">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary-fixed-dim">
+<svg class="aq-icon  text-[22px]" data-icon="group" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M8 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8M1 22v-3a7 7 0 0 1 14 0v3M15 4a4 4 0 0 1 0 8M17 15a6 6 0 0 1 6 6v1">
+</path>
+</svg>
+</div>
+<div class="min-w-0">
+<div class="font-label-data-mono text-label-data-mono text-outline text-[10px] uppercase tracking-wider">Crowd Telemetry</div>
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-body-md text-sea-foam truncate">현재 실내 혼잡도:</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container/20 text-primary-container font-label-data-mono text-label-data-mono text-[11px] font-bold">쾌적 (원활)</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-3.5 p-3 rounded-xl bg-surface-container-low/80">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<svg class="aq-icon  text-[22px]" data-icon="local_parking" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 22V2h7a6 6 0 0 1 0 12H6M6 5h7a3 3 0 0 1 0 6H6">
+</path>
+</svg>
+</div>
+<div class="min-w-0">
+<div class="font-label-data-mono text-label-data-mono text-outline text-[10px] uppercase tracking-wider">Parking &amp; Transit</div>
+<div class="font-headline-sm text-body-md text-sea-foam truncate">관람객 4시간 4,800원 정액 할인</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. DAILY HIGHLIGHT & LIVE ECOLOGY PROGRAM SCHEDULE -->
+<section class="w-full py-space-xl bg-surface relative" id="daily-programs">
+<div class="max-w-7xl mx-auto px-gutter">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-10">
+<div>
+<div class="flex items-center gap-2 font-label-data-mono text-label-data-mono text-primary-container uppercase tracking-widest mb-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container">
+</span>
+            LIVE DAILY ECO TIMETABLE
+          </div>
+<h2 class="font-headline-xl text-headline-xl text-sea-foam tracking-tight font-bold">오늘의 생태설명회 &amp; 공연 타임테이블</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">전문 아쿠아리스트가 들려주는 경이로운 해양 생명들의 스토리텔링과 특별 피딩</p>
+</div>
+<div class="flex items-center gap-2 self-start md:self-auto">
+<span class="px-3 py-1.5 rounded-lg bg-surface-container font-label-data-mono text-label-data-mono text-primary flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse">
+</span>
+            실시간 현장 일정 동기화됨
+          </span>
+</div>
+</div>
+<!-- Schedule Cards Horizontal Rail -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Card 1 -->
+<div class="group flex flex-col justify-between p-space-md rounded-2xl bg-surface-container/70 hover:bg-surface-container-high transition-all shadow-md hover:shadow-xl">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-md bg-surface-container-highest font-label-data-mono text-label-data-mono text-sea-foam font-bold">11:30 &amp; 15:00</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container/20 text-primary-container font-label-data-mono text-label-data-mono text-[10px]">입장 대기중</span>
+</div>
+<div class="w-full h-36 rounded-xl overflow-hidden bg-cover bg-center my-2" style="background-image: url('images/aquafolio-home-scene-14.jpg')">
+</div>
+<div>
+<span class="font-label-species-latin text-label-species-latin text-outline text-[11px]">Delphinapterus leucas</span>
+<h3 class="font-headline-sm text-headline-sm text-sea-foam mt-0.5 group-hover:text-primary transition-colors">
+<a href="aquafolio-creatures.html?species=beluga">벨루가 생태 설명회</a>
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">북극해의 카나리아 흰고래의 신비로운 초음파 대화와 건강관리 메디컬 트레이닝 시연</p>
+</div>
+</div>
+<div class="pt-4 mt-4 flex items-center justify-between text-caption font-caption text-outline">
+<span class="flex items-center gap-1">
+<svg class="aq-icon  text-[15px]" data-icon="location_on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 22-7-10a8 8 0 1 1 14 0ZM15 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
+</path>
+</svg>지하 2층 벨루가 수조</span>
+<span class="font-label-data-mono text-label-data-mono text-sea-foam font-semibold">소요시간 약 15분</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group flex flex-col justify-between p-space-md rounded-2xl bg-surface-container/70 hover:bg-surface-container-high transition-all shadow-md hover:shadow-xl">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-md bg-surface-container-highest font-label-data-mono text-label-data-mono text-sea-foam font-bold">13:00 &amp; 16:30</span>
+<span class="px-2 py-0.5 rounded-full bg-conservation-amber/20 text-conservation-amber font-label-data-mono text-label-data-mono text-[10px]">마감 임박</span>
+</div>
+<div class="w-full h-36 rounded-xl overflow-hidden bg-cover bg-center my-2" style="background-image: url('images/aquafolio-home-scene-15.jpg')">
+</div>
+<div>
+<span class="font-label-species-latin text-label-species-latin text-outline text-[11px]">Grand Ocean Main Tank</span>
+<h3 class="font-headline-sm text-headline-sm text-sea-foam mt-0.5 group-hover:text-primary transition-colors">
+<a href="aquafolio-programs.html">메인수조 피딩쇼 &amp; 수중 발레</a>
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">대형 가오리 떼와 가오리의 다이내믹한 먹이 섭식, 국가대표 출신 싱크로나이즈 팀의 경이로운 수중 공연</p>
+</div>
+</div>
+<div class="pt-4 mt-4 flex items-center justify-between text-caption font-caption text-outline">
+<span class="flex items-center gap-1">
+<svg class="aq-icon  text-[15px]" data-icon="location_on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 22-7-10a8 8 0 1 1 14 0ZM15 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
+</path>
+</svg>지하 1층 딥블루 메인스퀘어</span>
+<span class="font-label-data-mono text-label-data-mono text-sea-foam font-semibold">소요시간 약 20분</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group flex flex-col justify-between p-space-md rounded-2xl bg-surface-container/70 hover:bg-surface-container-high transition-all shadow-md hover:shadow-xl">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-md bg-surface-container-highest font-label-data-mono text-label-data-mono text-sea-foam font-bold">14:00</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container/20 text-primary-container font-label-data-mono text-label-data-mono text-[10px]">진행 예정</span>
+</div>
+<div class="w-full h-36 rounded-xl overflow-hidden bg-cover bg-center my-2" style="background-image: url('images/aquafolio-home-scene-16.jpg')">
+</div>
+<div>
+<span class="font-label-species-latin text-label-species-latin text-outline text-[11px]">Spheniscus humboldti</span>
+<h3 class="font-headline-sm text-headline-sm text-sea-foam mt-0.5 group-hover:text-primary transition-colors">
+<a href="aquafolio-creatures.html?species=penguin">훔볼트 펭귄 식사 시간</a>
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">따뜻한 바다에 사는 멸종위기종 훔볼트 펭귄들의 빠른 유영 실력과 먹이 사냥 생태 관찰</p>
+</div>
+</div>
+<div class="pt-4 mt-4 flex items-center justify-between text-caption font-caption text-outline">
+<span class="flex items-center gap-1">
+<svg class="aq-icon  text-[15px]" data-icon="location_on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 22-7-10a8 8 0 1 1 14 0ZM15 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
+</path>
+</svg>지하 2층 펭귄 빌리지</span>
+<span class="font-label-data-mono text-label-data-mono text-sea-foam font-semibold">소요시간 약 10분</span>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="group flex flex-col justify-between p-space-md rounded-2xl bg-surface-container/70 hover:bg-surface-container-high transition-all shadow-md hover:shadow-xl">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-md bg-surface-container-highest font-label-data-mono text-label-data-mono text-sea-foam font-bold">15:30</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container/20 text-primary-container font-label-data-mono text-label-data-mono text-[10px]">진행 예정</span>
+</div>
+<div class="w-full h-36 rounded-xl overflow-hidden bg-cover bg-center my-2" style="background-image: url('images/aquafolio-home-scene-17.jpg')">
+</div>
+<div>
+<span class="font-label-species-latin text-label-species-latin text-outline text-[11px]">Zalophus californianus</span>
+<h3 class="font-headline-sm text-headline-sm text-sea-foam mt-0.5 group-hover:text-primary transition-colors">
+<a href="aquafolio-programs.html">바다사자 수중 토크쇼</a>
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">민첩한 수중 회전과 아쿠아리스트와의 긍정강화 교감을 통해 배우는 해양 포유류의 지능</p>
+</div>
+</div>
+<div class="pt-4 mt-4 flex items-center justify-between text-caption font-caption text-outline">
+<span class="flex items-center gap-1">
+<svg class="aq-icon  text-[15px]" data-icon="location_on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 22-7-10a8 8 0 1 1 14 0ZM15 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
+</path>
+</svg>지하 1층 바다사자 존</span>
+<span class="font-label-data-mono text-label-data-mono text-sea-foam font-semibold">소요시간 약 15분</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. EXPLORE 5 ICONIC OCEAN ZONES (5대 테마존 큐레이션) -->
+<section class="w-full py-space-xl bg-surface-dim relative">
+<div class="max-w-7xl mx-auto px-gutter">
+<div class="text-center max-w-2xl mx-auto mb-12">
+<span class="font-label-data-mono text-label-data-mono text-primary-container tracking-widest uppercase">IMMERSIVE UNDERWATER JOURNEY</span>
+<h2 class="font-headline-xl text-headline-xl text-sea-foam tracking-tight font-bold mt-1">아쿠아폴리오 5대 테마존 큐레이션</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">태양빛이 쏟아지는 담수 생태계부터 끝없는 심해의 적막까지, 층별로 진화하는 신비로운 여정</p>
+</div>
+<!-- Bento-style Asymmetric Zone Grid -->
+<div class="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 gap-space-md">
+<!-- Zone 1: Nature Ocean & Fresh Water (4 cols) -->
+<div class="group relative md:col-span-6 lg:col-span-4 min-h-[380px] rounded-3xl overflow-hidden bg-surface-container flex flex-col justify-end p-space-lg shadow-lg">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('images/aquafolio-home-scene-18.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/60 to-transparent">
+</div>
+<div class="relative z-10 space-y-2">
+<span class="font-label-data-mono text-label-data-mono text-primary-fixed-dim">ZONE 01 / LEVEL B1</span>
+<h3 class="font-headline-md text-headline-md text-sea-foam font-bold">
+<a href="aquafolio-about.html">네이처 오션 &amp; 담수 아마존</a>
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">울창한 원시림의 기운을 담은 거대한 담수 어류와 피라루쿠, 싱그러운 수초 정원의 생동감</p>
+<div class="flex items-center gap-2 pt-2 text-primary text-caption font-semibold">
+<span>서식 생물 140여 종 탐색</span>
+<svg class="aq-icon  text-[16px] group-hover:translate-x-1 transition-transform" data-icon="arrow_forward" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16m-6-6 6 6-6 6">
+</path>
+</svg>
+</div>
+</div>
+</div>
+<!-- Zone 2: Deep Ocean 360 Tunnel (8 cols hero feature) -->
+<div class="group relative md:col-span-6 lg:col-span-8 min-h-[380px] rounded-3xl overflow-hidden bg-surface-container flex flex-col justify-end p-space-lg shadow-lg">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('images/aquafolio-home-scene-19.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/65 to-transparent">
+</div>
+<div class="relative z-10 max-w-xl space-y-2">
+<span class="font-label-data-mono text-label-data-mono text-primary-container">ZONE 02 / LEVEL B1-B2</span>
+<h3 class="font-headline-lg text-headline-lg text-sea-foam font-bold">
+<a href="aquafolio-about.html">딥 오션 360° 파노라마 터널</a>
+</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">머리 위로 유영하는 거대한 상어와 가오리의 압도적인 실루엣. 바닷속 한가운데를 직접 걷는 듯한 경이로운 전방위 뷰포인트</p>
+<div class="flex items-center gap-3 pt-2">
+<span class="px-3 py-1 rounded-full bg-surface-container-high/80 font-label-data-mono text-label-data-mono text-primary">길이 42m 파노라믹 아크릴</span>
+<span class="px-3 py-1 rounded-full bg-surface-container-high/80 font-label-data-mono text-label-data-mono text-sea-foam">수심 12m 가상 체감</span>
+</div>
+</div>
+</div>
+<!-- Zone 3: Jellyfish Cluster (4 cols) -->
+<div class="group relative md:col-span-6 lg:col-span-4 min-h-[360px] rounded-3xl overflow-hidden bg-surface-container flex flex-col justify-end p-space-lg shadow-lg">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('images/aquafolio-home-scene-20.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/70 to-transparent">
+</div>
+<div class="relative z-10 space-y-2">
+<span class="font-label-data-mono text-label-data-mono text-primary-fixed-dim">ZONE 03 / LEVEL B2</span>
+<h3 class="font-headline-md text-headline-md text-sea-foam font-bold">
+<a href="aquafolio-about.html">젤리피시 클러스터 (Dream)</a>
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">무한한 거울과 몽환적인 발광 해파리의 박동. 시간 감각이 멈추는 가장 아름다운 심해의 명상 공간</p>
+</div>
+</div>
+<!-- Zone 4: Polar & Beluga Sanctuary (4 cols) -->
+<div class="group relative md:col-span-6 lg:col-span-4 min-h-[360px] rounded-3xl overflow-hidden bg-surface-container flex flex-col justify-end p-space-lg shadow-lg">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('images/aquafolio-home-scene-21.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/70 to-transparent">
+</div>
+<div class="relative z-10 space-y-2">
+<span class="font-label-data-mono text-label-data-mono text-primary-fixed-dim">ZONE 04 / LEVEL B2</span>
+<h3 class="font-headline-md text-headline-md text-sea-foam font-bold">
+<a href="aquafolio-creatures.html?species=beluga">극지 펭귄 &amp; 벨루가 생추어리</a>
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">남극과 북극의 기후 조건을 정밀 재현한 저온 생태 수조. 혹한의 바다를 누비는 생명들의 유쾌한 일상</p>
+</div>
+</div>
+<!-- Zone 5: Touch Pool & Aqua Lab (4 cols) -->
+<div class="group relative md:col-span-6 lg:col-span-4 min-h-[360px] rounded-3xl overflow-hidden bg-surface-container flex flex-col justify-end p-space-lg shadow-lg">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('images/aquafolio-home-scene-22.jpg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/70 to-transparent">
+</div>
+<div class="relative z-10 space-y-2">
+<span class="font-label-data-mono text-label-data-mono text-primary-fixed-dim">ZONE 05 / LEVEL B1</span>
+<h3 class="font-headline-md text-headline-md text-sea-foam font-bold">
+<a href="aquafolio-about.html">오션 터치풀 &amp; 아쿠아 랩</a>
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">손끝으로 느끼는 불가사리와 조간대 생물. 해양 연구원들의 미세 플랑크톤 연구 과정을 관람하는 오픈 랩</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. SIGNATURE MARINE LIFE SHOWCASE (대표 시그니처 해양 생물 쇼케이스) -->
+<section class="w-full py-space-xl bg-surface relative">
+<div class="max-w-7xl mx-auto px-gutter">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-12">
+<div>
+<span class="font-label-data-mono text-label-data-mono text-primary-container tracking-widest uppercase">SPECIES CONSERVATION &amp; TAXONOMY</span>
+<h2 class="font-headline-xl text-headline-xl text-sea-foam tracking-tight font-bold mt-1">시그니처 해양 생물 도감</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">아쿠아폴리오 생태 연구팀의 전문적인 케어로 함께 살아가는 주요 보호종들입니다</p>
+</div>
+<a class="inline-flex items-center gap-1.5 font-headline-sm text-body-md text-primary hover:text-primary-container transition-colors" data-path="creatures" href="aquafolio-creatures.html">
+<span>전체 650여 종 도감 보러가기</span>
+<svg class="aq-icon  text-[18px]" data-icon="arrow_forward" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16m-6-6 6 6-6 6">
+</path>
+</svg>
+</a>
+</div>
+<!-- Species Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- Species 1: Beluga -->
+<div class="group rounded-2xl bg-surface-container/60 hover:bg-surface-container p-space-md flex flex-col justify-between transition-all shadow-md">
+<div class="space-y-space-sm">
+<div class="relative aspect-[4/3] rounded-xl overflow-hidden bg-surface-container-high">
+<a class="aq-image-link" href="aquafolio-programs.html" tabindex="-1" aria-label="전시 및 프로그램 자세히 보기">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/aquafolio-home-photo-01.jpg" alt="High detail majestic portrait of a smiling white beluga whale Delphinapterus leucas swimming gently in pristine deep cold blue waters with ambient water ripples" loading="eager" decoding="async">
+</a>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md font-label-data-mono text-label-data-mono text-primary">IUCN 관심대상 (LC)</span>
+<span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md font-label-data-mono text-label-data-mono text-sea-foam">북극해 심해관</span>
+</div>
+<div>
+<div class="flex items-baseline justify-between pt-1">
+<h3 class="font-headline-md text-headline-md text-sea-foam font-bold">
+<a href="aquafolio-creatures.html?species=beluga">벨루가 (흰고래)</a>
+</h3>
+<span class="font-label-species-latin text-label-species-latin text-outline">Delphinapterus leucas</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+                ‘바다의 카나리아’라 불릴 만큼 다양한 음역대의 멜론(이마의 지방층) 소통 체계를 지녔습니다. 등지느러미가 없어 유빙 밑을 자유롭게 유영합니다.
+              </p>
+</div>
+</div>
+<!-- Biological Telemetry Specs Grid -->
+<div class="mt-4 pt-4 grid grid-cols-3 gap-2 bg-surface-container-low/80 p-3 rounded-xl font-label-data-mono text-label-data-mono">
+<div>
+<span class="text-outline block text-[10px]">체장</span>
+<span class="text-sea-foam font-bold">3.5 ~ 4.2m</span>
+</div>
+<div>
+<span class="text-outline block text-[10px]">수온 환경</span>
+<span class="text-primary font-bold">14.2°C 저온</span>
+</div>
+<div>
+<span class="text-outline block text-[10px]">주요 먹이</span>
+<span class="text-sea-foam font-bold">청어, 양미리</span>
+</div>
+</div>
+</div>
+<!-- Species 2: Sand Tiger Shark -->
+<div class="group rounded-2xl bg-surface-container/60 hover:bg-surface-container p-space-md flex flex-col justify-between transition-all shadow-md">
+<div class="space-y-space-sm">
+<div class="relative aspect-[4/3] rounded-xl overflow-hidden bg-surface-container-high">
+<a class="aq-image-link" href="aquafolio-programs.html" tabindex="-1" aria-label="전시 및 프로그램 자세히 보기">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/aquafolio-home-photo-02.jpg" alt="Dramatic close-up underwater portrait of a sand tiger shark with menacing jagged rows of visible teeth, slow gliding through an abyssal deep blue current with sharp light rays" loading="lazy" decoding="async">
+</a>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-error-container/80 backdrop-blur-md font-label-data-mono text-label-data-mono text-error">IUCN 취약 (VU)</span>
+<span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md font-label-data-mono text-label-data-mono text-sea-foam">메인 수조 &amp; 터널</span>
+</div>
+<div>
+<div class="flex items-baseline justify-between pt-1">
+<h3 class="font-headline-md text-headline-md text-sea-foam font-bold">
+<a href="aquafolio-creatures.html?species=sandshark">샌드타이거샤크</a>
+</h3>
+<span class="font-label-species-latin text-label-species-latin text-outline">Carcharias taurus</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+                날카로운 이빨과 무서운 외모와 달리 온순한 바다의 신사입니다. 공기를 삼켜 위장에 저장함으로써 수중에서 중성 부력을 유지하는 독특한 능력이 있습니다.
+              </p>
+</div>
+</div>
+<!-- Biological Telemetry Specs Grid -->
+<div class="mt-4 pt-4 grid grid-cols-3 gap-2 bg-surface-container-low/80 p-3 rounded-xl font-label-data-mono text-label-data-mono">
+<div>
+<span class="text-outline block text-[10px]">체장</span>
+<span class="text-sea-foam font-bold">2.2 ~ 3.0m</span>
+</div>
+<div>
+<span class="text-outline block text-[10px]">수온 환경</span>
+<span class="text-primary font-bold">21.5°C 온대</span>
+</div>
+<div>
+<span class="text-outline block text-[10px]">체중</span>
+<span class="text-sea-foam font-bold">120 ~ 160kg</span>
+</div>
+</div>
+</div>
+<!-- Species 3: Green Sea Turtle -->
+<div class="group rounded-2xl bg-surface-container/60 hover:bg-surface-container p-space-md flex flex-col justify-between transition-all shadow-md">
+<div class="space-y-space-sm">
+<div class="relative aspect-[4/3] rounded-xl overflow-hidden bg-surface-container-high">
+<a class="aq-image-link" href="aquafolio-programs.html" tabindex="-1" aria-label="전시 및 프로그램 자세히 보기">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/aquafolio-home-photo-03.jpg" alt="Ancient majestic green sea turtle gliding peacefully over colourful ocean coral reefs in warm turquoise marine water illuminated by dappled sunbeams" loading="lazy" decoding="async">
+</a>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-coral-alert/80 backdrop-blur-md font-label-data-mono text-label-data-mono text-sea-foam">IUCN 위기 (EN)</span>
+<span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md font-label-data-mono text-label-data-mono text-sea-foam">산호초 라군</span>
+</div>
+<div>
+<div class="flex items-baseline justify-between pt-1">
+<h3 class="font-headline-md text-headline-md text-sea-foam font-bold">
+<a href="aquafolio-creatures.html?species=turtle">푸른바다거북</a>
+</h3>
+<span class="font-label-species-latin text-label-species-latin text-outline">Chelonia mydas</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+                해양 생태계의 대표 보호 지표종으로 수백 킬로미터를 회유합니다. 아쿠아폴리오 구조치료센터에서 재활 치료를 마친 뒤 방류 프로그램을 병행하고 있습니다.
+              </p>
+</div>
+</div>
+<!-- Biological Telemetry Specs Grid -->
+<div class="mt-4 pt-4 grid grid-cols-3 gap-2 bg-surface-container-low/80 p-3 rounded-xl font-label-data-mono text-label-data-mono">
+<div>
+<span class="text-outline block text-[10px]">수명</span>
+<span class="text-sea-foam font-bold">80년 이상</span>
+</div>
+<div>
+<span class="text-outline block text-[10px]">식성</span>
+<span class="text-primary font-bold">해초류 (초식)</span>
+</div>
+<div>
+<span class="text-outline block text-[10px]">보호 등급</span>
+<span class="text-conservation-amber font-bold">CITES I급</span>
+</div>
+</div>
+</div>
+<!-- Species 4: Giant Pacific Octopus -->
+<div class="group rounded-2xl bg-surface-container/60 hover:bg-surface-container p-space-md flex flex-col justify-between transition-all shadow-md">
+<div class="space-y-space-sm">
+<div class="relative aspect-[4/3] rounded-xl overflow-hidden bg-surface-container-high">
+<a class="aq-image-link" href="aquafolio-programs.html" tabindex="-1" aria-label="전시 및 프로그램 자세히 보기">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/aquafolio-home-photo-04.jpg" alt="Intelligent Giant Pacific Octopus spreading its colossal red-orange arms and suckers across deep cold benthic abyss rock walls, intelligent eyes observing with curiosity" loading="lazy" decoding="async">
+</a>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md font-label-data-mono text-label-data-mono text-primary">IUCN 미평가</span>
+<span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md font-label-data-mono text-label-data-mono text-sea-foam">심해 콜드존</span>
+</div>
+<div>
+<div class="flex items-baseline justify-between pt-1">
+<h3 class="font-headline-md text-headline-md text-sea-foam font-bold">
+<a href="aquafolio-about.html">대왕문어</a>
+</h3>
+<span class="font-label-species-latin text-label-species-latin text-outline">Enteroctopus dofleini</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+                지구상에서 가장 큰 연체동물로 3개의 심장과 파란 피를 지녔습니다. 놀라운 문제 해결 능력과 도구 사용으로 해양 지능의 정점으로 평가받습니다.
+              </p>
+</div>
+</div>
+<!-- Biological Telemetry Specs Grid -->
+<div class="mt-4 pt-4 grid grid-cols-3 gap-2 bg-surface-container-low/80 p-3 rounded-xl font-label-data-mono text-label-data-mono">
+<div>
+<span class="text-outline block text-[10px]">팔 길이</span>
+<span class="text-sea-foam font-bold">최대 3.0m</span>
+</div>
+<div>
+<span class="text-outline block text-[10px]">수온 환경</span>
+<span class="text-primary font-bold">8.5°C 한대성</span>
+</div>
+<div>
+<span class="text-outline block text-[10px]">체색 변화</span>
+<span class="text-sea-foam font-bold">0.2초 즉시</span>
+</div>
+</div>
+</div>
+<!-- Species 5: Spotted Seal -->
+<div class="group rounded-2xl bg-surface-container/60 hover:bg-surface-container p-space-md flex flex-col justify-between transition-all shadow-md">
+<div class="space-y-space-sm">
+<div class="relative aspect-[4/3] rounded-xl overflow-hidden bg-surface-container-high">
+<a class="aq-image-link" href="aquafolio-about.html" tabindex="-1" aria-label="전시 및 프로그램 자세히 보기">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="images/aquafolio-home-photo-05.jpg" alt="Playful spotted seal Phoca largha poking head above calm crystal water surface with cute expressive whiskered face and silver grey coat speckled with dark spots" loading="lazy" decoding="async">
+</a>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-conservation-amber/80 backdrop-blur-md font-label-data-mono text-label-data-mono text-sea-foam">천연기념물 제331호</span>
+<span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md font-label-data-mono text-label-data-mono text-sea-foam">백령도 바위풀</span>
+</div>
+<div>
+<div class="flex items-baseline justify-between pt-1">
+<h3 class="font-headline-md text-headline-md text-sea-foam font-bold">
+<a href="aquafolio-about.html">점박이물범</a>
+</h3>
+<span class="font-label-species-latin text-label-species-latin text-outline">Phoca largha</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+                대한민국 백령도 서식지의 소중한 토종 해양 포유류입니다. 유선형 체형과 유연한 지느러미발로 시속 30km 이상의 빠른 스피드로 회유합니다.
+              </p>
+</div>
+</div>
+<!-- Biological Telemetry Specs Grid -->
+<div class="mt-4 pt-4 grid grid-cols-3 gap-2 bg-surface-container-low/80 p-3 rounded-xl font-label-data-mono text-label-data-mono">
+<div>
+<span class="text-outline block text-[10px]">체중</span>
+<span class="text-sea-foam font-bold">80 ~ 130kg</span>
+</div>
+<div>
+<span class="text-outline block text-[10px]">잠수 시간</span>
+<span class="text-primary font-bold">최대 20분</span>
+</div>
+<div>
+<span class="text-outline block text-[10px]">국내 등급</span>
+<span class="text-conservation-amber font-bold">해양보호생물</span>
+</div>
+</div>
+</div>
+<!-- Specimen Lab Interactive Teaser Card -->
+<div class="rounded-2xl bg-gradient-to-br from-surface-container-high to-surface-container-lowest p-space-md flex flex-col justify-between shadow-md">
+<div class="space-y-space-md">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-primary-container animate-pulse">
+</span>
+<span class="font-label-data-mono text-label-data-mono text-primary uppercase">Bio-Archive Search</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-sea-foam font-bold">
+<a href="aquafolio-about.html">해양생물 디지털 아카이브</a>
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              산호초 군락부터 심해 3,000m의 극한 생명체까지. 아쿠아폴리오 연구진이 직접 기록한 고해상도 생체 데이터와 음향 데이터를 검색하세요.
+            </p>
+<div class="p-3.5 rounded-xl bg-surface-container-low/80 space-y-2">
+<div class="flex justify-between text-caption font-label-data-mono text-label-data-mono">
+<span class="text-outline">등록된 해양 생물 데이터베이스</span>
+<span class="text-primary-container font-bold">652종 55,420개체</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-variant overflow-hidden">
+<div class="h-full bg-primary-container w-[92%] rounded-full">
+</div>
+</div>
+</div>
+</div>
+<a class="mt-6 w-full py-3 rounded-xl bg-surface-bright text-sea-foam font-headline-sm text-body-sm font-semibold flex items-center justify-center gap-2 hover:bg-primary-container hover:text-on-primary-fixed transition-all" data-path="creatures" href="aquafolio-creatures.html">
+<span>디지털 도감 검색 열기</span>
+<svg class="aq-icon  text-[18px]" data-icon="search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M21 21l-5-5M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0">
+</path>
+</svg>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. RECOMMENDED TOUR COURSES & ROUTE GUIDE (추천 관람 코스 & 동선 가이드) -->
+<section class="w-full py-space-xl bg-surface-dim relative">
+<div class="max-w-7xl mx-auto px-gutter">
+<div class="text-center max-w-2xl mx-auto mb-10">
+<span class="font-label-data-mono text-label-data-mono text-primary-container tracking-widest uppercase">CURATED VISITATION ROUTES</span>
+<h2 class="font-headline-xl text-headline-xl text-sea-foam tracking-tight font-bold mt-1">추천 관람 코스 &amp; 동선 가이드</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">방문 목적과 동행자에 맞춰 설계된 최적의 관람 순서와 필수 포토존 안내</p>
+</div>
+<!-- Course Interactive Tab Switcher -->
+<div class="flex items-center justify-center gap-2 max-w-xl mx-auto p-1.5 rounded-2xl bg-surface-container mb-10">
+<button class="course-tab-btn flex-1 py-3 px-4 rounded-xl font-headline-sm text-body-sm font-semibold transition-all bg-primary-container text-on-primary-fixed" data-target="course-family" type="button" role="tab" aria-selected="true" aria-controls="course-family">
+          가족 맞춤 코스 (90분)
+        </button>
+<button class="course-tab-btn flex-1 py-3 px-4 rounded-xl font-headline-sm text-body-sm font-semibold transition-all text-on-surface-variant hover:text-sea-foam" data-target="course-couple" type="button" role="tab" aria-selected="false" aria-controls="course-couple">
+          연인 데이트 코스 (120분)
+        </button>
+<button class="course-tab-btn flex-1 py-3 px-4 rounded-xl font-headline-sm text-body-sm font-semibold transition-all text-on-surface-variant hover:text-sea-foam" data-target="course-kids" type="button" role="tab" aria-selected="false" aria-controls="course-kids">
+          어린이 생태 체험 (100분)
+        </button>
+</div>
+<!-- Tab Content Area -->
+<div class="w-full">
+<!-- Family Course Panel -->
+<div class="course-panel grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center bg-surface-container/70 p-space-lg lg:p-10 rounded-3xl shadow-xl" id="course-family" role="tabpanel">
+<div class="lg:col-span-5 space-y-space-sm">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-container/15 text-primary-container font-label-data-mono text-label-data-mono">
+<svg class="aq-icon  text-[16px]" data-icon="family_restroom" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+              FAMILY DISCOVERY • 90 MIN
+            </div>
+<h3 class="font-headline-lg text-headline-lg text-sea-foam font-bold">
+<a href="aquafolio-about.html">온 가족이 함께 즐기는 편안한 탐험</a>
+</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              유모차 이동이 수월한 무장애(Barrier-Free) 완경사 슬로프 중심의 동선입니다. 아이들의 눈높이에 맞춘 인터랙티브 터치풀과 벨루가 생태 설명회를 최단 거리로 연결합니다.
+            </p>
+<div class="pt-2 space-y-2.5">
+<div class="flex items-start gap-3">
+<span class="w-6 h-6 rounded-full bg-surface-variant text-primary font-label-data-mono text-label-data-mono flex items-center justify-center shrink-0">1</span>
+<div>
+<div class="font-headline-sm text-body-md text-sea-foam">네이처 오션 피라루쿠 뷰</div>
+<div class="font-body-sm text-body-sm text-outline">대형 담수어의 경이로운 스케일과 수초 숲 관람</div>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="w-6 h-6 rounded-full bg-surface-variant text-primary font-label-data-mono text-label-data-mono flex items-center justify-center shrink-0">2</span>
+<div>
+<div class="font-headline-sm text-body-md text-sea-foam">오션 터치풀 불가사리 교감</div>
+<div class="font-body-sm text-body-sm text-outline">아이들의 직접 손끝 촉각 체험 및 아쿠아리스트 해설</div>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="w-6 h-6 rounded-full bg-surface-variant text-primary font-label-data-mono text-label-data-mono flex items-center justify-center shrink-0">3</span>
+<div>
+<div class="font-headline-sm text-body-md text-sea-foam">벨루가 수조 &amp; 메인수조 피딩쇼 관람</div>
+<div class="font-body-sm text-body-sm text-outline">지정 좌석 공간에서 편안하게 즐기는 생태 쇼</div>
+</div>
+</div>
+</div>
+<div class="pt-4 flex items-center gap-3">
+<span class="px-3 py-1.5 rounded-lg bg-surface-container-high font-label-data-mono text-label-data-mono text-sea-foam">수유실 및 유모차 대여: 지하 1층 로비</span>
+</div>
+</div>
+<div class="lg:col-span-7 grid grid-cols-2 gap-space-sm">
+<div class="relative h-64 lg:h-80 rounded-2xl overflow-hidden shadow-md">
+<a class="aq-image-link" href="aquafolio-about.html" tabindex="-1" aria-label="전시 및 프로그램 자세히 보기">
+<img class="w-full h-full object-cover" src="images/aquafolio-home-photo-06.jpg" alt="Warm loving family with small child smiling with wonder in front of huge aquarium glass tank with gentle stingrays swimming by" loading="lazy" decoding="async">
+</a>
+<span class="absolute bottom-3 left-3 px-3 py-1 rounded-lg bg-surface-container-lowest/80 backdrop-blur-md text-caption text-sea-foam font-semibold">필수 포토스팟 #1 메인수조 앞</span>
+</div>
+<div class="relative h-64 lg:h-80 rounded-2xl overflow-hidden shadow-md">
+<a class="aq-image-link" href="aquafolio-about.html" tabindex="-1" aria-label="전시 및 프로그램 자세히 보기">
+<img class="w-full h-full object-cover" src="images/aquafolio-home-photo-07.jpg" alt="Excited little kids gently touching starfishes under curator guidance at interactive touchpool in modern blue aquarium" loading="lazy" decoding="async">
+</a>
+<span class="absolute bottom-3 left-3 px-3 py-1 rounded-lg bg-surface-container-lowest/80 backdrop-blur-md text-caption text-sea-foam font-semibold">체험 스팟 #2 오션 터치풀</span>
+</div>
+</div>
+</div>
+<!-- Couple Course Panel (Hidden by default) -->
+<div class="course-panel hidden grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center bg-surface-container/70 p-space-lg lg:p-10 rounded-3xl shadow-xl" id="course-couple" role="tabpanel">
+<div class="lg:col-span-5 space-y-space-sm">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary/15 text-secondary font-label-data-mono text-label-data-mono">
+<svg class="aq-icon  text-[16px]" data-icon="favorite" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+              ROMANTIC DEEP RETREAT • 120 MIN
+            </div>
+<h3 class="font-headline-lg text-headline-lg text-sea-foam font-bold">
+<a href="aquafolio-about.html">감성적인 심해의 침묵과 포토 로드</a>
+</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              몽환적인 젤리피시 미러룸과 360도 해저 파노라마 터널을 중심으로 구성된 로맨틱 코스. 은은한 앰비언트 사운드와 함께 인생 사진을 남길 수 있는 실루엣 존이 이어집니다.
+            </p>
+<div class="pt-2 space-y-2.5">
+<div class="flex items-start gap-3">
+<span class="w-6 h-6 rounded-full bg-surface-variant text-secondary font-label-data-mono text-label-data-mono flex items-center justify-center shrink-0">1</span>
+<div>
+<div class="font-headline-sm text-body-md text-sea-foam">해파리 미러 룸 실루엣 샷</div>
+<div class="font-body-sm text-body-sm text-outline">어두운 공간 속 신비로운 발광 해파리와 감성 사진</div>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="w-6 h-6 rounded-full bg-surface-variant text-secondary font-label-data-mono text-label-data-mono flex items-center justify-center shrink-0">2</span>
+<div>
+<div class="font-headline-sm text-body-md text-sea-foam">360° 딥 오션 터널 산책</div>
+<div class="font-body-sm text-body-sm text-outline">머리 위로 지나가는 샌드타이거샤크와 함께 걷는 수중 산책로</div>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="w-6 h-6 rounded-full bg-surface-variant text-secondary font-label-data-mono text-label-data-mono flex items-center justify-center shrink-0">3</span>
+<div>
+<div class="font-headline-sm text-body-md text-sea-foam">오션 라운지 카페 딥블루 티타임</div>
+<div class="font-body-sm text-body-sm text-outline">메인 수조 전면창을 바라보며 시그니처 오션 에이드 즐기기</div>
+</div>
+</div>
+</div>
+<div class="pt-4 flex items-center gap-3">
+<span class="px-3 py-1.5 rounded-lg bg-surface-container-high font-label-data-mono text-label-data-mono text-sea-foam">오션뷰 라운지 카페: 지하 2층 중앙</span>
+</div>
+</div>
+<div class="lg:col-span-7 grid grid-cols-2 gap-space-sm">
+<div class="relative h-64 lg:h-80 rounded-2xl overflow-hidden shadow-md">
+<a class="aq-image-link" href="aquafolio-about.html" tabindex="-1" aria-label="전시 및 프로그램 자세히 보기">
+<img class="w-full h-full object-cover" src="images/aquafolio-home-photo-08.jpg" alt="Couple silhouetted romantically holding hands inside dark bioluminescent jellyfish dream mirrored chamber with floating blue spheres" loading="lazy" decoding="async">
+</a>
+<span class="absolute bottom-3 left-3 px-3 py-1 rounded-lg bg-surface-container-lowest/80 backdrop-blur-md text-caption text-sea-foam font-semibold">인생샷 포토스팟 #1 젤리피시 룸</span>
+</div>
+<div class="relative h-64 lg:h-80 rounded-2xl overflow-hidden shadow-md">
+<a class="aq-image-link" href="aquafolio-about.html" tabindex="-1" aria-label="전시 및 프로그램 자세히 보기">
+<img class="w-full h-full object-cover" src="images/aquafolio-home-photo-09.jpg" alt="Chic modern aquarium lounge cafe viewing gigantic ocean wall with glowing drinks on table in front of peaceful azure deep sea" loading="lazy" decoding="async">
+</a>
+<span class="absolute bottom-3 left-3 px-3 py-1 rounded-lg bg-surface-container-lowest/80 backdrop-blur-md text-caption text-sea-foam font-semibold">감성 쉼터 #2 오션 라운지</span>
+</div>
+</div>
+</div>
+<!-- Kids Ecology Course Panel (Hidden by default) -->
+<div class="course-panel hidden grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center bg-surface-container/70 p-space-lg lg:p-10 rounded-3xl shadow-xl" id="course-kids" role="tabpanel">
+<div class="lg:col-span-5 space-y-space-sm">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/15 text-primary font-label-data-mono text-label-data-mono">
+<svg class="aq-icon  text-[16px]" data-icon="school" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 5v15M3 4c4-1 7 0 9 1 2-1 5-2 9-1v15c-4-1-7 0-9 1-2-1-5-2-9-1Z">
+</path>
+</svg>
+              JUNIOR MARINE BIO • 100 MIN
+            </div>
+<h3 class="font-headline-lg text-headline-lg text-sea-foam font-bold">
+<a href="aquafolio-about.html">호기심 많은 어린이를 위한 탐구 코스</a>
+</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              스탬프 투어 북과 함께 해양 생물의 생태적 특징을 직접 탐구하는 미션 중심 코스입니다. 펭귄 식사 시간과 바다사자 토크쇼를 알차게 연계합니다.
+            </p>
+<div class="pt-2 space-y-2.5">
+<div class="flex items-start gap-3">
+<span class="w-6 h-6 rounded-full bg-surface-variant text-primary font-label-data-mono text-label-data-mono flex items-center justify-center shrink-0">1</span>
+<div>
+<div class="font-headline-sm text-body-md text-sea-foam">아쿠아 랩 현미경 플랑크톤 관찰</div>
+<div class="font-body-sm text-body-sm text-outline">바다 생태계의 먹이사슬 기초를 연구원과 직접 확인</div>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="w-6 h-6 rounded-full bg-surface-variant text-primary font-label-data-mono text-label-data-mono flex items-center justify-center shrink-0">2</span>
+<div>
+<div class="font-headline-sm text-body-md text-sea-foam">펭귄 빌리지 피딩 퀴즈 타임</div>
+<div class="font-body-sm text-body-sm text-outline">훔볼트 펭귄의 생태 퀴즈 풀고 스탬프 인증 받기</div>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="w-6 h-6 rounded-full bg-surface-variant text-primary font-label-data-mono text-label-data-mono flex items-center justify-center shrink-0">3</span>
+<div>
+<div class="font-headline-sm text-body-md text-sea-foam">해양 수호자 수료 배지 수여</div>
+<div class="font-body-sm text-body-sm text-outline">탐험 완주 후 아쿠아 랩 데스크에서 명예 요원 증서 수령</div>
+</div>
+</div>
+</div>
+<div class="pt-4 flex items-center gap-3">
+<span class="px-3 py-1.5 rounded-lg bg-surface-container-high font-label-data-mono text-label-data-mono text-sea-foam">스탬프북 수령: 지하 1층 안내데스크 (무료)</span>
+</div>
+</div>
+<div class="lg:col-span-7 grid grid-cols-2 gap-space-sm">
+<div class="relative h-64 lg:h-80 rounded-2xl overflow-hidden shadow-md">
+<a class="aq-image-link" href="aquafolio-about.html" tabindex="-1" aria-label="전시 및 프로그램 자세히 보기">
+<img class="w-full h-full object-cover" src="images/aquafolio-home-photo-10.jpg" alt="Curious Korean school children looking enthusiastically through digital microscopes in modern ocean bio laboratory inside aquarium" loading="lazy" decoding="async">
+</a>
+<span class="absolute bottom-3 left-3 px-3 py-1 rounded-lg bg-surface-container-lowest/80 backdrop-blur-md text-caption text-sea-foam font-semibold">탐구 스팟 #1 아쿠아 바이오 랩</span>
+</div>
+<div class="relative h-64 lg:h-80 rounded-2xl overflow-hidden shadow-md">
+<a class="aq-image-link" href="aquafolio-about.html" tabindex="-1" aria-label="전시 및 프로그램 자세히 보기">
+<img class="w-full h-full object-cover" src="images/aquafolio-home-photo-11.jpg" alt="Happy young boy receiving ocean guardian junior badge and holding illustrated sea creature stamp booklet in front of penguin exhibit" loading="lazy" decoding="async">
+</a>
+<span class="absolute bottom-3 left-3 px-3 py-1 rounded-lg bg-surface-container-lowest/80 backdrop-blur-md text-caption text-sea-foam font-semibold">미션 완주 #2 주니어 가디언</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. SPECIAL PROMOTIONS & TICKET PACKAGES (특별 프로모션 & 이달의 혜택) -->
+<section class="w-full py-space-xl bg-surface relative">
+<div class="max-w-7xl mx-auto px-gutter">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-10">
+<div>
+<span class="font-label-data-mono text-label-data-mono text-primary-container tracking-widest uppercase">TICKETING &amp; PARTNERSHIP BENEFITS</span>
+<h2 class="font-headline-xl text-headline-xl text-sea-foam tracking-tight font-bold mt-1">특별 프로모션 &amp; 이달의 예매 혜택</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">온라인 사전 예매로 대기 없이 바로 입장하고 최대 40% 제휴 할인 혜택을 누리세요</p>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-data-mono text-label-data-mono text-outline">모바일 바코드 즉시 입장 가능</span>
+</div>
+</div>
+<!-- Promotions 3-Card Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Promo 1: Partnership Discount -->
+<div class="rounded-3xl bg-surface-container p-space-lg flex flex-col justify-between shadow-lg relative overflow-hidden">
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary-container/10 rounded-full blur-2xl pointer-events-none">
+</div>
+<div class="space-y-space-md relative z-10">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-data-mono text-label-data-mono font-bold">제휴 카드 &amp; 통신사</span>
+<span class="font-headline-lg text-headline-lg text-primary-container font-extrabold">최대 40%</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-sea-foam font-bold">
+<a href="aquafolio-about.html">통신 3사 및 주요 제휴카드 특별 할인</a>
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+                SKT, KT, LGU+ 멤버십 회원 상시 30% 현장 및 온라인 할인. 현대·신한·KB국민카드 포인트 100% 사용 및 결제일 10% 추가 청구할인.
+              </p>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container-low text-body-sm text-outline space-y-1">
+<div class="flex justify-between">
+<span>일반 대인 정상가</span>
+<span class="line-through">35,000원</span>
+</div>
+<div class="flex justify-between text-sea-foam font-bold">
+<span>제휴 할인 적용가</span>
+<span class="text-primary-container font-headline-sm text-headline-sm">21,000원~</span>
+</div>
+</div>
+</div>
+<a class="mt-8 w-full py-3.5 rounded-xl bg-surface-bright text-sea-foam font-headline-sm text-body-sm font-bold flex items-center justify-center gap-2 hover:bg-surface-variant transition-colors" data-path="ticket-booking" href="aquafolio-tickets.html">
+<span>제휴 할인 혜택 조회 &amp; 예매</span>
+<svg class="aq-icon  text-[18px]" data-icon="open_in_new" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</a>
+</div>
+<!-- Promo 2: Early Bird Family Package (Recommended Hero) -->
+<div class="rounded-3xl bg-gradient-to-b from-surface-container-high to-surface-container p-space-lg flex flex-col justify-between shadow-2xl relative overflow-hidden ring-2 ring-primary-container/30">
+<div class="absolute -top-12 -right-12 w-40 h-40 bg-primary-container/20 rounded-full blur-3xl pointer-events-none">
+</div>
+<div class="space-y-space-md relative z-10">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-primary-container text-on-primary-fixed font-label-data-mono text-label-data-mono font-bold">BEST CHOICE</span>
+<span class="font-headline-lg text-headline-lg text-secondary-fixed font-extrabold">32% OFF</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-sea-foam font-bold">
+<a href="aquafolio-about.html">얼리버드 3인/4인 가족 패키지</a>
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+                성인 2인 + 어린이 1~2인 통합 입장권과 아쿠아 카페 음료권 2매, 주니어 탐험 스탬프북 세트가 모두 포함된 한정 패키지 상품입니다.
+              </p>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container-low text-body-sm space-y-1.5">
+<div class="flex items-center gap-2 text-primary text-caption font-semibold">
+<svg class="aq-icon  text-[16px]" data-icon="check_circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span>카페 시그니처 오션라떼 2잔 무료 증정</span>
+</div>
+<div class="flex items-center gap-2 text-primary text-caption font-semibold">
+<svg class="aq-icon  text-[16px]" data-icon="check_circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span>주차권 4시간 무료 등록 포함</span>
+</div>
+<div class="flex justify-between text-sea-foam font-bold pt-2">
+<span>3인 가족 기준 특별가</span>
+<span class="text-primary-container font-headline-sm text-headline-sm">68,000원</span>
+</div>
+</div>
+</div>
+<a class="mt-8 w-full py-3.5 rounded-xl bg-primary-container text-on-primary-fixed font-headline-sm text-body-sm font-bold flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(0,229,255,0.35)] hover:bg-secondary-fixed transition-all" data-path="ticket-booking" href="aquafolio-tickets.html?ticket=family">
+<span>얼리버드 패키지 즉시 예매</span>
+<svg class="aq-icon  text-[18px]" data-icon="arrow_forward" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 12h16m-6-6 6 6-6 6">
+</path>
+</svg>
+</a>
+</div>
+<!-- Promo 3: Aqua Pass Membership -->
+<div class="rounded-3xl bg-surface-container p-space-lg flex flex-col justify-between shadow-lg relative overflow-hidden">
+<div class="absolute bottom-0 right-0 w-32 h-32 bg-secondary-container/10 rounded-full blur-2xl pointer-events-none">
+</div>
+<div class="space-y-space-md relative z-10">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-surface-container-high text-sea-foam font-label-data-mono text-label-data-mono font-bold">AQUA PASS 연간회원</span>
+<span class="font-headline-lg text-headline-lg text-sea-foam font-extrabold">365일 무제한</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-sea-foam font-bold">
+<a href="aquafolio-tickets.html?ticket=annual">아쿠아폴리오 연간 패스 (Aqua Pass)</a>
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+                계절마다 변화하는 심해 생태계를 1년 내내 자유롭게. 기획 특별전 우선 초대권과 기프트숍 &amp; 카페 상시 15% VIP 할인 제공.
+              </p>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container-low text-body-sm text-outline space-y-1">
+<div class="flex justify-between">
+<span>연간 무제한 프리 패스</span>
+<span class="text-outline">연간 패스 140,000원</span>
+</div>
+<div class="flex justify-between text-sea-foam font-bold">
+<span>동반 3인 상시 할인</span>
+<span class="text-primary-container font-headline-sm text-headline-sm">20% 할인권 4매</span>
+</div>
+</div>
+</div>
+<a class="mt-8 w-full py-3.5 rounded-xl bg-surface-bright text-sea-foam font-headline-sm text-body-sm font-bold flex items-center justify-center gap-2 hover:bg-surface-variant transition-colors" data-path="ticket-booking" href="aquafolio-tickets.html?ticket=annual">
+<span>연간 멤버십 상세 안내</span>
+<svg class="aq-icon  text-[18px]" data-icon="card_membership" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M2 6h20v4a2 2 0 0 0 0 4v4H2v-4a2 2 0 0 0 0-4Zm14 0v3m0 2v2m0 2v3">
+</path>
+</svg>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. MARINE CONSERVATION & RESCUE INITIATIVE (생태 보존 & 해양 생물 구조 활동) -->
+<section class="w-full py-space-xl bg-surface-dim relative overflow-hidden" id="conservation">
+<div class="max-w-7xl mx-auto px-gutter">
+<div class="rounded-3xl bg-surface-container-lowest p-space-lg lg:p-14 shadow-2xl relative overflow-hidden">
+<!-- Subtle Background Glow -->
+<div class="absolute -right-20 -bottom-20 w-96 h-96 bg-primary-container/10 rounded-full blur-[120px] pointer-events-none">
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center relative z-10">
+<div class="lg:col-span-7 space-y-space-md">
+<div class="flex flex-wrap items-center gap-2.5">
+<span class="px-3 py-1 rounded-full bg-conservation-amber/20 text-conservation-amber font-label-data-mono text-label-data-mono font-bold flex items-center gap-1.5">
+<svg class="aq-icon  text-[16px]" data-icon="verified" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+                해양수산부 지정 해양동물 전문구조치료기관
+              </span>
+<span class="px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-data-mono text-label-data-mono font-bold">
+                서식지외보전기관 제11호
+              </span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-sea-foam font-extrabold tracking-tight leading-tight">
+              생명을 살리고 바다를 지키는 약속,<br>
+<span class="text-primary-container">AQUAFOLIO Blue Sanctuary Initiative</span>
+</h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              아쿠아폴리오는 단순한 전시 공간을 넘어 다치거나 조난당한 해양 생물들을 구조·치료하고 자연으로 돌려보내는 공공 생태 연구소입니다. 입장 수익의 일부는 동해·남해안 연안 서식지 복원 및 미세 플라스틱 정화 연구 기금으로 직접 환원됩니다.
+            </p>
+<!-- Conservation Stats Indicator Cards -->
+<div class="grid grid-cols-3 gap-3 pt-2">
+<div class="p-3.5 rounded-2xl bg-surface-container-low/90">
+<div class="font-headline-lg text-headline-lg text-primary-container font-extrabold">128마리</div>
+<div class="font-label-data-mono text-label-data-mono text-outline mt-0.5">야생 방류 치료 실적</div>
+</div>
+<div class="p-3.5 rounded-2xl bg-surface-container-low/90">
+<div class="font-headline-lg text-headline-lg text-sea-foam font-extrabold">14.8톤</div>
+<div class="font-label-data-mono text-label-data-mono text-outline mt-0.5">연간 수거 해양 플라스틱</div>
+</div>
+<div class="p-3.5 rounded-2xl bg-surface-container-low/90">
+<div class="font-headline-lg text-headline-lg text-secondary-fixed-dim font-extrabold">24시간</div>
+<div class="font-label-data-mono text-label-data-mono text-outline mt-0.5">긴급 야생 해양동물 SOS</div>
+</div>
+</div>
+<div class="pt-4 flex flex-wrap items-center gap-space-sm">
+<a class="px-space-md py-3 rounded-xl bg-surface-container-high text-sea-foam font-headline-sm text-body-sm font-semibold flex items-center gap-2 hover:bg-surface-variant transition-colors" data-path="conservation" href="aquafolio-conservation.html">
+<span>보존 연구 리포트 열람</span>
+<svg class="aq-icon  text-[18px]" data-icon="article" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 5v15M3 4c4-1 7 0 9 1 2-1 5-2 9-1v15c-4-1-7 0-9 1-2-1-5-2-9-1Z">
+</path>
+</svg>
+</a>
+<span class="text-caption font-label-data-mono text-label-data-mono text-outline">
+                해양동물 조난 신고 긴급 핫라인: 1661-2000 (내선 9번)
+              </span>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/4.5]">
+<a class="aq-image-link" href="aquafolio-about.html" tabindex="-1" aria-label="전시 및 프로그램 자세히 보기">
+<img class="w-full h-full object-cover" src="images/aquafolio-home-photo-12.jpg" alt="Dedicated marine conservation team of biologists carefully rescuing and treating an injured sea turtle on rehabilitation stretcher before safely tagging for ocean release" loading="lazy" decoding="async">
+</a>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent">
+</div>
+<div class="absolute bottom-4 left-4 right-4 p-4 rounded-2xl bg-surface-container/90 backdrop-blur-md">
+<div class="flex items-center gap-2 text-primary font-label-data-mono text-label-data-mono mb-1">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse">
+</span>
+                  LIVE RELEASE MONITORING
+                </div>
+<p class="font-body-sm text-body-sm text-sea-foam font-medium">제주 앞바다 푸른바다거북 ‘솔이’ 8개월 재활 후 자연 방류 추적 조사 진행 중</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SCRIPT FOR TAB INTERACTION -->
+
+</div>
+</main>
+<footer class="w-full bg-surface-container-lowest pt-space-xl pb-16">
+<div class="max-w-7xl mx-auto px-gutter">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-lg pb-12">
+<div class="lg:col-span-2 flex flex-col gap-space-sm">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container">
+</span>
+<span class="font-headline-md text-headline-md tracking-wider text-sea-foam">AQUAFOLIO</span>
+</div>
+<p class="font-label-species-latin text-label-species-latin text-outline tracking-wider uppercase">Metropolitan Marine Sanctuary &amp; Biodiversity Research Institute</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant pr-space-lg leading-relaxed">아쿠아폴리오는 해양 생태계 보전과 인간의 공존을 연구하는 도심형 해양 연구 생태관입니다. 650여 종 55,000마리의 생명들과 함께 살아 숨쉬는 심해의 경이로움을 전합니다.</p>
+<div class="flex items-center gap-4 pt-2">
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-low">
+<svg class="aq-icon  text-secondary text-[16px]" data-icon="eco" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span class="font-label-data-mono text-label-data-mono text-on-surface">WAZA 정회원 기관</span>
+</div>
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-low">
+<svg class="aq-icon  text-conservation-amber text-[16px]" data-icon="verified" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span class="font-label-data-mono text-label-data-mono text-on-surface">해양동물 전문구조치료기관</span>
+</div>
+</div>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-lg text-sea-foam mb-space-sm">탐험 &amp; 전시</h4>
+<ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<li>
+<a class="hover:text-primary transition-colors" data-path="creatures" href="aquafolio-creatures.html">심해 존 (The Abyss)</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="creatures" href="aquafolio-creatures.html">산호초 산책로</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="creatures" href="aquafolio-creatures.html">펠라직 오픈오션</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="creatures" href="aquafolio-creatures.html">극지 생태 탐험관</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="experiences" href="aquafolio-programs.html">피딩 타임 &amp; 생태설명회</a>
+</li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-lg text-sea-foam mb-space-sm">이용 &amp; 편의</h4>
+<ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<li>
+<a class="hover:text-primary transition-colors" data-path="tickets-and-info" href="aquafolio-tickets.html">운영시간 및 요금안내</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="tickets-and-info" href="aquafolio-tickets.html#location">오시는 길 &amp; 주차안내</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="tickets-and-info" href="aquafolio-tickets.html">편의시설 &amp; 휠체어 대여</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="experiences" href="aquafolio-groups.html">단체 관람 및 도슨트 예약</a>
+</li>
+<li>
+<a class="hover:text-primary transition-colors" data-path="tickets-and-info" href="aquafolio-tickets.html#faq-accordion-group">자주 묻는 질문 (FAQ)</a>
+</li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline-sm text-body-lg text-sea-foam mb-space-sm">방문 센터 및 지원</h4>
+<div class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<p class="text-sea-foam font-headline-sm text-headline-sm">1661-2000</p>
+<p class="font-label-data-mono text-label-data-mono text-outline">운영시간 09:30 - 18:30 (연중무휴)</p>
+<p class="leading-relaxed">서울시 송파구 올림픽로 300<br>아쿠아폴리오 마린 콤플렉스 지하 1-2층</p>
+<a class="inline-block text-primary hover:underline font-label-data-mono text-label-data-mono pt-1" href="aquafolio-groups.html">단체 관람 문의</a>
+</div>
+</div>
+</div>
+<div class="pt-8 mt-4 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 font-caption text-caption text-outline">
+<div class="space-y-1">
+<p>(주)아쿠아폴리오 마린솔루션 | 대표이사: 해양연구단 | 사업자등록번호: 예시 정보 | 통신판매업신고: 2024-서울송파-1082호</p>
+<p>수족관 관리 및 서식지외보전기관 등록 제 11-호 | 동물원 및 수족관의 관리에 관한 법률 등록 시설</p>
+<p class="font-label-data-mono text-label-data-mono text-on-surface-variant">© 2026 AQUAFOLIO Marine Sanctuary &amp; Research Institute. All rights reserved.</p>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm font-body-sm text-body-sm text-on-surface-variant">
+<a class="hover:text-sea-foam transition-colors" href="aquafolio-privacy.html">개인정보처리방침</a>
+<span class="text-outline-variant">•</span>
+<a class="hover:text-sea-foam transition-colors" href="aquafolio-terms.html">이용약관</a>
+<span class="text-outline-variant">•</span>
+<a class="hover:text-sea-foam transition-colors" href="aquafolio-conservation.html">동물복지 윤리선언</a>
+<span class="text-outline-variant">•</span>
+<a class="hover:text-sea-foam transition-colors" href="aquafolio-privacy.html">영상정보처리기기 운영방침</a>
+</div>
+</div>
+</div>
+<p class="aq-demo-note">AQUAFOLIO는 디자인을 위한 가상의 아쿠아리움입니다. 전시·프로그램·요금·운영 정보는 예시이며, 실제 결제·예약·알림 발송은 진행하지 않습니다.</p>
+</footer>
+<dialog id="aquafolio-dialog" aria-labelledby="aquafolio-dialog-title">
+<div class="aq-dialog-head">
+<h2 id="aquafolio-dialog-title">
+</h2>
+<button type="button" data-close="" aria-label="닫기">
+<svg class="aq-icon" data-icon="close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 6 12 12M6 18 18 6">
+</path>
+</svg>
+</button>
+</div>
+<div id="aquafolio-dialog-body">
+</div>
+</dialog>
+<div id="aquafolio-status" role="status" hidden="">
+</div>
+
+
+
+
+
+
+</body>
+</html>
