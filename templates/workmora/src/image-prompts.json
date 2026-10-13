@@ -1,0 +1,62 @@
+[
+  {
+    "asset": "images/workmora-hero.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: full-bleed hero photograph for a fictional Korean office furniture brand website. A serene architectural office interior with four beautifully designed ivory mesh ergonomic chairs and long light oak workstation desks, muted moss green felt desk screens, warm limestone walls, large windows and soft daylight, sparse potted plants, refined contemporary interior design. Wide frontal composition with a large quiet wall area in the upper center for website text overlay, furniture clearly visible in the bottom half, realistic materials and lighting, premium architectural editorial photography, 16:9 landscape. No people, no logo, no text, no watermark."
+  },
+  {
+    "asset": "images/workmora-workzone.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: office furniture project photograph. Contemporary creative studio workspace with a pair of long warm light oak desks, slim ivory steel legs, cream ergonomic mesh chairs, dusty blue acoustic divider screens, large side windows, sage green wall, books and tidy laptops. Calm natural daylight, high quality architecture editorial photography, three-quarter view, landscape 3:2. No people, text, brands, logos or watermarks."
+  },
+  {
+    "asset": "images/workmora-meeting.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: office furniture project photograph. Premium compact meeting room with a warm oak oval conference table and six sculptural upholstered chairs in deep olive green, an elegant pendant lamp, sand beige plaster walls, a glass partition, daylight and a plant near the window. Understated credible Korean design studio interior, premium architecture editorial photography, landscape 3:2. No people, brands, text or watermark."
+  },
+  {
+    "asset": "images/workmora-lounge.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: office furniture project photograph. A welcoming modern office lounge with a caramel fabric modular sofa, curved pale oak low coffee table, two cream lounge armchairs, tall indoor plants, warm neutral walls, a cobalt blue side cabinet, sunlight through sheer curtains. Credible Korean contemporary design studio relaxation space. Premium architecture photography, landscape 3:2. No people, text, logos or watermark."
+  },
+  {
+    "asset": "images/workmora-chair.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Asset type: furniture catalog photograph. One beautifully engineered modern ergonomic office chair with pale warm gray mesh back, curved lumbar support, cream upholstered seat, graphite adjustable armrests, ivory frame, satin aluminum five-star base, black casters. Full chair visible, three-quarter view on a warm off-white seamless studio background, soft contact shadow, refined premium furniture photography, square composition. No text, logos, brands or watermark."
+  },
+  {
+    "asset": "images/workmora-desk.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Asset type: furniture catalog photograph. One contemporary height adjustable desk, warm light oak rectangular tabletop with gently rounded corners, slender ivory motorized legs and matching horizontal feet, discreet small black height adjustment control, neat integrated cable management. Full desk visible, three-quarter view on a warm off-white seamless studio background, soft contact shadow, refined premium catalog photography, square composition. No text, people, logos or watermark."
+  },
+  {
+    "asset": "images/workmora-storage.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Asset type: office furniture catalog photograph. One modular pale oak office bookcase and storage cabinet, two lower cabinet doors, several open shelves with a few neutral books and one small ceramic object, soft rounded cabinet edges, slim ivory metal feet. Entire unit clearly visible, three-quarter angle, realistic joinery, warm off-white seamless studio background and soft contact shadow. Premium furniture catalog photography, square composition. No text, logos, brands or watermark."
+  },
+  {
+    "asset": "images/workmora-partition.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Asset type: office furniture catalog photograph. Three gently curved freestanding acoustic office divider panels in muted moss green felt, varying heights, slim elegant ivory support feet, composed as a sculptural practical furniture system. All panels fully visible, three-quarter view, warm off-white seamless studio background, realistic felt fabric texture and soft contact shadows. Premium furniture catalog photograph, square composition. No text, logos or watermark."
+  },
+  {
+    "asset": "images/workmora-lighting.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Asset type: office desktop accessory catalog photograph. A refined pale ivory articulated LED desk lamp with a thin rectangular head, slender curved vertical stem and round weighted base, next to an oak pencil holder and small moss green felt desk organizer. Entire objects visible in a neat restrained composition. Warm off-white seamless studio background, realistic fine finishes and soft contact shadows, premium catalog photography, square composition. No text, logos, people or watermark."
+  },
+  {
+    "asset": "images/workmora-round-table.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Asset type: furniture catalog photograph. A single elegant fully circular small meeting table, round pale oak tabletop with gently rounded rim, an ivory cylindrical pedestal base, three-quarter camera view with complete table visible, refined understated office furniture design, realistic oak grain, warm off-white seamless studio background, soft realistic contact shadow, premium furniture catalog photography, square composition. No chairs, no logos, no text, no watermark."
+  },
+  {
+    "asset": "images/workmora-square-table.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Asset type: office furniture catalog photograph. A single beautiful small square conference table with a genuinely square light oak tabletop, gently rounded edges and four slender ivory steel legs. Clearly visible full table in three-quarter view, refined contemporary design, realistic joinery and materials, warm off-white seamless studio background with soft contact shadow, premium furniture catalog photography, square composition. No chairs, no logos, no text, no watermark."
+  },
+  {
+    "asset": "images/workmora-drawer.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Asset type: office furniture catalog photograph. One small contemporary mobile under-desk pedestal cabinet with three visibly distinct drawers, pale oak drawer fronts, thin recessed horizontal handles, ivory carcass, four discreet gray caster wheels and a tiny top drawer lock. Full cabinet visible, three-quarter view, realistic wood grain, warm off-white seamless studio background with soft contact shadow, refined premium office furniture photography, square composition. No logos, text, watermark, people or other furniture."
+  }
+]
