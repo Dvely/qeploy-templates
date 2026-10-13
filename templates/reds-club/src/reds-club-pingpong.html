@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="reds-club.css">
+<script defer="" src="reds-club-data.js">
+</script>
+<script defer="" src="reds-club.js">
+</script>
+<title>주말 핑퐁 살롱 | REDS CLUB</title>
+</head>
+<body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary selection:text-on-primary" data-page="pingpong">
+<a class="rc-skip" href="#main">본문 바로가기</a>
+<header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)] rc-header">
+<div class="h-16 w-full px-gutter lg:px-margin flex items-center justify-between gap-space-md rc-header-row">
+<div class="flex items-center gap-space-md shrink-0">
+<a class="group flex flex-col justify-center rc-brand" data-path="overview" href="index.html">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm tracking-tight text-on-surface">REDS CLUB<span class="text-primary font-label-mono-sm text-label-mono-sm align-super">®</span>
+</span>
+</div>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary uppercase tracking-widest hidden sm:inline-block">ATHLETIC INFRA &amp; COMMUNITY // SPEC-24</span>
+</a>
+</div>
+<div class="h-6 w-[1px] bg-secondary-container hidden lg:block shrink-0">
+</div>
+<nav class="hidden xl:flex items-center gap-space-lg shrink-0" data-active-classes="text-on-surface font-semibold" id="reds-club-navigation">
+<a class="font-label-mono-md text-label-mono-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs tracking-wider" data-path="gear-equipment" href="reds-club-gear.html">01. GEAR &amp; EQUIPMENT</a>
+<a class="uppercase transition-colors py-space-xs tracking-wider text-on-surface font-semibold" data-path="club-gatherings" href="reds-club-clubs.html" aria-current="page">02. CLUB &amp; GATHERINGS</a>
+<a class="font-label-mono-md text-label-mono-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs tracking-wider" data-path="b2b-institutional-estimate" href="reds-club-estimate.html">03. B2B / INSTITUTIONAL ESTIMATE</a>
+<a class="font-label-mono-md text-label-mono-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs tracking-wider" data-path="archive-stories" href="reds-club-stories.html">04. ARCHIVE &amp; STORIES</a>
+</nav>
+<div class="flex items-center gap-space-md shrink-0 rc-header-tools">
+<div class="hidden md:flex items-center gap-space-xs px-space-sm py-1 rounded bg-surface-container-high">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75">
+</span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary">
+</span>
+</span>
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface tracking-wider">LIVE 1,842 ACTIVE</span>
+</div>
+<a class="flex items-center gap-space-xs px-space-sm py-1.5 rounded hover:bg-surface-container-high transition-colors text-on-surface rc-cart-link" data-path="cart" href="reds-club-cart.html" aria-label="장바구니">
+<svg class="rc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+<path d="M4 7h16v15H4ZM8 7V5a4 4 0 0 1 8 0v2">
+</path>
+</svg>
+<span class="font-label-mono-md text-label-mono-md uppercase">CART</span>
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 rounded bg-surface-container text-primary font-bold" data-cart-count="">0</span>
+</a>
+<a class="hidden sm:flex items-center gap-space-xs px-space-md py-1.5 rounded bg-inverse-surface hover:bg-primary text-inverse-on-surface hover:text-on-primary transition-colors" data-path="membership" href="reds-club-membership.html">
+<span class="font-label-mono-sm text-label-mono-sm tracking-wider uppercase">MEMBERSHIP</span>
+</a>
+<a class="rc-account" href="reds-club-membership.html" aria-label="플레이어 멤버십">
+<svg class="rc-icon" data-icon="person" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10M3 22v-3a9 9 0 0 1 18 0v3">
+</path>
+</svg>
+</a>
+<button class="rc-menu-toggle" type="button" aria-label="메뉴 열기" aria-controls="reds-club-navigation" aria-expanded="false">
+<svg class="rc-icon" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 6h18M3 12h18M3 18h18">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</header>
+<main class="w-full pt-16 bg-surface min-h-[calc(100vh-16rem)]" id="main">
+<div class="flex flex-col w-full">
+<!-- TOP TELEMETRY STRIP -->
+<section class="w-full bg-surface-container-low py-space-sm px-gutter lg:px-margin">
+<div class="max-w-[1400px] mx-auto flex flex-wrap items-center justify-between gap-space-sm font-label-mono-sm text-label-mono-sm uppercase text-secondary">
+<div class="flex items-center gap-space-md">
+<span class="flex items-center gap-space-xs text-primary font-bold">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75">
+</span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary">
+</span>
+</span>
+          RALLY EVENT TELEMETRY // MATCH.ID: RC-PP-2418
+        </span>
+<span class="hidden sm:inline text-secondary-container">|</span>
+<span class="hidden sm:inline">ITTF STANDARD BLUE-MAT FLOORING</span>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="text-on-surface">COORDINATES: 37.4931° N, 127.0142° E</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container-high text-on-surface font-bold">STATUS: D-2 CRITICAL</span>
+</div>
+</div>
+</section>
+<!-- MATCH PROTOCOL MASTHEAD -->
+<section class="w-full bg-surface pt-space-lg pb-space-md px-gutter lg:px-margin">
+<div class="max-w-[1400px] mx-auto">
+<div class="flex flex-wrap items-center justify-between gap-space-sm pb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="px-2 py-0.5 rounded-full bg-inverse-surface text-inverse-on-surface font-label-mono-sm text-label-mono-sm tracking-widest uppercase">SERIES 018</span>
+<span class="px-2 py-0.5 rounded-full bg-primary-container text-on-primary-container font-label-mono-sm text-label-mono-sm font-bold flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-surface-container-lowest animate-pulse">
+</span>
+            D-2 잔여석 마감 임박
+          </span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-secondary font-label-mono-sm text-label-mono-sm uppercase hidden md:inline">SANCTIONED BY REDS ATHLETICS</span>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary">
+          REGISTRATION CUTOFF: 2026.11.02 12:00 KST
+        </div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md items-end">
+<div class="lg:col-span-8 space-y-space-xs">
+<div class="font-label-mono-md text-label-mono-md text-primary tracking-widest uppercase">WEEKEND RALLY &amp; LEAGUE VOL.18</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight uppercase m-0 leading-none">강남 레즈 핑퐁 살롱 주말 정기전</h1>
+<p class="font-body-lg text-body-lg text-secondary max-w-2xl pt-1">
+            실업팀 출신 엘리트 헤드코치의 밀착 원포인트 전술 세션부터 다이나믹 믹스 복식 리그, 경기 후 쿨다운 수제 앰버 라거 네트워킹까지 이어지는 토요일 오후의 고밀도 랠리.
+          </p>
+</div>
+<div class="lg:col-span-4 flex flex-col lg:items-end justify-end space-y-1">
+<div class="flex items-center gap-2">
+<svg class="rc-icon  text-primary text-[20px]" data-icon="location_on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m12 22-7-10a8 8 0 1 1 14 0ZM15 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
+</path>
+</svg>
+<span class="font-headline-sm text-headline-sm text-on-surface">서초 교대역 핑퐁 아카데미 B1</span>
+</div>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary tracking-widest">교대역 4번 출구 도보 180M // 무료 주차 2시간</span>
+</div>
+</div>
+</div>
+</section>
+<!-- MAIN EDITORIAL & PASS CONTAINER (2-COL ARCHITECTURE) -->
+<section class="w-full bg-surface pb-space-xl px-gutter lg:px-margin">
+<div class="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- LEFT COLUMN: EDITORIAL, TELEMETRY, VENUE & LINEUP (7-COL) -->
+<div class="lg:col-span-7 flex flex-col space-y-space-xl">
+<!-- 01. VISUAL COVER HERO WITH OVERLAYS -->
+<div class="relative w-full rounded-xl overflow-hidden bg-inverse-surface shadow-xl group">
+<div class="relative h-[380px] sm:h-[460px] w-full bg-cover bg-center" style="background-image: url('images/reds-club-pingpong-02.jpg')">
+<!-- Vignette & Gradient Gradient Scrim -->
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface via-inverse-surface/30 to-transparent">
+</div>
+<!-- Top Telemetry Pins -->
+<div class="absolute top-space-md left-space-md right-space-md flex items-center justify-between">
+<span class="px-space-sm py-1 rounded bg-inverse-surface/80 backdrop-blur-md text-inverse-on-surface font-label-mono-sm text-label-mono-sm uppercase tracking-wider">
+                LIVE CAPTURE: MATCH RUNNER VOL.17
+              </span>
+<span class="px-space-sm py-1 rounded bg-primary text-on-primary font-label-mono-sm text-label-mono-sm uppercase font-bold">
+                HIGH TEMPO RALLY
+              </span>
+</div>
+<!-- Bottom Visual Overlay -->
+<div class="absolute bottom-space-md left-space-md right-space-md p-space-md rounded-lg bg-inverse-surface/85 backdrop-blur-md flex flex-wrap items-center justify-between gap-space-md">
+<div class="space-y-0.5">
+<span class="font-label-mono-sm text-label-mono-sm text-tertiary-fixed uppercase">SESSION ATMOSPHERE</span>
+<div class="font-headline-sm text-headline-sm text-inverse-on-surface tracking-tight">음악과 열기가 공존하는 어번 스포츠 살롱</div>
+</div>
+<div class="flex items-center gap-space-lg">
+<div class="text-right">
+<div class="font-label-mono-sm text-label-mono-sm text-tertiary-fixed">AUDIO SOUNDTRACK</div>
+<div class="font-headline-sm text-headline-sm text-inverse-on-surface">124 BPM LO-FI HOUSE</div>
+</div>
+<div class="text-right">
+<div class="font-label-mono-sm text-label-mono-sm text-tertiary-fixed">AVERAGE CALORIES</div>
+<div class="font-headline-sm text-headline-sm text-primary-fixed-dim">680 KCAL / 3HR</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- 02. ARENA BLUEPRINT & TABLE OCCUPANCY MATRIX (TABLE 01-08) -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-sm space-y-space-md">
+<div class="flex items-center justify-between">
+<div class="space-y-0.5">
+<div class="font-label-mono-sm text-label-mono-sm text-primary uppercase">ARCHITECTURAL BLUEPRINT</div>
+<div class="font-headline-sm text-headline-sm text-on-surface">경기장 평면도 및 테이블 01-08 세션 구역</div>
+</div>
+<div class="hidden sm:flex items-center gap-space-xs font-label-mono-sm text-label-mono-sm text-secondary">
+<span class="w-2.5 h-2.5 rounded-sm bg-primary">
+</span> 리그전 (01-06)
+              <span class="w-2.5 h-2.5 rounded-sm bg-inverse-surface ml-2">
+</span> 원포인트 (07-08)
+            </div>
+</div>
+<!-- Arena Floor Graphic Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm p-space-md bg-surface-container rounded-lg">
+<!-- Table 01 -->
+<div class="p-space-sm rounded bg-surface-container-lowest shadow-sm flex flex-col justify-between h-28 relative overflow-hidden group">
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm">
+<span class="font-bold text-on-surface">T-01</span>
+<span class="text-primary font-bold">COURT A</span>
+</div>
+<div class="my-auto py-1 text-center">
+<div class="w-16 h-8 mx-auto bg-primary/10 rounded flex items-center justify-center">
+<div class="w-12 h-0.5 bg-primary/40">
+</div>
+</div>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary truncate">믹스 복식 리그 A</div>
+</div>
+<!-- Table 02 -->
+<div class="p-space-sm rounded bg-surface-container-lowest shadow-sm flex flex-col justify-between h-28">
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm">
+<span class="font-bold text-on-surface">T-02</span>
+<span class="text-primary font-bold">COURT A</span>
+</div>
+<div class="my-auto py-1 text-center">
+<div class="w-16 h-8 mx-auto bg-primary/10 rounded flex items-center justify-center">
+<div class="w-12 h-0.5 bg-primary/40">
+</div>
+</div>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary truncate">믹스 복식 리그 A</div>
+</div>
+<!-- Table 03 -->
+<div class="p-space-sm rounded bg-surface-container-lowest shadow-sm flex flex-col justify-between h-28">
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm">
+<span class="font-bold text-on-surface">T-03</span>
+<span class="text-primary font-bold">COURT B</span>
+</div>
+<div class="my-auto py-1 text-center">
+<div class="w-16 h-8 mx-auto bg-primary/10 rounded flex items-center justify-center">
+<div class="w-12 h-0.5 bg-primary/40">
+</div>
+</div>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary truncate">믹스 복식 리그 B</div>
+</div>
+<!-- Table 04 -->
+<div class="p-space-sm rounded bg-surface-container-lowest shadow-sm flex flex-col justify-between h-28">
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm">
+<span class="font-bold text-on-surface">T-04</span>
+<span class="text-primary font-bold">COURT B</span>
+</div>
+<div class="my-auto py-1 text-center">
+<div class="w-16 h-8 mx-auto bg-primary/10 rounded flex items-center justify-center">
+<div class="w-12 h-0.5 bg-primary/40">
+</div>
+</div>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary truncate">믹스 복식 리그 B</div>
+</div>
+<!-- Table 05 -->
+<div class="p-space-sm rounded bg-surface-container-lowest shadow-sm flex flex-col justify-between h-28">
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm">
+<span class="font-bold text-on-surface">T-05</span>
+<span class="text-primary font-bold">COURT C</span>
+</div>
+<div class="my-auto py-1 text-center">
+<div class="w-16 h-8 mx-auto bg-primary/10 rounded flex items-center justify-center">
+<div class="w-12 h-0.5 bg-primary/40">
+</div>
+</div>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary truncate">루키 챌린지 매치</div>
+</div>
+<!-- Table 06 -->
+<div class="p-space-sm rounded bg-surface-container-lowest shadow-sm flex flex-col justify-between h-28">
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm">
+<span class="font-bold text-on-surface">T-06</span>
+<span class="text-primary font-bold">COURT C</span>
+</div>
+<div class="my-auto py-1 text-center">
+<div class="w-16 h-8 mx-auto bg-primary/10 rounded flex items-center justify-center">
+<div class="w-12 h-0.5 bg-primary/40">
+</div>
+</div>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary truncate">루키 챌린지 매치</div>
+</div>
+<!-- Table 07 (Pro Clinic) -->
+<div class="p-space-sm rounded bg-inverse-surface text-inverse-on-surface shadow-sm flex flex-col justify-between h-28">
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm">
+<span class="font-bold text-primary-fixed">T-07</span>
+<span class="px-1.5 py-0.5 rounded bg-primary text-on-primary text-[8px] font-bold">PRO LAB</span>
+</div>
+<div class="my-auto py-1 text-center">
+<div class="w-16 h-8 mx-auto bg-surface-container-lowest/10 rounded flex items-center justify-center">
+<div class="w-12 h-0.5 bg-primary">
+</div>
+</div>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-tertiary-fixed-dim truncate">김진호 헤드코치 전술</div>
+</div>
+<!-- Table 08 (Pro Clinic) -->
+<div class="p-space-sm rounded bg-inverse-surface text-inverse-on-surface shadow-sm flex flex-col justify-between h-28">
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm">
+<span class="font-bold text-primary-fixed">T-08</span>
+<span class="px-1.5 py-0.5 rounded bg-primary text-on-primary text-[8px] font-bold">FEED FEEDER</span>
+</div>
+<div class="my-auto py-1 text-center">
+<div class="w-16 h-8 mx-auto bg-surface-container-lowest/10 rounded flex items-center justify-center">
+<div class="w-12 h-0.5 bg-primary">
+</div>
+</div>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-tertiary-fixed-dim truncate">자동 피더 드라이브 존</div>
+</div>
+</div>
+<div class="flex flex-wrap items-center justify-between gap-space-xs font-label-mono-sm text-label-mono-sm text-secondary pt-1">
+<span>SPEC: CHAMPION PRO 900 OLYMPIC GRADE TABLE</span>
+<span>FLOORING: GERFLOR TARAFLEX 7.5MM REDUCES KNEE IMPACT</span>
+</div>
+</div>
+<!-- 03. HEAD COACH PROFILE & COACHING ETHOS -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm space-y-space-md">
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm pb-space-xs">
+<div>
+<span class="font-label-mono-sm text-label-mono-sm text-primary uppercase">HEAD COACH DOSSIER</span>
+<div class="font-headline-md text-headline-md text-on-surface">김진호 프로 (Kim Jin-ho)</div>
+</div>
+<div class="flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-high">
+<svg class="rc-icon  text-primary text-[18px]" data-icon="verified" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span class="font-label-mono-sm text-label-mono-sm font-bold text-on-surface">KTTL 실업팀 출신 엘리트 코치</span>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-12 gap-space-md items-center">
+<div class="sm:col-span-4 aspect-square rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" src="images/reds-club-pingpong-01.jpg" alt="Medium close-up portrait of Korean professional male table tennis coach Kim Jin-ho holding a carbon blade racket with focused athletic intensity. Crisp studio side-lighting, clean architectural athletic background with red and slate dark sports apparel. Highly sharp editorial portraiture for sports magazines." loading="eager" decoding="async">
+</div>
+<div class="sm:col-span-8 space-y-space-sm">
+<div class="grid grid-cols-3 gap-space-xs p-space-sm rounded bg-surface-container-low text-center">
+<div>
+<div class="font-headline-sm text-headline-sm text-primary font-black">4.95</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary">CREW RATING</div>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-black">48회</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary">연속 만점 피드백</div>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-black">12년</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary">엘리트 선수/지도</div>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+                “탁구는 단순한 반사신경이 아니라 <span class="font-semibold text-primary">신체의 무게중심 이동과 회전의 역학</span>입니다. 복잡한 이론 대신 단 한 번의 스트로크 궤적 교정으로 자신의 구질이 달라지는 감각적 쾌감을 전달하겠습니다.”
+              </p>
+<div class="flex flex-wrap gap-1.5 font-label-mono-sm text-label-mono-sm">
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface">전(前) 국군체육부대 상무 선수</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface">전국체전 단체전 금메달</span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface">생활체육 지도사 1급</span>
+</div>
+</div>
+</div>
+</div>
+<!-- 04. 3-HOUR INDUSTRIAL TIMETABLE & TELEMETRY GRAPH -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-sm space-y-space-lg">
+<div class="flex items-center justify-between">
+<div class="space-y-0.5">
+<div class="font-label-mono-sm text-label-mono-sm text-primary uppercase">3-HOUR INDUSTRIAL PROTOCOL</div>
+<div class="font-headline-sm text-headline-sm text-on-surface">타임테이블 및 심박 부하 궤적</div>
+</div>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary hidden sm:inline">180 MIN HIGH EFFICIENCY FLOW</span>
+</div>
+<!-- Timeline Chart SVG (Telemetry style) -->
+<div class="w-full bg-surface-container-lowest p-space-md rounded-lg shadow-sm">
+<div class="h-20 w-full">
+<svg class="w-full h-full text-primary" preserveAspectRatio="none" viewBox="0 0 600 70">
+<path d="M0,55 L80,45 L150,30 L220,50 L300,15 L380,10 L460,20 L530,55 L600,60" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="3">
+</path>
+<path d="M0,55 L80,45 L150,30 L220,50 L300,15 L380,10 L460,20 L530,55 L600,60 L600,70 L0,70 Z" fill="currentColor" fill-opacity="0.08">
+</path>
+<circle class="fill-surface stroke-primary" cx="80" cy="45" r="4" stroke-width="2">
+</circle>
+<circle class="fill-surface stroke-primary" cx="220" cy="50" r="4" stroke-width="2">
+</circle>
+<circle class="fill-primary stroke-surface" cx="340" cy="12" r="5" stroke-width="2">
+</circle>
+<circle class="fill-surface stroke-primary" cx="530" cy="55" r="4" stroke-width="2">
+</circle>
+</svg>
+</div>
+<div class="flex justify-between text-secondary font-label-mono-sm text-label-mono-sm pt-2">
+<span>14:00 [WARM-UP]</span>
+<span>14:20 [CLINIC]</span>
+<span class="text-primary font-bold">15:30 [PEAK LEAGUE]</span>
+<span>16:50 [COOL-DOWN]</span>
+</div>
+</div>
+<!-- Structured Sequential Steps -->
+<div class="space-y-space-sm font-body-sm text-body-sm">
+<!-- Phase 01 -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest flex items-start gap-space-md">
+<div class="font-label-mono-md text-label-mono-md text-primary font-black shrink-0 w-16 pt-0.5">14:00</div>
+<div class="space-y-0.5 grow">
+<div class="font-headline-sm text-headline-sm text-on-surface">01. 다이나믹 웜업 &amp; 구력별 실전 분반 배정</div>
+<p class="text-secondary">모빌리티 스트레칭 및 랠리 핑퐁을 통해 구력(루키/베테랑)을 파악하고 최적의 밸런스로 4개 조 리그 조편성을 완료합니다.</p>
+</div>
+<span class="px-2 py-1 rounded bg-surface-container font-label-mono-sm text-label-mono-sm text-secondary shrink-0">20 MIN</span>
+</div>
+<!-- Phase 02 -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest flex items-start gap-space-md">
+<div class="font-label-mono-md text-label-mono-md text-primary font-black shrink-0 w-16 pt-0.5">14:20</div>
+<div class="space-y-0.5 grow">
+<div class="font-headline-sm text-headline-sm text-on-surface">02. 김진호 프로 원포인트 전술 클리닉</div>
+<p class="text-secondary">개인별 풋워크 타이밍, 백핸드 푸시 커트 각도, 회전 서브 임팩트 중 희망하는 기술 1종을 집중 밀착 코칭합니다.</p>
+</div>
+<span class="px-2 py-1 rounded bg-surface-container font-label-mono-sm text-label-mono-sm text-secondary shrink-0">70 MIN</span>
+</div>
+<!-- Phase 03 -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest flex items-start gap-space-md">
+<div class="font-label-mono-md text-label-mono-md text-primary font-black shrink-0 w-16 pt-0.5">15:30</div>
+<div class="space-y-0.5 grow">
+<div class="font-headline-sm text-headline-sm text-on-surface">03. 믹스 복식 랭킹 리그 &amp; 토너먼트 파이널</div>
+<p class="text-secondary">실력 균형을 맞춘 2인 1조 믹스 복식 풀리그. 세트당 긴장감 넘치는 랠리와 최종 우승팀 시상이 진행됩니다.</p>
+</div>
+<span class="px-2 py-1 rounded bg-surface-container font-label-mono-sm text-label-mono-sm text-primary font-bold shrink-0">80 MIN</span>
+</div>
+<!-- Phase 04 -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest flex items-start gap-space-md">
+<div class="font-label-mono-md text-label-mono-md text-primary font-black shrink-0 w-16 pt-0.5">16:50</div>
+<div class="space-y-0.5 grow">
+<div class="font-headline-sm text-headline-sm text-on-surface">04. 쿨다운 스트레칭 &amp; 프리미엄 크래프트 비어 살롱</div>
+<p class="text-secondary">플레이 후 근육 이완과 함께 레즈클럽 시그니처 앰버 라거(무알코올 세션 선택 가능)와 핑거푸드를 즐기며 네트워킹을 갖습니다.</p>
+</div>
+<span class="px-2 py-1 rounded bg-surface-container font-label-mono-sm text-label-mono-sm text-secondary shrink-0">40 MIN</span>
+</div>
+</div>
+</div>
+<!-- 05. COMPLIMENTARY GEAR & SPECS INSPECTION -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm space-y-space-md">
+<div class="flex items-center justify-between">
+<div class="space-y-0.5">
+<span class="font-label-mono-sm text-label-mono-sm text-primary uppercase">COMPLIMENTARY HARDWARE SPEC</span>
+<div class="font-headline-sm text-headline-sm text-on-surface">기어 대여 혜택: 챔피온 카본 V3 풀세트</div>
+</div>
+<span class="px-2 py-1 rounded bg-primary/10 text-primary font-label-mono-sm text-label-mono-sm font-bold">무료 렌탈 지원</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="p-space-md rounded-lg bg-surface-container-low space-y-2">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface">SHAKEHAND CARBON V3</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">85g / FAST ATTACK</span>
+</div>
+<p class="font-body-sm text-body-sm text-secondary">
+                안정적인 그립감과 넓은 스위트스팟을 제공하여 초중급자부터 공격적인 탑스핀 드라이브를 손쉽게 구사할 수 있습니다.
+              </p>
+<div class="pt-1 flex items-center justify-between font-label-mono-sm text-label-mono-sm text-on-surface">
+<span>RUBBER: TIBHAR EVOLUTION MX-P</span>
+<span class="text-primary font-bold">12 SETS READY</span>
+</div>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-low space-y-2">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface">PENHOLDER JAPANESE V2</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">92g / SOLID IMPACT</span>
+</div>
+<p class="font-body-sm text-body-sm text-secondary">
+                정통 펜홀더 유저를 위한 단판 히노끼 카본 블레이드. 강력한 스매싱 파워와 직관적인 푸시 피드백을 전달합니다.
+              </p>
+<div class="pt-1 flex items-center justify-between font-label-mono-sm text-label-mono-sm text-on-surface">
+<span>RUBBER: BUTTERFLY TENERGY 05</span>
+<span class="text-primary font-bold">6 SETS READY</span>
+</div>
+</div>
+</div>
+<div class="p-space-sm rounded bg-surface-container flex items-center gap-space-xs font-body-sm text-body-sm text-secondary">
+<svg class="rc-icon  text-primary text-[18px]" data-icon="info" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+            개인 라켓 지참 적극 권장 (ITTF 공인 시합구 니타쿠 3스타 프리미엄 공은 무제한 제공됩니다).
+          </div>
+</div>
+<!-- 06. ATTENDEES ROSTER & TELEMETRY GAUGES -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-sm space-y-space-md">
+<div class="flex items-center justify-between">
+<div class="space-y-0.5">
+<span class="font-label-mono-sm text-label-mono-sm text-primary uppercase">CREW ROSTER &amp; BALANCE METRICS</span>
+<div class="font-headline-sm text-headline-sm text-on-surface">참여 크루 라인업 분석 &amp; 구력 밸런스</div>
+</div>
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface font-bold">15 / 16 SLOTS CONFIRMED</span>
+</div>
+<!-- Gauges -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Gauge 1: Experience -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest space-y-space-xs">
+<div class="flex justify-between font-label-mono-sm text-label-mono-sm">
+<span class="text-secondary">구력 분포율 (EXPERIENCE RATIO)</span>
+<span class="font-bold text-on-surface">탁린이 40% : 1~3년차 60%</span>
+</div>
+<div class="w-full h-3 bg-surface-container rounded-full overflow-hidden flex">
+<div class="h-full bg-primary" style="width: 40%">
+</div>
+<div class="h-full bg-inverse-surface" style="width: 60%">
+</div>
+</div>
+<div class="flex justify-between font-label-mono-sm text-label-mono-sm text-secondary pt-1">
+<span>● 입문 &amp; 6개월 미만 (6명)</span>
+<span class="text-on-surface">● 1~3년차 클럽러 (9명)</span>
+</div>
+</div>
+<!-- Gauge 2: Gender -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest space-y-space-xs">
+<div class="flex justify-between font-label-mono-sm text-label-mono-sm">
+<span class="text-secondary">성비 밸런스 (GENDER BALANCE)</span>
+<span class="font-bold text-on-surface">남 50% : 여 50% TARGET</span>
+</div>
+<div class="w-full h-3 bg-surface-container rounded-full overflow-hidden flex">
+<div class="h-full bg-inverse-surface" style="width: 53%">
+</div>
+<div class="h-full bg-primary" style="width: 47%">
+</div>
+</div>
+<div class="flex justify-between font-label-mono-sm text-label-mono-sm text-secondary pt-1">
+<span>남 8석 [마감됨]</span>
+<span class="text-primary font-bold">여 7석 [마지막 1석 잔여]</span>
+</div>
+</div>
+</div>
+<!-- Crew Member Mini Chips Grid -->
+<div class="space-y-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm text-secondary uppercase">CONFIRMED ATHLETE CHIPS</span>
+<div class="flex flex-wrap gap-2">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest shadow-sm text-on-surface font-label-mono-sm text-label-mono-sm flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary">
+</span>
+                강*민 (구력 2년 / 쉐이크)
+              </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest shadow-sm text-on-surface font-label-mono-sm text-label-mono-sm flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary">
+</span>
+                박*서 (구력 4개월 / 쉐이크)
+              </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest shadow-sm text-on-surface font-label-mono-sm text-label-mono-sm flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary">
+</span>
+                이*준 (구력 1년 / 펜홀더)
+              </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest shadow-sm text-on-surface font-label-mono-sm text-label-mono-sm flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary">
+</span>
+                최*연 (구력 3개월 / 쉐이크)
+              </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest shadow-sm text-on-surface font-label-mono-sm text-label-mono-sm flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary">
+</span>
+                정*우 (구력 3년 / 쉐이크)
+              </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest shadow-sm text-on-surface font-label-mono-sm text-label-mono-sm flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary">
+</span>
+                송*지 (구력 1년 / 쉐이크)
+              </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest shadow-sm text-on-surface font-label-mono-sm text-label-mono-sm flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary">
+</span>
+                김*진 (구력 8개월 / 쉐이크)
+              </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest shadow-sm text-on-surface font-label-mono-sm text-label-mono-sm flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary">
+</span>
+                윤*덕 (구력 2년 / 펜홀더)
+              </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-bold font-label-mono-sm text-label-mono-sm">
+                +7 MORE ATHLETES
+              </span>
+</div>
+</div>
+</div>
+<!-- 07. VENUE LOCATION & LOGISTICS -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm space-y-space-md">
+<div class="space-y-0.5">
+<span class="font-label-mono-sm text-label-mono-sm text-primary uppercase">TACTICAL LOCATION &amp; PARKING</span>
+<div class="font-headline-sm text-headline-sm text-on-surface">오시는 길 및 시설 이용 인포메이션</div>
+</div>
+<!-- Location Map Placeholder with data-location -->
+<div class="w-full h-56 rounded-lg bg-cover bg-center shadow-sm relative overflow-hidden" data-location="Seoul National University of Education Station, Seoul, Korea" style="background-image: url('images/reds-club-pingpong-03.jpg')">
+<div class="absolute inset-0 bg-inverse-surface/20">
+</div>
+<div class="absolute bottom-space-sm left-space-sm bg-inverse-surface/90 text-inverse-on-surface px-space-sm py-1 rounded font-label-mono-sm text-label-mono-sm flex items-center gap-1.5">
+<svg class="rc-icon  text-primary text-[14px]" data-icon="pin_drop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span>서초구 서초대로53길 21 B1 핑퐁 아카데미</span>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm font-body-sm text-body-sm">
+<div class="p-space-sm rounded bg-surface-container-low">
+<div class="font-bold text-on-surface flex items-center gap-1">
+<svg class="rc-icon  text-primary text-[16px]" data-icon="directions_subway" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg> 교대역 도보 3분
+              </div>
+<p class="text-secondary pt-0.5">2호선·3호선 환승 교대역 4번 출구에서 스타벅스 골목 직진 180m</p>
+</div>
+<div class="p-space-sm rounded bg-surface-container-low">
+<div class="font-bold text-on-surface flex items-center gap-1">
+<svg class="rc-icon  text-primary text-[16px]" data-icon="local_parking" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 22V2h7a6 6 0 0 1 0 12H6M6 5h7a3 3 0 0 1 0 6H6">
+</path>
+</svg> 2시간 무료 주차
+              </div>
+<p class="text-secondary pt-0.5">건물 자주식 지하 주차장 완비 (세션 입장 시 번호 등록 필수)</p>
+</div>
+<div class="p-space-sm rounded bg-surface-container-low">
+<div class="font-bold text-on-surface flex items-center gap-1">
+<svg class="rc-icon  text-primary text-[16px]" data-icon="shower" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg> 개인 샤워실 &amp; 락커
+              </div>
+<p class="text-secondary pt-0.5">타월, 샴푸/바디워시, 다이슨 헤어드라이어 및 락커 무상 제공</p>
+</div>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN: FLOATING MATCH DAY DIGITAL PASS (5-COL) -->
+<div class="lg:col-span-5 w-full sticky top-20">
+<!-- FLIGHT TICKET / MATCH PASS COMPONENT -->
+<div class="w-full bg-inverse-surface text-inverse-on-surface rounded-xl shadow-2xl overflow-hidden relative">
+<!-- PASS HEADER STRIP -->
+<div class="p-space-md bg-inverse-surface flex items-center justify-between border-none">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-primary animate-pulse">
+</span>
+<span class="font-label-mono-md text-label-mono-md text-inverse-on-surface uppercase tracking-wider">OFFICIAL MATCH PASS</span>
+</div>
+<span class="font-label-mono-sm text-label-mono-sm text-tertiary-fixed font-bold tracking-widest">NO. 2418-SEOUL-SAT</span>
+</div>
+<!-- PASS HERO DETAILS -->
+<div class="px-space-lg pt-space-sm pb-space-md space-y-space-md">
+<div>
+<div class="font-label-mono-sm text-label-mono-sm text-primary-fixed uppercase">EVENT CODE: PINGPONG SALON 018</div>
+<div class="font-headline-md text-headline-md text-inverse-on-surface leading-tight">강남 레즈 핑퐁 살롱 주말 정기전</div>
+</div>
+<!-- Pass Telemetry Grid -->
+<div class="grid grid-cols-2 gap-space-sm p-space-md rounded-lg bg-surface-container-lowest/5">
+<div>
+<div class="font-label-mono-sm text-label-mono-sm text-tertiary-fixed">DATE &amp; TIME</div>
+<div class="font-headline-sm text-headline-sm text-inverse-on-surface">11.02 토요일</div>
+<div class="font-label-mono-sm text-label-mono-sm text-primary-fixed-dim">14:00 - 17:00 (3HR)</div>
+</div>
+<div>
+<div class="font-label-mono-sm text-label-mono-sm text-tertiary-fixed">VENUE</div>
+<div class="font-headline-sm text-headline-sm text-inverse-on-surface">서초 교대 아카데미</div>
+<div class="font-label-mono-sm text-label-mono-sm text-tertiary-fixed">B1 CENTER COURT</div>
+</div>
+</div>
+<!-- GENDER CAPACITY LIVE TRACKER -->
+<div class="space-y-space-xs p-space-sm rounded bg-surface-container-lowest/5">
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm">
+<span class="text-tertiary-fixed">GENDER SEAT ALLOCATION</span>
+<span class="text-primary-fixed font-bold">[TOTAL 15/16 SOLD]</span>
+</div>
+<div class="space-y-1.5">
+<div>
+<div class="flex justify-between font-body-sm text-body-sm text-tertiary-fixed-dim pb-0.5">
+<span>남성 참가석</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary-fixed">8/8 (정원 마감)</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container-lowest/20 rounded-full overflow-hidden">
+<div class="w-full h-full bg-secondary">
+</div>
+</div>
+</div>
+<div>
+<div class="flex justify-between font-body-sm text-body-sm text-primary-fixed pb-0.5">
+<span class="font-bold flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-ping">
+</span>
+                      여성 참가석 (마지막 잔여)
+                    </span>
+<span class="font-label-mono-sm text-label-mono-sm text-primary-fixed font-bold">7/8 (1석 남음)</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container-lowest/20 rounded-full overflow-hidden">
+<div class="w-[87.5%] h-full bg-primary">
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- PRICE COMPUTATION BLOCK -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest/10 space-y-space-xs">
+<div class="flex items-center justify-between font-body-sm text-body-sm text-tertiary-fixed">
+<span>정상 참가비</span>
+<span class="line-through">₩18,000</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm text-primary-fixed">
+<span class="flex items-center gap-1">
+<svg class="rc-icon  text-[14px]" data-icon="confirmation_number" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M2 6h20v4a2 2 0 0 0 0 4v4H2v-4a2 2 0 0 0 0-4Zm14 0v3m0 2v2m0 2v3">
+</path>
+</svg>
+                  첫 참가 웰컴 바우처 적용
+                </span>
+<span>- ₩5,000</span>
+</div>
+<div class="pt-space-xs flex items-baseline justify-between">
+<div>
+<span class="font-label-mono-sm text-label-mono-sm text-tertiary-fixed block">FINAL PASS TICKET</span>
+<span class="font-label-mono-sm text-label-mono-sm text-primary-fixed-dim">장비 대여 + 수제 맥주 1캔 포함</span>
+</div>
+<div class="text-right">
+<span class="font-display-xl-mobile text-display-xl-mobile text-inverse-on-surface font-black leading-none">₩13,000</span>
+</div>
+</div>
+</div>
+</div>
+<!-- PERFORATION LINE & CIRCLE NOTCHES -->
+<div class="relative w-full py-space-sm flex items-center">
+<!-- Left Notch -->
+<div class="absolute -left-3.5 w-7 h-7 rounded-full bg-surface">
+</div>
+<!-- Dashed Perforation -->
+<div class="w-full mx-4 border-b-2 border-dashed border-tertiary">
+</div>
+<!-- Right Notch -->
+<div class="absolute -right-3.5 w-7 h-7 rounded-full bg-surface">
+</div>
+</div>
+<!-- DETACHED PASS FOOTER (ACTIONS & BARCODE) -->
+<div class="px-space-lg pb-space-lg pt-space-xs space-y-space-md">
+<!-- CTA Buttons -->
+<div class="space-y-space-xs">
+<button class="w-full py-3.5 px-space-md rounded bg-primary hover:bg-primary-container text-on-primary font-headline-sm text-headline-sm tracking-wide transition-all shadow-lg flex items-center justify-center gap-space-xs group" type="button" data-reserve="pingpong" data-participants="1">참가석 선택하기 →</button>
+<button class="w-full py-3 px-space-md rounded bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 text-inverse-on-surface font-body-sm text-body-sm transition-all flex items-center justify-center gap-space-xs" type="button" data-share="">
+<svg class="rc-icon  text-[18px]" data-icon="share" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M8 12 17 6M8 12l9 6M8 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0M22 4a3 3 0 1 1-6 0 3 3 0 0 1 6 0M22 20a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
+</path>
+</svg>
+<span>카카오톡으로 크루 친구 초대하기</span>
+</button>
+</div>
+<!-- Guarantee Badges -->
+<div class="flex items-center justify-center gap-space-sm text-center font-label-mono-sm text-label-mono-sm text-tertiary-fixed-dim">
+<span class="flex items-center gap-1">
+<svg class="rc-icon  text-primary text-[14px]" data-icon="verified_user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 2 3 6v6c0 6 9 10 9 10s9-4 9-10V6Zm-5 10 3 3 6-6">
+</path>
+</svg>
+                24시간 전 100% 안심 환불 보장
+              </span>
+<span>•</span>
+<span>노쇼 페널티 엄격 적용</span>
+</div>
+<!-- Matrix / Barcode Aesthetic -->
+<div class="pt-space-xs space-y-1 text-center">
+<div class="h-10 w-full flex items-center justify-center gap-1 opacity-60">
+<div class="w-1 h-8 bg-inverse-on-surface">
+</div>
+<div class="w-2 h-8 bg-inverse-on-surface">
+</div>
+<div class="w-0.5 h-8 bg-inverse-on-surface">
+</div>
+<div class="w-1.5 h-8 bg-inverse-on-surface">
+</div>
+<div class="w-3 h-8 bg-inverse-on-surface">
+</div>
+<div class="w-0.5 h-8 bg-inverse-on-surface">
+</div>
+<div class="w-1 h-8 bg-inverse-on-surface">
+</div>
+<div class="w-2.5 h-8 bg-inverse-on-surface">
+</div>
+<div class="w-1.5 h-8 bg-inverse-on-surface">
+</div>
+<div class="w-0.5 h-8 bg-inverse-on-surface">
+</div>
+<div class="w-2 h-8 bg-inverse-on-surface">
+</div>
+<div class="w-1 h-8 bg-inverse-on-surface">
+</div>
+<div class="w-3 h-8 bg-inverse-on-surface">
+</div>
+<div class="w-0.5 h-8 bg-inverse-on-surface">
+</div>
+<div class="w-2 h-8 bg-inverse-on-surface">
+</div>
+<div class="w-1.5 h-8 bg-inverse-on-surface">
+</div>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-tertiary-container tracking-[0.3em] uppercase">
+                * REDS-CLUB-ENTRY-SERIAL-84920492 *
+              </div>
+</div>
+</div>
+</div>
+<!-- QUICK FAQ / SUMMARY PILL WIDGET -->
+<div class="mt-space-md p-space-md rounded-xl bg-surface-container-low shadow-sm space-y-space-xs font-body-sm text-body-sm text-secondary">
+<div class="flex items-center gap-2 text-on-surface font-bold">
+<svg class="rc-icon  text-primary text-[18px]" data-icon="help" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+            자주 묻는 질문 (FAQ)
+          </div>
+<div class="space-y-1 pt-1 text-xs">
+<p>
+<strong class="text-on-surface">Q. 혼자 참여해도 어색하지 않나요?</strong>
+<br>참가자의 80%가 솔로 참가자이며 전담 호스트가 자연스럽게 복식 매칭을 리드합니다.</p>
+<p>
+<strong class="text-on-surface">Q. 준비물이 필요한가요?</strong>
+<br>실내 전용 운동화만 챙겨오시면 라켓, 핑퐁공, 타월, 음료는 모두 무상 제공됩니다.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- LIVE INLINE INTERACTION HANDLER -->
+
+</div>
+</main>
+<footer class="w-full bg-inverse-surface text-inverse-on-surface">
+<div class="w-full px-gutter lg:px-margin py-space-xl">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl pb-space-xl">
+<div class="lg:col-span-5 flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-sm">
+<div class="font-headline-sm text-headline-sm text-inverse-on-surface uppercase tracking-tight">REDS CLUB® SPORTS SPECIFICATION</div>
+<p class="font-body-sm text-body-sm text-tertiary-fixed-dim max-w-md">공공 체육 시설, 프로 엘리트 팀 및 퍼포먼스 커뮤니티를 위한 테크니컬 스포츠 인프라 솔루션. 표준 규격 기구 공급부터 대규모 단체 검수 및 통합 납품 조달을 지원합니다.</p>
+</div>
+<div class="space-y-space-xs">
+<div class="font-label-mono-sm text-label-mono-sm text-tertiary-fixed uppercase tracking-widest">CERTIFICATIONS &amp; COMPLIANCE</div>
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="px-2 py-1 rounded bg-tertiary-container/30 text-inverse-on-surface font-label-mono-sm text-label-mono-sm uppercase">ITTF APPROVED</span>
+<span class="px-2 py-1 rounded bg-tertiary-container/30 text-inverse-on-surface font-label-mono-sm text-label-mono-sm uppercase">FIFA QUALITY STANDARD</span>
+<span class="px-2 py-1 rounded bg-tertiary-container/30 text-inverse-on-surface font-label-mono-sm text-label-mono-sm uppercase">KS CERTIFIED INFRA</span>
+<span class="px-2 py-1 rounded bg-tertiary-container/30 text-inverse-on-surface font-label-mono-sm text-label-mono-sm uppercase">ISO 9001 / 14001</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-3 space-y-space-md">
+<div class="font-label-mono-md text-label-mono-md text-inverse-on-surface tracking-widest uppercase">PUBLIC &amp; INSTITUTIONAL</div>
+<ul class="space-y-space-xs font-body-sm text-body-sm text-tertiary-fixed-dim">
+<li>
+<span class="text-primary-fixed-dim font-label-mono-sm mr-1">[G2B]</span> 조달청 나라장터 공급 식별번호 인증</li>
+<li>
+<span class="text-primary-fixed-dim font-label-mono-sm mr-1">[S2B]</span> 학교장터 교육기관 맞춤 계약 라인</li>
+<li>
+<span class="text-primary-fixed-dim font-label-mono-sm mr-1">[B2B]</span> 공공·민간 체육 시설 납품 규격 설계</li>
+<li>
+<span class="text-primary-fixed-dim font-label-mono-sm mr-1">[DOC]</span> 공인 시험성적서 및 사후 유지보수 실사</li>
+</ul>
+</div>
+<div class="lg:col-span-2 space-y-space-md">
+<div class="font-label-mono-md text-label-mono-md text-inverse-on-surface tracking-widest uppercase">TELEMETRY &amp; INDEX</div>
+<ul class="space-y-space-xs font-label-mono-sm text-label-mono-sm text-tertiary-fixed-dim uppercase">
+<li>
+<a class="hover:text-inverse-on-surface transition-colors" data-path="gear-equipment" href="reds-club-gear.html">01 GEAR INVENTORY</a>
+</li>
+<li>
+<a class="hover:text-inverse-on-surface transition-colors" data-path="club-gatherings" href="reds-club-clubs.html">02 SESSION CALENDAR</a>
+</li>
+<li>
+<a class="hover:text-inverse-on-surface transition-colors" data-path="b2b-institutional-estimate" href="reds-club-estimate.html">03 INST. ESTIMATE</a>
+</li>
+<li>
+<a class="hover:text-inverse-on-surface transition-colors" data-path="archive-stories" href="reds-club-stories.html">04 LAB ARCHIVE</a>
+</li>
+<li>
+<a class="hover:text-inverse-on-surface transition-colors" data-path="membership" href="reds-club-membership.html">05 ATHLETE PASS</a>
+</li>
+</ul>
+</div>
+<div class="lg:col-span-2 space-y-space-md">
+<div class="font-label-mono-md text-label-mono-md text-inverse-on-surface tracking-widest uppercase">LEGAL &amp; OPS</div>
+<ul class="space-y-space-xs font-body-sm text-body-sm text-tertiary-fixed-dim">
+<li>
+<a class="hover:text-inverse-on-surface transition-colors" data-path="privacy-policy" href="reds-club-privacy.html">개인정보처리방침</a>
+</li>
+<li>
+<a class="hover:text-inverse-on-surface transition-colors" data-path="terms-of-service" href="reds-club-terms.html">이용약관 및 납품규정</a>
+</li>
+<li>
+<a class="hover:text-inverse-on-surface transition-colors" data-path="safety-standards" href="reds-club-safety.html">품질보증 및 안전표준</a>
+</li>
+<li>
+<a class="hover:text-inverse-on-surface transition-colors" data-path="contact-desk" href="reds-club-contact.html">기관 계약 기술지원 센터</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="pt-space-lg flex flex-col md:flex-row md:items-center justify-between gap-space-md font-label-mono-sm text-label-mono-sm text-tertiary-container">
+<div class="space-y-1">
+<p>© 2026 REDS CLUB CORP. ALL RIGHTS RESERVED. ATHLETIC HARDWARE LAB.</p>
+<p>통신판매업신고: 2026-SEOUL-8942 / 조달벤더 인증 ID: REDS-CORP-KR-09</p>
+</div>
+<div class="flex items-center gap-space-md">
+<span>SERVER STATUS: [OPERATIONAL / LATENCY 12ms]</span>
+<span>LOCATION: SEOUL HQ, KOREA</span>
+</div>
+</div>
+</div>
+<p class="rc-demo-note">REDS CLUB은 디자인을 위한 가상의 플랫폼입니다. 모임·장비·요금·인증·재고 정보는 예시이며 실제 결제·참가 접수·조달 계약·문서 발송을 진행하지 않습니다.</p>
+</footer>
+<dialog id="reds-club-dialog" aria-labelledby="reds-club-dialog-title">
+<div class="rc-dialog-head">
+<h2 id="reds-club-dialog-title">
+</h2>
+<button type="button" data-close="" aria-label="닫기">
+<svg class="rc-icon" data-icon="close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 6 12 12M6 18 18 6">
+</path>
+</svg>
+</button>
+</div>
+<div id="reds-club-dialog-body">
+</div>
+</dialog>
+<div id="reds-club-status" role="status" hidden="">
+</div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="reds-club.css">
+<script defer="" src="reds-club-data.js">
+</script>
+<script defer="" src="reds-club.js">
+</script>
+<title>스마트 설비 견적 | REDS CLUB</title>
+</head>
+<body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary selection:text-on-primary" data-page="estimate">
+<a class="rc-skip" href="#main">본문 바로가기</a>
+<header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)] rc-header">
+<div class="h-16 w-full px-gutter lg:px-margin flex items-center justify-between gap-space-md rc-header-row">
+<div class="flex items-center gap-space-md shrink-0">
+<a class="group flex flex-col justify-center rc-brand" data-path="overview" href="index.html">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm tracking-tight text-on-surface">REDS CLUB<span class="text-primary font-label-mono-sm text-label-mono-sm align-super">®</span>
+</span>
+</div>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary uppercase tracking-widest hidden sm:inline-block">ATHLETIC INFRA &amp; COMMUNITY // SPEC-24</span>
+</a>
+</div>
+<div class="h-6 w-[1px] bg-secondary-container hidden lg:block shrink-0">
+</div>
+<nav class="hidden xl:flex items-center gap-space-lg shrink-0" data-active-classes="text-on-surface font-semibold" id="reds-club-navigation">
+<a class="font-label-mono-md text-label-mono-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs tracking-wider" data-path="gear-equipment" href="reds-club-gear.html">01. GEAR &amp; EQUIPMENT</a>
+<a class="font-label-mono-md text-label-mono-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs tracking-wider" data-path="club-gatherings" href="reds-club-clubs.html">02. CLUB &amp; GATHERINGS</a>
+<a class="uppercase transition-colors py-space-xs tracking-wider text-on-surface font-semibold" data-path="b2b-institutional-estimate" href="reds-club-estimate.html" aria-current="page">03. B2B / INSTITUTIONAL ESTIMATE</a>
+<a class="font-label-mono-md text-label-mono-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs tracking-wider" data-path="archive-stories" href="reds-club-stories.html">04. ARCHIVE &amp; STORIES</a>
+</nav>
+<div class="flex items-center gap-space-md shrink-0 rc-header-tools">
+<div class="hidden md:flex items-center gap-space-xs px-space-sm py-1 rounded bg-surface-container-high">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75">
+</span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary">
+</span>
+</span>
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface tracking-wider">LIVE 1,842 ACTIVE</span>
+</div>
+<a class="flex items-center gap-space-xs px-space-sm py-1.5 rounded hover:bg-surface-container-high transition-colors text-on-surface rc-cart-link" data-path="cart" href="reds-club-cart.html" aria-label="장바구니">
+<svg class="rc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+<path d="M4 7h16v15H4ZM8 7V5a4 4 0 0 1 8 0v2">
+</path>
+</svg>
+<span class="font-label-mono-md text-label-mono-md uppercase">CART</span>
+<span class="font-label-mono-sm text-label-mono-sm px-1.5 py-0.5 rounded bg-surface-container text-primary font-bold" data-cart-count="">0</span>
+</a>
+<a class="hidden sm:flex items-center gap-space-xs px-space-md py-1.5 rounded bg-inverse-surface hover:bg-primary text-inverse-on-surface hover:text-on-primary transition-colors" data-path="membership" href="reds-club-membership.html">
+<span class="font-label-mono-sm text-label-mono-sm tracking-wider uppercase">MEMBERSHIP</span>
+</a>
+<a class="rc-account" href="reds-club-membership.html" aria-label="플레이어 멤버십">
+<svg class="rc-icon" data-icon="person" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10M3 22v-3a9 9 0 0 1 18 0v3">
+</path>
+</svg>
+</a>
+<button class="rc-menu-toggle" type="button" aria-label="메뉴 열기" aria-controls="reds-club-navigation" aria-expanded="false">
+<svg class="rc-icon" data-icon="menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 6h18M3 12h18M3 18h18">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</header>
+<main class="w-full pt-16 bg-surface min-h-[calc(100vh-16rem)]" id="main">
+<div class="flex flex-col w-full">
+<!-- Top Administrative System Bar -->
+<section class="w-full bg-surface-container-high text-on-surface px-gutter lg:px-margin py-space-md">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center justify-center w-6 h-6 rounded bg-primary text-on-primary font-label-mono-sm text-label-mono-sm">GOV</span>
+<span class="font-label-mono-md text-label-mono-md uppercase tracking-wider text-on-surface">B2B &amp; INSTITUTIONAL ESTIMATE ENGINE // SPEC.KOR.2026</span>
+<span class="hidden sm:inline-block font-label-mono-sm text-label-mono-sm px-2 py-0.5 rounded bg-surface-container text-secondary">S2B / G2B 조달벤더 직결</span>
+</div>
+<div class="flex flex-wrap items-center gap-space-md font-label-mono-sm text-label-mono-sm text-secondary">
+<span class="flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse">
+</span>100% 학교·지자체 감사 품의 승인 보증</span>
+<span class="hidden lg:inline-block">검수 완료 후 14일 이내 공공 후불 정산 가능</span>
+<span class="text-on-surface font-bold">REDS-SPEC-CALC v4.9</span>
+</div>
+</div>
+</section>
+<!-- Title & Context Area -->
+<section class="w-full bg-surface px-gutter lg:px-margin pt-space-lg pb-space-md">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md">
+<div>
+<span class="font-label-mono-sm text-label-mono-sm text-primary uppercase tracking-widest">[ADMINISTRATIVE DISPATCH &amp; QUOTATION SYSTEM]</span>
+<h1 class="font-headline-lg text-headline-lg text-on-surface mt-space-xs tracking-tight">공공 체육 행정·학교 스마트 견적 콘솔</h1>
+<p class="font-body-md text-body-md text-secondary mt-space-xs max-w-2xl">
+            초·중·고 교육청 회계감사, 지자체 공공 체육시설 조달 기준에 맞춰 실시간으로 단가 산출, 품목 번호 매핑, 3대 필수 행정 증빙(직인 견적서·사업자등록증·통장사본)을 즉시 생성합니다.
+          </p>
+</div>
+<div class="flex items-center gap-space-sm self-start lg:self-auto">
+<div class="px-3 py-2 rounded bg-surface-container flex items-center gap-2">
+<svg class="rc-icon  text-primary text-[20px]" data-icon="verified" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0m-15 0 4 4 6-7">
+</path>
+</svg>
+<span class="font-label-mono-sm text-label-mono-sm text-on-surface">조달청 나라장터 식별번호 실시간 대조 완료</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Split Workbench Workspace -->
+<section class="w-full bg-surface px-gutter lg:px-margin py-space-lg">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- LEFT: Interactive Catalog & Administrative Builder (7 Cols) -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg min-w-0">
+<!-- 01. 수요 기관 유형 선택 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-5 h-5 rounded bg-inverse-surface text-inverse-on-surface flex items-center justify-center font-label-mono-sm text-label-mono-sm">01</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">수요 기관 구분</h2>
+</div>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">회계 감사 규정 자동 적용</span>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-space-xs pt-space-xs" id="org-types">
+<button class="org-btn active p-3 rounded-lg bg-inverse-surface text-inverse-on-surface text-left transition-all flex flex-col justify-between" data-org="school" type="button">
+<span class="font-label-mono-sm text-label-mono-sm opacity-80">[EDU_01]</span>
+<span class="font-body-md text-body-md font-bold mt-1">초·중·고 체육과</span>
+<span class="font-label-mono-sm text-label-mono-sm text-primary-fixed mt-1">S2B 학교장터 최우선</span>
+</button>
+<button class="org-btn p-3 rounded-lg bg-surface-container text-on-surface text-left transition-all flex flex-col justify-between hover:bg-surface-container-high" data-org="univ" type="button">
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">[UNIV_02]</span>
+<span class="font-body-md text-body-md font-bold mt-1">대학교 / 체육처</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary mt-1">산학협력·학과 품의</span>
+</button>
+<button class="org-btn p-3 rounded-lg bg-surface-container text-on-surface text-left transition-all flex flex-col justify-between hover:bg-surface-container-high" data-org="gov" type="button">
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">[GOV_03]</span>
+<span class="font-body-md text-body-md font-bold mt-1">지자체 체육센터</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary mt-1">G2B 조달공공입찰</span>
+</button>
+<button class="org-btn p-3 rounded-lg bg-surface-container text-on-surface text-left transition-all flex flex-col justify-between hover:bg-surface-container-high" data-org="military" type="button">
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">[MIL_04]</span>
+<span class="font-body-md text-body-md font-bold mt-1">군부대 체육시설</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary mt-1">국방조달본부 규격</span>
+</button>
+<button class="org-btn p-3 rounded-lg bg-surface-container text-on-surface text-left transition-all flex flex-col justify-between hover:bg-surface-container-high sm:col-span-2" data-org="club" type="button">
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">[CORP_05]</span>
+<span class="font-body-md text-body-md font-bold mt-1">사설 스포츠클럽 / 아카데미</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary mt-1">세금계산서·법인카드 즉시 승인</span>
+</button>
+</div>
+</div>
+<!-- 02. 종목별 규격 설비 카탈로그 바구니 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between pb-space-sm gap-2">
+<div class="flex items-center gap-space-xs">
+<span class="w-5 h-5 rounded bg-inverse-surface text-inverse-on-surface flex items-center justify-center font-label-mono-sm text-label-mono-sm">02</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">공인 규격 설비 카탈로그 수량 설정</h2>
+</div>
+<div class="flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-primary">
+</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">수량 변경 시 실시간 반영</span>
+</div>
+</div>
+<!-- Product Item Cards -->
+<div class="space-y-space-sm pt-space-xs rc-estimate-items" id="items-list">
+<!-- Item 1 -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col md:flex-row items-start md:items-center justify-between gap-space-sm transition-all hover:bg-surface-container">
+<div class="flex items-start gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center shrink-0">
+<svg class="rc-icon  text-primary text-[22px]" data-icon="sports_tennis" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M15 4c8 3 4 11 0 12-5 1-9-3-8-7s5-7 8-5ZM8 15 1 22M7 9l9 7M9 6l10 7M14 4 7 13M18 6l-8 10">
+</path>
+</svg>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<h3 class="font-body-md text-body-md font-bold text-on-surface">챔피온 공인 경기용 탁구대 풀세트</h3>
+<span class="px-1.5 py-0.5 rounded bg-primary-fixed text-on-primary-fixed font-label-mono-sm text-label-mono-sm">S2B 인증</span>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary mt-0.5">
+                    식별코드: 2026-S2B-89104 // ITTF 공인 25mm 고밀도 상판, 네트·서포트 포함
+                  </div>
+<div class="font-body-sm text-body-sm font-semibold text-primary mt-1">1,850,000원 / 조</div>
+</div>
+</div>
+<div class="flex items-center gap-3 self-end md:self-center shrink-0">
+<div class="flex items-center rounded bg-surface-container-lowest shadow-sm p-1">
+<button class="w-7 h-7 rounded flex items-center justify-center text-on-surface hover:bg-surface-container font-headline-sm leading-none" type="button" data-estimate-item="0" data-delta="-1">-</button>
+<span class="w-8 text-center font-label-mono-md text-label-mono-md text-on-surface font-bold" id="qty-0">1</span>
+<button class="w-7 h-7 rounded flex items-center justify-center text-on-surface hover:bg-surface-container font-headline-sm leading-none" type="button" data-estimate-item="0" data-delta="1">+</button>
+</div>
+<div class="w-24 text-right">
+<span class="font-headline-sm text-headline-sm text-on-surface" id="subtotal-0">1,850,000</span>
+<span class="font-body-sm text-body-sm text-secondary">원</span>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col md:flex-row items-start md:items-center justify-between gap-space-sm transition-all hover:bg-surface-container">
+<div class="flex items-start gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center shrink-0">
+<svg class="rc-icon  text-primary text-[22px]" data-icon="sports_soccer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 5 5 4-2 6H9l-2-6ZM12 2v5M2 9l5 2M6 20l3-3M18 20l-3-3M22 9l-5 2">
+</path>
+</svg>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<h3 class="font-body-md text-body-md font-bold text-on-surface">3x2m 이동식 정규 축구/풋살 골대</h3>
+<span class="px-1.5 py-0.5 rounded bg-surface-container-highest text-on-surface font-label-mono-sm text-label-mono-sm">KS G 5707</span>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary mt-0.5">
+                    식별코드: G2B-FUT-2918 // 고장력 알루미늄 타원형 튜브, 전도방지 웨이트바 내장
+                  </div>
+<div class="font-body-sm text-body-sm font-semibold text-primary mt-1">1,420,000원 / 조 (2대)</div>
+</div>
+</div>
+<div class="flex items-center gap-3 self-end md:self-center shrink-0">
+<div class="flex items-center rounded bg-surface-container-lowest shadow-sm p-1">
+<button class="w-7 h-7 rounded flex items-center justify-center text-on-surface hover:bg-surface-container font-headline-sm leading-none" type="button" data-estimate-item="1" data-delta="-1">-</button>
+<span class="w-8 text-center font-label-mono-md text-label-mono-md text-on-surface font-bold" id="qty-1">1</span>
+<button class="w-7 h-7 rounded flex items-center justify-center text-on-surface hover:bg-surface-container font-headline-sm leading-none" type="button" data-estimate-item="1" data-delta="1">+</button>
+</div>
+<div class="w-24 text-right">
+<span class="font-headline-sm text-headline-sm text-on-surface" id="subtotal-1">1,420,000</span>
+<span class="font-body-sm text-body-sm text-secondary">원</span>
+</div>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col md:flex-row items-start md:items-center justify-between gap-space-sm transition-all hover:bg-surface-container">
+<div class="flex items-start gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center shrink-0">
+<svg class="rc-icon  text-primary text-[22px]" data-icon="fitness_center" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M3 7v10M6 4v16M6 12h12M18 4v16M21 7v10">
+</path>
+</svg>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<h3 class="font-body-md text-body-md font-bold text-on-surface">배드민턴·족구 겸용 멀티 지주대</h3>
+<span class="px-1.5 py-0.5 rounded bg-surface-container-highest text-on-surface font-label-mono-sm text-label-mono-sm">이동형 주철추</span>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary mt-0.5">
+                    식별코드: REDS-POLE-80 // 높이 조절 래칫 기어 장착, 140kg 하중 밸런스 베이스
+                  </div>
+<div class="font-body-sm text-body-sm font-semibold text-primary mt-1">950,000원 / 세트</div>
+</div>
+</div>
+<div class="flex items-center gap-3 self-end md:self-center shrink-0">
+<div class="flex items-center rounded bg-surface-container-lowest shadow-sm p-1">
+<button class="w-7 h-7 rounded flex items-center justify-center text-on-surface hover:bg-surface-container font-headline-sm leading-none" type="button" data-estimate-item="2" data-delta="-1">-</button>
+<span class="w-8 text-center font-label-mono-md text-label-mono-md text-on-surface font-bold" id="qty-2">1</span>
+<button class="w-7 h-7 rounded flex items-center justify-center text-on-surface hover:bg-surface-container font-headline-sm leading-none" type="button" data-estimate-item="2" data-delta="1">+</button>
+</div>
+<div class="w-24 text-right">
+<span class="font-headline-sm text-headline-sm text-on-surface" id="subtotal-2">950,000</span>
+<span class="font-body-sm text-body-sm text-secondary">원</span>
+</div>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col md:flex-row items-start md:items-center justify-between gap-space-sm transition-all hover:bg-surface-container">
+<div class="flex items-start gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center shrink-0">
+<svg class="rc-icon  text-primary text-[22px]" data-icon="sports_volleyball" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<h3 class="font-body-md text-body-md font-bold text-on-surface">스타 공인구 10구 패키지 &amp; 디지털 게이지 펌프</h3>
+<span class="px-1.5 py-0.5 rounded bg-surface-container-highest text-on-surface font-label-mono-sm text-label-mono-sm">수업용 세트</span>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary mt-0.5">
+                    식별코드: REDS-BALL-STAR10 // 공인 5호구 10구 + 고정밀 기압 측정형 전기펌프
+                  </div>
+<div class="font-body-sm text-body-sm font-semibold text-primary mt-1">480,000원 / 세트</div>
+</div>
+</div>
+<div class="flex items-center gap-3 self-end md:self-center shrink-0">
+<div class="flex items-center rounded bg-surface-container-lowest shadow-sm p-1">
+<button class="w-7 h-7 rounded flex items-center justify-center text-on-surface hover:bg-surface-container font-headline-sm leading-none" type="button" data-estimate-item="3" data-delta="-1">-</button>
+<span class="w-8 text-center font-label-mono-md text-label-mono-md text-on-surface font-bold" id="qty-3">1</span>
+<button class="w-7 h-7 rounded flex items-center justify-center text-on-surface hover:bg-surface-container font-headline-sm leading-none" type="button" data-estimate-item="3" data-delta="1">+</button>
+</div>
+<div class="w-24 text-right">
+<span class="font-headline-sm text-headline-sm text-on-surface" id="subtotal-3">480,000</span>
+<span class="font-body-sm text-body-sm text-secondary">원</span>
+</div>
+</div>
+</div>
+<!-- Item 5 -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col md:flex-row items-start md:items-center justify-between gap-space-sm transition-all hover:bg-surface-container">
+<div class="flex items-start gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center shrink-0">
+<svg class="rc-icon  text-primary text-[22px]" data-icon="shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<h3 class="font-body-md text-body-md font-bold text-on-surface">체육관 벽면 충격흡수 안전보호 매트 10장</h3>
+<span class="px-1.5 py-0.5 rounded bg-surface-container-highest text-on-surface font-label-mono-sm text-label-mono-sm">방염인증</span>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary mt-0.5">
+                    식별코드: REDS-MAT-W10 // 친환경 난연 타포린 폼 매트, 1000x2000x50mm
+                  </div>
+<div class="font-body-sm text-body-sm font-semibold text-primary mt-1">620,000원 / 세트 (10매)</div>
+</div>
+</div>
+<div class="flex items-center gap-3 self-end md:self-center shrink-0">
+<div class="flex items-center rounded bg-surface-container-lowest shadow-sm p-1">
+<button class="w-7 h-7 rounded flex items-center justify-center text-on-surface hover:bg-surface-container font-headline-sm leading-none" type="button" data-estimate-item="4" data-delta="-1">-</button>
+<span class="w-8 text-center font-label-mono-md text-label-mono-md text-on-surface font-bold" id="qty-4">1</span>
+<button class="w-7 h-7 rounded flex items-center justify-center text-on-surface hover:bg-surface-container font-headline-sm leading-none" type="button" data-estimate-item="4" data-delta="1">+</button>
+</div>
+<div class="w-24 text-right">
+<span class="font-headline-sm text-headline-sm text-on-surface" id="subtotal-4">620,000</span>
+<span class="font-body-sm text-body-sm text-secondary">원</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- 03. 결제 및 행정 품의 방식 라디오 카드 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-5 h-5 rounded bg-inverse-surface text-inverse-on-surface flex items-center justify-center font-label-mono-sm text-label-mono-sm">03</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">결제 및 행정 계약 방식</h2>
+</div>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">공공 구매 지침 표준</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-xs pt-space-xs">
+<label class="payment-card cursor-pointer p-space-sm rounded-lg bg-surface-container hover:bg-surface-container-high transition-all flex items-start gap-space-sm">
+<input checked="" class="mt-1 accent-primary" name="payment_method" type="radio" value="S2B 1인 수의계약">
+<div class="flex-1">
+<div class="font-body-md text-body-md font-bold text-on-surface">학교장터(S2B) 1인 수의계약</div>
+<p class="font-body-sm text-body-sm text-secondary mt-0.5">2천만원 이하 품목 수의계약 번호 직발행, 교육행정 통합 승인</p>
+</div>
+</label>
+<label class="payment-card cursor-pointer p-space-sm rounded-lg bg-surface-container hover:bg-surface-container-high transition-all flex items-start gap-space-sm">
+<input class="mt-1 accent-primary" name="payment_method" type="radio" value="나라장터(G2B) 조달식별계약">
+<div class="flex-1">
+<div class="font-body-md text-body-md font-bold text-on-surface">나라장터(G2B) 조달계약</div>
+<p class="font-body-sm text-body-sm text-secondary mt-0.5">국가종합전자조달 식별코드 기반 납품 요구 및 사전 검수 승인</p>
+</div>
+</label>
+<label class="payment-card cursor-pointer p-space-sm rounded-lg bg-surface-container hover:bg-surface-container-high transition-all flex items-start gap-space-sm">
+<input class="mt-1 accent-primary" name="payment_method" type="radio" value="관공서 공공 후불제 (14일 이내)">
+<div class="flex-1">
+<div class="font-body-md text-body-md font-bold text-on-surface">관공서 후불제 (14일 이내 정산)</div>
+<p class="font-body-sm text-body-sm text-secondary mt-0.5">물품 현장 검수 및 검수확인서 날인 완료 후 행정 회계 사후 정산</p>
+</div>
+</label>
+<label class="payment-card cursor-pointer p-space-sm rounded-lg bg-surface-container hover:bg-surface-container-high transition-all flex items-start gap-space-sm">
+<input class="mt-1 accent-primary" name="payment_method" type="radio" value="법인카드 / 전자세금계산서">
+<div class="flex-1">
+<div class="font-body-md text-body-md font-bold text-on-surface">법인카드 / 청구 세금계산서</div>
+<p class="font-body-sm text-body-sm text-secondary mt-0.5">영수증 및 계산서 즉시 발급, 홈택스 당일 전자 전송</p>
+</div>
+</label>
+</div>
+</div>
+</div>
+<!-- RIGHT: Standard Estimate Sheet Digital Preview (5 Cols) -->
+<div class="lg:col-span-5 flex flex-col gap-space-md sticky top-20 min-w-0">
+<!-- Top Status Indicator -->
+<div class="flex items-center justify-between px-space-sm py-2 rounded-lg bg-inverse-surface text-inverse-on-surface">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary animate-ping">
+</span>
+<span class="font-label-mono-sm text-label-mono-sm uppercase tracking-wider">LIVE A4 DOCUMENT STREAM</span>
+</div>
+<span class="font-label-mono-sm text-label-mono-sm text-tertiary-fixed-dim" id="doc-id">DOC-2026-EST-8841</span>
+</div>
+<!-- Rendered A4 Document Card -->
+<p class="rc-caption">금액과 인증·식별코드는 예시이며 견적서는 화면 체험용입니다.</p>
+<div class="bg-surface-container-lowest rounded-xl p-space-md md:p-space-lg shadow-xl relative overflow-hidden text-on-surface" id="estimate-doc">
+<!-- Subtle Watermark Background -->
+<div class="absolute inset-0 pointer-events-none opacity-[0.03] flex items-center justify-center font-display-xl text-display-xl uppercase select-none rotate-[-25deg]">
+            REDS CLUB SPEC
+          </div>
+<!-- Document Header -->
+<div class="flex items-start justify-between pb-space-sm">
+<div>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary tracking-widest block uppercase">[STANDARD SPECIFICATION QUOTE]</span>
+<h3 class="font-headline-md text-headline-md font-black tracking-tight mt-0.5">표 준 견 적 서</h3>
+</div>
+<div class="text-right">
+<div class="font-label-mono-sm text-label-mono-sm text-secondary">발행일자: <span class="text-on-surface font-bold" id="current-date">2026-11-20</span>
+</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary">유효기간: <span class="text-primary font-bold">발행일로부터 30일</span>
+</div>
+</div>
+</div>
+<!-- Meta Grid (공급자 / 공급받는자) -->
+<div class="grid grid-cols-2 gap-space-xs my-space-sm p-space-xs rounded bg-surface-container-low text-xs">
+<div class="p-2 bg-surface-container-lowest rounded">
+<div class="font-label-mono-sm text-label-mono-sm text-secondary">[공급자 REDS CLUB]</div>
+<div class="font-body-sm text-body-sm font-bold text-on-surface mt-1">주식회사 레즈클럽 코퍼레이션</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary mt-0.5">등록번호: 104-86-90412</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary">대표이사: 강 태 준 (인)</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary truncate">소재지: 서울특별시 성동구 성수이로 88</div>
+</div>
+<div class="p-2 bg-surface-container-lowest rounded flex flex-col justify-between">
+<div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary">[공급받는 자]</div>
+<div class="font-body-sm text-body-sm font-bold text-on-surface mt-1" id="preview-org-name">서울특별시 교육청 산하 체육과 귀하</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary mt-0.5">행정계약 구분:</div>
+<div class="font-label-mono-sm text-label-mono-sm text-primary font-bold" id="preview-payment-label">S2B 1인 수의계약</div>
+</div>
+<div class="text-[10px] text-secondary font-label-mono-sm">감사 통과 규격 적격 증빙 완료</div>
+</div>
+</div>
+<!-- Dynamic Items Table -->
+<div class="my-space-sm overflow-x-auto">
+<div class="rc-table-scroll" role="region" aria-label="설비 견적 표" tabindex="0">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead>
+<tr class="bg-surface-container text-on-surface font-label-mono-sm text-label-mono-sm">
+<th class="p-1.5">품목 및 규격</th>
+<th class="p-1.5 text-center w-12">수량</th>
+<th class="p-1.5 text-right w-20">단가</th>
+<th class="p-1.5 text-right w-24">공급가액</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container-low" id="preview-table-body">
+<!-- Injected dynamically via JS -->
+</tbody>
+</table>
+</div>
+</div>
+<!-- Calculation Summary Panel -->
+<div class="p-space-sm rounded-lg bg-surface-container-low space-y-1.5 my-space-sm">
+<div class="flex justify-between font-label-mono-sm text-label-mono-sm text-secondary">
+<span>품목 공급가액 합계 (Net)</span>
+<span class="text-on-surface font-bold" id="preview-subtotal">5,310,000 원</span>
+</div>
+<div class="flex justify-between font-label-mono-sm text-label-mono-sm text-secondary">
+<span>부가가치세 (VAT 10%)</span>
+<span class="text-on-surface font-bold" id="preview-vat">531,000 원</span>
+</div>
+<div class="flex justify-between font-label-mono-sm text-label-mono-sm text-secondary">
+<span>기관 조달 물류·설치 검수비</span>
+<span class="text-primary font-bold">0 원 (공공 무료 직송)</span>
+</div>
+<div class="pt-2 flex justify-between items-baseline">
+<span class="font-body-md text-body-md font-bold text-on-surface">최종 견적 총액 (VAT 포함)</span>
+<div class="text-right">
+<span class="font-headline-md text-headline-md font-black text-primary" id="preview-grand-total">5,841,000</span>
+<span class="font-headline-sm text-headline-sm text-primary">원</span>
+</div>
+</div>
+</div>
+<!-- Official Stamp Seal Area -->
+<div class="flex items-center justify-between pt-space-xs">
+<div class="space-y-0.5">
+<div class="font-label-mono-sm text-label-mono-sm text-secondary">한국표준협회 KS 규격 및 S2B·G2B 계약 규정 준수</div>
+<div class="font-label-mono-sm text-label-mono-sm text-tertiary">조달청 벤더 고유 인증: REDS-KOR-KR09</div>
+</div>
+<!-- Red Official Stamp Visual -->
+<div class="relative w-16 h-16 rounded-full bg-error-container/40 flex items-center justify-center p-1 shadow-inner">
+<div class="w-14 h-14 rounded-full bg-surface-container-lowest flex flex-col items-center justify-center text-center p-0.5">
+<span class="text-[7px] font-bold text-primary font-label-mono-sm leading-tight">REDS CLUB</span>
+<span class="text-[9px] font-black text-primary leading-tight tracking-wider">주식회사</span>
+<span class="text-[10px] font-black text-primary leading-tight tracking-widest">예시문서</span>
+</div>
+<span class="absolute -bottom-1 -right-1 text-[8px] bg-primary text-on-primary px-1 rounded font-label-mono-sm font-bold">체험용</span>
+</div>
+</div>
+</div>
+<!-- High-Impact Action Dispatch Buttons -->
+<div class="space-y-space-xs">
+<!-- Primary Download Bundle Button -->
+<button class="w-full py-3.5 px-4 rounded bg-inverse-surface hover:bg-primary text-inverse-on-surface hover:text-on-primary font-body-md text-body-md font-bold flex items-center justify-center gap-2 shadow-md transition-all active:scale-[0.99]" type="button" data-estimate-print="">선택한 견적서 인쇄·PDF 저장</button>
+<div class="text-center font-label-mono-sm text-label-mono-sm text-secondary">브라우저 인쇄에서 PDF로 저장할 수 있습니다. 실제 직인·행정 증빙은 발행하지 않습니다.</div>
+<!-- Secondary Actions -->
+<div class="grid grid-cols-2 gap-space-xs pt-1">
+<button class="py-2.5 px-3 rounded bg-surface-container hover:bg-surface-container-high text-on-surface font-label-mono-md text-label-mono-md flex items-center justify-center gap-1.5 transition-colors" type="button" data-go="reds-club-contact.html">
+<svg class="rc-icon  text-primary text-[18px]" data-icon="outgoing_mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span>견적 문의하기</span>
+</button>
+<button class="py-2.5 px-3 rounded bg-surface-container hover:bg-surface-container-high text-on-surface font-label-mono-md text-label-mono-md flex items-center justify-center gap-1.5 transition-colors" type="button" data-go="reds-club-contact.html">
+<svg class="rc-icon  text-primary text-[18px]" data-icon="support_agent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10M3 22v-3a9 9 0 0 1 18 0v3">
+</path>
+</svg>
+<span>B2B 전담 매니저 상담</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4-Step Public Administration Assurance Process Section -->
+<section class="w-full bg-surface-container-low px-gutter lg:px-margin py-space-xl">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg gap-space-sm">
+<div>
+<span class="font-label-mono-sm text-label-mono-sm text-primary uppercase tracking-widest">[PROCUREMENT ASSURANCE ARCHITECTURE]</span>
+<h2 class="font-headline-md text-headline-md text-on-surface mt-1">공공기관·학교 안심 조달 프로세스 가이드</h2>
+</div>
+<p class="font-body-sm text-body-sm text-secondary max-w-md">
+          회계 검수 감사 지적률 0.00%. 실무 행정 담당관이 가장 빠르고 정확하게 예산을 집행할 수 있도록 전담 조달 지원반이 밀착 동행합니다.
+        </p>
+</div>
+<!-- 4 Process Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between pb-2">
+<span class="font-label-mono-lg text-label-mono-lg text-primary font-black">STEP 01</span>
+<svg class="rc-icon  text-secondary text-[24px]" data-icon="calculate" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M5 2h14v20H5ZM8 5h8v4H8ZM8 13h1m6 0h1M8 17h1m6 0h1">
+</path>
+</svg>
+</div>
+<h3 class="font-body-lg text-body-lg font-bold text-on-surface mt-2">스마트 견적서 생성</h3>
+<p class="font-body-sm text-body-sm text-secondary mt-1">
+              본 시스템에서 원하는 규격 설비와 수량을 선택 후 1클릭으로 공인 직인 견적서 및 3종 필수 증빙 서류를 다운로드합니다.
+            </p>
+</div>
+<div class="mt-4 pt-2 font-label-mono-sm text-label-mono-sm text-primary">
+            [ 소요시간: 즉시 실시간 발행 ]
+          </div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between pb-2">
+<span class="font-label-mono-lg text-label-mono-lg text-primary font-black">STEP 02</span>
+<svg class="rc-icon  text-secondary text-[24px]" data-icon="assignment_turned_in" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<h3 class="font-body-lg text-body-lg font-bold text-on-surface mt-2">S2B / G2B 조달 등록</h3>
+<p class="font-body-sm text-body-sm text-secondary mt-1">
+              학교장터(S2B) 1인 수의계약 물품 등록 또는 나라장터 식별번호 매핑을 통해 내부 결재 품의서를 완벽히 통과시킵니다.
+            </p>
+</div>
+<div class="mt-4 pt-2 font-label-mono-sm text-label-mono-sm text-primary">
+            [ S2B 전담 매니저 번호 매핑 지원 ]
+          </div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between pb-2">
+<span class="font-label-mono-lg text-label-mono-lg text-primary font-black">STEP 03</span>
+<svg class="rc-icon  text-secondary text-[24px]" data-icon="local_shipping" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<h3 class="font-body-lg text-body-lg font-bold text-on-surface mt-2">전문 기사 직송 및 현장 세팅</h3>
+<p class="font-body-sm text-body-sm text-secondary mt-1">
+              체육시설 시공 공인 테크니컬 크루가 현장에 직접 방문하여 조립, 수평계 오차 측정, 안전망 체결을 완벽하게 마무리합니다.
+            </p>
+</div>
+<div class="mt-4 pt-2 font-label-mono-sm text-label-mono-sm text-primary">
+            [ 전국 학교·관공서 무상 직송 설치 ]
+          </div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between pb-2">
+<span class="font-label-mono-lg text-label-mono-lg text-primary font-black">STEP 04</span>
+<svg class="rc-icon  text-secondary text-[24px]" data-icon="fact_check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+</div>
+<h3 class="font-body-lg text-body-lg font-bold text-on-surface mt-2">현장 검수 완료 후 14일 후불</h3>
+<p class="font-body-sm text-body-sm text-secondary mt-1">
+              행정 담당관 및 체육 교사의 최종 검수확인서 날인 완료 후 행정 회계 처리 기간(최장 14일) 동안 후불 정산이 진행됩니다.
+            </p>
+</div>
+<div class="mt-4 pt-2 font-label-mono-sm text-label-mono-sm text-primary">
+            [ 선입금 없는 100% 안심 후불제 ]
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Custom On-Site Measurement & Specification Hotline -->
+<section class="w-full bg-surface px-gutter lg:px-margin py-space-xl">
+<div class="max-w-7xl mx-auto rounded-xl bg-inverse-surface text-inverse-on-surface p-space-lg md:p-space-xl shadow-xl flex flex-col lg:flex-row items-center justify-between gap-space-lg">
+<div class="space-y-space-xs max-w-2xl">
+<div class="flex items-center gap-space-xs font-label-mono-sm text-label-mono-sm text-primary-fixed">
+<svg class="rc-icon  text-[16px]" data-icon="architecture" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 11v6M12 7h.01">
+</path>
+</svg>
+<span>SPECIAL DIMENSION &amp; GYMNASIUM ENGINEERING HOTLINE</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-inverse-on-surface font-extrabold tracking-tight">
+          체육관 맞춤 규격 실측 및 특별 주문제작이 필요하십니까?
+        </h3>
+<p class="font-body-md text-body-md text-tertiary-fixed-dim">
+          천장고 10m 이상 배구/농구 지주대 매립, 벽면 곡면 쿠션 안전 패딩 맞춤 재단, 야외 인조잔디 펜스 일체형 구조물 등 현장 무료 방문 실측 및 설계 도면 지원을 24시간 이내 제공합니다.
+        </p>
+<div class="flex flex-wrap items-center gap-space-md pt-2 font-label-mono-sm text-label-mono-sm text-tertiary-fixed">
+<span>직통 조달전담팀: 02-894-0911</span>
+<span>이메일: b2b-admin@redsclub.kr</span>
+<span>응답보증: 근무시간 내 1시간 이내 접수 회신</span>
+</div>
+</div>
+<div class="shrink-0 flex flex-col sm:flex-row lg:flex-col gap-space-xs w-full lg:w-auto">
+<button class="py-3 px-6 rounded bg-primary hover:bg-primary-container text-on-primary font-body-md text-body-md font-bold text-center transition-colors" type="button" data-go="reds-club-contact.html">
+          현장 무료 방문 실측 접수하기
+        </button>
+<button class="py-3 px-6 rounded bg-surface-container/20 hover:bg-surface-container/30 text-inverse-on-surface font-label-mono-md text-label-mono-md text-center transition-colors" type="button" data-go="reds-club-safety.html">
+          조달청 인증 시험성적서 일괄 보기
+        </button>
+</div>
+</div>
+</section>
+</div>
+<!-- Interactive Engine Logic Script -->
+</main>
+<footer class="w-full bg-inverse-surface text-inverse-on-surface">
+<div class="w-full px-gutter lg:px-margin py-space-xl">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl pb-space-xl">
+<div class="lg:col-span-5 flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-sm">
+<div class="font-headline-sm text-headline-sm text-inverse-on-surface uppercase tracking-tight">REDS CLUB® SPORTS SPECIFICATION</div>
+<p class="font-body-sm text-body-sm text-tertiary-fixed-dim max-w-md">공공 체육 시설, 프로 엘리트 팀 및 퍼포먼스 커뮤니티를 위한 테크니컬 스포츠 인프라 솔루션. 표준 규격 기구 공급부터 대규모 단체 검수 및 통합 납품 조달을 지원합니다.</p>
+</div>
+<div class="space-y-space-xs">
+<div class="font-label-mono-sm text-label-mono-sm text-tertiary-fixed uppercase tracking-widest">CERTIFICATIONS &amp; COMPLIANCE</div>
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="px-2 py-1 rounded bg-tertiary-container/30 text-inverse-on-surface font-label-mono-sm text-label-mono-sm uppercase">ITTF APPROVED</span>
+<span class="px-2 py-1 rounded bg-tertiary-container/30 text-inverse-on-surface font-label-mono-sm text-label-mono-sm uppercase">FIFA QUALITY STANDARD</span>
+<span class="px-2 py-1 rounded bg-tertiary-container/30 text-inverse-on-surface font-label-mono-sm text-label-mono-sm uppercase">KS CERTIFIED INFRA</span>
+<span class="px-2 py-1 rounded bg-tertiary-container/30 text-inverse-on-surface font-label-mono-sm text-label-mono-sm uppercase">ISO 9001 / 14001</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-3 space-y-space-md">
+<div class="font-label-mono-md text-label-mono-md text-inverse-on-surface tracking-widest uppercase">PUBLIC &amp; INSTITUTIONAL</div>
+<ul class="space-y-space-xs font-body-sm text-body-sm text-tertiary-fixed-dim">
+<li>
+<span class="text-primary-fixed-dim font-label-mono-sm mr-1">[G2B]</span> 조달청 나라장터 공급 식별번호 인증</li>
+<li>
+<span class="text-primary-fixed-dim font-label-mono-sm mr-1">[S2B]</span> 학교장터 교육기관 맞춤 계약 라인</li>
+<li>
+<span class="text-primary-fixed-dim font-label-mono-sm mr-1">[B2B]</span> 공공·민간 체육 시설 납품 규격 설계</li>
+<li>
+<span class="text-primary-fixed-dim font-label-mono-sm mr-1">[DOC]</span> 공인 시험성적서 및 사후 유지보수 실사</li>
+</ul>
+</div>
+<div class="lg:col-span-2 space-y-space-md">
+<div class="font-label-mono-md text-label-mono-md text-inverse-on-surface tracking-widest uppercase">TELEMETRY &amp; INDEX</div>
+<ul class="space-y-space-xs font-label-mono-sm text-label-mono-sm text-tertiary-fixed-dim uppercase">
+<li>
+<a class="hover:text-inverse-on-surface transition-colors" data-path="gear-equipment" href="reds-club-gear.html">01 GEAR INVENTORY</a>
+</li>
+<li>
+<a class="hover:text-inverse-on-surface transition-colors" data-path="club-gatherings" href="reds-club-clubs.html">02 SESSION CALENDAR</a>
+</li>
+<li>
+<a class="hover:text-inverse-on-surface transition-colors" data-path="b2b-institutional-estimate" href="reds-club-estimate.html">03 INST. ESTIMATE</a>
+</li>
+<li>
+<a class="hover:text-inverse-on-surface transition-colors" data-path="archive-stories" href="reds-club-stories.html">04 LAB ARCHIVE</a>
+</li>
+<li>
+<a class="hover:text-inverse-on-surface transition-colors" data-path="membership" href="reds-club-membership.html">05 ATHLETE PASS</a>
+</li>
+</ul>
+</div>
+<div class="lg:col-span-2 space-y-space-md">
+<div class="font-label-mono-md text-label-mono-md text-inverse-on-surface tracking-widest uppercase">LEGAL &amp; OPS</div>
+<ul class="space-y-space-xs font-body-sm text-body-sm text-tertiary-fixed-dim">
+<li>
+<a class="hover:text-inverse-on-surface transition-colors" data-path="privacy-policy" href="reds-club-privacy.html">개인정보처리방침</a>
+</li>
+<li>
+<a class="hover:text-inverse-on-surface transition-colors" data-path="terms-of-service" href="reds-club-terms.html">이용약관 및 납품규정</a>
+</li>
+<li>
+<a class="hover:text-inverse-on-surface transition-colors" data-path="safety-standards" href="reds-club-safety.html">품질보증 및 안전표준</a>
+</li>
+<li>
+<a class="hover:text-inverse-on-surface transition-colors" data-path="contact-desk" href="reds-club-contact.html">기관 계약 기술지원 센터</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="pt-space-lg flex flex-col md:flex-row md:items-center justify-between gap-space-md font-label-mono-sm text-label-mono-sm text-tertiary-container">
+<div class="space-y-1">
+<p>© 2026 REDS CLUB CORP. ALL RIGHTS RESERVED. ATHLETIC HARDWARE LAB.</p>
+<p>통신판매업신고: 2026-SEOUL-8942 / 조달벤더 인증 ID: REDS-CORP-KR-09</p>
+</div>
+<div class="flex items-center gap-space-md">
+<span>SERVER STATUS: [OPERATIONAL / LATENCY 12ms]</span>
+<span>LOCATION: SEOUL HQ, KOREA</span>
+</div>
+</div>
+</div>
+<p class="rc-demo-note">REDS CLUB은 디자인을 위한 가상의 플랫폼입니다. 모임·장비·요금·인증·재고 정보는 예시이며 실제 결제·참가 접수·조달 계약·문서 발송을 진행하지 않습니다.</p>
+</footer>
+<dialog id="reds-club-dialog" aria-labelledby="reds-club-dialog-title">
+<div class="rc-dialog-head">
+<h2 id="reds-club-dialog-title">
+</h2>
+<button type="button" data-close="" aria-label="닫기">
+<svg class="rc-icon" data-icon="close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 6 12 12M6 18 18 6">
+</path>
+</svg>
+</button>
+</div>
+<div id="reds-club-dialog-body">
+</div>
+</dialog>
+<div id="reds-club-status" role="status" hidden="">
+</div>
+
+
+
+
+
+
+</body>
+</html>
