@@ -63,11 +63,11 @@
 <input type="search" name="q" aria-label="레시피와 식재료 검색" placeholder="레시피, 식재료, 셰프 검색">
 <button type="submit">검색</button>
 </form>
-<a aria-current="page" class="transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-primary after:transition-all text-primary font-bold after:w-full" data-path="recipes" href="atelier-recipes.html">전체 레시피</a>
-<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="world-archive" href="atelier-world.html">세계 요리 아카이브</a>
-<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="monthly-cuisine" href="atelier-monthly.html">이달의 퀴진</a>
-<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="market" href="atelier-market.html">키친 &amp; 식재료 마켓</a>
-<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="chef-collection" href="atelier-chefs.html">셰프 컬렉션</a>
+<a class="ac-nav-link" data-path="recipes" href="atelier-recipes.html">전체 레시피</a>
+<a class="ac-nav-link" data-path="world-archive" href="atelier-world.html">세계 요리 아카이브</a>
+<a class="ac-nav-link" data-path="monthly-cuisine" href="atelier-monthly.html">이달의 퀴진</a>
+<a class="ac-nav-link" data-path="market" href="atelier-market.html">키친 &amp; 식재료 마켓</a>
+<a class="ac-nav-link" data-path="chef-collection" href="atelier-chefs.html" aria-current="page">셰프 컬렉션</a>
 </nav>
 </div>
 </div>
@@ -122,7 +122,7 @@
 <p class="eyebrow">ATELIER CUISINE</p>
 <h2>셰프의 마스터 레시피</h2>
 <div class="ac-grid">
-<article class="ac-card" data-catalog-card data-cuisine="japanese" data-search="자가제면 차슈 진국 돈코츠 라멘 일식 가이세키 하루 아오이 라멘 면 준비한 돈코츠 육수 익힌 차슈 달걀 대파" data-price="45">
+<article class="ac-card ac-recipe-card" data-catalog-card data-cuisine="japanese" data-search="자가제면 차슈 진국 돈코츠 라멘 일식 가이세키 하루 아오이 라멘 면 준비한 돈코츠 육수 익힌 차슈 달걀 대파" data-price="45">
 <a href="atelier-recipe-ramen.html">
 <img src="images/atelier-ramen.jpg" alt="자가제면 차슈 진국 돈코츠 라멘" loading="lazy">
 <div class="ac-card-copy">
@@ -131,9 +131,17 @@
 <p>자가제면 차슈 진국 돈코츠 라멘을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
 </div>
 </a>
-<button class="ac-save" type="button" data-save="recipe:ramen" aria-pressed="false">◇ 스크랩</button>
+<div class="ac-card-footer">
+<button class="ac-save" type="button" data-save="recipe:ramen" aria-pressed="false">
+<svg class="ac-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg>
+<span data-save-label>스크랩</span>
+</button>
+</div>
 </article>
-<article class="ac-card" data-catalog-card data-cuisine="thai" data-search="소프트쉘 크랩 옐로우 푸팟퐁커리 동남아 스트리트 하루 아오이 소프트쉘 크랩 커리 파우더 양파 달걀 코코넛 밀크" data-price="35">
+<article class="ac-card ac-recipe-card" data-catalog-card data-cuisine="thai" data-search="소프트쉘 크랩 옐로우 푸팟퐁커리 동남아 스트리트 하루 아오이 소프트쉘 크랩 커리 파우더 양파 달걀 코코넛 밀크" data-price="35">
 <a href="atelier-recipe-thai-curry.html">
 <img src="images/atelier-thai-curry.jpg" alt="소프트쉘 크랩 옐로우 푸팟퐁커리" loading="lazy">
 <div class="ac-card-copy">
@@ -142,9 +150,17 @@
 <p>소프트쉘 크랩 옐로우 푸팟퐁커리을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
 </div>
 </a>
-<button class="ac-save" type="button" data-save="recipe:thai-curry" aria-pressed="false">◇ 스크랩</button>
+<div class="ac-card-footer">
+<button class="ac-save" type="button" data-save="recipe:thai-curry" aria-pressed="false">
+<svg class="ac-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg>
+<span data-save-label>스크랩</span>
+</button>
+</div>
 </article>
-<article class="ac-card" data-catalog-card data-cuisine="chinese" data-search="입안에서 녹아내리는 항저우 동파육 사천 &amp; 중화 미식 하루 아오이 삼겹살 대파 생강 간장 육수" data-price="120">
+<article class="ac-card ac-recipe-card" data-catalog-card data-cuisine="chinese" data-search="입안에서 녹아내리는 항저우 동파육 사천 &amp; 중화 미식 하루 아오이 삼겹살 대파 생강 간장 육수" data-price="120">
 <a href="atelier-recipe-dongpo.html">
 <img src="images/atelier-dongpo.jpg" alt="입안에서 녹아내리는 항저우 동파육" loading="lazy">
 <div class="ac-card-copy">
@@ -153,7 +169,15 @@
 <p>입안에서 녹아내리는 항저우 동파육을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
 </div>
 </a>
-<button class="ac-save" type="button" data-save="recipe:dongpo" aria-pressed="false">◇ 스크랩</button>
+<div class="ac-card-footer">
+<button class="ac-save" type="button" data-save="recipe:dongpo" aria-pressed="false">
+<svg class="ac-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg>
+<span data-save-label>스크랩</span>
+</button>
+</div>
 </article>
 </div>
 </section>

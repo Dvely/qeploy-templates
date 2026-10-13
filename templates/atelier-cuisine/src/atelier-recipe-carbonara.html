@@ -63,11 +63,11 @@
 <input type="search" name="q" aria-label="레시피와 식재료 검색" placeholder="레시피, 식재료, 셰프 검색">
 <button type="submit">검색</button>
 </form>
-<a aria-current="page" class="transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-primary after:transition-all text-primary font-bold after:w-full" data-path="recipes" href="atelier-recipes.html">전체 레시피</a>
-<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="world-archive" href="atelier-world.html">세계 요리 아카이브</a>
-<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="monthly-cuisine" href="atelier-monthly.html">이달의 퀴진</a>
-<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="market" href="atelier-market.html">키친 &amp; 식재료 마켓</a>
-<a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all" data-path="chef-collection" href="atelier-chefs.html">셰프 컬렉션</a>
+<a class="ac-nav-link" data-path="recipes" href="atelier-recipes.html" aria-current="page">전체 레시피</a>
+<a class="ac-nav-link" data-path="world-archive" href="atelier-world.html">세계 요리 아카이브</a>
+<a class="ac-nav-link" data-path="monthly-cuisine" href="atelier-monthly.html">이달의 퀴진</a>
+<a class="ac-nav-link" data-path="market" href="atelier-market.html">키친 &amp; 식재료 마켓</a>
+<a class="ac-nav-link" data-path="chef-collection" href="atelier-chefs.html">셰프 컬렉션</a>
 </nav>
 </div>
 </div>
@@ -281,7 +281,7 @@
 <p class="eyebrow">ATELIER CUISINE</p>
 <h2>이 레시피도 살펴보세요</h2>
 <div class="ac-grid">
-<article class="ac-card" data-catalog-card data-cuisine="italian" data-search="시칠리아산 보타르가와 햇올리브오일 생면 탈리올리니 이탈리안 &amp; 지중해 마테오 리 생면 탈리올리니 보타르가 올리브오일 샬롯 마늘 레몬" data-price="25">
+<article class="ac-card ac-recipe-card" data-catalog-card data-cuisine="italian" data-search="시칠리아산 보타르가와 햇올리브오일 생면 탈리올리니 이탈리안 &amp; 지중해 마테오 리 생면 탈리올리니 보타르가 올리브오일 샬롯 마늘 레몬" data-price="25">
 <a href="atelier-recipe-bottarga.html">
 <img src="images/atelier-bottarga.jpg" alt="시칠리아산 보타르가와 햇올리브오일 생면 탈리올리니" loading="lazy">
 <div class="ac-card-copy">
@@ -290,9 +290,17 @@
 <p>시칠리아산 보타르가와 햇올리브오일 생면 탈리올리니을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
 </div>
 </a>
-<button class="ac-save" type="button" data-save="recipe:bottarga" aria-pressed="false">◇ 스크랩</button>
+<div class="ac-card-footer">
+<button class="ac-save" type="button" data-save="recipe:bottarga" aria-pressed="false">
+<svg class="ac-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg>
+<span data-save-label>스크랩</span>
+</button>
+</div>
 </article>
-<article class="ac-card" data-catalog-card data-cuisine="italian" data-search="지중해 햇올리브와 수제 생면 파스타 이탈리안 &amp; 지중해 마테오 리 생면 파스타 올리브오일 보타르가 파르메산" data-price="30">
+<article class="ac-card ac-recipe-card" data-catalog-card data-cuisine="italian" data-search="지중해 햇올리브와 수제 생면 파스타 이탈리안 &amp; 지중해 마테오 리 생면 파스타 올리브오일 보타르가 파르메산" data-price="30">
 <a href="atelier-recipe-mediterranean.html">
 <img src="images/atelier-mediterranean-pasta.jpg" alt="지중해 햇올리브와 수제 생면 파스타" loading="lazy">
 <div class="ac-card-copy">
@@ -301,9 +309,17 @@
 <p>지중해 햇올리브와 수제 생면 파스타을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
 </div>
 </a>
-<button class="ac-save" type="button" data-save="recipe:mediterranean" aria-pressed="false">◇ 스크랩</button>
+<div class="ac-card-footer">
+<button class="ac-save" type="button" data-save="recipe:mediterranean" aria-pressed="false">
+<svg class="ac-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg>
+<span data-save-label>스크랩</span>
+</button>
+</div>
 </article>
-<article class="ac-card" data-catalog-card data-cuisine="italian" data-search="주말의 해산물 파에야 테이블 이탈리안 &amp; 지중해 마테오 리 쌀 손질한 해산물 육수 레몬" data-price="45">
+<article class="ac-card ac-recipe-card" data-catalog-card data-cuisine="italian" data-search="주말의 해산물 파에야 테이블 이탈리안 &amp; 지중해 마테오 리 쌀 손질한 해산물 육수 레몬" data-price="45">
 <a href="atelier-recipe-paella.html">
 <img src="images/atelier-paella.jpg" alt="주말의 해산물 파에야 테이블" loading="lazy">
 <div class="ac-card-copy">
@@ -312,7 +328,15 @@
 <p>주말의 해산물 파에야 테이블을 집에서도 차분히 준비하는 조리 노트입니다. 재료를 계량하고 각 단계의 향과 질감을 살펴보세요.</p>
 </div>
 </a>
-<button class="ac-save" type="button" data-save="recipe:paella" aria-pressed="false">◇ 스크랩</button>
+<div class="ac-card-footer">
+<button class="ac-save" type="button" data-save="recipe:paella" aria-pressed="false">
+<svg class="ac-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4Z">
+</path>
+</svg>
+<span data-save-label>스크랩</span>
+</button>
+</div>
 </article>
 </div>
 </section>
