@@ -1,0 +1,1178 @@
+{
+  "reference": "https://int.etude.com/",
+  "checkedOn": "2026-10-15",
+  "css": [
+    {
+      "file": "wp-includes/css/dashicons.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-includes/css/dist/block-library/style.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/tablepress/css/default.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/popup-maker/assets/css/pum-site.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/korea-sns-pro/css/style.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/woo-variation-gallery/assets/css/frontend.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/woo-variation-gallery/assets/css/slick.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/elementor-pro/assets/css/widget-woocommerce.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/elementor/assets/lib/animations/animations.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/kboard/skin/enotice/style.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/kboard/skin/gallery/style.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/kboard/skin/youtube/style.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/kboard/skin/faq-board/style.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/kboard/skin/makeuplook/style.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/kboard/skin/avatar/style.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/kboard/skin/event/style.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/kboard/skin/story/style.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/kboard/skin/store/style.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/kboard/template/css/editor_media.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/kboard-comments/skin/default/style.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/wt-woocommerce-related-products/public/css/swiper.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/smart-ajax-product-search/assets/dist/css/general.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/plugins/revslider/public/assets/css/rs6.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/uploads/elementor/css/post-42203.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/uploads/elementor/css/custom-widget-icon-list.min-a283f51e.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/uploads/elementor/css/post-8800-528859b8.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/uploads/elementor/css/post-71.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/uploads/elementor/css/post-1112.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/uploads/elementor/css/post-355.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/uploads/elementor/css/post-49321.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/uploads/elementor/css/post-49722.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/uploads/elementor/css/post-36684.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/uploads/elementor/css/post-36686.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/uploads/elementor/css/custom-frontend-lite.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/uploads/elementor/css/custom-pro-frontend-lite.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/uploads/elementor/css/post-36689.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/uploads/elementor/css/post-9185.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/uploads/elementor/css/post-48692.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/uploads/elementor/css/post-51.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/uploads/elementor/css/post-1333.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/bootstrap-light.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/wd-search-form.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/base-deprecated.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-widget-active-filters.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/blog-base.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/footer-base.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-el-track-order.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-mod-shop-attributes.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-widget-slider-price-filter.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-opt-stretch-cont.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/opt-scrolltotop.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-shop-el-active-filters.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/int-rev-slider.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-categories-loop-default-old.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-mod-product-labels.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-shop-el-products-per-page.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-single-prod-el-base.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/widget-wd-recent-posts.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/el-list.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/el-info-box.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/wd-search-results.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/mod-sticky-sidebar-opener.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-widget-product-list.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-shop-page-title.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/widget-recent-post-comments.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-widget-shopping-cart.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/widget-nav.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-mod-shop-loop-head.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-mod-variation-form-single.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-shop-opt-shop-ajax.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-shop-predefined.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/mod-star-rating.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/int-elementor-pro.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/wp-gutenberg.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-mod-variation-form.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/header-el-search-fullscreen.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/page-title.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-shop-el-order-by.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-mod-product-labels-rect.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-mod-stock-status.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-shop-el-products-view.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/int-elem-base.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-gutenberg.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/blog-single-base.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/int-elem-el-animations.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/mod-load-more-button.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-categories-loop-old.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-mod-product-swatches.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woocommerce-base.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/mod-animations.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-widget-wd-layered-nav.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/el-text-block.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-mod-quantity.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-product-loop.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/lib-magnific-popup.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/woo-product-loop-tiled.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/el-section-title.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart/css/parts/base.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart-child/search.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart-child/style4-6f86261c.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart-child/style2-4ac8289e.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart-child/style-331e58be.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "wp-content/themes/woodmart-child/style3-c273fa6b.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "vendor/unpkg.com/aos@next/dist/aos.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "vendor/fonts.googleapis.com/css-ce006555b3.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "vendor/fonts.googleapis.com/css-58a7f9943a.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "vendor/fonts.googleapis.com/css-7db60ffde0.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "vendor/fonts.googleapis.com/css-b812bd808a.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "vendor/cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.1/css/jquery.mb.YTPlayer.min.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "vendor/p.typekit.net/p-a61e5d65.css",
+      "identicalRulesIgnoringAssetURLs": true
+    },
+    {
+      "file": "vendor/use.typekit.net/uen1xdd.css",
+      "identicalRulesIgnoringAssetURLs": true
+    }
+  ],
+  "heroFrameAttributes": [
+    {
+      "tag": "rs-slide",
+      "id": null,
+      "identical": true,
+      "attributes": {
+        "data-anim": "ms:1000ms;",
+        "data-in": "o:0;",
+        "data-out": "a:false;"
+      }
+    },
+    {
+      "tag": "rs-layer",
+      "id": "s-title_wrap",
+      "identical": true,
+      "attributes": {
+        "data-type": "text",
+        "data-xy": "xo:2px,1px,0,0;y:b;yo:-1px,0,0,0;",
+        "data-text": "w:normal;s:35,18,13,26;l:36,19,14,26;ls:-1px,0px,0px,0px;fw:700;",
+        "data-vbility": "f,f,t,t",
+        "data-basealign": "slide",
+        "data-frame_0": "y:50,26,19,11;",
+        "data-frame_1": "e:power1.inOut;st:290;sp:1000;sR:730;",
+        "data-frame_999": "o:0;st:w;sR:7710;"
+      }
+    },
+    {
+      "tag": "rs-layer",
+      "id": "slider-9-slide-61-layer-3",
+      "identical": true,
+      "attributes": {
+        "data-type": "video",
+        "data-rsp_ch": "on",
+        "data-xy": "x:0;y:0;",
+        "data-text": "w:normal;s:20,10,7,4;l:0,13,9,6;",
+        "data-dim": "w:100%;h:100%;",
+        "data-vbility": "f,f,f,f",
+        "data-basealign": "slide",
+        "data-video": "vfc:true;vd:0;scop:t;fc:true;l:true;ptimer:false;nse:f;",
+        "data-frame_1": "e:default;sp:600;",
+        "data-frame_999": "o:0;st:w;sR:8700;"
+      }
+    },
+    {
+      "tag": "rs-slide",
+      "id": null,
+      "identical": true,
+      "attributes": {
+        "data-in": "o:0;x:100%;",
+        "data-out": "a:false;"
+      }
+    },
+    {
+      "tag": "rs-layer",
+      "id": "s-title_wrap",
+      "identical": true,
+      "attributes": {
+        "data-type": "text",
+        "data-xy": "y:b;",
+        "data-text": "w:normal;s:35,18,13,26;l:36,19,14,26;ls:-1px,0px,0px,0px;fw:700;",
+        "data-vbility": "f,f,t,t",
+        "data-basealign": "slide",
+        "data-frame_0": "y:50,26,19,11;",
+        "data-frame_1": "e:power1.inOut;st:290;sp:1000;",
+        "data-frame_999": "o:0;st:w;sR:7890;"
+      }
+    },
+    {
+      "tag": "rs-slide",
+      "id": null,
+      "identical": true,
+      "attributes": {
+        "data-in": "o:0;x:100%;",
+        "data-out": "a:false;"
+      }
+    },
+    {
+      "tag": "rs-layer",
+      "id": "s-title_wrap",
+      "identical": true,
+      "attributes": {
+        "data-type": "text",
+        "data-xy": "y:b;",
+        "data-text": "w:normal;s:35,18,13,26;l:36,19,14,26;ls:-1px,0px,0px,0px;fw:700;",
+        "data-basealign": "slide",
+        "data-frame_0": "y:50,26,19,11;",
+        "data-frame_1": "e:power1.inOut;st:290;sp:1000;",
+        "data-frame_999": "o:0;st:w;sR:7890;"
+      }
+    },
+    {
+      "tag": "rs-slide",
+      "id": null,
+      "identical": true,
+      "attributes": {
+        "data-in": "o:0;x:100%;",
+        "data-out": "a:false;"
+      }
+    },
+    {
+      "tag": "rs-layer",
+      "id": "s-title_wrap",
+      "identical": true,
+      "attributes": {
+        "data-type": "text",
+        "data-xy": "y:b;",
+        "data-text": "w:normal;s:35,18,13,26;l:36,19,14,26;ls:-1px,0px,0px,0px;fw:700;",
+        "data-basealign": "slide",
+        "data-frame_0": "y:50,26,19,11;",
+        "data-frame_1": "e:power1.inOut;st:290;sp:1000;sR:290;",
+        "data-frame_999": "o:0;st:w;sR:7710;"
+      }
+    }
+  ],
+  "heroInitializationIdentical": true,
+  "menuInitializationIdentical": true,
+  "staticAudit": {
+    "HTML": 22,
+    "issues": []
+  },
+  "desktopGeometry": {
+    "original": {
+      "header": {
+        "h": 100,
+        "w": 1280
+      },
+      "hero": {
+        "h": 720,
+        "w": 1280
+      },
+      "missing": [],
+      "overflow": 0,
+      "scroll": 269.5,
+      "sections": [
+        {
+          "h": 720,
+          "id": "14fc727",
+          "top": 0,
+          "w": 1280
+        },
+        {
+          "h": 478,
+          "id": "9e6bbe8",
+          "top": 720,
+          "w": 1280
+        },
+        {
+          "h": 538,
+          "id": "106dcbe",
+          "top": 1198,
+          "w": 1280
+        },
+        {
+          "h": 0,
+          "id": "20f074a",
+          "top": 0,
+          "w": 0
+        },
+        {
+          "h": 758,
+          "id": "e9ac99c",
+          "top": 1736,
+          "w": 1280
+        },
+        {
+          "h": 1203,
+          "id": "c1ef72a",
+          "top": 2494,
+          "w": 1280
+        },
+        {
+          "h": 1142,
+          "id": "60e2529",
+          "top": 3698,
+          "w": 1280
+        },
+        {
+          "h": 1078,
+          "id": "c3c5747",
+          "top": 4840,
+          "w": 1280
+        }
+      ],
+      "viewport": {
+        "h": 720,
+        "w": 1280
+      }
+    },
+    "local": {
+      "header": {
+        "h": 100,
+        "w": 1280
+      },
+      "hero": {
+        "h": 720,
+        "w": 1280
+      },
+      "missing": [],
+      "overflow": 0,
+      "scroll": 0,
+      "sections": [
+        {
+          "h": 720,
+          "id": "14fc727",
+          "top": 0,
+          "w": 1280
+        },
+        {
+          "h": 478,
+          "id": "9e6bbe8",
+          "top": 720,
+          "w": 1280
+        },
+        {
+          "h": 538,
+          "id": "106dcbe",
+          "top": 1198,
+          "w": 1280
+        },
+        {
+          "h": 0,
+          "id": "20f074a",
+          "top": 0,
+          "w": 0
+        },
+        {
+          "h": 758,
+          "id": "e9ac99c",
+          "top": 1736,
+          "w": 1280
+        },
+        {
+          "h": 1203,
+          "id": "c1ef72a",
+          "top": 2494,
+          "w": 1280
+        },
+        {
+          "h": 1142,
+          "id": "60e2529",
+          "top": 3698,
+          "w": 1280
+        },
+        {
+          "h": 1078,
+          "id": "c3c5747",
+          "top": 4840,
+          "w": 1280
+        }
+      ],
+      "viewport": {
+        "h": 720,
+        "w": 1280
+      }
+    }
+  },
+  "mobileGeometry": {
+    "original": {
+      "header": {
+        "h": 50,
+        "w": 390
+      },
+      "hero": {
+        "h": 844,
+        "w": 390
+      },
+      "missing": [],
+      "overflow": 0,
+      "scroll": 0,
+      "sections": [
+        {
+          "h": 844,
+          "id": "14fc727",
+          "top": 0,
+          "w": 390
+        },
+        {
+          "h": 436,
+          "id": "9e6bbe8",
+          "top": 844,
+          "w": 390
+        },
+        {
+          "h": 576,
+          "id": "106dcbe",
+          "top": 1280,
+          "w": 390
+        },
+        {
+          "h": 500,
+          "id": "20f074a",
+          "top": 1856,
+          "w": 390
+        },
+        {
+          "h": 0,
+          "id": "e9ac99c",
+          "top": 0,
+          "w": 0
+        },
+        {
+          "h": 844,
+          "id": "c1ef72a",
+          "top": 2355,
+          "w": 390
+        },
+        {
+          "h": 844,
+          "id": "60e2529",
+          "top": 3199,
+          "w": 390
+        },
+        {
+          "h": 936,
+          "id": "c3c5747",
+          "top": 4043,
+          "w": 390
+        }
+      ],
+      "viewport": {
+        "h": 844,
+        "w": 390
+      }
+    },
+    "local": {
+      "header": {
+        "h": 50,
+        "w": 390
+      },
+      "hero": {
+        "h": 844,
+        "w": 390
+      },
+      "missing": [],
+      "overflow": 0,
+      "scroll": 0,
+      "sections": [
+        {
+          "h": 844,
+          "id": "14fc727",
+          "top": 0,
+          "w": 390
+        },
+        {
+          "h": 436,
+          "id": "9e6bbe8",
+          "top": 844,
+          "w": 390
+        },
+        {
+          "h": 576,
+          "id": "106dcbe",
+          "top": 1280,
+          "w": 390
+        },
+        {
+          "h": 500,
+          "id": "20f074a",
+          "top": 1856,
+          "w": 390
+        },
+        {
+          "h": 0,
+          "id": "e9ac99c",
+          "top": 0,
+          "w": 0
+        },
+        {
+          "h": 844,
+          "id": "c1ef72a",
+          "top": 2355,
+          "w": 390
+        },
+        {
+          "h": 844,
+          "id": "60e2529",
+          "top": 3199,
+          "w": 390
+        },
+        {
+          "h": 936,
+          "id": "c3c5747",
+          "top": 4043,
+          "w": 390
+        }
+      ],
+      "viewport": {
+        "h": 844,
+        "w": 390
+      }
+    }
+  },
+  "desktopPages": [
+    {
+      "file": "index.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "로지엘 뷰티",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-airy-whip-cleanser.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "에어리 휩 클렌저 150ml – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-berry-water-tint.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "베리 워터 틴트 9g – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-bloom-marker-tint.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "블룸 마커 틴트 3.5g – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-brand.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "About ROSIEL – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-calm-leaf-essence.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "캄 리프 앰플 에센스 50ml – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-calm-leaf-toner.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "캄 리프 토너 – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-calm.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "Product Story – Daily Calm – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-cloud-makeup-mist.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "클라우드 메이크업 미스트 50ml – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-collection.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "All – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-curl-rhythm-mascara.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "컬 리듬 마스카라 8g – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-daily-calm-cream.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "데일리 캄 배리어 크림 60ml – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-luminous-glow-cream.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "루미너스 글로우 크림 24g – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-media.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "로지엘 캠페인",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-notice.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "Notice – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-peach-night-lip-mask.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "피치 나이트 립 마스크 23g – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-soft-foam-cleanser.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "Daily Calm 5.5 Foam Cleanser 150ml – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-sun-rhythm-milk.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "선 리듬 에어리 선 밀크 55ml – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-sun.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "Product Story – SUNPRISE – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-terms.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "Terms of Service – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-tint.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "Product Story – Dear Darling – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    },
+    {
+      "file": "rosiel-vegan.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "Product Story – Vegan – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 1280
+    }
+  ],
+  "mobilePages": [
+    {
+      "file": "index.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "로지엘 뷰티",
+      "width": 390
+    },
+    {
+      "file": "rosiel-airy-whip-cleanser.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "에어리 휩 클렌저 150ml – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-berry-water-tint.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "베리 워터 틴트 9g – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-bloom-marker-tint.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "블룸 마커 틴트 3.5g – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-brand.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "About ROSIEL – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-calm-leaf-essence.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "캄 리프 앰플 에센스 50ml – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-calm-leaf-toner.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "캄 리프 토너 – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-calm.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "Product Story – Daily Calm – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-cloud-makeup-mist.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "클라우드 메이크업 미스트 50ml – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-collection.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "All – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-curl-rhythm-mascara.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "컬 리듬 마스카라 8g – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-daily-calm-cream.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "데일리 캄 배리어 크림 60ml – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-luminous-glow-cream.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "루미너스 글로우 크림 24g – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-media.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "로지엘 캠페인",
+      "width": 390
+    },
+    {
+      "file": "rosiel-notice.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "Notice – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-peach-night-lip-mask.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "피치 나이트 립 마스크 23g – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-soft-foam-cleanser.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "Daily Calm 5.5 Foam Cleanser 150ml – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-sun-rhythm-milk.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "선 리듬 에어리 선 밀크 55ml – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-sun.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "Product Story – SUNPRISE – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-terms.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "Terms of Service – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-tint.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "Product Story – Dear Darling – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    },
+    {
+      "file": "rosiel-vegan.html",
+      "missing": [],
+      "overflow": 0,
+      "title": "Product Story – Vegan – ROSIEL GLOBAL OFFICIAL WEBSITE · 로지엘",
+      "width": 390
+    }
+  ],
+  "interactive": [
+    "hero first page becomes selected",
+    "desktop and mobile menu blur/tabs",
+    "search finds two tint items and routes to filtered collection",
+    "product links open native detail",
+    "native product gallery/swatches",
+    "product information opens local demo dialog"
+  ],
+  "limitations": [
+    "Backend commerce, authentication and external sales destinations use local demo content.",
+    "New photos, SVG copy and photo-based campaign video replace original media content."
+  ]
+}

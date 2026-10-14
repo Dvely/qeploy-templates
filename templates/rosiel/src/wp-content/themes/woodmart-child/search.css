@@ -1,0 +1,104 @@
+/* 검색 - 메인 */
+.search-main .btn.btn-color-default { padding: 0 !important; background: none!important; }
+.search-main .btn.btn-color-default:hover { box-shadow: none; opacity: 0.7; }
+.search-main .btn-icon-pos-right .wd-btn-icon { padding: 0; line-height: 0; font-size: 0; }
+.wd-popup { margin: 0 !important; }
+.wd-dropdown { position: relative; }
+.mfp-container { margin: 0; padding: 0 !important; }
+.mfp-content { position: static!important; }
+.mfp-bg { background: none !important; }
+.mfp-move-horizontal .mfp-with-anim { transform: translateX(0) translateY(-100px) !important;}
+.mfp-move-horizontal.mfp-ready .mfp-with-anim { transform: translateY(0px)  !important; }
+.mfp-ready button.mfp-close .mfp-close { transition: all .15s ease, opacity .15 ease .15s  }
+#popup-6299a0003b327 { position: absolute; top: 0; padding: 0 !important; background: rgba(255, 255, 255, 0.5); backdrop-filter: blur(12px); }
+#popup-6299a0003b327 button.mfp-close { top: 44px; right: 60px; }
+#popup-6299a0003b327 button.mfp-close:after { content: ''; line-height: 0; width: 44px; height: 44px; background: url("../../uploads/2022/05/icon-gnb-close.svg") no-repeat; }
+#popup-6299a0003b327 button.mfp-close:hover {background: none; opacity: 0.7; }
+#popup-6299a0003b327 .woodmart-ajax-search { margin: 0 auto; width: 1000px; }
+#popup-6299a0003b327 .searchform { margin: 0 auto; height: 40px;}
+#popup-6299a0003b327 .searchform input[type="text"] { background:rgba(231, 232, 234, 0.5); border: none; border-radius: 10px; }
+#popup-6299a0003b327 .wd-dropdown { margin: 15px auto 0 !important; width: calc(100% - 192px); box-shadow: none; }
+#popup-6299a0003b327 .smart-search-results { position: relative; }
+#popup-6299a0003b327 .smart-search-suggestions { background: none !important; }
+#popup-6299a0003b327 .smart-search-suggestions .wd-entities-title { font-size: 14px !important; min-height: auto; }
+#popup-6299a0003b327 .smart-search-suggestions .woocommerce-Price-amount { font-size: 16px; }
+#popup-6299a0003b327 .smart-search-suggestions .woocommerce-Price-currencySymbol { font-size: 12px; }
+#popup-6299a0003b327 .autocomplete-suggestion { border: none; width: 50%; flex: none; }
+#popup-6299a0003b327 .autocomplete-suggestion:last-child { flex: 1 1 50%; width: 50%; }
+#popup-6299a0003b327 .autocomplete-suggestion:hover,
+#popup-6299a0003b327 .autocomplete-suggestion.autocomplete-selected { background: rgba(255,255,255,0.5); }
+#popup-6299a0003b327 .view-all-results { margin-top: 32px; border:none; }
+#popup-6299a0003b327 .view-all-results span { display: inline-block; padding: 8px 30px; line-height: 24px; font-size: 16px; border: 1px solid #A6A6A6; border-radius: 10px;  transition: all 0.3s ease;  }
+#popup-6299a0003b327 .view-all-results span:after { content: ''; display: inline-block; margin-left: 16px; width: 6px; height: 12px; background: url("../../uploads/2022/05/ico-btn-arrow.svg") no-repeat; background-position: center center; background-size: 100% auto; transition: all 0.3s ease; }
+#popup-6299a0003b327 .view-all-results:hover { background: none;  transition: all 0.3s ease;  }
+#popup-6299a0003b327 .view-all-results:hover span { background: rgba(255,255,255,0.4);  transition: all 0.3s ease; }
+
+#popup-6299a0003b327 .trandtag .wd-list { margin-top: 32px; }
+#popup-6299a0003b327 .trandtag.trandtag-hidden { visibility: hidden; display: none; }
+
+/* 검색 - 공통 */
+.ysm-search-widget label { margin: 0 auto; }
+.ysm-search-widget .search-submit { box-shadow: none; }
+.ysm-search-widget .search-submit:before { content: ''; width: 40px; height: 40px; font-size: 0; background: url("../../uploads/2022/04/icon-gnb-search.svg"); background-position: center center; border-radius: 0 10px 10px 0; box-shadow: none; }
+.search-form .search-field[type="search"]{ line-height: 21px; font-size: 15px; font-style: normal; font-weight: 400; color: #111; background:rgba(231, 232, 234, 0.5); background-image: none !important; border: none; border-radius: 10px; }
+.search-form .search-field[type="search"]::placeholder { color: #777; }
+.search-form .autocomplete-suggestion.autocomplete-selected { background: rgba(255,255,255,0.5); opacity: 1 !important; border-radius: 5px; }
+.search-form .smart-search-suggestions .woocommerce-Price-amount { line-height: 25px; font-size: 16px; }
+.search-form .smart-search-suggestions .woocommerce-Price-currencySymbol { font-size: 12px; }
+
+/* .main-search { position: absolute; top: 0; padding: 0 !important; background: rgba(255, 255, 255, 0.5); backdrop-filter: blur(12px); } */
+.main-search button.mfp-close { top: 44px; right: 60px; }
+.main-search button.mfp-close:after { content: ''; line-height: 0; width: 44px; height: 44px; background: url("../../uploads/2022/05/icon-gnb-close.svg") no-repeat; }
+.main-search button.mfp-close:hover {background: none; opacity: 0.7; }
+.main-search .ysm-search-widget { margin: 0 auto; width: 1000px; }
+.main-search .ysm-search-widget label { height: 40px;}
+/* .main-search .wd-dropdown { margin: 15px auto 0 !important; width: calc(100% - 192px); box-shadow: none; } */
+.main-search .smart-search-results { display:none; position: relative; margin: 0 auto; width: 80% !important; max-height: 340px !important; }
+.main-search .smart-search-results.has-viewall-button { padding-bottom: 40px !important; }
+/* .smart-search-results.has-viewall-button .smart-search-suggestions { pading-bottom: 40px !important; } */
+.main-search .smart-search-suggestions { display: flex; flex-wrap: wrap; max-height: fit-content !important; margin-top: 32px; width: 100% !important; background: none !important; border: none; transition: all 0.5s ease; }
+.main-search .autocomplete-suggestion { position: relative; flex: 1 1 50%; padding: 0; width: 50%; border: none; }
+.main-search .autocomplete-suggestion a { display: block; width: 100%; line-height: inherit !important; }
+.main-search .autocomplete-suggestion:last-child { flex: none; width: 50%; }
+/* .main-search .autocomplete-suggestion:hover, */
+.main-search .smart-search-suggestions .smart-search-post { display: flex; padding: 8px; }
+.main-search .smart-search-suggestions .smart-search-post-icon { width: 110px; margin: 0 !important; background: #E7E8EA; }
+.main-search .smart-search-suggestions .smart-search-post-holder { padding: 18px 0 0 16px; }
+.main-search .smart-search-suggestions .smart-search-post-title { margin-bottom: 10px; min-height: auto; font-size: 14px !important; font-weight: 700; }
+.main-search .smart-search-suggestions .smart-search-post-title .strong { text-decoration: underline; }
+.main-search .smart-search-view-all-holder { margin-top: 32px; text-align: center; border:none; }
+.main-search .smart-search-view-all-holder .smart-search-view-all { display: inline-block !important; padding: 8px 30px; height: auto !important; line-height: 24px; font-size: 16px; background: #fff; border: 1px solid #A6A6A6; border-radius: 10px; transition: all 0.3s ease;  }
+.main-search .smart-search-view-all-holder .smart-search-view-all:after { content: ''; display: inline-block; margin-left: 16px; width: 6px; height: 12px; background: url("../../uploads/2022/05/ico-btn-arrow.svg") no-repeat; background-position: center center; background-size: 100% auto; transition: all 0.3s ease; }
+.main-search .smart-search-view-all-holder:hover { background: none;  transition: all 0.3s ease;  }
+.main-search .smart-search-view-all-holder:hover .smart-search-view-all { background: rgba(255,255,255,0.4);  transition: all 0.3s ease; }
+
+/* 검색 - 서브 */
+.search-sub { z-index: 50; }
+.search-sub .search-form { width: 400px;  }
+.search-sub .search-form .search-field[type="search"] { width: 100%; height: 44px; padding: 2px 16px; backdrop-filter: blur(20px); border: none; border-radius: 10px; }
+.search-sub .smart-search-results { position: relative; padding-right: 0;}
+.search-sub .smart-search-suggestions { width: 100% !important; height: auto; margin: 0;  background: rgba(231, 232, 234, 0.5); border-radius: 10px; backdrop-filter: blur(5px); border: none; transition: all 0.5s ease; }
+.search-sub .autocomplete-suggestion { flex: auto; margin: 0 auto; padding: 4px 0px; width: 85% !important; border: none;}
+.search-sub .autocomplete-suggestion:first-child {margin-top: 10px; }
+.search-sub .autocomplete-suggestion a { display: inline-block; width: 100%; }
+.search-sub .autocomplete-suggestion .smart-search-post { padding: 2px 10px; }
+.search-sub .autocomplete-suggestion .smart-search-post-title { min-height:inherit !important; margin: 0; line-height: 24px; font-size:14px !important; }
+.search-sub .smart-search-view-all-holder { display: none !important; bottom: 16px; text-align: center; }
+.search-sub .smart-search-view-all-holder .smart-search-view-all { display: inline-block !important; padding: 4px 20px; height: auto !important; line-height: 22px; font-size: 14px; background: rgba(255,255,255,.7); border: 1px solid #A6A6A6; border-radius: 6px; transition: all 0.3s ease;  }
+.search-sub .smart-search-view-all-holder .smart-search-view-all:hover { opacity: 0.7;}
+.search-sub .smart-search-view-all-holder .smart-search-view-all:after { content: ''; display: inline-block; margin-left: 16px; width: 6px; height: 12px; background: url("../../uploads/2022/05/ico-btn-arrow.svg") no-repeat; background-position: center center; background-size: 100% auto; transition: all 0.3s ease; }
+.search-sub .smart-search-results.has-viewall-button { padding-bottom: 50px !important; }
+
+.search-sub .search-form .searchsubmit:after, .search-form .searchsubmit img { content: ''; width: 40px; height: 40px; font-size: 0; background: url("../../uploads/2022/04/icon-gnb-search.svg") no-repeat center center; }
+.search-sub .wd-dropdown-results { background: rgba(255, 255, 255, 0.5); backdrop-filter: blur(12px); }
+
+
+@media (min-width: 1201px) and (max-width: 1380px) {
+    .search-sub { width: 24% !important; }
+    .search-sub .search-form { float: right; max-width: 400px; min-width: 260px; width: 100%; }
+}
+
+@media(max-width: 1200px) {
+    .search-sub .search-form { display: none; }
+
+}

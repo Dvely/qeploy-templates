@@ -1,0 +1,77 @@
+{
+  "mode": "built-in image_gen",
+  "assets": [
+    {
+      "id": "campaign-tint",
+      "alpha": false,
+      "prompt": "Use case: ads-marketing. Asset type: wide luxury playful beauty website campaign photograph, landscape 16:9. Original fictional beauty brand ROSIEL campaign. An adult East Asian woman with a fresh berry red lip, clear natural skin, holding a plain raspberry-pink marker-shaped lip tint near her cheek, modern editorial portrait. Coral pink studio backdrop and warm direct soft sunlight. Model occupies the center and right of the frame, comfortable negative space along lower left for separately rendered page text. Close portrait, polished cosmetic advertising photography, authentic pores and gentle expression. No letters, no logos, no text, no watermark. The cosmetic packaging is unbranded.",
+      "file": "src/images/rosiel-campaign-tint.png"
+    },
+    {
+      "id": "campaign-calm",
+      "alpha": false,
+      "prompt": "Use case: ads-marketing. Asset type: wide skincare website campaign image, landscape 16:9. A white skincare tube, a white pump cleanser, and a pale aqua translucent essence bottle on a clean light blue wet reflective podium, small abstract mint graphic on packaging with no text. Airy fresh pale blue backdrop, water droplets, soft directional studio light, elegant gentle daily skincare mood. Products mainly center and right with clear lower left space for page headline. High end realistic product photography, detailed materials. No letters, words, logos, watermark.",
+      "file": "src/images/rosiel-campaign-calm.png"
+    },
+    {
+      "id": "campaign-sun",
+      "alpha": false,
+      "prompt": "Use case: ads-marketing. Asset type: wide beauty brand website hero photograph, landscape 16:9. Two original adult women, one East Asian woman and one woman with medium brown skin and curly dark hair, fresh natural skin and subtle rosy makeup, standing outdoors under a clear light blue summer sky. They hold a plain mint green sun-care tube and a small plain mint-green cosmetic stick at chest height. Contemporary skincare editorial, warm sunlight, cheerful relaxed expressions, subtle fine freckles, natural shoulders in summer camisoles. People occupy center and right, leave lower left breathing space for a separately rendered page headline. No logos, no words, no text, no watermarks.",
+      "file": "src/images/rosiel-campaign-sun.png"
+    },
+    {
+      "id": "campaign-glow",
+      "alpha": false,
+      "prompt": "Use case: ads-marketing. Asset type: wide glowing body cream campaign photograph, landscape 16:9. A pearl blush-pink cosmetic tube with an unbranded ivory cap leaning diagonally across silky pale rose fabric beside a small swirl of luminous cosmetic cream. Dreamy peach-pink light, understated small star-like highlights, closeup editorial cosmetics advertising photo. The product is mainly central and right, lower left has quiet soft pink fabric space for separately rendered page text. Photorealistic materials, no words, no logos, no text, no watermark.",
+      "file": "src/images/rosiel-campaign-glow.png"
+    },
+    {
+      "id": "tint",
+      "alpha": true,
+      "prompt": "Use case: product-mockup. Asset type: transparent product catalog cosmetic cutout. One raspberry coral pink marker-shaped lip tint tube standing upright with a sculpted rounded cap; beside it one uncapped matching slim tube with a small berry applicator. Original unbranded packaging with one minimal lighter pink circle graphic. Full products centered, clean studio light, realistic plastic and subtle floor-free contact shading, comfortable clear margin all sides. No words, logos, numbers or watermark. Genuinely transparent background.",
+      "file": "src/images/rosiel-tint.png"
+    },
+    {
+      "id": "cream",
+      "alpha": true,
+      "prompt": "Use case: product-mockup. Asset type: transparent beauty product catalog cutout. A single elegant upright white skincare squeeze tube, rounded white cap, slim pale aqua rectangle accent with a tiny mint leaf-shaped graphic, minimalist unbranded packaging. Full product centered, realistic clean studio lighting, comfortable margin. No words, logos, numbers or watermark. Genuinely transparent background.",
+      "file": "src/images/rosiel-cream.png"
+    },
+    {
+      "id": "cleanser",
+      "alpha": true,
+      "prompt": "Use case: product-mockup. Asset type: transparent beauty product catalog cutout. A single white cylindrical facial foam cleanser bottle with a generous white pump dispenser and a pale mint rectangle accent. Minimal original unbranded packaging, upright centered complete product. Realistic clean studio light and detailed matte plastic. Comfortable transparent margin. No words, logos, numbers or watermark. Genuinely transparent background.",
+      "file": "src/images/rosiel-cleanser.png"
+    },
+    {
+      "id": "sun",
+      "alpha": true,
+      "prompt": "Use case: product-mockup. Asset type: transparent skincare product catalog cutout. One pale mint-green sun-care squeeze tube with a rounded white cap, fine small botanical line-art graphic without any letters. Upright complete product, centered with comfortable margin. Photorealistic pastel matte packaging and gentle studio lighting. No words, logos, numbers or watermark. Genuinely transparent background.",
+      "file": "src/images/rosiel-sun.png"
+    },
+    {
+      "id": "toner",
+      "alpha": true,
+      "prompt": "Use case: product-mockup. Asset type: transparent skincare product catalog cutout. One tall translucent very pale aqua toner bottle with a minimalist white cylindrical cap and one small mint rectangle accent, no typography. Full upright centered product, detailed transparent glass-like plastic with visible pale liquid, clean studio lighting. Comfortable margin. No words, logos, numbers or watermark. Genuinely transparent background.",
+      "file": "src/images/rosiel-toner.png"
+    },
+    {
+      "id": "essence",
+      "alpha": true,
+      "prompt": "Use case: product-mockup. Asset type: transparent skincare product catalog cutout. One small frosted pale aqua glass essence bottle with a sleek white pump cap, simple mint line-art leaf graphic with no typography. Full upright centered product, clean studio light, subtle specular detail, generous transparent margin. No words, logos, numbers or watermark. Genuinely transparent background.",
+      "file": "src/images/rosiel-essence.png"
+    },
+    {
+      "id": "mascara",
+      "alpha": true,
+      "prompt": "Use case: product-mockup. Asset type: transparent cosmetic product catalog cutout. One elegant tall deep-charcoal mascara tube with a tiny raspberry-pink circle motif; beside it one separate matching cap with a curved black mascara wand. Original minimalist unbranded packaging, two complete objects centered and upright, soft studio lighting, precise black bristles. Comfortable transparent margin. No words, logos, numbers or watermark. Genuinely transparent background.",
+      "file": "src/images/rosiel-mascara.png"
+    },
+    {
+      "id": "mask",
+      "alpha": true,
+      "prompt": "Use case: product-mockup. Asset type: transparent cosmetic product catalog cutout. One squat pastel peach-pink lip sleeping mask cosmetic jar with smooth ivory lid and a tiny minimalist circle graphic, lid resting beside the jar and a soft ivory cream surface visible. Original unbranded packaging, product complete centered in studio light, realistic rounded glass and satin plastic, comfortable transparent margin. No words, logos, numbers or watermark. Genuinely transparent background.",
+      "file": "src/images/rosiel-mask.png"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * cooper-black-std:
+ *   - http://typekit.com/eulas/000000000000000000013101
+ * sofia-pro:
+ *   - http://typekit.com/eulas/00000000000000007735f999
+ *   - http://typekit.com/eulas/00000000000000007735f993
+ *   - http://typekit.com/eulas/00000000000000007735f995
+ *   - http://typekit.com/eulas/00000000000000007735f990
+ *   - http://typekit.com/eulas/00000000000000007735f98d
+ *   - http://typekit.com/eulas/00000000000000007735f98c
+ *
+ * © 2009-2026 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2022-07-21 06:34:34 UTC"}*/
+
+@import url("../p.typekit.net/p-a61e5d65.css");
+
+@font-face {
+font-family:"cooper-black-std";
+src:url("af/4e1b68/000000000000000000013101/27/l-86a37a6456.woff2") format("woff2"),url("af/4e1b68/000000000000000000013101/27/d-e47c99484f.woff") format("woff"),url("af/4e1b68/000000000000000000013101/27/a-5d6e724894.otf") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sofia-pro";
+src:url("af/5d97ff/00000000000000007735f999/30/l-837cd36f5a.woff2") format("woff2"),url("af/5d97ff/00000000000000007735f999/30/d-8782e23c96.woff") format("woff"),url("af/5d97ff/00000000000000007735f999/30/a-a5b78cd975.otf") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sofia-pro";
+src:url("af/66e20c/00000000000000007735f993/30/l-53fd61f02c.woff2") format("woff2"),url("af/66e20c/00000000000000007735f993/30/d-b9207fc62f.woff") format("woff"),url("af/66e20c/00000000000000007735f993/30/a-d97551738e.otf") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sofia-pro";
+src:url("af/bb213c/00000000000000007735f995/30/l-68a5c18817.woff2") format("woff2"),url("af/bb213c/00000000000000007735f995/30/d-b6746edb59.woff") format("woff"),url("af/bb213c/00000000000000007735f995/30/a-03515c1e70.otf") format("opentype");
+font-display:auto;font-style:normal;font-weight:200;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sofia-pro";
+src:url("af/2e2409/00000000000000007735f990/30/l-80990c7cda.woff2") format("woff2"),url("af/2e2409/00000000000000007735f990/30/d-531b70ca40.woff") format("woff"),url("af/2e2409/00000000000000007735f990/30/a-0e621a9ba7.otf") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sofia-pro";
+src:url("af/b718ff/00000000000000007735f98d/30/l-34fff205cb.woff2") format("woff2"),url("af/b718ff/00000000000000007735f98d/30/d-a3186727eb.woff") format("woff"),url("af/b718ff/00000000000000007735f98d/30/a-3343e705b1.otf") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sofia-pro";
+src:url("af/c09857/00000000000000007735f98c/30/l-c32be2a175.woff2") format("woff2"),url("af/c09857/00000000000000007735f98c/30/d-cb66f042b6.woff") format("woff"),url("af/c09857/00000000000000007735f98c/30/a-c44ea47058.otf") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+.tk-cooper-black-std { font-family: "cooper-black-std",serif; }
+.tk-sofia-pro { font-family: "sofia-pro",sans-serif; }

@@ -1,0 +1,2006 @@
+[
+  {
+    "file": "wp-includes/css/dashicons.min.css",
+    "sourceSha256": "c21e5a2b32c47bc5f9d9efc97bc0e29fd081946d1d3ebffc5621cfafb1d3960e",
+    "localSha256": "cb7bed51ec0f1a22e6fed48a2cf6b53d3d8bc85fad213118dab1b49cb67376f1",
+    "identical": false
+  },
+  {
+    "file": "wp-includes/css/dist/block-library/style.min.css",
+    "sourceSha256": "885c89e82436cfa3d0a0a5a9b2f6be6e1503457c810cc88ed2c09b4570ae9fd6",
+    "localSha256": "885c89e82436cfa3d0a0a5a9b2f6be6e1503457c810cc88ed2c09b4570ae9fd6",
+    "identical": true
+  },
+  {
+    "file": "wp-includes/js/underscore.min.js",
+    "sourceSha256": "726b820e44f6ab90ad991d30a4bf26d3a5d71493cbcd1fb1efd0d14e89b9df2a",
+    "localSha256": "726b820e44f6ab90ad991d30a4bf26d3a5d71493cbcd1fb1efd0d14e89b9df2a",
+    "identical": true
+  },
+  {
+    "file": "wp-includes/js/wp-util.min.js",
+    "sourceSha256": "3bc6467a95cec8fa516c6f5f69e1301e37e16f9bb1046fe7756729249f901b95",
+    "localSha256": "3bc6467a95cec8fa516c6f5f69e1301e37e16f9bb1046fe7756729249f901b95",
+    "identical": true
+  },
+  {
+    "file": "wp-includes/js/comment-reply.min.js",
+    "sourceSha256": "e174a58a503ab84b3d1b9de12fd3895788204485170f1289e445f7b5b98ec789",
+    "localSha256": "e174a58a503ab84b3d1b9de12fd3895788204485170f1289e445f7b5b98ec789",
+    "identical": true
+  },
+  {
+    "file": "wp-includes/js/hoverIntent.min.js",
+    "sourceSha256": "ed5b5df9ceacfe76857ac51964972b0b417a215b2f50e837fd6b64bad7339c40",
+    "localSha256": "ed5b5df9ceacfe76857ac51964972b0b417a215b2f50e837fd6b64bad7339c40",
+    "identical": true
+  },
+  {
+    "file": "wp-includes/js/imagesloaded.min.js",
+    "sourceSha256": "b65b3de1bc923b9355248a0d941a0eaee15dfb9a6b8eadb51323a8df6189dcd1",
+    "localSha256": "b65b3de1bc923b9355248a0d941a0eaee15dfb9a6b8eadb51323a8df6189dcd1",
+    "identical": true
+  },
+  {
+    "file": "wp-includes/js/dist/i18n.min.js",
+    "sourceSha256": "f313d12ea6124bd28fc4a6b7163d253bb83d5aeab5edce594880c5c3df475cbc",
+    "localSha256": "f313d12ea6124bd28fc4a6b7163d253bb83d5aeab5edce594880c5c3df475cbc",
+    "identical": true
+  },
+  {
+    "file": "wp-includes/js/dist/hooks.min.js",
+    "sourceSha256": "2cb546fbdda7995d374fffa4b2f6530bbcf57d014639ddf76de45df43d593045",
+    "localSha256": "2cb546fbdda7995d374fffa4b2f6530bbcf57d014639ddf76de45df43d593045",
+    "identical": true
+  },
+  {
+    "file": "wp-includes/js/jquery/jquery.min.js",
+    "sourceSha256": "cb6f2d32c49d1c2b25e9ffc9aaafa3f83075346c01bcd4ae6eb187392a4292cf",
+    "localSha256": "cb6f2d32c49d1c2b25e9ffc9aaafa3f83075346c01bcd4ae6eb187392a4292cf",
+    "identical": true
+  },
+  {
+    "file": "wp-includes/js/jquery/jquery-migrate.min.js",
+    "sourceSha256": "5274f11e6fb32ae0cf2dfb9f8043272865c397a7c4223b4cfa7d50ea52fbde89",
+    "localSha256": "5274f11e6fb32ae0cf2dfb9f8043272865c397a7c4223b4cfa7d50ea52fbde89",
+    "identical": true
+  },
+  {
+    "file": "wp-includes/js/jquery/ui/core.min.js",
+    "sourceSha256": "7e84c9f8d71bc6eb2dac2fce59a6caea62da51ffa8cf56b41806f59386ab1322",
+    "localSha256": "7e84c9f8d71bc6eb2dac2fce59a6caea62da51ffa8cf56b41806f59386ab1322",
+    "identical": true
+  },
+  {
+    "file": "wp-includes/fonts/dashicons-7c82a608.ttf",
+    "sourceSha256": "cacd900a2587c234c53e9d0108fc51ff6c61420c4f89a1731014b673a7b9a1a8",
+    "localSha256": "cacd900a2587c234c53e9d0108fc51ff6c61420c4f89a1731014b673a7b9a1a8",
+    "identical": true
+  },
+  {
+    "file": "wp-includes/fonts/dashicons-662078b2.eot",
+    "sourceSha256": "c04a6545ea1a3860f6c8eb4b9eed8191d857dbf2716b812c816cae8e40bbea7a",
+    "localSha256": "c04a6545ea1a3860f6c8eb4b9eed8191d857dbf2716b812c816cae8e40bbea7a",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/tablepress/css/tablepress.woff",
+    "sourceSha256": "c72e23882b180037972c27408c198d97026a5cb3f6be62878749a069f289b73e",
+    "localSha256": "c72e23882b180037972c27408c198d97026a5cb3f6be62878749a069f289b73e",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/tablepress/css/default.min.css",
+    "sourceSha256": "97ce1e1f5dbfda35ac979b593e79e1673a3e725790339d767e4a6ca6e94a4828",
+    "localSha256": "b0413124be39c20957d9c850365280010857be08a5fa499ab19315b01d236487",
+    "identical": false
+  },
+  {
+    "file": "wp-content/plugins/popup-maker/assets/css/pum-site.min.css",
+    "sourceSha256": "902b521ff9b83c37848c36a40e6dff174b4162a052ebbb05241d413f26ee814d",
+    "localSha256": "902b521ff9b83c37848c36a40e6dff174b4162a052ebbb05241d413f26ee814d",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/popup-maker/assets/js/site.min-cbf50a16.js",
+    "sourceSha256": "24506519386b511fa9c422a7d384f32e3e645df426d72fcdfc4b5c293c2194ad",
+    "localSha256": "24506519386b511fa9c422a7d384f32e3e645df426d72fcdfc4b5c293c2194ad",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css",
+    "sourceSha256": "4b7693154069c53a16468d09d89c9eba5da6c0dfc69cf4d7eb675e32ba663361",
+    "localSha256": "4b7693154069c53a16468d09d89c9eba5da6c0dfc69cf4d7eb675e32ba663361",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css",
+    "sourceSha256": "a16126f4cfb8aa52abb2c0b12e588c84708da95e2426e16477dd8f42b61b96f4",
+    "localSha256": "a16126f4cfb8aa52abb2c0b12e588c84708da95e2426e16477dd8f42b61b96f4",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js",
+    "sourceSha256": "ef22199864042b8ceeee3729f3254c140df7217364045737ca3aadf8434fb3da",
+    "localSha256": "ef22199864042b8ceeee3729f3254c140df7217364045737ca3aadf8434fb3da",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js",
+    "sourceSha256": "a256fccecac3b32ab73c91d79a18747519a1a18023be05465c933b03523a82e8",
+    "localSha256": "a256fccecac3b32ab73c91d79a18747519a1a18023be05465c933b03523a82e8",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js",
+    "sourceSha256": "8634aa7a3ac0bc6d359b458c8922e9d3269f64c1355b329bfe215beb12773af8",
+    "localSha256": "8634aa7a3ac0bc6d359b458c8922e9d3269f64c1355b329bfe215beb12773af8",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js",
+    "sourceSha256": "2d022db650d194d935faea46a40e5512235b43bc3f8b181e32ce6d3dd745f4e1",
+    "localSha256": "2d022db650d194d935faea46a40e5512235b43bc3f8b181e32ce6d3dd745f4e1",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js",
+    "sourceSha256": "3b55a00b09e9df011435d1f358401cf7153066bbfeafdc3384e5d8cdaf4e3262",
+    "localSha256": "3b55a00b09e9df011435d1f358401cf7153066bbfeafdc3384e5d8cdaf4e3262",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js",
+    "sourceSha256": "c799cc52f81045dc282c29f1f879d9f889e9789d9c35ce569aa3e5e3e7323834",
+    "localSha256": "c799cc52f81045dc282c29f1f879d9f889e9789d9c35ce569aa3e5e3e7323834",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js",
+    "sourceSha256": "3b1384ff918d4b7f95f9ee5c8fc388203dedff7344d3d96598c9562162788612",
+    "localSha256": "3b1384ff918d4b7f95f9ee5c8fc388203dedff7344d3d96598c9562162788612",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/korea-sns-pro/css/style.css",
+    "sourceSha256": "6df11b8fe0e602559b09656cb739265efd68cf2cf296f32d25d8088c5afd4aba",
+    "localSha256": "6df11b8fe0e602559b09656cb739265efd68cf2cf296f32d25d8088c5afd4aba",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/woo-variation-gallery/fonts/slick/slick.woff",
+    "sourceSha256": "26726bac4060abb1226e6ceebc1336e84930fe7a7af1b3895a109d067f5b5dcc",
+    "localSha256": "26726bac4060abb1226e6ceebc1336e84930fe7a7af1b3895a109d067f5b5dcc",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/woo-variation-gallery/fonts/slick/slick.ttf",
+    "sourceSha256": "37bc99cfdbbc046193a26396787374d00e7b10d3a758a36045c07bd8886360d2",
+    "localSha256": "37bc99cfdbbc046193a26396787374d00e7b10d3a758a36045c07bd8886360d2",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/woo-variation-gallery/fonts/slick/slick.eot",
+    "sourceSha256": "06d80cf01250132fd1068701108453feee68854b750d22c344ffc0de395e1dcb",
+    "localSha256": "06d80cf01250132fd1068701108453feee68854b750d22c344ffc0de395e1dcb",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/woo-variation-gallery/assets/css/frontend.min.css",
+    "sourceSha256": "8cbc8544482757cb6e680a6508c38f8987f3f2e1a458a402294344da326ffad5",
+    "localSha256": "8cbc8544482757cb6e680a6508c38f8987f3f2e1a458a402294344da326ffad5",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/woo-variation-gallery/assets/css/slick.min.css",
+    "sourceSha256": "58cb1ef2d2bc0c91ead16d84eb2a52c2eaff9d9c1653c62507fafca5d716d7d9",
+    "localSha256": "9325c3d002ce5bb5f0220eb365664d964307c04836d2383f1bedf4e6395998d4",
+    "identical": false
+  },
+  {
+    "file": "wp-content/plugins/woo-variation-gallery/assets/js/frontend.min.js",
+    "sourceSha256": "6737db777636ff7bff3508b70aecf660ce29e555f259dbb7cf54ba2086c3b382",
+    "localSha256": "6737db777636ff7bff3508b70aecf660ce29e555f259dbb7cf54ba2086c3b382",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/woo-variation-gallery/assets/js/slick.min.js",
+    "sourceSha256": "a993733705edc6e8552bd5f81042cca6095d0e1764d516c3ea4f48cb97a5a2b1",
+    "localSha256": "a993733705edc6e8552bd5f81042cca6095d0e1764d516c3ea4f48cb97a5a2b1",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/css/widget-woocommerce.min.css",
+    "sourceSha256": "3f11ebf281090b5ff81a9db877508ff296ab85ba45e25f6940307c4d6b949f28",
+    "localSha256": "3f11ebf281090b5ff81a9db877508ff296ab85ba45e25f6940307c4d6b949f28",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/woocommerce-notices.da27b22c491f7cbe9158.bundle.min.js",
+    "sourceSha256": "bc7bf894ec932bd5e474f07924a5e3a66e4bf05a06dd4c35b686b05235ecda90",
+    "localSha256": "bc7bf894ec932bd5e474f07924a5e3a66e4bf05a06dd4c35b686b05235ecda90",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/load-more.80eb3caec79a44347d74.bundle.min.js",
+    "sourceSha256": "e1a4692ca22d41a9a66e27d0acf964b769d00908a0a9f7f7e75929f624619e7b",
+    "localSha256": "e1a4692ca22d41a9a66e27d0acf964b769d00908a0a9f7f7e75929f624619e7b",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/slides.b3c3013aaf60282ce45b.bundle.min.js",
+    "sourceSha256": "9ddeab303ca036cffb759bfb8d67a948db59fad7ec4409101ae5c063153e1c29",
+    "localSha256": "9ddeab303ca036cffb759bfb8d67a948db59fad7ec4409101ae5c063153e1c29",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/woocommerce-menu-cart.1fdfc1bdbd743360a054.bundle.min.js",
+    "sourceSha256": "5dd4c4217daf82e8776d8139d012e0f42948d474133daa4c6c37fc5624f4f985",
+    "localSha256": "5dd4c4217daf82e8776d8139d012e0f42948d474133daa4c6c37fc5624f4f985",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/nav-menu.3de49ba5ef86f9a22ff5.bundle.min.js",
+    "sourceSha256": "c9a7639893f5a62d62f9ff073f9914cc228f046224eea236ee82d74dbf44a2b1",
+    "localSha256": "c9a7639893f5a62d62f9ff073f9914cc228f046224eea236ee82d74dbf44a2b1",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/table-of-contents.4b2c027c1b14bc6856bb.bundle.min.js",
+    "sourceSha256": "3db416fd1551d83065c7bd12c4138d0c27211803aedf80d11eb9ba80b16357d1",
+    "localSha256": "3db416fd1551d83065c7bd12c4138d0c27211803aedf80d11eb9ba80b16357d1",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/paypal-button.3d0d5af7df85963df32c.bundle.min.js",
+    "sourceSha256": "67e5c8242817c86a12a6eaacf0685617243c9157bd57292937bb76f469eac3b5",
+    "localSha256": "67e5c8242817c86a12a6eaacf0685617243c9157bd57292937bb76f469eac3b5",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/video-playlist.e85695d7b9171d89c565.bundle.min.js",
+    "sourceSha256": "60aa27e2a782873cac07004477f2275ca10c2666f5126b9c21478d7dd018ac7e",
+    "localSha256": "60aa27e2a782873cac07004477f2275ca10c2666f5126b9c21478d7dd018ac7e",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/posts.fb47ff5b9f7ecb0aba80.bundle.min.js",
+    "sourceSha256": "20b990f7fce440b480c621e08c09cea4eb20099b7184e4c8e00ad95ce6cedc77",
+    "localSha256": "20b990f7fce440b480c621e08c09cea4eb20099b7184e4c8e00ad95ce6cedc77",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/form.358793a6bb3724ab5f99.bundle.min.js",
+    "sourceSha256": "73c7e85ff375c9c81a57c2f9527f38ec5f7b6decfa456b51dd4bb9f63e358e10",
+    "localSha256": "73c7e85ff375c9c81a57c2f9527f38ec5f7b6decfa456b51dd4bb9f63e358e10",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/frontend.min.js",
+    "sourceSha256": "054c6ffbc6f4d2a7521489ec830ba65253bdd69a31a2bba14b0b3af39b297cad",
+    "localSha256": "054c6ffbc6f4d2a7521489ec830ba65253bdd69a31a2bba14b0b3af39b297cad",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/woocommerce-my-account.6c5bcaba786bebe3123b.bundle.min.js",
+    "sourceSha256": "fc2634e02775e0d39169a65902be8c0a285345100e1adbb6fcbf645771e21eec",
+    "localSha256": "fc2634e02775e0d39169a65902be8c0a285345100e1adbb6fcbf645771e21eec",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js",
+    "sourceSha256": "71993938ad858c688788d16e0dcd2479c77e116c4e106ebcff6c763f09c6c642",
+    "localSha256": "71993938ad858c688788d16e0dcd2479c77e116c4e106ebcff6c763f09c6c642",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/code-highlight.28a979661569ddbbf60d.bundle.min.js",
+    "sourceSha256": "dd7eca0eef5109b192b9c8427a3e45eee90543aa54bb0d6bd692b7cabece8d9a",
+    "localSha256": "dd7eca0eef5109b192b9c8427a3e45eee90543aa54bb0d6bd692b7cabece8d9a",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js",
+    "sourceSha256": "f18950b9f11f2857ba209ed988aec240a35d4d90e3479694182317b8c9c46441",
+    "localSha256": "f18950b9f11f2857ba209ed988aec240a35d4d90e3479694182317b8c9c46441",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/carousel.fc5e450716cd11d05beb.bundle.min.js",
+    "sourceSha256": "e93eb64a7ccf3f2b492d335f0e2fb7d37ab47917398bba6fe67ec3bacad1df1b",
+    "localSha256": "e93eb64a7ccf3f2b492d335f0e2fb7d37ab47917398bba6fe67ec3bacad1df1b",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/countdown.b0ef6392ec4ff09ca2f2.bundle.min.js",
+    "sourceSha256": "7b67cf4b719cb6c8fbdd4762de94da0d33ebcbb04693eb45ec65323f51979f44",
+    "localSha256": "7b67cf4b719cb6c8fbdd4762de94da0d33ebcbb04693eb45ec65323f51979f44",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/gallery.9c61bb9957e10e6d7bda.bundle.min.js",
+    "sourceSha256": "504d24e4dd23a92e47e6c6609af726196af01deae75ed5d4bc67f32279df53b9",
+    "localSha256": "504d24e4dd23a92e47e6c6609af726196af01deae75ed5d4bc67f32279df53b9",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js",
+    "sourceSha256": "f1690d5d80cf38538349be620dec4824cc65f1298ddba8a5841002682590992d",
+    "localSha256": "f1690d5d80cf38538349be620dec4824cc65f1298ddba8a5841002682590992d",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/lottie.147bf20db94f86cc4295.bundle.min.js",
+    "sourceSha256": "bff4148e0226dbf4786c8e8870d6c3025ae28957c518e0840dfaeecfcabc7621",
+    "localSha256": "bff4148e0226dbf4786c8e8870d6c3025ae28957c518e0840dfaeecfcabc7621",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/media-carousel.3a1cfc78c5d3383e935d.bundle.min.js",
+    "sourceSha256": "c1cdd5d5b6884f55d820903670c7dec73001097d19df6b385220b9e30e5136f9",
+    "localSha256": "c1cdd5d5b6884f55d820903670c7dec73001097d19df6b385220b9e30e5136f9",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/woocommerce-cart.6d2d2476f49308596186.bundle.min.js",
+    "sourceSha256": "a2bbcba2c1f7f17d2a25943899b84e1cc361ddd57b8852b195755cbcde89cc90",
+    "localSha256": "a2bbcba2c1f7f17d2a25943899b84e1cc361ddd57b8852b195755cbcde89cc90",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/archive-posts.a89b5dc0ebe0af8113c4.bundle.min.js",
+    "sourceSha256": "7e188177d2b0994260a58bb0eebf6eee601fcaf6c78a13b80883558399d1af8c",
+    "localSha256": "7e188177d2b0994260a58bb0eebf6eee601fcaf6c78a13b80883558399d1af8c",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/hotspot.6ab1751404c381bfe390.bundle.min.js",
+    "sourceSha256": "3795069c8afb6e9208fda5d660df1e2275ed0155c38f153d5f12be2af6f03d9d",
+    "localSha256": "3795069c8afb6e9208fda5d660df1e2275ed0155c38f153d5f12be2af6f03d9d",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/animated-headline.2084307f107ab81be69e.bundle.min.js",
+    "sourceSha256": "ae0794496a20ae742e4f0eb25861f18e6a09c48c2073d23e341bc00b69d2de7d",
+    "localSha256": "ae0794496a20ae742e4f0eb25861f18e6a09c48c2073d23e341bc00b69d2de7d",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/search-form.a396372f407d3c16a0ef.bundle.min.js",
+    "sourceSha256": "9fd1bdf18562fcf580de0609a756425c0feece0eb739e54c4ee9210055486a78",
+    "localSha256": "9fd1bdf18562fcf580de0609a756425c0feece0eb739e54c4ee9210055486a78",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/progress-tracker.7a4e50d1be14525d8ffb.bundle.min.js",
+    "sourceSha256": "c01526333bab7d7c98bd95ff86b11dedaa9634a18678081cc800b80ee266b98e",
+    "localSha256": "c01526333bab7d7c98bd95ff86b11dedaa9634a18678081cc800b80ee266b98e",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/woocommerce-checkout-page.de22c838bda146ca0a77.bundle.min.js",
+    "sourceSha256": "0dcd2806d00faec5d5d90efec7c10128372470a4da1f04054c741c862b000012",
+    "localSha256": "0dcd2806d00faec5d5d90efec7c10128372470a4da1f04054c741c862b000012",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/portfolio.2fe17780e07233672e3b.bundle.min.js",
+    "sourceSha256": "5d2bf51b408ea7de5e625217e26a7103310063c5d857d296dc41198fea3c1ab7",
+    "localSha256": "5d2bf51b408ea7de5e625217e26a7103310063c5d857d296dc41198fea3c1ab7",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/share-buttons.0bdd88c45462dfb2b073.bundle.min.js",
+    "sourceSha256": "0fbd240e0bce45f7d17b7124055bb4deaada262adb2cabb22294fcdc6e43e8fb",
+    "localSha256": "0fbd240e0bce45f7d17b7124055bb4deaada262adb2cabb22294fcdc6e43e8fb",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/woocommerce-purchase-summary.986abc6a2956fbf75429.bundle.min.js",
+    "sourceSha256": "dc5836bfe94e38ce7472b4fa01a69b70108c87363403f8f9fccd403d36beb4cb",
+    "localSha256": "dc5836bfe94e38ce7472b4fa01a69b70108c87363403f8f9fccd403d36beb4cb",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/js/social.2d2e44e8608690943f29.bundle.min.js",
+    "sourceSha256": "98bf9bf88938f6911a39ba58bbb0c0fd51a5f56a155ff00f6baf256dfdb50d7f",
+    "localSha256": "98bf9bf88938f6911a39ba58bbb0c0fd51a5f56a155ff00f6baf256dfdb50d7f",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js",
+    "sourceSha256": "10a2cf3d16091fbc89cc987160b62093515cd31f0762a751775999311c7313f4",
+    "localSha256": "10a2cf3d16091fbc89cc987160b62093515cd31f0762a751775999311c7313f4",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/js/container.e026b16a99db8a3987c9.bundle.min.js",
+    "sourceSha256": "fbe1d785edfbdb83bb794eb901cc2fdfa7803a3a3f26b278cdb363d2a6928ce2",
+    "localSha256": "fbe1d785edfbdb83bb794eb901cc2fdfa7803a3a3f26b278cdb363d2a6928ce2",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/js/wp-audio.75f0ced143febb8cd31a.bundle.min.js",
+    "sourceSha256": "8997db18afd9474a4f7cb2d854ecd86c17894a501a846c355a2b49d8e9e3fb03",
+    "localSha256": "8997db18afd9474a4f7cb2d854ecd86c17894a501a846c355a2b49d8e9e3fb03",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/js/text-path.9f18ebdea5ac00d653e5.bundle.min.js",
+    "sourceSha256": "3c85e7fd74a3ff286a1200dcc7fe0e2dad403f29252a02a561641d85f7172955",
+    "localSha256": "3c85e7fd74a3ff286a1200dcc7fe0e2dad403f29252a02a561641d85f7172955",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/js/webpack.runtime.min.js",
+    "sourceSha256": "e8ec042d48daa8fe4031d44c608add6e3e9ee43bb1b2843910fd0f15ebf36722",
+    "localSha256": "e8ec042d48daa8fe4031d44c608add6e3e9ee43bb1b2843910fd0f15ebf36722",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/js/progress.ca55d33bb06cee4e6f02.bundle.min.js",
+    "sourceSha256": "4a88cb2ef114d445f75f7f1d9876c2591f3d81735101113cc24e7d45d80d2b23",
+    "localSha256": "4a88cb2ef114d445f75f7f1d9876c2591f3d81735101113cc24e7d45d80d2b23",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/js/frontend.min.js",
+    "sourceSha256": "872dffe40aa155ed1f97d68d65c6847981e8f138154536a9b5b8856133dcc6af",
+    "localSha256": "872dffe40aa155ed1f97d68d65c6847981e8f138154536a9b5b8856133dcc6af",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/js/lightbox.2b2c155d6ec60974d8c4.bundle.min.js",
+    "sourceSha256": "5f3a640540cdb30eb62bd402f666cccf753764321efa5a64f9420d09fe65438b",
+    "localSha256": "5f3a640540cdb30eb62bd402f666cccf753764321efa5a64f9420d09fe65438b",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/js/tabs.37d5b4877cdb51ea91e9.bundle.min.js",
+    "sourceSha256": "e8f788e232ea864c94dd1bc89fd284031fd4e2242976043e93c8c02752c05b3b",
+    "localSha256": "e8f788e232ea864c94dd1bc89fd284031fd4e2242976043e93c8c02752c05b3b",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/js/toggle.56f8ace4b1e830c02fc5.bundle.min.js",
+    "sourceSha256": "cb6987da940698a9f4ee6d24c4f947d323417b574c54f4c144fec02fb7b91ae6",
+    "localSha256": "cb6987da940698a9f4ee6d24c4f947d323417b574c54f4c144fec02fb7b91ae6",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/js/video.d86bfd0676264945e968.bundle.min.js",
+    "sourceSha256": "ed965ef7026b736436fc03697c7f29977fcde1e510b0ee2ecdff0d354442cf81",
+    "localSha256": "ed965ef7026b736436fc03697c7f29977fcde1e510b0ee2ecdff0d354442cf81",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/js/frontend-modules.min.js",
+    "sourceSha256": "eb8087edc955367c5780f4105c7ee3e7b2780f89e6790ee3ac69f35bbf00d972",
+    "localSha256": "eb8087edc955367c5780f4105c7ee3e7b2780f89e6790ee3ac69f35bbf00d972",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/js/accordion.1840403ce81de408c749.bundle.min.js",
+    "sourceSha256": "60fbfa9f6a187c349e777aa277654ac2c3db69b757926cc12f4b9f5fee09b4d4",
+    "localSha256": "60fbfa9f6a187c349e777aa277654ac2c3db69b757926cc12f4b9f5fee09b4d4",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/js/image-carousel.db284b09c0f8a8f1c44d.bundle.min.js",
+    "sourceSha256": "db8906c97fca018189220d4aefdb6235060f442afd36f4a2bf2ca4a4ba5b3b65",
+    "localSha256": "db8906c97fca018189220d4aefdb6235060f442afd36f4a2bf2ca4a4ba5b3b65",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/js/counter.02cef29c589e742d4c8c.bundle.min.js",
+    "sourceSha256": "8ffe624b3d232842222029ea6ebbfec33e73a5685317072329236ea65f199771",
+    "localSha256": "8ffe624b3d232842222029ea6ebbfec33e73a5685317072329236ea65f199771",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/js/alert.cbc2a0fee74ee3ed0419.bundle.min.js",
+    "sourceSha256": "ee90a93175d0dc1f955ca2d577208b32782b0f885ec7262fa6fe1f68a52ced48",
+    "localSha256": "ee90a93175d0dc1f955ca2d577208b32782b0f885ec7262fa6fe1f68a52ced48",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/js/text-editor.289ae80d76f0c5abea44.bundle.min.js",
+    "sourceSha256": "5c9a3c46d13cda847a391df63f9682ab531be301e12b6b64d191797c8c6fb054",
+    "localSha256": "5c9a3c46d13cda847a391df63f9682ab531be301e12b6b64d191797c8c6fb054",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js",
+    "sourceSha256": "b23f49f504faa32aac548b6662ffd64412f6738496fab8be38da46c5b7121804",
+    "localSha256": "b23f49f504faa32aac548b6662ffd64412f6738496fab8be38da46c5b7121804",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js",
+    "sourceSha256": "214674cc77aba35ab3567b88e2739fd08e8e96c61d279559ad61874069683ea0",
+    "localSha256": "214674cc77aba35ab3567b88e2739fd08e8e96c61d279559ad61874069683ea0",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js",
+    "sourceSha256": "b936db5880aa9b6b2f26a8d32fc2b689fb75f69d971b94194f16dba801221ffe",
+    "localSha256": "b936db5880aa9b6b2f26a8d32fc2b689fb75f69d971b94194f16dba801221ffe",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css",
+    "sourceSha256": "b651d87ef113cba0c8ec8a33bfdb694171effeba56b20be12e3c77fc15f6ae9f",
+    "localSha256": "f59a1231c69011d2af88a075049ca9b23489dc3b0a6a4fdb9b23aed3bec9760b",
+    "identical": false
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons-e6ef0224.woff",
+    "sourceSha256": "67a0d356c86b70ebf87e883960fe745dd08c1eec8593a2ef7956f36113cbe730",
+    "localSha256": "67a0d356c86b70ebf87e883960fe745dd08c1eec8593a2ef7956f36113cbe730",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons-880b828f.ttf",
+    "sourceSha256": "0b4fcf48206e48a065afa2555d88210911b7505acfa805046da4402687c6c35f",
+    "localSha256": "0b4fcf48206e48a065afa2555d88210911b7505acfa805046da4402687c6c35f",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons-2f9483e0.eot",
+    "sourceSha256": "7ac513700f252eac9e0d475dcd8ca6e5953a14a3cc9c83c8a069c2ee8f41be3e",
+    "localSha256": "7ac513700f252eac9e0d475dcd8ca6e5953a14a3cc9c83c8a069c2ee8f41be3e",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons-683d1127.woff2",
+    "sourceSha256": "1525cd3ea05d1c00e4b385e781749c3bac5c01570b5800198bec0a252bb6c715",
+    "localSha256": "1525cd3ea05d1c00e4b385e781749c3bac5c01570b5800198bec0a252bb6c715",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/elementor/assets/lib/animations/animations.min.css",
+    "sourceSha256": "fe513ef974b767510d0a2b9f1b4d3afa53185b89ab617c869e5e3d6db960192c",
+    "localSha256": "fe513ef974b767510d0a2b9f1b4d3afa53185b89ab617c869e5e3d6db960192c",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/kboard/skin/enotice/style.css",
+    "sourceSha256": "78a77bdee185d00f186bfd815cbc5d102165b7459d5f16873124e8c816923675",
+    "localSha256": "9f41cca0cb0d4a1bd79fb7ea402342de389b85cf1ed2df5f26ee6f861cf45703",
+    "identical": false
+  },
+  {
+    "file": "wp-content/plugins/kboard/skin/gallery/style.css",
+    "sourceSha256": "444d67dcd3dc5e8b4ba2b0c3065f1d1f5036978e728f5761a8d6d28e396266d3",
+    "localSha256": "ad4d30ba4628113d482d7b07aebb656633e233c3080cb2f10ef024752f7364c9",
+    "identical": false
+  },
+  {
+    "file": "wp-content/plugins/kboard/skin/youtube/style.css",
+    "sourceSha256": "ac89e0d1777095d6a288abcce4680bfeb96bdd179bd37217e9febcb854160e6a",
+    "localSha256": "8d83865838160201f898672d0e7024020a9a1b009301a6e2ecef9d3b20e89dd7",
+    "identical": false
+  },
+  {
+    "file": "wp-content/plugins/kboard/skin/faq-board/style.css",
+    "sourceSha256": "d21f53fdb64e2a6585716ee954653dd1ef10f24843ea16d1bb31b789e89ebe12",
+    "localSha256": "1277a27af2291faee881fb1d86b9d10c152edc955ad8c81a6caf1de1a1dc0c55",
+    "identical": false
+  },
+  {
+    "file": "wp-content/plugins/kboard/skin/makeuplook/style.css",
+    "sourceSha256": "a5c206cfbf8a49ab0d7ea90b52fe40e5c52740a70851afdf6f5957bbda5568ec",
+    "localSha256": "9746946aa4c77e0fa6851ca1caab8f0c7a29eb3347243a2b6ad006e7e7dbc4f7",
+    "identical": false
+  },
+  {
+    "file": "wp-content/plugins/kboard/skin/avatar/style.css",
+    "sourceSha256": "25ea98206c9cfdd547734f0aae8a08bbcd9c1f7431dfe6041f333c5d85a3cf9e",
+    "localSha256": "5370bb9330b2fa69c97c088d46cf3683d8ddf4fe36ba9ca597ecc06b21290dff",
+    "identical": false
+  },
+  {
+    "file": "wp-content/plugins/kboard/skin/event/style.css",
+    "sourceSha256": "bc81a86028abba8037759d19f97043155ee320bdb75c91d6d9ac594932fe2a9c",
+    "localSha256": "3a66304ec742d5df4552175e9a313c6de9ad2ccb0960e443340c4c2299149bd7",
+    "identical": false
+  },
+  {
+    "file": "wp-content/plugins/kboard/skin/story/style.css",
+    "sourceSha256": "3baf67a0be65458931679df18832473b99e67ffdc6e14597027c7bb59a7c85c9",
+    "localSha256": "47f1de391b4aee006a25e5204833362d576534e870d9f4a78ffbaa65dc853aa8",
+    "identical": false
+  },
+  {
+    "file": "wp-content/plugins/kboard/skin/store/style.css",
+    "sourceSha256": "f33cebc7647a1ff89e751c1c055ddfed997f6becd5b9287e3052c26d455a199c",
+    "localSha256": "503867452a53f35419988d0517c0773f28576da7c9ad0a552e48a505994cf13e",
+    "identical": false
+  },
+  {
+    "file": "wp-content/plugins/kboard/template/css/editor_media.css",
+    "sourceSha256": "7bd7a6b62f7537f68d80d4439b2b2c9623afea1d1918e5386dbbbba439fe4f81",
+    "localSha256": "cf01edc4cb269723cb0f801b48a7cb8c9828d0dd1d2c2ddb6c5195156b6b14cd",
+    "identical": false
+  },
+  {
+    "file": "wp-content/plugins/kboard/template/js/script.js",
+    "sourceSha256": "4881e5ebf67aa98f3c4164400ca7b0a7e84676ea9c9c9778d5aff163d29a95a7",
+    "localSha256": "4881e5ebf67aa98f3c4164400ca7b0a7e84676ea9c9c9778d5aff163d29a95a7",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/kboard-comments/skin/default/style.css",
+    "sourceSha256": "c82a4e1a884e2cb7b37be2d062a2c023c1f514e7f8724c0272cd653a9a721b61",
+    "localSha256": "8e7b2cd8d8983d5751b73fe891b6953a852dc4819756cde052a6a2563c1cb847",
+    "identical": false
+  },
+  {
+    "file": "wp-content/plugins/wt-woocommerce-related-products/public/css/swiper.min.css",
+    "sourceSha256": "dfa89b96b7aa65c222924428bcb090bb35974aa5156d0c3d54b94942e5e684a6",
+    "localSha256": "1ef24caa9c9f294ac0b1512110032758f6398a79b2cd81dfd7f5dc72402f630b",
+    "identical": false
+  },
+  {
+    "file": "wp-content/plugins/wt-woocommerce-related-products/public/js/swiper.min.js",
+    "sourceSha256": "00792ef04b29d7cbd5110cea7e934b63b774145c63defbc66d3df9bd1023ff63",
+    "localSha256": "00792ef04b29d7cbd5110cea7e934b63b774145c63defbc66d3df9bd1023ff63",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/smart-ajax-product-search/assets/dist/css/general.css",
+    "sourceSha256": "365bcd00625e05c1b475cd9631c1fe5d9eafbc4fbf3a86a0f56887cf0ea40d96",
+    "localSha256": "df103981b1f28e504a2e1060fa5d03eaf6ffb1a2f4c9db90816524980ed2c7af",
+    "identical": false
+  },
+  {
+    "file": "wp-content/plugins/smart-ajax-product-search/assets/dist/js/main.js",
+    "sourceSha256": "bba6b27455cf73254488881e2360fdb4eb049996dbc0d5eaf9e46d19705e93b7",
+    "localSha256": "bba6b27455cf73254488881e2360fdb4eb049996dbc0d5eaf9e46d19705e93b7",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/smart-ajax-product-search/assets/fonts/fontello-df5e190e.woff2",
+    "sourceSha256": "06bfca86c6c452cdfb4981fdeba3275faaa9653cee55814354ba5d30de176973",
+    "localSha256": "06bfca86c6c452cdfb4981fdeba3275faaa9653cee55814354ba5d30de176973",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/smart-ajax-product-search/assets/fonts/fontello-ff182b3d.woff",
+    "sourceSha256": "75c4ca76f8a07ff5ef7f3113728ec4db149510be0ae30ab759461032e7266165",
+    "localSha256": "75c4ca76f8a07ff5ef7f3113728ec4db149510be0ae30ab759461032e7266165",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/smart-ajax-product-search/assets/fonts/fontello-f42df0cd.ttf",
+    "sourceSha256": "c81cb59c6cdfa7c8593cb953d67dce702f48def0aa5e3ba8f0688b9158ac7880",
+    "localSha256": "c81cb59c6cdfa7c8593cb953d67dce702f48def0aa5e3ba8f0688b9158ac7880",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/smart-ajax-product-search/assets/fonts/fontello-efcfe6ce.eot",
+    "sourceSha256": "7022ca5b4d38731dd1bfe76ef96b39d94f0cd057f6f36f85da7d7aaff83a9ff3",
+    "localSha256": "7022ca5b4d38731dd1bfe76ef96b39d94f0cd057f6f36f85da7d7aaff83a9ff3",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/megamenu/js/maxmegamenu.js",
+    "sourceSha256": "9aafa38d431075d0f6c738a2633785fd32fada0e14408bd662d95e608ddb4daf",
+    "localSha256": "9aafa38d431075d0f6c738a2633785fd32fada0e14408bd662d95e608ddb4daf",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/revslider/public/assets/css/rs6.css",
+    "sourceSha256": "8527577417ba8bd5dbaaad96e47d57c5e94b9e17094ffd9c0a2b5ad56a324347",
+    "localSha256": "40d3c7f6303d5430b8eb96a2c4b4485cb863a80235c19466b47dafc764c8a2d9",
+    "identical": false
+  },
+  {
+    "file": "wp-content/plugins/revslider/public/assets/js/rbtools.min.js",
+    "sourceSha256": "559f367b8631134334b4870bed568b019af144c801b574a252e337d4e837a05a",
+    "localSha256": "559f367b8631134334b4870bed568b019af144c801b574a252e337d4e837a05a",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/revslider/public/assets/js/rs6.min.js",
+    "sourceSha256": "4e66c49239bd186b398a509ddc638955d494eb0460d3cc78c5cc22f4461b3cb9",
+    "localSha256": "4e66c49239bd186b398a509ddc638955d494eb0460d3cc78c5cc22f4461b3cb9",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/revslider/public/assets/fonts/revicons/revicons-2cb1c87b.eot",
+    "sourceSha256": "9e4d4c6813568fdf70c61eca9446d1bb80f84e79e8f2e5ed177365b6d5de5fbf",
+    "localSha256": "9e4d4c6813568fdf70c61eca9446d1bb80f84e79e8f2e5ed177365b6d5de5fbf",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/revslider/public/assets/fonts/revicons/revicons-652aadd2.woff",
+    "sourceSha256": "f7b9c3065e55fa3b9e320093612e7b30dcb14355a44ec461247b495a3e729686",
+    "localSha256": "f7b9c3065e55fa3b9e320093612e7b30dcb14355a44ec461247b495a3e729686",
+    "identical": true
+  },
+  {
+    "file": "wp-content/plugins/revslider/public/assets/fonts/revicons/revicons-46f98b82.ttf",
+    "sourceSha256": "4ca02b8a5c8034de8ddb76e33e50e8398758a83bd18a5073493cace46362780a",
+    "localSha256": "4ca02b8a5c8034de8ddb76e33e50e8398758a83bd18a5073493cace46362780a",
+    "identical": true
+  },
+  {
+    "file": "wp-content/uploads/elementor/css/post-42203.css",
+    "sourceSha256": "9fe1cec62aa05b339d733fa6260957ab75c92f733363b15b7d9caa9d034fd1ff",
+    "localSha256": "9fe1cec62aa05b339d733fa6260957ab75c92f733363b15b7d9caa9d034fd1ff",
+    "identical": true
+  },
+  {
+    "file": "wp-content/uploads/elementor/css/custom-widget-icon-list.min-a283f51e.css",
+    "sourceSha256": "327ceb4125753af54decfd439f9852debf80fd7b92268f4077e7651178d2a068",
+    "localSha256": "327ceb4125753af54decfd439f9852debf80fd7b92268f4077e7651178d2a068",
+    "identical": true
+  },
+  {
+    "file": "wp-content/uploads/elementor/css/post-8800-528859b8.css",
+    "sourceSha256": "80472844114bdc83e2f6e798d3e6b3c6822bc46702b1b0732c6f306a744095fe",
+    "localSha256": "80472844114bdc83e2f6e798d3e6b3c6822bc46702b1b0732c6f306a744095fe",
+    "identical": true
+  },
+  {
+    "file": "wp-content/uploads/elementor/css/post-71.css",
+    "sourceSha256": "6dec49f776952c27f619bd54f72cc3aa28efc57e829e20023924133c7a3da57e",
+    "localSha256": "6dec49f776952c27f619bd54f72cc3aa28efc57e829e20023924133c7a3da57e",
+    "identical": true
+  },
+  {
+    "file": "wp-content/uploads/elementor/css/post-1112.css",
+    "sourceSha256": "9d5b6837e5ef53f357498980e62aca54dca1eb354c23d8904042deefa4eed013",
+    "localSha256": "9d5b6837e5ef53f357498980e62aca54dca1eb354c23d8904042deefa4eed013",
+    "identical": true
+  },
+  {
+    "file": "wp-content/uploads/elementor/css/post-355.css",
+    "sourceSha256": "f62bab8ad825fd9cfece1abf0dc945cfb2e6f114494dd1f8bdbe48fb0fb1c133",
+    "localSha256": "f62bab8ad825fd9cfece1abf0dc945cfb2e6f114494dd1f8bdbe48fb0fb1c133",
+    "identical": true
+  },
+  {
+    "file": "wp-content/uploads/elementor/css/post-49321.css",
+    "sourceSha256": "fe7b22117a2d5d14c7d313c5c2af829947743ecab352f74b2d101ddbdeb3d21f",
+    "localSha256": "508926ac3b74a94c0b2134a8ab30e0a52ccd0b492e9aeb6e1d795c3e258d455a",
+    "identical": false
+  },
+  {
+    "file": "wp-content/uploads/elementor/css/post-49722.css",
+    "sourceSha256": "652eccf33d24bfae8cab5bb05404ed3ab02792589c4a2ea85787c8775097e6bf",
+    "localSha256": "fce94551ab4e416ac1d0f224a3723dd1dc58945f5befb7662378fb3ccd07df55",
+    "identical": false
+  },
+  {
+    "file": "wp-content/uploads/elementor/css/post-36684.css",
+    "sourceSha256": "82c7c4f91ddce8cbbdc51c33683dc8d8e3da88a81aa9b46b93fc1c84e1b76e12",
+    "localSha256": "e8be993fbe874fec95ddc2ffee0cdaa8baf67746c59c662fc9e77981f11aff8d",
+    "identical": false
+  },
+  {
+    "file": "wp-content/uploads/elementor/css/post-36686.css",
+    "sourceSha256": "0b27a52070a447dd18571e041a08091e16e12a2187363eb9689910cb28386e2d",
+    "localSha256": "a57ee92f85c6343c98a6f2c223939a694f8873cd2e16e5af3a81a4a4927aec0e",
+    "identical": false
+  },
+  {
+    "file": "wp-content/uploads/elementor/css/custom-frontend-lite.min.css",
+    "sourceSha256": "2791c0375f0804594a6c9c0f8d1d7540011e6860ea557ae071ad4663ee7f6925",
+    "localSha256": "2791c0375f0804594a6c9c0f8d1d7540011e6860ea557ae071ad4663ee7f6925",
+    "identical": true
+  },
+  {
+    "file": "wp-content/uploads/elementor/css/custom-pro-frontend-lite.min.css",
+    "sourceSha256": "2d684b2fbed270be60563ee8ef40c1f0e4464106d08941368577a374c283d5b8",
+    "localSha256": "2d684b2fbed270be60563ee8ef40c1f0e4464106d08941368577a374c283d5b8",
+    "identical": true
+  },
+  {
+    "file": "wp-content/uploads/elementor/css/post-36689.css",
+    "sourceSha256": "148975be8c926b7f99efc64ca099324567ae781cccc6508cc2f91e46b5ac8a6b",
+    "localSha256": "7945a432868c04dff49c2c2ba3d98c1f3038c98c974473e6c4abe60e19719687",
+    "identical": false
+  },
+  {
+    "file": "wp-content/uploads/elementor/css/post-9185.css",
+    "sourceSha256": "24afc05deed4ce35b067cc441a2ebe23ef243817304f5cbb60afa08620c66113",
+    "localSha256": "24afc05deed4ce35b067cc441a2ebe23ef243817304f5cbb60afa08620c66113",
+    "identical": true
+  },
+  {
+    "file": "wp-content/uploads/elementor/css/post-48692.css",
+    "sourceSha256": "1371e9946a56e31d089cb287ae360a5d4bb6f2ebc374f5e60562931d8df4045d",
+    "localSha256": "edf51e91e16e1bfe5bdf205879355fcf0256d44a2896dab773e8679578e26f69",
+    "identical": false
+  },
+  {
+    "file": "wp-content/uploads/elementor/css/post-51.css",
+    "sourceSha256": "ee0d08f000ff5d34cc807acdd0b5f31a1025e9e2f2f5ea2a4e28ae8b312690cb",
+    "localSha256": "ee0d08f000ff5d34cc807acdd0b5f31a1025e9e2f2f5ea2a4e28ae8b312690cb",
+    "identical": true
+  },
+  {
+    "file": "wp-content/uploads/elementor/css/post-1333.css",
+    "sourceSha256": "1a89c2705c2ce2fd576089c5512cc9de417bc87d317f3bcd38974862cee72b66",
+    "localSha256": "1a89c2705c2ce2fd576089c5512cc9de417bc87d317f3bcd38974862cee72b66",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/bootstrap-light.min.css",
+    "sourceSha256": "cf6966379f48d7d932ef8175524ed3d002d26a4b4e694cc7bf3d4e6c2e540d21",
+    "localSha256": "cf6966379f48d7d932ef8175524ed3d002d26a4b4e694cc7bf3d4e6c2e540d21",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/wd-search-form.min.css",
+    "sourceSha256": "6a235d627ea1271877f699a68bd1e0cc0889803caba608e149c4cecfc515422d",
+    "localSha256": "6a235d627ea1271877f699a68bd1e0cc0889803caba608e149c4cecfc515422d",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/base-deprecated.min.css",
+    "sourceSha256": "8379c8cfc6d7d759a71433dccc3458ca992c5dd072be184b0d7bf5c441444710",
+    "localSha256": "8379c8cfc6d7d759a71433dccc3458ca992c5dd072be184b0d7bf5c441444710",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-widget-active-filters.min.css",
+    "sourceSha256": "26e57614906bc8a02cb1d5b2ae1046e516310d89badc6b3648cb517bd401f5f3",
+    "localSha256": "26e57614906bc8a02cb1d5b2ae1046e516310d89badc6b3648cb517bd401f5f3",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/blog-base.min.css",
+    "sourceSha256": "afda59003d7573f4303c508f9aaa6643448bcc352e8892ad8529d306e1d9069b",
+    "localSha256": "afda59003d7573f4303c508f9aaa6643448bcc352e8892ad8529d306e1d9069b",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/footer-base.min.css",
+    "sourceSha256": "8c2cd5268553df38de3e5336dc1ddac4cd4e8a651af4c1c8644fff47db48c9c8",
+    "localSha256": "8c2cd5268553df38de3e5336dc1ddac4cd4e8a651af4c1c8644fff47db48c9c8",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-el-track-order.min.css",
+    "sourceSha256": "8c75f2289d7dea7ce5b33d91fe7d42ecc7a5e0b6278c19f92f9ff1889fcdc4b9",
+    "localSha256": "8c75f2289d7dea7ce5b33d91fe7d42ecc7a5e0b6278c19f92f9ff1889fcdc4b9",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-mod-shop-attributes.min.css",
+    "sourceSha256": "884153b00acd23029bf03cbe31179041fd7a810ac054b51044996cf4b45a3a85",
+    "localSha256": "884153b00acd23029bf03cbe31179041fd7a810ac054b51044996cf4b45a3a85",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-widget-slider-price-filter.min.css",
+    "sourceSha256": "cbb9e4f00c024b67913b15feef03e7838108bd9b2bac90b98aba73ce066185cb",
+    "localSha256": "cbb9e4f00c024b67913b15feef03e7838108bd9b2bac90b98aba73ce066185cb",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-opt-stretch-cont.min.css",
+    "sourceSha256": "dd3a7e6d7f137fedfd86488259c5ee4876d20162b0a4b899e8a6ee5f25b7c2e0",
+    "localSha256": "dd3a7e6d7f137fedfd86488259c5ee4876d20162b0a4b899e8a6ee5f25b7c2e0",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/opt-scrolltotop.min.css",
+    "sourceSha256": "d45f9d6c398c436765603c1abe06813b8bb0626ddd9975c89b686e991a92cd0d",
+    "localSha256": "d45f9d6c398c436765603c1abe06813b8bb0626ddd9975c89b686e991a92cd0d",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-shop-el-active-filters.min.css",
+    "sourceSha256": "c06365d4737d5506fd9746348911c69e4a9a658248ffe3e8e28afbce30ae0cba",
+    "localSha256": "c06365d4737d5506fd9746348911c69e4a9a658248ffe3e8e28afbce30ae0cba",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/int-rev-slider.min.css",
+    "sourceSha256": "f7001146452a3ffcc0cf1a8894386918ab1ebbb89b95c17c2f18d4b136946c5f",
+    "localSha256": "f7001146452a3ffcc0cf1a8894386918ab1ebbb89b95c17c2f18d4b136946c5f",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-categories-loop-default-old.min.css",
+    "sourceSha256": "c6ceec2a7bdb37636d4fa4edcade6e45caf9d267800ec7753e97510d6191237e",
+    "localSha256": "c6ceec2a7bdb37636d4fa4edcade6e45caf9d267800ec7753e97510d6191237e",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-mod-product-labels.min.css",
+    "sourceSha256": "123c1648ba54e5a4cec67a3b9a99a89fd3030d9aacb6429a6f65821b2c2c3106",
+    "localSha256": "123c1648ba54e5a4cec67a3b9a99a89fd3030d9aacb6429a6f65821b2c2c3106",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-shop-el-products-per-page.min.css",
+    "sourceSha256": "f372bc97fde88450fb673d03178d330b711e88b09ffb7ba152f3db85a4e1d7dc",
+    "localSha256": "f372bc97fde88450fb673d03178d330b711e88b09ffb7ba152f3db85a4e1d7dc",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-single-prod-el-base.min.css",
+    "sourceSha256": "6b35cb32fc52a3a703ea7644ede4d21a2295e8e51d16c6c2f56cc4273c55b9d8",
+    "localSha256": "6b35cb32fc52a3a703ea7644ede4d21a2295e8e51d16c6c2f56cc4273c55b9d8",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/widget-wd-recent-posts.min.css",
+    "sourceSha256": "5a8e4911db16db4da4bf5f089833e26d41e253cf85f533569d98820ada161406",
+    "localSha256": "5a8e4911db16db4da4bf5f089833e26d41e253cf85f533569d98820ada161406",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/el-list.min.css",
+    "sourceSha256": "68b110a70236e195a1aea14892699aa9ff8d150fc0dc1be1fe319b391bcea732",
+    "localSha256": "68b110a70236e195a1aea14892699aa9ff8d150fc0dc1be1fe319b391bcea732",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/el-info-box.min.css",
+    "sourceSha256": "e9e327eac33eb145444012b5897245e184909eeee7db93a45089295943d8b122",
+    "localSha256": "e9e327eac33eb145444012b5897245e184909eeee7db93a45089295943d8b122",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/wd-search-results.min.css",
+    "sourceSha256": "c862ec65a8531615c3638cf99c940411558beefd3864f7c425f83e1c0a3d8255",
+    "localSha256": "c862ec65a8531615c3638cf99c940411558beefd3864f7c425f83e1c0a3d8255",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/mod-sticky-sidebar-opener.min.css",
+    "sourceSha256": "f67b9bffdec39ee5d47c8cbe50fec7e97b4c604578a40c4b007fd9bc4d296a30",
+    "localSha256": "f67b9bffdec39ee5d47c8cbe50fec7e97b4c604578a40c4b007fd9bc4d296a30",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-widget-product-list.min.css",
+    "sourceSha256": "599442a80c396f5220cae69dd06a428459823d792285aa9072077f31b8885b87",
+    "localSha256": "599442a80c396f5220cae69dd06a428459823d792285aa9072077f31b8885b87",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-shop-page-title.min.css",
+    "sourceSha256": "ece973a9f518ec7b7a748917d9315023f0c9ff267404e5021d82c5178444ea48",
+    "localSha256": "ece973a9f518ec7b7a748917d9315023f0c9ff267404e5021d82c5178444ea48",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/widget-recent-post-comments.min.css",
+    "sourceSha256": "ed9a55448fece2dac5ba6356a4f65d6465b09d7c25a4fce657232626c18c08b6",
+    "localSha256": "ed9a55448fece2dac5ba6356a4f65d6465b09d7c25a4fce657232626c18c08b6",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-widget-shopping-cart.min.css",
+    "sourceSha256": "1bbd806a79f138a4c135d5a7a4bc3e62ed07513e1a76599327175d7bc4f76d64",
+    "localSha256": "1bbd806a79f138a4c135d5a7a4bc3e62ed07513e1a76599327175d7bc4f76d64",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/widget-nav.min.css",
+    "sourceSha256": "56dd0cb9f5f3f54f56a841bc938a2c2350ba614d19dfd650b79748bb7c531630",
+    "localSha256": "56dd0cb9f5f3f54f56a841bc938a2c2350ba614d19dfd650b79748bb7c531630",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-mod-shop-loop-head.min.css",
+    "sourceSha256": "6bd05dfc85c38215781eb44fb37124b04bf5be681c8b698934a77944b832d774",
+    "localSha256": "6bd05dfc85c38215781eb44fb37124b04bf5be681c8b698934a77944b832d774",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-mod-variation-form-single.min.css",
+    "sourceSha256": "3ed511f12f5ccf86d406c792334f35e8644777fb411861e43f643cbed1bf2431",
+    "localSha256": "3ed511f12f5ccf86d406c792334f35e8644777fb411861e43f643cbed1bf2431",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-shop-opt-shop-ajax.min.css",
+    "sourceSha256": "76195a061dfb2772c87acb3b82c9ceb202d067ecaec912cf8fb36d84b6f038ab",
+    "localSha256": "76195a061dfb2772c87acb3b82c9ceb202d067ecaec912cf8fb36d84b6f038ab",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-shop-predefined.min.css",
+    "sourceSha256": "c2784c10e1235b0201b54dc22a510634074533d2c277afcb6397535663c2423d",
+    "localSha256": "c2784c10e1235b0201b54dc22a510634074533d2c277afcb6397535663c2423d",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/mod-star-rating.min.css",
+    "sourceSha256": "4d8e64103ef9573f1b8e78c6344da5e1e6d04bd1accbb4e1bb24daddc98e1cb6",
+    "localSha256": "4d8e64103ef9573f1b8e78c6344da5e1e6d04bd1accbb4e1bb24daddc98e1cb6",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/int-elementor-pro.min.css",
+    "sourceSha256": "c5f1fa68ae474ba2e577242533961b56f623cbd0cafac3ffb0d63943cfd6538d",
+    "localSha256": "c5f1fa68ae474ba2e577242533961b56f623cbd0cafac3ffb0d63943cfd6538d",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/wp-gutenberg.min.css",
+    "sourceSha256": "8557b51c4eed5982b86879361f432783141a5f9c79ea2af74321eb3d34ad7614",
+    "localSha256": "8557b51c4eed5982b86879361f432783141a5f9c79ea2af74321eb3d34ad7614",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-mod-variation-form.min.css",
+    "sourceSha256": "e8c61a4e61baf1606195edd4836a88e20856a94df8d382708f242a38ad954de2",
+    "localSha256": "e8c61a4e61baf1606195edd4836a88e20856a94df8d382708f242a38ad954de2",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/header-el-search-fullscreen.min.css",
+    "sourceSha256": "69cdefe59b5cb998ed0841f96e1cf1cf89d687a821109848fb547879a1bd2179",
+    "localSha256": "69cdefe59b5cb998ed0841f96e1cf1cf89d687a821109848fb547879a1bd2179",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/page-title.min.css",
+    "sourceSha256": "d1a490d965994970e91ba2b27ed2fcbd765210e8dcebc1d54824e50efd59321e",
+    "localSha256": "d1a490d965994970e91ba2b27ed2fcbd765210e8dcebc1d54824e50efd59321e",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-shop-el-order-by.min.css",
+    "sourceSha256": "05e3cb65493709dc3106fdef566a05e10a1779c92eb731e4f566750f76884fcb",
+    "localSha256": "05e3cb65493709dc3106fdef566a05e10a1779c92eb731e4f566750f76884fcb",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-mod-product-labels-rect.min.css",
+    "sourceSha256": "2a76a53641ed50ffa022ed3b37e0a2d4d5eff9ae3cec7cd73342e3e31432a293",
+    "localSha256": "2a76a53641ed50ffa022ed3b37e0a2d4d5eff9ae3cec7cd73342e3e31432a293",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-mod-stock-status.min.css",
+    "sourceSha256": "6809171103f9ad6a3a32ac928a459df7631865f43e17143feeed52458a4afaa1",
+    "localSha256": "6809171103f9ad6a3a32ac928a459df7631865f43e17143feeed52458a4afaa1",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-shop-el-products-view.min.css",
+    "sourceSha256": "a185540e8f0f49299cea4a6c763ba56e9f0fbc27f533f88297b86c84d36615a1",
+    "localSha256": "a185540e8f0f49299cea4a6c763ba56e9f0fbc27f533f88297b86c84d36615a1",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/int-elem-base.min.css",
+    "sourceSha256": "e2aa57402ef900890de4cc75a232e6fa0d341c51a4c9b1ccfd92c290abc728e1",
+    "localSha256": "e2aa57402ef900890de4cc75a232e6fa0d341c51a4c9b1ccfd92c290abc728e1",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-gutenberg.min.css",
+    "sourceSha256": "8957b7bd53d6d870554ff466baad6db8c0490a5ed4308ace737ce17168cf24e5",
+    "localSha256": "8957b7bd53d6d870554ff466baad6db8c0490a5ed4308ace737ce17168cf24e5",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/blog-single-base.min.css",
+    "sourceSha256": "fdb61966092eb53e925ac47dfe76faf13fe24ab6f9d8b25bb74cbdd93585d39f",
+    "localSha256": "fdb61966092eb53e925ac47dfe76faf13fe24ab6f9d8b25bb74cbdd93585d39f",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/int-elem-el-animations.min.css",
+    "sourceSha256": "77825bb6ec70e1255a57301bf286bf06f689efe018fef3de35b10bd465dac0e8",
+    "localSha256": "77825bb6ec70e1255a57301bf286bf06f689efe018fef3de35b10bd465dac0e8",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/mod-load-more-button.min.css",
+    "sourceSha256": "8e1ee03f7088a25145a332fda99c31163f141081d6cde402093dd88cc36cd4ca",
+    "localSha256": "8e1ee03f7088a25145a332fda99c31163f141081d6cde402093dd88cc36cd4ca",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-categories-loop-old.min.css",
+    "sourceSha256": "3e4753cddbd2eeea2dd1b9ed5eaf65d14b5e1ff7cea2f0f234c9d1641926cb94",
+    "localSha256": "3e4753cddbd2eeea2dd1b9ed5eaf65d14b5e1ff7cea2f0f234c9d1641926cb94",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-mod-product-swatches.min.css",
+    "sourceSha256": "b6d11fd56a9170822a1980e9c1158ac725ce604b288fddbcdb723a5c2f5f439a",
+    "localSha256": "b6d11fd56a9170822a1980e9c1158ac725ce604b288fddbcdb723a5c2f5f439a",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woocommerce-base.min.css",
+    "sourceSha256": "f0a615eadcf77ea5708fab018b3a5397de0416a05da0218e2e13ff045d10f8d4",
+    "localSha256": "f0a615eadcf77ea5708fab018b3a5397de0416a05da0218e2e13ff045d10f8d4",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/mod-animations.min.css",
+    "sourceSha256": "8810935ebfc49174da2e5160e2b398d42cb09024e09b1e4422c6255e05b5f71e",
+    "localSha256": "8810935ebfc49174da2e5160e2b398d42cb09024e09b1e4422c6255e05b5f71e",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-widget-wd-layered-nav.min.css",
+    "sourceSha256": "0ada874759fece8ddc0f3671670eedff73e53774bf9a495445241de7224a2312",
+    "localSha256": "0ada874759fece8ddc0f3671670eedff73e53774bf9a495445241de7224a2312",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/el-text-block.min.css",
+    "sourceSha256": "ba3c1e553b596b7d753e3149c1fbc5c7d66ca07b264d92d0013712f113e9b115",
+    "localSha256": "ba3c1e553b596b7d753e3149c1fbc5c7d66ca07b264d92d0013712f113e9b115",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-mod-quantity.min.css",
+    "sourceSha256": "1407398a46a7a73e0b0dd43b70d13984f4194aa205dc05cb6bbdaa23978f9396",
+    "localSha256": "1407398a46a7a73e0b0dd43b70d13984f4194aa205dc05cb6bbdaa23978f9396",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-product-loop.min.css",
+    "sourceSha256": "7ba78aa2a7896f2907d95e7cfb9dedbc194267206d3dad5acb28937e665b7515",
+    "localSha256": "7ba78aa2a7896f2907d95e7cfb9dedbc194267206d3dad5acb28937e665b7515",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/lib-magnific-popup.min.css",
+    "sourceSha256": "c7990bfea1f141ffdb145dd2e1a746144d52c0de97f5a22106245b56d3eb8d08",
+    "localSha256": "c7990bfea1f141ffdb145dd2e1a746144d52c0de97f5a22106245b56d3eb8d08",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/woo-product-loop-tiled.min.css",
+    "sourceSha256": "433bc8ef1a2239474bdc519bee19999c7091c6bf51d7c7ef48c7c87d56119dc4",
+    "localSha256": "433bc8ef1a2239474bdc519bee19999c7091c6bf51d7c7ef48c7c87d56119dc4",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/el-section-title.min.css",
+    "sourceSha256": "d126d3d8b741e5d6b8f4bf9ad0e848bf3e9cd15c676eb36702f8db12f4755772",
+    "localSha256": "d126d3d8b741e5d6b8f4bf9ad0e848bf3e9cd15c676eb36702f8db12f4755772",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/css/parts/base.min.css",
+    "sourceSha256": "40f15b5074f98aa72413b8b886909cb6ab69541ec864e863881e3372f2e454b9",
+    "localSha256": "cca8f29f2c2fcf847623a9e95eb9aa84170c73ba060d8f43f4e7a5ac08407199",
+    "identical": false
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/libs/magnific-popup.js",
+    "sourceSha256": "d0e8aa4505769f57d0492cbc5ec93151e11462f0af6e2c7f2711cda09d67faea",
+    "localSha256": "d0e8aa4505769f57d0492cbc5ec93151e11462f0af6e2c7f2711cda09d67faea",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/libs/waypoints.js",
+    "sourceSha256": "f60bfa086021b7572416fbc3fde63745e9de61ccbcf4d16df56c92f0efc24791",
+    "localSha256": "f60bfa086021b7572416fbc3fde63745e9de61ccbcf4d16df56c92f0efc24791",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/libs/device.js",
+    "sourceSha256": "d8dfda9a4846c0034c934b481866e23e343ff3b2f7d29325998f299aebaa905a",
+    "localSha256": "d8dfda9a4846c0034c934b481866e23e343ff3b2f7d29325998f299aebaa905a",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/libs/pjax.js",
+    "sourceSha256": "aebb41f7d80c2e70e647de308d43763f0305f22ca21600cada0c51b8c883664b",
+    "localSha256": "aebb41f7d80c2e70e647de308d43763f0305f22ca21600cada0c51b8c883664b",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/libs/tooltips.js",
+    "sourceSha256": "a0ede7a82ac61db67f3b9816370d33e61778b5b699dd691d1322810acacd38d4",
+    "localSha256": "a0ede7a82ac61db67f3b9816370d33e61778b5b699dd691d1322810acacd38d4",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/libs/autocomplete.js",
+    "sourceSha256": "d655d37d96b8ba77131908459bb4dfb55ec19709dcd62390aa43af13ffc0c392",
+    "localSha256": "d655d37d96b8ba77131908459bb4dfb55ec19709dcd62390aa43af13ffc0c392",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/libs/parallax-scroll-bundle.js",
+    "sourceSha256": "4d8a98c975d85263d23dc922edf94c898413fbe9f9e2f18ec86cba8bb2249997",
+    "localSha256": "4d8a98c975d85263d23dc922edf94c898413fbe9f9e2f18ec86cba8bb2249997",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/wc/updateCartFragmentsFix.js",
+    "sourceSha256": "245c58a634c44c46561a3c48f7aedcbd8e29ec135faa95f6f73e3887bab39aef",
+    "localSha256": "245c58a634c44c46561a3c48f7aedcbd8e29ec135faa95f6f73e3887bab39aef",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/wc/ajaxFilters.js",
+    "sourceSha256": "902d4d977d7bbd280c4e87449682c2f43a447d6922ee91c2639833df174dd24e",
+    "localSha256": "902d4d977d7bbd280c4e87449682c2f43a447d6922ee91c2639833df174dd24e",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/wc/stickySidebarBtn.js",
+    "sourceSha256": "33a6408762ca1c1922a5407c77fe102d7db8267f25d7905a8bc3f14a676187b2",
+    "localSha256": "33a6408762ca1c1922a5407c77fe102d7db8267f25d7905a8bc3f14a676187b2",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/wc/shopPageInit.js",
+    "sourceSha256": "5e785d9c3021dc050e7ccfbd50f143b2bf798bd984414dab212bcd87c1eac9e4",
+    "localSha256": "5e785d9c3021dc050e7ccfbd50f143b2bf798bd984414dab212bcd87c1eac9e4",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/wc/swatchesLimit.js",
+    "sourceSha256": "fe1f6908ff8130455100d1baa96b8cc1dd15c99e4b8116774a3ece410777b89e",
+    "localSha256": "fe1f6908ff8130455100d1baa96b8cc1dd15c99e4b8116774a3ece410777b89e",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/wc/sortByWidget.js",
+    "sourceSha256": "035039e2487b1e3c6c60ba1afbf70ea0801c8f6bd19882db9ff1246efbf7a94c",
+    "localSha256": "035039e2487b1e3c6c60ba1afbf70ea0801c8f6bd19882db9ff1246efbf7a94c",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/wc/categoriesDropdowns.js",
+    "sourceSha256": "e763e33d254be225635b9c05fbecf475e02609e1a2dcc3b1be38a07f236e5671",
+    "localSha256": "e763e33d254be225635b9c05fbecf475e02609e1a2dcc3b1be38a07f236e5671",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/wc/productsLoadMore.js",
+    "sourceSha256": "c7b66c9b10cda150756461793ee80e256a16a6d0ba502330199b392ca6724c39",
+    "localSha256": "c7b66c9b10cda150756461793ee80e256a16a6d0ba502330199b392ca6724c39",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/wc/woocommerceNotices.js",
+    "sourceSha256": "625d9058f6049996196212aaf5c3fda516e48d5cc8f1e54bba8104b6f2fa2c91",
+    "localSha256": "625d9058f6049996196212aaf5c3fda516e48d5cc8f1e54bba8104b6f2fa2c91",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/wc/swatchesOnGrid.js",
+    "sourceSha256": "7919bb6f399ce7065b6c319b80353cd7eecb69f293b9ad74c59fad34debafe9e",
+    "localSha256": "7919bb6f399ce7065b6c319b80353cd7eecb69f293b9ad74c59fad34debafe9e",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/wc/addToCartAllTypes.js",
+    "sourceSha256": "790908e250b5b234cf8defd8a935022384383d2756f6650aa9b584979a86caff",
+    "localSha256": "790908e250b5b234cf8defd8a935022384383d2756f6650aa9b584979a86caff",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/wc/woocommerceQuantity.js",
+    "sourceSha256": "c5566415aec52faab1cd1f328e5e043799a249536ffb973ac3536e139a9d32f1",
+    "localSha256": "c5566415aec52faab1cd1f328e5e043799a249536ffb973ac3536e139a9d32f1",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/wc/quickShop.js",
+    "sourceSha256": "d7c6f8a5f215bfae62195ba860d943eea59a59dceea440a8cd25b070a92bdb70",
+    "localSha256": "d7c6f8a5f215bfae62195ba860d943eea59a59dceea440a8cd25b070a92bdb70",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/wc/swatchesVariations.js",
+    "sourceSha256": "7fac1e4ec6c5b82c31dc32f9825c7998833b7f30059dcc8af3b32849eb526707",
+    "localSha256": "7fac1e4ec6c5b82c31dc32f9825c7998833b7f30059dcc8af3b32849eb526707",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/wc/cartWidget.js",
+    "sourceSha256": "a0b13ae7e548321779b87b384f367bbc92951878f584699950f8ecc756e5064a",
+    "localSha256": "a0b13ae7e548321779b87b384f367bbc92951878f584699950f8ecc756e5064a",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/elements/contentPopup.js",
+    "sourceSha256": "c7525b59b1c955b66654737872c0d098bc6ae748b0ac305f9f110ff10b141dcb",
+    "localSha256": "c7525b59b1c955b66654737872c0d098bc6ae748b0ac305f9f110ff10b141dcb",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/menu/mobileNavigation.js",
+    "sourceSha256": "c2a9f80ef7d6ba1fdd75c0b29f1f1612dac03997c63877d66017c400219b87ea",
+    "localSha256": "c2a9f80ef7d6ba1fdd75c0b29f1f1612dac03997c63877d66017c400219b87ea",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/global/clickOnScrollButton.js",
+    "sourceSha256": "5b62999db6067a7b0b00008c7425730e3d304812904b17c561d9668eb40682ae",
+    "localSha256": "5b62999db6067a7b0b00008c7425730e3d304812904b17c561d9668eb40682ae",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/global/searchFullScreen.js",
+    "sourceSha256": "bab295e0ce346037702f870e0b0892015f1236946a1af9f8fbc5b4a4e325e027",
+    "localSha256": "bab295e0ce346037702f870e0b0892015f1236946a1af9f8fbc5b4a4e325e027",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/global/ajaxSearch.js",
+    "sourceSha256": "b682e62ff4e97b5b691edf7be72f2c5ddbe9fe8e1cd3fe08171aec0b81482dd3",
+    "localSha256": "b682e62ff4e97b5b691edf7be72f2c5ddbe9fe8e1cd3fe08171aec0b81482dd3",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/global/hiddenSidebar.js",
+    "sourceSha256": "c1e92910fb5423ba41060db67c379bb0808a47c8cbbe062026bafe991f2c740f",
+    "localSha256": "c1e92910fb5423ba41060db67c379bb0808a47c8cbbe062026bafe991f2c740f",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/global/btnsToolTips.js",
+    "sourceSha256": "8a66c77e7966c4119800ead192e0cd21af0e2077aa931e523345140daf9136fa",
+    "localSha256": "8a66c77e7966c4119800ead192e0cd21af0e2077aa931e523345140daf9136fa",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/global/animations.js",
+    "sourceSha256": "a7bc9714fa042f9a88d2dc3e981888359efe9b6254640f8403e22855a0c76706",
+    "localSha256": "a7bc9714fa042f9a88d2dc3e981888359efe9b6254640f8403e22855a0c76706",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/global/scrollTop.js",
+    "sourceSha256": "edeb092ed4f3519e084e8edcb7329d42bc88eac9c361dcabaf2a69ea20b7fac2",
+    "localSha256": "edeb092ed4f3519e084e8edcb7329d42bc88eac9c361dcabaf2a69ea20b7fac2",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/global/backHistory.js",
+    "sourceSha256": "93bf0dbe20c9705847fc47b9e3ab8acd0d27e2cc29ab50083aeecd836d0ba8d3",
+    "localSha256": "93bf0dbe20c9705847fc47b9e3ab8acd0d27e2cc29ab50083aeecd836d0ba8d3",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/js/scripts/global/helpers.js",
+    "sourceSha256": "d3ede399434b59cd4388b7af2f1630b27847e976f181500f7aec27199516f6a4",
+    "localSha256": "d3ede399434b59cd4388b7af2f1630b27847e976f181500f7aec27199516f6a4",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart/fonts/woodmart-font.woff2",
+    "sourceSha256": "e7c03b4f4c3e8efada6be41af405385c68e325548531ff76aed102dd695ef6c9",
+    "localSha256": "e7c03b4f4c3e8efada6be41af405385c68e325548531ff76aed102dd695ef6c9",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart-child/search.css",
+    "sourceSha256": "be6a6748b4d36b5121e318296f025db18a74bde0d8e53a400a7c985ffbc08bc7",
+    "localSha256": "44b899fc790b127fb22a06d872cae7f30567b5ecf9117011438fcf93fd43ad66",
+    "identical": false
+  },
+  {
+    "file": "wp-content/themes/woodmart-child/style4-6f86261c.css",
+    "sourceSha256": "3f8c51f936f853b5e3907d46ce072b079c88e13fd068d9044e8d36a14a65aa9f",
+    "localSha256": "89101e6cee5b34d33a3418013cb0a72e987231a3fbc31dc0e15b260e3864dfed",
+    "identical": false
+  },
+  {
+    "file": "wp-content/themes/woodmart-child/style2-4ac8289e.css",
+    "sourceSha256": "a9ed613c58d1a08031169b59c98ad4924227f02c9cdd237653fc2abde629a4e7",
+    "localSha256": "b2e7bb2c12f1639674276d1d74b2d0960e8c39756f52b1c3d6bf6fb373ade2a1",
+    "identical": false
+  },
+  {
+    "file": "wp-content/themes/woodmart-child/style-331e58be.css",
+    "sourceSha256": "45194225c89933a6a05db2b33bcf86997034e1696b738daeb26c417ddd7f5b8c",
+    "localSha256": "5adf24718594bf9bd417896b1af9ba3455cdf7fabc373ed8de2e68f72270915b",
+    "identical": false
+  },
+  {
+    "file": "wp-content/themes/woodmart-child/script.js",
+    "sourceSha256": "b7e4ab450dd65dbfd5dbbd3cac9b10ed817a80c763308f4b2f81cabe12be6151",
+    "localSha256": "434882a76d198d2243c94c62d1839920ed737365d631101a09fd7e6c38c852b2",
+    "identical": false
+  },
+  {
+    "file": "wp-content/themes/woodmart-child/style3-c273fa6b.css",
+    "sourceSha256": "76f4965e726aa492bb56222f6d51a001bf783b87b31dd40eecd549e42d3216b9",
+    "localSha256": "8a5d0fdaafee815fd7517c75191973bd3079da709fb38b0c3586fe9d35bd4ee7",
+    "identical": false
+  },
+  {
+    "file": "wp-content/themes/woodmart-child/dist/jquery.supermarquee.min.js",
+    "sourceSha256": "a2bc4f9cede13aef3e8fef03c1598c0295cc8da33dc4b594de034c6021cb3168",
+    "localSha256": "a2bc4f9cede13aef3e8fef03c1598c0295cc8da33dc4b594de034c6021cb3168",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart-child/dist/scrollbar.js",
+    "sourceSha256": "0352f2f5eb88de01751c733daee6f2bfdae48314d4766806c3d029998ebc55ca",
+    "localSha256": "0a8d8ca88049c7624be0dc539a1d39963323a57d6916195d13be60272938dd98",
+    "identical": false
+  },
+  {
+    "file": "wp-content/themes/woodmart-child/dist/SuperMarquee.min.js",
+    "sourceSha256": "968c0fd63fd1f1b92817cdc70a7e19b4a0144c6185a67ffb4172b0d5cd374808",
+    "localSha256": "968c0fd63fd1f1b92817cdc70a7e19b4a0144c6185a67ffb4172b0d5cd374808",
+    "identical": true
+  },
+  {
+    "file": "wp-content/themes/woodmart-child/font/SubwayRegular.ttf",
+    "sourceSha256": "5889774be3ed366f26e85ff2ea327371f873fb34354ea9686dc64521d31e86f6",
+    "localSha256": "5889774be3ed366f26e85ff2ea327371f873fb34354ea9686dc64521d31e86f6",
+    "identical": true
+  },
+  {
+    "file": "vendor/unpkg.com/type-hangul-ab5a129280.js",
+    "sourceSha256": "3bb113a1e83ea9572918a09093f4cb12c23916ad20702c254ec2e3582361cebf",
+    "localSha256": "3bb113a1e83ea9572918a09093f4cb12c23916ad20702c254ec2e3582361cebf",
+    "identical": true
+  },
+  {
+    "file": "vendor/unpkg.com/swiper/swiper-bundle.min.js",
+    "sourceSha256": "7ca50b195b0750f755251fcf87daca8ac30b29c6c7674b13ba1be35aa4d3d209",
+    "localSha256": "7ca50b195b0750f755251fcf87daca8ac30b29c6c7674b13ba1be35aa4d3d209",
+    "identical": true
+  },
+  {
+    "file": "vendor/unpkg.com/aos@next/dist/aos.css",
+    "sourceSha256": "8695f5fc64d65593f9763a5b28d14bc34e3cf802317e1ffad2125a7c8fedfafe",
+    "localSha256": "8695f5fc64d65593f9763a5b28d14bc34e3cf802317e1ffad2125a7c8fedfafe",
+    "identical": true
+  },
+  {
+    "file": "vendor/unpkg.com/aos@next/dist/aos.js",
+    "sourceSha256": "dd1f9acf13b12f189da475e0f23c7c505767859ab620aac636964974093c281d",
+    "localSha256": "dd1f9acf13b12f189da475e0f23c7c505767859ab620aac636964974093c281d",
+    "identical": true
+  },
+  {
+    "file": "vendor/code.jquery.com/jquery-3.1.1.min.js",
+    "sourceSha256": "85556761a8800d14ced8fcd41a6b8b26bf012d44a318866c0d81a62092efd9bf",
+    "localSha256": "85556761a8800d14ced8fcd41a6b8b26bf012d44a318866c0d81a62092efd9bf",
+    "identical": true
+  },
+  {
+    "file": "vendor/code.jquery.com/ui/1.12.1/jquery-ui.min.js",
+    "sourceSha256": "55accff7b642c2d7a402cbe03c1494c0f14a76bc03dee9d47d219562b6a152a5",
+    "localSha256": "55accff7b642c2d7a402cbe03c1494c0f14a76bc03dee9d47d219562b6a152a5",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.googleapis.com/css-ce006555b3.css",
+    "sourceSha256": "f6b436f89c223b80c8629aa72a5fe56b79f826c9530cf202e9c66b80a3c79f26",
+    "localSha256": "23bbe1c4a09f740c51f51d47e1e1a501ecdff4578d13900d7662a8aa362993b8",
+    "identical": false
+  },
+  {
+    "file": "vendor/fonts.googleapis.com/css-58a7f9943a.css",
+    "sourceSha256": "0e6028b03a8d16838b911038e36e7dc47b349605d5117cbb18033868d67a7790",
+    "localSha256": "bfbf56268ee9d24cd0d221b9c819002bd7f5d62ac869f743c9e82b84ee8e33fc",
+    "identical": false
+  },
+  {
+    "file": "vendor/fonts.googleapis.com/css-7db60ffde0.css",
+    "sourceSha256": "e4093259c0b4b4704f7d3c9724ca0c2e5709f295a8f01f50549ee855aac20cda",
+    "localSha256": "41aa277b33ad601fdcfefbc831ea2cc1d16d3c53785f1cf6ee2b6c3ac37866a9",
+    "identical": false
+  },
+  {
+    "file": "vendor/fonts.googleapis.com/css-b812bd808a.css",
+    "sourceSha256": "f1d064cb0375b131da5e146400a1c789cf278ba2f68a75d19c5ab942924db1e3",
+    "localSha256": "8d2c18988c3f9eebee03df85b86593c2306701278ac01a6f8e225a0f189288d7",
+    "identical": false
+  },
+  {
+    "file": "vendor/cdnjs.cloudflare.com/ajax/libs/animejs/1.1.3/anime.min.js",
+    "sourceSha256": "70dd18febd334221efb5db53dca2bc5f5fe83b0f82bbbc2b704b377aa77fb75c",
+    "localSha256": "70dd18febd334221efb5db53dca2bc5f5fe83b0f82bbbc2b704b377aa77fb75c",
+    "identical": true
+  },
+  {
+    "file": "vendor/cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js",
+    "sourceSha256": "9ecd4e7843f749e744f5385eaa6bb8e38238e2c8a46e9d4ef9b17fe81354532d",
+    "localSha256": "9ecd4e7843f749e744f5385eaa6bb8e38238e2c8a46e9d4ef9b17fe81354532d",
+    "identical": true
+  },
+  {
+    "file": "vendor/cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.js",
+    "sourceSha256": "d939a83ea29f99adfea94265af0eaf0712e45e12d91bcd4666c3fb749a2fd7fa",
+    "localSha256": "d939a83ea29f99adfea94265af0eaf0712e45e12d91bcd4666c3fb749a2fd7fa",
+    "identical": true
+  },
+  {
+    "file": "vendor/cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.1/css/jquery.mb.YTPlayer.min.css",
+    "sourceSha256": "145a2cf12fce4deccbf8b68d979253336ad0ce7f6687e29e23e45fa3588fd326",
+    "localSha256": "dcc239bc1dd840143c2735c2fdcf490ac5328935629bcd0180301cc8725eb6c0",
+    "identical": false
+  },
+  {
+    "file": "vendor/cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.1/css/font/ytp-regular.ttf",
+    "sourceSha256": "1847fbeb3f12cb8e5be394e77236e2488cc63a38b49b898148d792b56b938f13",
+    "localSha256": "1847fbeb3f12cb8e5be394e77236e2488cc63a38b49b898148d792b56b938f13",
+    "identical": true
+  },
+  {
+    "file": "vendor/cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.1/css/font/ytp-regular.eot",
+    "sourceSha256": "b4fc6d081e38ac0f4775bb2888ac4082d15e952fc809dad2fc68407f9bdfdc6d",
+    "localSha256": "b4fc6d081e38ac0f4775bb2888ac4082d15e952fc809dad2fc68407f9bdfdc6d",
+    "identical": true
+  },
+  {
+    "file": "vendor/cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.9/jquery.mb.YTPlayer.min.js",
+    "sourceSha256": "a7611724b2b8c3e84b557184d904247794c9cb94200c279842ad3c914e096cb8",
+    "localSha256": "a7611724b2b8c3e84b557184d904247794c9cb94200c279842ad3c914e096cb8",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWmb2Rm.ttf",
+    "sourceSha256": "8edbd4c8b217ca7cadbd29e94d9caebc6afba78dee30c46ad74a0befde59f055",
+    "localSha256": "8edbd4c8b217ca7cadbd29e94d9caebc6afba78dee30c46ad74a0befde59f055",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDISmb2Rm.ttf",
+    "sourceSha256": "6518177a4b9b60ea4a2008395b6c2b1b63aad8724bd060f60ccfef2bd8066d3c",
+    "localSha256": "6518177a4b9b60ea4a2008395b6c2b1b63aad8724bd060f60ccfef2bd8066d3c",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSmb2Rm.ttf",
+    "sourceSha256": "257b4e7009ba0eb4b188d65531fa6fc1bb1f92305c98b4ba8808daf7697c1208",
+    "localSha256": "257b4e7009ba0eb4b188d65531fa6fc1bb1f92305c98b4ba8808daf7697c1208",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDIOmb2Rm.ttf",
+    "sourceSha256": "6f02fe03c12ae56fde9059228ca16321585f799d9a49601895b821f8528f99bf",
+    "localSha256": "6f02fe03c12ae56fde9059228ca16321585f799d9a49601895b821f8528f99bf",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoJYOmb2Rm.ttf",
+    "sourceSha256": "61b2f61a27e4a0b174a675799e182f86f603bdd96c9a651848ae54ee8ef7e480",
+    "localSha256": "61b2f61a27e4a0b174a675799e182f86f603bdd96c9a651848ae54ee8ef7e480",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmb2Rm.ttf",
+    "sourceSha256": "2e6b1d52e039220e6cef754a2029d218bbdf73eed9bcb4ba31aa19e1b0a7503b",
+    "localSha256": "2e6b1d52e039220e6cef754a2029d218bbdf73eed9bcb4ba31aa19e1b0a7503b",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf",
+    "sourceSha256": "a11e2aeebb0fb679ab8931d597303307bc8bd0ec5ac4ab02047e8f36be355d98",
+    "localSha256": "a11e2aeebb0fb679ab8931d597303307bc8bd0ec5ac4ab02047e8f36be355d98",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rm.ttf",
+    "sourceSha256": "ab5d00229af3b14fe905ee982462edf8a2a5e3b2714006c2f57b5f30b4bf6391",
+    "localSha256": "ab5d00229af3b14fe905ee982462edf8a2a5e3b2714006c2f57b5f30b4bf6391",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoUoOmb2Rm.ttf",
+    "sourceSha256": "2e583b9e194329edb040e2331ee67fa0a33ec6f7931d0e30b2385fc6b91b4b6a",
+    "localSha256": "2e583b9e194329edb040e2331ee67fa0a33ec6f7931d0e30b2385fc6b91b4b6a",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwiPHA.ttf",
+    "sourceSha256": "7e15d8482756e9d79c5b14dde8cd92256fd2afe0307703d825d4e8178d416c41",
+    "localSha256": "7e15d8482756e9d79c5b14dde8cd92256fd2afe0307703d825d4e8178d416c41",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjx4wWw.ttf",
+    "sourceSha256": "b6e055ad6056d64c89133fd73e9ee935c068d8bd3ac09366d5d99f9eee99e3f4",
+    "localSha256": "b6e055ad6056d64c89133fd73e9ee935c068d8bd3ac09366d5d99f9eee99e3f4",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEalmUiA8.ttf",
+    "sourceSha256": "9e334dc20cbefe548d6c78630167828e2aa83ef2644f2068d0faf0b9295bc472",
+    "localSha256": "9e334dc20cbefe548d6c78630167828e2aa83ef2644f2068d0faf0b9295bc472",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHRuAj-lg.ttf",
+    "sourceSha256": "03f1842bdc22652bede30e0fefd2a18699f6656ea4622dac0c8452e9b2fe0cf6",
+    "localSha256": "03f1842bdc22652bede30e0fefd2a18699f6656ea4622dac0c8452e9b2fe0cf6",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf",
+    "sourceSha256": "be5ffcf033d7e69b219d38a9bbf0e35bd6e8fdb7a5b9fc3c3c6ec4224672c017",
+    "localSha256": "be5ffcf033d7e69b219d38a9bbf0e35bd6e8fdb7a5b9fc3c3c6ec4224672c017",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEbVmUiA8.ttf",
+    "sourceSha256": "904a0523247cbaeff6dcedf13cd57892f4c326449ef43777f84059873959100e",
+    "localSha256": "904a0523247cbaeff6dcedf13cd57892f4c326449ef43777f84059873959100e",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf",
+    "sourceSha256": "bbf3e2a2cb10a5a59284f96f97f4083c176798fe709633db019da376b10936e9",
+    "localSha256": "bbf3e2a2cb10a5a59284f96f97f4083c176798fe709633db019da376b10936e9",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmUiA8.ttf",
+    "sourceSha256": "a343fa57d59c88663c5256516ca0124af69d1958d2448a7748554e2f02480690",
+    "localSha256": "a343fa57d59c88663c5256516ca0124af69d1958d2448a7748554e2f02480690",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmUiA8.ttf",
+    "sourceSha256": "a4ac947bc7f50939c8b468da550ca9c36c65756e2a6e4a6ab2a5b6422cec4b8b",
+    "localSha256": "a4ac947bc7f50939c8b468da550ca9c36c65756e2a6e4a6ab2a5b6422cec4b8b",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf",
+    "sourceSha256": "2cf4c1c3ffaeee44c1a1027d579edbd15ca137747eadbe90de953c6155477bae",
+    "localSha256": "2cf4c1c3ffaeee44c1a1027d579edbd15ca137747eadbe90de953c6155477bae",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXuAj-lg.ttf",
+    "sourceSha256": "4af8b3316345f1e277512ae4391bd168451afb08df5635305179c69bb85ac667",
+    "localSha256": "4af8b3316345f1e277512ae4391bd168451afb08df5635305179c69bb85ac667",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHQuAj-lg.ttf",
+    "sourceSha256": "f779845e676030d57ed665ed944b13a21e14672078a760cdb90e757650452ec5",
+    "localSha256": "f779845e676030d57ed665ed944b13a21e14672078a760cdb90e757650452ec5",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QuAj-lg.ttf",
+    "sourceSha256": "b222eb56eb2124d8355a783de7e2df1312929212a33be84afb818f2254264420",
+    "localSha256": "b222eb56eb2124d8355a783de7e2df1312929212a33be84afb818f2254264420",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXuAj-lg.ttf",
+    "sourceSha256": "7664911cd6afd5952bebd896206068d5166e19229dbee4a200f0914394b1268e",
+    "localSha256": "7664911cd6afd5952bebd896206068d5166e19229dbee4a200f0914394b1268e",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf",
+    "sourceSha256": "e9ff3730797df6aaf76d37c48234a6c4875032eaad8f1aaccd7daefa6dca9e7a",
+    "localSha256": "e9ff3730797df6aaf76d37c48234a6c4875032eaad8f1aaccd7daefa6dca9e7a",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLl_XuAj-lg.ttf",
+    "sourceSha256": "58ecc617c2fc8b7ac33998d1c7455390b548bacb09a226c32acb70aac3cf01de",
+    "localSha256": "58ecc617c2fc8b7ac33998d1c7455390b548bacb09a226c32acb70aac3cf01de",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHXuAj-lg.ttf",
+    "sourceSha256": "4105b9a14e763b3a7e119897d7e354d75b1a3bd40de590c563762a6e6ad08af2",
+    "localSha256": "4105b9a14e763b3a7e119897d7e354d75b1a3bd40de590c563762a6e6ad08af2",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAj-lg.ttf",
+    "sourceSha256": "a11d6a00e95c09fd734849ed711bcc20508b74d471d1765e90330e432166bede",
+    "localSha256": "a11d6a00e95c09fd734849ed711bcc20508b74d471d1765e90330e432166bede",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAj-lg.ttf",
+    "sourceSha256": "238b59b4ebe1c555632cdad9fec7f8721af201a0c2f9f16faf56e00d0a9bc79f",
+    "localSha256": "238b59b4ebe1c555632cdad9fec7f8721af201a0c2f9f16faf56e00d0a9bc79f",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYaalmUiA8.ttf",
+    "sourceSha256": "868599499d20ee12589f2b7a314443d5bbe86d88e95eb2bf89b6f2fb9cb0e3c5",
+    "localSha256": "868599499d20ee12589f2b7a314443d5bbe86d88e95eb2bf89b6f2fb9cb0e3c5",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/notosanskr/v40/PbyxFmXiEBPT4ITbgNA5Cgms3VYcOA-vvnIzzrQySLPg9A.ttf",
+    "sourceSha256": "96d640bedfc840bafedddaac24c38b3327f7f8589ea8fe1689339840663c8e36",
+    "localSha256": "96d640bedfc840bafedddaac24c38b3327f7f8589ea8fe1689339840663c8e36",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/notosanskr/v40/PbyxFmXiEBPT4ITbgNA5Cgms3VYcOA-vvnIzzmoySLPg9A.ttf",
+    "sourceSha256": "239cdcd580d6cc071b0e0d340fee5aae96fdc047fe9517724666b06b293ea2f8",
+    "localSha256": "239cdcd580d6cc071b0e0d340fee5aae96fdc047fe9517724666b06b293ea2f8",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/notosanskr/v40/PbyxFmXiEBPT4ITbgNA5Cgms3VYcOA-vvnIzzuozSLPg9A.ttf",
+    "sourceSha256": "0920f89fd055e3ba6eb2c7cc18d144880f0cc2fd6869134e467bac09063a246b",
+    "localSha256": "0920f89fd055e3ba6eb2c7cc18d144880f0cc2fd6869134e467bac09063a246b",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/notosanskr/v40/PbyxFmXiEBPT4ITbgNA5Cgms3VYcOA-vvnIzzmo1SLPg9A.ttf",
+    "sourceSha256": "3d83155f58c0052674e90104f179a1b07adca501d94ebe8ff21e47b013e681a4",
+    "localSha256": "3d83155f58c0052674e90104f179a1b07adca501d94ebe8ff21e47b013e681a4",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/notosanskr/v40/PbyxFmXiEBPT4ITbgNA5Cgms3VYcOA-vvnIzzkM1SLPg9A.ttf",
+    "sourceSha256": "9468fc1c733fbbd5eabb37eebf6a43b8f429fec121f668e4f8a776657652d756",
+    "localSha256": "9468fc1c733fbbd5eabb37eebf6a43b8f429fec121f668e4f8a776657652d756",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/notosanskr/v40/PbyxFmXiEBPT4ITbgNA5Cgms3VYcOA-vvnIzztgySLPg9A.ttf",
+    "sourceSha256": "5b625a29a1e9af686a3344f1a0b6b4520ce2ed74f63a35e75d2514582dd101b5",
+    "localSha256": "5b625a29a1e9af686a3344f1a0b6b4520ce2ed74f63a35e75d2514582dd101b5",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/notosanskr/v40/PbyxFmXiEBPT4ITbgNA5Cgms3VYcOA-vvnIzzg01SLPg9A.ttf",
+    "sourceSha256": "81ef9f2f5f8fa36bc24918c34224e0d8fd5fa7ba0758f9032b8db72475dc90b5",
+    "localSha256": "81ef9f2f5f8fa36bc24918c34224e0d8fd5fa7ba0758f9032b8db72475dc90b5",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/notosanskr/v40/PbyxFmXiEBPT4ITbgNA5Cgms3VYcOA-vvnIzzjQ1SLPg9A.ttf",
+    "sourceSha256": "945ca3ebdf954b450145fe8f6a992371086ab0f3188af3ac51c6a06d9bd55608",
+    "localSha256": "945ca3ebdf954b450145fe8f6a992371086ab0f3188af3ac51c6a06d9bd55608",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/notosanskr/v40/PbyxFmXiEBPT4ITbgNA5Cgms3VYcOA-vvnIzzuoySLPg9A.ttf",
+    "sourceSha256": "f2efada71558bd4c5a228c4885ef479e614aa606c6305299def617052090abad",
+    "localSha256": "f2efada71558bd4c5a228c4885ef479e614aa606c6305299def617052090abad",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJfedw.ttf",
+    "sourceSha256": "66807e8e108c648c970aeace0886706f8c95c616f036529a4b628525208f18e8",
+    "localSha256": "66807e8e108c648c970aeace0886706f8c95c616f036529a4b628525208f18e8",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf",
+    "sourceSha256": "53eaa58cf4e7fc8d68a3b557ad8f67b8b6613e7431e87a6ca896948c53ef2d35",
+    "localSha256": "53eaa58cf4e7fc8d68a3b557ad8f67b8b6613e7431e87a6ca896948c53ef2d35",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/josefinsans/v34/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTNIJRLSzt.ttf",
+    "sourceSha256": "f17cae446728fe9547c20d1eeacb2c5dfab9031cc775b1d2f1666bd3e5a551bc",
+    "localSha256": "f17cae446728fe9547c20d1eeacb2c5dfab9031cc775b1d2f1666bd3e5a551bc",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/josefinsans/v34/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjRbMZhKg.ttf",
+    "sourceSha256": "5b0e8fbd79bc6b5180c052b8c8e519147ac98b181c36024cc8f4828937dd1d33",
+    "localSha256": "5b0e8fbd79bc6b5180c052b8c8e519147ac98b181c36024cc8f4828937dd1d33",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/josefinsans/v34/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_ArQbMZhKg.ttf",
+    "sourceSha256": "710f807c9600643bb68cf2b44b658eddbdc1a13d42c4b420c605fe6ef84cae0a",
+    "localSha256": "710f807c9600643bb68cf2b44b658eddbdc1a13d42c4b420c605fe6ef84cae0a",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/josefinsans/v34/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTtINRLSzt.ttf",
+    "sourceSha256": "1e36ae8e2f35466578bdd05750e2b59533223dbaa8ec082f6a5f6855563bc37c",
+    "localSha256": "1e36ae8e2f35466578bdd05750e2b59533223dbaa8ec082f6a5f6855563bc37c",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/josefinsans/v34/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_LjQbMZhKg.ttf",
+    "sourceSha256": "2cf884af2b39f15a0ed18feae41611aabcdb28372e147aec13b8c1b2964ffd72",
+    "localSha256": "2cf884af2b39f15a0ed18feae41611aabcdb28372e147aec13b8c1b2964ffd72",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/josefinsans/v34/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_GbQbMZhKg.ttf",
+    "sourceSha256": "a04988c1e21b530436fef72b9485c18f3c7c23dda9ec832b463a1345da9b57e5",
+    "localSha256": "a04988c1e21b530436fef72b9485c18f3c7c23dda9ec832b463a1345da9b57e5",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/josefinsans/v34/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTtIJRLSzt.ttf",
+    "sourceSha256": "4375f0c907834d89e67fd86defe45511289c0620d8bc81b36970efbdf296f255",
+    "localSha256": "4375f0c907834d89e67fd86defe45511289c0620d8bc81b36970efbdf296f255",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/josefinsans/v34/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_N_XbMZhKg.ttf",
+    "sourceSha256": "393625f3cf49d99a87964961a4507dafa9e8587aff9ed031cc3767169825ce3f",
+    "localSha256": "393625f3cf49d99a87964961a4507dafa9e8587aff9ed031cc3767169825ce3f",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/josefinsans/v34/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_ObXbMZhKg.ttf",
+    "sourceSha256": "528962dd0220d92fd958cdc329c59e389baa32d8d46fb380f726d52b0d5e2ef0",
+    "localSha256": "528962dd0220d92fd958cdc329c59e389baa32d8d46fb380f726d52b0d5e2ef0",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/josefinsans/v34/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMZhKg.ttf",
+    "sourceSha256": "cc9d932423f8e01d5d9681d00a5fee9298d3502b5152efd03568159125a92278",
+    "localSha256": "cc9d932423f8e01d5d9681d00a5fee9298d3502b5152efd03568159125a92278",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/josefinsans/v34/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTaoVRLSzt.ttf",
+    "sourceSha256": "bae3b3b5f62488991e7d193733e67f51591fadecc658f56accad1ae36fe4f550",
+    "localSha256": "bae3b3b5f62488991e7d193733e67f51591fadecc658f56accad1ae36fe4f550",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/josefinsans/v34/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCTU4VRLSzt.ttf",
+    "sourceSha256": "cae96f8dcf7e03765df5b559bde20b21b5f09aa65ef314ed9297b6c86c90bbf4",
+    "localSha256": "cae96f8dcf7e03765df5b559bde20b21b5f09aa65ef314ed9297b6c86c90bbf4",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/josefinsans/v34/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCT6oJRLSzt.ttf",
+    "sourceSha256": "105a3995b901eb17e12716422d3f02094e30199c920d1ffbbef832221ead8bb0",
+    "localSha256": "105a3995b901eb17e12716422d3f02094e30199c920d1ffbbef832221ead8bb0",
+    "identical": true
+  },
+  {
+    "file": "vendor/fonts.gstatic.com/s/josefinsans/v34/Qw3JZQNVED7rKGKxtqIqX5EUCGZ2dIn0FyA96fCThoJRLSzt.ttf",
+    "sourceSha256": "9728a48d7429045ba03ff9f1fbbb7d39811fefa6b8ac8d1b8fa2ad2316e83de9",
+    "localSha256": "9728a48d7429045ba03ff9f1fbbb7d39811fefa6b8ac8d1b8fa2ad2316e83de9",
+    "identical": true
+  },
+  {
+    "file": "vendor/p.typekit.net/p-a61e5d65.css",
+    "sourceSha256": "1c0ff118a4290c99f39c90abb38703a866e47251b23cca20266c69c812ccafeb",
+    "localSha256": "1c0ff118a4290c99f39c90abb38703a866e47251b23cca20266c69c812ccafeb",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/uen1xdd.css",
+    "sourceSha256": "5221b0fa2555bba2ca1e9819291535e631df56ee0c04ba7ad3acfd5849022067",
+    "localSha256": "f62f34e305afb366567aa04c7f5c6a413d25f800ea9471f30e986a32c2e26cfc",
+    "identical": false
+  },
+  {
+    "file": "vendor/use.typekit.net/af/66e20c/00000000000000007735f993/30/l-53fd61f02c.woff2",
+    "sourceSha256": "f6ac17372f177a3e2a5107b4cabf6404d6291da6d06262c3b8fce49456577a98",
+    "localSha256": "f6ac17372f177a3e2a5107b4cabf6404d6291da6d06262c3b8fce49456577a98",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/66e20c/00000000000000007735f993/30/a-d97551738e.otf",
+    "sourceSha256": "719f3e2eb278143c9acb5e405859efeab27691df513339f9de79d591405a0914",
+    "localSha256": "719f3e2eb278143c9acb5e405859efeab27691df513339f9de79d591405a0914",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/66e20c/00000000000000007735f993/30/d-b9207fc62f.woff",
+    "sourceSha256": "01cc28966f69a71c602c542697344eed34d4dfa5a8adbb3a8eb7a0ba632aad65",
+    "localSha256": "01cc28966f69a71c602c542697344eed34d4dfa5a8adbb3a8eb7a0ba632aad65",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/4e1b68/000000000000000000013101/27/a-5d6e724894.otf",
+    "sourceSha256": "ef66a16a9dc02220bd7f1b1f0c365eff62e552c5815ba3644b6fae036c748410",
+    "localSha256": "ef66a16a9dc02220bd7f1b1f0c365eff62e552c5815ba3644b6fae036c748410",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/4e1b68/000000000000000000013101/27/l-86a37a6456.woff2",
+    "sourceSha256": "20258030067fe0b5bcbcfd482a56fc24167ad89043b08d57ecd774b8e56da3c0",
+    "localSha256": "20258030067fe0b5bcbcfd482a56fc24167ad89043b08d57ecd774b8e56da3c0",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/4e1b68/000000000000000000013101/27/d-e47c99484f.woff",
+    "sourceSha256": "76b694fc3879599241cb05918325481f34e58f39f65ccd07512d39017f441fe2",
+    "localSha256": "76b694fc3879599241cb05918325481f34e58f39f65ccd07512d39017f441fe2",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/c09857/00000000000000007735f98c/30/a-c44ea47058.otf",
+    "sourceSha256": "e8ae0b4b4d266d6f58aa58a538d270cf0ae329d70ca6ef67f71b78d84411fe0c",
+    "localSha256": "e8ae0b4b4d266d6f58aa58a538d270cf0ae329d70ca6ef67f71b78d84411fe0c",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/c09857/00000000000000007735f98c/30/l-c32be2a175.woff2",
+    "sourceSha256": "c5bdad3859ad83e2619c9a02f6cc1155b09a279c804c8fdda5de3fbb8fb60168",
+    "localSha256": "c5bdad3859ad83e2619c9a02f6cc1155b09a279c804c8fdda5de3fbb8fb60168",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/c09857/00000000000000007735f98c/30/d-cb66f042b6.woff",
+    "sourceSha256": "d6c8e2d16db01eee50ea0710a1e0c06004fa1013fd036d5ab892ffe112fec616",
+    "localSha256": "d6c8e2d16db01eee50ea0710a1e0c06004fa1013fd036d5ab892ffe112fec616",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/5d97ff/00000000000000007735f999/30/l-837cd36f5a.woff2",
+    "sourceSha256": "e6bc7fcf961a5e2818d5fdf95662a97ca23ce64950928eb8cdc5fd1d042692bf",
+    "localSha256": "e6bc7fcf961a5e2818d5fdf95662a97ca23ce64950928eb8cdc5fd1d042692bf",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/5d97ff/00000000000000007735f999/30/a-a5b78cd975.otf",
+    "sourceSha256": "7c133d8e4b3787b88e1450ba56be0cac8ed7096a8e2db6fc19f474d0ef404591",
+    "localSha256": "7c133d8e4b3787b88e1450ba56be0cac8ed7096a8e2db6fc19f474d0ef404591",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/5d97ff/00000000000000007735f999/30/d-8782e23c96.woff",
+    "sourceSha256": "ed881b64ca075d336abd39cf06937198edc58d51269418117faece637753a575",
+    "localSha256": "ed881b64ca075d336abd39cf06937198edc58d51269418117faece637753a575",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/2e2409/00000000000000007735f990/30/a-0e621a9ba7.otf",
+    "sourceSha256": "03b11c8ba8167f4a687421c2ea88b17965ce6f21a3f41a4f05061250d1694b2a",
+    "localSha256": "03b11c8ba8167f4a687421c2ea88b17965ce6f21a3f41a4f05061250d1694b2a",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/2e2409/00000000000000007735f990/30/l-80990c7cda.woff2",
+    "sourceSha256": "d2d865fcf643038c59b703d5b9a798b53f4030327fe815ab68ad08164fa36e89",
+    "localSha256": "d2d865fcf643038c59b703d5b9a798b53f4030327fe815ab68ad08164fa36e89",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/2e2409/00000000000000007735f990/30/d-531b70ca40.woff",
+    "sourceSha256": "8ef01f534191bd547f4477b550291bd9b67ba4291bacf7900dbcf8c5fdcb0b3c",
+    "localSha256": "8ef01f534191bd547f4477b550291bd9b67ba4291bacf7900dbcf8c5fdcb0b3c",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/bb213c/00000000000000007735f995/30/l-68a5c18817.woff2",
+    "sourceSha256": "5a5f824fd091681e2ecc322f3c045b0ce762715199394d8e81dc61a9734ec786",
+    "localSha256": "5a5f824fd091681e2ecc322f3c045b0ce762715199394d8e81dc61a9734ec786",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/bb213c/00000000000000007735f995/30/d-b6746edb59.woff",
+    "sourceSha256": "e65d0945e984890767fc694a1dbf5a1fdc78556e749c29589cdab2f95c624102",
+    "localSha256": "e65d0945e984890767fc694a1dbf5a1fdc78556e749c29589cdab2f95c624102",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/bb213c/00000000000000007735f995/30/a-03515c1e70.otf",
+    "sourceSha256": "3e1d7f12f728f90b485d974fb9fd698bab39e708dff5825a338e7a9be234feb0",
+    "localSha256": "3e1d7f12f728f90b485d974fb9fd698bab39e708dff5825a338e7a9be234feb0",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/b718ff/00000000000000007735f98d/30/a-3343e705b1.otf",
+    "sourceSha256": "03516db03fc09a875f20925463259420ae55e276accf209f351a7a0fcef1c251",
+    "localSha256": "03516db03fc09a875f20925463259420ae55e276accf209f351a7a0fcef1c251",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/b718ff/00000000000000007735f98d/30/l-34fff205cb.woff2",
+    "sourceSha256": "649c6e4af0a8b29252157d64d60566a5283eebed35a5eaa500c42f285099ae5b",
+    "localSha256": "649c6e4af0a8b29252157d64d60566a5283eebed35a5eaa500c42f285099ae5b",
+    "identical": true
+  },
+  {
+    "file": "vendor/use.typekit.net/af/b718ff/00000000000000007735f98d/30/d-a3186727eb.woff",
+    "sourceSha256": "d5c5e6c5e4006bd30fa05d4454a08200ac41311dbb965445c08ecea9fe3919f0",
+    "localSha256": "d5c5e6c5e4006bd30fa05d4454a08200ac41311dbb965445c08ecea9fe3919f0",
+    "identical": true
+  }
+]
