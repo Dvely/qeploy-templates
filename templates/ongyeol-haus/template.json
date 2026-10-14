@@ -1,0 +1,17 @@
+{
+  "id": "ongyeol-haus",
+  "name": "온결 하우스",
+  "description": "공간 사진 중심의 인테리어 소재 브랜드 홈. 8개 제품 분류와 제품 상세, 쇼룸·갤러리·고객지원 화면을 연결합니다.",
+  "tags": ["interior", "materials", "architecture", "brand", "showroom", "responsive"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    { "key": "brand", "where": "index.html", "desc": "온결 HAUS 로고, 영문 메인 문구 및 8개 메인 섹션" },
+    { "key": "products", "where": "ongyeol-data.js", "desc": "도어·중문·몰딩·시트·보드·마루·창호·목재의 32개 제품 예시와 분류" },
+    { "key": "pages", "where": "ongyeol-views.js", "desc": "브랜드·제품·갤러리·쇼룸·고객지원의 정적 화면 구조. generate.mjs로 HTML을 갱신" },
+    { "key": "theme", "where": "ongyeol.css", "desc": ":root 색상, 헤더 높이, 화면 여백과 공통 레이아웃" },
+    { "key": "mobile", "where": "ongyeol-mobile.css", "desc": "1200·1024·640·360px 메뉴·사진·카드·제품·상담 화면 재배치" },
+    { "key": "interaction", "where": "ongyeol.js", "desc": "페이드 슬라이더, 검색, 전체메뉴, 갤러리 필터, 마감 선택, 상담 확인" },
+    { "key": "images", "where": "images/", "desc": "온결을 위해 새로 생성한 공간·도어·창호·소재·쇼룸·제작 사진 6개와 SVG 심볼" }
+  ]
+}
