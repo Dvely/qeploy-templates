@@ -2,7 +2,7 @@
   "id": "flexspace",
   "name": "플렉스스페이스",
   "description": "기업 맞춤 오피스 솔루션과 지점·호실·구축 사례, 견적 계산 및 공간 투어 신청",
-  "tags": ["cowork", "office", "enterprise", "workspace", "booking"],
+  "tags": ["공유 오피스", "사무실", "기업", "업무 공간", "예약"],
   "stack": "vanilla",
   "entry": "index.html",
   "contentHints": [

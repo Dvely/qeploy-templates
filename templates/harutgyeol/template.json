@@ -2,12 +2,7 @@
   "id": "harutgyeol",
   "name": "HARUTGYEOL · 하룻결",
   "description": "숙소 12개와 저널 3개의 상세 페이지, 기획전·탐색·찜·예약 문의로 이어지는 숙소 큐레이션 사이트",
-  "tags": [
-    "stay",
-    "travel",
-    "curation",
-    "multi-page"
-  ],
+  "tags": ["숙소", "여행", "큐레이션", "다중 페이지"],
   "stack": "vanilla",
   "entry": "index.html",
   "contentHints": [

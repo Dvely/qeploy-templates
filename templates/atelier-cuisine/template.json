@@ -2,13 +2,7 @@
   "id": "atelier-cuisine",
   "name": "아틀리에 퀴진",
   "description": "세계 요리 레시피와 셰프 클래스, 식재료 마켓을 연결하는 미식 스튜디오",
-  "tags": [
-    "food",
-    "recipe",
-    "studio",
-    "market",
-    "multi-page"
-  ],
+  "tags": ["음식", "레시피", "스튜디오", "마켓", "다중 페이지"],
   "stack": "vanilla",
   "entry": "index.html",
   "contentHints": [

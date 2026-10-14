@@ -2,12 +2,7 @@
   "id": "lumiere",
   "name": "루미에르 · 메디컬 뷰티",
   "description": "시술 탐색과 의료진 소개, 케이스 리뷰와 상세 상담 화면을 담은 미니멀 메디컬 뷰티 템플릿",
-  "tags": [
-    "clinic",
-    "beauty",
-    "medical",
-    "curation"
-  ],
+  "tags": ["의원", "뷰티", "의료", "큐레이션"],
   "stack": "vanilla",
   "entry": "index.html",
   "contentHints": [

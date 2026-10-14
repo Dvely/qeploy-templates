@@ -2,7 +2,7 @@
   "id": "portfolio-grid",
   "name": "포트폴리오 그리드",
   "description": "작업물을 격자로 보여주는 개인·스튜디오 포트폴리오",
-  "tags": ["portfolio", "gallery", "personal"],
+  "tags": ["포트폴리오", "갤러리", "개인"],
   "stack": "vanilla",
   "entry": "index.html",
   "contentHints": [

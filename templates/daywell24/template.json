@@ -2,7 +2,7 @@
   "id": "daywell24",
   "name": "데이웰24",
   "description": "원본의 메뉴·슬라이더·스크롤 UI와 애니메이션을 보존하고 새 브랜드의 콘텐츠로 교체한 편의점 브랜드 사이트",
-  "tags": ["retail", "convenience", "franchise", "promotion", "animation", "responsive"],
+  "tags": ["소매점", "편의점", "가맹점", "행사", "애니메이션", "반응형"],
   "stack": "vanilla",
   "entry": "index.html",
   "contentHints": [

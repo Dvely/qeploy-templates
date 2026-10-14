@@ -2,7 +2,7 @@
   "id": "craft-roast",
   "name": "크래프트 앤 로스트",
   "description": "스페셜티 로스터리와 파티세리, 메뉴 페어링·원두 마켓·매장 및 가맹 안내",
-  "tags": ["cafe", "coffee", "roastery", "patisserie", "shop", "franchise"],
+  "tags": ["카페", "커피", "로스터리", "제과", "쇼핑", "가맹점"],
   "stack": "vanilla",
   "entry": "index.html",
   "contentHints": [

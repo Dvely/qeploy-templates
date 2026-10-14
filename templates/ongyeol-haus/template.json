@@ -2,7 +2,7 @@
   "id": "ongyeol-haus",
   "name": "온결 하우스",
   "description": "공간 사진 중심의 인테리어 소재 브랜드 홈. 8개 제품 분류와 제품 상세, 쇼룸·갤러리·고객지원 화면을 연결합니다.",
-  "tags": ["interior", "materials", "architecture", "brand", "showroom", "responsive"],
+  "tags": ["인테리어", "자재", "건축", "브랜드", "쇼룸", "반응형"],
   "stack": "vanilla",
   "entry": "index.html",
   "contentHints": [

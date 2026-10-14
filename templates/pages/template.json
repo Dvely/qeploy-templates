@@ -2,12 +2,7 @@
   "id": "pages",
   "name": "페이지스 서점",
   "description": "에디터의 도서 큐레이션과 북클럽·작가 북토크를 연결하는 서점",
-  "tags": [
-    "bookstore",
-    "culture",
-    "editorial",
-    "multi-page"
-  ],
+  "tags": ["서점", "문화", "편집 콘텐츠", "다중 페이지"],
   "stack": "vanilla",
   "entry": "index.html",
   "contentHints": [

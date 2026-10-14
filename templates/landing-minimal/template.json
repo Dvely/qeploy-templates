@@ -2,7 +2,7 @@
   "id": "landing-minimal",
   "name": "미니멀 랜딩",
   "description": "제품·서비스 하나를 소개하는 한 장짜리 랜딩 페이지",
-  "tags": ["landing", "one-page", "product"],
+  "tags": ["랜딩 페이지", "단일 페이지", "상품"],
   "stack": "vanilla",
   "entry": "index.html",
   "contentHints": [
