@@ -1,0 +1,3639 @@
+{
+  "reference": "https://emart24.co.kr/",
+  "capturedOn": "2026-10-14",
+  "css": [
+    {
+      "file": "assets/business/business/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/business/businessAppli/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/business/businessGoodPlace/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/business/businessHome/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/business/businessModel/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/business/businessSucess/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/business/emart24Feature/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/event/event/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/event/eventEnd/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/event/eventSub/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/footer/footerCsr/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/footer/footerPolicy/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/footer/footerSiteMap/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/footer/footerUserAgree/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/home/home/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/introduction/brandGallery/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/introduction/brandResourceCenter/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/introduction/brandValue/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/product/Product/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/product/ProductPb/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/product/productFresh/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/service/appService/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/service/servicePartnership/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/service/servicePayment/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/service/serviceUsim/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/store/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/topMenu/ServiceMain/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/topMenu/adInquiry/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "assets/topMenu/notice/style/style.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "commonStyle/common.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "commonStyle/content.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "commonStyle/footer.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "commonStyle/header.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "commonStyle/jquery.fullPage.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "vendor/cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "vendor/cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    },
+    {
+      "file": "vendor/cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css",
+      "rulesIdenticalIgnoringAssetURLs": true
+    }
+  ],
+  "motionScripts": [
+    {
+      "name": "businessSlider",
+      "identical": true,
+      "sourceSha256": "636f1823e6e8203dc0a7c905a3fffc5f727c184ebbba5b7544d081bea05badf4",
+      "localizedSha256": "636f1823e6e8203dc0a7c905a3fffc5f727c184ebbba5b7544d081bea05badf4"
+    },
+    {
+      "name": "monthlyProductSliders",
+      "identical": true,
+      "sourceSha256": "46721711bca400f3ef5c9a64b23ecbb1618ef2e6c6a35332fb184ed77cd062be",
+      "localizedSha256": "46721711bca400f3ef5c9a64b23ecbb1618ef2e6c6a35332fb184ed77cd062be"
+    },
+    {
+      "name": "eventSliderInitialization",
+      "identical": true,
+      "sourceSha256": "b04e715a1f102266277b0b455369ae8bfa30a4c2d512c5b1d1e1dbea11ebbcd0",
+      "localizedSha256": "b04e715a1f102266277b0b455369ae8bfa30a4c2d512c5b1d1e1dbea11ebbcd0"
+    }
+  ],
+  "scrollObserverByteIdentical": true,
+  "headerByteIdentical": true,
+  "staticAudit": {
+    "htmlPages": 57,
+    "issues": []
+  },
+  "syntaxErrors": [],
+  "browserChecks": {
+    "desktop1440": [
+      {
+        "file": "daywell24-advertising.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [],
+        "images": [],
+        "scroll": 1425,
+        "title": "광고문의 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-app.html",
+        "body": 1440,
+        "doc": 1440,
+        "headings": [],
+        "images": [],
+        "scroll": 1440,
+        "title": "APP 서비스 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-brand-gallery.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "브랜드 갤러리"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "브랜드 갤러리 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-brand-resources.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "브랜드 리소스센터"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "브랜드 리소스센터 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-brand.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "브랜드 스토리"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "브랜드 가치 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-career.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "함께 만드는 데이웰24"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "함께 만드는 데이웰24 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-community.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "CSR경영"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "CSR경영 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-contracts.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "파트너 안내"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-english.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [],
+        "images": [],
+        "scroll": 1425,
+        "title": "DAYWELL24 · Good Day, Every Day",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-01.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "아침을 여는 작은 행복 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-02.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "오늘의 한끼, 더 가볍게 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-03.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "함께 나누는 달콤한 시간 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-04.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "새롭게 만나는 데일리픽 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-05.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "바삭한 오후의 발견 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-06.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "커피 한 잔의 여유 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-07.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "지금은 피치브리즈 타임 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-08.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "소중한 일상에 더하는 혜택 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-09.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "가까운 곳의 든든한 한끼 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-10.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "매일 반가운 데이웰24 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-11.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "하루를 채우는 프레시 푸드 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-12.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "오후 세 시, 작은 디저트 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-13.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "온 가족의 데일리 장보기 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-14.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "내일도 가볍게 시작해요 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-15.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "오늘의 추천, 내일의 즐거움 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-16.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "바쁜 하루의 포근한 쉼 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-17.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "함께하는 동네의 맛 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-18.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "풍성한 데이웰 데이 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-19.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "이 계절의 바삭한 한입 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-20.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "처음 만나는 새로운 즐거움 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-event-detail.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "진행중인 이벤트 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-events-ended.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "종료된 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "종료된 이벤트 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-events.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "진행중인 이벤트 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-franchise-contact.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "창업상담"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "창업상담 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-franchise-features.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "daywell24의 특징"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "daywell24의 특징 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-franchise-models.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "가맹모델 소개"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-franchise-session.html",
+        "body": 1425,
+        "doc": 1425,
+        "headings": [
+          "창업 설명회"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "창업 설명회 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-franchise-spaces.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "추천 매장 소개"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "추천 매장 소개 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-franchise-stories.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "창업 성공기"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "창업 성공기 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-franchise.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "daywell24의 특징"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "daywell24의 특징 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-fresh-food.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "Fresh Food"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "Fresh Food - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-helpdesk.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "고객센터 홈"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "고객센터 홈 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-life-services.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "생활 서비스"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "생활 서비스 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-media.html",
+        "body": 1440,
+        "doc": 1440,
+        "headings": [],
+        "images": [],
+        "scroll": 1440,
+        "title": "데이웰24 일상",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-notice.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "공지사항"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "공지사항 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-partners.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "제휴 서비스"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "제휴 서비스 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-payment.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "데이웰24 간편결제"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "데이웰24 간편결제 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-privacy.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "개인정보 처리방침"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "개인정보 처리방침 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-products.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "행사상품"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "행사 상품 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-signature.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "차별화 상품"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "차별화 상품 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-sitemap.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "사이트맵"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "사이트맵 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-store-garden.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "데이웰 가든점"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "데이웰 가든점 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-store-studio.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "데이웰 스튜디오점"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "데이웰 스튜디오점 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-stores.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [],
+        "images": [],
+        "scroll": 1425,
+        "title": "매장찾기 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-terms.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "이용약관"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "이용약관 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-video-policy.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "고정형 영상정보처리기기 운영 관리방침"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "고정형 영상정보기기 운영 관리 방침 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "daywell24-youth-policy.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [
+          "데이웰24 청소년 보호정책"
+        ],
+        "images": [],
+        "scroll": 1425,
+        "title": "청소년 보호정책 - 데이웰24",
+        "width": 1440
+      },
+      {
+        "file": "index.html",
+        "body": 1410,
+        "doc": 1425,
+        "headings": [],
+        "images": [],
+        "scroll": 1425,
+        "title": "홈 - 데이웰24",
+        "width": 1440
+      }
+    ],
+    "mobile390": [
+      {
+        "file": "daywell24-advertising.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [],
+        "images": [],
+        "scroll": 375,
+        "title": "광고문의 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-app.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [],
+        "images": [],
+        "scroll": 375,
+        "title": "APP 서비스 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-brand-gallery.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "브랜드 갤러리"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "브랜드 갤러리 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-brand-resources.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "브랜드 리소스센터"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "브랜드 리소스센터 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-brand.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "브랜드 스토리"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "브랜드 가치 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-career.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "함께 만드는 데이웰24"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "함께 만드는 데이웰24 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-community.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "CSR경영"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "CSR경영 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-contracts.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "파트너 안내"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "",
+        "width": 390
+      },
+      {
+        "file": "daywell24-english.html",
+        "body": 375,
+        "doc": 375,
+        "headings": [],
+        "images": [],
+        "scroll": 375,
+        "title": "DAYWELL24 · Good Day, Every Day",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-01.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "아침을 여는 작은 행복 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-02.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "오늘의 한끼, 더 가볍게 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-03.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "함께 나누는 달콤한 시간 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-04.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "새롭게 만나는 데일리픽 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-05.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "바삭한 오후의 발견 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-06.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "커피 한 잔의 여유 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-07.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "지금은 피치브리즈 타임 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-08.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "소중한 일상에 더하는 혜택 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-09.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "가까운 곳의 든든한 한끼 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-10.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "매일 반가운 데이웰24 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-11.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "하루를 채우는 프레시 푸드 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-12.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "오후 세 시, 작은 디저트 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-13.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "온 가족의 데일리 장보기 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-14.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "내일도 가볍게 시작해요 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-15.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "오늘의 추천, 내일의 즐거움 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-16.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "바쁜 하루의 포근한 쉼 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-17.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "함께하는 동네의 맛 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-18.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "풍성한 데이웰 데이 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-19.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "이 계절의 바삭한 한입 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-20.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "처음 만나는 새로운 즐거움 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-event-detail.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "진행중인 이벤트 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-events-ended.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "종료된 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "종료된 이벤트 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-events.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "진행중인 이벤트 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-franchise-contact.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "창업상담"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "창업상담 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-franchise-features.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "daywell24의 특징"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "daywell24의 특징 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-franchise-models.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "가맹모델 소개"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "",
+        "width": 390
+      },
+      {
+        "file": "daywell24-franchise-session.html",
+        "body": 375,
+        "doc": 375,
+        "headings": [
+          "창업 설명회"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "창업 설명회 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-franchise-spaces.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "추천 매장 소개"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "추천 매장 소개 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-franchise-stories.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "창업 성공기"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "창업 성공기 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-franchise.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "daywell24의 특징"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "daywell24의 특징 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-fresh-food.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "Fresh Food"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "Fresh Food - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-helpdesk.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "고객센터 홈"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "고객센터 홈 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-life-services.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "생활 서비스"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "생활 서비스 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-media.html",
+        "body": 390,
+        "doc": 390,
+        "headings": [],
+        "images": [],
+        "scroll": 390,
+        "title": "데이웰24 일상",
+        "width": 390
+      },
+      {
+        "file": "daywell24-notice.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "공지사항"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "공지사항 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-partners.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "제휴 서비스"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "제휴 서비스 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-payment.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "데이웰24 간편결제"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "데이웰24 간편결제 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-privacy.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "개인정보 처리방침"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "개인정보 처리방침 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-products.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "행사상품"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "행사 상품 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-signature.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "차별화 상품"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "차별화 상품 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-sitemap.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "사이트맵"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "사이트맵 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-store-garden.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "데이웰 가든점"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "데이웰 가든점 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-store-studio.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "데이웰 스튜디오점"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "데이웰 스튜디오점 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-stores.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [],
+        "images": [],
+        "scroll": 375,
+        "title": "매장찾기 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-terms.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "이용약관"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "이용약관 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-video-policy.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "고정형 영상정보처리기기 운영 관리방침"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "고정형 영상정보기기 운영 관리 방침 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "daywell24-youth-policy.html",
+        "body": 360,
+        "doc": 375,
+        "headings": [
+          "데이웰24 청소년 보호정책"
+        ],
+        "images": [],
+        "scroll": 375,
+        "title": "청소년 보호정책 - 데이웰24",
+        "width": 390
+      },
+      {
+        "file": "index.html",
+        "body": 375,
+        "doc": 375,
+        "headings": [],
+        "images": [],
+        "scroll": 375,
+        "title": "홈 - 데이웰24",
+        "width": 390
+      }
+    ],
+    "mobile320": [
+      {
+        "file": "index.html",
+        "body": 305,
+        "doc": 305,
+        "headings": [],
+        "images": [],
+        "scroll": 305,
+        "title": "홈 - 데이웰24",
+        "width": 320
+      },
+      {
+        "file": "daywell24-app.html",
+        "body": 290,
+        "doc": 305,
+        "headings": [],
+        "images": [],
+        "scroll": 305,
+        "title": "APP 서비스 - 데이웰24",
+        "width": 320
+      },
+      {
+        "file": "daywell24-products.html",
+        "body": 290,
+        "doc": 305,
+        "headings": [
+          "행사상품"
+        ],
+        "images": [],
+        "scroll": 305,
+        "title": "행사 상품 - 데이웰24",
+        "width": 320
+      },
+      {
+        "file": "daywell24-events.html",
+        "body": 290,
+        "doc": 305,
+        "headings": [
+          "진행중인 이벤트"
+        ],
+        "images": [],
+        "scroll": 305,
+        "title": "진행중인 이벤트 - 데이웰24",
+        "width": 320
+      },
+      {
+        "file": "daywell24-franchise-session.html",
+        "body": 305,
+        "doc": 305,
+        "headings": [
+          "창업 설명회"
+        ],
+        "images": [],
+        "scroll": 305,
+        "title": "창업 설명회 - 데이웰24",
+        "width": 320
+      },
+      {
+        "file": "daywell24-franchise-spaces.html",
+        "body": 290,
+        "doc": 305,
+        "headings": [
+          "추천 매장 소개"
+        ],
+        "images": [],
+        "scroll": 305,
+        "title": "추천 매장 소개 - 데이웰24",
+        "width": 320
+      },
+      {
+        "file": "daywell24-stores.html",
+        "body": 290,
+        "doc": 305,
+        "headings": [],
+        "images": [],
+        "scroll": 305,
+        "title": "매장찾기 - 데이웰24",
+        "width": 320
+      }
+    ],
+    "interactive": [
+      "event pause and next 20→01",
+      "monthly 2+1 shows second slider",
+      "store search routes to local store screen and filters fictional map",
+      "regional list opens",
+      "mobile layered menu opens",
+      "scroll header transforms by -28px"
+    ]
+  },
+  "limitations": [
+    "Content artwork and wording are different by request; text wrapping can change content height.",
+    "Backend APIs, map SDK, authentication and actual app downloads are local demos.",
+    "The original reference has legacy missing-element runtime faults; local guards do not modify active motion settings."
+  ],
+  "contentAssetDimensions": [
+    {
+      "file": "images/daywell24-content-d78c50e4ef0c.svg",
+      "width": 90,
+      "height": 76,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-6e07efb9b35a.svg",
+      "width": 92,
+      "height": 80,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-a6cfd220bbcf.svg",
+      "width": 90,
+      "height": 76,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-a9d477b0430f.svg",
+      "width": 90,
+      "height": 76,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-f5bc6ff29d98.svg",
+      "width": 90,
+      "height": 76,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-b36f075ebb2e.svg",
+      "width": 90,
+      "height": 76,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-54010d1e2e7c.svg",
+      "width": 2224,
+      "height": 532,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-772def7a3f10.svg",
+      "width": 2224,
+      "height": 532,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-1f64404c5b36.svg",
+      "width": 2224,
+      "height": 532,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-94aa140d086c.svg",
+      "width": 2224,
+      "height": 532,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-20a248d1e027.svg",
+      "width": 2224,
+      "height": 532,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-30844821a58b.svg",
+      "width": 2224,
+      "height": 532,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-333e9a78db0b.svg",
+      "width": 48,
+      "height": 48,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-f3e0ec524a64.svg",
+      "width": 40,
+      "height": 40,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-2208a82a1a7f.svg",
+      "width": 40,
+      "height": 40,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-a293aa4aee55.svg",
+      "width": 744,
+      "height": 480,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-be0f5963815b.svg",
+      "width": 744,
+      "height": 480,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-0c6b2fca5a06.svg",
+      "width": 536,
+      "height": 464,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-c126f5fbc83f.svg",
+      "width": 3264,
+      "height": 1920,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-f7faa1d47d19.svg",
+      "width": 1008,
+      "height": 1968,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-4adcbc9783ed.svg",
+      "width": 1008,
+      "height": 1968,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-bdc65a065503.svg",
+      "width": 1008,
+      "height": 1968,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-705d64dafb2a.svg",
+      "width": 1920,
+      "height": 150,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-978309dc833f.svg",
+      "width": 750,
+      "height": 120,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-10382da4ea87.svg",
+      "width": 1560,
+      "height": 474,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-a909d13a08e2.svg",
+      "width": 670,
+      "height": 400,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-1f8f4fa8d6dc.svg",
+      "width": 1584,
+      "height": 191,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-eb555e35dd70.svg",
+      "width": 670,
+      "height": 750,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-24a96c334fc4.svg",
+      "width": 1353,
+      "height": 660,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-0c66b4f88995.svg",
+      "width": 60,
+      "height": 60,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-83bf6822b8d6.svg",
+      "width": 108,
+      "height": 108,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-3a89455e4ce3.svg",
+      "width": 72,
+      "height": 72,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-c6a79f13255f.svg",
+      "width": 72,
+      "height": 72,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-562f653928b2.svg",
+      "width": 72,
+      "height": 72,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-fe12f43ae12e.svg",
+      "width": 72,
+      "height": 72,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-82c96a133a68.svg",
+      "width": 72,
+      "height": 72,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-efd89b780775.svg",
+      "width": 72,
+      "height": 72,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-2667c9fe4b4e.svg",
+      "width": 72,
+      "height": 72,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-2d9797f4b87b.svg",
+      "width": 72,
+      "height": 72,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-b01bfff5bfef.svg",
+      "width": 72,
+      "height": 72,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-1f5a4c8e90b6.svg",
+      "width": 90,
+      "height": 48,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-1eb6afa7ee8a.svg",
+      "width": 216,
+      "height": 48,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-c61960911e0d.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-26cb42379010.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-4d80db8f671f.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-a88003b9c278.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-2eed68b131dd.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-8418015573b5.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-270eb9e52e13.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-c9138f43ceb0.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-86beadeddd84.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-ec9a805ddb0b.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-12c16d01fbde.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-bc2dd4b6ed62.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-38a7c1ed4a68.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-f0ea6ed0a239.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-1eb0e3b1ed8a.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-aef6ba6aaf84.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-210693bd192f.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-bf81218ac8a8.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-3a15d5303fc8.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-e06ec5b4240a.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-35be5e55d645.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-ad245cc64df1.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-191c5c29467c.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-e8a1d7bc6f2e.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-bcc6a7b32ce6.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-3467b71f3504.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-bd1d2114ccb5.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-bdd0f190c536.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-eb2dc5338a8c.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-8e7e076bb863.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-faf9367ef4fc.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-ddc29c5bd072.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-bdd1f5b833e1.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-97ca49dcee7b.svg",
+      "width": 2080,
+      "height": 908,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-95101adaaa7a.svg",
+      "width": 670,
+      "height": 992,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-c5f85ae4d908.svg",
+      "width": 510,
+      "height": 478,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-2245cf8ce9b0.svg",
+      "width": 466,
+      "height": 450,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-8fb85798bdb4.svg",
+      "width": 466,
+      "height": 450,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-384efd09e6cd.svg",
+      "width": 466,
+      "height": 450,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-804ebd5dcdc3.svg",
+      "width": 466,
+      "height": 450,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-35bd0d28b47f.svg",
+      "width": 466,
+      "height": 450,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-619c951c34b9.svg",
+      "width": 1024,
+      "height": 1024,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-9e8827dc9061.svg",
+      "width": 728,
+      "height": 728,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-efdb26cbadc4.svg",
+      "width": 1024,
+      "height": 1024,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-f0aa512c79aa.svg",
+      "width": 728,
+      "height": 722,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-42da2647db9d.svg",
+      "width": 1024,
+      "height": 1024,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-92118121c47d.svg",
+      "width": 915,
+      "height": 920,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-b0bc59d02e9b.svg",
+      "width": 1024,
+      "height": 1024,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-f9788f5763f9.svg",
+      "width": 1024,
+      "height": 1024,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-b401a97fb0b3.svg",
+      "width": 1024,
+      "height": 1024,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-848145590a2c.svg",
+      "width": 1024,
+      "height": 1024,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-0537bebae5e6.svg",
+      "width": 1024,
+      "height": 1024,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-f86a38498e6a.svg",
+      "width": 1024,
+      "height": 1024,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-ddb2d799ebb9.svg",
+      "width": 1104,
+      "height": 1128,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-59bb481f0553.svg",
+      "width": 1024,
+      "height": 1024,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-d79ea97d579e.svg",
+      "width": 906,
+      "height": 1139,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-24d18e2305b3.svg",
+      "width": 1024,
+      "height": 1024,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-73e05d060117.svg",
+      "width": 906,
+      "height": 1139,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-62266b72b11f.svg",
+      "width": 1104,
+      "height": 1128,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-968bc86b610d.svg",
+      "width": 976,
+      "height": 980,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-4ceab16b2250.svg",
+      "width": 1024,
+      "height": 1024,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-2c1aee8d40bb.svg",
+      "width": 1024,
+      "height": 1024,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-4a54c553e656.svg",
+      "width": 912,
+      "height": 932,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-63125091942f.svg",
+      "width": 1024,
+      "height": 1024,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-7fe0637244a8.svg",
+      "width": 1024,
+      "height": 1024,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-61fe08a2ee85.svg",
+      "width": 1024,
+      "height": 1024,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-0998a57846a7.svg",
+      "width": 250,
+      "height": 200,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-337182726f86.svg",
+      "width": 514,
+      "height": 391,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-8e279f9c4fb6.svg",
+      "width": 1040,
+      "height": 248,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-cf82726eb501.svg",
+      "width": 1040,
+      "height": 4492,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-254925359b84.svg",
+      "width": 423,
+      "height": 250,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-7a4f3c3d1b44.svg",
+      "width": 431,
+      "height": 250,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-84ef3a7a80f4.svg",
+      "width": 431,
+      "height": 250,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-1489bfe1fbc4.svg",
+      "width": 130,
+      "height": 262,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-c42578be8b4e.svg",
+      "width": 130,
+      "height": 262,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-ba6e2ae5c704.svg",
+      "width": 130,
+      "height": 262,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-1892455eb8cd.svg",
+      "width": 130,
+      "height": 262,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-e6c80b7000f0.svg",
+      "width": 130,
+      "height": 262,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-cc51297e6e3d.svg",
+      "width": 423,
+      "height": 250,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-60655f7a7b00.svg",
+      "width": 423,
+      "height": 250,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-d92dc25e3a02.svg",
+      "width": 423,
+      "height": 250,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-f2c1f7c15a46.svg",
+      "width": 423,
+      "height": 250,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-173836266342.svg",
+      "width": 431,
+      "height": 250,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-69e248c2e9c6.svg",
+      "width": 431,
+      "height": 250,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-41755357120b.svg",
+      "width": 431,
+      "height": 250,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-ff2b93ca3bc2.svg",
+      "width": 431,
+      "height": 250,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-652412fb477d.svg",
+      "width": 431,
+      "height": 250,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-22bc35a14496.svg",
+      "width": 431,
+      "height": 250,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-63fe041137bd.svg",
+      "width": 431,
+      "height": 250,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-03fbaac3451e.svg",
+      "width": 431,
+      "height": 250,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-ea3b07ce6a45.svg",
+      "matched": false,
+      "reason": "cannot identify image file <_io.BytesIO object at 0x1047bcef0>"
+    },
+    {
+      "file": "images/daywell24-content-5d77b4b7a7f5.svg",
+      "width": 933,
+      "height": 592,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-121b101a7a42.svg",
+      "width": 935,
+      "height": 593,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-ce8cb2e69994.svg",
+      "width": 933,
+      "height": 592,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-b04dee0f20d2.svg",
+      "width": 935,
+      "height": 593,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-406534ebf38e.svg",
+      "width": 935,
+      "height": 592,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-a628c4922bec.svg",
+      "width": 933,
+      "height": 592,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-523d8495db9c.svg",
+      "width": 467,
+      "height": 295,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-e81ca0e7df34.svg",
+      "width": 935,
+      "height": 593,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-f26c6bc231d9.svg",
+      "width": 588,
+      "height": 588,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-840210231743.svg",
+      "width": 586,
+      "height": 586,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-a81b9f1af24c.svg",
+      "width": 587,
+      "height": 586,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-1fb6daca12ef.svg",
+      "width": 210,
+      "height": 47,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-806d5f998b0c.svg",
+      "width": 210,
+      "height": 45,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-1b6cb22c3a08.svg",
+      "width": 210,
+      "height": 47,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-20644bf5f9b7.svg",
+      "width": 210,
+      "height": 47,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-64ea5ca4f1f6.svg",
+      "width": 210,
+      "height": 47,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-65552735da28.svg",
+      "width": 210,
+      "height": 70,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-d5e735951202.svg",
+      "width": 210,
+      "height": 70,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-b17f12ad3b05.svg",
+      "width": 210,
+      "height": 70,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-9a9647fd70de.svg",
+      "width": 410,
+      "height": 137,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-521e8b96f9b0.svg",
+      "width": 429,
+      "height": 80,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-b759f34d327d.svg",
+      "width": 666,
+      "height": 416,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-c2e770d73631.svg",
+      "width": 666,
+      "height": 416,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-4d38ebb31c72.svg",
+      "width": 666,
+      "height": 416,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-3010c660af6f.svg",
+      "width": 666,
+      "height": 416,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-50f04667ba80.svg",
+      "width": 666,
+      "height": 416,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-b40c361feba7.svg",
+      "width": 666,
+      "height": 416,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-ec9c10d9dfb7.svg",
+      "width": 666,
+      "height": 416,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-4d9d52452242.svg",
+      "width": 666,
+      "height": 416,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-eb7d0f4455c9.svg",
+      "width": 666,
+      "height": 416,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-05c5c9d8a902.svg",
+      "width": 666,
+      "height": 416,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-b8223cee6439.svg",
+      "width": 666,
+      "height": 416,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-78316fc7186e.svg",
+      "width": 666,
+      "height": 416,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-3f304d762bae.svg",
+      "width": 666,
+      "height": 416,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-96b4321fce68.svg",
+      "width": 666,
+      "height": 416,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-b45ba161e112.svg",
+      "width": 666,
+      "height": 416,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-c52f3858f18b.svg",
+      "matched": false,
+      "reason": "cannot identify image file <_io.BytesIO object at 0x104676040>"
+    },
+    {
+      "file": "images/daywell24-content-3ea88531ef67.svg",
+      "width": 1440,
+      "height": 216,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-b531fb34dd2a.svg",
+      "width": 360,
+      "height": 156,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-043fb134797a.svg",
+      "width": 1040,
+      "height": 280,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-0a19ed4573f8.svg",
+      "width": 1040,
+      "height": 212,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-bb695e1a73ec.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-6fbd3fce7bd9.svg",
+      "width": 670,
+      "height": 648,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-a416557af6bf.svg",
+      "width": 1040,
+      "height": 777,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-53f269573267.svg",
+      "width": 1040,
+      "height": 462,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-8319ecdcfa47.svg",
+      "width": 670,
+      "height": 3462,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-43671f98c62f.svg",
+      "width": 670,
+      "height": 700,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-c3b4e2da9432.svg",
+      "width": 1040,
+      "height": 613,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-41d79eb1f9ca.svg",
+      "width": 670,
+      "height": 724,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-c2ed19107b55.svg",
+      "width": 333,
+      "height": 242,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-a3d54fc8da30.svg",
+      "width": 333,
+      "height": 242,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-8622162dce49.svg",
+      "width": 333,
+      "height": 242,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-6a600b06664b.svg",
+      "width": 333,
+      "height": 242,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-c37e64645a4a.svg",
+      "width": 333,
+      "height": 242,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-75eb8b487218.svg",
+      "width": 1062,
+      "height": 532,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-6c0497ea856f.svg",
+      "width": 1062,
+      "height": 532,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-936460031aec.svg",
+      "width": 1062,
+      "height": 428,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-6d5ec10975fa.svg",
+      "width": 1062,
+      "height": 428,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-474455f67329.svg",
+      "width": 1062,
+      "height": 429,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-2a6e00ac49ae.svg",
+      "width": 1062,
+      "height": 429,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-1fc75ea89dc5.svg",
+      "width": 694,
+      "height": 509,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-e1f4c47b12d4.svg",
+      "width": 694,
+      "height": 509,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-e7c925533bcb.svg",
+      "width": 700,
+      "height": 509,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-086ff4cf0146.svg",
+      "width": 694,
+      "height": 509,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-28ef4251ef68.svg",
+      "width": 694,
+      "height": 509,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-10f791776cd8.svg",
+      "width": 700,
+      "height": 509,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-9cc286b07ab3.svg",
+      "width": 694,
+      "height": 509,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-6729263a88b6.svg",
+      "width": 694,
+      "height": 509,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-147563076dd5.svg",
+      "width": 700,
+      "height": 509,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-c6a32f2c10b0.svg",
+      "width": 694,
+      "height": 509,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-f98f8720e940.svg",
+      "width": 694,
+      "height": 509,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-2288cd97c9c3.svg",
+      "width": 700,
+      "height": 509,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-302d977c3870.svg",
+      "width": 694,
+      "height": 509,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-3957615b5355.svg",
+      "width": 694,
+      "height": 509,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-eb4ceda7a5b5.svg",
+      "width": 701,
+      "height": 509,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-9e74ede91cc3.svg",
+      "width": 1062,
+      "height": 520,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-bc0f185b3029.svg",
+      "width": 670,
+      "height": 328,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-636e4a673909.svg",
+      "width": 1062,
+      "height": 520,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-2aceaaacbec8.svg",
+      "width": 670,
+      "height": 328,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-14445fb0f9e0.svg",
+      "width": 1062,
+      "height": 520,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-5f756f6814eb.svg",
+      "width": 670,
+      "height": 340,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-ffd29e35014e.svg",
+      "width": 1062,
+      "height": 520,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-8c5ac6a7a05c.svg",
+      "width": 670,
+      "height": 340,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-d1a29b89879c.svg",
+      "width": 2160,
+      "height": 540,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-0ecded5b7749.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-f3c20b73ceec.svg",
+      "width": 2160,
+      "height": 540,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-57b0327d3a07.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-ea522ea21f6b.svg",
+      "width": 1062,
+      "height": 638,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-7d4f65b37a87.svg",
+      "width": 328,
+      "height": 240,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-ea0ea4d8dc2e.svg",
+      "width": 1062,
+      "height": 638,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-4c3a7c5ecd4d.svg",
+      "width": 326,
+      "height": 240,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-4a48eca648a8.svg",
+      "width": 2160,
+      "height": 424,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-a8060109aa0c.svg",
+      "width": 670,
+      "height": 304,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-bd0a7cdc2104.svg",
+      "width": 670,
+      "height": 304,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-6c5b23210c6f.svg",
+      "width": 2162,
+      "height": 428,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-b39fb5a1ab5c.svg",
+      "width": 670,
+      "height": 356,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-925d0d996274.svg",
+      "width": 2160,
+      "height": 720,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-480080bb8658.svg",
+      "width": 670,
+      "height": 224,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-032a9e3d7336.svg",
+      "width": 2162,
+      "height": 428,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-1ea7790eb926.svg",
+      "width": 670,
+      "height": 436,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-3f4c09f394e9.svg",
+      "width": 2160,
+      "height": 720,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-98370e7a9b2e.svg",
+      "width": 670,
+      "height": 224,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-b2909b7cf58c.svg",
+      "width": 2162,
+      "height": 428,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-232d164a4c2d.svg",
+      "width": 670,
+      "height": 436,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-1562caad7db6.svg",
+      "width": 2160,
+      "height": 720,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-db95db42e5ac.svg",
+      "width": 670,
+      "height": 224,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-c9ff4102ac5d.svg",
+      "width": 2162,
+      "height": 542,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-08f03470f802.svg",
+      "width": 670,
+      "height": 532,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-0c998853833d.svg",
+      "width": 2160,
+      "height": 828,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-b5f0f6022924.svg",
+      "width": 670,
+      "height": 258,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-4b9202b4761e.svg",
+      "width": 1062,
+      "height": 638,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-fac4f09ffd9a.svg",
+      "width": 1062,
+      "height": 638,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-0f07a3f3dd67.svg",
+      "width": 1062,
+      "height": 638,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-cb4184b4a647.svg",
+      "width": 1062,
+      "height": 638,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-afa4136968ae.svg",
+      "width": 1062,
+      "height": 638,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-b7a76563f3fe.svg",
+      "width": 1062,
+      "height": 638,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-3db9f54b539b.svg",
+      "width": 670,
+      "height": 242,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-e66334f965d1.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-7c9942cddebb.svg",
+      "width": 670,
+      "height": 282,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-d2a0895260be.svg",
+      "width": 670,
+      "height": 282,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-256ad78fd37d.svg",
+      "width": 670,
+      "height": 282,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-9991e85aba4a.svg",
+      "width": 670,
+      "height": 282,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-31f05228cbaf.svg",
+      "width": 2160,
+      "height": 1026,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-921626a4e954.svg",
+      "width": 670,
+      "height": 318,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-95b003b8ffe2.svg",
+      "width": 1062,
+      "height": 428,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-36ca2070890d.svg",
+      "width": 326,
+      "height": 158,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-764fe922893e.svg",
+      "width": 1062,
+      "height": 428,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-6bc7c6e979a3.svg",
+      "width": 328,
+      "height": 158,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-fa70d0da2c96.svg",
+      "width": 2160,
+      "height": 974,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-704cfa0e6ee4.svg",
+      "width": 670,
+      "height": 302,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-bd4512314693.svg",
+      "width": 2160,
+      "height": 973,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-2a946525205c.svg",
+      "width": 670,
+      "height": 302,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-2890e75808f3.svg",
+      "width": 1062,
+      "height": 1229,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-c550066cc84d.svg",
+      "width": 330,
+      "height": 382,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-b4279b4066ea.svg",
+      "width": 1062,
+      "height": 1229,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-21e2ab4165d3.svg",
+      "width": 330,
+      "height": 381,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-05957ca7913d.svg",
+      "width": 708,
+      "height": 1001,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-45a2b9ab339d.svg",
+      "width": 220,
+      "height": 312,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-45e1afc07720.svg",
+      "width": 1414,
+      "height": 1001,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-a9a0fc3c242a.svg",
+      "width": 439,
+      "height": 312,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-f5d0846b04da.svg",
+      "width": 696,
+      "height": 570,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-db9ce0a42b50.svg",
+      "width": 216,
+      "height": 177,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-3b27c4952da6.svg",
+      "width": 696,
+      "height": 570,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-94af830268bd.svg",
+      "width": 217,
+      "height": 177,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-fea12b52ea9b.svg",
+      "width": 696,
+      "height": 570,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-9e485d1d706b.svg",
+      "width": 217,
+      "height": 177,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-7482efafbd19.svg",
+      "width": 189,
+      "height": 293,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-0970747e3821.svg",
+      "width": 189,
+      "height": 294,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-d341b494fdcf.svg",
+      "width": 291,
+      "height": 143,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-1a854532a0cf.svg",
+      "width": 298,
+      "height": 153,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-2eb99a97b03c.svg",
+      "width": 355,
+      "height": 164,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-60461a8109ea.svg",
+      "width": 266,
+      "height": 240,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-5211a2368a6e.svg",
+      "width": 267,
+      "height": 240,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-a7fe16661bb6.svg",
+      "width": 265,
+      "height": 235,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-0869b54ae998.svg",
+      "matched": false,
+      "reason": "cannot identify image file <_io.BytesIO object at 0x1046bf900>"
+    },
+    {
+      "file": "images/daywell24-content-687e42f5cbe7.svg",
+      "width": 1314,
+      "height": 2046,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-2f1b0f1a52bd.svg",
+      "width": 1140,
+      "height": 929,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-3f33e1243f42.svg",
+      "width": 1140,
+      "height": 864,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-5502b7312005.svg",
+      "width": 2208,
+      "height": 1986,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-7b0a2d1b06ef.svg",
+      "width": 216,
+      "height": 217,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-6a51cbd96740.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-98e38617f0df.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-a53f00ef49c9.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-6d6db4ff8078.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-8687fe9c3e34.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-33c32d7ae76e.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-b96d75a20ca5.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-84d7fad13886.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-1835ba7e7c0e.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-2b0aafc67f48.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-52be56fb9d56.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-5fbde1e06486.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-82e81a7c5000.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-516ff2e000b0.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-c7ad8c95a3d6.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-cdfefe965e90.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-ec935604521c.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-81cb21bd363b.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-63aa68604c58.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-70bd87f47578.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-a87d3b7e8c06.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-12ed325ef760.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-dc83671ee44b.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-402e1f796481.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-55b98cc4b616.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-e59d7be3dcf2.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-091bdcf77a3d.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-785adb783f11.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-5bed4d22cd32.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-a80e55ea809d.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-bfddf095c337.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-3437f536b421.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-870862f98472.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-ec5e0d689762.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-690a14d7df2d.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-dd757e9d30ee.svg",
+      "width": 670,
+      "height": 320,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-6515b24bf0b5.svg",
+      "width": 638,
+      "height": 479,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-5ab2da704333.svg",
+      "width": 2080,
+      "height": 256,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-a94e10515d99.svg",
+      "width": 670,
+      "height": 286,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-0925b9bb3801.svg",
+      "width": 2224,
+      "height": 532,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-2ebfdc32ee5b.svg",
+      "width": 2224,
+      "height": 532,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-9618e9e9f5f9.svg",
+      "width": 2224,
+      "height": 532,
+      "matched": true
+    },
+    {
+      "file": "images/daywell24-content-231681c85551.svg",
+      "width": 2224,
+      "height": 532,
+      "matched": true
+    }
+  ]
+}

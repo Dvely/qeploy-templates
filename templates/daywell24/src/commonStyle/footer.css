@@ -1,0 +1,5 @@
+@media (max-width: 744px) {
+    footer .footerContentsWrap .companyInfoWrap .infoWrap {
+        position: absolute;
+    }
+}

@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <script src="daywell24-data.js"></script><meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="Description">
+    <meta content="매장찾기 - 데이웰24" property="og:title">
+    <meta content="" property="og:description">
+    <meta content="" property="og:image">
+    <meta content="" property="og:url">
+    <meta content="ko_KR" property="og:locale">
+    <meta content="website" property="og:type">
+    <meta content="매장찾기 - 데이웰24" property="og:site_name">
+    <link href="assets/store/style/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="commonStyle/header.css">
+<link rel="stylesheet" href="commonStyle/footer.css">
+<title>매장찾기 - 데이웰24</title>
+<link rel="stylesheet" href="daywell24-local.css"></head>
+<body data-daywell-page="stores">
+<input type="hidden" id="nbrLicsYn" name="nbrLicsYn" value="">
+<input type="hidden" id="useYn" name="useYn" value="">
+<header class="header">
+        
+        <div class="mobGnbWrap">
+            <div class="headerThemaChange">
+                <div class="firstBack"></div>
+                <div class="seconBack"></div>
+                <div class="thrdBack"></div>
+            </div>
+            <ul class="mobGnbs">
+                <li onclick="mobGnbTwodepOpen(this)" class="mobGnb">
+                    <div class="ondepthWrap">
+                        <div class="titleWrap">
+                            <div class="iconWrap">
+                                <img src="images/daywell24-menu-brand.svg" alt="">
+                            </div>
+                            <h1 class="mobGnbName">브랜드 스토리</h1>
+                        </div>
+                        <div class="dropIconWrap">
+                            <img src="assets/assets/imgs/arrowOrange.png" alt=""> </div>
+                    </div>
+                    <div class="twodepthWrap">
+                        <h2 class="twodepthName"><a href="daywell24-brand.html">브랜드 가치</a></h2> <h2 class="twodepthName"><a href="daywell24-brand-gallery.html">브랜드 갤러리</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-brand-resources.html">브랜드 리소스센터</a></h2>
+                    </div>
+                </li>
+                <li onclick="mobGnbTwodepOpen(this)" class="mobGnb">
+                    <div class="ondepthWrap">
+                        <div class="titleWrap">
+                            <div class="iconWrap">
+                                <img src="images/daywell24-menu-product.svg" alt="">
+                            </div>
+                            <h1 class="mobGnbName">상품</h1>
+                        </div>
+                        <div class="dropIconWrap">
+                            <img src="assets/assets/imgs/arrowOrange.png" alt=""> </div>
+                    </div>
+                    <div class="twodepthWrap">
+                        <h2 class="twodepthName"><a href="daywell24-products.html">행사 상품</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-signature.html">차별화 상품</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-fresh-food.html">Fresh Food</a></h2>
+                         </div>
+                </li>
+                <li onclick="mobGnbTwodepOpen(this)" class="mobGnb">
+                    <div class="ondepthWrap">
+                        <div class="titleWrap">
+                            <div class="iconWrap">
+                                <img src="assets/assets/imgs/mobGnbIcon/store.png" alt="">
+                            </div>
+                            <h1 class="mobGnbName">매장</h1>
+                        </div>
+                        <div class="dropIconWrap">
+                            <img src="assets/assets/imgs/arrowOrange.png" alt=""> </div>
+                    </div>
+                    <div class="twodepthWrap">
+                        <h2 class="twodepthName"><a href="daywell24-stores.html">매장찾기</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-store-studio.html">성수스튜디오점</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-store-garden.html">가든라운지점</a></h2>
+                    </div>
+                </li>
+                <li onclick="mobGnbTwodepOpen(this)" class="mobGnb">
+                    <div class="ondepthWrap">
+                        <div class="titleWrap">
+                            <div class="iconWrap">
+                                <img src="assets/assets/imgs/mobGnbIcon/service.png" alt="">
+                            </div>
+                            <h1 class="mobGnbName">서비스</h1>
+                        </div>
+                        <div class="dropIconWrap">
+                            <img src="assets/assets/imgs/arrowOrange.png" alt=""> </div>
+                    </div>
+                    <div class="twodepthWrap">
+                        <h2 class="twodepthName"><a href="daywell24-app.html">APP 서비스</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-payment.html">데이웰24 간편결제</a></h2> <h2 class="twodepthName"><a href="daywell24-life-services.html">생활 서비스</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-partners.html">제휴 서비스</a></h2>
+                    </div>
+                </li>
+                <li onclick="mobGnbTwodepOpen(this)" class="mobGnb">
+                    <div class="ondepthWrap">
+                        <div class="titleWrap">
+                            <div class="iconWrap">
+                                <img src="assets/assets/imgs/mobGnbIcon/event.png" alt="">
+                            </div>
+                            <h1 class="mobGnbName">이벤트</h1>
+                        </div>
+                        <div class="dropIconWrap">
+                            <img src="assets/assets/imgs/arrowOrange.png" alt=""> </div>
+                    </div>
+                    <div class="twodepthWrap">
+                        <h2 class="twodepthName"><a href="daywell24-events.html">진행중인 이벤트</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-events-ended.html">종료된 이벤트</a></h2>
+                    </div>
+                </li>
+                <li onclick="mobGnbTwodepOpen(this)" class="mobGnb">
+                    <div class="ondepthWrap">
+                        <div class="titleWrap">
+                            <div class="iconWrap">
+                                <img src="assets/assets/imgs/mobGnbIcon/business.png" alt="">
+                            </div>
+                            <h1 class="mobGnbName">창업안내</h1>
+                        </div>
+                        <div class="dropIconWrap">
+                            <img src="assets/assets/imgs/arrowOrange.png" alt=""> </div>
+                    </div>
+                    <div class="twodepthWrap">
+                        <h2 class="twodepthName"><a href="daywell24-franchise-features.html">데이웰24 특징</a></h2> <h2 class="twodepthName"><a href="daywell24-franchise-models.html">가맹모델 소개</a></h2> <h2 class="twodepthName"><a href="daywell24-franchise-session.html">창업 설명회</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-franchise-stories.html">창업 성공기</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-franchise-contact.html">창업 상담</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-franchise-spaces.html">추천 매장 소개</a></h2>
+                    </div>
+                </li>
+            </ul>
+            <ul class="mobTopMenus">
+                <li class="mobTopMenu">
+                    <h1 class="topMenuName"><a href="daywell24-advertising.html">광고문의</a></h1> <div class="dropIconWrap">
+                        <img src="assets/assets/imgs/arrowYellow.png" alt="">
+                    </div>
+                </li>
+                <li class="mobTopMenu">
+                    <h1 class="topMenuName"><a href="daywell24-helpdesk.html">고객센터</a></h1>
+                    <div class="dropIconWrap">
+                        <img src="assets/assets/imgs/arrowYellow.png" alt="">
+                    </div>
+                </li>
+                <li class="mobTopMenu">
+                    <h1 class="topMenuName">
+                        <a href="daywell24-career.html">
+                            채용안내
+                        </a>
+                    </h1>
+                    <div class="dropIconWrap">
+                        <img src="assets/assets/imgs/arrowYellow.png" alt="">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="viewHeaderWrap">
+            <div class="topSubHeader">
+                <div class="snbWrap">
+                    <ul class="snb">
+                        <li class="snbMenu">
+                            <span class="text"><a href="daywell24-advertising.html">광고문의</a></span> </li>
+                        <li class="snbMenu">
+                            <span class="text"><a href="daywell24-helpdesk.html">고객센터</a></span>
+                        </li>
+                        <li class="snbMenu">
+                            <span class="text">
+                                <a href="daywell24-career.html">
+                                    채용안내
+                                </a>
+                            </span>
+                        </li>
+                        <li class="snbMenu">
+                            <span class="text">
+                                <a href="daywell24-contracts.html">전자 계약 시스템</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="topHeader">
+
+                <div class="left only_mo">
+                    <h1 class="mainLogo">
+                        <a href="index.html"><img src="images/daywell24-logo.svg" alt="홈 - 데이웰24"></a>
+                    </h1>
+                </div>
+
+                <div class="left only_pc">
+                    <div class="flip_wrap">
+                        <div class="flip_front">
+                            <h1 class="mainLogo"><a href="index.html"><img src="images/daywell24-logo.svg" alt="daywell24"></a></h1>
+                        </div>
+                        <div class="flip_back">
+                            <h1 class="mainLogo"><a href="index.html"><img src="images/daywell24-header-slogan.svg" alt="GOOD DAY DAYWELL24"></a></h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="center">
+                    <div class="gnbWrap">
+                        <ul class="gnb">
+                            <div class="lnbWrap"></div>
+                            <li class="gnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-brand.html"><span class="text">브랜드 스토리</span></a> </div>
+                                <ul class="lnb">
+                                    <li><a href="daywell24-brand.html">브랜드 가치</a></li> <li><a href="daywell24-brand-gallery.html">브랜드 갤러리</a></li>
+                                    <li><a href="daywell24-brand-resources.html">브랜드 리소스센터</a></li>
+                                </ul>
+                            </li>
+                            <li class="gnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-products.html"><span class="text">상품</span></a>
+                                </div>
+                                <ul class="lnb">
+                                    <li><a href="daywell24-products.html">행사 상품</a></li>
+                                    <li><a href="daywell24-signature.html">차별화 상품</a></li>
+                                    <li><a href="daywell24-fresh-food.html">Fresh Food</a></li>
+                                     </ul>
+                            </li>
+                            <li class="gnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-stores.html"><span class="text">매장</span></a>
+                                </div>
+                                <ul class="lnb">
+                                    <li><a href="daywell24-stores.html">매장찾기</a></li>
+                                    <li><a href="daywell24-store-studio.html">성수스튜디오점</a></li>
+                                    <li><a href="daywell24-store-garden.html">가든라운지점</a></li>
+                                </ul>
+                            </li>
+                            <li class="gnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-app.html"><span class="text">서비스</span></a>
+                                </div>
+                                <ul class="lnb">
+                                    <li><a href="daywell24-app.html">APP 서비스</a></li>
+                                    <li><a href="daywell24-payment.html">데이웰24 간편결제</a></li> <li><a href="daywell24-life-services.html">생활 서비스</a></li>
+                                    <li><a href="daywell24-partners.html">제휴 서비스</a></li>
+                                </ul>
+                            </li>
+                            <li class="gnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-events.html"><span class="text">이벤트</span></a>
+                                </div>
+                                <ul class="lnb">
+                                    <li><a href="daywell24-events.html">진행중인 이벤트</a></li>
+                                    <li><a href="daywell24-events-ended.html">종료된 이벤트</a></li>
+                                </ul>
+                            </li>
+                            <li class="gnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-franchise.html"><span class="text">창업안내</span></a>
+                                </div>
+                                <ul class="lnb">
+                                    <li><a href="daywell24-franchise-features.html">데이웰24 특징</a></li> <li><a href="daywell24-franchise-models.html">가맹모델 소개</a></li> <li><a href="daywell24-franchise-session.html">창업 설명회</a></li>
+                                    <li><a href="daywell24-franchise-stories.html">창업 성공기</a></li>
+                                    <li><a href="daywell24-franchise-contact.html">창업 상담</a></li>
+                                    <li><a href="daywell24-franchise-spaces.html">추천 매장 소개</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div onclick="mobGnbOpen(this)" class="right"></div>
+            </div>
+        </div>
+        <div class="bottomHeader">
+        <div class="viewHeaderWrap">
+            <div class="bottomHeaderContents">
+                <div class="curMenu">
+                    <h2 class="text">매장</h2>
+                </div>
+                <div class="lngWrap">
+                    <ul class="lnb">
+                        <li class="lnbMenu">
+                            <div class="textWrap focus">
+                                <a href="daywell24-stores.html"><span class="text">매장 찾기</span></a>
+                            </div>
+                        </li>
+                        <li class="lnbMenu">
+                            <div class="textWrap">
+                                <a href="daywell24-store-studio.html"><span class="text">성수스튜디오점</span></a>
+                            </div>
+                        </li>
+                        <li class="lnbMenu">
+                            <div class="textWrap">
+                                <a href="daywell24-store-garden.html"><span class="text">가든라운지점</span></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    </header>
+
+<div class="storePopup">
+    <div class="contents">
+        <div class="titleWrap">
+            <h1>매장안내</h1>
+            <div class="closeIcon"><img src="assets/assets/imgs/blackClose.png" alt=""></div>
+        </div>
+        <div class="storeContents">
+            <div class="storeImg">
+                <img alt="" src="images/daywell24-content-24a96c334fc4.svg">
+            </div>
+            <div class="storeTitle">
+                <span class="title">데이웰24 본점</span>
+                <span class="badge"> 무인영업중 </span>
+            </div>
+            <div class="storeBasicInfo">
+                        <span class="placeInfo">서울 성동구 광나루로 310 푸조비즈타워 101호</span>
+                <div class="tableInfo">
+                    <div class="timeInfo">
+                        <div class="title">
+                            <h2>영업시간</h2>
+                        </div>
+                        <span class="open_close_time">07:00 ~ 01:00</span>
+                    </div>
+                    <div class="line"></div>
+                    <div class="autoTimeInfo">
+                        <div class="title">
+                            <h2>무인운영시간</h2>
+                        </div>
+                        <span class="auto_open_close_time">07:00 ~ 01:00</span>
+                    </div>
+                    <div class="line"></div>
+                    <div class="numberInfo">
+                        <div class="title">
+                            <h2>전화번호</h2>
+                        </div>
+                        <span>000-0000-0000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="storeServiceInfo">
+                <div class="storeServiceTitleWrap">
+                    <h1>제공서비스</h1>
+                </div>
+                <ul class="serviceList"></ul>
+            </div>
+        </div>
+        <div class="btnWrap">
+            <div class="normalButton">
+                <span>닫기</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="viewContentsWrap">
+    <div class="mainContents">
+        <div class="storeView">
+
+            <a class="myLocationReSearch" data-cur="current">
+                <img alt="내 위치로 이동" src="images/daywell24-content-0c66b4f88995.svg">
+                <span>현 위치에서 검색</span>
+            </a>
+            <div class="myLocation">
+                <img alt="내 위치로 이동" src="images/daywell24-content-83bf6822b8d6.svg">
+            </div>
+            <div class="mapView" id="map">
+                </div>
+            <div class="mapSideToolTab">
+                <div class="sideToolToggleBtn" onclick="toggleSideTollTab(this,event)">
+                    <div class="icon">
+                        <img alt="" src="assets/assets/imgs/arrowDown.png">
+                    </div>
+                </div>
+                <div class="sideScrollWrap">
+                    <div class="topFixedMenu">
+                        <div class="searchOption availableHide">
+                            <div class="titleWrap">지역선택</div>
+                            <div class="choicePlace">
+                                <div class="choicePlaceItem sidoWrap">
+                                    <div class="placeHolderWrap">
+                                                <span class="choiceVal sido">지역</span>
+                                        <div class="icon"></div>
+                                    </div>
+                                    <ul class="valueList sidoList" style="overflow: scroll; max-height: 60vh">
+                                    </ul>
+
+                                </div>
+
+                                <div class="choicePlaceItem gunguWrap">
+                                    <div class="placeHolderWrap">
+                                                <span class="choiceVal gungu">군/구</span>
+                                        <div class="icon"></div>
+                                    </div>
+                                    <ul class="valueList gunguList" style="overflow: scroll; max-height: 60vh">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="choicePlaceDetail" style="margin-top: 10px;">
+                                <div class="searchBarWrap">
+                                    <input class="searchBar" placeholder="매장검색" type="text">
+                                    <div class="searchBtn">
+                                        <div class="icon searchIcon"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="searchOption">
+                            <div class="titleWrap">
+                                제공 서비스 선택
+                            </div>
+                            <ul class="choiceServiceTag iconList">
+                                <li class="tag allDayTimeS">
+                                    <div class="icon" title="24시간">
+                                        <img alt="" data-icon="SVR_24" src="assets/assets/imgs/serviceIcons/SVR_24.png">
+                                    </div>
+                                    <span class="serviceTitle">24시간</span>
+                                </li>
+                                <li class="tag autoStoreS">
+                                    <div class="icon" title="무인매장">
+                                        <img alt="" data-icon="SVR_AUTO" src="assets/assets/imgs/serviceIcons/SVR_AUTO.png">
+                                    </div>
+                                    <span class="serviceTitle">무인매장</span>
+                                </li>
+                                <li class="tag deliveryS">
+                                    <div class="icon" title="택배">
+                                        <img alt="" data-icon="SVR_PARCEL" src="assets/assets/imgs/serviceIcons/SVR_PARCEL.png">
+                                    </div>
+                                    <span class="serviceTitle">택배</span>
+                                </li>
+                                <li class="tag atmS">
+                                    <div class="icon" title="ATM">
+                                        <img alt="" data-icon="SVR_ATM" src="assets/assets/imgs/serviceIcons/SVR_ATM.png">
+                                    </div>
+                                    <span class="serviceTitle">ATM</span>
+                                </li>
+                                <li class="tag wineS">
+                                    <div class="icon" title="와인">
+                                        <img alt="" data-icon="SVR_WINE" src="assets/assets/imgs/serviceIcons/SVR_WINE.png">
+                                    </div>
+                                    <span class="serviceTitle">와인</span>
+                                </li>
+                                <li class="tag coffeeS">
+                                    <div class="icon" title="커피">
+                                        <img alt="" data-icon="SVR_COFFEE" src="assets/assets/imgs/serviceIcons/SVR_COFFEE.png">
+                                    </div>
+                                    <span class="serviceTitle">커피</span>
+                                </li>
+                                <li class="tag smoothieS">
+                                    <div class="icon" title="스무디">
+                                        <img alt="" data-icon="SVR_SMOOTH" src="assets/assets/imgs/serviceIcons/SVR_SMOOTH.png">
+                                    </div>
+                                    <span class="serviceTitle">스무디</span>
+                                </li>
+<li class="tag appleS">
+                                    <div class="icon" title="애플악세서리">
+                                        <img alt="" data-icon="SVR_APPLE" src="assets/assets/imgs/serviceIcons/SVR_APPLE.png">
+                                    </div>
+                                    <span class="serviceTitle">애플악세서리</span>
+                                </li>
+                                <li class="tag pickUpS">
+                                    <div class="icon" title="토토">
+                                        <img alt="" data-icon="SVR_TOTO" src="assets/assets/imgs/serviceIcons/SVR_TOTO.png">
+                                    </div>
+                                    <span class="serviceTitle">토토</span>
+                                </li>
+                                <li class="tag nobrandS">
+                                    <div class="icon" title="데일리픽">
+                                        <img alt="" data-icon="NBR_LICS_YN" src="assets/assets/imgs/serviceIcons/SVR_NOBRAND.png">
+                                    </div>
+                                    <span class="serviceTitle">데일리픽</span>
+                                </li>
+</ul>
+                            <div class="fixedToolHideBtn" onclick="hideFilter()">
+                                <span>검색필터 접기</span>
+                                <div class="icon"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listScrollWrap">
+                        <ul class="searchResultList">
+                            <li class="searchResult store-00766" data-store_code="00766">
+                                <div class="titleWrap"><span class="title">데이웰24본점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 광나루로 310 푸조비즈타워 101호</span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-c6a79f13255f.svg" alt="무인운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-fe12f43ae12e.svg" alt="atm운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-82c96a133a68.svg" alt="와인취급매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-2667c9fe4b4e.svg" alt="스무디 운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-2d9797f4b87b.svg" alt="애플악세사리운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag nobrand">
+                                            <div class="icon"><img src="images/daywell24-content-1f5a4c8e90b6.svg" alt="데일리픽 운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag coupon">
+                                            <div class="icon"><img src="images/daywell24-content-1eb6afa7ee8a.svg" alt="민생회복 소비쿠폰"></div>
+                                        </li>
+                                        </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-01516" data-store_code="01516">
+                                <div class="titleWrap"><span class="title">자양우성점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 광진구 능동로10길 109(자양동) </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-fe12f43ae12e.svg" alt="atm운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag coupon">
+                                            <div class="icon"><img src="images/daywell24-content-1eb6afa7ee8a.svg" alt="민생회복 소비쿠폰"></div>
+                                        </li>
+                                        </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-02128" data-store_code="02128">
+                                <div class="titleWrap"><span class="title">광진화양점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 광진구 아차산로25길 77(화양동) </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-3a89455e4ce3.svg" alt="24시간운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-02633" data-store_code="02633">
+                                <div class="titleWrap"><span class="title">성동연무장점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 연무장길 58-1 (성수동2가) </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">실제 상담을 접수하지 않습니다</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-3a89455e4ce3.svg" alt="24시간운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-02934" data-store_code="02934">
+                                <div class="titleWrap"><span class="title">광진군자점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 광진구 광나루로 355 (군자동 고려산부인과)</span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-3a89455e4ce3.svg" alt="24시간운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-fe12f43ae12e.svg" alt="atm운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-82c96a133a68.svg" alt="와인취급매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-03208" data-store_code="03208">
+                                <div class="titleWrap"><span class="title">성수백영점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 성수일로 56(성수동2가) </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-c6a79f13255f.svg" alt="무인운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-82c96a133a68.svg" alt="와인취급매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-2667c9fe4b4e.svg" alt="스무디 운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-2d9797f4b87b.svg" alt="애플악세사리운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-03943" data-store_code="03943">
+                                <div class="titleWrap"><span class="title">군자CGV점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 광진구 능동로 285 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">실제 상담을 접수하지 않습니다</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-3a89455e4ce3.svg" alt="24시간운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-04258" data-store_code="04258">
+                                <div class="titleWrap"><span class="title">성수이로점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 연무장18길 12 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-04305" data-store_code="04305">
+                                <div class="titleWrap"><span class="title">성수삼환점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 아차산로15길 52 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-fe12f43ae12e.svg" alt="atm운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-82c96a133a68.svg" alt="와인취급매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-2d9797f4b87b.svg" alt="애플악세사리운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-04492" data-store_code="04492">
+                                <div class="titleWrap"><span class="title">성수뚝도점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 성덕정11길 20-1 1층</span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-3a89455e4ce3.svg" alt="24시간운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-82c96a133a68.svg" alt="와인취급매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-2d9797f4b87b.svg" alt="애플악세사리운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-04965" data-store_code="04965">
+                                <div class="titleWrap"><span class="title">성동플라이쿱점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 동일로 287 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-fe12f43ae12e.svg" alt="atm운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-82c96a133a68.svg" alt="와인취급매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-05291" data-store_code="05291">
+                                <div class="titleWrap"><span class="title">화양가중점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 광진구 능동로 13길 103 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-3a89455e4ce3.svg" alt="24시간운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-82c96a133a68.svg" alt="와인취급매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-05432" data-store_code="05432">
+                                <div class="titleWrap"><span class="title">세종대후문점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 광진구 군자로 133 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-3a89455e4ce3.svg" alt="24시간운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-c6a79f13255f.svg" alt="무인운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-82c96a133a68.svg" alt="와인취급매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-05446" data-store_code="05446">
+                                <div class="titleWrap"><span class="title">서울숲뚝섬점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 왕십리로14길 30-3 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-82c96a133a68.svg" alt="와인취급매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-06014" data-store_code="06014">
+                                <div class="titleWrap"><span class="title">R성수역점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 성수이로 113 1층</span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-3a89455e4ce3.svg" alt="24시간운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-82c96a133a68.svg" alt="와인취급매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-2d9797f4b87b.svg" alt="애플악세사리운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-06466" data-store_code="06466">
+                                <div class="titleWrap"><span class="title">서울숲ITCT점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 성수일로 10 104호</span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;"></div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-c6a79f13255f.svg" alt="무인운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-82c96a133a68.svg" alt="와인취급매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-2d9797f4b87b.svg" alt="애플악세사리운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-06636" data-store_code="06636">
+                                <div class="titleWrap"><span class="title">성동송정점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 광나루로11길 4 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;"></div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-3a89455e4ce3.svg" alt="24시간운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-82c96a133a68.svg" alt="와인취급매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-07164" data-store_code="07164">
+                                <div class="titleWrap"><span class="title">성수한라점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 성수이로7길 7 103~104호</span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-3a89455e4ce3.svg" alt="24시간운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-82c96a133a68.svg" alt="와인취급매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-2d9797f4b87b.svg" alt="애플악세사리운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-08142" data-store_code="08142">
+                                <div class="titleWrap"><span class="title">광진코지웰점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 광진구 능동로19길 35(화양동, 광진 코지웰) </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-3a89455e4ce3.svg" alt="24시간운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-fe12f43ae12e.svg" alt="atm운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-82c96a133a68.svg" alt="와인취급매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-20883" data-store_code="20883">
+                                <div class="titleWrap"><span class="title">R화양사거리점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 광나루로 328 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;"></div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-c6a79f13255f.svg" alt="무인운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-82c96a133a68.svg" alt="와인취급매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-2667c9fe4b4e.svg" alt="스무디 운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-21593" data-store_code="21593">
+                                <div class="titleWrap"><span class="title">성수AK점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 연무장길 76 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-3a89455e4ce3.svg" alt="24시간운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-c6a79f13255f.svg" alt="무인운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-82c96a133a68.svg" alt="와인취급매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-2d9797f4b87b.svg" alt="애플악세사리운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-21746" data-store_code="21746">
+                                <div class="titleWrap"><span class="title">건대차이나점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 광진구 동일로18길 44 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="searchResult store-21772" data-store_code="21772">
+                                <div class="titleWrap"><span class="title">self제인병원점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 광나루로 243 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;"></div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-22547" data-store_code="22547">
+                                <div class="titleWrap"><span class="title">한양대학교인문관점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 왕십리로 222 인문관 B1</span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;"></div>
+                                </div>
+                            </li>
+                            <li class="searchResult store-22556" data-store_code="22556">
+                                <div class="titleWrap"><span class="title">광진프라임점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 광진구 동일로 92-1 1층</span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="searchResult store-22626" data-store_code="22626">
+                                <div class="titleWrap"><span class="title">세종대기숙사점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 광진구 군자로 121 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-c6a79f13255f.svg" alt="무인운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-23192" data-store_code="23192">
+                                <div class="titleWrap"><span class="title">호반중한점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 광진구 능동로 69 상가 104호 105호</span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;"></div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-23618" data-store_code="23618">
+                                <div class="titleWrap"><span class="title">세종대광개토관점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 광진구 능동로 209 세종대학교 광개토관 B1</span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-3a89455e4ce3.svg" alt="24시간운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-c6a79f13255f.svg" alt="무인운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-23623" data-store_code="23623">
+                                <div class="titleWrap"><span class="title">세종대율곡관점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 광진구 능동로 209 세종대학교 율곡관B1</span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="searchResult store-23660" data-store_code="23660">
+                                <div class="titleWrap"><span class="title">R성수낙낙점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 아차산로17길 49 A동 104,105호</span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;"></div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-23725" data-store_code="23725">
+                                <div class="titleWrap"><span class="title">건대건이점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 광진구 능동로8길 22 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-23751" data-store_code="23751">
+                                <div class="titleWrap"><span class="title">서울어린이대공원정문점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 광진구 능동로 216 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="searchResult store-24529" data-store_code="24529">
+                                <div class="titleWrap"><span class="title">건대산학협동관점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 광진구 능동로 120 산학협동관 1층</span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;">
+                                        <span class="icon"><img src="assets/assets/imgs/telFillIcon.png" alt="전화아이콘" style="height: 16px;"></span> <span style="font-weight: bold; line-height: 19px;">000-0000-0000</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="searchResult store-24697" data-store_code="24697">
+                                <div class="titleWrap"><span class="title">R성수대우점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 동일로 143 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;"></div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-82c96a133a68.svg" alt="와인취급매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-efd89b780775.svg" alt="커피운영매장 아이콘"></div>
+                                        </li>
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-2667c9fe4b4e.svg" alt="스무디 운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-25090" data-store_code="25090">
+                                <div class="titleWrap"><span class="title">R한양여대스퀘어점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 살곶이길 200 한양여자대학교 행원스퀘어 B1</span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;"></div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-25118" data-store_code="25118">
+                                <div class="titleWrap"><span class="title">R성수2가점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 성덕정길 84 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;"></div>
+                                    <ul class="choiceServiceTag">
+                                        <li class="tag">
+                                            <div class="icon"><img src="images/daywell24-content-562f653928b2.svg" alt="택배운영매장 아이콘"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="searchResult store-25405" data-store_code="25405">
+                                <div class="titleWrap"><span class="title">한양여대행원파크점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 왕십리로 222 한양여대 행원파크</span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;"></div>
+                                </div>
+                            </li>
+                            <li class="searchResult store-26570" data-store_code="26570">
+                                <div class="titleWrap"><span class="title">R건국대레이크홀점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 광진구 능동로 120 레이크홀 지하1층</span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;"></div>
+                                </div>
+                            </li>
+                            <li class="searchResult store-26571" data-store_code="26571">
+                                <div class="titleWrap"><span class="title">성수으뜸점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 성동구 둘레15길 19 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;"></div>
+                                </div>
+                            </li>
+                            <li class="searchResult store-26808" data-store_code="26808">
+                                <div class="titleWrap"><span class="title">광진클래식점</span></div>
+                                <div class="resultContents">
+                                    <div class="place"><span>서울특별시 광진구 능동로 90 </span></div>
+                                    <div class="place" style="height: 16.8px; display: flex; allign-items: center;"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pageNationWrap">
+                    <div class="prevButtons">
+                        <div class="doublePrev"></div>
+                        <div class="prev"></div>
+                    </div>
+                    <ul class="pageNation">
+                        <li class="pIndex focus"><span>1</span></li>
+                        <li class="pIndex"><span>2</span></li>
+                        <li class="pIndex"><span>3</span></li>
+                        <li class="pIndex"><span>4</span></li>
+                        <li class="pIndex"><span>5</span></li>
+                    </ul>
+                    <div class="nextButtons">
+                        <div class="next"></div>
+                        <div class="doubleNext"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+  <div class="viewFooterWrap">
+    <div class="fnbWrap">
+      <ul class="fnb">
+        <li class="fnbMenu">
+          <a href="daywell24-privacy.html"><span class="text" style="font-weight: 500">개인정보 처리방침</span></a>
+        </li>
+        <li class="fnbMenu">
+          <a href="daywell24-youth-policy.html"><span class="text">청소년 보호정책</span></a>
+        </li>
+        <li class="fnbMenu">
+            <a href="daywell24-video-policy.html"><span class="text">고정형 영상정보처리기기 운영·관리 방침</span></a> </li>
+          <li class="fnbMenu">
+          <a href="daywell24-terms.html"><span class="text">이용약관</span></a>
+        </li>
+      <li class="fnbMenu">
+          <a href="daywell24-notice.html"><span class="text">공지사항</span></a>
+      </li>
+        <li class="fnbMenu">
+          <a href="daywell24-helpdesk.html"><span class="text">고객센터</span></a>
+        </li>
+        <li class="fnbMenu">
+          <a href="daywell24-community.html"><span class="text">CSR경영</span></a>
+        </li>
+<li class="fnbMenu">
+          <a href="daywell24-sitemap.html"><span class="text">사이트맵</span></a>
+        </li>
+      </ul>
+      <ul class="familySite">
+        <li class="famMenu">
+          <div class="textWrap">
+            <input type="checkbox" name="" id="familySite">
+            <label for="familySite">
+              <span class="text">
+                패밀리사이트
+                  <div style="line-height: 10px;font-size: 16px;" class="icon">+</div>
+              </span>
+
+              <ul class="familySiteList" style="max-height: 30vh; overflow-y:scroll;">
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 스튜디오<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 키친<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 베이커리<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 커피<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 가든<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 마켓<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 라이프<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 프레시<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 셀렉트<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 라운지<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 파트너스<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 로컬<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 디자인<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 스토어<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 테이블<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 데일리<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 모닝<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 해피<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 온유<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="blank" class="familySiteItem">데이웰 그린<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 뉴데이<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 네이버후드<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰24<span>데이웰 스튜디오</span>
+                </a>
+              </ul>
+            </label>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="footerContentsWrap">
+      <div class="companyInfoWrap">
+        <div class="titleWrap">
+          <span class="text">(주) 데이웰24</span>
+        </div>
+        <div class="infoWrap">
+                            <span class="text">대표이사: 데이웰 스튜디오 / 사업자등록번호: 가상 브랜드 템플릿<br>
+                                동네의 일상을 위한 데이웰24 디자인 공간 /
+                                <br class="only_mo">
+                                고객센터: 실제 상담을 접수하지 않습니다 / Fax: 해당 없음<br>COPYRIGHT (C)
+                                DAYWELL24.ALL RIGHT RESERVED</span>
+                        </div>
+                    </div>
+                    <div class="snsWrap">
+                        <div class="youtubeIcon">
+                            <a href="daywell24-brand-gallery.html" target="_blank">
+                                <img src="assets/assets/imgs/snsYutube.png" alt="유튭"></a>
+                        </div>
+                        <div class="instaIcon">
+                            <a href="daywell24-brand-gallery.html" target="_blank">
+                                <img src="assets/assets/imgs/snsInsta.png" alt="인스타"></a>
+                        </div>
+                        <div class="facebookIcon">
+                            <a href="daywell24-brand-gallery.html" target="_blank">
+                                <img src="assets/assets/imgs/snsFacebook.png" alt="페북"></a>
+                        </div>
+                        <div class="facebookIcon">
+                            <a href="daywell24-brand-gallery.html" target="_blank">
+                                <img src="assets/assets/imgs/snsTiktok.png" alt="틱톡" style="
+                                        height: 20px;
+                                        width: auto;
+                                        margin-top: 6px;
+                                        margin-left: 6px;
+                                    "></a>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    document.addEventListener("mouseup", function (e) {
+                        var container = document.getElementById("container");
+                        if (container && !container.contains(e?.target)) {
+                            container.style.display = "none";
+                        }
+                    });
+                </script>
+            </div>
+        </footer>
+
+  <script src="vendor/ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="daywell24-adapter.js"></script><script src="vendor/code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+<script src="commonJs/Header.js"></script>
+<script src="commonJs/HomeScroll.js"></script>
+<script src="vendor/code.jquery.com/ui/1.10.1/jquery-ui.js" type="text/javascript"></script>
+<script src="vendor/cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+<script src="commonJs/Style.js"></script>
+<script src="libs/toolbox.js"></script>
+<script>
+    /*<![CDATA[*/
+    let initSvrSearchParam = null;
+    let initSvrServiceParam = null;
+    /*]]>*/
+</script>
+<script src="commonJs/HeaderInteraction.js"></script>
+<script src="daywell24-interactions.js" defer></script><script src="daywell24-map.js" defer></script></body>
+</html>

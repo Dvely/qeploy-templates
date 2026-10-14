@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <script src="daywell24-data.js"></script><meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Description" content="">
+        <meta property="og:title" content="진행중인 이벤트 - 데이웰24">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+        <meta property="og:url" content="">
+        <meta property="og:locale" content="ko_KR">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="진행중인 이벤트 - 데이웰24">
+        <link rel="stylesheet" href="assets/event/eventSub/style/style.css">
+        <link rel="stylesheet" href="commonStyle/header.css">
+        <link rel="stylesheet" href="commonStyle/footer.css">
+        <title>처음 만나는 새로운 즐거움 - 데이웰24</title>
+    <link rel="stylesheet" href="daywell24-local.css"></head>
+    <body data-daywell-page="event-detail">
+        <header class="header">
+        
+        <div class="mobGnbWrap">
+            <div class="headerThemaChange">
+                <div class="firstBack"></div>
+                <div class="seconBack"></div>
+                <div class="thrdBack"></div>
+            </div>
+            <ul class="mobGnbs">
+                <li onclick="mobGnbTwodepOpen(this)" class="mobGnb">
+                    <div class="ondepthWrap">
+                        <div class="titleWrap">
+                            <div class="iconWrap">
+                                <img src="images/daywell24-menu-brand.svg" alt="">
+                            </div>
+                            <h1 class="mobGnbName">브랜드 스토리</h1>
+                        </div>
+                        <div class="dropIconWrap">
+                            <img src="assets/assets/imgs/arrowOrange.png" alt=""> </div>
+                    </div>
+                    <div class="twodepthWrap">
+                        <h2 class="twodepthName"><a href="daywell24-brand.html">브랜드 가치</a></h2> <h2 class="twodepthName"><a href="daywell24-brand-gallery.html">브랜드 갤러리</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-brand-resources.html">브랜드 리소스센터</a></h2>
+                    </div>
+                </li>
+                <li onclick="mobGnbTwodepOpen(this)" class="mobGnb">
+                    <div class="ondepthWrap">
+                        <div class="titleWrap">
+                            <div class="iconWrap">
+                                <img src="images/daywell24-menu-product.svg" alt="">
+                            </div>
+                            <h1 class="mobGnbName">상품</h1>
+                        </div>
+                        <div class="dropIconWrap">
+                            <img src="assets/assets/imgs/arrowOrange.png" alt=""> </div>
+                    </div>
+                    <div class="twodepthWrap">
+                        <h2 class="twodepthName"><a href="daywell24-products.html">행사 상품</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-signature.html">차별화 상품</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-fresh-food.html">Fresh Food</a></h2>
+                         </div>
+                </li>
+                <li onclick="mobGnbTwodepOpen(this)" class="mobGnb">
+                    <div class="ondepthWrap">
+                        <div class="titleWrap">
+                            <div class="iconWrap">
+                                <img src="assets/assets/imgs/mobGnbIcon/store.png" alt="">
+                            </div>
+                            <h1 class="mobGnbName">매장</h1>
+                        </div>
+                        <div class="dropIconWrap">
+                            <img src="assets/assets/imgs/arrowOrange.png" alt=""> </div>
+                    </div>
+                    <div class="twodepthWrap">
+                        <h2 class="twodepthName"><a href="daywell24-stores.html">매장찾기</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-store-studio.html">성수스튜디오점</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-store-garden.html">가든라운지점</a></h2>
+                    </div>
+                </li>
+                <li onclick="mobGnbTwodepOpen(this)" class="mobGnb">
+                    <div class="ondepthWrap">
+                        <div class="titleWrap">
+                            <div class="iconWrap">
+                                <img src="assets/assets/imgs/mobGnbIcon/service.png" alt="">
+                            </div>
+                            <h1 class="mobGnbName">서비스</h1>
+                        </div>
+                        <div class="dropIconWrap">
+                            <img src="assets/assets/imgs/arrowOrange.png" alt=""> </div>
+                    </div>
+                    <div class="twodepthWrap">
+                        <h2 class="twodepthName"><a href="daywell24-app.html">APP 서비스</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-payment.html">데이웰24 간편결제</a></h2> <h2 class="twodepthName"><a href="daywell24-life-services.html">생활 서비스</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-partners.html">제휴 서비스</a></h2>
+                    </div>
+                </li>
+                <li onclick="mobGnbTwodepOpen(this)" class="mobGnb">
+                    <div class="ondepthWrap">
+                        <div class="titleWrap">
+                            <div class="iconWrap">
+                                <img src="assets/assets/imgs/mobGnbIcon/event.png" alt="">
+                            </div>
+                            <h1 class="mobGnbName">이벤트</h1>
+                        </div>
+                        <div class="dropIconWrap">
+                            <img src="assets/assets/imgs/arrowOrange.png" alt=""> </div>
+                    </div>
+                    <div class="twodepthWrap">
+                        <h2 class="twodepthName"><a href="daywell24-events.html">진행중인 이벤트</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-events-ended.html">종료된 이벤트</a></h2>
+                    </div>
+                </li>
+                <li onclick="mobGnbTwodepOpen(this)" class="mobGnb">
+                    <div class="ondepthWrap">
+                        <div class="titleWrap">
+                            <div class="iconWrap">
+                                <img src="assets/assets/imgs/mobGnbIcon/business.png" alt="">
+                            </div>
+                            <h1 class="mobGnbName">창업안내</h1>
+                        </div>
+                        <div class="dropIconWrap">
+                            <img src="assets/assets/imgs/arrowOrange.png" alt=""> </div>
+                    </div>
+                    <div class="twodepthWrap">
+                        <h2 class="twodepthName"><a href="daywell24-franchise-features.html">데이웰24 특징</a></h2> <h2 class="twodepthName"><a href="daywell24-franchise-models.html">가맹모델 소개</a></h2> <h2 class="twodepthName"><a href="daywell24-franchise-session.html">창업 설명회</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-franchise-stories.html">창업 성공기</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-franchise-contact.html">창업 상담</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-franchise-spaces.html">추천 매장 소개</a></h2>
+                    </div>
+                </li>
+            </ul>
+            <ul class="mobTopMenus">
+                <li class="mobTopMenu">
+                    <h1 class="topMenuName"><a href="daywell24-advertising.html">광고문의</a></h1> <div class="dropIconWrap">
+                        <img src="assets/assets/imgs/arrowYellow.png" alt="">
+                    </div>
+                </li>
+                <li class="mobTopMenu">
+                    <h1 class="topMenuName"><a href="daywell24-helpdesk.html">고객센터</a></h1>
+                    <div class="dropIconWrap">
+                        <img src="assets/assets/imgs/arrowYellow.png" alt="">
+                    </div>
+                </li>
+                <li class="mobTopMenu">
+                    <h1 class="topMenuName">
+                        <a href="daywell24-career.html">
+                            채용안내
+                        </a>
+                    </h1>
+                    <div class="dropIconWrap">
+                        <img src="assets/assets/imgs/arrowYellow.png" alt="">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="viewHeaderWrap">
+            <div class="topSubHeader">
+                <div class="snbWrap">
+                    <ul class="snb">
+                        <li class="snbMenu">
+                            <span class="text"><a href="daywell24-advertising.html">광고문의</a></span> </li>
+                        <li class="snbMenu">
+                            <span class="text"><a href="daywell24-helpdesk.html">고객센터</a></span>
+                        </li>
+                        <li class="snbMenu">
+                            <span class="text">
+                                <a href="daywell24-career.html">
+                                    채용안내
+                                </a>
+                            </span>
+                        </li>
+                        <li class="snbMenu">
+                            <span class="text">
+                                <a href="daywell24-contracts.html">전자 계약 시스템</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="topHeader">
+
+                <div class="left only_mo">
+                    <h1 class="mainLogo">
+                        <a href="index.html"><img src="images/daywell24-logo.svg" alt="홈 - 데이웰24"></a>
+                    </h1>
+                </div>
+
+                <div class="left only_pc">
+                    <div class="flip_wrap">
+                        <div class="flip_front">
+                            <h1 class="mainLogo"><a href="index.html"><img src="images/daywell24-logo.svg" alt="daywell24"></a></h1>
+                        </div>
+                        <div class="flip_back">
+                            <h1 class="mainLogo"><a href="index.html"><img src="images/daywell24-header-slogan.svg" alt="GOOD DAY DAYWELL24"></a></h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="center">
+                    <div class="gnbWrap">
+                        <ul class="gnb">
+                            <div class="lnbWrap"></div>
+                            <li class="gnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-brand.html"><span class="text">브랜드 스토리</span></a> </div>
+                                <ul class="lnb">
+                                    <li><a href="daywell24-brand.html">브랜드 가치</a></li> <li><a href="daywell24-brand-gallery.html">브랜드 갤러리</a></li>
+                                    <li><a href="daywell24-brand-resources.html">브랜드 리소스센터</a></li>
+                                </ul>
+                            </li>
+                            <li class="gnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-products.html"><span class="text">상품</span></a>
+                                </div>
+                                <ul class="lnb">
+                                    <li><a href="daywell24-products.html">행사 상품</a></li>
+                                    <li><a href="daywell24-signature.html">차별화 상품</a></li>
+                                    <li><a href="daywell24-fresh-food.html">Fresh Food</a></li>
+                                     </ul>
+                            </li>
+                            <li class="gnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-stores.html"><span class="text">매장</span></a>
+                                </div>
+                                <ul class="lnb">
+                                    <li><a href="daywell24-stores.html">매장찾기</a></li>
+                                    <li><a href="daywell24-store-studio.html">성수스튜디오점</a></li>
+                                    <li><a href="daywell24-store-garden.html">가든라운지점</a></li>
+                                </ul>
+                            </li>
+                            <li class="gnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-app.html"><span class="text">서비스</span></a>
+                                </div>
+                                <ul class="lnb">
+                                    <li><a href="daywell24-app.html">APP 서비스</a></li>
+                                    <li><a href="daywell24-payment.html">데이웰24 간편결제</a></li> <li><a href="daywell24-life-services.html">생활 서비스</a></li>
+                                    <li><a href="daywell24-partners.html">제휴 서비스</a></li>
+                                </ul>
+                            </li>
+                            <li class="gnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-events.html"><span class="text">이벤트</span></a>
+                                </div>
+                                <ul class="lnb">
+                                    <li><a href="daywell24-events.html">진행중인 이벤트</a></li>
+                                    <li><a href="daywell24-events-ended.html">종료된 이벤트</a></li>
+                                </ul>
+                            </li>
+                            <li class="gnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-franchise.html"><span class="text">창업안내</span></a>
+                                </div>
+                                <ul class="lnb">
+                                    <li><a href="daywell24-franchise-features.html">데이웰24 특징</a></li> <li><a href="daywell24-franchise-models.html">가맹모델 소개</a></li> <li><a href="daywell24-franchise-session.html">창업 설명회</a></li>
+                                    <li><a href="daywell24-franchise-stories.html">창업 성공기</a></li>
+                                    <li><a href="daywell24-franchise-contact.html">창업 상담</a></li>
+                                    <li><a href="daywell24-franchise-spaces.html">추천 매장 소개</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div onclick="mobGnbOpen(this)" class="right"></div>
+            </div>
+        </div>
+        <div class="bottomHeader">
+                <div class="viewHeaderWrap">
+                    <div class="bottomHeaderContents">
+                        <div class="curMenu">
+                            <h2 class="text">이벤트</h2>
+                        </div>
+                        <div class="lngWrap">
+                            <ul class="lnb">
+                                <li class="lnbMenu">
+                                    <div class="textWrap focus">
+                                        <a href="daywell24-events.html">
+                                            <span class="text">진행중인 이벤트</span>
+                                        </a>
+                                    </div>
+                                    
+                                </li>
+
+                                <li class="lnbMenu">
+                                    <div class="textWrap">
+                                        <a href="daywell24-events-ended.html">
+                                            <span class="text">종료된 이벤트</span>
+                                        </a>
+                                    </div>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </header>
+        <div class="background">
+            </div>
+        <div class="viewContentsWrap subWrap">
+            <div class="mainContents">
+                <section class="contentHeader">
+                    <h1 class="tabTitle">진행중인 이벤트</h1>
+                    <p>데이웰24의 다양한 이벤트에 참여해보세요.</p>
+                </section>
+                
+                <section class="viewCon">
+                    <ul>
+                        <li>
+                            <div class="etitleWrap">
+                                <div class="titleWrap">
+                                <p class="ing" style="white-space: nowrap">진행중</p>
+                                <p>
+                                    <a href="#none">처음 만나는 새로운 즐거움</a>
+                                </p>
+                                </div>
+                                <p class="eventDate">
+                                    2026-10-01 ~
+                                    2026-10-31
+                                </p>
+                            </div>
+
+                            <div class="bannerArea only_mo">
+                                <img src="images/daywell24-content-8e279f9c4fb6.svg" alt="데이웰24 앱 신규가입하고 다양한 혜택 받기">
+                                <a title="앱 다운 받기" class="cta-link" onclick="return emartBridge();" href="daywell24-app.html" target="_blank"></a>
+                            </div>
+                            <div class="contentWrap banner">
+                                <img src="images/daywell24-event-20.svg" alt="처음 만나는 새로운 즐거움">
+                            </div>
+                            
+                            <div>
+                                
+                            </div>
+                            
+                            <div class="contentWrap">
+                                <a style="margin-top: 40px;" href="daywell24-events.html" class="btnList">목록</a>
+                            </div>
+                            
+                        </li>
+                        
+                    </ul>
+                </section>
+                <section>
+                    <ul class="inqWrap">
+                        <li class="inqList">
+                            <div class="evenNext"></div>
+                            <a href="daywell24-event-detail.html">
+                            <p>
+                                <a href="javascript:void(0);">10월 사전예약 고기 7종 카드할인 이벤트</a>
+                            </p>
+                            <p class="dateList">2026-10-06</p></a>
+                        </li>
+                        <li class="inqList">
+                            <div class="evenPrev"></div>
+                            <a href="daywell24-event-detail.html">
+                            <p>
+                                <a href="javascript:void(0);">10월 보틀오더 쿠폰 할인 모아보기!</a>
+                            </p>
+                            <p class="dateList">2026-10-01</p></a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <footer>
+  <div class="viewFooterWrap">
+    <div class="fnbWrap">
+      <ul class="fnb">
+        <li class="fnbMenu">
+          <a href="daywell24-privacy.html"><span class="text" style="font-weight: 500">개인정보 처리방침</span></a>
+        </li>
+        <li class="fnbMenu">
+          <a href="daywell24-youth-policy.html"><span class="text">청소년 보호정책</span></a>
+        </li>
+        <li class="fnbMenu">
+            <a href="daywell24-video-policy.html"><span class="text">고정형 영상정보처리기기 운영·관리 방침</span></a> </li>
+          <li class="fnbMenu">
+          <a href="daywell24-terms.html"><span class="text">이용약관</span></a>
+        </li>
+      <li class="fnbMenu">
+          <a href="daywell24-notice.html"><span class="text">공지사항</span></a>
+      </li>
+        <li class="fnbMenu">
+          <a href="daywell24-helpdesk.html"><span class="text">고객센터</span></a>
+        </li>
+        <li class="fnbMenu">
+          <a href="daywell24-community.html"><span class="text">CSR경영</span></a>
+        </li>
+<li class="fnbMenu">
+          <a href="daywell24-sitemap.html"><span class="text">사이트맵</span></a>
+        </li>
+      </ul>
+      <ul class="familySite">
+        <li class="famMenu">
+          <div class="textWrap">
+            <input type="checkbox" name="" id="familySite">
+            <label for="familySite">
+              <span class="text">
+                패밀리사이트
+                  <div style="line-height: 10px;font-size: 16px;" class="icon">+</div>
+              </span>
+
+              <ul class="familySiteList" style="max-height: 30vh; overflow-y:scroll;">
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 스튜디오<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 키친<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 베이커리<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 커피<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 가든<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 마켓<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 라이프<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 프레시<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 셀렉트<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 라운지<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 파트너스<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 로컬<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 디자인<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 스토어<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 테이블<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 데일리<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 모닝<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 해피<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 온유<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="blank" class="familySiteItem">데이웰 그린<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 뉴데이<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 네이버후드<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰24<span>데이웰 스튜디오</span>
+                </a>
+              </ul>
+            </label>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="footerContentsWrap">
+      <div class="companyInfoWrap">
+        <div class="titleWrap">
+          <span class="text">(주) 데이웰24</span>
+        </div>
+        <div class="infoWrap">
+                            <span class="text">대표이사: 데이웰 스튜디오 / 사업자등록번호: 가상 브랜드 템플릿<br>
+                                동네의 일상을 위한 데이웰24 디자인 공간 /
+                                <br class="only_mo">
+                                고객센터: 실제 상담을 접수하지 않습니다 / Fax: 해당 없음<br>COPYRIGHT (C)
+                                DAYWELL24.ALL RIGHT RESERVED</span>
+                        </div>
+                    </div>
+                    <div class="snsWrap">
+                        <div class="youtubeIcon">
+                            <a href="daywell24-brand-gallery.html" target="_blank">
+                                <img src="assets/assets/imgs/snsYutube.png" alt="유튭"></a>
+                        </div>
+                        <div class="instaIcon">
+                            <a href="daywell24-brand-gallery.html" target="_blank">
+                                <img src="assets/assets/imgs/snsInsta.png" alt="인스타"></a>
+                        </div>
+                        <div class="facebookIcon">
+                            <a href="daywell24-brand-gallery.html" target="_blank">
+                                <img src="assets/assets/imgs/snsFacebook.png" alt="페북"></a>
+                        </div>
+                        <div class="facebookIcon">
+                            <a href="daywell24-brand-gallery.html" target="_blank">
+                                <img src="assets/assets/imgs/snsTiktok.png" alt="틱톡" style="
+                                        height: 20px;
+                                        width: auto;
+                                        margin-top: 6px;
+                                        margin-left: 6px;
+                                    "></a>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    document.addEventListener("mouseup", function (e) {
+                        var container = document.getElementById("container");
+                        if (container && !container.contains(e?.target)) {
+                            container.style.display = "none";
+                        }
+                    });
+                </script>
+            </div>
+        </footer>
+        
+  <script src="vendor/ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="daywell24-adapter.js"></script><script src="commonJs/Header.js"></script>
+        <script src="commonJs/HeaderInteraction.js"></script>
+        <script src="commonJs/ScrollObserver.js"></script>
+        <script>
+            document.getElementById('pdfLink')?.addEventListener('click', function(event) {
+                event.preventDefault(); // 기본 동작 막기
+         
+                // 파일 다운로드 확인 메시지
+                var userConfirmed = confirm("PDF 파일을 다운로드 받으시겠습니까?");
+                
+                if (userConfirmed) {
+                    // fetch를 사용하여 PDF 파일 가져오기
+                    fetch(this.href)
+                        .then(response => response.blob())
+                        .then(blob => {
+                            // File 객체 생성
+                            var file = new File([blob], '2025_추석카다로그.pdf', { type: 'application/pdf' });
+                            
+                            // 다운로드 링크 생성
+                            var downloadLink = document.createElement('a');
+                            downloadLink.href = URL.createObjectURL(file);
+                            downloadLink.download = file.name;
+                            document.body.appendChild(downloadLink);
+                            downloadLink.click();
+                            
+                            // 다운로드 링크 제거
+                            document.body.removeChild(downloadLink);
+                            
+                            // 페이지 새로고침
+                            setTimeout(function() {
+                                location.reload(true);
+                            }, 500); // 0.5초 지연 후 새로고침
+                        })
+                        .catch(error => console.error('파일 다운로드에 실패했습니다:', error));
+                }
+            });
+        </script>
+    <script src="daywell24-interactions.js" defer></script></body>
+</html>

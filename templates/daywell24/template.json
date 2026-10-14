@@ -1,0 +1,17 @@
+{
+  "id": "daywell24",
+  "name": "데이웰24",
+  "description": "원본의 메뉴·슬라이더·스크롤 UI와 애니메이션을 보존하고 새 브랜드의 콘텐츠로 교체한 편의점 브랜드 사이트",
+  "tags": ["retail", "convenience", "franchise", "promotion", "animation", "responsive"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    {"key":"brand","where":"index.html","desc":"로고·슬로건·프로모션 문구, 이미지 파일을 교체. 원본 DOM 클래스와 구조는 동작에 필요"},
+    {"key":"data","where":"daywell24-data.js","desc":"가상 상품·이벤트 제목과 정적 페이지 연결 경로"},
+    {"key":"motion","where":"libs/home.js","desc":"원본 이벤트 슬라이더와 상품 슬라이더의 속도·간격·자동 이동 설정 보존"},
+    {"key":"scroll","where":"commonJs/ScrollObserver.js","desc":"원본 IntersectionObserver 진입 조건과 섹션 모션"},
+    {"key":"header","where":"commonJs/Header.js","desc":"원본의 스크롤에 따른 헤더 높이·로고 전환과 반응형 메뉴"},
+    {"key":"style","where":"assets/home/home/style/style.css","desc":"원본의 UI 치수·폰트·브레이크포인트·CSS 애니메이션. 자산 URL만 로컬화"},
+    {"key":"content","where":"images/","desc":"새 로고·배너·상품 사진 및 콘텐츠 일러스트"}
+  ]
+}

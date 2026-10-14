@@ -1,0 +1,637 @@
+/* 이마트24 간편결제 */
+
+.serviceSection {
+    width: 100%;
+}
+
+.paymentBanner {
+    width: 100%;
+    margin-bottom: 98px;
+}
+
+.paymentBanner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+section[class^="paymentCont"] {
+    width: 100%;
+}
+
+section[class^="paymentCont"] .tit {
+    font-family: Paperlogy;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    color: #333;
+    padding-bottom: 36px;
+}
+
+.paymentCont01 {
+    margin-bottom: 160px;
+}
+
+.paymentCont01 .payQRcode {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 98px;
+}
+
+.paymentCont01 .payQRcode .img {
+    width: 100%;
+    max-width: 510px;
+}
+
+.paymentCont01 .payQRcode .img img {
+    width: 100%;
+    height: auto;
+}
+
+.paymentCont01 .payQRcode .txt p {
+    font-family: Paperlogy;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    color: #333;
+    padding-bottom: 20px;
+}
+
+.paymentCont01 .payQRcode .txt span {
+    font-family: Paperlogy;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    color: #999;
+}
+
+.paymentCont01 .payRegisterList {
+    width: 100%;
+}
+
+.paymentCont01 .payRegisterList .subTit {
+    font-family: Paperlogy;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #333;
+    border-bottom: 2px solid #EBEBEB;
+    padding-bottom: 18px;
+}
+
+.paymentCont01 .payRegisterList .itemWrap {
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-shrink: 0;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.paymentCont01 .payRegisterList .itemWrap .item {
+    width: 184px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.paymentCont01 .payRegisterList .itemWrap .item .txt {
+    text-align: center;
+}
+
+.paymentCont01 .payRegisterList .itemWrap .item .txt p {
+    font-family: Paperlogy;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #333;
+}
+
+.paymentCont01 .payRegisterList .itemWrap .item .txt span {
+    font-family: Paperlogy;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #999;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.paymentCont01 .payRegisterList .itemWrap .item .img {
+    position: relative;
+}
+
+.paymentCont01 .payRegisterList .itemWrap .item .img:after {
+    content: '';
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: url("../../../assets/imgs/service/ico_arrow_right_01.png") no-repeat center / 100% 100% ;
+    position: absolute;
+    top: 50%;
+    right: -70px;
+    transform: translateY(-50%);
+}
+
+.paymentCont01 .payRegisterList .itemWrap .item:last-child .img:after {
+    display: none;
+}
+
+.paymentCont01 .payRegisterList .itemWrap .item .img img {
+    width: 100%;
+    height: auto;
+}
+
+.paymentCont02 .paymentBox {
+    width: 100%;
+    padding-bottom: 98px
+}
+
+.paymentCont02 .paymentBox .img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 108px;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.paymentCont02 .paymentBox .img div {
+    width: 100%;
+    max-width: 465px;
+}
+
+.paymentCont02 .paymentBox .img div img {
+    width: 100%;
+    height: auto;
+}
+
+.paymentCont02 .paymentBox .img div:after {
+    content: '';
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    background: url("../../../assets/imgs/service/ico_arrow_right_02.png") no-repeat center / 100% 100%;
+    position: absolute;
+    top: calc(50% - 24px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.paymentCont02.last .paymentBox .img div:after {
+    display: none;
+}
+
+.paymentCont02 .paymentBox .txt {
+    text-align: center;
+}
+
+.paymentCont02 .paymentBox .txt p {
+    font-family: Paperlogy;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #333;
+    padding-bottom: 20px;
+}
+
+.paymentCont02 .paymentBox .txt li span {
+    font-family: Paperlogy;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #333;
+    position: relative;
+    padding-left: 13px;
+}
+
+.paymentCont02 .paymentBox .txt li span:before {
+    content: '';
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    background: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.paymentCont02.last .paymentBox .txt {
+    width: 100%;
+    max-width: 504px;
+    margin:0 auto;
+}
+
+.paymentCont02.last .paymentBox .txt li {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.paymentCont02.last .paymentBox .txt li em {
+    font-family: Paperlogy;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    vertical-align: middle;
+    background: #EBEBEB;
+    border-radius: 12px 12px 0 12px;
+    padding: 6px 8px 6px 36px;  /* 2026-07-07 */
+    width: 103px;
+    display: inline-block;
+    position: relative;
+    margin-right: 15px;
+}
+
+.paymentCont02.last .paymentBox .txt li em:before {
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url("../../../../images/daywell24-logo.svg") no-repeat center / 100% 100%;
+    position: absolute;
+    left: 6px;
+    top: 4px;
+}
+
+.paymentCont02.last .paymentBox .txt li:nth-child(2) em:before {
+    content: '';
+    display: inline-block;
+    width: 21px;
+    height: 17px;
+    background: url("../../../../images/daywell24-logo.svg") no-repeat center / 100% 100%;
+    position: absolute;
+    left: 6px;
+    top: 7px;
+}
+
+.paymentCont02.last .paymentBox .txt li:nth-child(3) em:before {
+    content: '';
+    display: inline-block;
+    width: 21px;
+    height: 17px;
+    background: url("../../../../images/daywell24-logo.svg") no-repeat center / 100% 100%;
+    position: absolute;
+    left: 6px;
+    top: 7px;
+}
+
+.paymentCont02.last .paymentBox .txt li:nth-child(4) em:before {
+    content: '';
+    display: inline-block;
+    width: 21px;
+    height: 14px;  /* 2026-07-07 */
+    background: url("../../../../images/daywell24-logo.svg") no-repeat center / 100% 100%;  /* 2026-07-07 */
+    position: absolute;
+    left: 6px;
+    top: 7px;
+}
+
+/* 2026-07-07 [개선] 컨텐츠 수정 및 OK캐쉬백 추가 */
+.paymentCont02.last .paymentBox .txt li:nth-child(5) em:before {
+    content: '';
+    display: inline-block;
+    width: 21px;
+    height: 17px;
+    background: url("../../../../images/daywell24-logo.svg") no-repeat center / 100% 100%;
+    position: absolute;
+    left: 6px;
+    top: 7px;
+}
+
+.paymentCont02.last .paymentBox .txt li em:after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 18px;
+    background: #999;
+    position: absolute;
+    left: 31px;
+    top: 7px;
+}
+
+.paymentCont02.last .paymentBox .txt li span {
+    padding-left: 0;
+}
+
+.paymentCont02.last .paymentBox .txt li span:before {
+    content: none;
+}
+
+.paymentNotice {
+    width: 100%;
+    height: auto;
+    background: #EBEBEB;
+    border-radius: 32px;
+    padding: 36px 50px;
+    margin-bottom: 160px;
+}
+
+.paymentNotice p {
+    font-family: Paperlogy;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #333;
+}
+
+.paymentNotice ul {
+    padding-top: 16px;
+}
+
+.paymentNotice li {
+    font-family: Paperlogy;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 140%;
+    color: #999;
+    position: relative;
+    padding-left: 13px
+}
+
+.paymentNotice li:before {
+    content: '';
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    background: #999;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+
+
+@media (min-width: 745px) and (max-width: 1088px) {
+    .paymentCont01 .payQRcode {
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    .paymentCont01 .payQRcode .txt {
+        width: calc(100% / 2);
+        min-width: 375px;
+        flex-shrink: 0;
+    }
+
+    .paymentCont01 .payRegisterList .itemWrap {
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .paymentCont01 .payRegisterList .itemWrap .item .img:after {
+        right: -50px;
+    }
+}
+
+@media (max-width: 960px) {
+    .paymentCont01 .payRegisterList .itemWrap {
+        justify-content: center;
+        max-width: 664px;
+        margin: 0 auto;
+        gap: 100px;
+    }
+
+    .paymentCont01 .payRegisterList .itemWrap .item .img:after {
+        right: -70px;
+    }
+
+    .paymentCont01 .payRegisterList .itemWrap .item:nth-child(2) .img:after {
+        display: none;
+    }
+
+    .paymentCont02.last .paymentBox .img div {
+        max-width: 332px;
+    }
+}
+
+@media (max-width: 744px) {
+    .paymentCont01 .payQRcode {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .paymentCont01 .payQRcode .txt {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .paymentCont01 .payQRcode .txt p {
+        font-size: 24px;
+        padding-bottom: 16px;
+    }
+
+    .paymentCont01 .payQRcode .txt span {
+        font-size: 18px;
+    }
+
+    .paymentCont02.last .paymentBox .img div {
+        max-width: 306px;
+    }
+}
+
+@media (min-width: 10px) and (max-width: 480px) {
+    .mainContents .contentHeader {
+        padding: 36px 0 24px 0 !important;
+    }
+
+    .paymentBanner {
+        margin-bottom: 24px;
+    }
+
+    section[class^="paymentCont"] .tit {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 140%;
+        padding-bottom: 20px;
+    }
+
+    .paymentCont01 {
+        margin-bottom: 24px;
+    }
+
+    .paymentCont01 .payQRcode {
+        margin-bottom: 24px;
+    }
+
+    .paymentCont01 .payQRcode .txt {
+        padding-top: 20px;
+    }
+
+    .paymentCont01 .payQRcode .txt p {
+        font-size: 18px;
+        padding-bottom: 8px;
+    }
+
+    .paymentCont01 .payQRcode .txt span {
+        font-size: 15px;
+        line-height: 160%;
+    }
+
+    .paymentCont01 .payRegisterList .subTit {
+        font-size: 18px;
+    }
+
+    .paymentCont01 .payRegisterList .itemWrap {
+        /*justify-content: space-between;*/
+        gap: 16px 34px;
+    }
+
+    .paymentCont01 .payRegisterList .itemWrap .item {
+        width: 100%;
+        max-width: 148px;
+        gap: 8px;
+    }
+
+    .paymentCont01 .payRegisterList .itemWrap .item .img:after {
+        width: 26px;
+        height: 26px;
+        right: -34px;
+    }
+
+    .paymentCont01 .payRegisterList .itemWrap .item:nth-child(2) .img:after {
+        display: none;
+    }
+
+    .paymentCont01 .payRegisterList .itemWrap .item .txt p {
+        font-size: 14px;
+    }
+
+    .paymentCont01 .payRegisterList .itemWrap .item .txt span {
+        font-size: 12px;
+    }
+
+    .paymentCont02 .paymentBox {
+        padding-bottom: 40px;
+    }
+
+    .paymentCont02 .paymentBox .img {
+        /*display: inline-block;*/
+        flex-direction: column;
+        gap: 56px;
+    }
+
+    .paymentCont02 .paymentBox .img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .paymentCont02 .paymentBox .img div:after {
+        transform: rotate(90deg);
+        width: 36px;
+        height: 36px;
+        top: calc(50% - 30px);
+        left: calc(50% - 18px);
+    }
+
+    .paymentCont02 .paymentBox .txt p {
+        font-size: 18px;
+    }
+
+    .paymentCont02 .paymentBox .txt li span {
+        font-size: 14px;
+        padding-left: 8px;
+    }
+
+    .paymentCont02 .paymentBox .txt li span:before {
+        top: 7px;
+    }
+
+    .paymentCont02 .paymentBox .img {
+        padding-bottom: 20px;
+    }
+
+    .paymentCont02.last .paymentBox .txt li {
+        /*flex-direction: column;*/
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .paymentCont02.last .paymentBox .txt li em {
+        font-size: 12px;
+        width: 83px;
+        padding: 4px 4px 4px 24px; /* 2026-07-07 */
+        margin-right: 0;
+        border-radius: 9px 9px 0 9px;
+    }
+
+    .paymentCont02.last .paymentBox .txt li em:before {
+        width: 17px;
+        height: 14px;
+        left: 4px;
+        top: 5px;
+    }
+
+    .paymentCont02.last .paymentBox .txt li:nth-child(2) em:before {
+        width: 17px;
+        height: 14px;
+        left: 4px;
+        top: 5px;
+    }
+
+    .paymentCont02.last .paymentBox .txt li:nth-child(3) em:before {
+        width: 18px;
+        height: 18px;
+        left: 4px;
+        top: 3px;
+    }
+
+    .paymentCont02.last .paymentBox .txt li:nth-child(4) em:before {
+        width: 17px;
+        height: 14px;
+        left: 4px;
+        top: 5px;
+    }
+
+    .paymentCont02.last .paymentBox .txt li em:after {
+        height: 12px;
+        left: 23px;
+        top: 6px;
+    }
+
+    .paymentCont02.last .paymentBox .txt li span {
+        font-size: 13px;
+    }
+
+    .paymentCont02.last .paymentBox .img div {
+        max-width: 100%;
+    }
+
+    .paymentNotice {
+        padding: 20px;
+        margin-bottom: 140px;
+    }
+
+    .paymentNotice p {
+        font-size: 14px;
+    }
+
+    .paymentNotice li {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 360px) {
+    .paymentCont01 .payRegisterList .itemWrap .item {
+        max-width: 135px;
+    }
+
+    .paymentCont01 .payRegisterList .itemWrap .item .txt span {
+        font-size: 11px;
+    }
+}
+
+
+/*# sourceMappingURL=style.css.map */

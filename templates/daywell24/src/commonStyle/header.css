@@ -1,0 +1,65 @@
+header .topHeader .center {
+    margin-right: 0;
+}
+
+header .topHeader .center .gnb .gnbMenu {
+    white-space: nowrap;
+}
+
+@media (min-width: 1440px) {
+    header .topHeader .center .gnb {
+        gap: 95px;
+    }
+}
+
+@media (max-width: 1000px) {
+    header .topHeader .center .gnb {
+        gap: 80px;
+    }
+}
+
+@media (max-width: 915px) {
+    header .topHeader .center .gnb {
+        gap: 76px;
+    }
+}
+
+@media (max-width: 890px) {
+    header .topHeader .center .gnb {
+        gap: 70px;
+    }
+
+    header .topHeader .left .mainLogo {
+        max-width: 98px;
+        max-height: 18px;
+    }
+}
+
+@media (max-width: 870px) {
+    header .topHeader .center .gnb {
+        gap: 65px;
+    }
+
+    header .topHeader .center .lnb {
+        gap: 7px;
+    }
+
+    header .topHeader .center .lnb li {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 823px) {
+    header .topHeader .center .gnb {
+        gap: 52px;
+    }
+}
+
+@media (max-width: 785px) {
+    header .topHeader .center .gnb {
+        padding-right: 5px;
+    }
+    header .topHeader .center .gnb .gnbMenu:nth-child(6) {
+        margin-right: 10px;
+    }
+}

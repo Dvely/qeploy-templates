@@ -1,0 +1,89 @@
+{
+  "mode": "built-in image_gen",
+  "assets": [
+    {
+      "id": "hero",
+      "file": "src/images/daywell24-hero.png",
+      "transparent": true,
+      "prompt": "Use case: illustration-story. Asset type: transparent cutout illustration for a convenience store brand website hero. Two original friendly young adults, one person standing and walking with a reusable coffee cup, one person sitting casually beside them with a sandwich, full bodies. Bold black ink outlines, white clothing fills, flat charcoal black clothing accents, thin warm orange offset outline, contemporary graphic line art, lively everyday city mood. Wide landscape composition, isolated transparent background, no ground shadow, no logos, no words. Keep the figures completely within the frame. New characters.",
+      "method": "built-in image_gen"
+    },
+    {
+      "id": "store",
+      "file": "src/images/daywell24-store.png",
+      "transparent": false,
+      "prompt": "Use case: photorealistic-natural. Asset type: wide website store background photograph. A contemporary neighborhood convenience shop viewed from outside, warm yellow and orange canopy, welcoming glass facade showing tidy shelves, trees reflected in windows, quiet Korean city neighborhood in morning sunlight. No signs containing words, no logos, no people, no watermarks. Professional architecture photography, wide 16:9.",
+      "method": "built-in image_gen"
+    },
+    {
+      "id": "coffee",
+      "file": "src/images/daywell24-coffee.png",
+      "transparent": true,
+      "prompt": "Use case: product-mockup. Asset type: transparent convenience-store product catalog cutout. One premium iced latte in a clear takeaway cup, warm creamy coffee tones, small plain yellow sleeve with simple orange circle graphic, strawless transparent lid. Clean studio lighting, full product centered with comfortable margins, physically realistic, no text, logos, words, watermark. Transparent background.",
+      "method": "built-in image_gen"
+    },
+    {
+      "id": "milk",
+      "file": "src/images/daywell24-milk.png",
+      "transparent": true,
+      "prompt": "Use case: product-mockup. Asset type: transparent convenience-store catalog packshot. One chilled white milk carton, minimal warm yellow and coral orange packaging with a tiny abstract sunrise motif and no text. Front three-quarter view, full carton visible, professionally lit realistic food packaging, crisp edges, subtle material detail. No logos, letters, watermark. Transparent background.",
+      "method": "built-in image_gen"
+    },
+    {
+      "id": "tea",
+      "file": "src/images/daywell24-tea.png",
+      "transparent": true,
+      "prompt": "Use case: product-mockup. Asset type: transparent convenience-store product packshot. One clear reusable-style bottle filled with golden peach iced tea, white cap, simple pale yellow label with abstract peach illustration and orange circle, no text. Full bottle centered, realistic cold condensation, bright clean studio lighting. No brands, letters, watermark. Transparent background.",
+      "method": "built-in image_gen"
+    },
+    {
+      "id": "sandwich",
+      "file": "src/images/daywell24-sandwich.png",
+      "transparent": true,
+      "prompt": "Use case: product-mockup. Asset type: transparent convenience-store fresh food catalog cutout. A freshly made triangle sandwich showing chicken, leafy greens, tomato and cheese, inside a clear compact triangular recyclable container with a plain yellow label and orange circle. Three-quarter perspective, full product centered, vivid appetizing realism, professional studio lighting. No logos, letters, watermark. Transparent background.",
+      "method": "built-in image_gen"
+    },
+    {
+      "id": "lunch",
+      "file": "src/images/daywell24-lunch.png",
+      "transparent": true,
+      "prompt": "Use case: product-mockup. Asset type: transparent convenience-store fresh food catalog packshot. A neat rectangular black bento tray with rice, grilled chicken, carrots and broccoli, clear sealed lid with a small plain yellow label bearing an orange circle, angled top three-quarter view. Entire tray visible and isolated, appetizing food styling, realistic high-end studio photo. No text, brand, logos or watermark. Transparent background.",
+      "method": "built-in image_gen"
+    },
+    {
+      "id": "bread",
+      "file": "src/images/daywell24-bread.png",
+      "transparent": true,
+      "prompt": "Use case: product-mockup. Asset type: transparent convenience-store bakery catalog photo. One golden flaky croissant with a small plain kraft paper tray, partly enclosed by transparent packaging with a simple orange circle sticker, no text. Full product centered, appetizing food photo, crisp pastry layers, soft studio light. No letters, logos or watermark. Transparent background.",
+      "method": "built-in image_gen"
+    },
+    {
+      "id": "dessert",
+      "file": "src/images/daywell24-dessert.png",
+      "transparent": true,
+      "prompt": "Use case: product-mockup. Asset type: transparent convenience-store dessert catalog photo. A clear little cup of strawberry cream pudding with visible white cream and strawberry layers, clear lid and minimal yellow sticker with a simple orange circle. Full product centered, realistic fruit and cream, premium studio food photography. No text, logos or watermark. Transparent background.",
+      "method": "built-in image_gen"
+    },
+    {
+      "id": "chips",
+      "file": "src/images/daywell24-chips.png",
+      "transparent": true,
+      "prompt": "Use case: product-mockup. Asset type: transparent convenience-store snack catalog packshot. One upright crisps pouch in vivid sunflower yellow and warm orange, a simple illustration of potato chips on the front, minimal distinctive packaging design with no lettering or brand. Full pack centered, realistic flexible packaging folds, professional bright studio lighting. No letters, logos or watermark. Transparent background.",
+      "method": "built-in image_gen"
+    },
+    {
+      "id": "noodles",
+      "file": "src/images/daywell24-noodles.png",
+      "transparent": true,
+      "prompt": "Use case: product-mockup. Asset type: transparent convenience-store food product packshot. One short cylindrical instant noodle cup with a white lid, cheerful orange and warm yellow wrap featuring only an abstract noodle bowl illustration. Full cup centered in three-quarter view, realistic cardboard texture, bright clean studio lighting. No text, logos, watermark or brand. Transparent background.",
+      "method": "built-in image_gen"
+    },
+    {
+      "id": "daily",
+      "file": "src/images/daywell24-daily.png",
+      "transparent": false,
+      "prompt": "Use case: photorealistic-natural. Asset type: wide lifestyle banner for an original neighborhood convenience brand. A warm bright breakfast table by a window, iced latte, croissant, fresh sandwich and a small strawberry dessert neatly arranged with a yellow reusable shopping bag at the side. Inviting everyday editorial food photography, soft morning sunlight, pale beige table, orange and yellow accents, wide 16:9 composition. No logos, people, labels with words, or watermarks.",
+      "method": "built-in image_gen"
+    }
+  ]
+}

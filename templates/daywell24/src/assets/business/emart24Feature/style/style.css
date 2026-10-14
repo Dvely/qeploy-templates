@@ -1,0 +1,421 @@
+/* 이마트24 특징 */
+
+
+section[class^="featureCont"] {
+  width: 100%;
+}
+
+section[class^="featureCont"] > .tit {
+  font-family: Paperlogy;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  margin-bottom: 36px;
+}
+
+.featureCont01 {
+  padding-bottom: 160px;
+}
+
+.featureCont01 .videoWrap {
+  width: 100%;
+  height: auto;
+  /*min-height: 454px;*/
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.featureCont01 .videoWrap img {
+  width: 100%;
+  height: auto;
+}
+
+.featureCont01 .videoWrap iframe {
+  width: 100%;
+  height: 454px;
+}
+
+.featureCont01 .itemWrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.featureCont01 .itemWrap .item {
+  width: calc(100% / 2);
+  border-radius: 32px;
+  box-shadow: 0px 4px 24px 0px #0000000D;
+  overflow: hidden;
+}
+
+.featureCont01 .itemWrap .item .img {
+  width: 100%;
+}
+
+.featureCont01 .itemWrap .item .img img {
+  width: 100%;
+  height: auto;
+}
+
+.featureCont01 .itemWrap .item .txt {
+  width: 100%;
+  padding: 25px 28px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featureCont01 .itemWrap .item .txt > p {
+  font-family: Paperlogy;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.featureCont02 {
+  padding-bottom: 160px;
+}
+
+.featureCont02 .itemWrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 100px 50px;
+}
+
+.featureCont02 .itemWrap .item {
+  width: calc((100% / 2) - 25px);
+}
+
+.featureCont02 .itemWrap .item .txt {
+  font-family: Paperlogy;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  border-bottom: 2px solid #f4f4f4;
+  width: 100%;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+.featureCont02 .itemWrap .item .listWrap {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.featureCont02 .itemWrap .item .listWrap .li {
+  width: 100%;
+  max-width: 86px;
+}
+
+.featureCont02 .itemWrap .item .listWrap .li .logo {
+  margin-bottom: 8px;
+}
+
+.featureCont02 .itemWrap .item .listWrap .li .logo img {
+  width: 100%;
+  height: auto;
+}
+
+.featureCont02 .itemWrap .item .listWrap .li .name {
+  font-family: Paperlogy;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 160%;
+  text-align: center;
+}
+
+.featureBanner {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+.featureBanner img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.featureCont03 {
+  width: 100%;
+  margin: 98px auto;
+}
+
+.featureCont03 .itemWrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.featureCont03 .itemWrap .item {
+  width: calc((100% / 3) - 15px);
+  border: 1px solid #EBEBEB;
+  background: #fff;
+  border-radius: 16px;
+  padding: 0 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.featureCont03 .itemWrap .item .logo {
+  width: 100%;
+  height: 278px;
+  object-fit: cover;
+}
+
+.featureCont03 .itemWrap .item .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.featureCont03 .itemWrap .item .info {
+  padding: 0 0 0 20px
+}
+
+.featureCont03 .itemWrap .item .info .name {
+  font-family: Paperlogy;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 140%;
+  padding-bottom: 8px;
+}
+
+.featureCont03 .itemWrap .item .info .desc {
+  font-family: Paperlogy;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #999;
+}
+
+.featureCont04 {
+  width: 100%;
+  padding-bottom: 160px;
+}
+
+.featureCont04 .desc {
+  font-family: Paperlogy;
+  font-weight: 500;
+  font-size: 17px;
+  color: #333;
+  padding-bottom: 36px ;
+}
+
+.featureCont04 .graph,
+.featureCont04 .history {
+  width: 100%;
+}
+
+.featureCont04 .graph > img,
+.featureCont04 .history > img {
+  width: 100%;
+  height: auto;
+}
+
+.featureCont04 .graph {
+  padding-bottom: 46px;
+}
+
+.featureCont04 .graph span {
+  font-family: Noto Sans KR;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #999;
+  margin-top: 32px;
+  display: block;
+}
+
+@media (min-width: 745px) and (max-width: 1088px) {
+  .featureCont01 .itemWrap .item .txt > p {
+    font-size: 18px;
+  }
+
+  .featureCont03 .itemWrap .item .info .desc .only_mo {
+    display: block !important;
+  }
+}
+
+@media (min-width: 745px) and (max-width: 1000px) {
+  .featureCont01 .itemWrap .item .txt {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 20px 28px;
+  }
+
+  .featureCont03 .itemWrap .item .logo {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    min-height: 136px;
+  }
+}
+
+@media (max-width: 744px) {
+  .featureCont01 .itemWrap {
+    flex-direction: column;
+  }
+
+  .featureCont01 .itemWrap .item {
+    width: 100%;
+  }
+
+  .featureCont01 .itemWrap .item .txt {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 20px 28px;
+  }
+
+  .featureCont03 .itemWrap {
+    gap: 8px;
+  }
+
+  .featureCont03 .itemWrap .item {
+    width: calc((100% / 2) - 4px);
+  }
+
+  .featureCont03 .itemWrap .item .logo {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    min-height: 136px;
+  }
+
+  .featureCont03 .itemWrap .item .logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .featureCont03 .itemWrap .item .info .name {
+    /*font-size:  15px;*/
+  }
+
+}
+
+
+
+@media (min-width: 10px) and (max-width: 480px) {
+  section[class^="featureCont"] > .tit {
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 20px;
+  }
+
+  .featureCont01 {
+    padding-bottom: 40px;
+  }
+
+  /*.featureCon01 .itemWrap {
+    flex-direction: column;
+  }
+
+  .featureCon01 .itemWrap .item {
+    width: 100%;
+  }
+
+  .featureCon01 .itemWrap .item .txt {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 20px 28px;
+  }
+
+  .featureCon01 .itemWrap .item .txt > p {
+    font-size: 18px;
+  }*/
+
+  .featureCont02 {
+    padding-bottom: 40px;
+  }
+
+  .featureCont02 .itemWrap {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .featureCont02 .itemWrap .item {
+    width: 100%;
+  }
+
+  .featureCont02 .itemWrap .item .listWrap {
+    /*justify-content: space-between;*/
+  }
+
+  .featureCont02 .itemWrap .item .listWrap .li {
+    max-width: 54px;
+  }
+
+  .featureCont02 .itemWrap .item .listWrap .li .name {
+    font-size: 12px;
+  }
+
+  .featureBanner {
+    width: calc(100% + 40px);
+    left: -20px
+  }
+
+  .featureCont03 {
+    margin: 40px auto;
+  }
+
+  /*.featureCon03 .itemWrap {
+    gap: 8px;
+  }
+
+  .featureCon03 .itemWrap .item {
+    width: calc((100% / 2) - 4px);
+  }
+
+  .featureCon03 .itemWrap .item .logo {
+    width: 100%;
+  }
+
+  .featureCon03 .itemWrap .item .logo img {
+    width: 100%;
+    height: auto;
+  }*/
+
+  .featureCont03 .itemWrap .item .info {
+    padding: 0 0 0 10px
+  }
+
+  .featureCont03 .itemWrap .item .info .name {
+    font-size:  15px;
+  }
+
+  .featureCont03 .itemWrap .item .info .desc {
+    font-size: 14px;
+  }
+
+  .featureCont04 .desc {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 160%;
+    padding-bottom: 20px;
+  }
+}
+
+
+
+
+
+

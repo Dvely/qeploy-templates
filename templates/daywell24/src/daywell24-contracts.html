@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <script src="daywell24-data.js"></script><meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="">
+    <meta property="og:title" content="맛있는 상품 - 데이웰24">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="창업안내 - 데이웰24">
+    <link rel="stylesheet" href="vendor/cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/business/business/style/style.css">
+    <script src="vendor/code.jquery.com/jquery-3.6.0.js"></script>
+
+    <link rel="stylesheet" href="commonStyle/common.css">
+    <link rel="stylesheet" href="commonStyle/content.css">
+
+    <link rel="stylesheet" href="commonStyle/header.css">
+    <link rel="stylesheet" href="commonStyle/footer.css">
+
+    <link rel="stylesheet" href="assets/business/businessModel/style/style.css">
+<link rel="stylesheet" href="daywell24-local.css"></head>
+<body data-daywell-page="contracts">
+    <header class="header">
+        
+        <div class="mobGnbWrap">
+            <div class="headerThemaChange">
+                <div class="firstBack"></div>
+                <div class="seconBack"></div>
+                <div class="thrdBack"></div>
+            </div>
+            <ul class="mobGnbs">
+                <li onclick="mobGnbTwodepOpen(this)" class="mobGnb">
+                    <div class="ondepthWrap">
+                        <div class="titleWrap">
+                            <div class="iconWrap">
+                                <img src="images/daywell24-menu-brand.svg" alt="">
+                            </div>
+                            <h1 class="mobGnbName">브랜드 스토리</h1>
+                        </div>
+                        <div class="dropIconWrap">
+                            <img src="assets/assets/imgs/arrowOrange.png" alt=""> </div>
+                    </div>
+                    <div class="twodepthWrap">
+                        <h2 class="twodepthName"><a href="daywell24-brand.html">브랜드 가치</a></h2> <h2 class="twodepthName"><a href="daywell24-brand-gallery.html">브랜드 갤러리</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-brand-resources.html">브랜드 리소스센터</a></h2>
+                    </div>
+                </li>
+                <li onclick="mobGnbTwodepOpen(this)" class="mobGnb">
+                    <div class="ondepthWrap">
+                        <div class="titleWrap">
+                            <div class="iconWrap">
+                                <img src="images/daywell24-menu-product.svg" alt="">
+                            </div>
+                            <h1 class="mobGnbName">상품</h1>
+                        </div>
+                        <div class="dropIconWrap">
+                            <img src="assets/assets/imgs/arrowOrange.png" alt=""> </div>
+                    </div>
+                    <div class="twodepthWrap">
+                        <h2 class="twodepthName"><a href="daywell24-products.html">행사 상품</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-signature.html">차별화 상품</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-fresh-food.html">Fresh Food</a></h2>
+                         </div>
+                </li>
+                <li onclick="mobGnbTwodepOpen(this)" class="mobGnb">
+                    <div class="ondepthWrap">
+                        <div class="titleWrap">
+                            <div class="iconWrap">
+                                <img src="assets/assets/imgs/mobGnbIcon/store.png" alt="">
+                            </div>
+                            <h1 class="mobGnbName">매장</h1>
+                        </div>
+                        <div class="dropIconWrap">
+                            <img src="assets/assets/imgs/arrowOrange.png" alt=""> </div>
+                    </div>
+                    <div class="twodepthWrap">
+                        <h2 class="twodepthName"><a href="daywell24-stores.html">매장찾기</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-store-studio.html">성수스튜디오점</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-store-garden.html">가든라운지점</a></h2>
+                    </div>
+                </li>
+                <li onclick="mobGnbTwodepOpen(this)" class="mobGnb">
+                    <div class="ondepthWrap">
+                        <div class="titleWrap">
+                            <div class="iconWrap">
+                                <img src="assets/assets/imgs/mobGnbIcon/service.png" alt="">
+                            </div>
+                            <h1 class="mobGnbName">서비스</h1>
+                        </div>
+                        <div class="dropIconWrap">
+                            <img src="assets/assets/imgs/arrowOrange.png" alt=""> </div>
+                    </div>
+                    <div class="twodepthWrap">
+                        <h2 class="twodepthName"><a href="daywell24-app.html">APP 서비스</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-payment.html">데이웰24 간편결제</a></h2> <h2 class="twodepthName"><a href="daywell24-life-services.html">생활 서비스</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-partners.html">제휴 서비스</a></h2>
+                    </div>
+                </li>
+                <li onclick="mobGnbTwodepOpen(this)" class="mobGnb">
+                    <div class="ondepthWrap">
+                        <div class="titleWrap">
+                            <div class="iconWrap">
+                                <img src="assets/assets/imgs/mobGnbIcon/event.png" alt="">
+                            </div>
+                            <h1 class="mobGnbName">이벤트</h1>
+                        </div>
+                        <div class="dropIconWrap">
+                            <img src="assets/assets/imgs/arrowOrange.png" alt=""> </div>
+                    </div>
+                    <div class="twodepthWrap">
+                        <h2 class="twodepthName"><a href="daywell24-events.html">진행중인 이벤트</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-events-ended.html">종료된 이벤트</a></h2>
+                    </div>
+                </li>
+                <li onclick="mobGnbTwodepOpen(this)" class="mobGnb">
+                    <div class="ondepthWrap">
+                        <div class="titleWrap">
+                            <div class="iconWrap">
+                                <img src="assets/assets/imgs/mobGnbIcon/business.png" alt="">
+                            </div>
+                            <h1 class="mobGnbName">창업안내</h1>
+                        </div>
+                        <div class="dropIconWrap">
+                            <img src="assets/assets/imgs/arrowOrange.png" alt=""> </div>
+                    </div>
+                    <div class="twodepthWrap">
+                        <h2 class="twodepthName"><a href="daywell24-franchise-features.html">데이웰24 특징</a></h2> <h2 class="twodepthName"><a href="daywell24-franchise-models.html">가맹모델 소개</a></h2> <h2 class="twodepthName"><a href="daywell24-franchise-session.html">창업 설명회</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-franchise-stories.html">창업 성공기</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-franchise-contact.html">창업 상담</a></h2>
+                        <h2 class="twodepthName"><a href="daywell24-franchise-spaces.html">추천 매장 소개</a></h2>
+                    </div>
+                </li>
+            </ul>
+            <ul class="mobTopMenus">
+                <li class="mobTopMenu">
+                    <h1 class="topMenuName"><a href="daywell24-advertising.html">광고문의</a></h1> <div class="dropIconWrap">
+                        <img src="assets/assets/imgs/arrowYellow.png" alt="">
+                    </div>
+                </li>
+                <li class="mobTopMenu">
+                    <h1 class="topMenuName"><a href="daywell24-helpdesk.html">고객센터</a></h1>
+                    <div class="dropIconWrap">
+                        <img src="assets/assets/imgs/arrowYellow.png" alt="">
+                    </div>
+                </li>
+                <li class="mobTopMenu">
+                    <h1 class="topMenuName">
+                        <a href="daywell24-career.html">
+                            채용안내
+                        </a>
+                    </h1>
+                    <div class="dropIconWrap">
+                        <img src="assets/assets/imgs/arrowYellow.png" alt="">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="viewHeaderWrap">
+            <div class="topSubHeader">
+                <div class="snbWrap">
+                    <ul class="snb">
+                        <li class="snbMenu">
+                            <span class="text"><a href="daywell24-advertising.html">광고문의</a></span> </li>
+                        <li class="snbMenu">
+                            <span class="text"><a href="daywell24-helpdesk.html">고객센터</a></span>
+                        </li>
+                        <li class="snbMenu">
+                            <span class="text">
+                                <a href="daywell24-career.html">
+                                    채용안내
+                                </a>
+                            </span>
+                        </li>
+                        <li class="snbMenu">
+                            <span class="text">
+                                <a href="daywell24-contracts.html">전자 계약 시스템</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="topHeader">
+
+                <div class="left only_mo">
+                    <h1 class="mainLogo">
+                        <a href="index.html"><img src="images/daywell24-logo.svg" alt="홈 - 데이웰24"></a>
+                    </h1>
+                </div>
+
+                <div class="left only_pc">
+                    <div class="flip_wrap">
+                        <div class="flip_front">
+                            <h1 class="mainLogo"><a href="index.html"><img src="images/daywell24-logo.svg" alt="daywell24"></a></h1>
+                        </div>
+                        <div class="flip_back">
+                            <h1 class="mainLogo"><a href="index.html"><img src="images/daywell24-header-slogan.svg" alt="GOOD DAY DAYWELL24"></a></h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="center">
+                    <div class="gnbWrap">
+                        <ul class="gnb">
+                            <div class="lnbWrap"></div>
+                            <li class="gnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-brand.html"><span class="text">브랜드 스토리</span></a> </div>
+                                <ul class="lnb">
+                                    <li><a href="daywell24-brand.html">브랜드 가치</a></li> <li><a href="daywell24-brand-gallery.html">브랜드 갤러리</a></li>
+                                    <li><a href="daywell24-brand-resources.html">브랜드 리소스센터</a></li>
+                                </ul>
+                            </li>
+                            <li class="gnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-products.html"><span class="text">상품</span></a>
+                                </div>
+                                <ul class="lnb">
+                                    <li><a href="daywell24-products.html">행사 상품</a></li>
+                                    <li><a href="daywell24-signature.html">차별화 상품</a></li>
+                                    <li><a href="daywell24-fresh-food.html">Fresh Food</a></li>
+                                     </ul>
+                            </li>
+                            <li class="gnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-stores.html"><span class="text">매장</span></a>
+                                </div>
+                                <ul class="lnb">
+                                    <li><a href="daywell24-stores.html">매장찾기</a></li>
+                                    <li><a href="daywell24-store-studio.html">성수스튜디오점</a></li>
+                                    <li><a href="daywell24-store-garden.html">가든라운지점</a></li>
+                                </ul>
+                            </li>
+                            <li class="gnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-app.html"><span class="text">서비스</span></a>
+                                </div>
+                                <ul class="lnb">
+                                    <li><a href="daywell24-app.html">APP 서비스</a></li>
+                                    <li><a href="daywell24-payment.html">데이웰24 간편결제</a></li> <li><a href="daywell24-life-services.html">생활 서비스</a></li>
+                                    <li><a href="daywell24-partners.html">제휴 서비스</a></li>
+                                </ul>
+                            </li>
+                            <li class="gnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-events.html"><span class="text">이벤트</span></a>
+                                </div>
+                                <ul class="lnb">
+                                    <li><a href="daywell24-events.html">진행중인 이벤트</a></li>
+                                    <li><a href="daywell24-events-ended.html">종료된 이벤트</a></li>
+                                </ul>
+                            </li>
+                            <li class="gnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-franchise.html"><span class="text">창업안내</span></a>
+                                </div>
+                                <ul class="lnb">
+                                    <li><a href="daywell24-franchise-features.html">데이웰24 특징</a></li> <li><a href="daywell24-franchise-models.html">가맹모델 소개</a></li> <li><a href="daywell24-franchise-session.html">창업 설명회</a></li>
+                                    <li><a href="daywell24-franchise-stories.html">창업 성공기</a></li>
+                                    <li><a href="daywell24-franchise-contact.html">창업 상담</a></li>
+                                    <li><a href="daywell24-franchise-spaces.html">추천 매장 소개</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div onclick="mobGnbOpen(this)" class="right"></div>
+            </div>
+        </div>
+        <div class="bottomHeader">
+            <div class="viewHeaderWrap">
+                <div class="bottomHeaderContents">
+                    <div class="curMenu">
+                        <h2 class="text">창업안내</h2>
+                    </div>
+                    <div class="lngWrap">
+                        <ul class="lnb">
+                            <li class="lnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-franchise-features.html">
+                                        <span class="text">데이웰24 특징</span> </a>
+                                </div>
+                            </li>
+                            <li class="lnbMenu">
+                                <div class="textWrap focus">
+                                    <a href="daywell24-franchise-models.html">
+                                        <span class="text">가맹모델 소개</span> </a>
+                                </div>
+                            </li>
+                            <li class="lnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-franchise-session.html">
+                                        <span class="text">창업설명회</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="lnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-franchise-stories.html">
+                                        <span class="text">창업성공기</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="lnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-franchise-contact.html">
+                                        <span class="text">창업상담</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="lnbMenu">
+                                <div class="textWrap">
+                                    <a href="daywell24-franchise-spaces.html">
+                                        <span class="text">추천 매장 소개</span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <div class="background">
+        </div>
+    <div class="viewContentsWrap subWrap">
+        <div class="mainContents">
+            <section class="contentHeader">
+                <h1 class="tabTitle">파트너 안내</h1>
+            </section>
+
+            <div class="serviceSection">
+                <section class="modelCont01">
+                    <p class="tit">01. 데이웰24는 경영주와 이익과 가치를 공유하여 경영주와 상생하는 창업모델을 제시합니다.</p>
+
+                    <div class="itemWrap">
+                        <div class="item item01">
+                            <p><span>경영주 임차 후 운영</span></p>
+                            <div class="inner">
+                                <div class="img"><img src="images/daywell24-coffee.png" alt="선라이즈 아이스라떼"></div>
+                                <div class="txt">
+                                    <p>일반가맹</p>
+                                    <span>New Partnership (NP)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item item02">
+                            <p><span>본부 임차 후 경영주 운영</span></p>
+                            <div class="inner">
+                                <div class="img"><img src="images/daywell24-coffee.png" alt="선라이즈 아이스라떼"></div>
+                                <div class="txt">
+                                    <p>전대가맹 / 위탁가맹</p>
+                                    <span>New Harmony1 (NH1)</span>
+                                    <span>New Harmony2 (NH2)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tbWrap">
+                        <div class="scroll_area">
+                            <table>
+                                <caption>일반 가맹, 전대 가맹, 위탁 가맹으로 구분되어 있는 가맹 모델 안내표</caption>
+                                <colgroup>
+                                    <col width="12%">
+                                    <col width="13%">
+                                    <col width="25%">
+                                    <col width="25%">
+                                    <col width="25%">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th colspan="2">구분</th>
+                                        <th>
+                                            New Partnership (NP)<br>
+                                            <span>(일반 가맹)</span>
+                                        </th>
+                                        <th>
+                                            New Harmony1 (NH1)<br>
+                                            <span>(전대 가맹)</span>
+                                        </th>
+                                        <th>
+                                            New Harmony2 (NH2)<br>
+                                            <span>(위탁 가맹)</span>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="4">개점 투자비</td>
+                                        <td>상품대</td>
+                                        <td colspan="3">1,600만원</td>
+                                    </tr>
+                                    <tr>
+                                        <td>가맹비</td>
+                                        <td colspan="3">770만원 (VAT포함)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>소모품비</td>
+                                        <td colspan="3">50만원</td>
+                                    </tr>
+                                    <tr>
+                                        <td>소계</td>
+                                        <td colspan="3">2,420만원</td>
+                                    </tr>
+                                    <tr class="tb_gray">
+                                        <td rowspan="4">점포 투자비</td>
+                                        <td>시설 / 인테리어</td>
+                                        <td colspan="3">본부투자</td>
+                                    </tr>
+                                    <tr class="tb_gray">
+                                        <td>점포 임차</td>
+                                        <td>경영주 임차 / 자가</td>
+                                        <td>본부 임차</td>
+                                        <td>본부 임차</td>
+                                    </tr>
+                                    <tr class="tb_gray">
+                                        <td>보증금</td>
+                                        <td>보증금 + 권리금</td>
+                                        <td>전대보증금 최대 5천만원</td>
+                                        <td>예치보증금 3천만원</td>
+                                    </tr>
+                                    <tr class="tb_gray">
+                                        <td>임차료</td>
+                                        <td>경영주 부담 100%</td>
+                                        <td>
+                                            분담 (경영주 61%, 본사 39%)<br>
+                                            <span>
+                                                *전대이자 : 투자금 (보증금 + 권리금)<br>
+                                                50%의 전대보증금 차액 6%/12개월
+                                            </span>
+                                        </td>
+                                        <td>본부부담 100%</td>
+                                    </tr>
+                                    <tr class="tb_yellow">
+                                        <td colspan="2">투자비 합계</td>
+                                        <td>보증금 + 권리금 + 개점 투자비 (2,420만원)</td>
+                                        <td>전대보증금  + 개점 투자비 (2,420만원)</td>
+                                        <td>예치보증금 + 개점 투자비 (2,420만원)</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="4">계약 조건</td>
+                                        <td>경영주 수익배분</td>
+                                        <td>
+                                            24시간 미운영 : 71%<br>
+                                            24시간 운영 : 71% + 3% <span>(영업지원금)</span>
+                                        </td>
+                                        <td>
+                                            24시간 미운영 : 61%<br>
+                                            24시간 운영 : 61% + 5% <span>(영업지원금)</span>
+                                        </td>
+                                        <td>
+                                            24시간 미운영 : 51%<br>
+                                            24시간 운영 : 51% + 5% <span>(영업지원금)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>가맹계약 기간</td>
+                                        <td colspan="3">5년</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            담보 택 1<br>
+                                            <span>(근저당, 질권, 보증보험)</span>
+                                        </td>
+                                        <td>5천만원</td>
+                                        <td>
+                                            5천만원<br>
+                                            <span>(전대보증금 현금담보 인정)</span>
+                                        </td>
+                                        <td>2천만원</td>
+                                    </tr>
+                                    <tr>
+                                        <td>상생안정지원금</td> <td>
+                                            24시간 미운영 : 월 600만원<br>
+                                            24시간 운영 : 월 850만원
+                                        </td>
+                                        <td>
+                                            24시간 미운영 : 월 550만원<br>
+                                            24시간 운영 : 월 800만원
+                                        </td>
+                                        <td>
+                                            24시간 미운영 : 월 450만원<br>
+                                            24시간 운영 : 월 700만원
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="descWrap">
+                            <p>* 상생안정지원금 : 유인 19시간 운영 경영주 대상이며, 경영주 비용 공제 전 기준 금액 대비 차액 발생시 지급</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="modelCont02">
+                    <p class="tit">02. 창업 상담부터 교육까지 늘 데이웰24가 함께합니다.</p>
+                    <div class="itemWrap">
+                        <div class="item">
+                            <div class="img"><img src="images/daywell24-milk.png" alt="데일리 온유 우유"></div>
+                            <div class="txt">
+                                창업상담<br>
+                                신청
+                            </div>
+                            <div class="btn">
+                                <div class="basicBtnWrap small"><a href="daywell24-products.html" target="_blank">창업상담 바로가기</a></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img"><img src="images/daywell24-milk.png" alt="데일리 온유 우유"></div>
+                            <div class="txt">
+                                입지 선정 및<br>
+                                점포 소개
+                            </div>
+                            <div class="btn"></div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img"><img src="images/daywell24-milk.png" alt="데일리 온유 우유"></div>
+                            <div class="txt">
+                                가맹 상담 및<br>
+                                정보공개서 교부
+                            </div>
+                            <div class="btn">
+                                <div class="basicBtnWrap small"><a href="daywell24-products.html" target="_blank">추천점포 확인하기</a></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img"><img src="images/daywell24-milk.png" alt="데일리 온유 우유"></div>
+                            <div class="txt">
+                                가맹 계약<br>
+                                체결
+                            </div>
+                            <div class="btn">
+                                <div class="basicBtnWrap small"><a href="daywell24-products.html" target="_blank">전자계약 사이트</a></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img"><img src="images/daywell24-milk.png" alt="데일리 온유 우유"></div>
+                            <div class="txt">
+                                가맹경영주<br>
+                                교육
+                            </div>
+                            <div class="btn"></div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img"><img src="images/daywell24-milk.png" alt="데일리 온유 우유"></div>
+                            <div class="txt">
+                                오픈<br>
+                                (인테리어, 진열 등)
+                            </div>
+                            <div class="btn"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="modelCont03">
+                    <p class="tit">03. 데이웰24는 경영주님을 위한 차별화된 지원과 혜택을 제공합니다.</p>
+
+                    <div class="benefitWrap">
+
+                        <div class="item">
+                            <div class="img">
+                                <img src="assets/assets/imgs/business/model_icon_03.png">
+                            </div>
+                            <div class="txt">
+                                <p class="tit">창업지원</p>
+                                <p class="desc">
+                                    <span>01. 가맹거래사 서비스</span>
+                                    <span>신규 가맹 희망자에 대한 가맹거래사 무료 자문 서비스 제공</span>
+                                </p>
+                                <p class="desc">
+                                    <span>02. 복수경영주 가맹비 지원</span>
+                                    <span>복수점 운영 경영주에게 가맹비 50% 상당의  상품대 지원</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img">
+                                <img src="assets/assets/imgs/business/model_icon_04.png">
+                            </div>
+                            <div class="txt">
+                                <p class="tit">경영지도</p>
+                                <p class="desc">
+                                    <span>01. 점포 컨설팅</span>
+                                    <span>직원들의 정기 방문을 통한 상품구색, 진열, 판매 등에 대한 조언 제공</span>
+                                </p>
+                                <p class="desc">
+                                    <span>02. 상품 정보 제공</span>
+                                    <span>상품 관련 표준진열 안내 및 데이웰24 TV 등 활용 정보 제공</span>
+                                </p>
+                                <p class="desc">
+                                    <span>03. 점포 분석</span>
+                                    <span>정산서 및 POS/발주/분석 시스템 제공</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img">
+                                <img src="assets/assets/imgs/business/model_icon_05.png">
+                            </div>
+                            <div class="txt">
+                                <p class="tit">운영지원</p>
+                                <p class="desc">
+                                    <span>01. 반품 지원</span>
+                                    <span>점당 월 매입금액 1% 한도 지원, 초도상품 40만원 限 지원</span>
+                                </p>
+                                <p class="desc">
+                                    <span>02. 보험 지원</span>
+                                    <span>전 점포 보험가입 지원 (재물 및 현금 도난 보험 限 )</span>
+                                </p>
+                                <p class="desc">
+                                    <span>03. 폐기 지원</span>
+                                    <span>FF 신상품 최대 50% 지원 + 출시일 기준 7일간 30% 추가 지원 (일부상품 限)</span>
+                                </p>
+                                <p class="desc">
+                                    <span>04. 자연재해 지원</span>
+                                    <span>7일 이상 영업중단 시 생활지원금 지급 (100만원/店) *사실 확인 증빙점 限 </span>
+                                </p>
+                                <p class="desc">
+                                    <span>05. 근무자 상해지원</span>
+                                    <span>강도 및 고객 폭행시 근무자 대상 위로금 40만원/店 *CCTV or 경찰 확인</span>
+                                </p>
+                                <p class="desc">
+                                    <span>06. 결품 보상</span>
+                                    <span>물류센터 출고 결품 발생시 대상 상품의 이익액 보상 *담배, 주류, 서비스 제외</span>
+                                </p>
+                                <p class="desc">
+                                    <span>07. 시스템 장애 보상</span>
+                                    <span>시스템 장애로 발주 지연시 보상 (본부 귀책 限)</span>
+                                </p>
+                                <p class="desc">
+                                    <span>08. 발주장려금 연동 지원</span>
+                                    <span>발주장려금 대상 상품 도입실적과 연동한 한도반품 지원</span>
+                                </p>
+                                <p class="desc">
+                                    <span>09. 송금 지연 시 금리 인하</span>
+                                    <span>누계 100만원 이하 6%, 누계 100만원 초과 12% 적용</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img">
+                                <img src="assets/assets/imgs/business/model_icon_06.png">
+                            </div>
+                            <div class="txt">
+                                <p class="tit">복지제도</p>
+                                <p class="desc">
+                                    <span>01. 법률·노무 자문서비스</span>
+                                    <span>가맹 사업자 대상 무료 제공</span>
+                                </p>
+                                <p class="desc">
+                                    <span>02. 경조사 지원</span>
+                                    <span>직계 가족 경조사 발생시 경조사 지원</span>
+                                </p>
+                                <p class="desc">
+                                    <span>03. 출산 선물 지원</span>
+                                    <span>본인 및 배우자 출산 시 출산 선물 제공</span>
+                                </p>
+                                <p class="desc">
+                                    <span>04. 채용 우대</span>
+                                    <span>경영주 자녀 채용 우대</span>
+                                </p>
+                                <p class="desc">
+                                    <span>05. 휴양지, 건강검진 할인</span>
+                                    <span>전국 휴양지 및 건강검진 할인 혜택</span>
+                                </p>
+                                <p class="desc">
+                                    <span>06. 학자금 지원</span>
+                                    <span>임직원 동일 수준의 학자금 지원 (운영 년수에 따라 차등 적용)</span>
+                                </p>
+                                <p class="desc">
+                                    <span>07. 휴가비 지원</span>
+                                    <span>가맹사업자 휴가비 지원 (개점 후 3개월 경과 시 신청 가능)</span>
+                                </p>
+                                <p class="desc">
+                                    <span>08. 경영주 복지몰 운영</span>
+                                    <span>시중가 대비 저렴한 가격 제공</span>
+                                </p>
+                                <p class="desc">
+                                    <span>09. 상조서비스 할인</span>
+                                    <span>임직원 동일 수준의 상조서비스 할인 혜택 (약20%)</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img">
+                                <img src="assets/assets/imgs/business/model_icon_07.png">
+                            </div>
+                            <div class="txt">
+                                <p class="tit">소통채널</p>
+                                <p class="desc">
+                                    <span>01. 경영주 협의회 정기 간담회</span>
+                                </p>
+                                <p class="desc">
+                                    <span>02. 분과 위원회 구성</span>
+                                </p>
+                                <p class="desc">
+                                    <span>03. 상생조정 위원회 분쟁 조정 예방기구 운영</span>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+  <div class="viewFooterWrap">
+    <div class="fnbWrap">
+      <ul class="fnb">
+        <li class="fnbMenu">
+          <a href="daywell24-privacy.html"><span class="text" style="font-weight: 500">개인정보 처리방침</span></a>
+        </li>
+        <li class="fnbMenu">
+          <a href="daywell24-youth-policy.html"><span class="text">청소년 보호정책</span></a>
+        </li>
+        <li class="fnbMenu">
+            <a href="daywell24-video-policy.html"><span class="text">고정형 영상정보처리기기 운영·관리 방침</span></a> </li>
+          <li class="fnbMenu">
+          <a href="daywell24-terms.html"><span class="text">이용약관</span></a>
+        </li>
+      <li class="fnbMenu">
+          <a href="daywell24-notice.html"><span class="text">공지사항</span></a>
+      </li>
+        <li class="fnbMenu">
+          <a href="daywell24-helpdesk.html"><span class="text">고객센터</span></a>
+        </li>
+        <li class="fnbMenu">
+          <a href="daywell24-community.html"><span class="text">CSR경영</span></a>
+        </li>
+<li class="fnbMenu">
+          <a href="daywell24-sitemap.html"><span class="text">사이트맵</span></a>
+        </li>
+      </ul>
+      <ul class="familySite">
+        <li class="famMenu">
+          <div class="textWrap">
+            <input type="checkbox" name="" id="familySite">
+            <label for="familySite">
+              <span class="text">
+                패밀리사이트
+                  <div style="line-height: 10px;font-size: 16px;" class="icon">+</div>
+              </span>
+
+              <ul class="familySiteList" style="max-height: 30vh; overflow-y:scroll;">
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 스튜디오<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 키친<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 베이커리<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 커피<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 가든<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 마켓<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 라이프<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 프레시<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 셀렉트<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 라운지<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 파트너스<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 로컬<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 디자인<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 스토어<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 테이블<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 데일리<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 모닝<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 해피<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 온유<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="blank" class="familySiteItem">데이웰 그린<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 뉴데이<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰 네이버후드<span>데이웰 스튜디오</span>
+                </a>
+                <a href="daywell24-brand-gallery.html" target="_blank" class="familySiteItem">데이웰24<span>데이웰 스튜디오</span>
+                </a>
+              </ul>
+            </label>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="footerContentsWrap">
+      <div class="companyInfoWrap">
+        <div class="titleWrap">
+          <span class="text">(주) 데이웰24</span>
+        </div>
+        <div class="infoWrap">
+                            <span class="text">대표이사: 데이웰 스튜디오 / 사업자등록번호: 가상 브랜드 템플릿<br>
+                                동네의 일상을 위한 데이웰24 디자인 공간 /
+                                <br class="only_mo">
+                                고객센터: 실제 상담을 접수하지 않습니다 / Fax: 해당 없음<br>COPYRIGHT (C)
+                                DAYWELL24.ALL RIGHT RESERVED</span>
+                        </div>
+                    </div>
+                    <div class="snsWrap">
+                        <div class="youtubeIcon">
+                            <a href="daywell24-brand-gallery.html" target="_blank">
+                                <img src="assets/assets/imgs/snsYutube.png" alt="유튭"></a>
+                        </div>
+                        <div class="instaIcon">
+                            <a href="daywell24-brand-gallery.html" target="_blank">
+                                <img src="assets/assets/imgs/snsInsta.png" alt="인스타"></a>
+                        </div>
+                        <div class="facebookIcon">
+                            <a href="daywell24-brand-gallery.html" target="_blank">
+                                <img src="assets/assets/imgs/snsFacebook.png" alt="페북"></a>
+                        </div>
+                        <div class="facebookIcon">
+                            <a href="daywell24-brand-gallery.html" target="_blank">
+                                <img src="assets/assets/imgs/snsTiktok.png" alt="틱톡" style="
+                                        height: 20px;
+                                        width: auto;
+                                        margin-top: 6px;
+                                        margin-left: 6px;
+                                    "></a>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    document.addEventListener("mouseup", function (e) {
+                        var container = document.getElementById("container");
+                        if (container && !container.contains(e?.target)) {
+                            container.style.display = "none";
+                        }
+                    });
+                </script>
+            </div>
+        </footer>
+    
+  <script src="vendor/cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="vendor/ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="daywell24-adapter.js"></script><script src="commonJs/Header.js"></script>
+    <script src="commonJs/HeaderInteraction.js"></script>
+    <script src="commonJs/ScrollObserver.js"></script>
+<script src="daywell24-interactions.js" defer></script></body>
+</html>

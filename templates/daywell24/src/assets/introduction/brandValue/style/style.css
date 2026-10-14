@@ -1,0 +1,371 @@
+/* 브랜드 스토리 :: 브랜드 가치 */
+
+.serviceSection {
+    width: 100%;
+}
+
+section[class^="brandValueCont"] {
+    width: 100%;
+}
+
+section[class^="brandValueCont"] .desc {
+    font-family: Paperlogy;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #333;
+    padding-bottom: 14px;
+}
+
+section[class^="brandValueCont"] .desc + span {
+    font-family: Paperlogy;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    vertical-align: middle;
+    color: #999;
+}
+
+.brandValueCont01 {
+    width: 100%;
+    padding-bottom: 98px;
+}
+
+.brandValueCont01 .brandStoryWrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.brandValueCont01 .brandStoryWrap .img {
+    width: 510px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 32px;
+    overflow: hidden;
+}
+
+.brandValueCont01 .brandStoryWrap .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.brandValueCont01 .brandStoryWrap .txt {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.brandValueCont01 .brandStoryWrap .txt p:first-child {
+    font-family: Paperlogy;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 140%;
+}
+
+.brandValueCont01 .brandStoryWrap .txt p:nth-child(2) {
+    font-family: Paperlogy;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.brandValueCont01 .brandStoryWrap .txt p:last-child {
+    font-family: Paperlogy;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 140%;
+    color: #999;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.brandValueCont02 {
+    width: 100%;
+    padding-bottom: 98px;
+}
+
+.brandValueCont02 .brandSlogan {
+    width: 100%;
+    text-align: center;
+    padding: 36px 0;
+}
+
+.brandValueCont02 .itemWrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.brandValueCont02 .itemWrap .item {
+    width: calc((100% / 3) - 10px);
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 16px;
+    background: #FED65D;
+}
+
+.brandValueCont02 .itemWrap .item:nth-child(2) {
+    background: #FEBD5C;
+}
+
+.brandValueCont02 .itemWrap .item p {
+    font-family: Paperlogy;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 140%;
+    vertical-align: middle;
+    padding-bottom: 8px;
+}
+
+.brandValueCont02 .itemWrap .item span {
+    font-family: Paperlogy;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    vertical-align: middle;
+}
+
+.brandValueCont03 {
+    width: 100%;
+    padding-bottom: 98px;
+}
+
+.brandValueCont03 .itemWrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 15px;
+    margin-top: 36px;
+    flex-wrap: wrap;
+}
+
+.brandValueCont03 .itemWrap .item {
+    width: calc((100% / 3) - 10px);
+    border: 1px solid #EBEBEB;
+    border-radius: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+    /*padding-bottom: 20px;*/
+}
+
+.brandValueCont03 .itemWrap .item .img {
+    width: 100%;
+    height: 278px;
+}
+
+.brandValueCont03 .itemWrap .item .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.brandValueCont03 .itemWrap .item .txt {
+    font-family: Paperlogy;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 2.2em;
+    vertical-align: middle;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brandValueBanner {
+    width: 100%;
+    margin-bottom: 160px;
+}
+
+.brandValueBanner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+@media (max-width: 1079px) {
+    .brandValueCont01 .brandStoryWrap {
+        gap: 32px;
+    }
+
+    .brandValueCont01 .brandStoryWrap .img {
+        width: 55%;
+        height: auto;
+        aspect-ratio: 510 / 450;
+    }
+
+    .brandValueCont01 .brandStoryWrap .txt {
+        width: 45%;
+    }
+
+    .brandValueCont03 .itemWrap .item .txt {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+}
+
+
+@media (max-width: 960px) {
+
+    .brandValueCont01 .brandStoryWrap .img {
+        width: 50%;
+        height: auto;
+        aspect-ratio: auto 1/1;
+    }
+
+    .brandValueCont01 .brandStoryWrap .txt {
+        width: 50%;
+    }
+
+    .brandValueCont02 .itemWrap {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .brandValueCont02 .itemWrap .item {
+        width: 100%;
+        padding: 14px;
+    }
+
+    .brandValueCont03 .itemWrap {
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .brandValueCont03 .itemWrap .item {
+        width: calc((100% / 2) - 5px);
+        border-radius: 16px;
+    }
+
+    .brandValueCont03 .itemWrap .item .txt {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .brandValueCont03 .desc + span {
+        word-break: keep-all;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .brandValueCont01 .brandStoryWrap {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .brandValueCont01 .brandStoryWrap .img {
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+        aspect-ratio: auto;
+    }
+
+    .brandValueCont01 .brandStoryWrap .txt {
+        width: 100%;
+        gap: 8px;
+    }
+
+    .brandValueCont03 .itemWrap .item .txt {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+
+
+@media (min-width: 10px) and (max-width: 480px) {
+
+    section[class^="brandValueCont"] .desc {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 140%;
+        padding-bottom: 12px;
+    }
+
+    .brandValueCont01 {
+        padding-bottom: 40px;
+    }
+
+    .brandValueCont01 .brandStoryWrap .txt p:first-child {
+        font-size: 26px;
+    }
+
+    .brandValueCont01 .brandStoryWrap .txt p:nth-child(2) {
+        font-size: 17px;
+    }
+
+    .brandValueCont01 .brandStoryWrap .txt p:last-child {
+        font-size: 15px;
+        line-height: 160%;
+        gap: 5px;
+    }
+
+    .brandValueCont02 .brandSlogan {
+        width: 100%;
+        max-width: 289px;
+        height: auto;
+        padding: 20px 0;
+        margin: 0 auto;
+    }
+
+    .brandValueCont02 .brandSlogan img {
+        width: 100%;
+        height: auto;
+    }
+
+    .brandValueCont02 .itemWrap .item p {
+        font-size: 15px;
+        padding-bottom: 6px;
+    }
+
+    .brandValueCont03 {
+        padding-bottom: 40px;
+    }
+
+    .brandValueCont03 .itemWrap {
+        flex-direction: column;
+    }
+
+    .brandValueCont03 .itemWrap .item {
+        width: 100%;
+    }
+
+
+    .brandValueCont03 .itemWrap .item .img {
+        height: 100%;
+        min-height: 136px;
+    }
+
+    .brandValueCont03 .itemWrap .item .txt {
+        font-size: 15px;
+        padding: 12px 10px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .brandValueBanner {
+        margin-bottom: 120px;
+    }
+
+}
+
+@media (min-width: 10px) and (max-width: 360px) {
+    .brandValueCont03 .itemWrap .item .txt {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
