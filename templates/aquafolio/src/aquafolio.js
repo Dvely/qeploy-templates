@@ -22,6 +22,27 @@
   function renderPrograms(){if(!$('[data-program-date]'))return;$$('[data-program-date]').forEach((b,i)=>{const date=addDays(today(),i),d=dateAt(date);b.dataset.date=date;b.setAttribute('aria-pressed',String(date===selectedProgramDate));const spans=$$('span',b);spans[0].textContent=i===0?'TODAY':['SUN','MON','TUE','WED','THU','FRI','SAT'][d.getUTCDay()];spans[1].textContent=(d.getUTCMonth()+1)+'/'+d.getUTCDate();spans[2].textContent='일정 보기';});
     $$('[data-program-card]').forEach(c=>c.hidden=programFilter!=='all'&&c.dataset.programCard!==programFilter);$$('[data-program-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.programFilter===programFilter)));$('[data-schedule-date]').textContent=dateLabel(selectedProgramDate)+' · '+$$('[data-program-card]').filter(c=>!c.hidden).length+'개 정규 프로그램 · 일정 예시';if($('[data-program-day-label]'))$('[data-program-day-label]').textContent=dateLabel(selectedProgramDate);}
   renderPrograms();
+  $$('.aq-date-strip').forEach(strip=>{
+    let gesture=null,suppressClick=false;
+    strip.addEventListener('pointerdown',e=>{
+      if(e.pointerType!=='mouse'||e.button!==0)return;
+      suppressClick=false;gesture={id:e.pointerId,x:e.clientX,left:strip.scrollLeft,dragging:false};
+    });
+    strip.addEventListener('pointermove',e=>{
+      if(!gesture||gesture.id!==e.pointerId)return;
+      const distance=e.clientX-gesture.x;
+      if(!gesture.dragging&&Math.abs(distance)>5){gesture.dragging=true;strip.setPointerCapture(e.pointerId);strip.classList.add('is-dragging');}
+      if(gesture.dragging){e.preventDefault();strip.scrollLeft=gesture.left-distance;}
+    });
+    const finish=e=>{
+      if(!gesture||gesture.id!==e.pointerId)return;
+      suppressClick=gesture.dragging;gesture=null;strip.classList.remove('is-dragging');
+      if(strip.hasPointerCapture(e.pointerId))strip.releasePointerCapture(e.pointerId);
+    };
+    strip.addEventListener('pointerup',finish);strip.addEventListener('pointercancel',finish);
+    strip.addEventListener('pointerleave',()=>{if(gesture&&!gesture.dragging)gesture=null;});
+    strip.addEventListener('click',e=>{if(suppressClick){suppressClick=false;e.preventDefault();e.stopImmediatePropagation();}},true);
+  });
   const qty={adult:1,child:1,family:0,night:0,annual:0};if(Object.hasOwn(data.prices,params.get('ticket'))){Object.keys(qty).forEach(k=>qty[k]=0);qty[params.get('ticket')]=1;}
   let selectedDate=validDate(params.get('date'))&&params.get('date')>=today()&&params.get('date')<=addDays(today(),365)?params.get('date'):today();
   let month=dateAt(selectedDate);month.setUTCDate(1);const totalQty=()=>Object.values(qty).reduce((a,b)=>a+b,0),ticketTotal=()=>Object.keys(qty).reduce((a,k)=>a+qty[k]*data.prices[k].price,0);
