@@ -3309,3 +3309,6 @@ input:where([type='file']):focus {
 .aq-conservation-actions .aq-button{margin:0;white-space:nowrap}
 @media(max-width:1023px){.aq-conservation-intro{grid-template-columns:1fr;gap:24px}.aq-conservation-actions{flex-wrap:wrap}}
 @media(max-width:767px){.aq-conservation-actions{display:grid;grid-template-columns:1fr;width:100%;gap:12px}.aq-conservation-actions .aq-button{width:100%;min-height:48px}}
+.aq-date-strip{scrollbar-width:none;-ms-overflow-style:none}
+.aq-date-strip::-webkit-scrollbar{display:none}
+.aq-date-strip .aq-date{flex-shrink:0;white-space:nowrap}
