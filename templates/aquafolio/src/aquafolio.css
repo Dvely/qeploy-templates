@@ -3315,6 +3315,7 @@ input:where([type='file']):focus {
 .aq-date-strip.is-dragging,.aq-program-filters.is-dragging{cursor:grabbing}
 .aq-program-filters{flex-wrap:nowrap;min-width:0;max-width:100%;overflow-x:auto}
 .aq-program-filters>*{flex-shrink:0;white-space:nowrap;cursor:inherit}
+.aq-program-filters>[data-program-filter]{flex:1 0 auto;text-align:center}
 @media(max-width:767px){.aq-program-filters{gap:4px}.aq-program-filters>[data-program-filter]{font-size:12px;min-height:40px;padding:8px}}
 .aq-creature-filters{display:flex;flex-wrap:wrap;align-items:center;gap:8px;overflow:visible}
 @media(max-width:767px){.aq-creature-filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch}.aq-creature-filters .filter-pill{display:flex;align-items:center;justify-content:center;gap:6px;min-width:0;width:100%;min-height:52px;padding:10px 8px;font-size:12px;line-height:1.5;white-space:normal;word-break:keep-all;overflow-wrap:anywhere;text-align:center}}
