@@ -3298,3 +3298,14 @@ input:where([type='file']):focus {
 @media print{.aq-header,footer,.aq-skip,button,dialog,#aquafolio-status{display:none!important}body{background:white!important;color:#111!important}.aq-support{padding-top:0!important}.aq-wrap{width:100%;padding-top:0}.aq-panel{background:white;border:1px solid #ddd;color:#111}.aq-support h1,.aq-support h2{color:#111!important}.aq-support p{color:#333!important}.aq-grid{grid-template-columns:1fr}.aq-button{display:none!important}@page{margin:15mm}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 @media(max-width:767px){.aq-hero-badge{display:inline-grid!important;grid-template-columns:8px minmax(0,1fr);column-gap:10px;border-radius:12px!important;align-items:center;max-width:100%}.aq-hero-badge>span:nth-child(2){font-size:10px;line-height:1.7}.aq-hero-badge>span:nth-child(n+3){display:none}}
+
+/* Conservation introduction: related actions sit beside the page copy. */
+.aq-conservation-intro{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:32px;margin-top:16px}
+.aq-conservation-copy{min-width:0}
+.aq-conservation-copy .aq-eyebrow{margin-top:0}
+.aq-conservation-copy h1{font-size:40px;font-weight:700;line-height:1.5;color:rgb(var(--sea-foam));margin:16px 0 24px;word-break:keep-all;overflow-wrap:anywhere}
+.aq-conservation-copy .aq-lead{margin-bottom:0}
+.aq-conservation-actions{display:flex;align-items:center;gap:12px}
+.aq-conservation-actions .aq-button{margin:0;white-space:nowrap}
+@media(max-width:1023px){.aq-conservation-intro{grid-template-columns:1fr;gap:24px}.aq-conservation-actions{flex-wrap:wrap}}
+@media(max-width:767px){.aq-conservation-actions{display:grid;grid-template-columns:1fr;width:100%;gap:12px}.aq-conservation-actions .aq-button{width:100%;min-height:48px}}
