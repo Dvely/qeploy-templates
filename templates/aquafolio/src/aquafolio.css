@@ -3309,7 +3309,10 @@ input:where([type='file']):focus {
 .aq-conservation-actions .aq-button{margin:0;white-space:nowrap}
 @media(max-width:1023px){.aq-conservation-intro{grid-template-columns:1fr;gap:24px}.aq-conservation-actions{flex-wrap:wrap}}
 @media(max-width:767px){.aq-conservation-actions{display:grid;grid-template-columns:1fr;width:100%;gap:12px}.aq-conservation-actions .aq-button{width:100%;min-height:48px}}
-.aq-date-strip{scrollbar-width:none;-ms-overflow-style:none;cursor:grab;user-select:none}
-.aq-date-strip::-webkit-scrollbar{display:none}
+.aq-date-strip,.aq-program-filters{scrollbar-width:none;-ms-overflow-style:none;cursor:grab;user-select:none}
+.aq-date-strip::-webkit-scrollbar,.aq-program-filters::-webkit-scrollbar{display:none}
 .aq-date-strip .aq-date{flex-shrink:0;white-space:nowrap;cursor:inherit}
-.aq-date-strip.is-dragging{cursor:grabbing}
+.aq-date-strip.is-dragging,.aq-program-filters.is-dragging{cursor:grabbing}
+.aq-program-filters{flex-wrap:nowrap;min-width:0;max-width:100%;overflow-x:auto}
+.aq-program-filters>*{flex-shrink:0;white-space:nowrap;cursor:inherit}
+@media(max-width:767px){.aq-program-filters{gap:4px}.aq-program-filters>[data-program-filter]{font-size:12px;min-height:40px;padding:8px}}
