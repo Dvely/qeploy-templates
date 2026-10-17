@@ -3320,6 +3320,11 @@ input:where([type='file']):focus {
 .aq-creature-filters{display:flex;flex-wrap:wrap;align-items:center;gap:8px;overflow:visible}
 .aq-brochure-button{flex-shrink:0;white-space:nowrap}
 .aq-discount-badge{flex-shrink:0;white-space:nowrap}
+.aq-payment-summary{container-type:inline-size}
+.aq-payment-total{flex-wrap:nowrap;gap:8px;align-items:baseline}
+.aq-payment-total>span{flex-shrink:0;white-space:nowrap}
+.aq-payment-total>span:first-child{font-size:14px;font-size:clamp(11px,4.7cqi,16px);line-height:1.5}
+.aq-payment-total #total-final-price{font-size:24px;font-size:clamp(18px,9cqi,32px);line-height:1.2;font-variant-numeric:tabular-nums}
 @media(max-width:767px){
  #faq-accordion-group .faq-toggle{gap:12px;padding:16px;min-height:56px}
  #faq-accordion-group .faq-toggle>div{min-width:0;align-items:flex-start;gap:10px}
