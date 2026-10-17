@@ -112,16 +112,20 @@
 <img src="images/atelier-tomyum.jpg" alt="동남아 스트리트">
 </figure>
 <div class="ac-catalog-controls">
-<label>찾아보기<input type="search" data-catalog-search placeholder="레시피, 식재료, 셰프 검색">
+<label class="ac-catalog-search">찾아보기<input type="search" data-catalog-search placeholder="레시피, 식재료, 셰프 검색">
 </label>
-<label>정렬<select data-catalog-sort>
+<div class="ac-catalog-meta">
+<p class="ac-catalog-count" data-catalog-count role="status">
+</p>
+<label class="ac-catalog-sort">
+<span>정렬</span>
+<select data-catalog-sort>
 <option value="recommended">추천순</option>
 <option value="low">빠른 조리순</option>
 <option value="high">긴 조리순</option>
 </select>
 </label>
-<p data-catalog-count role="status">
-</p>
+</div>
 </div>
 <p data-catalog-empty hidden>찾는 항목이 없습니다. 다른 단어로 검색해 보세요.</p>
 <div class="ac-grid">
