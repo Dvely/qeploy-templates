@@ -1,0 +1,53 @@
+:root{--ondam-yellow:#ffed00;--ondam-red:#dc262e;--ondam-ink:#202020;--ondam-line:#e6e6e6;--ondam-soft:#f8f7f4}
+/* Brand content changes only; the reference layout and motion live in common.css. */
+.header .util.pc ul li .link{background-image:none;color:var(--ondam-red);font-size:14px;font-weight:700;white-space:nowrap;text-indent:0}
+.header .logo a .ico{background-image:url(../images/common/logo.svg)}
+.header.col_white .logo a .ico{background-image:url(../images/common/logo_wh.svg)}
+.header.col_white.header_over .logo a .ico,.header.bg_white .logo a .ico{background-image:url(../images/common/logo.svg)}
+.ottogi_prd .thumb img{border-radius:50%;object-fit:cover;aspect-ratio:1}
+.global_ottogi .show_wrap .fade::after,.global_ottogi .show_wrap .fade2::after{background-size:cover!important;background-position:center!important}
+.ondam-value{display:flex;align-items:center;justify-content:center;border:1px solid #aaa;border-radius:50%;width:56px;height:56px;font-style:normal;font-size:10px;line-height:1.4;text-align:center;color:#666}
+.ondam-sub{padding:160px 24px 100px;min-height:60vh}
+.ondam-inner{max-width:1440px;margin:auto}
+.ondam-breadcrumb{font-size:14px;color:#777;margin-bottom:48px}
+.ondam-sub h1{font-size:56px;line-height:1.3;letter-spacing:-2px;font-weight:600;word-break:keep-all}
+.ondam-lead{font-size:24px;line-height:1.7;margin:26px 0 48px;word-break:keep-all}
+.ondam-wide{display:block;width:100%;max-height:650px;object-fit:cover;border-radius:60px 0;margin:36px 0}
+.ondam-intro{max-width:900px;margin:60px auto;font-size:28px;line-height:1.7;word-break:keep-all}
+.ondam-info-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:50px 0}
+.ondam-info-grid section{border-top:2px solid var(--ondam-ink);padding:30px 20px 30px 0;min-width:0}
+.ondam-info-grid section>span{color:var(--ondam-red);font-size:14px}
+.ondam-sub h2{font-size:28px;font-weight:600;line-height:1.5;word-break:keep-all}
+.ondam-info-grid h2{margin:16px 0}
+.ondam-info-grid p,.ondam-article section p{font-size:18px;line-height:1.9;color:#555;word-break:keep-all;overflow-wrap:anywhere}
+.ondam-card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px 28px;margin-top:30px}
+.ondam-card{display:block;min-width:0;border-bottom:1px solid var(--ondam-line);padding-bottom:24px}
+.ondam-card img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:30px 0;transition:border-radius .4s}
+.ondam-card:hover img{border-radius:0 30px}
+.ondam-card>div{padding:20px 0}
+.ondam-card span{font-size:14px;color:#888}
+.ondam-card h2{font-size:23px;margin:10px 0 14px}
+.ondam-card p{font-size:16px;color:#666;line-height:1.7;word-break:keep-all}
+.ondam-card b{display:block;font-size:14px;margin-top:24px;font-weight:500}
+.ondam-article{max-width:1050px;margin:auto}
+.ondam-article section{margin:48px 0}
+.ondam-article h2{margin-bottom:20px}
+.ondam-facts{display:flex;gap:16px;flex-wrap:wrap;padding:24px;background:var(--ondam-soft);font-size:14px;color:#666}
+.ondam-facts li{padding-right:16px;border-right:1px solid #ddd}
+.ondam-facts li:last-child{border:0}
+.ondam-button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;background:var(--ondam-yellow);border-radius:28px;border:0;color:var(--ondam-ink);font-size:16px;cursor:pointer}
+.ondam-section-title{margin:90px 0 30px}
+.ondam-faq{border-bottom:1px solid var(--ondam-line)}
+.ondam-faq summary{cursor:pointer;font-size:20px;padding:24px 0;line-height:1.5}
+.ondam-faq p{padding:0 0 30px;color:#555;font-size:16px;line-height:1.8}
+.ondam-search-form{max-width:800px;margin:40px 0}
+.ondam-search-form label{display:block;font-size:14px;margin-bottom:10px}
+.ondam-search-form>div{display:flex;gap:12px}
+.ondam-search-form input{width:100%;min-width:0;padding:14px 20px;border:1px solid #999;border-radius:4px;font-size:18px}
+.ondam-search-form button{flex-shrink:0}
+.ondam-empty{padding:70px 20px;text-align:center;background:var(--ondam-soft);margin-top:30px;font-size:18px}
+:focus-visible{outline:2px solid var(--ondam-red);outline-offset:5px}
+@media(max-width:1023px){.ondam-sub{padding:110px 24px 64px}.ondam-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ondam-sub h1{font-size:42px}}
+@media(max-width:767px){.ondam-sub{padding:100px 20px 60px}.ondam-breadcrumb{font-size:12px;margin-bottom:30px}.ondam-sub h1{font-size:32px;letter-spacing:-1px}.ondam-lead{font-size:18px;margin:20px 0 30px}.ondam-wide{border-radius:30px 0;max-height:400px}.ondam-intro{font-size:21px;margin:36px 0}.ondam-info-grid{grid-template-columns:1fr;gap:12px;margin:30px 0}.ondam-sub h2{font-size:23px}.ondam-info-grid p,.ondam-article section p{font-size:16px}.ondam-card-grid{grid-template-columns:1fr;gap:24px}.ondam-card h2{font-size:22px}.ondam-card p{font-size:15px}.ondam-section-title{margin-top:60px}.ondam-faq summary{font-size:17px}.ondam-value{width:42px;height:42px;font-size:9px}.ondam-facts{gap:12px;padding:18px}.ondam-facts li{border:0;padding:0}.ondam-search-form input{font-size:16px}.ondam-search-form .ondam-button{padding:12px 20px}.ondam-article section{margin:32px 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}[data-aos]{opacity:1!important;transform:none!important}}
+@media(max-width:767px){.footer .f_number{gap:20px}.footer .f_number dl{flex:1;min-width:0;margin-right:0}.footer .f_number dl dt{font-size:12px;word-break:keep-all}.footer .f_number dl dd{font-size:14px;overflow-wrap:anywhere;word-break:normal}}

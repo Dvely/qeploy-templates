@@ -1,0 +1,18 @@
+{
+  "id":"ondam-foods",
+  "name":"온담식품",
+  "description":"전체 화면 캠페인과 도형 사진 전환, 글로벌 이미지 모자이크, 확장형 지속가능경영 카드, 제품 슬라이더를 갖춘 식품 기업 브랜드 사이트",
+  "tags":["식품","기업","브랜드","레시피","애니메이션","반응형"],
+  "stack":"vanilla",
+  "entry":"index.html",
+  "contentHints":[
+    {"key":"brand","where":"index.html","desc":"메인 문구·섹션 제목·뉴스·레시피. 원본 클래스와 구조는 레이아웃 및 모션에 사용"},
+    {"key":"logo","where":"images/ondam-symbol.svg","desc":"그릇과 새싹으로 만든 온담의 새 로고. 헤더용은 images/common/logo.svg, logo_wh.svg"},
+    {"key":"images","where":"images/","desc":"새로 생성한 메인 식탁 사진과 브랜드에 맞춘 로컬 음식 사진"},
+    {"key":"motion","where":"js/ondam-home.js","desc":"메인·제품 슬라이더와 사진·스크롤 진입·지속가능경영 카드의 전환. 원본 설정 유지"},
+    {"key":"layout","where":"css/common.css","desc":"원본 섹션 순서·치수·브레이크포인트와 애니메이션. 자산 경로는 로컬로 교체"},
+    {"key":"content","where":"ondam-data.js","desc":"가상 상품 6개, 뉴스 6개, 레시피 4개의 검색 데이터. 상세 HTML도 함께 수정"},
+    {"key":"local","where":"ondam-local.js","desc":"외부 서버 없이 동작하는 검색과 로컬 페이지 연결"},
+    {"key":"pages","where":"ondam-about.html","desc":"소개·지속가능경영·제품·브랜드 경험·소식·고객센터와 상세 페이지"}
+  ]
+}
