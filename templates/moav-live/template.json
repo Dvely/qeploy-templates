@@ -1,0 +1,18 @@
+{
+  "id": "moav-live",
+  "name": "모아브 라이브",
+  "description": "전체 화면 영상과 스크롤 전환, 빛나는 원형 소개, 크리에이터 카드와 상품 회전 갤러리를 갖춘 라이프스타일 콘텐츠 기업 사이트",
+  "tags": ["기업", "라이프스타일", "콘텐츠", "브랜드", "애니메이션", "반응형"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    {"key": "brand", "where": "index.html", "desc": "메인 문구와 섹션 콘텐츠. HTML과 하단 React 서버 스트림의 동일 문구를 함께 수정"},
+    {"key": "logo", "where": "assets/moav-logo.svg", "desc": "새 모아브 로고. 밝은 배경용·어두운 배경용과 메인 워드마크 SVG 포함"},
+    {"key": "images", "where": "assets/", "desc": "새로 생성한 사진 6장, 투명 상품 이미지 3장, 새 12초 브랜드 영상"},
+    {"key": "assetMap", "where": "moav-assets.js", "desc": "원본 UI 컴포넌트의 이미지 이름과 새 로컬 자산 매핑"},
+    {"key": "navigation", "where": "moav-local.js", "desc": "26개 정적 페이지 연결, 언어 이동, 다운로드와 외부 전송 차단"},
+    {"key": "layout", "where": "_next/static/chunks/", "desc": "원본 레이아웃·반응형·메뉴·GSAP 스크롤·슬라이더·갤러리를 보존한 로컬 UI 번들"},
+    {"key": "tokens", "where": "moav-brand.css", "desc": "브랜드 컬러와 로컬 안내 UI"},
+    {"key": "pages", "where": "moav-routes.json", "desc": "소개·사업·가치·소식·채용·지원 페이지와 HTML 파일 대응표"}
+  ]
+}
