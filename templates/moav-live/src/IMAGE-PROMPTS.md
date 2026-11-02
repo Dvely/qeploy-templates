@@ -73,3 +73,39 @@ Use case: product-mockup. A single pair of premium lavender over-ear wireless he
 최종 프롬프트:
 
 Use case: product-mockup. A beautiful minimal unbranded pale pink skincare jar with matching slim amber dropper bottle arranged as one small duo, realistic premium Korean beauty studio product photography, centered complete products with generous transparent margin, soft subtle contact shadow. Absolutely no text, no letters, no labels, no logos, no watermark. Isolated on genuinely transparent background.
+
+## 가치 카드 개별 이미지 · 2026-11-03
+
+내장 이미지 생성 도구로 제작한 각 카드의 원본 PNG를 사용합니다. 1536×1024 해상도로 저장되어 작은 카드에서도 선명하게 표시됩니다.
+
+### moav-value-ethics
+
+파일: `assets/moav-value-ethics.png`
+
+최종 프롬프트:
+
+Use case: photorealistic-natural. Create a high-resolution, exceptionally crisp premium corporate editorial photograph for a fictional Korean lifestyle company MOAV LIVE, for its ETHICAL MANAGEMENT website card. Landscape 3:2, target 2048x1365 or highest available native resolution. Scene: two adult East Asian business partners in understated cream and charcoal clothing exchanging a respectful handshake across a tidy light oak conference table in a sunlit contemporary office. A third colleague listens attentively at the edge, conveying openness, fairness and trust. Medium-wide composition, natural realistic hands, faces and fabric textures sharply resolved. Quiet warm-neutral palette, soft natural daylight, sophisticated unposed business photography. Clear detailed subjects throughout, no artificial depth-of-field blur. Leave the middle region visually calm enough for a white Korean label added later in HTML. No text, lettering, logos, watermark, charts, certificates, brand marks or UI. One coherent full photograph, not a collage.
+
+### moav-value-compliance
+
+파일: `assets/moav-value-compliance.png`
+
+최종 프롬프트:
+
+Use case: photorealistic-natural. Create a high-resolution, exceptionally crisp premium corporate editorial photograph for fictional MOAV LIVE, for its COMPLIANCE MANAGEMENT website card. Landscape 3:2, target 2048x1365 or highest available native resolution. Scene: close oblique view of a well-organized walnut desk where an adult East Asian professional in a navy blazer carefully reviews a neatly tabbed policy binder and a checklist using a silver pen. Only abstract unreadable lines on paper, never real words. Visible laptop edge, fine metal glasses and simple white ceramic cup, orderly light-filled modern office, a colleague's hand pointing to a page at the far side. Convey careful process, accountability and transparent standards. Distinct from a handshake or team workshop. Crisp paper edges and rich natural material details, subtle navy and warm cream palette, clean realistic photography, no artificial blur or grain. Middle of image should accommodate a white HTML label. No legible text, logos, watermark, stamps, legal seals or UI. One full photograph.
+
+### moav-value-partnership
+
+파일: `assets/moav-value-partnership.png`
+
+최종 프롬프트:
+
+Use case: photorealistic-natural. Create a high-resolution, exceptionally crisp premium corporate editorial photograph for fictional MOAV LIVE, for its SHARED GROWTH AND PARTNERSHIP website card. Landscape 3:2, target 2048x1365 or highest available native resolution. Scene: three diverse adult East Asian independent makers and a brand curator collaborating around a table of handcrafted ceramic bowls, small unbranded skincare sample bottles and plain recyclable packaging in a beautiful contemporary maker studio. One maker proudly presents a small ceramic vessel while the others smile and exchange ideas. Show mutual support between a small maker and a larger creative business, no hierarchy. Medium-wide view with realistic expressive faces, natural hands and fine tactile details, warm daylight, sage green and natural wood accents. No handshake, no fabric swatches, no reviewing legal paperwork. Keep visual texture crisp without artificial blur. Middle region calm enough for a white Korean HTML label. No text, brands, logos, watermark, poster, graphic overlays or UI. One full photograph.
+
+### moav-value-viewer-committee
+
+파일: `assets/moav-value-viewer-committee.png`
+
+최종 프롬프트:
+
+Use case: photorealistic-natural. Create a high-resolution, exceptionally crisp premium corporate editorial photograph for fictional MOAV LIVE, for its VIEWER ADVISORY COMMITTEE website card. Landscape 3:2, target 2048x1365 or highest available native resolution. Scene: a small panel of four adult East Asian viewers of varied ages, including a woman in her fifties and a young male viewer, discussing a lifestyle program together in a polished modern media review room. They sit around a curved round table with slim microphones and plain notebooks, actively listening to one another. In the softly lit background a large unbranded screen displays an indistinct lifestyle presenter, without text or logos. Convey audience voice, inclusion, thoughtful feedback, media accountability. Wide eye-level view, professional documentary editorial photo, muted teal and cream accents, realistic faces and hands, crisp fine details, no artificial blur or film grain. Calm center for a white Korean HTML label. No text, logos, brand marks, watermark or UI. One full photograph.

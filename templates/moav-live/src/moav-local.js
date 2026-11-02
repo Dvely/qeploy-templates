@@ -20,7 +20,7 @@
   const name = path.split('/').pop();
   const mapped = window.MOAV_ASSET_MAP?.[name];
   if (mapped) return mapped;
-  if (/\.(mp4|webm|gif)$/i.test(name)) return 'assets/moav-story.mp4';
+  if (/\.(mp4|webm|gif)$/i.test(name)) return 'assets/moav-story-hd.mp4';
   if (name.includes('logo')) return 'assets/moav-wordmark-purple.svg';
   if (/\.(png|jpe?g|webp|avif|svg)$/i.test(name)) return 'assets/moav-objects.png';
   return value;
@@ -51,7 +51,9 @@
    const next = localRoute(a.getAttribute('href'));
    if (next && a.href !== next) { a.href = next; a.removeAttribute('target'); }
   });
-  document.querySelectorAll('img[width][height]').forEach(img => {
+  document.querySelectorAll('img').forEach(img => {
+   // Local PNGs are full-resolution files, not the original CDN's resized variants.
+   if (new URL(img.src, location.href).pathname.includes('/assets/moav-') && /\.png(?:\?|$)/i.test(img.src)) { img.removeAttribute('srcset'); img.removeAttribute('sizes'); }
    if (img.style.height === 'auto' && Number(img.height) > 0 && !img.style.aspectRatio) { img.style.aspectRatio = `${img.getAttribute('width')} / ${img.getAttribute('height')}`; img.style.objectFit = 'cover'; }
   });
  }
