@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="utf-8"><title>세온 어패럴 · news</title>
+<meta charset="utf-8"><title>세온 어패럴 | 세온 뉴스</title>
 
 
 <meta content="IE=edge" http-equiv="X-UA-Compatible">
-<meta content="width=device-width,initial-scale=1" name="viewport">
+<script src="seon-core.js?v=1"></script><meta content="width=device-width,initial-scale=1" name="viewport">
 
 
 
@@ -71,7 +71,7 @@
 </style>
 
 
-<link rel="stylesheet" href="seon-brand.css?v=1"><script src="seon-local.js?v=1" defer></script></head>
+<link rel="stylesheet" href="seon-brand.css?v=5"><script src="seon-local.js?v=5" defer></script></head>
 
 <body class="sub kor" id="bodyCont">
     <div class="page_wrap basic"></div>
@@ -648,12 +648,12 @@
                                                 </div>
 
                              <ul class="pagination">
-                                    <a href="seon-news.html" class="first">
+                                    <a href="seon-news.html?page=1" class="first">
                         <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewbox="0 0 512 512">
                             <path d="M52.7 244.7c-6.2 6.2-6.2 16.4 0 22.6l192 192c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L86.6 256 267.3 75.3c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-192 192zm384-192l-192 192c-6.2 6.2-6.2 16.4 0 22.6l192 192c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L278.6 256 459.3 75.3c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0z"></path>
                         </svg>
                     </a>
-                    <a href="#url" class="prev">
+                    <a href="seon-news.html?page=1" class="prev">
                         <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewbox="0 0 320 512">
                             <path d="M20.7 267.3c-6.2-6.2-6.2-16.4 0-22.6l192-192c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6L54.6 256 235.3 436.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-192-192z"></path>
                         </svg>
@@ -661,15 +661,15 @@
 
 
                 <ul class="num_list">
-                    <li class="active"><a href="#url" class="first">1</a></li><li><a href="seon-news.html" .$first.>2</a></li><li><a href="seon-news.html" .$first.>3</a></li><li><a href="seon-news.html" .$first.>4</a></li><li><a href="seon-news.html" .$first.>5</a></li><li><a href="seon-news.html" .$first.>6</a></li><li><a href="seon-news.html" .$first.>7</a></li><li><a href="seon-news.html" .$first.>8</a></li><li><a href="seon-news.html" .$first.>9</a></li><li><a href="seon-news.html" .$first.>10</a></li>                </ul>
+                    <li class="active"><a href="seon-news.html?page=1" class="first">1</a></li><li><a href="seon-news.html?page=2" .$first.>2</a></li></ul>
 
 
-                                    <a href="seon-news.html" class="next">
+                                    <a href="seon-news.html?page=2" class="next">
                         <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewbox="0 0 320 512">
                             <path d="M299.3 244.7c6.2 6.2 6.2 16.4 0 22.6l-192 192c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L265.4 256 84.7 75.3c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0l192 192z"></path>
                         </svg>
                     </a>
-                    <a href="seon-news.html" class="last">
+                    <a href="seon-news.html?page=2" class="last">
                         <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewbox="0 0 512 512">
                             <path d="M75.3 459.3l192-192c6.2-6.2 6.2-16.4 0-22.6l-192-192c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L233.4 256 52.7 436.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0zm192 0l192-192c6.2-6.2 6.2-16.4 0-22.6l-192-192c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L425.4 256 244.7 436.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0z"></path>
                         </svg>
@@ -680,7 +680,7 @@
             $('#ajaxSearchFrm #ajaxTotalCnt').text('280');
             $('#ajaxSearchFrm input[name=page]').val('1');
             $('#ajaxSearchFrm input[name=category]').val('');
-            window.history.pushState({}, '', '/?p=318&page=1');
+
         </script>
             </div>
         </div>
@@ -799,9 +799,9 @@
                             </svg>
                         </div>
                         <ul>
-                            <li><a href="seon-contact.html" title="새창열림">세온 라이프</a></li>
-                            <li><a href="seon-contact.html" title="새창열림">세온 디자인</a></li>
-                            <li><a href="seon-contact.html" title="새창열림">세온 오브제</a></li>
+                            <li><a href="seon-about.html">세온 라이프</a></li>
+                            <li><a href="seon-network.html">세온 디자인</a></li>
+                            <li><a href="seon-ethics.html">세온 오브제</a></li>
                         </ul>
                     </div>
                 </div>

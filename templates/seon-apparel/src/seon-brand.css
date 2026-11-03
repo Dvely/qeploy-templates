@@ -11,3 +11,13 @@
 .seon-dialog-close{position:absolute;right:20px;top:12px;font:32px/1 Arial,sans-serif;background:none;border:0;cursor:pointer}.seon-dialog-confirm{margin-top:24px;background:#ea5514;color:#fff;border:0;border-radius:30px;padding:12px 35px;cursor:pointer}
 #header .close_btn:focus-visible,[role=button]:focus-visible{outline:2px solid #ea5514;outline-offset:5px}
 @media(max-width:768px){#header .logo a img{width:142px;height:36px}.seon-article{padding-top:30px;padding-bottom:65px;font-size:16px}.seon-article>img{margin-bottom:25px}#seon-dialog{padding:45px 25px 25px}#seon-dialog h2{font-size:22px}}
+/* Let article widths shrink with the native mobile container. */
+.seon-article{width:min(1080px,100%);max-width:100%;min-width:0;box-sizing:border-box}
+@media(max-width:768px){
+ #business.busi4 .busi_cont_sect{overflow:hidden}
+ #business.busi4 .bg_video{right:0}
+ #business.busi4 .promo_box_wrap .txt_wrap{min-width:0}
+ #business.busi4 .promo_box_wrap em.small{font-size:clamp(16px,4.8vw,24px);white-space:normal;word-break:keep-all}
+}
+@media(max-width:768px){#business.busi4 .promo_box_wrap .box .txt_wrap em.small{font-size:clamp(16px,4.8vw,24px);white-space:normal}}
+.business_sect .txt_box .tit{word-break:keep-all;overflow-wrap:normal}
