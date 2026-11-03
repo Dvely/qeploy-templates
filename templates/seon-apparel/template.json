@@ -1,0 +1,17 @@
+{
+  "id": "seon-apparel",
+  "name": "세온 어패럴",
+  "description": "전체 화면 슬라이드, 스크롤 타이포그래피, 브랜드 카드와 ESG 애니메이션을 갖춘 어패럴 기업 사이트",
+  "tags": ["기업", "패션", "유니폼", "브랜드", "애니메이션", "반응형"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    {"key":"brand","where":"index.html","desc":"첫 화면 슬라이드와 회사·사업·비전·파트너·ESG·소식 섹션의 문구"},
+    {"key":"logos","where":"assets/seon-*.svg","desc":"새 세온 워드마크·사업 브랜드·가상 협업 브랜드"},
+    {"key":"images","where":"assets/","desc":"내장 이미지 생성 도구로 만든 사진 6장과 Full HD 브랜드 모션 영상"},
+    {"key":"styles","where":"inc/css/","desc":"참고 사이트의 치수·레이아웃·모바일 분기. 추가 브랜드 스타일은 seon-brand.css"},
+    {"key":"behavior","where":"seon-local.js","desc":"로컬 문의 시연·안내창·기록 상세·가상 지도·공고 및 재무 화면"},
+    {"key":"pages","where":"seon-routes.json","desc":"소개·연혁·사업·책임·IR·소식·위치·문의 페이지 경로"},
+    {"key":"prompts","where":"IMAGE-PROMPTS.md","desc":"최종 생성 이미지 파일과 실제 프롬프트 기록"}
+  ]
+}

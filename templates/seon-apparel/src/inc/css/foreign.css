@@ -1,0 +1,287 @@
+@charset "UTF-8";
+
+body.eng{top: 0 !important; text-transform: math-auto;}
+body.eng br.f_over{display: none;}
+body.chn br.f_over{display: none;}
+body.jp br.f_over{display: none;}
+
+body.chn{--pop: 'OPPOSans'; top: 0 !important; font-family: 'OPPOSans';}
+body.chn *{word-break: break-all !important;}
+
+body.jp{--pop: "MPLUS1Code"; top: 0 !important; font-family: "MPLUS1Code";}
+body.jp *{word-break: break-all !important;}
+
+
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf{display: none;}
+.VIpgJd-yAWNEb-VIpgJd-fmcmS-sn54Q{background-color: transparent !important; box-shadow: none !important;}
+
+/* common */
+body:not(.kor) .logo a .kor{display: none;}
+body:not(.kor) .logo a .foreign{display: block !important;}
+body.eng #header nav .depth1 > li:nth-child(3) > a{padding: 0 3em;}
+body.eng #header.on nav .depth1 > li:nth-child(3) > a{padding: 0 5.5em;}
+body.eng #header nav .depth2 > li > a{letter-spacing: -0.015em;}
+body.eng #header nav .depth2 > li.active > a{font-weight: 400;}
+body.eng #header nav .depth2 > li > a:hover{font-weight: 400;}
+body.chn #header nav .depth2 > li > a{letter-spacing: -0.015em;}
+body.chn #header nav .depth2 > li.active > a{font-weight: 400;}
+body.chn #header nav .depth2 > li > a:hover{font-weight: 400;}
+body.jp #header nav .depth2 > li > a{letter-spacing: -0.015em;}
+body.jp #header nav .depth2 > li.active > a{font-weight: 400;}
+body.jp #header nav .depth2 > li > a:hover{font-weight: 400;}
+
+
+body.eng #footer .contact{max-width: 75%;}
+body.eng #footer .f_info .f_txt{max-width: 75%;}
+body.eng #footer .f_info .f_txt .txt_wrap .num{white-space: nowrap;}
+body.eng #footer .f_info .f_txt .txt_wrap .addr div:first-child{flex: 1;}
+body.eng #footer .f_info .f_txt .txt_wrap .addr div:nth-child(2){flex: 1;}
+body.chn #footer .contact{max-width: 75%;}
+body.chn #footer .f_info .f_txt{max-width: 75%;}
+body.chn #footer .f_info .f_txt .txt_wrap .num{white-space: nowrap;}
+body.chn #footer .f_info .f_txt .txt_wrap .addr div:first-child{flex: 1;}
+body.chn #footer .f_info .f_txt .txt_wrap .addr div:nth-child(2){flex: 1;}
+body.jp #footer .contact{max-width: 75%;}
+body.jp #footer .f_info .f_txt{max-width: 75%;}
+body.jp #footer .f_info .f_txt .txt_wrap .num{white-space: nowrap;}
+body.jp #footer .f_info .f_txt .txt_wrap .addr div:first-child{flex: 1;}
+body.jp #footer .f_info .f_txt .txt_wrap .addr div:nth-child(2){flex: 1;}
+
+body:not(.kor) #footer .f_info .f_logo .kor {display: none;}
+body:not(.kor) #footer .f_info .f_logo .foreign {display: block;}
+
+
+/* main */
+body.eng #main .text_sect .txt_grid .txt_wrap{align-items: center;}
+body.eng #main .text_sect .txt_grid .txt_wrap .tit{white-space: normal; padding: 0 1.25em; text-align: center;}
+body.eng #main .text_sect .txt_grid .txt_wrap .tit .copy{white-space: normal; width: 100% !important; padding: 0 1.25em;}
+body.eng #main .text_sect .txt_grid .txt_wrap .tit:nth-child(2){text-transform: lowercase;}
+body.chn #main .text_sect .txt_grid .txt_wrap{align-items: center;}
+body.chn #main .text_sect .txt_grid .txt_wrap .tit{white-space: normal; padding: 0 1.25em; text-align: center;}
+body.chn #main .text_sect .txt_grid .txt_wrap .tit .copy{white-space: normal; width: 100% !important; padding: 0 1.25em;}
+body.jp #main .text_sect .txt_grid .txt_wrap{align-items: center;}
+body.jp #main .text_sect .txt_grid .txt_wrap .tit{white-space: normal; padding: 0 1.25em; text-align: center;}
+body.jp #main .text_sect .txt_grid .txt_wrap .tit .copy{white-space: normal; width: 100% !important; padding: 0 1.25em;}
+
+body.eng #main .vision_sect .card_list ul li .txt_box span{padding: 0 2em;}
+body.eng #main .vision_sect .card_list ul li .txt_box span br{display: none;}
+body.chn #main .vision_sect .card_list ul li .txt_box span{padding: 0 2em;}
+body.chn #main .vision_sect .card_list ul li .txt_box span br{display: none;}
+body.jp #main .vision_sect .card_list ul li .txt_box span{padding: 0 2em;}
+body.jp #main .vision_sect .card_list ul li .txt_box span br{display: none;}
+
+body.eng #main .news_sect .slide .img{background-image: url("../../css-assets/127-logo_foreign.svg"); background-size: 45%;}
+body.chn #main .news_sect .slide .img{background-image: url("../../css-assets/127-logo_foreign.svg"); background-size: 45%;}
+body.jp #main .news_sect .slide .img{background-image: url("../../css-assets/127-logo_foreign.svg"); background-size: 45%;}
+
+/* sub */
+body.eng .input_wrap input[type="text"]::placeholder{color: #fff;}
+body.eng .input_wrap textarea::placeholder{color: #fff;}
+body.chn .input_wrap input[type="text"]::placeholder{color: #fff;}
+body.chn .input_wrap textarea::placeholder{color: #fff;}
+body.jp .input_wrap input[type="text"]::placeholder{color: #fff;}
+body.jp .input_wrap textarea::placeholder{color: #fff;}
+
+body.eng .sub_top.history .sub_page_tit h2{white-space: normal; padding: 0 1em; text-transform: capitalize;}
+body.eng .sub_top.history .sub_page_tit .sub_txt{padding: 0 5em;}
+body.chn .sub_top.history .sub_page_tit h2{white-space: normal; padding: 0 1em; text-transform: capitalize;}
+body.chn .sub_top.history .sub_page_tit .sub_txt{padding: 0 5em;}
+body.jp .sub_top.history .sub_page_tit h2{white-space: normal; padding: 0 1em; text-transform: capitalize;}
+body.jp .sub_top.history .sub_page_tit .sub_txt{padding: 0 5em;}
+
+body.eng #sub #greeting .greeting_wrap .right .desc div:last-child{text-transform: capitalize;}
+
+body.eng #sub #history .history_cont .left .tit{font-size: 5rem;}
+body.chn #sub #history .history_cont .left .tit{font-size: 5rem;}
+body.jp #sub #history .history_cont .left .tit{font-size: 5rem;}
+body.eng #sub #history .history_cont .right .notranslate{margin-right: 0.3em;}
+body.eng #sub #history .history_bar .bar_wrap .item{flex-direction: column;}
+body.eng #sub #history .history_bar .bar_wrap .item p{margin-left: 0; margin-top: 0.4em;}
+body.chn #sub #history .history_bar .bar_wrap .item{flex-direction: column;}
+body.chn #sub #history .history_bar .bar_wrap .item p{margin-left: 0; margin-top: 0.4em;}
+body.jp #sub #history .history_bar .bar_wrap .item{flex-direction: column;}
+body.jp #sub #history .history_bar .bar_wrap .item p{margin-left: 0; margin-top: 0.4em;}
+
+body.eng #sub #ethic .sect1 .bottom .card_list ul li .txt_box span{padding: 0 1.5em;}
+body.chn #sub #ethic .sect1 .bottom .card_list ul li .txt_box span{padding: 0 1.5em;}
+body.jp #sub #ethic .sect1 .bottom .card_list ul li .txt_box span{padding: 0 1.5em;}
+
+body.eng #sub #business .text_sect .txt_grid .txt_wrap{opacity: 0; transform: translateY(20%);}
+body.eng #sub #business .text_sect .txt_grid .txt_wrap .tit{white-space: normal; text-align: center; color: #000;}
+body.eng #sub #business .text_sect .txt_grid .txt_wrap .tit .copy{display: none; white-space: normal; width: 100% !important;}
+body.eng #sub #business .text_sect .txt_grid .txt_wrap .sub_tit{white-space: normal; text-align: center; color: #000;}
+body.eng #sub #business .text_sect .txt_grid .txt_wrap .sub_tit .copy{display: none; white-space: normal; width: 100% !important;}
+body.eng #sub #business .text_sect .txt_grid .txt_wrap.active{opacity: 1; transform: translateY(0%); transition: opacity 0.5s 0.2s, transform 0.5s 0.2s;}
+body.chn #sub #business .text_sect .txt_grid .txt_wrap{opacity: 0; transform: translateY(20%);}
+body.chn #sub #business .text_sect .txt_grid .txt_wrap .tit{white-space: normal; text-align: center; color: #000;}
+body.chn #sub #business .text_sect .txt_grid .txt_wrap .tit .copy{display: none; white-space: normal; width: 100% !important;}
+body.chn #sub #business .text_sect .txt_grid .txt_wrap .sub_tit{white-space: normal; text-align: center; color: #000;}
+body.chn #sub #business .text_sect .txt_grid .txt_wrap .sub_tit .copy{display: none; white-space: normal; width: 100% !important;}
+body.chn #sub #business .text_sect .txt_grid .txt_wrap.active{opacity: 1; transform: translateY(0%); transition: opacity 0.5s 0.2s, transform 0.5s 0.2s;}
+body.jp #sub #business .text_sect .txt_grid .txt_wrap{opacity: 0; transform: translateY(20%);}
+body.jp #sub #business .text_sect .txt_grid .txt_wrap .tit{white-space: normal; text-align: center; color: #000;}
+body.jp #sub #business .text_sect .txt_grid .txt_wrap .tit .copy{display: none; white-space: normal; width: 100% !important;}
+body.jp #sub #business .text_sect .txt_grid .txt_wrap .sub_tit{white-space: normal; text-align: center; color: #000;}
+body.jp #sub #business .text_sect .txt_grid .txt_wrap .sub_tit .copy{display: none; white-space: normal; width: 100% !important;}
+body.jp #sub #business .text_sect .txt_grid .txt_wrap.active{opacity: 1; transform: translateY(0%); transition: opacity 0.5s 0.2s, transform 0.5s 0.2s;}
+
+body.eng #sub #business .promo_box .promo_box_wrap .box .txt_wrap .desc{white-space: normal;}
+body.eng #sub #business .promo_box .promo_box_wrap .box .txt_wrap em{white-space: normal;}
+body.chn #sub #business .promo_box .promo_box_wrap .box .txt_wrap .desc{white-space: normal;}
+body.chn #sub #business .promo_box .promo_box_wrap .box .txt_wrap em{white-space: normal;}
+body.jp #sub #business .promo_box .promo_box_wrap .box .txt_wrap .desc{white-space: normal;}
+body.jp #sub #business .promo_box .promo_box_wrap .box .txt_wrap em{white-space: normal;}
+
+body.eng #sub #business.busi1 .busi_cont_sect .flex_wrap .right{flex-shrink: 0;}
+body.chn #sub #business.busi1 .busi_cont_sect .flex_wrap .right{flex-shrink: 0;}
+body.jp #sub #business.busi1 .busi_cont_sect .flex_wrap .right{flex-shrink: 0;}
+body.eng #sub #business.busi2 .promo_box .promo_box_wrap .box .txt_wrap em p:nth-child(2){flex-direction: column; align-items: flex-end;}
+body.eng #sub #business.busi2 .promo_box .promo_box_wrap .box .txt_wrap em p svg{display: none;}
+body.eng #sub #business.busi2 .promo_box .promo_box_wrap .box .txt_wrap em p img:first-child{display: none;}
+body.eng #sub #business.busi2 .promo_box .promo_box_wrap .box .txt_wrap em p img:last-child{display: none;}
+body.eng #sub #business.busi2 .promo_box .promo_box_wrap .box .txt_wrap em p .f_only{display: block !important;}
+body.chn #sub #business.busi2 .promo_box .promo_box_wrap .box .txt_wrap em p:nth-child(2){flex-direction: column; align-items: flex-end;}
+body.chn #sub #business.busi2 .promo_box .promo_box_wrap .box .txt_wrap em p svg{display: none;}
+body.chn #sub #business.busi2 .promo_box .promo_box_wrap .box .txt_wrap em p img:first-child{display: none;}
+body.chn #sub #business.busi2 .promo_box .promo_box_wrap .box .txt_wrap em p img:last-child{display: none;}
+body.chn #sub #business.busi2 .promo_box .promo_box_wrap .box .txt_wrap em p .f_only{display: block !important;}
+body.jp #sub #business.busi2 .promo_box .promo_box_wrap .box .txt_wrap em p:nth-child(2){flex-direction: column; align-items: flex-end;}
+body.jp #sub #business.busi2 .promo_box .promo_box_wrap .box .txt_wrap em p svg{display: none;}
+body.jp #sub #business.busi2 .promo_box .promo_box_wrap .box .txt_wrap em p img:first-child{display: none;}
+body.jp #sub #business.busi2 .promo_box .promo_box_wrap .box .txt_wrap em p img:last-child{display: none;}
+body.jp #sub #business.busi2 .promo_box .promo_box_wrap .box .txt_wrap em p .f_only{display: block !important;}
+
+body.eng #sub #business.busi3 .sect1 .list_wrap ul li{flex-direction: column; align-items: flex-start;}
+body.eng #sub #business.busi3 .sect1 .list_wrap ul li span{margin-left: 0; margin-top: 1em; font-size: 1.9rem;  white-space: normal}
+body.chn #sub #business.busi3 .sect1 .list_wrap ul li{flex-direction: column; align-items: flex-start;}
+body.chn #sub #business.busi3 .sect1 .list_wrap ul li span{margin-left: 0; margin-top: 1em}
+body.jp #sub #business.busi3 .sect1 .list_wrap ul li{flex-direction: column; align-items: flex-start;}
+body.jp #sub #business.busi3 .sect1 .list_wrap ul li span{margin-left: 0; margin-top: 1em}
+
+body.eng #press .press_list .item .img{background-image: url("../../css-assets/127-logo_foreign.svg"); background-size: 45%;}
+body.chn #press .press_list .item .img{background-image: url("../../css-assets/127-logo_foreign.svg"); background-size: 45%;}
+body.jp #press .press_list .item .img{background-image: url("../../css-assets/127-logo_foreign.svg"); background-size: 45%;}
+
+body.eng #sub #contact .left{margin-right: 5rem;}
+body.eng #sub #contact .right{flex-shrink: 0;}
+body.chn #sub #contact .left{margin-right: 5rem;}
+body.chn #sub #contact .right{flex-shrink: 0;}
+body.jp #sub #contact .left{margin-right: 5rem;}
+body.jp #sub #contact .right{flex-shrink: 0;}
+
+
+body.chn{}
+
+body.jp{}
+body.jp #sub #contact .sect1 .radio_wrap input + label span{}
+
+@media screen and (max-width: 1441px){
+
+
+
+    body.eng .sub_top .sub_top_bg.busi4 + .in2 .sub_page_tit h2 > div,
+    body.eng .sub_top .sub_top_bg.busi3 + .in2 .sub_page_tit h2 > div {display: inline}
+    body.eng .sub_top .sub_top_bg.busi4 + .in2 .sub_page_tit p,
+    body.eng .sub_top .sub_top_bg.busi3 + .in2 .sub_page_tit p {display: inline}
+
+}
+
+
+@media screen and (max-width: 1241px){
+
+    body:not(.kor) .sitemap .cont .top .sitemap_logo .kor{display: none;}
+    body:not(.kor) .sitemap .cont .top .sitemap_logo .foreign{display: block !important;}
+    body.eng #footer .contact{max-width: 100%;}
+    body.eng #footer .f_info .f_txt{max-width: 100%;}
+    body.chn #footer .contact{max-width: 100%;}
+    body.chn #footer .f_info .f_txt{max-width: 100%;}
+    body.jp #footer .contact{max-width: 100%;}
+    body.jp #footer .f_info .f_txt{max-width: 100%;}
+
+    /* main */
+    body.eng #main .text_sect{height: auto; padding: var(--sect_pd) 0;}
+    body.chn #main .text_sect{height: auto; padding: var(--sect_pd) 0;}
+    body.jp #main .text_sect{height: auto; padding: var(--sect_pd) 0;}
+
+    /* sub */
+    body.eng #sub #contribute .contribute_list .txt_box .top{flex-direction: column; align-items: flex-start; margin-bottom: 12px;}
+    body.eng #sub #contribute .contribute_list .img{margin-bottom: 12px;}
+    body.eng #sub #contribute .contribute_list .txt_box .top .since{margin-top: 0.4em;}
+    body.chn #sub #contribute .contribute_list .txt_box .top{flex-direction: column; align-items: flex-start; margin-bottom: 12px;}
+    body.chn #sub #contribute .contribute_list .img{margin-bottom: 12px;}
+    body.chn #sub #contribute .contribute_list .txt_box .top .since{margin-top: 0.6em;}
+    body.jp #sub #contribute .contribute_list .txt_box .top{flex-direction: column; align-items: flex-start; margin-bottom: 12px;}
+    body.jp #sub #contribute .contribute_list .img{margin-bottom: 12px;}
+    body.jp #sub #contribute .contribute_list .txt_box .top .since{margin-top: 0.6em;}
+
+    body.eng #sub #business .bottom_txt .tit{padding: 0 2em;}
+    body.chn #sub #business .bottom_txt .tit{padding: 0 2em;}
+    body.jp #sub #business .bottom_txt .tit{padding: 0 2em;}
+
+    body.eng #sub #business.busi2 .promo_box .promo_box_wrap .box .txt_wrap em p:nth-child(2){align-items: flex-start;}
+    body.chn #sub #business.busi2 .promo_box .promo_box_wrap .box .txt_wrap em p:nth-child(2){align-items: flex-start;}
+    body.jp #sub #business.busi2 .promo_box .promo_box_wrap .box .txt_wrap em p:nth-child(2){align-items: flex-start;}
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px){
+
+    body.eng #footer .util .family_site ul{white-space: nowrap; width: auto;}
+    body.chn #footer .util .family_site ul{white-space: nowrap; width: auto;}
+    body.jp #footer .util .family_site ul{white-space: nowrap; width: auto;}
+
+    body.eng #footer .f_info .f_txt .txt_wrap .addr div:first-child{flex: unset;}
+    body.eng #footer .f_info .f_txt .txt_wrap .addr div:nth-child(2){flex: unset;}
+    body.chn #footer .f_info .f_txt .txt_wrap .addr div:first-child{flex: unset;}
+    body.chn #footer .f_info .f_txt .txt_wrap .addr div:nth-child(2){flex: unset;}
+    body.jp #footer .f_info .f_txt .txt_wrap .addr div:first-child{flex: unset;}
+    body.jp #footer .f_info .f_txt .txt_wrap .addr div:nth-child(2){flex: unset;}
+
+    /* main */
+    body.eng #main .text_sect .txt_grid .txt_wrap .tit{display: block; width: 100%; font-size: 21px;}
+    body.chn #main .text_sect .txt_grid .txt_wrap .tit{display: block; width: 100%; font-size: 21px;}
+    body.jp #main .text_sect .txt_grid .txt_wrap .tit{display: block; width: 100%; font-size: 21px;}
+
+    body.eng #main .vision_sect .sect_tit_box .sub_tit br{display: none;}
+    body.chn #main .vision_sect .sect_tit_box .sub_tit br{display: none;}
+    body.jp #main .vision_sect .sect_tit_box .sub_tit br{display: none;}
+
+    body.eng #main .news_sect .sect_tit_box .desc{width: 70%;}
+    body.chn #main .news_sect .sect_tit_box .desc{width: 70%;}
+    body.jp #main .news_sect .sect_tit_box .desc{width: 70%;}
+
+    /* sub */
+    body.eng #sub #contribute .contribute_list .txt_box .top .cat{white-space: normal; line-height: 1.3em;}
+    body.chn #sub #contribute .contribute_list .txt_box .top .cat{white-space: normal; line-height: 1.3em;}
+    body.jp #sub #contribute .contribute_list .txt_box .top .cat{white-space: normal; line-height: 1.3em;}
+
+    body.jp .sub_top.history .sub_page_tit .sub_txt {padding: 0 1em}
+
+    body.eng #sub #business .promo_box .promo_box_wrap .box .txt_wrap .desc{word-break: unset;}
+    body.chn #sub #business .promo_box .promo_box_wrap .box .txt_wrap .desc{word-break: unset;}
+    body.jp #sub #business .promo_box .promo_box_wrap .box .txt_wrap .desc{word-break: unset;}
+
+    body.eng #sub #business.busi3 .promo_box{padding-top: 120px;}
+    body.eng #sub #business.busi3 .promo_box .promo_box_wrap .box .txt_wrap .desc b ~ b{margin-top: 1em;}
+    body.chn #sub #business.busi3 .promo_box{padding-top: 120px;}
+    body.chn #sub #business.busi3 .promo_box .promo_box_wrap .box .txt_wrap .desc b ~ b{margin-top: 1em;}
+    body.jp #sub #business.busi3 .promo_box{padding-top: 120px;}
+    body.jp #sub #business.busi3 .promo_box .promo_box_wrap .box .txt_wrap .desc b ~ b{margin-top: 1em;}
+
+    body.eng #sub #sheet .top .nice-select{width: auto; padding: 0 2.5em 0 1em;}
+    body.eng #sub #sheet .top .nice-select::after{right: 1em;}
+    body.chn #sub #sheet .top .nice-select{width: auto; padding: 0 2.5em 0 1em;}
+    body.chn #sub #sheet .top .nice-select::after{right: 1em;}
+    body.jp #sub #sheet .top .nice-select{width: auto; padding: 0 2.5em 0 1em;}
+    body.jp #sub #sheet .top .nice-select::after{right: 1em;}
+
+    body.eng #sub #sheet .tbl_wrap table td{font-size: 12px;}
+    body.chn #sub #sheet .tbl_wrap table td{font-size: 12px;}
+    body.jp #sub #sheet .tbl_wrap table td{font-size: 12px;}
+
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 67 67">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: red;
+      }
+
+      .cls-3, .cls-6 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #0030a4;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-6 {
+        stroke: #eaeaea;
+        stroke-width: 2px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-3" x="11.13" y="16.15" width="44.74" height="34.7"/>
+    </clipPath>
+  </defs>
+  <g id="_레이어_1-2" data-name="레이어 1">
+    <g id="_그룹_5883" data-name="그룹 5883">
+      <g id="_타원_47" data-name="타원 47">
+        <circle class="cls-5" cx="33.5" cy="33.5" r="33.5"/>
+        <circle class="cls-6" cx="33.5" cy="33.5" r="32.5"/>
+      </g>
+      <g id="_그룹_5882" data-name="그룹 5882">
+        <g class="cls-7">
+          <g id="_그룹_5881" data-name="그룹 5881">
+            <path id="_패스_4607" data-name="패스 4607" class="cls-4" d="m41.96,31.95c-1.65-1.75-4.3-2.09-6.34-.81-.87.71-1.66,1.53-2.34,2.43-.65.9-1.59,1.57-2.66,1.88-2.39.64-4.89-.55-5.92-2.8-.47-1.05-.64-2.2-.49-3.34-2.31,5.13-.02,11.17,5.12,13.48,5.13,2.31,11.17.02,13.48-5.12.17-.39.32-.79.45-1.19.22-1.62-.25-3.26-1.3-4.52"/>
+            <path id="_패스_4608" data-name="패스 4608" class="cls-2" d="m33.5,23.31c-4.01,0-7.65,2.35-9.29,6.01-.15,1.14.02,2.29.49,3.34,1.03,2.25,3.53,3.43,5.92,2.8,1.07-.31,2.01-.97,2.66-1.88.68-.9,1.46-1.72,2.34-2.43,2.04-1.28,4.69-.94,6.34.81,1.04,1.26,1.51,2.9,1.3,4.52,1.64-5.39-1.4-11.08-6.79-12.72-.96-.29-1.96-.44-2.96-.44"/>
+            <rect id="_사각형_1326" data-name="사각형 1326" class="cls-1" x="10.32" y="19.44" width="10.08" height="1.89" transform="translate(-9.91 16.83) rotate(-45)"/>
+            <rect id="_사각형_1327" data-name="사각형 1327" class="cls-1" x="12.24" y="21.35" width="10.08" height="1.89" transform="translate(-10.7 18.75) rotate(-45)"/>
+            <rect id="_사각형_1328" data-name="사각형 1328" class="cls-1" x="14.15" y="23.27" width="10.08" height="1.89" transform="translate(-11.5 20.66) rotate(-45)"/>
+            <rect id="_사각형_1329" data-name="사각형 1329" class="cls-1" x="18.25" y="37.75" width="1.89" height="10.08" transform="translate(-24.63 26.1) rotate(-45)"/>
+            <rect id="_사각형_1330" data-name="사각형 1330" class="cls-1" x="14.36" y="40.48" width="1.89" height="4.5" transform="translate(-25.73 23.34) rotate(-45)"/>
+            <rect id="_사각형_1331" data-name="사각형 1331" class="cls-1" x="18.31" y="44.43" width="1.89" height="4.5" transform="translate(-27.37 27.28) rotate(-45)"/>
+            <rect id="_사각형_1332" data-name="사각형 1332" class="cls-1" x="14.42" y="41.58" width="1.89" height="10.08" transform="translate(-28.47 24.52) rotate(-45)"/>
+            <rect id="_사각형_1333" data-name="사각형 1333" class="cls-1" x="48.78" y="17.26" width="1.89" height="10.08" transform="translate(-1.2 41.69) rotate(-45)"/>
+            <rect id="_사각형_1334" data-name="사각형 1334" class="cls-1" x="48.74" y="16.15" width="1.89" height="4.55" transform="translate(1.52 40.53) rotate(-45)"/>
+            <rect id="_사각형_1335" data-name="사각형 1335" class="cls-1" x="52.69" y="20.15" width="1.89" height="4.45" transform="translate(-.11 44.47) rotate(-45)"/>
+            <rect id="_사각형_1336" data-name="사각형 1336" class="cls-1" x="44.91" y="19.98" width="1.89" height="4.55" transform="translate(-2.31 38.94) rotate(-45)"/>
+            <rect id="_사각형_1337" data-name="사각형 1337" class="cls-1" x="48.86" y="23.98" width="1.89" height="4.45" transform="translate(-3.94 42.89) rotate(-45)"/>
+            <rect id="_사각형_1338" data-name="사각형 1338" class="cls-1" x="43.58" y="43.8" width="4.55" height="1.89" transform="translate(-18.21 45.53) rotate(-45)"/>
+            <rect id="_사각형_1339" data-name="사각형 1339" class="cls-1" x="47.58" y="39.85" width="4.45" height="1.89" transform="translate(-14.26 47.17) rotate(-45.01)"/>
+            <rect id="_사각형_1340" data-name="사각형 1340" class="cls-1" x="49.49" y="41.77" width="4.45" height="1.89" transform="translate(-15.06 49.08) rotate(-45)"/>
+            <rect id="_사각형_1341" data-name="사각형 1341" class="cls-1" x="45.49" y="45.72" width="4.55" height="1.89" transform="translate(-19 47.44) rotate(-45)"/>
+            <rect id="_사각형_1342" data-name="사각형 1342" class="cls-1" x="47.41" y="47.63" width="4.55" height="1.89" transform="translate(-19.8 49.36) rotate(-45)"/>
+            <rect id="_사각형_1343" data-name="사각형 1343" class="cls-1" x="51.41" y="43.69" width="4.45" height="1.89" transform="translate(-15.85 50.99) rotate(-45)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

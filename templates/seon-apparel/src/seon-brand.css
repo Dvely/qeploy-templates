@@ -1,0 +1,13 @@
+/* Native section geometry, breakpoints and animation styles remain in inc/css. */
+#header .logo a img{width:170px;object-fit:contain;height:42px}
+.sitemap_logo img,.f_logo img{max-width:240px}
+.business_sect .logo img{object-fit:contain}
+.seon-article{max-width:1080px;padding-top:70px;padding-bottom:120px;font-size:18px;line-height:1.9}
+.seon-article h2{font-size:clamp(28px,3vw,48px);line-height:1.4;margin:15px 0 25px;word-break:keep-all}
+.seon-article p{margin-bottom:24px}.seon-article>img{width:100%;border-radius:18px;margin:12px 0 42px;aspect-ratio:16/9;object-fit:cover}
+.seon-eyebrow{font:600 14px/1.5 Poppins,sans-serif;letter-spacing:.12em;color:#ea5514}.seon-caption,.seon-story-date{color:#777;font-size:14px}
+#seon-dialog{border:0;border-radius:20px;box-shadow:0 25px 100px #0003;padding:50px 40px 35px;width:min(520px,calc(100vw - 40px));max-height:85vh;overflow:auto;color:#252525;line-height:1.8}
+#seon-dialog::backdrop{background:#0008;backdrop-filter:blur(3px)}#seon-dialog h2{font-size:26px;line-height:1.4;margin:15px 0}#seon-dialog p{word-break:keep-all}
+.seon-dialog-close{position:absolute;right:20px;top:12px;font:32px/1 Arial,sans-serif;background:none;border:0;cursor:pointer}.seon-dialog-confirm{margin-top:24px;background:#ea5514;color:#fff;border:0;border-radius:30px;padding:12px 35px;cursor:pointer}
+#header .close_btn:focus-visible,[role=button]:focus-visible{outline:2px solid #ea5514;outline-offset:5px}
+@media(max-width:768px){#header .logo a img{width:142px;height:36px}.seon-article{padding-top:30px;padding-bottom:65px;font-size:16px}.seon-article>img{margin-bottom:25px}#seon-dialog{padding:45px 25px 25px}#seon-dialog h2{font-size:22px}}
