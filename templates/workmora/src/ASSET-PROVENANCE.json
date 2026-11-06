@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "project": "workmora",
+  "reviewed": "2026-11-06",
+  "assets": [
+    {
+      "file": "fonts/PretendardVariable.woff2",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Pretendard-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4"
+    },
+    {
+      "file": "images/workmora-chair.png",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Generated example media included with the source template; no exclusive rights or legal-clearance guarantee.",
+      "sha256": "37c159678308e0f7e2057d9bba682cbb5bc8ad9b79da69449f1233f18297d047"
+    },
+    {
+      "file": "images/workmora-desk.png",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Generated example media included with the source template; no exclusive rights or legal-clearance guarantee.",
+      "sha256": "d40b16a8c0600ed80707c93995ae080f4820136492998b173c330541d71276e2"
+    },
+    {
+      "file": "images/workmora-drawer.png",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Generated example media included with the source template; no exclusive rights or legal-clearance guarantee.",
+      "sha256": "066926415bb0ba00438d0367b2c5e63d917a8bda1a27c84107a2c175fdc46690"
+    },
+    {
+      "file": "images/workmora-hero.png",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Generated example media included with the source template; no exclusive rights or legal-clearance guarantee.",
+      "sha256": "f289a6275332d2d453161027245a2d014679e2ec6074fe67b4b86499a64aec29"
+    },
+    {
+      "file": "images/workmora-lighting.png",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Generated example media included with the source template; no exclusive rights or legal-clearance guarantee.",
+      "sha256": "c8287bf41a502f93971beceb3e4e7a859d5572d547c1ecb3bf1a173f18c75da1"
+    },
+    {
+      "file": "images/workmora-lounge.png",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Generated example media included with the source template; no exclusive rights or legal-clearance guarantee.",
+      "sha256": "522a5d6b9e94db535cfc7571fa729c4e9a7c5570ca8116bdce0c954b6333d6e9"
+    },
+    {
+      "file": "images/workmora-meeting.png",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Generated example media included with the source template; no exclusive rights or legal-clearance guarantee.",
+      "sha256": "0683b47142aa5bd29142e9fdd655da2e6e533a95d55070973c4b69238ea08dd7"
+    },
+    {
+      "file": "images/workmora-partition.png",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Generated example media included with the source template; no exclusive rights or legal-clearance guarantee.",
+      "sha256": "43e277b401b92291a60d6fd6a82f7043a03d5cd3adf752e3c92ddd2b98dab9e6"
+    },
+    {
+      "file": "images/workmora-round-table.png",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Generated example media included with the source template; no exclusive rights or legal-clearance guarantee.",
+      "sha256": "1ad62ea4be88e7b5a54028e3c0f83413f08687b47d9c447d5b6baae69dcdc794"
+    },
+    {
+      "file": "images/workmora-square-table.png",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Generated example media included with the source template; no exclusive rights or legal-clearance guarantee.",
+      "sha256": "bd889aa728f9130500fc038b9016eb758d7c40eff48db5a1ee1406a8e58d93b1"
+    },
+    {
+      "file": "images/workmora-storage.png",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Generated example media included with the source template; no exclusive rights or legal-clearance guarantee.",
+      "sha256": "0a65ce9928b82e605b48cb09e0ac1e82f38f908c09c946b134aed6dda8e49855"
+    },
+    {
+      "file": "images/workmora-workzone.png",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Generated example media included with the source template; no exclusive rights or legal-clearance guarantee.",
+      "sha256": "633029c00d65f7d094582fbd32e2de5731f321bb6ee3e400411045dc4d549945"
+    }
+  ],
+  "scope": "File-level provenance and applicable conditions only, not a legal non-infringement guarantee."
+}

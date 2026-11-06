@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "project": "workmora",
+  "status": "reviewed",
+  "reviewDate": "2026-11-06",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "9fc1c65b2c58bd46549be27d6529191e344457c9ea7d605b7faba35a8c8460e2",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/Pretendard-OFL.txt": {
+      "sha256": "cc2582fa6dbd72ddfd229e709c0bae635f75a151ed1787adab9729a531b48a1f",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/PretendardVariable.woff2": {
+      "sha256": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4",
+      "origin": "open-font-license"
+    },
+    "image-prompts.json": {
+      "sha256": "4cd2b16281d17f4bbfb758ac29571f13e850df134f598e93a2316b1f64d11f8e",
+      "origin": "reviewed-project-source"
+    },
+    "images/workmora-chair.png": {
+      "sha256": "37c159678308e0f7e2057d9bba682cbb5bc8ad9b79da69449f1233f18297d047",
+      "origin": "documented-ai-generation"
+    },
+    "images/workmora-desk.png": {
+      "sha256": "d40b16a8c0600ed80707c93995ae080f4820136492998b173c330541d71276e2",
+      "origin": "documented-ai-generation"
+    },
+    "images/workmora-drawer.png": {
+      "sha256": "066926415bb0ba00438d0367b2c5e63d917a8bda1a27c84107a2c175fdc46690",
+      "origin": "documented-ai-generation"
+    },
+    "images/workmora-hero.png": {
+      "sha256": "f289a6275332d2d453161027245a2d014679e2ec6074fe67b4b86499a64aec29",
+      "origin": "documented-ai-generation"
+    },
+    "images/workmora-lighting.png": {
+      "sha256": "c8287bf41a502f93971beceb3e4e7a859d5572d547c1ecb3bf1a173f18c75da1",
+      "origin": "documented-ai-generation"
+    },
+    "images/workmora-lounge.png": {
+      "sha256": "522a5d6b9e94db535cfc7571fa729c4e9a7c5570ca8116bdce0c954b6333d6e9",
+      "origin": "documented-ai-generation"
+    },
+    "images/workmora-meeting.png": {
+      "sha256": "0683b47142aa5bd29142e9fdd655da2e6e533a95d55070973c4b69238ea08dd7",
+      "origin": "documented-ai-generation"
+    },
+    "images/workmora-partition.png": {
+      "sha256": "43e277b401b92291a60d6fd6a82f7043a03d5cd3adf752e3c92ddd2b98dab9e6",
+      "origin": "documented-ai-generation"
+    },
+    "images/workmora-round-table.png": {
+      "sha256": "1ad62ea4be88e7b5a54028e3c0f83413f08687b47d9c447d5b6baae69dcdc794",
+      "origin": "documented-ai-generation"
+    },
+    "images/workmora-square-table.png": {
+      "sha256": "bd889aa728f9130500fc038b9016eb758d7c40eff48db5a1ee1406a8e58d93b1",
+      "origin": "documented-ai-generation"
+    },
+    "images/workmora-storage.png": {
+      "sha256": "0a65ce9928b82e605b48cb09e0ac1e82f38f908c09c946b134aed6dda8e49855",
+      "origin": "documented-ai-generation"
+    },
+    "images/workmora-workzone.png": {
+      "sha256": "633029c00d65f7d094582fbd32e2de5731f321bb6ee3e400411045dc4d549945",
+      "origin": "documented-ai-generation"
+    },
+    "index.html": {
+      "sha256": "1aa8fffd45240a8d03ce658144b75ab7f2e6121a9d26fae6358623a0fbab6105",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "097d18c99bbfe3d545196f58fa2afef613694d7d9261cbcfdc38d55dcaa0af32",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-category-acc.html": {
+      "sha256": "19b5f9dbbec84b3d79215b943f2bb3958e14dcfffa650fff2445f56848b5e507",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-category-accessory.html": {
+      "sha256": "c63d793ee5753a1f406859709016050f188e6267bed309430e57170642b5fe82",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-category-chair.html": {
+      "sha256": "6ae0e215692777b3923f18d709982028c7b4ad1224d43954dc99fb3bda725fa0",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-category-computer-desk.html": {
+      "sha256": "33930c53aedf2eb0603741da76359648beda81140f7445ae19da54faec5b0652",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-category-desk.html": {
+      "sha256": "21c028dfbaf2634a87dbc76e513c2465b459a355c2725dc806f31802430cf8c8",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-category-executive.html": {
+      "sha256": "59d08199f3b91c79a2ff239546961b122a45ebcd8dd77cfd60ca0d64e4c918f1",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-category-package.html": {
+      "sha256": "304a2ede5a816aa45a5da718673893520a43c640b9e120f0d28a4fe67f35a24f",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-category-screen-partition.html": {
+      "sha256": "1911ccfd13d05225b0855dc4d37ccd669fc93cbdcea650d043039d267d387e9c",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-category-shared.html": {
+      "sha256": "02f8bf9027b97ee09a25fa645cc9fb09a61d1c2b5ff832377d4810972f7c17a9",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-category-shelving.html": {
+      "sha256": "633baaad1521c669f092a7bf2081768dbe1261066fa92b0fe6c1dee25984fcdb",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-category-sofa-table.html": {
+      "sha256": "773ccfe384374f85a4579adb9769b7a6e68227515453ff46b65d76368594a76d",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-category-study.html": {
+      "sha256": "4999069b746b24d609691c15c56070f8ffefb2c1b3d158789b9803964f9f9695",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-category-workspace.html": {
+      "sha256": "059aedc17c58faf5b57402dada48e53a8c228086ad1d23119e874dde2bc1d1d9",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-collection.html": {
+      "sha256": "207a6a78b50aea39f130412c67acef6928737aa3c3785d213472290cc59dfcdb",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-contact.html": {
+      "sha256": "35318d963b493ba2f457e651b10437b1e6f0e8891627eda0d0e543390614cdf5",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-data.js": {
+      "sha256": "2541af4026a2de331d0ee6ae0aa63788afee38a93645cad47e4ae2b7fbe1235f",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-accessories.html": {
+      "sha256": "2a533010a7d9f0f81fcf0a93bc774f3d807e97591a4d410f51c6a4977e4cce7c",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-bookcase-storage.html": {
+      "sha256": "2d38647877208e27151cfb1b523180f27077b9b89d52ebb805af68b9caf502d6",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-design-chair.html": {
+      "sha256": "5a7265dc004c6e29ef11d61d9f91e464fd784f7a6c83461c671185138d331a69",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-design.html": {
+      "sha256": "1a152191e486295fb04baaac2db9569cd662b287f48bebd863af1f8d4a13586e",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-desk-accessory.html": {
+      "sha256": "f438d497e858ae3ec36cb81bd2165da1a689dfd72ae2d4ef44fcbfce0a22208b",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-desk-decoration.html": {
+      "sha256": "5af33b2a8ed8cfa29974b1c582f43abf5013191322639b5538950ba1c525f51a",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-desk-lighting.html": {
+      "sha256": "2fc1c72f4c54bdb0641e37f126d61ecd96956bd6cbedad9ef8bb3de862402dfa",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-desk.html": {
+      "sha256": "a5fddb186b8f78930153869845ed0815d09f97dccb2ffb603068b731a69b143f",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-drawer.html": {
+      "sha256": "0279ef3dc31331fe2081995c4353bce4f1e31912a0382ba39729c53e7171560d",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-executive-chair.html": {
+      "sha256": "9e13f6e7567c1e5792bfeaeca14c962366ccf4f8cb4e47602cb39aad4f0f1dfb",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-executive-desk.html": {
+      "sha256": "a609f08538bc11fbb151d725f368ab2c34abf6d8527eb667904ae391e3c14b7b",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-functional.html": {
+      "sha256": "312ad0c89eea198e4d4f9978bd12df26f9b18f842290dcecae264715f067dfa3",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-meeting-chair.html": {
+      "sha256": "8e05e2ecd4f77adb4b30e0eaf71c921669ef5f18b092cb9589268a1183a86261",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-meeting-table.html": {
+      "sha256": "ad8af8769afc9c1a058475e9bf407e261038a539446c6e93a6fcdf1e4cb728ef",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-metal-wood-bookcase.html": {
+      "sha256": "5efc6242e710d7a7b891adc968e471b7f28b03cf8cbf61408ab70ee6888ae92c",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-motion-desk.html": {
+      "sha256": "01e88ab78d566476a23589c7cdca07840c546fd7e1929755a2b42e03586fe16b",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-multipurpose-chair.html": {
+      "sha256": "56f2a5b9e60279569066da3e17a6ccbc5b47b86306b100944ab08dcd1617ee32",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-office-chair.html": {
+      "sha256": "329666dd6c8e114dbe628db003c7606d185482d72d621807770b4c77ac7477b6",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-office-desk.html": {
+      "sha256": "3b897b011c5ed1609036db958eb4526d97742c799bdcf918cd4acb45cd46d0ba",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-partition.html": {
+      "sha256": "408e56f0bb75aae397915e458305b08884dd227bc326c7ed7d1c7528438e0829",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-round-table.html": {
+      "sha256": "4d453316137f0cf9276784119aa3e7f28ed95d6301e4d271c32b8e554eab41d2",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-screen-partition.html": {
+      "sha256": "8acad58977133e8ccb4b039e5df9f80efc457bf18e845c1045d10957d2ceee2a",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-screen.html": {
+      "sha256": "0448380154614109ee515cdb0e7469eb948654cac2eec6039aa9074f8438389f",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-sofa-table.html": {
+      "sha256": "7f7449b8ecd4764dd939a2e2bbf7c6c79b36f35233ffaf1ba2b8637af4d47588",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-sofa.html": {
+      "sha256": "dae7d6f9f14099104f7d216b7c2544fd1a4ccf57ecf0bfb28551cd80d8dc7536",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-square-table.html": {
+      "sha256": "893b6f0d6a5c3898be578a1041063f78eee70536a88c911e1d4dd98a07f653cf",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-storage.html": {
+      "sha256": "449050a99b97a65316d816aa0b1d8b536dcd67c1ea862f4632f2aa08cfb510e1",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-student-chair.html": {
+      "sha256": "446355d6b3a51a5f09db0ecd7eb576133e95bc276ab2903df17b4557362031c1",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-student-desk.html": {
+      "sha256": "9e7fa602309b96c8431bdda55ba3aac69db6e721fbc66c7a92ca400626ce883f",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-table.html": {
+      "sha256": "be65f4df725389beb7af3ca5c8ee2a66f422d9b23ca050b9e9305ddd8446e06d",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-detail-utility-cabinet.html": {
+      "sha256": "1275b1441fa6c6dbe41c8b3f17ddddae1909ef42ebaf9fbff9b140175c0e51f6",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-mobile.css": {
+      "sha256": "7c3b3a2a192c4c9fa8f4429831ce3f67098eca3c63f06c281ae79ba8742e355f",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-product.html": {
+      "sha256": "fd82de04c7e31960fa5a81c98adb4ff69296ff5a8c9abc5c0f3469d0de5f2755",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-project.html": {
+      "sha256": "f3c590140fe68465526db1a66744605504b895b39eaa792e2e3208e08f380d52",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-projects.html": {
+      "sha256": "2d7aa23126c181f28fee4d78b67ebfdc5eda15d3c8e807404d78e6da15490631",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-quote.html": {
+      "sha256": "284505d3058b574da3bc31f2cf9db02ce7677267119934e7108c2c13ecb13970",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-review.html": {
+      "sha256": "cf7d7d3f7fdcca70cdc894819fedc393c948baaee61cf05e3694dbbd77d632ee",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-tailoring.html": {
+      "sha256": "39e08080e6567a06186bbfb6d12ac74ba1b86b60e0ac38e8e96adaab96b488c6",
+      "origin": "reviewed-project-source"
+    },
+    "workmora-why.html": {
+      "sha256": "61b8a22ba8a6d0c7d2b2d2ac847357699c857e7df48c2c83f01d0256e66b7836",
+      "origin": "reviewed-project-source"
+    },
+    "workmora.css": {
+      "sha256": "0b923b3a34fc3b95b25c097bbbe8006f6854c8f5b516f468d7c4305acb3d7f7b",
+      "origin": "reviewed-project-source"
+    },
+    "workmora.js": {
+      "sha256": "ff6c239e6bf619fb4e7caa62d476d12011ece7affa383d47efc55b4811adca54",
+      "origin": "reviewed-project-source"
+    }
+  }
+}
