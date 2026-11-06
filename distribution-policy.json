@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "reviewDate": "2026-11-06",
+  "scope": "현재 데모 및 독립 소스 배포물의 자산 검토. 법적 무문제 보증이 아님.",
+  "projects": {
+    "aquafolio": {
+      "status": "withheld",
+      "reason": "권리 근거 없는 자산 교체 진행 중"
+    },
+    "atelier-cuisine": {
+      "status": "withheld",
+      "reason": "권리 근거 없는 자산 교체 진행 중"
+    },
+    "craft-roast": {
+      "status": "withheld",
+      "reason": "권리 근거 없는 자산 교체 진행 중"
+    },
+    "daywell24": {
+      "status": "withheld",
+      "reason": "권리 근거 없는 자산 교체 진행 중"
+    },
+    "flexspace": {
+      "status": "withheld",
+      "reason": "권리 근거 없는 자산 교체 진행 중"
+    },
+    "harutgyeol": {
+      "status": "withheld",
+      "reason": "권리 근거 없는 자산 교체 진행 중"
+    },
+    "lumiere": {
+      "status": "withheld",
+      "reason": "권리 근거 없는 자산 교체 진행 중"
+    },
+    "luon-studio": {
+      "status": "withheld",
+      "reason": "권리 근거 없는 자산 교체 진행 중"
+    },
+    "moav-live": {
+      "status": "withheld",
+      "reason": "권리 근거 없는 자산 교체 진행 중"
+    },
+    "ondam-foods": {
+      "status": "withheld",
+      "reason": "권리 근거 없는 자산 교체 진행 중"
+    },
+    "ongyeol-haus": {
+      "status": "ready",
+      "reason": "독립 구현 및 자산 기록 확인"
+    },
+    "pages": {
+      "status": "withheld",
+      "reason": "권리 근거 없는 자산 교체 진행 중"
+    },
+    "playforge": {
+      "status": "withheld",
+      "reason": "권리 근거 없는 자산 교체 진행 중"
+    },
+    "portfolio-grid": {
+      "status": "ready",
+      "reason": "독립 구현 및 자산 기록 확인"
+    },
+    "rosiel": {
+      "status": "withheld",
+      "reason": "권리 근거 없는 자산 교체 진행 중"
+    },
+    "samwonpaper": {
+      "status": "withheld",
+      "reason": "권리 근거 없는 자산 교체 진행 중"
+    },
+    "seon-apparel": {
+      "status": "withheld",
+      "reason": "권리 근거 없는 자산 교체 진행 중"
+    },
+    "workmora": {
+      "status": "ready",
+      "reason": "독립 구현 및 자산 기록 확인"
+    }
+  }
+}

@@ -8,7 +8,7 @@
 //
 // 씨딩을 tarball 로 주는 이유: 컨테이너 안에서 파일 목록을 몰라도 한 번의 GET + tar 로 끝난다.
 // raw URL 을 파일마다 받으면 목록을 어딘가에 또 적어야 하고 그 목록이 실제와 어긋난다.
-import { readdir, readFile, mkdir, cp, writeFile } from 'node:fs/promises';
+import { readdir, readFile, mkdir, cp, writeFile, rm } from 'node:fs/promises';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import path from 'node:path';
@@ -24,6 +24,7 @@ const OUT = path.join(ROOT, 'site');
 const BASE = process.env.PAGES_BASE_URL ?? 'https://dvely.github.io/qeploy-templates';
 
 const REQUIRED = ['id', 'name', 'description', 'stack', 'contentHints'];
+const distributionPolicy = JSON.parse(await readFile(path.join(ROOT, 'distribution-policy.json'), 'utf8'));
 
 await buildHarutgyeolPages();
 await buildPagesDetails();
@@ -37,12 +38,20 @@ const ids = (await readdir(SRC, { withFileTypes: true }))
 
 if (ids.length === 0) throw new Error('templates/ 가 비어 있다');
 
+// 이전 빌드의 데모·압축 파일이 공개 보류 이후에도 남는 것을 방지한다.
+await rm(path.join(OUT, 't'), { recursive: true, force: true });
+await rm(path.join(OUT, 'src'), { recursive: true, force: true });
 await mkdir(path.join(OUT, 't'), { recursive: true });
 await mkdir(path.join(OUT, 'src'), { recursive: true });
 
 const catalog = [];
 
 for (const id of ids) {
+    const review = distributionPolicy.projects[id];
+    if (review?.status !== 'ready') {
+        console.log(`공개 보류: ${id} — 배포 자산 검토 미완료`);
+        continue;
+    }
     const dir = path.join(SRC, id);
     const manifest = JSON.parse(await readFile(path.join(dir, 'template.json'), 'utf8'));
 
