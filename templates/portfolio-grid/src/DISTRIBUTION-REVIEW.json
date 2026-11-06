@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "project": "portfolio-grid",
+  "status": "reviewed",
+  "reviewDate": "2026-11-06",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "8cd5b94983f1481d7fc4fc6a727f371f692fe3a46100a503ea43fa21338b7109",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "0b761dacefada062be4820b1c80dd9df0f0d9acf93540ac617b558b40278ec01",
+      "origin": "reviewed-project-source"
+    },
+    "main.js": {
+      "sha256": "5c13970d00d25e43ce6247c07464f4ffe5eb1993fac65b0cb6152efba8cc1376",
+      "origin": "reviewed-project-source"
+    },
+    "styles.css": {
+      "sha256": "6372ea503172543afa2412a32e800f461972629e53d5eead06968bb60e6604fd",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "097d18c99bbfe3d545196f58fa2afef613694d7d9261cbcfdc38d55dcaa0af32",
+      "origin": "reviewed-project-source"
+    }
+  }
+}
