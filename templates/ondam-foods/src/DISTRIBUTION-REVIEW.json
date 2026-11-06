@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "project": "ondam-foods",
+  "status": "reviewed",
+  "reviewDate": "2026-11-06",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "6f102f701824c27b2ad945ec8feedf61bd45938be78f5f6063197f930668e792",
+      "origin": "reviewed-project-source"
+    },
+    "brand-guide.txt": {
+      "sha256": "18b9fdf4159bb440225e0a1dca471f813d2205ad5e48ec6889dbf77274fab3b1",
+      "origin": "reviewed-project-source"
+    },
+    "IMAGE-PROMPTS.md": {
+      "sha256": "1595feefcd5b92fb098c38e205f6948d6fe120d220026f5064de06ec53e2f9c9",
+      "origin": "reviewed-project-source"
+    },
+    "images/ondam-dumplings.png": {
+      "sha256": "9b2d774f274e699e9e22583fff6b12559d5f8e20cabde024b275b387c9353feb",
+      "origin": "documented-ai-generation"
+    },
+    "images/ondam-harvest.png": {
+      "sha256": "6044600bf2e0128891f423e7b453aa44421f7aaa14b1c0aaf7aa47675fc3d17a",
+      "origin": "documented-ai-generation"
+    },
+    "images/ondam-kitchen.png": {
+      "sha256": "5a102f463122de6fd4f362144490dadbea58ac4ab3e476283948e5254668f696",
+      "origin": "documented-ai-generation"
+    },
+    "images/ondam-noodle.png": {
+      "sha256": "bf586eb385b4370a6f59f42e147dc1cedb5fca2fef7d0b3fc86b3f31588df898",
+      "origin": "documented-ai-generation"
+    },
+    "images/ondam-seasonal-table.png": {
+      "sha256": "9b2f35c9dd8014d783b194bba4bcc0339a60d6be2bbf1d75be32d3890481ab34",
+      "origin": "documented-ai-generation"
+    },
+    "index.html": {
+      "sha256": "8e321b76b433aa2e1a1782c61b47d354d83a317968f116277ffc2c763d001918",
+      "origin": "reviewed-project-source"
+    },
+    "LICENSE.txt": {
+      "sha256": "fad141e7bd6dd211810cd79c0be32484e804295a2db61ed6f3865e788f4ada2b",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-about.html": {
+      "sha256": "d3979d3ed52949af014987c0dd1fd4c442aa0694cb91f31c819e2008954a58c2",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-brand.html": {
+      "sha256": "21cae81a5bffc95bc5b2dadf89eef683842376f919528e4c0df8cc9b616bcd33",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-cart.html": {
+      "sha256": "11c58db99a1b71e22b7eceb6de2b4225c2ca521af44c41f31ebfd8e60bf26fe1",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-contact.html": {
+      "sha256": "7346919faf8981f06daa8e89088748058cfee01e306912c01f9d9555d67eeea9",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-esg.html": {
+      "sha256": "0bc5c0280ed10f609eb6044dd48b4580e7cde430ca4dd4ac1aa5e375197cdb27",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-news-1.html": {
+      "sha256": "4e4bff4c4d472cee149a67ae011b91f5698b6ea65d239b3288575967cff7b04a",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-news-2.html": {
+      "sha256": "bd53bc1abeb8d9c3a0de264a9024f29b56b6900587fb705e30ae424c8dacf647",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-news-3.html": {
+      "sha256": "f1f77602cea7fc58d9dd62c50ae16289fad7ff5e8de299af546cf977ef622092",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-news-4.html": {
+      "sha256": "63d117f99e53ad08586eed26c96408f82175d686040599b16f664a541b4f2b70",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-news-5.html": {
+      "sha256": "87d01c6ce9bfd7949294668334222042d81560185d6cfebfe064f579a92c3600",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-news-6.html": {
+      "sha256": "cf4ab0450acb2b7b09e72732e2aa710572255f445ff7bdd4b6955b42204debd9",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-news.html": {
+      "sha256": "7562545bcc8b5da86b48d8959bbdb93e68e351d1dc5f2fdecd6b0da066d08092",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-privacy.html": {
+      "sha256": "2fbb81fe24d4e8aa785236a9fa6edd61a9f013b48eede537dea6d59536fcc8da",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-product-1.html": {
+      "sha256": "0e9747c59b376649d87c767830d2ef9a1ade19b230f81c1c8967d911042c1e0a",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-product-2.html": {
+      "sha256": "26d033d5a72b1eb4aa6322d91c92ebabdeda087c2605643257fe7221f4132886",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-product-3.html": {
+      "sha256": "02a6f636be4096d99196ffc2d2bd44a8090a6b43fdd92508393057ead0292ddd",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-product-4.html": {
+      "sha256": "2c79b0d5562d1a05df5b79db2d3375d921e2672503e7ecf813b0c9e4ff8b3b57",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-product-5.html": {
+      "sha256": "3415d0ccfb6622f50a6eecb956c5e3b9fc966f28607f10359356d968aba2f357",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-product-6.html": {
+      "sha256": "856b8c7b47d0cec9d57e21e70eecbf2285acfc869660a97f25364e07d4ff430f",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-products.html": {
+      "sha256": "3f3d6d05676406db7afcb029c2b7c5e3a4bb75bdca6f1de1c6d955402b1eb302",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-recipe-1.html": {
+      "sha256": "54602c52954a5827c839cbd69594b9806ce001674ab9bf8ef50fc2d24d73bf63",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-recipe-2.html": {
+      "sha256": "198f7433225c4f6b548e62056851ec5ead0e5453247cade278a49c2d13543378",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-recipe-3.html": {
+      "sha256": "3585b6ce47390e94713f0408b98456eaa62ae90ee9b051786848ea1e59f4a40d",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-recipe-4.html": {
+      "sha256": "5a16888da3a899669db06165f1e738f53649fc516c2a1dfa2e41edfad4fe556d",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-search.html": {
+      "sha256": "b88cfef5a8b64f41788ae4f53a59a0965c16b2a5f4daf38dfcb17447dbccf779",
+      "origin": "reviewed-project-source"
+    },
+    "ondam-sitemap.html": {
+      "sha256": "a007102d425439bd1d66b39c7ba1a594395bebe8af51d803cf07380eecd2c7ea",
+      "origin": "reviewed-project-source"
+    },
+    "original-build.mjs": {
+      "sha256": "be2509c63fe86a4d8ea0d85f1ad41ce656d1b2647ef875e2c13a3fc788516fc4",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "591e5f11b816fbb9004f1475914b78b1bc6810abf38ca9f30343ff2db356f941",
+      "origin": "reviewed-project-source"
+    },
+    "site-config.json": {
+      "sha256": "d3c34f3aff60d44271b223952c0de5287cf2211fa4be91d9c031001a468cbb45",
+      "origin": "reviewed-project-source"
+    },
+    "site.css": {
+      "sha256": "fb0bf6ff577040cccd0d3e5f4349976a82c0838cecd8a39f231a5c5afe71b2fb",
+      "origin": "reviewed-project-source"
+    },
+    "site.js": {
+      "sha256": "70482a8495d23ca784543109068bc7862a48585c6561d8223402c0fdfaa673c9",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "e76e9bbf0c20358d9b578e742c2cdc3bf188885f9623a81efd64ae6a636a90d1",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

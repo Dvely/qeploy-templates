@@ -1,0 +1,46 @@
+{
+  "reviewed": "2026-11-06",
+  "assets": [
+    {
+      "file": "images/ondam-seasonal-table.png",
+      "sha256": "9b2f35c9dd8014d783b194bba4bcc0339a60d6be2bbf1d75be32d3890481ab34",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/ondam-noodle.png",
+      "sha256": "bf586eb385b4370a6f59f42e147dc1cedb5fca2fef7d0b3fc86b3f31588df898",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/ondam-harvest.png",
+      "sha256": "6044600bf2e0128891f423e7b453aa44421f7aaa14b1c0aaf7aa47675fc3d17a",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/ondam-kitchen.png",
+      "sha256": "5a102f463122de6fd4f362144490dadbea58ac4ab3e476283948e5254668f696",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/ondam-dumplings.png",
+      "sha256": "9b2d774f274e699e9e22583fff6b12559d5f8e20cabde024b275b387c9353feb",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    }
+  ],
+  "limitations": "Generated content is not a legal clearance or exclusive copyright guarantee. No source-site code, fonts, icons, media or proprietary plug-ins are included in this replacement."
+}
