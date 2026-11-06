@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "project": "lumiere",
+  "date": "2026-11-06",
+  "creator": "Qeploy contributors",
+  "origin": "original-vector",
+  "description": "New SVG illustrations authored directly as geometric vector code. No original raster pixels, external assets, copied SVG paths, photographs, or model-generated photographic images were used. Illustrations are fictional depictions, not records of actual people, places, medical outcomes or products.",
+  "permissions": {
+    "commercialUse": true,
+    "modification": true,
+    "sourceTemplateRedistribution": true,
+    "scope": "Only the new SVG artwork listed below; this statement does not grant rights to fonts, code, designs or other third-party materials."
+  },
+  "assets": [
+    {
+      "file": "fonts/plus-jakarta-sans-bold.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "32971ad7976930539a11c79ce91ce84092df7f25c5be716b594601842f10a7ae"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-medium.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "b4fc14ec283d54236fd302cdb92546f98ae0ff061ca5ee23453a02bdf4628791"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-regular.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "076831b98043f50f829b6c91db3be4a844641f1c95bccff5c886ed87c661a852"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-semibold.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "50357df108c5d297ec4ece76aeddf49561f3794f67af077cfc2c711b7a75b439"
+    },
+    {
+      "file": "images/case-comparison.svg",
+      "replaces": "images/case-comparison.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "9c5da5fb581bc3105449e85f281bebabfbd5a9bd99cffb8e3cd8a0cbc1541c3b"
+    },
+    {
+      "file": "images/contour-after.svg",
+      "replaces": "images/contour-after.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "00bcc8936699acb01599639e0a0076e7c9ba603b70dd954f249b9489d2814ec4"
+    },
+    {
+      "file": "images/contour-before.svg",
+      "replaces": "images/contour-before.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "89dccbf9241e17a7914a32dbf306f81f676edb48aa2630f7f59c44a43d5f0862"
+    },
+    {
+      "file": "images/contour-care.svg",
+      "replaces": "images/contour-care.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "9933b0b37a127a951f5a87216c497ad50829bffc704b11fcbdcfe68607e5f530"
+    },
+    {
+      "file": "images/doctor-jimin.svg",
+      "replaces": "images/doctor-jimin.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "5e4f30b7ec1962234e23eb4135ede616aeef929b204c55231487434bc3925e36"
+    },
+    {
+      "file": "images/doctor-seoyeon.svg",
+      "replaces": "images/doctor-seoyeon.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "590613654ee22af1e0c3d0d7283c8efc11bae2b458b78a5cc99cba211946ae0a"
+    },
+    {
+      "file": "images/doctor-seoyoon-avatar.svg",
+      "replaces": "images/doctor-seoyoon-avatar.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "c9f858a571c5811859da4f873c534756bd7e8fbbb3f9567f6a55033023458180"
+    },
+    {
+      "file": "images/doctor-seoyoon.svg",
+      "replaces": "images/doctor-seoyoon.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "150db2ab2198fe9f3bdf5812cc60de2be2ec3bddb97a1e67bfae776b33b243e7"
+    },
+    {
+      "file": "images/doctor-woojin.svg",
+      "replaces": "images/doctor-woojin.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "9cc7c12bfe7c3339a97137308c3d3583cd327456b01906143113cdc67719cfef"
+    },
+    {
+      "file": "images/genuine-tip.svg",
+      "replaces": "images/genuine-tip.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "1d4ac5cd921d9eb1f38352d5efd724772c4a4b689689c6c994738dc3a6a67b70"
+    },
+    {
+      "file": "images/insight-consultation.svg",
+      "replaces": "images/insight-consultation.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "fd02c203cd0a2c9d71e74a4740caffede5598cdc0d5f9398d114913cc0363a57"
+    },
+    {
+      "file": "images/insight-hydration.svg",
+      "replaces": "images/insight-hydration.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "3c9baae0faea63cd6e173527c4c04aaccae2b3da8495ffbd410346884bad2ac3"
+    },
+    {
+      "file": "images/insight-lifting.svg",
+      "replaces": "images/insight-lifting.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "40d7bb152163129a6ec83607ecd8f249ab654cabec261f4ccb6bc8b3017d70eb"
+    },
+    {
+      "file": "images/lifting-care.svg",
+      "replaces": "images/lifting-care.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "959aff1ab4f5f291192999909ee14503513dc73cc6cd6ff16e0aaebc3754a314"
+    },
+    {
+      "file": "images/location-map.svg",
+      "replaces": "images/location-map.png",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "f48ef4486c746b6e8b6cf564fd14f3f32c8183b3295104faf8a51625c4f89b6d"
+    },
+    {
+      "file": "images/lumiere-suite.svg",
+      "replaces": "images/lumiere-suite.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "e9d1d3ccb857de46579efbd147385eb4526be52ce947e52730b79abfe91825c3"
+    },
+    {
+      "file": "images/private-room.svg",
+      "replaces": "images/private-room.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "e38b23e8c6db8cb441a05640a63c181d97f1ce2cee339d0aca9e66fb10af27a0"
+    },
+    {
+      "file": "images/review-jawline.svg",
+      "replaces": "images/review-jawline.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "bb13c67cfb60bbbad9e2e8e697db1553cc17ba08b8e4fbb882078a99a564d4a1"
+    },
+    {
+      "file": "images/review-profile.svg",
+      "replaces": "images/review-profile.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "bbf2c7d7edb56f368451bbb85a5564b1276b0be7634c1066dde823ae6cbe725d"
+    },
+    {
+      "file": "images/skin-care.svg",
+      "replaces": "images/skin-care.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "9f5c3fb8979a211b12b5dcadc76eb3c4d5743578545dfe508d45f716be25d6f0"
+    },
+    {
+      "file": "images/texture-after.svg",
+      "replaces": "images/texture-after.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "ecc6882ffbdaa8413a1c9acd5dcdbb1c2c92340897125f32ac2ea85d887bfbf0"
+    },
+    {
+      "file": "images/texture-before.svg",
+      "replaces": "images/texture-before.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "40ca7eefa1de7398a7b9449c9f9d1a84a6f1e002f77001506bda9545ec6a93bc"
+    },
+    {
+      "file": "images/treatment-handpiece.svg",
+      "replaces": "images/treatment-handpiece.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "e0ee9bfea4f14aa96b2457f526a8c8d10574ace1e703589c4c5f4f02f9b891ed"
+    },
+    {
+      "file": "images/treatment-suite.svg",
+      "replaces": "images/treatment-suite.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "9d971b0db1bd1fcfa9de4c09e9189c17864e3f2afc6435056ad2bde2691e80cc"
+    }
+  ],
+  "reviewed": "2026-11-06",
+  "scope": "File-level provenance and applicable conditions only, not a legal non-infringement guarantee."
+}

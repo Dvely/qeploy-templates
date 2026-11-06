@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "project": "lumiere",
+  "status": "reviewed",
+  "reviewDate": "2026-11-06",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "3839250f35960fc9472cc77bd4829b2944804809ec03131b039cbeeaca4c999c",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/fonts.css": {
+      "sha256": "ab4da1ed1a22623569b59e20b78465bd2e60b2cd46f5eec5078475079c027ad3",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/plus-jakarta-sans-bold.ttf": {
+      "sha256": "32971ad7976930539a11c79ce91ce84092df7f25c5be716b594601842f10a7ae",
+      "origin": "open-font-license"
+    },
+    "fonts/plus-jakarta-sans-medium.ttf": {
+      "sha256": "b4fc14ec283d54236fd302cdb92546f98ae0ff061ca5ee23453a02bdf4628791",
+      "origin": "open-font-license"
+    },
+    "fonts/Plus-Jakarta-Sans-OFL.txt": {
+      "sha256": "f9a8e776b4b048227f2f046b8716083eb04b1539d9ad1d4b87e81c1df28f86e3",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/plus-jakarta-sans-regular.ttf": {
+      "sha256": "076831b98043f50f829b6c91db3be4a844641f1c95bccff5c886ed87c661a852",
+      "origin": "open-font-license"
+    },
+    "fonts/plus-jakarta-sans-semibold.ttf": {
+      "sha256": "50357df108c5d297ec4ece76aeddf49561f3794f67af077cfc2c711b7a75b439",
+      "origin": "open-font-license"
+    },
+    "images/case-comparison.svg": {
+      "sha256": "9c5da5fb581bc3105449e85f281bebabfbd5a9bd99cffb8e3cd8a0cbc1541c3b",
+      "origin": "original-vector"
+    },
+    "images/contour-after.svg": {
+      "sha256": "00bcc8936699acb01599639e0a0076e7c9ba603b70dd954f249b9489d2814ec4",
+      "origin": "original-vector"
+    },
+    "images/contour-before.svg": {
+      "sha256": "89dccbf9241e17a7914a32dbf306f81f676edb48aa2630f7f59c44a43d5f0862",
+      "origin": "original-vector"
+    },
+    "images/contour-care.svg": {
+      "sha256": "9933b0b37a127a951f5a87216c497ad50829bffc704b11fcbdcfe68607e5f530",
+      "origin": "original-vector"
+    },
+    "images/doctor-jimin.svg": {
+      "sha256": "5e4f30b7ec1962234e23eb4135ede616aeef929b204c55231487434bc3925e36",
+      "origin": "original-vector"
+    },
+    "images/doctor-seoyeon.svg": {
+      "sha256": "590613654ee22af1e0c3d0d7283c8efc11bae2b458b78a5cc99cba211946ae0a",
+      "origin": "original-vector"
+    },
+    "images/doctor-seoyoon-avatar.svg": {
+      "sha256": "c9f858a571c5811859da4f873c534756bd7e8fbbb3f9567f6a55033023458180",
+      "origin": "original-vector"
+    },
+    "images/doctor-seoyoon.svg": {
+      "sha256": "150db2ab2198fe9f3bdf5812cc60de2be2ec3bddb97a1e67bfae776b33b243e7",
+      "origin": "original-vector"
+    },
+    "images/doctor-woojin.svg": {
+      "sha256": "9cc7c12bfe7c3339a97137308c3d3583cd327456b01906143113cdc67719cfef",
+      "origin": "original-vector"
+    },
+    "images/genuine-tip.svg": {
+      "sha256": "1d4ac5cd921d9eb1f38352d5efd724772c4a4b689689c6c994738dc3a6a67b70",
+      "origin": "original-vector"
+    },
+    "images/insight-consultation.svg": {
+      "sha256": "fd02c203cd0a2c9d71e74a4740caffede5598cdc0d5f9398d114913cc0363a57",
+      "origin": "original-vector"
+    },
+    "images/insight-hydration.svg": {
+      "sha256": "3c9baae0faea63cd6e173527c4c04aaccae2b3da8495ffbd410346884bad2ac3",
+      "origin": "original-vector"
+    },
+    "images/insight-lifting.svg": {
+      "sha256": "40d7bb152163129a6ec83607ecd8f249ab654cabec261f4ccb6bc8b3017d70eb",
+      "origin": "original-vector"
+    },
+    "images/lifting-care.svg": {
+      "sha256": "959aff1ab4f5f291192999909ee14503513dc73cc6cd6ff16e0aaebc3754a314",
+      "origin": "original-vector"
+    },
+    "images/location-map.svg": {
+      "sha256": "f48ef4486c746b6e8b6cf564fd14f3f32c8183b3295104faf8a51625c4f89b6d",
+      "origin": "original-vector"
+    },
+    "images/lumiere-suite.svg": {
+      "sha256": "e9d1d3ccb857de46579efbd147385eb4526be52ce947e52730b79abfe91825c3",
+      "origin": "original-vector"
+    },
+    "images/private-room.svg": {
+      "sha256": "e38b23e8c6db8cb441a05640a63c181d97f1ce2cee339d0aca9e66fb10af27a0",
+      "origin": "original-vector"
+    },
+    "images/review-jawline.svg": {
+      "sha256": "bb13c67cfb60bbbad9e2e8e697db1553cc17ba08b8e4fbb882078a99a564d4a1",
+      "origin": "original-vector"
+    },
+    "images/review-profile.svg": {
+      "sha256": "bbf2c7d7edb56f368451bbb85a5564b1276b0be7634c1066dde823ae6cbe725d",
+      "origin": "original-vector"
+    },
+    "images/skin-care.svg": {
+      "sha256": "9f5c3fb8979a211b12b5dcadc76eb3c4d5743578545dfe508d45f716be25d6f0",
+      "origin": "original-vector"
+    },
+    "images/texture-after.svg": {
+      "sha256": "ecc6882ffbdaa8413a1c9acd5dcdbb1c2c92340897125f32ac2ea85d887bfbf0",
+      "origin": "original-vector"
+    },
+    "images/texture-before.svg": {
+      "sha256": "40ca7eefa1de7398a7b9449c9f9d1a84a6f1e002f77001506bda9545ec6a93bc",
+      "origin": "original-vector"
+    },
+    "images/treatment-handpiece.svg": {
+      "sha256": "e0ee9bfea4f14aa96b2457f526a8c8d10574ace1e703589c4c5f4f02f9b891ed",
+      "origin": "original-vector"
+    },
+    "images/treatment-suite.svg": {
+      "sha256": "9d971b0db1bd1fcfa9de4c09e9189c17864e3f2afc6435056ad2bde2691e80cc",
+      "origin": "original-vector"
+    },
+    "index.html": {
+      "sha256": "2b2985cb16d6d3a0a37080c2d81523e3f8936d378ee76afee329058fff39ec69",
+      "origin": "reviewed-project-source"
+    },
+    "licenses/tailwindcss-forms-LICENSE.txt": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "origin": "reviewed-project-source"
+    },
+    "licenses/tailwindcss-LICENSE.txt": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "origin": "reviewed-project-source"
+    },
+    "lumiere-treatment.html": {
+      "sha256": "ccdd7ee6b1f4d50dc8c452f90cc63afde43be5a2a0555e4966273e86e164535f",
+      "origin": "reviewed-project-source"
+    },
+    "lumiere.css": {
+      "sha256": "d18a701bafe96575fd181a9f2274d598b73bfc827a6adf7b04962f11ba854241",
+      "origin": "reviewed-project-source"
+    },
+    "lumiere.js": {
+      "sha256": "52ea4ca2e742ec8903d055f35a0d147ac1da2e8cc8e1c1c3c7f3538491202e68",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "18950f950268021bb93689e48f231f67ca5636791cad334ca626f28336a73214",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "097d18c99bbfe3d545196f58fa2afef613694d7d9261cbcfdc38d55dcaa0af32",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

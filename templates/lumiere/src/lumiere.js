@@ -1,8 +1,8 @@
 // LUMIÈRE(루미에르) 메디컬 뷰티 템플릿. 상담 양식은 로컬 예시이며 정보를 전송하지 않습니다.
 const treatments = {
-  lifting: { title: '올리지오X 600샷 & 티타늄 리프팅 60KJ', price: '890,000', original: '1,400,000', description: '나의 피부 고민과 상태를 충분히 살펴보고, 복합 리프팅 프로그램의 구성을 상담에서 안내합니다.', image: 'images/lifting-care.jpg', steps: ['올리지오X 600샷 구성 안내', '티타늄 리프팅 60KJ 구성 안내'] },
-  skin: { title: '포텐자 레이저 & 스킨 케어 패키지', price: '390,000', original: '650,000', description: '현재의 피부 컨디션과 일상에서의 고민을 먼저 살피는 스킨 케어 프로그램입니다.', image: 'images/skin-care.jpg', steps: ['포텐자 프로그램 구성 안내', '개인별 스킨 케어 상담'] },
-  contour: { title: '인모드 FX + FORMA 풀페이스 케어', price: '249,000', original: '490,000', description: '얼굴의 균형과 각자의 고민을 살펴보는 맞춤형 윤곽 케어 프로그램입니다.', image: 'images/contour-care.jpg', steps: ['인모드 FX 구성 안내', 'FORMA 프로그램 구성 안내'] },
+  lifting: { title: '올리지오X 600샷 & 티타늄 리프팅 60KJ', price: '890,000', original: '1,400,000', description: '나의 피부 고민과 상태를 충분히 살펴보고, 복합 리프팅 프로그램의 구성을 상담에서 안내합니다.', image: 'images/lifting-care.svg', steps: ['올리지오X 600샷 구성 안내', '티타늄 리프팅 60KJ 구성 안내'] },
+  skin: { title: '포텐자 레이저 & 스킨 케어 패키지', price: '390,000', original: '650,000', description: '현재의 피부 컨디션과 일상에서의 고민을 먼저 살피는 스킨 케어 프로그램입니다.', image: 'images/skin-care.svg', steps: ['포텐자 프로그램 구성 안내', '개인별 스킨 케어 상담'] },
+  contour: { title: '인모드 FX + FORMA 풀페이스 케어', price: '249,000', original: '490,000', description: '얼굴의 균형과 각자의 고민을 살펴보는 맞춤형 윤곽 케어 프로그램입니다.', image: 'images/contour-care.svg', steps: ['인모드 FX 구성 안내', 'FORMA 프로그램 구성 안내'] },
 };
 const escapeHTML = (text) => String(text).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
 const storageKey = 'lumiere:saved-treatments';
