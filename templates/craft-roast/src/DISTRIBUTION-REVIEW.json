@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "project": "craft-roast",
+  "status": "reviewed",
+  "reviewDate": "2026-11-06",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "89392f61912d2d30e61d7dedbb6be766fc1ea6ebb70af9669717a71b12298f6f",
+      "origin": "reviewed-project-source"
+    },
+    "craft-roast-beans.html": {
+      "sha256": "25ce5aaa68052055157b7c059228eb0fd61d4ebcb60da906273be93778c9ab44",
+      "origin": "reviewed-project-source"
+    },
+    "craft-roast-data.js": {
+      "sha256": "b963bd9dcaca9875e8d2060d61ed8baef1174886177d9d4f41390929acb4fcee",
+      "origin": "reviewed-project-source"
+    },
+    "craft-roast-menu.html": {
+      "sha256": "1dd8dbfe317d6e680867e23b517a737bdacc5752be6b425ac2dc7a6aa031417b",
+      "origin": "reviewed-project-source"
+    },
+    "craft-roast-stores.html": {
+      "sha256": "1006577f2ea6989f944d296ee427953d781bd1aa7c291b8b9c5de30f2b319a58",
+      "origin": "reviewed-project-source"
+    },
+    "craft-roast.css": {
+      "sha256": "b1c538dd7ecefbeb8b1b705285ae527f2d86b4a89054407e3b91f9187c723904",
+      "origin": "reviewed-project-source"
+    },
+    "craft-roast.js": {
+      "sha256": "18eeebe4186022c99814f33f5b13e54a17b8bce325389b9e516bd00eae0218b6",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/fonts.css": {
+      "sha256": "9f1970cf6c010cfeb7780fcac36bcf265aa4e2a8a8a24ace01dd6362a58dd241",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/plus-jakarta-sans-bold.ttf": {
+      "sha256": "32971ad7976930539a11c79ce91ce84092df7f25c5be716b594601842f10a7ae",
+      "origin": "open-font-license"
+    },
+    "fonts/plus-jakarta-sans-medium.ttf": {
+      "sha256": "b4fc14ec283d54236fd302cdb92546f98ae0ff061ca5ee23453a02bdf4628791",
+      "origin": "open-font-license"
+    },
+    "fonts/Plus-Jakarta-Sans-OFL.txt": {
+      "sha256": "f9a8e776b4b048227f2f046b8716083eb04b1539d9ad1d4b87e81c1df28f86e3",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/plus-jakarta-sans-regular.ttf": {
+      "sha256": "076831b98043f50f829b6c91db3be4a844641f1c95bccff5c886ed87c661a852",
+      "origin": "open-font-license"
+    },
+    "fonts/plus-jakarta-sans-semibold.ttf": {
+      "sha256": "50357df108c5d297ec4ece76aeddf49561f3794f67af077cfc2c711b7a75b439",
+      "origin": "open-font-license"
+    },
+    "images/craft-roast-bakery-flagship.svg": {
+      "sha256": "2ea4397cb8cc350e2510edc02b581ade1bb9252e433fa8c0a4dd271462002fbd",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-basque-cheesecake.svg": {
+      "sha256": "8e5520158919bea8d2487f13f94325cc0e102cc7f928d645df959ee92c7e4eea",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-bukchon-pavilion.svg": {
+      "sha256": "cf044968548d59f5ba4e51cf4b6a34639ddd5e55801438c99882d55ef0af4e92",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-bukchon.svg": {
+      "sha256": "d9111580260d34daace3f4b948e14f44417fa3578220bfea4f8abdcdedc89e88",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-butter-scone.svg": {
+      "sha256": "70a8e90b4874a994d27a87b8c4e691571e937949106513daa2d432ee2aef5219",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-canele.svg": {
+      "sha256": "11a1513cf61c545b4987449d6019948ae16239acc193be1b418c181a7a1b447b",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-caramel-latte.svg": {
+      "sha256": "717ed090cae8f5d90d08b4874518249bc42b15f59edd8637528a66d23e1f61f9",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-chocolate-entremet.svg": {
+      "sha256": "a51258f2d0677f5760546f778e11d023be5a526dcd199c17ba15d6785bc1d9ed",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-earl-grey-cake.svg": {
+      "sha256": "b2a1e228a6749de661b1c0e1f0c57b758ca8f5a4df7356420d3c92b6f4b87afa",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-espresso.svg": {
+      "sha256": "8b011e4e04d97ce241dc8e42e3bb419811fed875b83bcbe2030a75c45ef8faa1",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-fig-tart.svg": {
+      "sha256": "1422197329e4d616d89aecf4fc3efe07ba88fbad995a83ac0923ebb8ebed8825",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-garden-drive-thru.svg": {
+      "sha256": "494d3e0d11fe6be2cc8f05d1f2fd4ceea1cde92443e30b4cc059806b98cb8201",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-geisha-beans.svg": {
+      "sha256": "2805c855bba026cb222045ab781967a72c23d947646492db7f23661883443b52",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-geisha-canister.svg": {
+      "sha256": "3e5919fbf7efe85e59ff7bcd44a1b5ce74ca3deff77193a00addf3a3f2ef2b5f",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-geisha-package.svg": {
+      "sha256": "345cebe0054d2cd3c69eb56e90a626843c406a0dd002218a2f262618937ee39f",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-hannam-salon.svg": {
+      "sha256": "fd4125e494d42f14707f6b5142fa263d37c33fe0fb96da66c401ef2d1c4dd174",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-hannam.svg": {
+      "sha256": "0f4ade50763a29e072918b58b378db3471c9354144bf78244bb62526ca6ca2b8",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-hazelnut-tart.svg": {
+      "sha256": "50f1d2a3b2a0c47db3c6177fed554ce32386914510cd50852f0cfc469749f490",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-head-barista.svg": {
+      "sha256": "80bfd0338a485a28f5cc2f00898a888422ed173ce569776e29da57d56d6dba72",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-lychee-drip.svg": {
+      "sha256": "a36bc14e3d5af99181c7cb741b9b1852f78b87ed25bf818514c4d5c29e9dd00d",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-panama-farm.svg": {
+      "sha256": "ebd930277b8b44c202494c70a2942c237b65291a4fde3a1f0e63a37fe77f473e",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-pistachio-financier.svg": {
+      "sha256": "bbc1be4ca49be6f26aca3261e8b453eea083934adbab573646581cdcdf2729f7",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-review-financier.svg": {
+      "sha256": "0b77700ecf9da41bfbfc8ae7d992e5b6695a074db7e849599492df9a74bdbd60",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-review-latte.svg": {
+      "sha256": "0024840a833de43340e1a8e64ea3a2a608f9a89b0897d7defef2fdc7c2de788e",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-review-takeaway.svg": {
+      "sha256": "11ca1a7f7406850a6260cf7d0a49a4c01a166caf90b4fe0dc3dccd1b479091c6",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-roastery-hero.svg": {
+      "sha256": "07f1b0f16e3b6d15a0cfe2696e027e6e33b5f166875103d3114a574af209e98e",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-seasonal-pairing.svg": {
+      "sha256": "d2a6f0695c50463f0df5fe9fd2d36e3329183dee5ccdeb6010a9284c79798021",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-seongsu-lab.svg": {
+      "sha256": "b35404c24ce29d690e5a399e7090f75cd7991c563b07581146a6997fdcc89689",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-seongsu.svg": {
+      "sha256": "3399f821e29110b26561cf17beebfc872d5e587eebc726ae064e44f33543a6dd",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-seoul-map.svg": {
+      "sha256": "7bd2b82223bb0b4b05c809f86233be9240698514eedf7eaf456759c5b71a2aa2",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-subscription-box.svg": {
+      "sha256": "f2db01032079343d65c87d2bd7c87b8dc618ef86b6a19902e997b794c75cf743",
+      "origin": "original-vector"
+    },
+    "images/craft-roast-urban-bar.svg": {
+      "sha256": "46d7ecee1006633bd9272e342f5ddbc48aa2889de14ec56bf3f32b465180bbe2",
+      "origin": "original-vector"
+    },
+    "index.html": {
+      "sha256": "ab253c4c04730a0a07040d323e9135c174aa575c987cc434f21f61f8423bf224",
+      "origin": "reviewed-project-source"
+    },
+    "licenses/Tailwind-Forms-MIT.txt": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "origin": "reviewed-project-source"
+    },
+    "licenses/Tailwind-MIT.txt": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "300ac64a253847f5bfae737cd590e017a11963c2c58b6284844b4fcde1ce42ed",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "097d18c99bbfe3d545196f58fa2afef613694d7d9261cbcfdc38d55dcaa0af32",
+      "origin": "reviewed-project-source"
+    }
+  }
+}
