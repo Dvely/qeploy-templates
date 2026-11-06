@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "project": "daywell24",
+  "status": "reviewed",
+  "reviewDate": "2026-11-06",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "b08976005991ec9bee7edb13c2662bf4d000339c89944436695f0f3519bb36af",
+      "origin": "reviewed-project-source"
+    },
+    "brand-guide.txt": {
+      "sha256": "81aabbf7e73471e4492c76ef24979cd989110381996acb754c3a895154995935",
+      "origin": "reviewed-project-source"
+    },
+    "daywell-item-bread.html": {
+      "sha256": "2b877a3787b8fb91a0fc1f595fb7d387951c040580a5da9b41e3cffbb5d63a14",
+      "origin": "reviewed-project-source"
+    },
+    "daywell-item-chips.html": {
+      "sha256": "c75544036f05011b97a9e7bb6af1a0b65764aaaf9be90a1a7172387766be9fbf",
+      "origin": "reviewed-project-source"
+    },
+    "daywell-item-coffee.html": {
+      "sha256": "7612d5e67b1c045a3581fbe2a886891a342f2741aa3ddf724f97865f550ced39",
+      "origin": "reviewed-project-source"
+    },
+    "daywell-item-dessert.html": {
+      "sha256": "e3695c95db90900a233633bf188bce2ea78cd43d539c8e2cf03835d8f58086eb",
+      "origin": "reviewed-project-source"
+    },
+    "daywell-item-lunch.html": {
+      "sha256": "403a07e698458a3b1c206860bdd0380d4fa870c4b51e9d9e5e1939219153c078",
+      "origin": "reviewed-project-source"
+    },
+    "daywell-item-milk.html": {
+      "sha256": "b1f78900d3fc04d2dfe26e9948c40661c29eb36289177b1e0a965edcc6a3c32c",
+      "origin": "reviewed-project-source"
+    },
+    "daywell-item-noodles.html": {
+      "sha256": "203873ec5643023739f985f7b852d16d7e7e6da618dba32ad51a333c258b4848",
+      "origin": "reviewed-project-source"
+    },
+    "daywell-item-sandwich.html": {
+      "sha256": "41f0e39200c451b7c6c76995b7bec6a0205eb7e555d58ff4b32d132cdfe1cb4e",
+      "origin": "reviewed-project-source"
+    },
+    "daywell-item-tea.html": {
+      "sha256": "e6502a50a42b49e1a156f53df511a2ee7afe7bb8cab1010df8683c148a602fe5",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-advertising.html": {
+      "sha256": "9246952df27da5ee8f784093a2d524d59e58db94709e0e5a1958f3713ea56ca0",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-app.html": {
+      "sha256": "113a8a68b99b2ba7eb34e4b542a263ec8fece44b512a64af0bf2522883bfb7b3",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-brand-gallery.html": {
+      "sha256": "f83da24fbfb57d2fd26beed8b18224382a14827154b5851fd4b0891bb759019a",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-brand-resources.html": {
+      "sha256": "f1139028ae7aa006178305ab4c598ea3037dd7db3534acdebe396accc81d7564",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-brand.html": {
+      "sha256": "21f1a9721028f14be87a144747969ade2e20546e44c0ec304a81e0acff588d11",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-career.html": {
+      "sha256": "622c049f7aee160f78ebff74e8e6cbb28d6b88d62923b4ebf501be8a0d30a389",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-cart.html": {
+      "sha256": "b9dcac69dc9bef740d3bd9833a34cc88ba622dd37bd2b575fce08de7687453dc",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-community.html": {
+      "sha256": "657b0034fdb0886e4b45034e86e1f071bda48f6ae95c0153fdae608ef962c595",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-contracts.html": {
+      "sha256": "10c3a45d8f75ca079162086621369b2c02ff5a1e767a0149e4ee21f88f011bda",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-english.html": {
+      "sha256": "f9d10c384f287e17b8d46f895bbc39eabe1d0d64c7cbf0086cea9cb713d18257",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-01.html": {
+      "sha256": "7453ad45c93d91f2c945610ec3fbac4fe01d0d5d0bf70544cea89ea84e6f031e",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-02.html": {
+      "sha256": "1285d70a512e385e861c20ac50a460c7248b930f683c7b22f45c0bbbef04afa7",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-03.html": {
+      "sha256": "6d52fcf16fa3ddd84f2c9f24fbfe5edeb1da99767a2b85d72f8b327730fa62de",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-04.html": {
+      "sha256": "d12b502a076602b345a4b2bed1682ce5e3eca7f7015a7f210272220fb3c21ed4",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-05.html": {
+      "sha256": "cea991dbcd89ae6bf3d970b3c34f05c9fa668ad2111cce983829ae4089bc0f95",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-06.html": {
+      "sha256": "c7798834c87ad322b052d757497a7a0d1650d3d0b5214c8e3a9cee28726b1772",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-07.html": {
+      "sha256": "674f3daa64705482a9964320b2b68303c68a39878904da2740e486153a239406",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-08.html": {
+      "sha256": "7cac0d5d2f38b8f553dd1b07f01203d52ebf494c39ad387d6516f3f7ad9df6be",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-09.html": {
+      "sha256": "8031f96e8f7e7aff360276632a0b1f6525dedb003112409c6acd6dabf479b3fe",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-10.html": {
+      "sha256": "cbb798eea79d66366eacbff3b1394ac89f4c640e7cddb8f2401d5b37afb4bdfa",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-11.html": {
+      "sha256": "65adadb297ef40dc2f99238ea6233fa362468046255ab9a1bd2300d6112edd61",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-12.html": {
+      "sha256": "e29164cfd0a3140d3a9938e2a57cc7bcbd56f5db4e67a888f520307ba63bd65c",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-13.html": {
+      "sha256": "7d6eceadece2815964d7e273a81075324c11a6830bd40c40aeec6617bded4dda",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-14.html": {
+      "sha256": "11c402af66a715fcfb8f6a86ba34c1ad2e67abc0afc164121d97de86317e6513",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-15.html": {
+      "sha256": "f91aedc503557960bf91dd4f3e40523c51c2dc6ac008406c3b9a4105ff99d9c5",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-16.html": {
+      "sha256": "4444704c028ac5da5b60260cd75abc748f8133582ffb7f583c311f80024e4f2f",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-17.html": {
+      "sha256": "4ffad6130be0dae529df26829929de100f2bb1361d4f978738864ba14e600902",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-18.html": {
+      "sha256": "01cfb2166fe4f636a4f2972f1903cb8edc0da9732b72c1158046dac249de698a",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-19.html": {
+      "sha256": "c5c9f630efa1ab639198c0c5b6976dc5df426cf084a0bd990364ccdc09c49da3",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-20.html": {
+      "sha256": "938732712347882148896c8d1ca00fc56e85c24b0a3b7decc33f6e44948db6b4",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-event-detail.html": {
+      "sha256": "e8925e7884d3941d814ec754977299513d105dd3e70fb2dd367d0ea3e1394418",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-events-ended.html": {
+      "sha256": "e723aea34af4623eabd4a6d26ec0660ceec6a456c99747597df2ae0c22dea336",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-events.html": {
+      "sha256": "a0b3ef9d886f41fe591a10ea46ac97a312b09c79411c2b6f90a05ed191531014",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-franchise-contact.html": {
+      "sha256": "b6947e30ced0428f99e81ea8b3893e585c7ca2fc7db6e7fe0a457fba6b0c531c",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-franchise-features.html": {
+      "sha256": "4978c402c7c4e1c9ffd7daed2105d8f2043b5e4679331df00e248c2176b7315c",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-franchise-models.html": {
+      "sha256": "e8b89ff21bfd4988daec99d346c6cf154a96659305e3b8b550fbe034a4073e2d",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-franchise-session.html": {
+      "sha256": "9246952df27da5ee8f784093a2d524d59e58db94709e0e5a1958f3713ea56ca0",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-franchise-spaces.html": {
+      "sha256": "16a021a9e8e6f59953e13d231b015f12c02daddd2781c262f9ae16efc922dc6b",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-franchise-stories.html": {
+      "sha256": "ab13263810ab105f392e6a9b6fd06937cf4c5b6184585f4465e93f3102faaa4d",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-franchise.html": {
+      "sha256": "130ed4b29c615d182a84b154e3292edf08613427799f7c299826556c250590ac",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-fresh-food.html": {
+      "sha256": "0fc20bd8c64c9f09ea46773d8325cf045d0ab01624b31b55db69d094dd5f7083",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-helpdesk.html": {
+      "sha256": "1c283f4e4b3df925a7b903ba3de492e4c5c99a8aa81fd135c3c3c1f662f05c53",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-life-services.html": {
+      "sha256": "ffb4acab9f82f599122417b965b1d97d26ef4dab319f8f408664153d8f52926c",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-media.html": {
+      "sha256": "f83da24fbfb57d2fd26beed8b18224382a14827154b5851fd4b0891bb759019a",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-notice.html": {
+      "sha256": "9c6f56ebcd6fde0f40c53c2be568cea2782d8926b93fd79b414dff995114755f",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-partners.html": {
+      "sha256": "5c123579e2077bc2136981a5671f268029f68dc0c8e50d0607a1429443230dca",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-payment.html": {
+      "sha256": "dd8c70cc34ab8691f252f2bd746a9c419b8090506bf9d6c090c360a0632e6041",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-privacy.html": {
+      "sha256": "19581952f0734b150dbc68ff1e83000b9804b784e008a696650978a3b3d077a8",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-products.html": {
+      "sha256": "809768f8145036ae7a77c0ee4387cca409c6963184496d6f4d537cae6d1f1d96",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-signature.html": {
+      "sha256": "0fc20bd8c64c9f09ea46773d8325cf045d0ab01624b31b55db69d094dd5f7083",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-sitemap.html": {
+      "sha256": "e5f30763c41ecdbc947c2d9904ab0668175c23439b5c171fb2b2454ae6d2bb08",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-store-garden.html": {
+      "sha256": "d973f52f3903d8fde14ac3d953e98a5748a3c0d7dffb86fb1df288ce3dbc4853",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-store-studio.html": {
+      "sha256": "6ba0c6e8f8f40125a56fc3394e7bcfd56031b0a36af4fa5503fe58aa7d357888",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-stores.html": {
+      "sha256": "6ece6af545d21af34079364e2687d6de3f7b4500dd1488b331ced40f1d42873d",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-terms.html": {
+      "sha256": "10c3a45d8f75ca079162086621369b2c02ff5a1e767a0149e4ee21f88f011bda",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-video-policy.html": {
+      "sha256": "10c3a45d8f75ca079162086621369b2c02ff5a1e767a0149e4ee21f88f011bda",
+      "origin": "reviewed-project-source"
+    },
+    "daywell24-youth-policy.html": {
+      "sha256": "10c3a45d8f75ca079162086621369b2c02ff5a1e767a0149e4ee21f88f011bda",
+      "origin": "reviewed-project-source"
+    },
+    "image-prompts.json": {
+      "sha256": "9a5da05e75e1f7082605630ce85516d9e667250a413fa633f33fc05ef35550ee",
+      "origin": "reviewed-project-source"
+    },
+    "images/daywell24-bread.png": {
+      "sha256": "d23fcfde5268e00015e9d2c3a27f066d5e7bbf79e6a74172bd191becbac38ba5",
+      "origin": "documented-ai-generation"
+    },
+    "images/daywell24-chips.png": {
+      "sha256": "9a488ba96452e2e37c9e4eb393d82397bbc0c3a01598fd3fe17ce28932ce3370",
+      "origin": "documented-ai-generation"
+    },
+    "images/daywell24-coffee.png": {
+      "sha256": "07f3d238fd1c76bd2d07bd402b8df060129e69770d107b4cf33bdf0fa2ccb33d",
+      "origin": "documented-ai-generation"
+    },
+    "images/daywell24-daily.png": {
+      "sha256": "5fbde7393f1ad79cabc98dbcc75bfb08c796117846cb1ec9648f4f3f31f5dcf2",
+      "origin": "documented-ai-generation"
+    },
+    "images/daywell24-dessert.png": {
+      "sha256": "12ed3b1fd12474f769d8e38e23cd262e35dba67bfc9ad53864f671e7612dc855",
+      "origin": "documented-ai-generation"
+    },
+    "images/daywell24-hero.png": {
+      "sha256": "5ac36b90c0908d75c0c97c8b3a7af4f194c676d839f309aefa276a7f985f8a74",
+      "origin": "documented-ai-generation"
+    },
+    "images/daywell24-lunch.png": {
+      "sha256": "dffedc945868433030acf7231e00a460fadda5b2b82daa9fa5a03ba78bdec4ee",
+      "origin": "documented-ai-generation"
+    },
+    "images/daywell24-milk.png": {
+      "sha256": "778605d2fa4f49d2445751af1144b8011beb0d200b76f70459014f7c7be83d32",
+      "origin": "documented-ai-generation"
+    },
+    "images/daywell24-noodles.png": {
+      "sha256": "8bf7d32523bf61f7f7db904a7b331531890c11edec361ebbce83ba44ed1758b1",
+      "origin": "documented-ai-generation"
+    },
+    "images/daywell24-sandwich.png": {
+      "sha256": "dc6a830bc777aeb2f14b3c35d23d0a9fc7cb66b0ec8ef9dabb1e5613bda66978",
+      "origin": "documented-ai-generation"
+    },
+    "images/daywell24-store.png": {
+      "sha256": "bf8215b7a1c2b6e20ae4728eee2df632e64c37e778500b4170e271d0968cf03b",
+      "origin": "documented-ai-generation"
+    },
+    "images/daywell24-tea.png": {
+      "sha256": "196bc4f5a861715e02083cf0ff5de3e2d54d825012f1f226dc1111b3e8446940",
+      "origin": "documented-ai-generation"
+    },
+    "index.html": {
+      "sha256": "8272dd93a668a75762276bd4a32584faeb86159fa408ff62a7149b89e321c4d3",
+      "origin": "reviewed-project-source"
+    },
+    "LICENSE.txt": {
+      "sha256": "fad141e7bd6dd211810cd79c0be32484e804295a2db61ed6f3865e788f4ada2b",
+      "origin": "reviewed-project-source"
+    },
+    "media/daywell24-everyday.mp4": {
+      "sha256": "8e0c683e47c030c76775fb07259bb9d826a09facc64991b294841ceb55e293dc",
+      "origin": "documented-generated-photo-video"
+    },
+    "original-build.mjs": {
+      "sha256": "be2509c63fe86a4d8ea0d85f1ad41ce656d1b2647ef875e2c13a3fc788516fc4",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "cc45cd86ec62daee832f6e9e2c109cef10f4e2f836cd43e98d5bd83c817d2c4a",
+      "origin": "reviewed-project-source"
+    },
+    "site-config.json": {
+      "sha256": "62a1202baee22881fa5a160c3dde171495253421e1083ae3817de570929cac8d",
+      "origin": "reviewed-project-source"
+    },
+    "site.css": {
+      "sha256": "fb0bf6ff577040cccd0d3e5f4349976a82c0838cecd8a39f231a5c5afe71b2fb",
+      "origin": "reviewed-project-source"
+    },
+    "site.js": {
+      "sha256": "70482a8495d23ca784543109068bc7862a48585c6561d8223402c0fdfaa673c9",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "e76e9bbf0c20358d9b578e742c2cdc3bf188885f9623a81efd64ae6a636a90d1",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

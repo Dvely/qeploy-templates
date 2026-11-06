@@ -1,0 +1,110 @@
+{
+  "reviewed": "2026-11-06",
+  "assets": [
+    {
+      "file": "images/daywell24-hero.png",
+      "sha256": "5ac36b90c0908d75c0c97c8b3a7af4f194c676d839f309aefa276a7f985f8a74",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/daywell24-store.png",
+      "sha256": "bf8215b7a1c2b6e20ae4728eee2df632e64c37e778500b4170e271d0968cf03b",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/daywell24-coffee.png",
+      "sha256": "07f3d238fd1c76bd2d07bd402b8df060129e69770d107b4cf33bdf0fa2ccb33d",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/daywell24-milk.png",
+      "sha256": "778605d2fa4f49d2445751af1144b8011beb0d200b76f70459014f7c7be83d32",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/daywell24-tea.png",
+      "sha256": "196bc4f5a861715e02083cf0ff5de3e2d54d825012f1f226dc1111b3e8446940",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/daywell24-sandwich.png",
+      "sha256": "dc6a830bc777aeb2f14b3c35d23d0a9fc7cb66b0ec8ef9dabb1e5613bda66978",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/daywell24-lunch.png",
+      "sha256": "dffedc945868433030acf7231e00a460fadda5b2b82daa9fa5a03ba78bdec4ee",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/daywell24-bread.png",
+      "sha256": "d23fcfde5268e00015e9d2c3a27f066d5e7bbf79e6a74172bd191becbac38ba5",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/daywell24-dessert.png",
+      "sha256": "12ed3b1fd12474f769d8e38e23cd262e35dba67bfc9ad53864f671e7612dc855",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/daywell24-chips.png",
+      "sha256": "9a488ba96452e2e37c9e4eb393d82397bbc0c3a01598fd3fe17ce28932ce3370",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/daywell24-noodles.png",
+      "sha256": "8bf7d32523bf61f7f7db904a7b331531890c11edec361ebbce83ba44ed1758b1",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/daywell24-daily.png",
+      "sha256": "5fbde7393f1ad79cabc98dbcc75bfb08c796117846cb1ec9648f4f3f31f5dcf2",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "media/daywell24-everyday.mp4",
+      "sha256": "8e0c683e47c030c76775fb07259bb9d826a09facc64991b294841ceb55e293dc",
+      "origin": "documented-generated-photo-video",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    }
+  ],
+  "limitations": "Generated content is not a legal clearance or exclusive copyright guarantee. No source-site code, fonts, icons, media or proprietary plug-ins are included in this replacement."
+}
