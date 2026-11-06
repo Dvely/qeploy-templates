@@ -9,7 +9,7 @@ window.PAGES_CONTENT={
       "category": "humanities",
       "quote": "속도를 늦추면 일상의 작은 기쁨들이 비로소 보이기 시작한다.",
       "intro": "끊임없이 비교하고 성취해야 한다는 마음에서 한 걸음 벗어나, 나만의 리듬을 찾는 사유의 기록입니다. 고요한 시간과 관계의 여백, 사소한 일상의 아름다움을 세 개의 장으로 담았습니다.",
-      "image": "images/pages-garden-cover.jpg",
+      "image": "images/pages-garden-cover.svg",
       "url": "pages-book.html",
       "authorId": "haon",
       "originalPrice": 19800,
@@ -37,7 +37,7 @@ window.PAGES_CONTENT={
       "category": "essay",
       "quote": "우리가 고요해질 때 사물들은 자기만의 빛깔로 속삭인다.",
       "intro": "매일 곁에 두는 컵과 책상, 오래된 의자를 다시 바라보는 에세이입니다. 평범한 사물에 남은 시간을 따라 일상의 감각을 천천히 회복합니다.",
-      "image": "images/pages-quiet-cover.jpg",
+      "image": "images/pages-quiet-cover.svg",
       "url": "pages-book-quiet.html",
       "authorId": "daon",
       "originalPrice": 18000,
@@ -65,7 +65,7 @@ window.PAGES_CONTENT={
       "category": "humanities",
       "quote": "빛을 보기 위해 눈을 뜨고, 잔상을 이해하기 위해 천천히 눈을 감는다.",
       "intro": "바쁜 도시에서 자기만의 시선을 지키는 방법을 탐색합니다. 빛과 그림자, 보이는 것과 남는 것을 통해 일상 속 철학을 읽습니다.",
-      "image": "images/pages-light-cover.jpg",
+      "image": "images/pages-light-cover.svg",
       "url": "pages-book-light.html",
       "authorId": "seojin",
       "originalPrice": 20000,
@@ -93,7 +93,7 @@ window.PAGES_CONTENT={
       "category": "art",
       "quote": "물건의 온도는 만드는 손끝을 지나 사용하는 손바닥에서 완성된다.",
       "intro": "찻잔 하나에 담긴 재료와 형태, 만드는 사람의 생각을 소개합니다. 아름다운 디자인을 소유하는 데서 나아가 일상에서 사용하는 즐거움을 이야기합니다.",
-      "image": "images/pages-teacup-cover.jpg",
+      "image": "images/pages-teacup-cover.svg",
       "url": "pages-book-teacup.html",
       "authorId": "yura",
       "originalPrice": 24400,
@@ -121,7 +121,7 @@ window.PAGES_CONTENT={
       "category": "literature",
       "quote": "서로의 체온을 기억하는 한 우리는 얼어붙지 않는다.",
       "intro": "눈 내리는 작은 마을에서 서로 다른 삶이 우연히 만납니다. 다정한 문장과 섬세한 인물들을 통해 관계가 남기는 온기를 전하는 소설입니다.",
-      "image": "images/pages-winter-cover.jpg",
+      "image": "images/pages-winter-cover.svg",
       "url": "pages-book-winter.html",
       "authorId": "seowoo",
       "originalPrice": 17000,
@@ -155,7 +155,7 @@ window.PAGES_CONTENT={
       "capacity": 15,
       "remaining": 3,
       "loungeId": "seochon",
-      "image": "images/pages-hanok-salon.jpg",
+      "image": "images/pages-hanok-salon.svg",
       "intro": "소설의 행간을 함께 읽고 나만의 에세이를 완성하는 서촌의 작은 독서 살롱입니다.",
       "bookIds": [
         "winter",
@@ -202,7 +202,7 @@ window.PAGES_CONTENT={
       "capacity": 30,
       "remaining": 8,
       "loungeId": "online",
-      "image": "images/pages-classics-salon.jpg",
+      "image": "images/pages-classics-salon.svg",
       "intro": "매일 한 페이지씩 읽고 매주 함께 이야기합니다. 고전 속 여정을 오늘의 삶과 연결하며 나만의 완독 기록을 남겨 보세요.",
       "bookIds": [
         "quiet"
@@ -248,7 +248,7 @@ window.PAGES_CONTENT={
       "capacity": 12,
       "remaining": 5,
       "loungeId": "seongsu",
-      "image": "images/pages-curator-library.jpg",
+      "image": "images/pages-curator-library.svg",
       "intro": "작가의 소설을 함께 읽으며 인물의 시선과 문장의 리듬을 탐색합니다. 각자의 독서 메모를 나누는 네 번의 만남입니다.",
       "bookIds": [
         "winter"
@@ -294,7 +294,7 @@ window.PAGES_CONTENT={
       "capacity": 16,
       "remaining": 6,
       "loungeId": "seochon",
-      "image": "images/pages-philosophy-salon.jpg",
+      "image": "images/pages-philosophy-salon.svg",
       "intro": "어렵게 느껴졌던 철학을 일상의 질문에서 시작합니다. 짧은 텍스트와 대화를 통해 나만의 생각을 정리하는 저녁 살롱입니다.",
       "bookIds": [
         "garden",
@@ -351,7 +351,7 @@ window.PAGES_CONTENT={
       "capacity": 10,
       "remaining": 4,
       "loungeId": "seongsu",
-      "image": "images/pages-morning-writing.jpg",
+      "image": "images/pages-morning-writing.svg",
       "intro": "좋아하는 문장 한 줄을 천천히 옮겨 적고 따뜻한 차를 나눕니다. 세 번의 일요일 아침과 매일의 작은 기록으로 읽는 습관을 만듭니다.",
       "bookIds": [
         "quiet",
@@ -394,7 +394,7 @@ window.PAGES_CONTENT={
       "time": "19:30–21:30",
       "capacity": 60,
       "remaining": 8,
-      "image": "images/pages-auditorium.jpg",
+      "image": "images/pages-auditorium.svg",
       "intro": "벽과 창, 천장의 높이가 생각과 읽기에 남기는 흔적을 탐색합니다. 건축가 서지안과 함께 서재, 독립서점, 도시의 여백을 이야기합니다.",
       "agenda": [
         [
@@ -430,7 +430,7 @@ window.PAGES_CONTENT={
       "time": "19:30–21:00",
       "capacity": 24,
       "remaining": 6,
-      "image": "images/pages-seongsu-lounge.jpg",
+      "image": "images/pages-seongsu-lounge.svg",
       "intro": "원문의 소리와 번역의 결을 함께 읽습니다. 짧은 시를 낭독하고 각자의 언어로 다시 적어 보는 성수의 저녁입니다.",
       "agenda": [
         [
@@ -459,10 +459,10 @@ window.PAGES_CONTENT={
     {
       "id": "seochon",
       "name": "PAGES 서촌 아틀리에",
-      "image": "images/pages-seochon-lounge.jpg",
+      "image": "images/pages-seochon-lounge.svg",
       "gallery": [
-        "images/pages-hanok-salon.jpg",
-        "images/pages-salon-interior.jpg"
+        "images/pages-hanok-salon.svg",
+        "images/pages-salon-interior.svg"
       ],
       "intro": "낮은 처마와 나무의 결 사이로 햇빛이 들어오는 조용한 북살롱입니다. 작은 모임과 긴 독서를 위한 자리를 준비했습니다.",
       "area": "서울 종로구 서촌 · 예시 공간",
@@ -480,10 +480,10 @@ window.PAGES_CONTENT={
     {
       "id": "seongsu",
       "name": "PAGES 성수 북라운지",
-      "image": "images/pages-seongsu-lounge.jpg",
+      "image": "images/pages-seongsu-lounge.svg",
       "gallery": [
-        "images/pages-auditorium.jpg",
-        "images/pages-novel-shelf.jpg"
+        "images/pages-auditorium.svg",
+        "images/pages-novel-shelf.svg"
       ],
       "intro": "큰 창과 초록의 풍경이 함께하는 열린 독서 공간입니다. 혼자 읽는 오후부터 여러 사람의 목소리가 만나는 저녁까지 이어집니다.",
       "area": "서울 성동구 성수 · 예시 공간",
@@ -504,7 +504,7 @@ window.PAGES_CONTENT={
       "id": "haon",
       "name": "정하온",
       "role": "철학 에세이스트",
-      "image": "images/pages-garden-author.jpg",
+      "image": "images/pages-garden-author.svg",
       "intro": "고요한 시간과 관계의 여백에 대해 씁니다. 일상의 질문을 철학의 언어로 풀어내는 독서 살롱을 진행합니다.",
       "topics": [
         "일상 철학",
@@ -522,7 +522,7 @@ window.PAGES_CONTENT={
       "id": "daon",
       "name": "서다온",
       "role": "산문 작가 · 고전 독서 마스터",
-      "image": "images/pages-writing-desk.jpg",
+      "image": "images/pages-writing-desk.svg",
       "intro": "오래된 사물과 읽기의 습관을 기록합니다. 처음 고전을 읽는 독자도 편하게 질문할 수 있는 대화를 만듭니다.",
       "topics": [
         "산문",
@@ -540,7 +540,7 @@ window.PAGES_CONTENT={
       "id": "seojin",
       "name": "윤서진",
       "role": "번역가 · 인문 에디터",
-      "image": "images/pages-novel-shelf.jpg",
+      "image": "images/pages-novel-shelf.svg",
       "intro": "원문의 소리와 번역의 리듬 사이에서 문장을 읽습니다. 시와 철학을 통해 자기만의 시선을 찾는 시간을 제안합니다.",
       "topics": [
         "원서 낭독",
@@ -558,7 +558,7 @@ window.PAGES_CONTENT={
       "id": "yura",
       "name": "민유라",
       "role": "디자이너 · 생활 에세이스트",
-      "image": "images/pages-teacup-cover.jpg",
+      "image": "images/pages-teacup-cover.svg",
       "intro": "사용하는 물건과 생활의 움직임을 관찰합니다. 손으로 쓰고 만드는 경험에서 일상의 아름다움을 발견합니다.",
       "topics": [
         "생활 디자인",
@@ -576,7 +576,7 @@ window.PAGES_CONTENT={
       "id": "seowoo",
       "name": "한서우",
       "role": "소설가",
-      "image": "images/pages-winter-cover.jpg",
+      "image": "images/pages-winter-cover.svg",
       "intro": "계절과 작은 마을의 관계를 소설로 씁니다. 인물의 말과 침묵을 함께 읽으며 서로 다른 독자의 해석을 만납니다.",
       "topics": [
         "현대 소설",
@@ -594,7 +594,7 @@ window.PAGES_CONTENT={
       "id": "seoheon",
       "name": "이서헌",
       "role": "소설가 · 에세이 살롱 마스터",
-      "image": "images/pages-club-host.jpg",
+      "image": "images/pages-club-host.svg",
       "intro": "좋아하는 문장에서 자신의 이야기를 길어 올리는 글쓰기 살롱을 진행합니다. 서로의 글을 읽고 구체적인 피드백을 나눕니다.",
       "topics": [
         "에세이",
@@ -613,7 +613,7 @@ window.PAGES_CONTENT={
       "id": "jian",
       "name": "서지안",
       "role": "건축가 · 공간 인문학 저술가",
-      "image": "images/pages-event-speaker.jpg",
+      "image": "images/pages-event-speaker.svg",
       "intro": "우리가 머무는 방과 도시의 공간이 생각에 남기는 흔적을 탐색합니다. 책을 읽는 장소와 일상의 건축에 대해 이야기합니다.",
       "topics": [
         "공간 인문학",
@@ -633,7 +633,7 @@ window.PAGES_CONTENT={
       "id": "slow-reading",
       "title": "끝까지 읽는 힘은 작은 한 페이지에서",
       "subtitle": "하루 15분이 만드는 읽기의 리듬",
-      "image": "images/pages-classics-salon.jpg",
+      "image": "images/pages-classics-salon.svg",
       "minutes": 4,
       "bookIds": [
         "quiet",
@@ -653,7 +653,7 @@ window.PAGES_CONTENT={
       "id": "salon-afternoon",
       "title": "서촌의 오후, 책을 사이에 둔 대화",
       "subtitle": "다른 시선이 만나 문장이 넓어지는 시간",
-      "image": "images/pages-reading-salon.jpg",
+      "image": "images/pages-reading-salon.svg",
       "minutes": 5,
       "bookIds": [
         "winter",
@@ -674,7 +674,7 @@ window.PAGES_CONTENT={
       "id": "editors-note",
       "title": "에디터의 서가에서 고른 가을의 문장",
       "subtitle": "손에 쥐고 싶은 책과 오래 남는 시선",
-      "image": "images/pages-writing-desk.jpg",
+      "image": "images/pages-writing-desk.svg",
       "minutes": 3,
       "bookIds": [
         "light",

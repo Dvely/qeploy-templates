@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "project": "pages",
+  "date": "2026-11-06",
+  "creator": "Qeploy contributors",
+  "origin": "original-vector",
+  "description": "New SVG illustrations authored directly as geometric vector code. No original raster pixels, external assets, copied SVG paths, photographs, or model-generated photographic images were used. Illustrations are fictional depictions, not records of actual people, places, medical outcomes or products.",
+  "permissions": {
+    "commercialUse": true,
+    "modification": true,
+    "sourceTemplateRedistribution": true,
+    "scope": "Only the new SVG artwork listed below; this statement does not grant rights to fonts, code, designs or other third-party materials."
+  },
+  "assets": [
+    {
+      "file": "fonts/playfair-display-italic.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Playfair-Display-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "6021680663c58b344d8404c289c755aadc662a02189ffe4f5ca79378f9e97840"
+    },
+    {
+      "file": "fonts/playfair-display-regular.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Playfair-Display-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "1609a54fa3ad1abc8d0037132f73700333241ea0b65672079998e352f151dea7"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-bold.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "32971ad7976930539a11c79ce91ce84092df7f25c5be716b594601842f10a7ae"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-medium.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "b4fc14ec283d54236fd302cdb92546f98ae0ff061ca5ee23453a02bdf4628791"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-regular.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "076831b98043f50f829b6c91db3be4a844641f1c95bccff5c886ed87c661a852"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-semibold.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "50357df108c5d297ec4ece76aeddf49561f3794f67af077cfc2c711b7a75b439"
+    },
+    {
+      "file": "images/pages-auditorium.svg",
+      "replaces": "images/pages-auditorium.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "a9c1d1f70636e2c26a5667bfbdac55b10daf25885f1179373890da819436b265"
+    },
+    {
+      "file": "images/pages-classics-salon.svg",
+      "replaces": "images/pages-classics-salon.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "5d20bceb6ae5326b61410b793afde83f979103bdf84b1291c4ef0f4836b32dc4"
+    },
+    {
+      "file": "images/pages-club-host.svg",
+      "replaces": "images/pages-club-host.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "aa4299e71889d322c24e6a7a5852e5ae25ff3549add2cbaf2fd8a7ddf4b47506"
+    },
+    {
+      "file": "images/pages-curator-library.svg",
+      "replaces": "images/pages-curator-library.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "81825ff9ebf0c9cc81d0da54e34548499fd275e88fb72cbf241feba4296731c6"
+    },
+    {
+      "file": "images/pages-event-speaker.svg",
+      "replaces": "images/pages-event-speaker.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "2560f1a7a59b71eda598f2fa6d698dfcaddc919867de7ae018f80b63f71aa9b0"
+    },
+    {
+      "file": "images/pages-garden-author.svg",
+      "replaces": "images/pages-garden-author.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "f8d2acc6439412704607ff57856cb9abc16357af04fbd9a1dabd502a1835c41f"
+    },
+    {
+      "file": "images/pages-garden-bookmark.svg",
+      "replaces": "images/pages-garden-bookmark.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "4e7afe9dc13362570fc4e81579e1b42bbdc78a7850d885d3f269d18bf0f7066f"
+    },
+    {
+      "file": "images/pages-garden-cover.svg",
+      "replaces": "images/pages-garden-cover.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "b94bccc6ee166b80940b352cdb2da73ea62cc82bf327c136609e47bc3a36fd73"
+    },
+    {
+      "file": "images/pages-garden-inside.svg",
+      "replaces": "images/pages-garden-inside.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "9c76d9f59dfa00f8c4780485de02a46a20c801fbb7ce51482e2092fbd7ce0cab"
+    },
+    {
+      "file": "images/pages-garden-thumbnail.svg",
+      "replaces": "images/pages-garden-thumbnail.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "12dc16eb91a035a949fff6830254ef3baf07d0db7ffdc0c7b8980da03d0d41f6"
+    },
+    {
+      "file": "images/pages-hanok-salon.svg",
+      "replaces": "images/pages-hanok-salon.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "0371c0f665339f64cc5921085bdcbddc9963ff0476a97b3f8540ab8b99e93232"
+    },
+    {
+      "file": "images/pages-light-cover.svg",
+      "replaces": "images/pages-light-cover.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "c6c407c0f489d9539b543daf63736157210448c05d7d352ad93f8ca9a621a565"
+    },
+    {
+      "file": "images/pages-morning-writing.svg",
+      "replaces": "images/pages-morning-writing.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "01b8242a937e5264bef071750fc2205ea4279a25993f12373ae1bd5f9eeb2ea2"
+    },
+    {
+      "file": "images/pages-novel-shelf.svg",
+      "replaces": "images/pages-novel-shelf.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "1b3c42c4a4b8c41972204c213474e4a29622650e942675a842b4da3c3fa4258e"
+    },
+    {
+      "file": "images/pages-online-reading.svg",
+      "replaces": "images/pages-online-reading.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "4d8f3636bf3cc4e8a6389699a5d88ec06818c049fc6efc0384dc74e145a3779c"
+    },
+    {
+      "file": "images/pages-philosophy-salon.svg",
+      "replaces": "images/pages-philosophy-salon.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "0a50da99ba26629d9b97abf165a6af5f3074bbdabd0fea20e817b68452397f9c"
+    },
+    {
+      "file": "images/pages-quiet-cover.svg",
+      "replaces": "images/pages-quiet-cover.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "43089f2a30b2de883c98b57231c73deffaffd95664075f30924060434bf12072"
+    },
+    {
+      "file": "images/pages-reader-photo-one.svg",
+      "replaces": "images/pages-reader-photo-one.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "597d7e1414db54f81c95560f7ef1fad7edeb1bcec3bb7361ac921fc8f254a69a"
+    },
+    {
+      "file": "images/pages-reader-photo-three.svg",
+      "replaces": "images/pages-reader-photo-three.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "1e2891986916e857a83a15da9496625e86fecea9b9034f45485eb005a48ca770"
+    },
+    {
+      "file": "images/pages-reader-photo-two.svg",
+      "replaces": "images/pages-reader-photo-two.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "ce9fa562c4116d212e47a6511c73f8fd573d6c0ea670c8b80c1778e228b3d7e5"
+    },
+    {
+      "file": "images/pages-reading-salon.svg",
+      "replaces": "images/pages-reading-salon.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "cd8c2f45fd6c0f305f728ab6b7e4bc8c9935dc023f1ee300a2c589ff1ad96660"
+    },
+    {
+      "file": "images/pages-salon-interior.svg",
+      "replaces": "images/pages-salon-interior.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "207ae751604630d135eb149b9a95ceb172d7da77ba93bdccdbec38d5ac9a417f"
+    },
+    {
+      "file": "images/pages-seochon-lounge.svg",
+      "replaces": "images/pages-seochon-lounge.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "5bbb2cda5ac77f187c0e151c3360fd44ec959e204dc983982276897af8a3aa96"
+    },
+    {
+      "file": "images/pages-seongsu-lounge.svg",
+      "replaces": "images/pages-seongsu-lounge.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "872b2f69067502e2f9d2b60139c0b5d8b663871f9eb23256f9c7c47a02af958c"
+    },
+    {
+      "file": "images/pages-seongsu-map.svg",
+      "replaces": "images/pages-seongsu-map.png",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "02ac335ec1f39d51cae09c879e891715b7857b8e6bebcbc56ffabc0f681cdd81"
+    },
+    {
+      "file": "images/pages-teacup-cover.svg",
+      "replaces": "images/pages-teacup-cover.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "e051fcb00b3b54058c6f4f0443ace357751c9fa7cce003990181bd9d8ec52159"
+    },
+    {
+      "file": "images/pages-winter-cover.svg",
+      "replaces": "images/pages-winter-cover.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "fbb70ff2505dfdccef5f354eb97c68d24a1ca15093f1371a103f2946e3980271"
+    },
+    {
+      "file": "images/pages-writing-desk.svg",
+      "replaces": "images/pages-writing-desk.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "6a565210021c271e6073eed5ec73730c7dd39f3b58e17d2d57a9b5fc3559c26e"
+    }
+  ],
+  "reviewed": "2026-11-06",
+  "scope": "File-level provenance and applicable conditions only, not a legal non-infringement guarantee."
+}

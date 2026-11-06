@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "project": "pages",
+  "status": "reviewed",
+  "reviewDate": "2026-11-06",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "928083ea0d8b867cba926b1ad6980988f76467fc43c3d72b9027218221918d41",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/fonts.css": {
+      "sha256": "4c6bd7c9aada783306cfebc88a5c43da9ee976d612e67c48ad55c6f3260424ae",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/playfair-display-italic.ttf": {
+      "sha256": "6021680663c58b344d8404c289c755aadc662a02189ffe4f5ca79378f9e97840",
+      "origin": "open-font-license"
+    },
+    "fonts/Playfair-Display-OFL.txt": {
+      "sha256": "0bb2b43ffd21233963b5d0c0eb6f1abffa776ec53c56131b5818708f2730ffd6",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/playfair-display-regular.ttf": {
+      "sha256": "1609a54fa3ad1abc8d0037132f73700333241ea0b65672079998e352f151dea7",
+      "origin": "open-font-license"
+    },
+    "fonts/plus-jakarta-sans-bold.ttf": {
+      "sha256": "32971ad7976930539a11c79ce91ce84092df7f25c5be716b594601842f10a7ae",
+      "origin": "open-font-license"
+    },
+    "fonts/plus-jakarta-sans-medium.ttf": {
+      "sha256": "b4fc14ec283d54236fd302cdb92546f98ae0ff061ca5ee23453a02bdf4628791",
+      "origin": "open-font-license"
+    },
+    "fonts/Plus-Jakarta-Sans-OFL.txt": {
+      "sha256": "f9a8e776b4b048227f2f046b8716083eb04b1539d9ad1d4b87e81c1df28f86e3",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/plus-jakarta-sans-regular.ttf": {
+      "sha256": "076831b98043f50f829b6c91db3be4a844641f1c95bccff5c886ed87c661a852",
+      "origin": "open-font-license"
+    },
+    "fonts/plus-jakarta-sans-semibold.ttf": {
+      "sha256": "50357df108c5d297ec4ece76aeddf49561f3794f67af077cfc2c711b7a75b439",
+      "origin": "open-font-license"
+    },
+    "images/pages-auditorium.svg": {
+      "sha256": "a9c1d1f70636e2c26a5667bfbdac55b10daf25885f1179373890da819436b265",
+      "origin": "original-vector"
+    },
+    "images/pages-classics-salon.svg": {
+      "sha256": "5d20bceb6ae5326b61410b793afde83f979103bdf84b1291c4ef0f4836b32dc4",
+      "origin": "original-vector"
+    },
+    "images/pages-club-host.svg": {
+      "sha256": "aa4299e71889d322c24e6a7a5852e5ae25ff3549add2cbaf2fd8a7ddf4b47506",
+      "origin": "original-vector"
+    },
+    "images/pages-curator-library.svg": {
+      "sha256": "81825ff9ebf0c9cc81d0da54e34548499fd275e88fb72cbf241feba4296731c6",
+      "origin": "original-vector"
+    },
+    "images/pages-event-speaker.svg": {
+      "sha256": "2560f1a7a59b71eda598f2fa6d698dfcaddc919867de7ae018f80b63f71aa9b0",
+      "origin": "original-vector"
+    },
+    "images/pages-garden-author.svg": {
+      "sha256": "f8d2acc6439412704607ff57856cb9abc16357af04fbd9a1dabd502a1835c41f",
+      "origin": "original-vector"
+    },
+    "images/pages-garden-bookmark.svg": {
+      "sha256": "4e7afe9dc13362570fc4e81579e1b42bbdc78a7850d885d3f269d18bf0f7066f",
+      "origin": "original-vector"
+    },
+    "images/pages-garden-cover.svg": {
+      "sha256": "b94bccc6ee166b80940b352cdb2da73ea62cc82bf327c136609e47bc3a36fd73",
+      "origin": "original-vector"
+    },
+    "images/pages-garden-inside.svg": {
+      "sha256": "9c76d9f59dfa00f8c4780485de02a46a20c801fbb7ce51482e2092fbd7ce0cab",
+      "origin": "original-vector"
+    },
+    "images/pages-garden-thumbnail.svg": {
+      "sha256": "12dc16eb91a035a949fff6830254ef3baf07d0db7ffdc0c7b8980da03d0d41f6",
+      "origin": "original-vector"
+    },
+    "images/pages-hanok-salon.svg": {
+      "sha256": "0371c0f665339f64cc5921085bdcbddc9963ff0476a97b3f8540ab8b99e93232",
+      "origin": "original-vector"
+    },
+    "images/pages-light-cover.svg": {
+      "sha256": "c6c407c0f489d9539b543daf63736157210448c05d7d352ad93f8ca9a621a565",
+      "origin": "original-vector"
+    },
+    "images/pages-morning-writing.svg": {
+      "sha256": "01b8242a937e5264bef071750fc2205ea4279a25993f12373ae1bd5f9eeb2ea2",
+      "origin": "original-vector"
+    },
+    "images/pages-novel-shelf.svg": {
+      "sha256": "1b3c42c4a4b8c41972204c213474e4a29622650e942675a842b4da3c3fa4258e",
+      "origin": "original-vector"
+    },
+    "images/pages-online-reading.svg": {
+      "sha256": "4d8f3636bf3cc4e8a6389699a5d88ec06818c049fc6efc0384dc74e145a3779c",
+      "origin": "original-vector"
+    },
+    "images/pages-philosophy-salon.svg": {
+      "sha256": "0a50da99ba26629d9b97abf165a6af5f3074bbdabd0fea20e817b68452397f9c",
+      "origin": "original-vector"
+    },
+    "images/pages-quiet-cover.svg": {
+      "sha256": "43089f2a30b2de883c98b57231c73deffaffd95664075f30924060434bf12072",
+      "origin": "original-vector"
+    },
+    "images/pages-reader-photo-one.svg": {
+      "sha256": "597d7e1414db54f81c95560f7ef1fad7edeb1bcec3bb7361ac921fc8f254a69a",
+      "origin": "original-vector"
+    },
+    "images/pages-reader-photo-three.svg": {
+      "sha256": "1e2891986916e857a83a15da9496625e86fecea9b9034f45485eb005a48ca770",
+      "origin": "original-vector"
+    },
+    "images/pages-reader-photo-two.svg": {
+      "sha256": "ce9fa562c4116d212e47a6511c73f8fd573d6c0ea670c8b80c1778e228b3d7e5",
+      "origin": "original-vector"
+    },
+    "images/pages-reading-salon.svg": {
+      "sha256": "cd8c2f45fd6c0f305f728ab6b7e4bc8c9935dc023f1ee300a2c589ff1ad96660",
+      "origin": "original-vector"
+    },
+    "images/pages-salon-interior.svg": {
+      "sha256": "207ae751604630d135eb149b9a95ceb172d7da77ba93bdccdbec38d5ac9a417f",
+      "origin": "original-vector"
+    },
+    "images/pages-seochon-lounge.svg": {
+      "sha256": "5bbb2cda5ac77f187c0e151c3360fd44ec959e204dc983982276897af8a3aa96",
+      "origin": "original-vector"
+    },
+    "images/pages-seongsu-lounge.svg": {
+      "sha256": "872b2f69067502e2f9d2b60139c0b5d8b663871f9eb23256f9c7c47a02af958c",
+      "origin": "original-vector"
+    },
+    "images/pages-seongsu-map.svg": {
+      "sha256": "02ac335ec1f39d51cae09c879e891715b7857b8e6bebcbc56ffabc0f681cdd81",
+      "origin": "original-vector"
+    },
+    "images/pages-teacup-cover.svg": {
+      "sha256": "e051fcb00b3b54058c6f4f0443ace357751c9fa7cce003990181bd9d8ec52159",
+      "origin": "original-vector"
+    },
+    "images/pages-winter-cover.svg": {
+      "sha256": "fbb70ff2505dfdccef5f354eb97c68d24a1ca15093f1371a103f2946e3980271",
+      "origin": "original-vector"
+    },
+    "images/pages-writing-desk.svg": {
+      "sha256": "6a565210021c271e6073eed5ec73730c7dd39f3b58e17d2d57a9b5fc3559c26e",
+      "origin": "original-vector"
+    },
+    "index.html": {
+      "sha256": "56354a1687081d2fd289e0e956da20b5850335ccf785a745754aabcb4ed9d246",
+      "origin": "reviewed-project-source"
+    },
+    "licenses/Tailwind-Forms-MIT.txt": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "origin": "reviewed-project-source"
+    },
+    "licenses/Tailwind-MIT.txt": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "origin": "reviewed-project-source"
+    },
+    "pages-author-daon.html": {
+      "sha256": "df13926cac4b8c21f4ae817e250e98b38d626ad1dc5d1dfd738e818219864757",
+      "origin": "reviewed-project-source"
+    },
+    "pages-author-haon.html": {
+      "sha256": "f26e06b9e4f1b18a5618997d609992d6184bb8dce66c2ef070faee42e4f4efd2",
+      "origin": "reviewed-project-source"
+    },
+    "pages-author-jian.html": {
+      "sha256": "9846221460ffa89f4597c85e06193edee505ec2a5b927eb46af55b093b0fda63",
+      "origin": "reviewed-project-source"
+    },
+    "pages-author-seoheon.html": {
+      "sha256": "9a00aeed7b370fb3e3777e14d12a1914a3f7f3fe710754da184b782583286ce1",
+      "origin": "reviewed-project-source"
+    },
+    "pages-author-seojin.html": {
+      "sha256": "b7079aa9d6132b74a8149cd77f49e91f818b457643b7e33b98700d0b974c8f0e",
+      "origin": "reviewed-project-source"
+    },
+    "pages-author-seowoo.html": {
+      "sha256": "5131f333e7b5d53def3559310d0cda9027f61035972ceb5e3be4885294896592",
+      "origin": "reviewed-project-source"
+    },
+    "pages-author-yura.html": {
+      "sha256": "b895b049658dbd503246e12720312dbffdb6aabba1729c4e8243d8f4908c61c8",
+      "origin": "reviewed-project-source"
+    },
+    "pages-authors.html": {
+      "sha256": "9eb69289e2324c323b909834050dfd9efc0e47d5e13284219289cc125d0105e8",
+      "origin": "reviewed-project-source"
+    },
+    "pages-benefits.html": {
+      "sha256": "45b0a1d184dc4d5fd9a363b43301a3be60c5ae9113c599500e383e8bc77efd59",
+      "origin": "reviewed-project-source"
+    },
+    "pages-book-light.html": {
+      "sha256": "aa70ca45596448a3f61b11309ab880f640a62cc2ed21472ab9b11611d0f58b91",
+      "origin": "reviewed-project-source"
+    },
+    "pages-book-quiet.html": {
+      "sha256": "3f348d9e6144d26c9b8899df0ad9d62d99e132eb62445ab92a132c6b0103f1a6",
+      "origin": "reviewed-project-source"
+    },
+    "pages-book-teacup.html": {
+      "sha256": "d0f87f7db7d15e51b6305fce03ff6cdc9dc855de3927bf4c8b407366a6c29249",
+      "origin": "reviewed-project-source"
+    },
+    "pages-book-winter.html": {
+      "sha256": "e2bfd62619c36ad0b3b8c35e799af4f33e328098e3d4b67827a476a0a6ea81c7",
+      "origin": "reviewed-project-source"
+    },
+    "pages-book.html": {
+      "sha256": "ad3d26cedfc46d9756ed39b67641c025ec0888062b28e94f34ce08eb2c9c809b",
+      "origin": "reviewed-project-source"
+    },
+    "pages-booking.html": {
+      "sha256": "ae264b81ff59679cf5333e2b1875a9cd778271d28b1294ef95aac9bf715e4113",
+      "origin": "reviewed-project-source"
+    },
+    "pages-books.html": {
+      "sha256": "e6bcd3d763b53684d99cad70478a552748bdb8aa76c8cb30338800e284715580",
+      "origin": "reviewed-project-source"
+    },
+    "pages-build.mjs": {
+      "sha256": "c72798d97071781c008ddec341755ac099497c62ca12e2af48d558bec79213ce",
+      "origin": "reviewed-project-source"
+    },
+    "pages-cart.html": {
+      "sha256": "9460317d06f42f6e1e3a532d1d86b2330fe9ef6637ff28983ea348deab62c530",
+      "origin": "reviewed-project-source"
+    },
+    "pages-checkout.html": {
+      "sha256": "a42b64e382e05c327c8b7eb4e2a9429db1a6d60f2af14a96aacd32c0d4176976",
+      "origin": "reviewed-project-source"
+    },
+    "pages-club-classics.html": {
+      "sha256": "881a54271f8d840991c6bcb76f67cc61ecd1fa146cf57c4aa47980cda9015d4f",
+      "origin": "reviewed-project-source"
+    },
+    "pages-club-morning.html": {
+      "sha256": "3d19502362f3e6673a29401f94b7859f817ad3741708c6996499ee6a7cf3f8db",
+      "origin": "reviewed-project-source"
+    },
+    "pages-club-novels.html": {
+      "sha256": "2f358e6db7cfa3e318728753a4a25bb2db5f74ebfc12bbf030a4298fd19e010b",
+      "origin": "reviewed-project-source"
+    },
+    "pages-club-philosophy.html": {
+      "sha256": "18931da75106dcf600d1859246f237544cd997ad082e6f2d68ab1d1edb2c8d9e",
+      "origin": "reviewed-project-source"
+    },
+    "pages-club.html": {
+      "sha256": "b3bf24951cc550602772d2339ce66d2f457ecd4bb79ef2d218e22d18133d9a97",
+      "origin": "reviewed-project-source"
+    },
+    "pages-clubs.html": {
+      "sha256": "60ed63c44cf1995549a68e1c132560bb9e1f8083b91f346ca21542c2a15ee6f2",
+      "origin": "reviewed-project-source"
+    },
+    "pages-collection-art.html": {
+      "sha256": "8f139f744850cdc7f40af519e220319cc8125037895a3669d154d2cd40268ba3",
+      "origin": "reviewed-project-source"
+    },
+    "pages-collection-autumn.html": {
+      "sha256": "35e53c864c763b573d94484ec4282a9c6279805ab4935fea3815c8e2271a6924",
+      "origin": "reviewed-project-source"
+    },
+    "pages-collection-best.html": {
+      "sha256": "61a81e53edd0ee539b42cbb324ab59d7e52a84a1132433cd56d992b7b11cb3bc",
+      "origin": "reviewed-project-source"
+    },
+    "pages-collection-editors.html": {
+      "sha256": "cfdc215e5ebaf0a282b90814d1f0e87b028d3b0db6eef07da3f494fdc8d457a0",
+      "origin": "reviewed-project-source"
+    },
+    "pages-collection-essay.html": {
+      "sha256": "63671b982baceba6b35ea9f0ccea642a1f69314d91877bf5a42b4efb362c0d8b",
+      "origin": "reviewed-project-source"
+    },
+    "pages-collection-humanities.html": {
+      "sha256": "81303c557367244d2ebe6ab3fea85ecdfbbb242c20d146fbe2260c184956be59",
+      "origin": "reviewed-project-source"
+    },
+    "pages-collection-literature.html": {
+      "sha256": "d4155fa2e1a79a035177c1a2b94096fb5fe07c302273a4b49a9ccc54ed1e10f7",
+      "origin": "reviewed-project-source"
+    },
+    "pages-collection-new.html": {
+      "sha256": "041ebb2ee9beb41c8fffc54f921f6999f60f67a201563925c51b9abc81f4c191",
+      "origin": "reviewed-project-source"
+    },
+    "pages-confirmation.html": {
+      "sha256": "238d3fc9e9a157af42c8f9a1b6c3c6846b7e28b8c3fb03c7a7d30b588be6bcf1",
+      "origin": "reviewed-project-source"
+    },
+    "pages-contact.html": {
+      "sha256": "3dac22dbc48de76b1f3ef35c2dfc665d86cd7b5677d569eb6f459400db0da2e7",
+      "origin": "reviewed-project-source"
+    },
+    "pages-copyright.html": {
+      "sha256": "92e06776c80fed1b0483eb30de77cb7d8a975b1866ee4fc9302d24dc9a292df9",
+      "origin": "reviewed-project-source"
+    },
+    "pages-corporate.html": {
+      "sha256": "354c59bc8f6c93cf61300dea75120aca119a47f4d6be725ed418b8f55570f44d",
+      "origin": "reviewed-project-source"
+    },
+    "pages-data.js": {
+      "sha256": "52d440a30ee205b1866d6f0ec2c0c357f95b5c44bde0c505208c1b78753dbe83",
+      "origin": "reviewed-project-source"
+    },
+    "pages-details.css": {
+      "sha256": "c0112f559da1e64e6c643695cf3b7bdc1711e4f8b5e5a403df7ee32487eb2fdd",
+      "origin": "reviewed-project-source"
+    },
+    "pages-details.js": {
+      "sha256": "5910b8067a3a260ffee55a08c5def337b12364653cbbe5ca9eff0307fc33bb02",
+      "origin": "reviewed-project-source"
+    },
+    "pages-event-reading.html": {
+      "sha256": "7ac45bebad3bcde7039cb7536b9fde5f496f903d89eb4afb91253720cdde4656",
+      "origin": "reviewed-project-source"
+    },
+    "pages-event.html": {
+      "sha256": "ce92d15d926b2bac52cf9e16a0e9ee823d09d8755f1e1cf9cfc6591935f48efd",
+      "origin": "reviewed-project-source"
+    },
+    "pages-events.html": {
+      "sha256": "df72668a3a3f30cd7b7413d29f322a04d19752e647c40e441f40f8f2551483bb",
+      "origin": "reviewed-project-source"
+    },
+    "pages-host.html": {
+      "sha256": "455efb4da48da452c3929dc2316a5d624190a09c0b7db62f4c72fb35226428bb",
+      "origin": "reviewed-project-source"
+    },
+    "pages-journal-editors-note.html": {
+      "sha256": "7e2f2147d9b14f7b5f0b575152f53eb0ead768d76bd0132e33408df579cea30a",
+      "origin": "reviewed-project-source"
+    },
+    "pages-journal-salon-afternoon.html": {
+      "sha256": "391d43b9ded444da3b78c9d3dc648901a308a3e7b2357f87830ca8edbdfacffa",
+      "origin": "reviewed-project-source"
+    },
+    "pages-journal-slow-reading.html": {
+      "sha256": "a58466e35d7bff8e7f5c8fa6aef11f2c75a9b82ca6a414dd6ef57878a667b523",
+      "origin": "reviewed-project-source"
+    },
+    "pages-journals.html": {
+      "sha256": "df2c83cf23e9fb4a09937b96ae18f1d5b7bb72fbf8bcd6cdd90fdf33e7693523",
+      "origin": "reviewed-project-source"
+    },
+    "pages-login.html": {
+      "sha256": "0282ba01c3dd1e27b47547671927773f7ec3a45f6d6b5ad10d7907d037723750",
+      "origin": "reviewed-project-source"
+    },
+    "pages-lounge-seochon.html": {
+      "sha256": "88c61a466aab21a3ca1ac90ad851cd81f4a840316833a6ca4e92d6a1a3699fb0",
+      "origin": "reviewed-project-source"
+    },
+    "pages-lounge-seongsu.html": {
+      "sha256": "2a8ed56956863f6bc1267efb8597b1fe0b8434898865dbdeaf7be04512b512d7",
+      "origin": "reviewed-project-source"
+    },
+    "pages-lounges.html": {
+      "sha256": "686ace3734629a2e76df24fd41f42aa6cb8fe28419073e417a7716e3ea3254d1",
+      "origin": "reviewed-project-source"
+    },
+    "pages-membership.html": {
+      "sha256": "312ad2952f1b8ccb8580f6efa8eebb6c22c634c51528b485a5582c08ff2253c2",
+      "origin": "reviewed-project-source"
+    },
+    "pages-mypage.html": {
+      "sha256": "93db4137efedaeb21a1d9153235843a2da851df80793dabc9c26a59bfb346378",
+      "origin": "reviewed-project-source"
+    },
+    "pages-navigation.js": {
+      "sha256": "6272b389c9fe2c9241db2d9a113f3a73373a0bede0a4ba37b6ee72f8988e5f13",
+      "origin": "reviewed-project-source"
+    },
+    "pages-partnership.html": {
+      "sha256": "35ba9a5c3374085d942444e812882aeb5327514d256b315819db5292d7393fc4",
+      "origin": "reviewed-project-source"
+    },
+    "pages-privacy.html": {
+      "sha256": "ec52eea0a51ab0e81591d9520b9c11b7b0e47592537e13df8c7517ea028693c1",
+      "origin": "reviewed-project-source"
+    },
+    "pages-reading-guide.html": {
+      "sha256": "4ef9df11557159fd91b43f7b34e2aec50bbe618bdd06b1c5fa083442e999ba5c",
+      "origin": "reviewed-project-source"
+    },
+    "pages-reservation.html": {
+      "sha256": "610506d758140111b9b7f3651089f76a4f47c7fe3b962bb3623f00735ede66c1",
+      "origin": "reviewed-project-source"
+    },
+    "pages-routes.json": {
+      "sha256": "ee2e6f106add9e876bf864090544e19cca584b9e4cc81aa0dca973d3646e4aac",
+      "origin": "reviewed-project-source"
+    },
+    "pages-search.html": {
+      "sha256": "98691ec936c900f046d89ce0b7b8c185155c36e5319e14cd102226d5a6edcd1d",
+      "origin": "reviewed-project-source"
+    },
+    "pages-signup.html": {
+      "sha256": "9df828b68fbdbd880a4f1c3e4abab157cf477b3d757689679765006e915c94c7",
+      "origin": "reviewed-project-source"
+    },
+    "pages-submission.html": {
+      "sha256": "bab6b65d8d7b695a0b0b30c0b8b5e1942909a3871a6fdf9315d19e7dcf334275",
+      "origin": "reviewed-project-source"
+    },
+    "pages-terms.html": {
+      "sha256": "7266695273f42012a7136c7163efd10cd583e547ff8af2cd733d138126d255f2",
+      "origin": "reviewed-project-source"
+    },
+    "pages.css": {
+      "sha256": "1d8b9117d20747962172e794687abe2cc0047ec1f0c98dfa4fb7a2a691362de7",
+      "origin": "reviewed-project-source"
+    },
+    "pages.js": {
+      "sha256": "c5f9e2cd58aaafcb4baf8c6cd98b1286593ba49482a01244b500a134f7b96d1c",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "26bbad7d4bf83ff070bc20b78def54319b248378d651b9eaca7d437268e1dc44",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "097d18c99bbfe3d545196f58fa2afef613694d7d9261cbcfdc38d55dcaa0af32",
+      "origin": "reviewed-project-source"
+    }
+  }
+}
