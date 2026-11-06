@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "project": "seon-apparel",
+  "status": "reviewed",
+  "reviewDate": "2026-11-06",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "873d273df066bf384ac0a735df311bd389e2fbb6ee3600b57bf65fa3c336c5ac",
+      "origin": "reviewed-project-source"
+    },
+    "assets/seon-brand-film.mp4": {
+      "sha256": "77a19f672e62cddadcd9fd272d66d28030a38dead2e8f44174c4dc83c4637cc5",
+      "origin": "documented-generated-photo-video"
+    },
+    "assets/seon-circular.png": {
+      "sha256": "d6b206fdf94d188ec70c3514644e6ad75b72ad43955f3a1e83dbd4d8585026f5",
+      "origin": "documented-ai-generation"
+    },
+    "assets/seon-headquarters.png": {
+      "sha256": "93a13556130e37da4245aa3b033e372924ad52acd5c998d0751c8a341b549e61",
+      "origin": "documented-ai-generation"
+    },
+    "assets/seon-map.html": {
+      "sha256": "38b4ece1f4c3968ac9206797a890d052774349864c0a98152dbd946255f43486",
+      "origin": "reviewed-project-source"
+    },
+    "assets/seon-play.png": {
+      "sha256": "76e17f491f4f811ddfe62b22d6ebbbb543e9e6ab4f05247f3b7313224fb916e8",
+      "origin": "documented-ai-generation"
+    },
+    "assets/seon-school.png": {
+      "sha256": "026d7f86ed6f1a8d1f430c0595941e981ee4dce762064d1ebee9ed03e9464ded",
+      "origin": "documented-ai-generation"
+    },
+    "assets/seon-team.png": {
+      "sha256": "2f47175ad4555eedfead96ed0dc3810da195d6e2cc207a950772ab7fa7b47970",
+      "origin": "documented-ai-generation"
+    },
+    "assets/seon-work.png": {
+      "sha256": "946d2e32d319cd5918ea3e8921fa0db6bd3d18afb5114cf3f0c693d3f72a5e98",
+      "origin": "documented-ai-generation"
+    },
+    "brand-guide.txt": {
+      "sha256": "8e2563efc55f8ded9863169cf4a070568ef66400a0bde56b97277207d67677fb",
+      "origin": "reviewed-project-source"
+    },
+    "IMAGE-PROMPTS.md": {
+      "sha256": "c86b6f183b49858818ddbaf18805fac83116aa39fd2977aa16f5c3a6d3bc1896",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "aa2f5fc211c13f7ccd6c4baddb84ade4da81080776be5d405a4eefc08c1096e6",
+      "origin": "reviewed-project-source"
+    },
+    "LICENSE.txt": {
+      "sha256": "fad141e7bd6dd211810cd79c0be32484e804295a2db61ed6f3865e788f4ada2b",
+      "origin": "reviewed-project-source"
+    },
+    "original-build.mjs": {
+      "sha256": "be2509c63fe86a4d8ea0d85f1ad41ce656d1b2647ef875e2c13a3fc788516fc4",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "4b1dd124fed81dee253c0d0b4728f32d277d37021b674795f5d086d4aa781797",
+      "origin": "reviewed-project-source"
+    },
+    "seon-about.html": {
+      "sha256": "5c464b2227639674da54f1d21ffa20976680799f69b25e67e7002adaf9b4cd77",
+      "origin": "reviewed-project-source"
+    },
+    "seon-balance.html": {
+      "sha256": "bacf97dce387697d1a759f6323eb36d0718518cadc22856908f8dafcde7ef367",
+      "origin": "reviewed-project-source"
+    },
+    "seon-collection.html": {
+      "sha256": "a4962f023da636e4524d49b364fa50a56c98b49b18b148882f18248ec6243413",
+      "origin": "reviewed-project-source"
+    },
+    "seon-community.html": {
+      "sha256": "57e0677b49e295f0780bad75e2cb3e54ad2284ee9874adb6d5f9cc1b421af696",
+      "origin": "reviewed-project-source"
+    },
+    "seon-contact.html": {
+      "sha256": "3edc023a1741a0cf53f6a76eff1b8828e77a3f7cacafa08dc44a1fd26ad40da0",
+      "origin": "reviewed-project-source"
+    },
+    "seon-ethics.html": {
+      "sha256": "9ce8d556f73ef330b90f28d61e584a834496feb4888dc8dfbc0a4b4d6f012d6d",
+      "origin": "reviewed-project-source"
+    },
+    "seon-fitting.html": {
+      "sha256": "c5a11f77bce9909aa1793d3a77ee1dcff31d31816ea438a8f042ead6ca5632b6",
+      "origin": "reviewed-project-source"
+    },
+    "seon-history.html": {
+      "sha256": "22a75d473ebd5d0a254dcb5e1da103194068593ead34ff7237318570439cdc04",
+      "origin": "reviewed-project-source"
+    },
+    "seon-income.html": {
+      "sha256": "9bb41002d852075f0241aae6de4cd7ef7d815ebec3d289768d78e328d43763cd",
+      "origin": "reviewed-project-source"
+    },
+    "seon-location.html": {
+      "sha256": "6314af625f7bf41847ac7974734bfa6d8272ae7710b405a26b037e1f948f586c",
+      "origin": "reviewed-project-source"
+    },
+    "seon-material.html": {
+      "sha256": "6d1dbb72355ca2e752e2dafb8208e747e9d241bce6b3f02ad0be6e3400279471",
+      "origin": "reviewed-project-source"
+    },
+    "seon-network.html": {
+      "sha256": "ecb3363567e2c0817db8f42931aa4a825657ac2e4f49cc2ff182b54332e0a8a8",
+      "origin": "reviewed-project-source"
+    },
+    "seon-news.html": {
+      "sha256": "1eb4c2f6b1bddc1b123c74f50db5d4c0444a95b2a8ab40d8149065c5bb465d19",
+      "origin": "reviewed-project-source"
+    },
+    "seon-notices.html": {
+      "sha256": "6f7a7ef56fc9bd9dc88aca9faecb3d8c5328c173d13a937fb62061afc75d5079",
+      "origin": "reviewed-project-source"
+    },
+    "seon-plan.html": {
+      "sha256": "fba8eb038791bf52a4cf56e49184b33ad5feb8bbc819ecc5cdcb4c86d374d519",
+      "origin": "reviewed-project-source"
+    },
+    "seon-play.html": {
+      "sha256": "2e0d75b98e4003fb882d27855d4a3b7f90adc1178482633810ae81cb73cf8036",
+      "origin": "reviewed-project-source"
+    },
+    "seon-privacy.html": {
+      "sha256": "571e302b99a430863243a3ec8ba172e490bae896160f453429572f803d3ff708",
+      "origin": "reviewed-project-source"
+    },
+    "seon-school.html": {
+      "sha256": "703325cf845c4ca718a263806d6930094d2d3c6569b3b005c99085910fe93c76",
+      "origin": "reviewed-project-source"
+    },
+    "seon-sitemap.html": {
+      "sha256": "80a32e307344826bf05c4cac8bb80ceb3f25c26b68f52567e43d37ba9e6bb9c1",
+      "origin": "reviewed-project-source"
+    },
+    "seon-story.html": {
+      "sha256": "69bed83872dde2839087184979a520fa77f928aeb1b8bd5f85a20fc460e0b54d",
+      "origin": "reviewed-project-source"
+    },
+    "seon-works.html": {
+      "sha256": "479e99e22a177c7e7e5fab9919827dd7a559af12b99049125b8457eb6e5b3e61",
+      "origin": "reviewed-project-source"
+    },
+    "site-config.json": {
+      "sha256": "823fde93d0d7cd7f3b7adb09d2d97490077700faa0908e2860f6d7ff1ac79eee",
+      "origin": "reviewed-project-source"
+    },
+    "site.css": {
+      "sha256": "fb0bf6ff577040cccd0d3e5f4349976a82c0838cecd8a39f231a5c5afe71b2fb",
+      "origin": "reviewed-project-source"
+    },
+    "site.js": {
+      "sha256": "70482a8495d23ca784543109068bc7862a48585c6561d8223402c0fdfaa673c9",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "e76e9bbf0c20358d9b578e742c2cdc3bf188885f9623a81efd64ae6a636a90d1",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

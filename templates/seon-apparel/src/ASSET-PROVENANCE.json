@@ -1,0 +1,62 @@
+{
+  "reviewed": "2026-11-06",
+  "assets": [
+    {
+      "file": "assets/seon-headquarters.png",
+      "sha256": "93a13556130e37da4245aa3b033e372924ad52acd5c998d0751c8a341b549e61",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/seon-school.png",
+      "sha256": "026d7f86ed6f1a8d1f430c0595941e981ee4dce762064d1ebee9ed03e9464ded",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/seon-play.png",
+      "sha256": "76e17f491f4f811ddfe62b22d6ebbbb543e9e6ab4f05247f3b7313224fb916e8",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/seon-work.png",
+      "sha256": "946d2e32d319cd5918ea3e8921fa0db6bd3d18afb5114cf3f0c693d3f72a5e98",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/seon-circular.png",
+      "sha256": "d6b206fdf94d188ec70c3514644e6ad75b72ad43955f3a1e83dbd4d8585026f5",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/seon-team.png",
+      "sha256": "2f47175ad4555eedfead96ed0dc3810da195d6e2cc207a950772ab7fa7b47970",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/seon-brand-film.mp4",
+      "sha256": "77a19f672e62cddadcd9fd272d66d28030a38dead2e8f44174c4dc83c4637cc5",
+      "origin": "documented-generated-photo-video",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    }
+  ],
+  "limitations": "Generated content is not a legal clearance or exclusive copyright guarantee. No source-site code, fonts, icons, media or proprietary plug-ins are included in this replacement."
+}
