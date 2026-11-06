@@ -4,32 +4,32 @@
   "scope": "현재 데모 및 독립 소스 배포물의 자산 검토. 법적 무문제 보증이 아님.",
   "projects": {
     "aquafolio": {
-      "status": "withheld",
-      "reason": "자체 일러스트 교체 및 배포 기록 반영 중"
+      "status": "ready",
+      "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "atelier-cuisine": {
-      "status": "withheld",
-      "reason": "자체 일러스트 교체 및 배포 기록 반영 중"
+      "status": "ready",
+      "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "craft-roast": {
-      "status": "withheld",
-      "reason": "자체 일러스트 교체 및 배포 기록 반영 중"
+      "status": "ready",
+      "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "daywell24": {
       "status": "ready",
       "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "flexspace": {
-      "status": "withheld",
-      "reason": "자체 일러스트 교체 및 배포 기록 반영 중"
+      "status": "ready",
+      "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "harutgyeol": {
-      "status": "withheld",
-      "reason": "자체 일러스트 교체 및 배포 기록 반영 중"
+      "status": "ready",
+      "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "lumiere": {
-      "status": "withheld",
-      "reason": "자체 일러스트 교체 및 배포 기록 반영 중"
+      "status": "ready",
+      "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "luon-studio": {
       "status": "ready",
@@ -48,12 +48,12 @@
       "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "pages": {
-      "status": "withheld",
-      "reason": "자체 일러스트 교체 및 배포 기록 반영 중"
+      "status": "ready",
+      "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "playforge": {
-      "status": "withheld",
-      "reason": "자체 일러스트 교체 및 배포 기록 반영 중"
+      "status": "ready",
+      "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "portfolio-grid": {
       "status": "ready",
