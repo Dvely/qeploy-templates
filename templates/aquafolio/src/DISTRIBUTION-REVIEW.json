@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "project": "aquafolio",
+  "status": "reviewed",
+  "reviewDate": "2026-11-06",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "aquafolio-about.html": {
+      "sha256": "b3bfc7f54794bdf5c9725c85c48959560241fa1ca51e582fb3e44711f7a48c77",
+      "origin": "reviewed-project-source"
+    },
+    "aquafolio-conservation.html": {
+      "sha256": "1d7196b25961da3085e7c42adb29de6e8ce1e4f213f8ddcbe524fe2bde23ac2d",
+      "origin": "reviewed-project-source"
+    },
+    "aquafolio-creatures.html": {
+      "sha256": "9600aafc7d90756fc83d592f04e444df471894b04a65f8c797c3dc5556814f0b",
+      "origin": "reviewed-project-source"
+    },
+    "aquafolio-data.js": {
+      "sha256": "5c5e957ae5918133af012b5a0deca17ef3fc299ab0a39615500d16a22c7a9386",
+      "origin": "reviewed-project-source"
+    },
+    "aquafolio-groups.html": {
+      "sha256": "87ef199d22b4fa646607f81b1541371228b25375b068ab7977019719f9e03eea",
+      "origin": "reviewed-project-source"
+    },
+    "aquafolio-guide.html": {
+      "sha256": "f32a183212a4ef551ae4a9961ce40e82ee28beb2cd81834b15ad4f7eea70e1b5",
+      "origin": "reviewed-project-source"
+    },
+    "aquafolio-privacy.html": {
+      "sha256": "6c4d8d85b169e4b656aeee9a32385306e6507b58f9be205dfeb7a1df25ccbc28",
+      "origin": "reviewed-project-source"
+    },
+    "aquafolio-programs.html": {
+      "sha256": "6f574dcdd05e2c412ace7d8d3611a6979998168345834915f884cdd16dd54996",
+      "origin": "reviewed-project-source"
+    },
+    "aquafolio-terms.html": {
+      "sha256": "0c6c041a785f4fd240c0b6babbffd8437df0a50c794c505e5016139450a789fd",
+      "origin": "reviewed-project-source"
+    },
+    "aquafolio-tickets.html": {
+      "sha256": "afc1ab1923a1ad28e51700b83233674590f6a909699b451b018ad40d6d2a6628",
+      "origin": "reviewed-project-source"
+    },
+    "aquafolio.css": {
+      "sha256": "d7b228d4e090aad0def42a49badf07f32619537baa484415f8f4082a7ee5cabd",
+      "origin": "reviewed-project-source"
+    },
+    "aquafolio.js": {
+      "sha256": "040ba604040f1a3446608ee74fdea7e06cea483270b75fbea54412a227a06003",
+      "origin": "reviewed-project-source"
+    },
+    "ASSET-PROVENANCE.json": {
+      "sha256": "8766c8d0855f49b1ac80a5853da8cbb6ead41589e5f9adbc2a34e8b284dadf82",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/fonts.css": {
+      "sha256": "9f1970cf6c010cfeb7780fcac36bcf265aa4e2a8a8a24ace01dd6362a58dd241",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/plus-jakarta-sans-bold.ttf": {
+      "sha256": "32971ad7976930539a11c79ce91ce84092df7f25c5be716b594601842f10a7ae",
+      "origin": "open-font-license"
+    },
+    "fonts/plus-jakarta-sans-medium.ttf": {
+      "sha256": "b4fc14ec283d54236fd302cdb92546f98ae0ff061ca5ee23453a02bdf4628791",
+      "origin": "open-font-license"
+    },
+    "fonts/Plus-Jakarta-Sans-OFL.txt": {
+      "sha256": "f9a8e776b4b048227f2f046b8716083eb04b1539d9ad1d4b87e81c1df28f86e3",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/plus-jakarta-sans-regular.ttf": {
+      "sha256": "076831b98043f50f829b6c91db3be4a844641f1c95bccff5c886ed87c661a852",
+      "origin": "open-font-license"
+    },
+    "fonts/plus-jakarta-sans-semibold.ttf": {
+      "sha256": "50357df108c5d297ec4ece76aeddf49561f3794f67af077cfc2c711b7a75b439",
+      "origin": "open-font-license"
+    },
+    "images/aquafolio-creatures-photo-01.svg": {
+      "sha256": "a8d34a233c225fdd1ca1843743864715480cb74687fdf9fa9b82fa46fd371c93",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-creatures-photo-02.svg": {
+      "sha256": "1d44f25d98310ceca41b9c7b64dc0f0fba7860d6d5d5d71de09088aa71d3a8ba",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-creatures-photo-03.svg": {
+      "sha256": "556077d15f12bee85e2f62e983132b60c4b05001cac69cbc400b1ed7b961675b",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-creatures-photo-04.svg": {
+      "sha256": "ce664710635f4c0a68d7650ff0769c7cddcb7c5adb27e02bd1476316ce57807a",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-creatures-photo-05.svg": {
+      "sha256": "80caab7cc3d1a1f752b5eae056f49f36c1b2d900ff6026bfa2833aac4a4a2f89",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-creatures-photo-06.svg": {
+      "sha256": "566b88a22e883f89d494d7275bc97225595926e555d1414b533329dc8dc5ad80",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-creatures-photo-07.svg": {
+      "sha256": "f62cf9d8edde1e85f477ce73d1c4f66be40ed0e879eeca68a982735f59b6ffe2",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-creatures-photo-08.svg": {
+      "sha256": "a1a5f347dd5c8f0c435187dbd26c1fbc488b41a4740b91f66cd70e05be5fb4e7",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-creatures-photo-09.svg": {
+      "sha256": "814e6bebe9df414064a87c97109a12390e715e860a034532d33c12a145f8aecb",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-photo-01.svg": {
+      "sha256": "da2d9c865a29a2987dd9125a05af664f7fe0bfb70636725edac26bd311f004a1",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-photo-02.svg": {
+      "sha256": "320f81c050e18749a50da92b2e525ca1f9e6cfd2b35f6c6efaac2db1226aaac5",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-photo-03.svg": {
+      "sha256": "75214e852c963382397889a62957c79d892cde2940c176b4a3057d68ab95489f",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-photo-04.svg": {
+      "sha256": "d040299e0f8c12fbd67d34b99c55df6a33443303a667ab13070cfe56eebe1ad8",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-photo-05.svg": {
+      "sha256": "cf9c8d1864a139bcffdcd83b39992a3f13238765f29a1eb397e400a00335337a",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-photo-06.svg": {
+      "sha256": "6aa64becdfb40672712c4e2517b62a845fc5d3b254d83ee5a53b8159f521ae02",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-photo-07.svg": {
+      "sha256": "7e62f40c520e96a294bfdaaae7d24a2641586aeeb0fb2b337673b394a445b985",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-photo-08.svg": {
+      "sha256": "171452e6b443983a6779ee8e83725783a99757c450210f561a7fb53e83d11b9d",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-photo-09.svg": {
+      "sha256": "5b2de61004475a0e47322cd1b28f244d775051b67b75be07fc64c12398300177",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-photo-10.svg": {
+      "sha256": "39d65f1164c36de123937e9b64d16a42529b2be110702bf122c7b68243621692",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-photo-11.svg": {
+      "sha256": "c749cd0d75115e0235befc7926e19f65bb82cac6464acd9659f24711462c623d",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-photo-12.svg": {
+      "sha256": "9f3bee1d0a778549fc183c64396550dccccd994e39ffab32730465efb848dc4b",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-scene-13.svg": {
+      "sha256": "4c6c7acddefc649a03cf5243c93973196400f100ab94fb6e4388fd2529541975",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-scene-14.svg": {
+      "sha256": "83a4316861e3eb0e5c936897ad4a33ce914f60714f170c6f7a33b4fe8cf72f07",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-scene-15.svg": {
+      "sha256": "6080868eec2226ea790637d64e33468df8e683514643a209a0847173b212d87d",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-scene-16.svg": {
+      "sha256": "bd90fb62a6452d6e9a71fcceb8cf6a80b006a57fe21ed482aa96845f924b61dd",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-scene-17.svg": {
+      "sha256": "2703c4652dcf506e04123cf537ee922e30a51381e3606e439468e12012ccbb9b",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-scene-18.svg": {
+      "sha256": "c19b04989bd56bfedbbe8932a717bb27f4dc826195b5a8c8dccaaa3a5b7b3680",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-scene-19.svg": {
+      "sha256": "b30a3ca39970cad9c715b0255e7ca178407019d07de9fbc973fad8a9d414cbac",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-scene-20.svg": {
+      "sha256": "44eb22ef42abeaaab8bffcd1f49c5fddaf5eb51a6469f09bf5fd8d48f41218f9",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-scene-21.svg": {
+      "sha256": "7516850d9d3793099a15b637a5966c26c7f0d77c3473900d159501f9f74a06db",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-home-scene-22.svg": {
+      "sha256": "85632e454fd0ea57f97a80e54e20bb38f7b14046390ce28403541a34200f0a9d",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-programs-scene-01.svg": {
+      "sha256": "dbde95312cf502b26378e16e6ea484472535b29ff74f1828214e820949f8200e",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-programs-scene-02.svg": {
+      "sha256": "86955fe7ac8ce160308112b851183c2f50db02a2c4990f11d7277c1a26132abb",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-programs-scene-03.svg": {
+      "sha256": "9e01b4eb867bc0eec9503b2e8c857845d0b4b97c14c971f08d9997ce9a0dba73",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-programs-scene-04.svg": {
+      "sha256": "d445848c82e1862c20b7b3cbfcaca596b4d64d7aa63a3dcadcc0383238663c0f",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-programs-scene-05.svg": {
+      "sha256": "7162d3daa6a89a9e56411701b3fb19a96ef7fb4d783f7578f7ecb48a5ac7e646",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-programs-scene-06.svg": {
+      "sha256": "86129a450c8328b15b75e8814eeec021dc77a23a1ebde923f1d75f710e85a423",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-programs-scene-07.svg": {
+      "sha256": "51ae6dc7faa7ba48ed9e372758a10f9ff21556139fc140a49ee5caa880086505",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-programs-scene-08.svg": {
+      "sha256": "4ce0810d4d44f4d06e89913c5ed28bd72131a54b8bca8641458a093c93077bbb",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-programs-scene-09.svg": {
+      "sha256": "498c4d615531dcc96b9709a84999fa71712e1b3c6d0a57e5f0abb2883ca468f6",
+      "origin": "original-vector"
+    },
+    "images/aquafolio-tickets-scene-01.svg": {
+      "sha256": "3b168809f37506b97958ed2a36120ce34a9fd4a8e62a9e8e87a4c4f4ee5fa46b",
+      "origin": "original-vector"
+    },
+    "index.html": {
+      "sha256": "9717c9497605801733ae46c9467e76b3fdc32ea6a73530077553740948802292",
+      "origin": "reviewed-project-source"
+    },
+    "licenses/Tailwind-Forms-MIT.txt": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "origin": "reviewed-project-source"
+    },
+    "licenses/Tailwind-MIT.txt": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "2d8e5a87d73d320a0043793e63f314c2c07fb88fdffb9443e155a952760dbdf4",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "097d18c99bbfe3d545196f58fa2afef613694d7d9261cbcfdc38d55dcaa0af32",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

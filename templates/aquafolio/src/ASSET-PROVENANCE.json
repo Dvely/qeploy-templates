@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 1,
+  "project": "aquafolio",
+  "date": "2026-11-06",
+  "creator": "Qeploy contributors",
+  "origin": "original-vector",
+  "description": "New SVG illustrations authored directly as geometric vector code. No original raster pixels, external assets, copied SVG paths, photographs, or model-generated photographic images were used. Illustrations are fictional depictions, not records of actual people, places, medical outcomes or products.",
+  "permissions": {
+    "commercialUse": true,
+    "modification": true,
+    "sourceTemplateRedistribution": true,
+    "scope": "Only the new SVG artwork listed below; this statement does not grant rights to fonts, code, designs or other third-party materials."
+  },
+  "assets": [
+    {
+      "file": "fonts/plus-jakarta-sans-bold.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "32971ad7976930539a11c79ce91ce84092df7f25c5be716b594601842f10a7ae"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-medium.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "b4fc14ec283d54236fd302cdb92546f98ae0ff061ca5ee23453a02bdf4628791"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-regular.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "076831b98043f50f829b6c91db3be4a844641f1c95bccff5c886ed87c661a852"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-semibold.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "50357df108c5d297ec4ece76aeddf49561f3794f67af077cfc2c711b7a75b439"
+    },
+    {
+      "file": "images/aquafolio-creatures-photo-01.svg",
+      "replaces": "images/aquafolio-creatures-photo-01.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "a8d34a233c225fdd1ca1843743864715480cb74687fdf9fa9b82fa46fd371c93"
+    },
+    {
+      "file": "images/aquafolio-creatures-photo-02.svg",
+      "replaces": "images/aquafolio-creatures-photo-02.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "1d44f25d98310ceca41b9c7b64dc0f0fba7860d6d5d5d71de09088aa71d3a8ba"
+    },
+    {
+      "file": "images/aquafolio-creatures-photo-03.svg",
+      "replaces": "images/aquafolio-creatures-photo-03.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "556077d15f12bee85e2f62e983132b60c4b05001cac69cbc400b1ed7b961675b"
+    },
+    {
+      "file": "images/aquafolio-creatures-photo-04.svg",
+      "replaces": "images/aquafolio-creatures-photo-04.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "ce664710635f4c0a68d7650ff0769c7cddcb7c5adb27e02bd1476316ce57807a"
+    },
+    {
+      "file": "images/aquafolio-creatures-photo-05.svg",
+      "replaces": "images/aquafolio-creatures-photo-05.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "80caab7cc3d1a1f752b5eae056f49f36c1b2d900ff6026bfa2833aac4a4a2f89"
+    },
+    {
+      "file": "images/aquafolio-creatures-photo-06.svg",
+      "replaces": "images/aquafolio-creatures-photo-06.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "566b88a22e883f89d494d7275bc97225595926e555d1414b533329dc8dc5ad80"
+    },
+    {
+      "file": "images/aquafolio-creatures-photo-07.svg",
+      "replaces": "images/aquafolio-creatures-photo-07.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "f62cf9d8edde1e85f477ce73d1c4f66be40ed0e879eeca68a982735f59b6ffe2"
+    },
+    {
+      "file": "images/aquafolio-creatures-photo-08.svg",
+      "replaces": "images/aquafolio-creatures-photo-08.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "a1a5f347dd5c8f0c435187dbd26c1fbc488b41a4740b91f66cd70e05be5fb4e7"
+    },
+    {
+      "file": "images/aquafolio-creatures-photo-09.svg",
+      "replaces": "images/aquafolio-creatures-photo-09.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "814e6bebe9df414064a87c97109a12390e715e860a034532d33c12a145f8aecb"
+    },
+    {
+      "file": "images/aquafolio-home-photo-01.svg",
+      "replaces": "images/aquafolio-home-photo-01.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "da2d9c865a29a2987dd9125a05af664f7fe0bfb70636725edac26bd311f004a1"
+    },
+    {
+      "file": "images/aquafolio-home-photo-02.svg",
+      "replaces": "images/aquafolio-home-photo-02.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "320f81c050e18749a50da92b2e525ca1f9e6cfd2b35f6c6efaac2db1226aaac5"
+    },
+    {
+      "file": "images/aquafolio-home-photo-03.svg",
+      "replaces": "images/aquafolio-home-photo-03.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "75214e852c963382397889a62957c79d892cde2940c176b4a3057d68ab95489f"
+    },
+    {
+      "file": "images/aquafolio-home-photo-04.svg",
+      "replaces": "images/aquafolio-home-photo-04.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "d040299e0f8c12fbd67d34b99c55df6a33443303a667ab13070cfe56eebe1ad8"
+    },
+    {
+      "file": "images/aquafolio-home-photo-05.svg",
+      "replaces": "images/aquafolio-home-photo-05.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "cf9c8d1864a139bcffdcd83b39992a3f13238765f29a1eb397e400a00335337a"
+    },
+    {
+      "file": "images/aquafolio-home-photo-06.svg",
+      "replaces": "images/aquafolio-home-photo-06.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "6aa64becdfb40672712c4e2517b62a845fc5d3b254d83ee5a53b8159f521ae02"
+    },
+    {
+      "file": "images/aquafolio-home-photo-07.svg",
+      "replaces": "images/aquafolio-home-photo-07.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "7e62f40c520e96a294bfdaaae7d24a2641586aeeb0fb2b337673b394a445b985"
+    },
+    {
+      "file": "images/aquafolio-home-photo-08.svg",
+      "replaces": "images/aquafolio-home-photo-08.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "171452e6b443983a6779ee8e83725783a99757c450210f561a7fb53e83d11b9d"
+    },
+    {
+      "file": "images/aquafolio-home-photo-09.svg",
+      "replaces": "images/aquafolio-home-photo-09.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "5b2de61004475a0e47322cd1b28f244d775051b67b75be07fc64c12398300177"
+    },
+    {
+      "file": "images/aquafolio-home-photo-10.svg",
+      "replaces": "images/aquafolio-home-photo-10.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "39d65f1164c36de123937e9b64d16a42529b2be110702bf122c7b68243621692"
+    },
+    {
+      "file": "images/aquafolio-home-photo-11.svg",
+      "replaces": "images/aquafolio-home-photo-11.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "c749cd0d75115e0235befc7926e19f65bb82cac6464acd9659f24711462c623d"
+    },
+    {
+      "file": "images/aquafolio-home-photo-12.svg",
+      "replaces": "images/aquafolio-home-photo-12.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "9f3bee1d0a778549fc183c64396550dccccd994e39ffab32730465efb848dc4b"
+    },
+    {
+      "file": "images/aquafolio-home-scene-13.svg",
+      "replaces": "images/aquafolio-home-scene-13.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "4c6c7acddefc649a03cf5243c93973196400f100ab94fb6e4388fd2529541975"
+    },
+    {
+      "file": "images/aquafolio-home-scene-14.svg",
+      "replaces": "images/aquafolio-home-scene-14.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "83a4316861e3eb0e5c936897ad4a33ce914f60714f170c6f7a33b4fe8cf72f07"
+    },
+    {
+      "file": "images/aquafolio-home-scene-15.svg",
+      "replaces": "images/aquafolio-home-scene-15.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "6080868eec2226ea790637d64e33468df8e683514643a209a0847173b212d87d"
+    },
+    {
+      "file": "images/aquafolio-home-scene-16.svg",
+      "replaces": "images/aquafolio-home-scene-16.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "bd90fb62a6452d6e9a71fcceb8cf6a80b006a57fe21ed482aa96845f924b61dd"
+    },
+    {
+      "file": "images/aquafolio-home-scene-17.svg",
+      "replaces": "images/aquafolio-home-scene-17.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "2703c4652dcf506e04123cf537ee922e30a51381e3606e439468e12012ccbb9b"
+    },
+    {
+      "file": "images/aquafolio-home-scene-18.svg",
+      "replaces": "images/aquafolio-home-scene-18.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "c19b04989bd56bfedbbe8932a717bb27f4dc826195b5a8c8dccaaa3a5b7b3680"
+    },
+    {
+      "file": "images/aquafolio-home-scene-19.svg",
+      "replaces": "images/aquafolio-home-scene-19.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "b30a3ca39970cad9c715b0255e7ca178407019d07de9fbc973fad8a9d414cbac"
+    },
+    {
+      "file": "images/aquafolio-home-scene-20.svg",
+      "replaces": "images/aquafolio-home-scene-20.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "44eb22ef42abeaaab8bffcd1f49c5fddaf5eb51a6469f09bf5fd8d48f41218f9"
+    },
+    {
+      "file": "images/aquafolio-home-scene-21.svg",
+      "replaces": "images/aquafolio-home-scene-21.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "7516850d9d3793099a15b637a5966c26c7f0d77c3473900d159501f9f74a06db"
+    },
+    {
+      "file": "images/aquafolio-home-scene-22.svg",
+      "replaces": "images/aquafolio-home-scene-22.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "85632e454fd0ea57f97a80e54e20bb38f7b14046390ce28403541a34200f0a9d"
+    },
+    {
+      "file": "images/aquafolio-programs-scene-01.svg",
+      "replaces": "images/aquafolio-programs-scene-01.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "dbde95312cf502b26378e16e6ea484472535b29ff74f1828214e820949f8200e"
+    },
+    {
+      "file": "images/aquafolio-programs-scene-02.svg",
+      "replaces": "images/aquafolio-programs-scene-02.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "86955fe7ac8ce160308112b851183c2f50db02a2c4990f11d7277c1a26132abb"
+    },
+    {
+      "file": "images/aquafolio-programs-scene-03.svg",
+      "replaces": "images/aquafolio-programs-scene-03.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "9e01b4eb867bc0eec9503b2e8c857845d0b4b97c14c971f08d9997ce9a0dba73"
+    },
+    {
+      "file": "images/aquafolio-programs-scene-04.svg",
+      "replaces": "images/aquafolio-programs-scene-04.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "d445848c82e1862c20b7b3cbfcaca596b4d64d7aa63a3dcadcc0383238663c0f"
+    },
+    {
+      "file": "images/aquafolio-programs-scene-05.svg",
+      "replaces": "images/aquafolio-programs-scene-05.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "7162d3daa6a89a9e56411701b3fb19a96ef7fb4d783f7578f7ecb48a5ac7e646"
+    },
+    {
+      "file": "images/aquafolio-programs-scene-06.svg",
+      "replaces": "images/aquafolio-programs-scene-06.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "86129a450c8328b15b75e8814eeec021dc77a23a1ebde923f1d75f710e85a423"
+    },
+    {
+      "file": "images/aquafolio-programs-scene-07.svg",
+      "replaces": "images/aquafolio-programs-scene-07.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "51ae6dc7faa7ba48ed9e372758a10f9ff21556139fc140a49ee5caa880086505"
+    },
+    {
+      "file": "images/aquafolio-programs-scene-08.svg",
+      "replaces": "images/aquafolio-programs-scene-08.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "4ce0810d4d44f4d06e89913c5ed28bd72131a54b8bca8641458a093c93077bbb"
+    },
+    {
+      "file": "images/aquafolio-programs-scene-09.svg",
+      "replaces": "images/aquafolio-programs-scene-09.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "498c4d615531dcc96b9709a84999fa71712e1b3c6d0a57e5f0abb2883ca468f6"
+    },
+    {
+      "file": "images/aquafolio-tickets-scene-01.svg",
+      "replaces": "images/aquafolio-tickets-scene-01.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "3b168809f37506b97958ed2a36120ce34a9fd4a8e62a9e8e87a4c4f4ee5fa46b"
+    }
+  ],
+  "reviewed": "2026-11-06",
+  "scope": "File-level provenance and applicable conditions only, not a legal non-infringement guarantee."
+}
