@@ -16,6 +16,8 @@ import { buildHarutgyeolPages } from './harutgyeol-pages.mjs';
 import { buildPagesDetails } from './pages-details.mjs';
 import { buildAtelierCuisine } from './atelier-cuisine-pages.mjs';
 import { buildFlexspacePages } from './flexspace-pages.mjs';
+import { buildOriginalSites } from './remediation/build-original-sites.mjs';
+import { verifyTemplateDirectory } from './remediation/verify-distribution.mjs';
 
 const run = promisify(execFile);
 const ROOT = path.resolve(import.meta.dirname, '..');
@@ -26,6 +28,7 @@ const BASE = process.env.PAGES_BASE_URL ?? 'https://dvely.github.io/qeploy-templ
 const REQUIRED = ['id', 'name', 'description', 'stack', 'contentHints'];
 const distributionPolicy = JSON.parse(await readFile(path.join(ROOT, 'distribution-policy.json'), 'utf8'));
 
+await buildOriginalSites(ROOT);
 await buildHarutgyeolPages();
 await buildPagesDetails();
 await buildAtelierCuisine();
@@ -62,6 +65,7 @@ for (const id of ids) {
     }
 
     const src = path.join(dir, 'src');
+    await verifyTemplateDirectory(src, id);
     await cp(src, path.join(OUT, 't', id), { recursive: true });
     // -C 로 src 안에서 묶어야 압축 해제 시 경로에 src/ 가 끼지 않는다.
     await run('tar', ['-czf', path.join(OUT, 'src', `${id}.tar.gz`), '-C', src, '.'], {
