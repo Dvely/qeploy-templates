@@ -1,0 +1,118 @@
+{
+  "reviewed": "2026-11-06",
+  "assets": [
+    {
+      "file": "assets/moav-studio.png",
+      "sha256": "b8f8a0c8a08041bf6ad1ab4e1b2f85cf38823b0796a1e697251342ea115a4eab",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/moav-objects.png",
+      "sha256": "c698996638bca28017c77ba20f69fcd37fb37d814d1484ccc3aa05d297ffcdc6",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/moav-team.png",
+      "sha256": "7c746180fb47e4c716c480f15b0cac0bfe7d013ce071280fa76f33688bdf178f",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/moav-creator-beauty.png",
+      "sha256": "216a9499da323317cd360134ec9b62d03fcca8e9c11752f1aa966ce45edaf83f",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/moav-creator-living.png",
+      "sha256": "2518a29eab96d07e0dce24a4ab713869a79aea4e0e978a79695ccdeb89e0cda5",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/moav-creator-fashion.png",
+      "sha256": "375d6a10ad8efe43dbfe2f1acc990d1ade4f20f18a053acc74beeab745b5269b",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/moav-vase.png",
+      "sha256": "09c2e3bfbe97ddaec2cea5a253b3f7e5c74485a645a84f3f0233827963ad581d",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/moav-headphones.png",
+      "sha256": "8f2a9acf4a1269773fc39dd81aa802da0f5d461d51d17a0d17015900aa95b2ac",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/moav-skincare.png",
+      "sha256": "9f181ad30081639541c8342b36b3b365c1f8947b34c85a72b990d47476c1f9bb",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/moav-value-ethics.png",
+      "sha256": "596fa939d234b41b6c7b6e602f06885818cfa439729238c8f0f01057c62b4776",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/moav-value-compliance.png",
+      "sha256": "91ec0659fa00d2b563c0018bc828fa6c6ece149d57e7198186d6319a05a89d03",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/moav-value-partnership.png",
+      "sha256": "5a4bdd0e6ec4f43a09229f9db06615fcf57b9f213ee2e612d12f6938f5f7a8a4",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/moav-value-viewer-committee.png",
+      "sha256": "822c0973ac47530ffa1bbf5ef4a9128d17a99638529df14c7ad38f0a333cf854",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/moav-story-hd.mp4",
+      "sha256": "892dbbe2e05d95ec40c4ac17bf8678711a0df9299e7d970bbdc5ad7ff443ea54",
+      "origin": "documented-generated-photo-video",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    }
+  ],
+  "limitations": "Generated content is not a legal clearance or exclusive copyright guarantee. No source-site code, fonts, icons, media or proprietary plug-ins are included in this replacement."
+}

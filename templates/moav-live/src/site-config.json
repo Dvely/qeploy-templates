@@ -1,0 +1,530 @@
+{
+  "name": "모아브 라이브",
+  "wordmark": "MOAV LIVE",
+  "theme": "commerce",
+  "color": "#2b3c98",
+  "tagline": "대화로 발견하는 새로운 취향",
+  "title": "취향이,\n대화가 되는 곳.",
+  "eyebrow": "사람과 물건 사이의 새로운 에디트",
+  "description": "크리에이터의 시선으로 물건의 쓰임을 발견합니다. 함께 고르고 이야기하는 라이프스타일 콘텐츠와 가상 셀렉션을 만나보세요.",
+  "primary": "취향 에디트",
+  "secondary": "함께 기획하기",
+  "visualLabel": "사람의 시선에서 시작하는 큐레이션",
+  "symbol": "↗",
+  "stamp": "선택 · 대화 · 새로운 발견",
+  "collectionEyebrow": "취향의 셀렉션",
+  "collectionTitle": "오늘은 무엇을 발견할까요?",
+  "collectionDescription": "생활·패션·뷰티의 가상 상품과 콘텐츠 프로젝트를 함께 살펴보세요.",
+  "storyEyebrow": "우리의 편집 기준",
+  "storyTitle": "좋은 물건에는, 나누고 싶은 이야기가 있습니다.",
+  "story": "모아브 라이브는 물건을 둘러싼 사람의 관찰을 모읍니다. 누가, 언제, 어떤 순간에 쓰는지 이야기하다 보면 익숙한 물건도 다르게 보입니다. 이 공간의 프로그램과 상품은 콘텐츠 커머스의 흐름을 살펴보는 가상 예시입니다.",
+  "method": "좋아하는 이유를 먼저 듣고, 쓰임을 살피고, 함께 소개할 장면을 구성합니다. 실제 방송·구매·투자·협력 계약을 진행하는 서비스는 아닙니다.",
+  "processTitle": "관찰에서 에디트까지",
+  "journalTitle": "대화를 이어가는 모아브 노트",
+  "ctaTitle": "함께 소개하고 싶은 이야기가 있나요?",
+  "footerDescription": "크리에이터의 관찰과 라이프스타일의 취향을 잇는 가상의 콘텐츠 스튜디오.",
+  "searchHint": "상품, 생활, 콘텐츠 검색",
+  "optionLabel": "기획 구성",
+  "options": [
+    "기본 에디트",
+    "콘텐츠 포함 구성",
+    "선물 구성"
+  ],
+  "productNote": "상품과 콘텐츠는 시연용이며 실제 방송·판매·계약은 진행하지 않습니다.",
+  "contactIntro": "함께 만들고 싶은 콘텐츠와 관심 있는 주제를 알려주세요.",
+  "contactAside": "물건의 장점보다 사용되는 순간부터 이야기해 주세요. 이 문의 화면은 실제 접수 없이 입력 흐름만 보여줍니다.",
+  "contactTypes": [
+    "콘텐츠 기획",
+    "브랜드 협업",
+    "컬렉션 문의"
+  ],
+  "nav": [
+    {
+      "label": "취향 에디트",
+      "file": "moav-edit.html"
+    },
+    {
+      "label": "스튜디오",
+      "file": "moav-about-who-we-are.html"
+    },
+    {
+      "label": "기록",
+      "file": "moav-newsroom-press.html"
+    },
+    {
+      "label": "기획 문의",
+      "file": "moav-support-inquiry.html"
+    }
+  ],
+  "about": "moav-about-who-we-are.html",
+  "contact": "moav-support-inquiry.html",
+  "policy": "moav-personal-info-rule.html",
+  "sitemap": "moav-sitemap.html",
+  "cart": "moav-cart.html",
+  "id": "moav-live",
+  "heroImage": "assets/moav-studio.png",
+  "heroAlt": "모아브 라이브를 위한 자체 제작 장면",
+  "secondaryImage": "assets/moav-team.png",
+  "video": "assets/moav-story-hd.mp4",
+  "steps": [
+    {
+      "title": "관심 있는 항목 고르기",
+      "text": "생활·패션·뷰티의 가상 상품과 콘텐츠 프로젝트를 함께 살펴보세요."
+    },
+    {
+      "title": "쓰임과 구성 살펴보기",
+      "text": "각 항목의 소개와 구성 정보를 비교하며 필요한 점을 확인합니다."
+    },
+    {
+      "title": "다음 이야기 정리하기",
+      "text": "함께 만들고 싶은 콘텐츠와 관심 있는 주제를 알려주세요."
+    }
+  ],
+  "articleSubheads": [
+    "작은 관찰에서 시작합니다.",
+    "쓰임을 생각하는 방법",
+    "다음 선택을 위한 메모"
+  ],
+  "items": [
+    {
+      "id": "moav-live-01",
+      "title": "여백을 담는 화병",
+      "category": "리빙",
+      "image": "assets/moav-vase.png",
+      "price": 39000,
+      "route": "moav-object-vase.html",
+      "summary": "빛과 그림자가 머무는 도자기 오브제를 살펴봅니다.",
+      "description": "빛과 그림자가 머무는 도자기 오브제를 살펴봅니다. 좋아하는 이유를 먼저 듣고, 쓰임을 살피고, 함께 소개할 장면을 구성합니다. 실제 방송·구매·투자·협력 계약을 진행하는 서비스는 아닙니다.",
+      "facts": [
+        [
+          "분류",
+          "리빙"
+        ],
+        [
+          "구성",
+          "기본 에디트"
+        ],
+        [
+          "안내",
+          "가상 콘텐츠 · 화면 시연"
+        ]
+      ],
+      "notes": [
+        {
+          "title": "쓰임에서 출발한 구성",
+          "text": "빛과 그림자가 머무는 도자기 오브제를 살펴봅니다."
+        },
+        {
+          "title": "선택을 위한 작은 안내",
+          "text": "상품과 콘텐츠는 시연용이며 실제 방송·판매·계약은 진행하지 않습니다."
+        }
+      ],
+      "label": "가상 상품 구성"
+    },
+    {
+      "id": "moav-live-02",
+      "title": "오후의 리스닝",
+      "category": "라이프",
+      "image": "assets/moav-headphones.png",
+      "price": 89000,
+      "route": "moav-object-sound.html",
+      "summary": "책상 옆에 놓이는 사운드 오브제의 가상 제안입니다.",
+      "description": "책상 옆에 놓이는 사운드 오브제의 가상 제안입니다. 좋아하는 이유를 먼저 듣고, 쓰임을 살피고, 함께 소개할 장면을 구성합니다. 실제 방송·구매·투자·협력 계약을 진행하는 서비스는 아닙니다.",
+      "facts": [
+        [
+          "분류",
+          "라이프"
+        ],
+        [
+          "구성",
+          "기본 에디트"
+        ],
+        [
+          "안내",
+          "가상 콘텐츠 · 화면 시연"
+        ]
+      ],
+      "notes": [
+        {
+          "title": "쓰임에서 출발한 구성",
+          "text": "책상 옆에 놓이는 사운드 오브제의 가상 제안입니다."
+        },
+        {
+          "title": "선택을 위한 작은 안내",
+          "text": "상품과 콘텐츠는 시연용이며 실제 방송·판매·계약은 진행하지 않습니다."
+        }
+      ],
+      "label": "가상 상품 구성"
+    },
+    {
+      "id": "moav-live-03",
+      "title": "차분한 데일리 루틴",
+      "category": "뷰티",
+      "image": "assets/moav-skincare.png",
+      "price": 34000,
+      "route": "moav-object-routine.html",
+      "summary": "작은 병에서 시작하는 일상의 루틴 에디트입니다.",
+      "description": "작은 병에서 시작하는 일상의 루틴 에디트입니다. 좋아하는 이유를 먼저 듣고, 쓰임을 살피고, 함께 소개할 장면을 구성합니다. 실제 방송·구매·투자·협력 계약을 진행하는 서비스는 아닙니다.",
+      "facts": [
+        [
+          "분류",
+          "뷰티"
+        ],
+        [
+          "구성",
+          "기본 에디트"
+        ],
+        [
+          "안내",
+          "가상 콘텐츠 · 화면 시연"
+        ]
+      ],
+      "notes": [
+        {
+          "title": "쓰임에서 출발한 구성",
+          "text": "작은 병에서 시작하는 일상의 루틴 에디트입니다."
+        },
+        {
+          "title": "선택을 위한 작은 안내",
+          "text": "상품과 콘텐츠는 시연용이며 실제 방송·판매·계약은 진행하지 않습니다."
+        }
+      ],
+      "label": "가상 상품 구성"
+    },
+    {
+      "id": "moav-live-04",
+      "title": "생활을 이야기하는 방",
+      "category": "콘텐츠",
+      "image": "assets/moav-creator-living.png",
+      "price": 0,
+      "route": "moav-business-channel.html",
+      "summary": "크리에이터와 생활 도구의 쓰임을 나누는 가상 기획입니다.",
+      "description": "크리에이터와 생활 도구의 쓰임을 나누는 가상 기획입니다. 좋아하는 이유를 먼저 듣고, 쓰임을 살피고, 함께 소개할 장면을 구성합니다. 실제 방송·구매·투자·협력 계약을 진행하는 서비스는 아닙니다.",
+      "facts": [
+        [
+          "분류",
+          "콘텐츠"
+        ],
+        [
+          "구성",
+          "기본 에디트"
+        ],
+        [
+          "안내",
+          "가상 콘텐츠 · 화면 시연"
+        ]
+      ],
+      "notes": [
+        {
+          "title": "쓰임에서 출발한 구성",
+          "text": "크리에이터와 생활 도구의 쓰임을 나누는 가상 기획입니다."
+        },
+        {
+          "title": "선택을 위한 작은 안내",
+          "text": "상품과 콘텐츠는 시연용이며 실제 방송·판매·계약은 진행하지 않습니다."
+        }
+      ],
+      "label": "프로젝트 자세히 보기"
+    },
+    {
+      "id": "moav-live-05",
+      "title": "매일의 색을 고르는 시간",
+      "category": "콘텐츠",
+      "image": "assets/moav-creator-fashion.png",
+      "price": 0,
+      "route": "moav-business-ip-universe.html",
+      "summary": "옷장 속의 취향을 이야기하는 콘텐츠 구성입니다.",
+      "description": "옷장 속의 취향을 이야기하는 콘텐츠 구성입니다. 좋아하는 이유를 먼저 듣고, 쓰임을 살피고, 함께 소개할 장면을 구성합니다. 실제 방송·구매·투자·협력 계약을 진행하는 서비스는 아닙니다.",
+      "facts": [
+        [
+          "분류",
+          "콘텐츠"
+        ],
+        [
+          "구성",
+          "기본 에디트"
+        ],
+        [
+          "안내",
+          "가상 콘텐츠 · 화면 시연"
+        ]
+      ],
+      "notes": [
+        {
+          "title": "쓰임에서 출발한 구성",
+          "text": "옷장 속의 취향을 이야기하는 콘텐츠 구성입니다."
+        },
+        {
+          "title": "선택을 위한 작은 안내",
+          "text": "상품과 콘텐츠는 시연용이며 실제 방송·판매·계약은 진행하지 않습니다."
+        }
+      ],
+      "label": "프로젝트 자세히 보기"
+    },
+    {
+      "id": "moav-live-06",
+      "title": "취향의 작은 스튜디오",
+      "category": "콘텐츠",
+      "image": "assets/moav-objects.png",
+      "price": 0,
+      "route": "moav-business-md-portfolio.html",
+      "summary": "여러 물건의 형태와 쓰임을 모아 하나의 장면을 만듭니다.",
+      "description": "여러 물건의 형태와 쓰임을 모아 하나의 장면을 만듭니다. 좋아하는 이유를 먼저 듣고, 쓰임을 살피고, 함께 소개할 장면을 구성합니다. 실제 방송·구매·투자·협력 계약을 진행하는 서비스는 아닙니다.",
+      "facts": [
+        [
+          "분류",
+          "콘텐츠"
+        ],
+        [
+          "구성",
+          "기본 에디트"
+        ],
+        [
+          "안내",
+          "가상 콘텐츠 · 화면 시연"
+        ]
+      ],
+      "notes": [
+        {
+          "title": "쓰임에서 출발한 구성",
+          "text": "여러 물건의 형태와 쓰임을 모아 하나의 장면을 만듭니다."
+        },
+        {
+          "title": "선택을 위한 작은 안내",
+          "text": "상품과 콘텐츠는 시연용이며 실제 방송·판매·계약은 진행하지 않습니다."
+        }
+      ],
+      "label": "프로젝트 자세히 보기"
+    }
+  ],
+  "stories": [
+    {
+      "route": "moav-newsroom-press-162.html",
+      "title": "물건을 소개하기 전에 묻는 질문",
+      "category": "관찰 노트",
+      "intro": "빛과 그림자가 머무는 도자기 오브제를 살펴봅니다.",
+      "paragraphs": [
+        "모아브 라이브는 물건을 둘러싼 사람의 관찰을 모읍니다. 누가, 언제, 어떤 순간에 쓰는지 이야기하다 보면 익숙한 물건도 다르게 보입니다. 이 공간의 프로그램과 상품은 콘텐츠 커머스의 흐름을 살펴보는 가상 예시입니다.",
+        "좋아하는 이유를 먼저 듣고, 쓰임을 살피고, 함께 소개할 장면을 구성합니다. 실제 방송·구매·투자·협력 계약을 진행하는 서비스는 아닙니다.",
+        "물건의 장점보다 사용되는 순간부터 이야기해 주세요. 이 문의 화면은 실제 접수 없이 입력 흐름만 보여줍니다."
+      ],
+      "image": "assets/moav-vase.png"
+    },
+    {
+      "route": "moav-newsroom-press-165.html",
+      "title": "같은 물건을 다르게 쓰는 방법",
+      "category": "제작 메모",
+      "intro": "책상 옆에 놓이는 사운드 오브제의 가상 제안입니다.",
+      "paragraphs": [
+        "모아브 라이브는 물건을 둘러싼 사람의 관찰을 모읍니다. 누가, 언제, 어떤 순간에 쓰는지 이야기하다 보면 익숙한 물건도 다르게 보입니다. 이 공간의 프로그램과 상품은 콘텐츠 커머스의 흐름을 살펴보는 가상 예시입니다.",
+        "좋아하는 이유를 먼저 듣고, 쓰임을 살피고, 함께 소개할 장면을 구성합니다. 실제 방송·구매·투자·협력 계약을 진행하는 서비스는 아닙니다.",
+        "물건의 장점보다 사용되는 순간부터 이야기해 주세요. 이 문의 화면은 실제 접수 없이 입력 흐름만 보여줍니다."
+      ],
+      "image": "assets/moav-headphones.png"
+    },
+    {
+      "route": "moav-newsroom-press-167.html",
+      "title": "취향을 나누는 대화의 시작",
+      "category": "일상의 아이디어",
+      "intro": "작은 병에서 시작하는 일상의 루틴 에디트입니다.",
+      "paragraphs": [
+        "모아브 라이브는 물건을 둘러싼 사람의 관찰을 모읍니다. 누가, 언제, 어떤 순간에 쓰는지 이야기하다 보면 익숙한 물건도 다르게 보입니다. 이 공간의 프로그램과 상품은 콘텐츠 커머스의 흐름을 살펴보는 가상 예시입니다.",
+        "좋아하는 이유를 먼저 듣고, 쓰임을 살피고, 함께 소개할 장면을 구성합니다. 실제 방송·구매·투자·협력 계약을 진행하는 서비스는 아닙니다.",
+        "물건의 장점보다 사용되는 순간부터 이야기해 주세요. 이 문의 화면은 실제 접수 없이 입력 흐름만 보여줍니다."
+      ],
+      "image": "assets/moav-skincare.png"
+    }
+  ],
+  "faq": [
+    [
+      "실제 구매나 상담이 가능한가요?",
+      "이 사이트는 가상의 브랜드를 위한 디자인 시연입니다. 실제 구매·결제·예약·상담 접수는 진행하지 않습니다."
+    ],
+    [
+      "보관한 항목은 어디에 저장되나요?",
+      "현재 브라우저에 항목 식별자와 수량·옵션만 저장됩니다. 이름·이메일·문의 내용은 저장하거나 전송하지 않습니다."
+    ],
+    [
+      "화면의 사진과 설명은 실제 정보인가요?",
+      "상품과 콘텐츠는 시연용이며 실제 방송·판매·계약은 진행하지 않습니다."
+    ]
+  ],
+  "sections": [
+    {
+      "routes": [
+        "moav-about-who-we-are.html"
+      ],
+      "title": "좋은 물건에는, 나누고 싶은 이야기가 있습니다.",
+      "category": "우리의 편집 기준",
+      "intro": "크리에이터의 시선으로 물건의 쓰임을 발견합니다. 함께 고르고 이야기하는 라이프스타일 콘텐츠와 가상 셀렉션을 만나보세요.",
+      "paragraphs": [
+        "모아브 라이브는 물건을 둘러싼 사람의 관찰을 모읍니다. 누가, 언제, 어떤 순간에 쓰는지 이야기하다 보면 익숙한 물건도 다르게 보입니다. 이 공간의 프로그램과 상품은 콘텐츠 커머스의 흐름을 살펴보는 가상 예시입니다.",
+        "좋아하는 이유를 먼저 듣고, 쓰임을 살피고, 함께 소개할 장면을 구성합니다. 실제 방송·구매·투자·협력 계약을 진행하는 서비스는 아닙니다.",
+        "물건의 장점보다 사용되는 순간부터 이야기해 주세요. 이 문의 화면은 실제 접수 없이 입력 흐름만 보여줍니다."
+      ],
+      "image": "assets/moav-team.png"
+    }
+  ],
+  "routes": [
+    {
+      "file": "index.html",
+      "title": "모아브 라이브 홈",
+      "kind": "home"
+    },
+    {
+      "file": "moav-about-history.html",
+      "title": "아이디어를 쌓아가는 시간",
+      "kind": "article"
+    },
+    {
+      "file": "moav-about-who-we-are.html",
+      "title": "좋은 물건에는, 나누고 싶은 이야기가 있습니다.",
+      "kind": "article"
+    },
+    {
+      "file": "moav-business-channel.html",
+      "title": "생활을 이야기하는 방",
+      "kind": "product"
+    },
+    {
+      "file": "moav-business-global.html",
+      "title": "같은 물건을 다르게 쓰는 방법 · 05",
+      "kind": "article"
+    },
+    {
+      "file": "moav-business-ip-universe.html",
+      "title": "매일의 색을 고르는 시간",
+      "kind": "product"
+    },
+    {
+      "file": "moav-business-md-portfolio.html",
+      "title": "취향의 작은 스튜디오",
+      "kind": "product"
+    },
+    {
+      "file": "moav-careers-benefit.html",
+      "title": "같은 물건을 다르게 쓰는 방법 · 08",
+      "kind": "article"
+    },
+    {
+      "file": "moav-careers-culture.html",
+      "title": "대화를 나누는 제작 방식",
+      "kind": "article"
+    },
+    {
+      "file": "moav-careers-people.html",
+      "title": "물건을 소개하기 전에 묻는 질문 · 10",
+      "kind": "article"
+    },
+    {
+      "file": "moav-cart.html",
+      "title": "나의 구성",
+      "kind": "cart"
+    },
+    {
+      "file": "moav-edit.html",
+      "title": "오늘은 무엇을 발견할까요?",
+      "kind": "collection"
+    },
+    {
+      "file": "moav-english.html",
+      "title": "같은 물건을 다르게 쓰는 방법 · 11",
+      "kind": "article"
+    },
+    {
+      "file": "moav-newsroom-media.html",
+      "title": "장면과 분위기의 기록",
+      "kind": "media"
+    },
+    {
+      "file": "moav-newsroom-on-insight.html",
+      "title": "물건을 소개하기 전에 묻는 질문 · 13",
+      "kind": "article"
+    },
+    {
+      "file": "moav-newsroom-press-162.html",
+      "title": "물건을 소개하기 전에 묻는 질문",
+      "kind": "article"
+    },
+    {
+      "file": "moav-newsroom-press-165.html",
+      "title": "같은 물건을 다르게 쓰는 방법",
+      "kind": "article"
+    },
+    {
+      "file": "moav-newsroom-press-167.html",
+      "title": "취향을 나누는 대화의 시작",
+      "kind": "article"
+    },
+    {
+      "file": "moav-newsroom-press.html",
+      "title": "기록",
+      "kind": "article"
+    },
+    {
+      "file": "moav-object-routine.html",
+      "title": "차분한 데일리 루틴",
+      "kind": "product"
+    },
+    {
+      "file": "moav-object-sound.html",
+      "title": "오후의 리스닝",
+      "kind": "product"
+    },
+    {
+      "file": "moav-object-vase.html",
+      "title": "여백을 담는 화병",
+      "kind": "product"
+    },
+    {
+      "file": "moav-personal-info-rule.html",
+      "title": "시연 이용 안내",
+      "kind": "policy"
+    },
+    {
+      "file": "moav-sitemap.html",
+      "title": "전체 페이지 안내",
+      "kind": "sitemap"
+    },
+    {
+      "file": "moav-support-bidding.html",
+      "title": "물건을 소개하기 전에 묻는 질문 · 19",
+      "kind": "article"
+    },
+    {
+      "file": "moav-support-inquiry.html",
+      "title": "함께 기획하기",
+      "kind": "contact"
+    },
+    {
+      "file": "moav-support-integrity-report.html",
+      "title": "함께 기획하기",
+      "kind": "contact"
+    },
+    {
+      "file": "moav-use-rule.html",
+      "title": "시연 이용 및 정보 안내",
+      "kind": "policy"
+    },
+    {
+      "file": "moav-value-ethics-compliance-compliance.html",
+      "title": "같은 물건을 다르게 쓰는 방법 · 23",
+      "kind": "article"
+    },
+    {
+      "file": "moav-value-ethics-compliance-ethics.html",
+      "title": "취향을 나누는 대화의 시작 · 24",
+      "kind": "article"
+    },
+    {
+      "file": "moav-value-ethics-compliance-viewer-committee.html",
+      "title": "물건을 소개하기 전에 묻는 질문 · 25",
+      "kind": "article"
+    },
+    {
+      "file": "moav-value-partnership.html",
+      "title": "같은 물건을 다르게 쓰는 방법 · 26",
+      "kind": "article"
+    }
+  ]
+}

@@ -1,6 +1,0 @@
-:root{--moav-primary:#6926e8;--moav-accent:#a8e2d2;--moav-ink:#1b1b1b;--moav-paper:#fff}
-[class*="HeaderLogo"][class$="__logo"]>a{display:block;width:100%;height:100%}
-/* The local landscape footage fills the portrait channel display at every size. */
-[class*="ChannelLauncher"][class$="__vboxVideo"]{inset:0;width:100%;height:100%;object-fit:cover;object-position:center;border-radius:inherit;transform:none}
-#moav-status{margin:24px auto;padding:20px 24px;border-radius:12px;max-width:800px;background:#f3edff;color:#452085;font-size:15px;line-height:1.7}
-@media(max-width:767px){#moav-status{margin:20px;padding:16px;font-size:14px}}

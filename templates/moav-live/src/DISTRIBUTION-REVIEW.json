@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "project": "moav-live",
+  "status": "reviewed",
+  "reviewDate": "2026-11-06",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "ed367b6810ef56ed49f12c5348b21e6d21f335e7d13a05b654212b23fa44dcab",
+      "origin": "reviewed-project-source"
+    },
+    "assets/moav-creator-beauty.png": {
+      "sha256": "216a9499da323317cd360134ec9b62d03fcca8e9c11752f1aa966ce45edaf83f",
+      "origin": "documented-ai-generation"
+    },
+    "assets/moav-creator-fashion.png": {
+      "sha256": "375d6a10ad8efe43dbfe2f1acc990d1ade4f20f18a053acc74beeab745b5269b",
+      "origin": "documented-ai-generation"
+    },
+    "assets/moav-creator-living.png": {
+      "sha256": "2518a29eab96d07e0dce24a4ab713869a79aea4e0e978a79695ccdeb89e0cda5",
+      "origin": "documented-ai-generation"
+    },
+    "assets/moav-headphones.png": {
+      "sha256": "8f2a9acf4a1269773fc39dd81aa802da0f5d461d51d17a0d17015900aa95b2ac",
+      "origin": "documented-ai-generation"
+    },
+    "assets/moav-objects.png": {
+      "sha256": "c698996638bca28017c77ba20f69fcd37fb37d814d1484ccc3aa05d297ffcdc6",
+      "origin": "documented-ai-generation"
+    },
+    "assets/moav-skincare.png": {
+      "sha256": "9f181ad30081639541c8342b36b3b365c1f8947b34c85a72b990d47476c1f9bb",
+      "origin": "documented-ai-generation"
+    },
+    "assets/moav-story-hd.mp4": {
+      "sha256": "892dbbe2e05d95ec40c4ac17bf8678711a0df9299e7d970bbdc5ad7ff443ea54",
+      "origin": "documented-generated-photo-video"
+    },
+    "assets/moav-studio.png": {
+      "sha256": "b8f8a0c8a08041bf6ad1ab4e1b2f85cf38823b0796a1e697251342ea115a4eab",
+      "origin": "documented-ai-generation"
+    },
+    "assets/moav-team.png": {
+      "sha256": "7c746180fb47e4c716c480f15b0cac0bfe7d013ce071280fa76f33688bdf178f",
+      "origin": "documented-ai-generation"
+    },
+    "assets/moav-value-compliance.png": {
+      "sha256": "91ec0659fa00d2b563c0018bc828fa6c6ece149d57e7198186d6319a05a89d03",
+      "origin": "documented-ai-generation"
+    },
+    "assets/moav-value-ethics.png": {
+      "sha256": "596fa939d234b41b6c7b6e602f06885818cfa439729238c8f0f01057c62b4776",
+      "origin": "documented-ai-generation"
+    },
+    "assets/moav-value-partnership.png": {
+      "sha256": "5a4bdd0e6ec4f43a09229f9db06615fcf57b9f213ee2e612d12f6938f5f7a8a4",
+      "origin": "documented-ai-generation"
+    },
+    "assets/moav-value-viewer-committee.png": {
+      "sha256": "822c0973ac47530ffa1bbf5ef4a9128d17a99638529df14c7ad38f0a333cf854",
+      "origin": "documented-ai-generation"
+    },
+    "assets/moav-vase.png": {
+      "sha256": "09c2e3bfbe97ddaec2cea5a253b3f7e5c74485a645a84f3f0233827963ad581d",
+      "origin": "documented-ai-generation"
+    },
+    "brand-guide.txt": {
+      "sha256": "4c2aeb20fe64aff3e477899ad29754c08ae97d19d9305b96bc3b942be4cab030",
+      "origin": "reviewed-project-source"
+    },
+    "IMAGE-PROMPTS.md": {
+      "sha256": "8f7bf27a6b2aaaf33ac6adb44c7b76b871a4d100ae9979578270fc0f9bc878a7",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "603133ddc4c1f0f4ea74c6be3e626792628dc72810d0dccccdfdf43239528a40",
+      "origin": "reviewed-project-source"
+    },
+    "LICENSE.txt": {
+      "sha256": "fad141e7bd6dd211810cd79c0be32484e804295a2db61ed6f3865e788f4ada2b",
+      "origin": "reviewed-project-source"
+    },
+    "moav-about-history.html": {
+      "sha256": "76a7fabdb8aa646721cca6b7998a235807982bc093b2e7fcda0d9f3a2ddb4b43",
+      "origin": "reviewed-project-source"
+    },
+    "moav-about-who-we-are.html": {
+      "sha256": "14581e1409acc70628584e05e074a8d4f5f518ba76127619f143c642a6d792e6",
+      "origin": "reviewed-project-source"
+    },
+    "moav-business-channel.html": {
+      "sha256": "ff1fb114e267f8c1ba0851446af52de78b8da283f006abeac437f27bbe3c67f5",
+      "origin": "reviewed-project-source"
+    },
+    "moav-business-global.html": {
+      "sha256": "79022ebc811cc1502b158441cca5dbcc0d070bdd564eb4d0dc08a8c709de6a8a",
+      "origin": "reviewed-project-source"
+    },
+    "moav-business-ip-universe.html": {
+      "sha256": "cdbfd89e90e907b14317be9d615d3b9c770e3dda8b45b3b9f4bf9881fa7233a9",
+      "origin": "reviewed-project-source"
+    },
+    "moav-business-md-portfolio.html": {
+      "sha256": "a4a53d994cd89ecbbf1b73615cd71aa8b131dfcb75cd214ce513cfccd70b47a4",
+      "origin": "reviewed-project-source"
+    },
+    "moav-careers-benefit.html": {
+      "sha256": "4bdde4f660fe3e248966fdd5ae52a48e2fc15818c11314f16edc65bda5959ab5",
+      "origin": "reviewed-project-source"
+    },
+    "moav-careers-culture.html": {
+      "sha256": "b746b23aa77cff820d6851e412496b792ac255be3ebbcd06d9ea15a8ab3060d1",
+      "origin": "reviewed-project-source"
+    },
+    "moav-careers-people.html": {
+      "sha256": "b6294e8fb9554dac3c5811239e36ff55ee7fc307d9ac8cb97736b809fc3ca0c1",
+      "origin": "reviewed-project-source"
+    },
+    "moav-cart.html": {
+      "sha256": "b7d1fd7e7151f83d0f7c6279407eb7fb88c5a1e687e515bd860550e18bc61062",
+      "origin": "reviewed-project-source"
+    },
+    "moav-edit.html": {
+      "sha256": "7cf41b873728c91564e55cb3dd64d7de97a808e3a0c8200d1b87bc59e79bc8cf",
+      "origin": "reviewed-project-source"
+    },
+    "moav-english.html": {
+      "sha256": "756b164dbb8435bde75db1758f341f76e231fe1316f323c71ca1d51c6dc8e18d",
+      "origin": "reviewed-project-source"
+    },
+    "moav-newsroom-media.html": {
+      "sha256": "f677c43c03e97dc4fe24ddd7eef943ceb8958673dfe956008343d1334729f70c",
+      "origin": "reviewed-project-source"
+    },
+    "moav-newsroom-on-insight.html": {
+      "sha256": "34074b7cd3b9e9a49670d172325096ff49de9a33409aeac4e6f58553f3aff1ac",
+      "origin": "reviewed-project-source"
+    },
+    "moav-newsroom-press-162.html": {
+      "sha256": "3483dec67fdace12a7e6e7063ecfe355bcf72b51a0b527fad42744a2132c1213",
+      "origin": "reviewed-project-source"
+    },
+    "moav-newsroom-press-165.html": {
+      "sha256": "804702f725d77d16b21c5fffb1a050625ca57cd9f49ec0aadf3ab12658cd4960",
+      "origin": "reviewed-project-source"
+    },
+    "moav-newsroom-press-167.html": {
+      "sha256": "3d2ece2ae20d4dd3ce20ca6005d78e48b2e0b1c25389bb40f7b10383c6fd83b5",
+      "origin": "reviewed-project-source"
+    },
+    "moav-newsroom-press.html": {
+      "sha256": "2ebd4ec469682e53c379415e6604b158902ae6d297dee44771f26d3a3269503e",
+      "origin": "reviewed-project-source"
+    },
+    "moav-object-routine.html": {
+      "sha256": "b7f91e568ba19bd0e5e3202ee7cb510170c12053c2ef3badcbd24dc3c579e546",
+      "origin": "reviewed-project-source"
+    },
+    "moav-object-sound.html": {
+      "sha256": "ab30d852a9751563c55c04c024c1e6e56e143b1d731cdb642ac413c50eb32295",
+      "origin": "reviewed-project-source"
+    },
+    "moav-object-vase.html": {
+      "sha256": "ca49f4b14beef945b9962e348d83e0c04abb04e00f1996dd7c4db199c07edf3d",
+      "origin": "reviewed-project-source"
+    },
+    "moav-personal-info-rule.html": {
+      "sha256": "02d04aac901647d5ca2ecf6e69669d3badfb305718ce3caebaee08c772d2823b",
+      "origin": "reviewed-project-source"
+    },
+    "moav-sitemap.html": {
+      "sha256": "bd71854af465962b847171f210263a801be8fc078d8b6dcad7aca3bc8d6c83cd",
+      "origin": "reviewed-project-source"
+    },
+    "moav-support-bidding.html": {
+      "sha256": "511dd842705f353bef384800ed1b9a5770d3682e89162d951331b96a0434867e",
+      "origin": "reviewed-project-source"
+    },
+    "moav-support-inquiry.html": {
+      "sha256": "1920ce85422f72c483ae6f10b1b631926fd14b2d11e4312445e3ed0bb8c1015a",
+      "origin": "reviewed-project-source"
+    },
+    "moav-support-integrity-report.html": {
+      "sha256": "bb19c98c28abf420ad870f3940e6719c85140737074ceeeb7bf7b887431b4da6",
+      "origin": "reviewed-project-source"
+    },
+    "moav-use-rule.html": {
+      "sha256": "837a251ddc5c7a3bb0c63e5d82e67bad0ed9a69f39ded38fd57c6dbe0edefc54",
+      "origin": "reviewed-project-source"
+    },
+    "moav-value-ethics-compliance-compliance.html": {
+      "sha256": "53eec429111395a1078e552afe10547e767188ca7d81a795c2a68d4ad60cd025",
+      "origin": "reviewed-project-source"
+    },
+    "moav-value-ethics-compliance-ethics.html": {
+      "sha256": "4cd4c4f9c8c3dd42aa9ff77497ed42b9a7b8eb0224466d17cccfde6ea611ae53",
+      "origin": "reviewed-project-source"
+    },
+    "moav-value-ethics-compliance-viewer-committee.html": {
+      "sha256": "e1f6b38e648fbf1e05b1f8383867866de6d1bd03a43036812673d04cc7a2c7a7",
+      "origin": "reviewed-project-source"
+    },
+    "moav-value-partnership.html": {
+      "sha256": "c73bed4950927d354ade603fbd2a10926adb83f1d984d4b0bbf13547e8f877d5",
+      "origin": "reviewed-project-source"
+    },
+    "original-build.mjs": {
+      "sha256": "be2509c63fe86a4d8ea0d85f1ad41ce656d1b2647ef875e2c13a3fc788516fc4",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "6a9354e82c5b369a16944459ececad59d9cffb0621c41d29bc7e34f7b8646630",
+      "origin": "reviewed-project-source"
+    },
+    "site-config.json": {
+      "sha256": "648a056f371b6608e446f9b00447d50d560c2e21ef80b608fb980dae253aa491",
+      "origin": "reviewed-project-source"
+    },
+    "site.css": {
+      "sha256": "fb0bf6ff577040cccd0d3e5f4349976a82c0838cecd8a39f231a5c5afe71b2fb",
+      "origin": "reviewed-project-source"
+    },
+    "site.js": {
+      "sha256": "70482a8495d23ca784543109068bc7862a48585c6561d8223402c0fdfaa673c9",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "e76e9bbf0c20358d9b578e742c2cdc3bf188885f9623a81efd64ae6a636a90d1",
+      "origin": "reviewed-project-source"
+    }
+  }
+}
