@@ -1,0 +1,498 @@
+{
+  "schemaVersion": 1,
+  "project": "atelier-cuisine",
+  "date": "2026-11-06",
+  "creator": "Qeploy contributors",
+  "origin": "original-vector",
+  "description": "New SVG illustrations authored directly as geometric vector code. No original raster pixels, external assets, copied SVG paths, photographs, or model-generated photographic images were used. Illustrations are fictional depictions, not records of actual people, places, medical outcomes or products.",
+  "permissions": {
+    "commercialUse": true,
+    "modification": true,
+    "sourceTemplateRedistribution": true,
+    "scope": "Only the new SVG artwork listed below; this statement does not grant rights to fonts, code, designs or other third-party materials."
+  },
+  "assets": [
+    {
+      "file": "fonts/playfair-display-italic.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Playfair-Display-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "6021680663c58b344d8404c289c755aadc662a02189ffe4f5ca79378f9e97840"
+    },
+    {
+      "file": "fonts/playfair-display-regular.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Playfair-Display-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "1609a54fa3ad1abc8d0037132f73700333241ea0b65672079998e352f151dea7"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-bold.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "32971ad7976930539a11c79ce91ce84092df7f25c5be716b594601842f10a7ae"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-medium.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "b4fc14ec283d54236fd302cdb92546f98ae0ff061ca5ee23453a02bdf4628791"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-regular.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "076831b98043f50f829b6c91db3be4a844641f1c95bccff5c886ed87c661a852"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-semibold.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "50357df108c5d297ec4ece76aeddf49561f3794f67af077cfc2c711b7a75b439"
+    },
+    {
+      "file": "images/atelier-abalone.svg",
+      "replaces": "images/atelier-abalone.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "45a5e0fbbf280656a0d01a2c8a38e24c30c6e85b6192f4770c79b7b6d2f6f7c4"
+    },
+    {
+      "file": "images/atelier-artichoke.svg",
+      "replaces": "images/atelier-artichoke.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "d4e1dd93414b592308c1de9591e873bd581d72b4ab5e82a106f38d6a3ee864c2"
+    },
+    {
+      "file": "images/atelier-bottarga-gallery.svg",
+      "replaces": "images/atelier-bottarga-gallery.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "4b31319e5625cb978fbe11cfe0724bfd63a095feabbabe7bed01ec2491f6fb99"
+    },
+    {
+      "file": "images/atelier-bottarga-serving.svg",
+      "replaces": "images/atelier-bottarga-serving.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "f96a4cdb3ccdf6fa116010ddcc8f82cecaa9ac735aa50c1bf978c6bd0e4a09c4"
+    },
+    {
+      "file": "images/atelier-bottarga.svg",
+      "replaces": "images/atelier-bottarga.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "af9a44e5685f66171142ead278e48aa18f7f877bddcee57d0659fb0718866f37"
+    },
+    {
+      "file": "images/atelier-bourguignon.svg",
+      "replaces": "images/atelier-bourguignon.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "9e53d13c7ef25ee631d07d4ad62c31d5166bc3d9dd935f568b8417f037493df1"
+    },
+    {
+      "file": "images/atelier-bruschetta.svg",
+      "replaces": "images/atelier-bruschetta.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "109839daefd1c092d11133deb13f08b4a1a2baecccb52813c1f54eadb95fc44e"
+    },
+    {
+      "file": "images/atelier-butter-chicken.svg",
+      "replaces": "images/atelier-butter-chicken.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "1da02f6d04c74f22aaa0b1f22d670e7f51f4124693c87d9fa1dcf2449a975780"
+    },
+    {
+      "file": "images/atelier-carbonara.svg",
+      "replaces": "images/atelier-carbonara.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "214421d4337482dd99efc13443ff7adfaa64d444c493562cd19072e0eb453fa6"
+    },
+    {
+      "file": "images/atelier-chef-haru.svg",
+      "replaces": "images/atelier-chef-haru.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "d4063e9044b078d17a64942de949d4d3d32d50eabd75674831edfe378b3de184"
+    },
+    {
+      "file": "images/atelier-chef-laurent.svg",
+      "replaces": "images/atelier-chef-laurent.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "2c65ac46a555554c0abd54410825227f4fc2bdb9f21de838ff4e6a2b8ffca9c9"
+    },
+    {
+      "file": "images/atelier-chef-mateo-portrait.svg",
+      "replaces": "images/atelier-chef-mateo-portrait.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "89f960665d0b6447e6b84ea500253bc818bbbe5a729d69cabcd4d02979a6286f"
+    },
+    {
+      "file": "images/atelier-chef-mateo-profile.svg",
+      "replaces": "images/atelier-chef-mateo-profile.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "f217dde1001f37e73876261e88b1b8f8ee696bc85472e8b4835dcf05b1452e45"
+    },
+    {
+      "file": "images/atelier-chef-mateo.svg",
+      "replaces": "images/atelier-chef-mateo.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "52fbe4f7c5da45cba1107320cd92a4509c6410376fadcb43558a22a3c5d6c6ec"
+    },
+    {
+      "file": "images/atelier-chef-preview.svg",
+      "replaces": "images/atelier-chef-preview.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "12eacbe6eef6de171c1f528ea9ece1a43e594673ce765805f42f99f5931cf632"
+    },
+    {
+      "file": "images/atelier-class-kit.svg",
+      "replaces": "images/atelier-class-kit.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "ec338acc0f9720506ea1834cf8463f56f157c4ff1f8c129c79b996cae3429904"
+    },
+    {
+      "file": "images/atelier-confit.svg",
+      "replaces": "images/atelier-confit.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "5c1d732a6a3821fd7f8809780dc46e7d5c85b11bbc68c2202e394434be4f5f7e"
+    },
+    {
+      "file": "images/atelier-dongpo.svg",
+      "replaces": "images/atelier-dongpo.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "b4959456479ad9c0eab358856b6d33dc3314265aea2acb89f6b40e8f40c60c88"
+    },
+    {
+      "file": "images/atelier-emulsion-step.svg",
+      "replaces": "images/atelier-emulsion-step.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "ccdc2e5b1ae1d2b135b5da94cdec0e0ecdce16cb655cf4813a5aef1b5d22cc6f"
+    },
+    {
+      "file": "images/atelier-herbs.svg",
+      "replaces": "images/atelier-herbs.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "757fb9999d3536ff8b9e8119768bda078889b18e51648682550e1327bb574def"
+    },
+    {
+      "file": "images/atelier-hotpot.svg",
+      "replaces": "images/atelier-hotpot.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "56f7bf1f9699c2c73633a124f339b5da38048171fc276fffbc9f01eb7188df7f"
+    },
+    {
+      "file": "images/atelier-kaoyu.svg",
+      "replaces": "images/atelier-kaoyu.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "8890925b4554090217521e443a40e20d2b847eb9247298e1fbc7589d2f784ad8"
+    },
+    {
+      "file": "images/atelier-knives.svg",
+      "replaces": "images/atelier-knives.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "d87cf6108f69e2f4c4c72b45ffabea17265f1d087d7ddd7b50aa4b828773612a"
+    },
+    {
+      "file": "images/atelier-korean-table.svg",
+      "replaces": "images/atelier-korean-table.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "31fb8fb477fa0c45d934086a7bd812d63bd35c1c35c22d9dba941885b20a18ac"
+    },
+    {
+      "file": "images/atelier-lesson-preview.svg",
+      "replaces": "images/atelier-lesson-preview.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "efbd6d71d90c852ec8ef915c5415238335e161dc17b1409f25071359e68b74d9"
+    },
+    {
+      "file": "images/atelier-mediterranean-pasta.svg",
+      "replaces": "images/atelier-mediterranean-pasta.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "52664fdfe84222451ef9e83d78b742ddd153619272802a500a122c8d9490d577"
+    },
+    {
+      "file": "images/atelier-octopus.svg",
+      "replaces": "images/atelier-octopus.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "dbbaaaace19e97360ec3e5d2f5c2268980bccbcaeb2f5a2ee386aee8a29bde89"
+    },
+    {
+      "file": "images/atelier-oil-infusion.svg",
+      "replaces": "images/atelier-oil-infusion.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "acad4ea57fd5489eb1df79710adea9eef0890fb7910a5442a23998956c15bb82"
+    },
+    {
+      "file": "images/atelier-oil-pouring.svg",
+      "replaces": "images/atelier-oil-pouring.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "e9d309ae1745dbd1635023290db3c4fc97b8f8071ba648e15f55bfa2b2c72b11"
+    },
+    {
+      "file": "images/atelier-olive-bottle.svg",
+      "replaces": "images/atelier-olive-bottle.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "6ca0f4e6bf2831c38469285b4ab1cf3471b14e632842d5e813e172646018e6d3"
+    },
+    {
+      "file": "images/atelier-olive-grove.svg",
+      "replaces": "images/atelier-olive-grove.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "62c29d81a10244a76d4c341b16214c9e183e343cb0fb783b53935e1ac11f4783"
+    },
+    {
+      "file": "images/atelier-olive-grower.svg",
+      "replaces": "images/atelier-olive-grower.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "fc2988679f536eb02cce629ee6cc5eab2d0494b079908beeae7d0cc00134e0c8"
+    },
+    {
+      "file": "images/atelier-olive-home.svg",
+      "replaces": "images/atelier-olive-home.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "be4b79760bba3a8c2869291f971d2223192ae75e97d55d784c69f0419512c3a6"
+    },
+    {
+      "file": "images/atelier-olive-label.svg",
+      "replaces": "images/atelier-olive-label.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "014b7e4a92ada7bed9533e35dbd37a5279365b5c0798cd05671c4a3bc9b0c382"
+    },
+    {
+      "file": "images/atelier-olive-oil.svg",
+      "replaces": "images/atelier-olive-oil.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "c5f483e00e6252088263433af079d62abbc5f6a475db44198f7bca4200422ac4"
+    },
+    {
+      "file": "images/atelier-paella.svg",
+      "replaces": "images/atelier-paella.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "fdcb96c468dc67cc3b3aff6d1ecb5526c017f6e12fb98e79030e3fb602e762df"
+    },
+    {
+      "file": "images/atelier-pairing-bottle.svg",
+      "replaces": "images/atelier-pairing-bottle.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "fe71ab8b60a5c892c003fd1a84ddef09bf4c564af00dd88b10284b768f795136"
+    },
+    {
+      "file": "images/atelier-pairing-table.svg",
+      "replaces": "images/atelier-pairing-table.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "d0b09776d069f4b5c73427fc17795ca8c577e51fa093d9ff7f4df1e9b98cc88f"
+    },
+    {
+      "file": "images/atelier-pasta-boiling.svg",
+      "replaces": "images/atelier-pasta-boiling.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "0fbd01057cac9c9b73ddabd32bd0f96466eb9a7310019bd951b2db808ec262cc"
+    },
+    {
+      "file": "images/atelier-pasta-emulsion.svg",
+      "replaces": "images/atelier-pasta-emulsion.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "95da3b62d6625ca7e21ef0a17deca54cc7b5c08f86cd7d641315ff2f2d82fd96"
+    },
+    {
+      "file": "images/atelier-pasta-ingredients.svg",
+      "replaces": "images/atelier-pasta-ingredients.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "6879e6c5e8b48ea09e21dadbe946924639a44fad555da9fb870e495cc6a90a90"
+    },
+    {
+      "file": "images/atelier-pasta-machine.svg",
+      "replaces": "images/atelier-pasta-machine.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "ab775e6c28020a305a9de59e8550d7cdec3e5b5a5642c517c609706f1a9d864c"
+    },
+    {
+      "file": "images/atelier-pasta-plating.svg",
+      "replaces": "images/atelier-pasta-plating.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "11fd50e05f533935b080bab27045fc311eab970b8ba373798f6f1eda283d268c"
+    },
+    {
+      "file": "images/atelier-ramen.svg",
+      "replaces": "images/atelier-ramen.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "85907864019f3e09d947c91ae8014306c41280361a71fa5c69b926dd963f17a3"
+    },
+    {
+      "file": "images/atelier-ratatouille.svg",
+      "replaces": "images/atelier-ratatouille.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "1aec9f6bcd87961011b9dd07881a036459b1de2aff0c418ddb4bf89320c73b71"
+    },
+    {
+      "file": "images/atelier-reader-pasta-one.svg",
+      "replaces": "images/atelier-reader-pasta-one.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "db8eca055a53ef2e1e5879c05394b838953b685fe0929f17e5f7040cccba04af"
+    },
+    {
+      "file": "images/atelier-reader-pasta-three.svg",
+      "replaces": "images/atelier-reader-pasta-three.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "75254493389b6fa65b6671097e939f3b51787daff938f118981bd41f21737d6f"
+    },
+    {
+      "file": "images/atelier-reader-pasta-two.svg",
+      "replaces": "images/atelier-reader-pasta-two.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "86e92e8a334cb280bffaefe39e33304910ec23c21323103b340c323597e18841"
+    },
+    {
+      "file": "images/atelier-soba-table.svg",
+      "replaces": "images/atelier-soba-table.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "4bca9c42f99c3e860a7ff9babad874d44429a63e50b40f0a116835a04d2e7627"
+    },
+    {
+      "file": "images/atelier-soba.svg",
+      "replaces": "images/atelier-soba.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "bf55621f80ba5df46d40ff8217c579bb6ba1ba5b7ab7be935be4df789fce2b9b"
+    },
+    {
+      "file": "images/atelier-taco-table.svg",
+      "replaces": "images/atelier-taco-table.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "1905b2755d89a9443d8ad451becc430b71214cc240371b7f419a788e37f9b212"
+    },
+    {
+      "file": "images/atelier-tacos.svg",
+      "replaces": "images/atelier-tacos.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "8d1a201ca2ad9a3776fbc878281e007b995795f10605c8ad5389ea97736bedda"
+    },
+    {
+      "file": "images/atelier-thai-curry.svg",
+      "replaces": "images/atelier-thai-curry.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "18552b0a5b84799c5c327e320c68791815f48652172b5cea9e2c6ebc48f01cab"
+    },
+    {
+      "file": "images/atelier-tomyum.svg",
+      "replaces": "images/atelier-tomyum.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "0e3e4edd578a9b53471b2b41afcdbe3d0bf5057c608465a33ee888e96b64b0ac"
+    }
+  ],
+  "reviewed": "2026-11-06",
+  "scope": "File-level provenance and applicable conditions only, not a legal non-infringement guarantee."
+}

@@ -4,7 +4,7 @@ window.ATELIER={
       "id": "bottarga",
       "title": "시칠리아산 보타르가와 햇올리브오일 생면 탈리올리니",
       "cuisine": "italian",
-      "image": "images/atelier-bottarga.jpg",
+      "image": "images/atelier-bottarga.svg",
       "minutes": 25,
       "chefId": "mateo",
       "productIds": [
@@ -74,7 +74,7 @@ window.ATELIER={
       "id": "mediterranean",
       "title": "지중해 햇올리브와 수제 생면 파스타",
       "cuisine": "italian",
-      "image": "images/atelier-mediterranean-pasta.jpg",
+      "image": "images/atelier-mediterranean-pasta.svg",
       "minutes": 30,
       "chefId": "mateo",
       "productIds": [
@@ -134,7 +134,7 @@ window.ATELIER={
       "id": "bourguignon",
       "title": "정통 부르고뉴 와인 비프 부르기뇽",
       "cuisine": "french",
-      "image": "images/atelier-bourguignon.jpg",
+      "image": "images/atelier-bourguignon.svg",
       "minutes": 120,
       "chefId": "laurent",
       "productIds": [
@@ -197,7 +197,7 @@ window.ATELIER={
       "id": "ramen",
       "title": "자가제면 차슈 진국 돈코츠 라멘",
       "cuisine": "japanese",
-      "image": "images/atelier-ramen.jpg",
+      "image": "images/atelier-ramen.svg",
       "minutes": 45,
       "chefId": "haru",
       "productIds": [
@@ -260,7 +260,7 @@ window.ATELIER={
       "id": "thai-curry",
       "title": "소프트쉘 크랩 옐로우 푸팟퐁커리",
       "cuisine": "thai",
-      "image": "images/atelier-thai-curry.jpg",
+      "image": "images/atelier-thai-curry.svg",
       "minutes": 35,
       "chefId": "haru",
       "productIds": [
@@ -323,7 +323,7 @@ window.ATELIER={
       "id": "dongpo",
       "title": "입안에서 녹아내리는 항저우 동파육",
       "cuisine": "chinese",
-      "image": "images/atelier-dongpo.jpg",
+      "image": "images/atelier-dongpo.svg",
       "minutes": 120,
       "chefId": "haru",
       "productIds": [
@@ -386,7 +386,7 @@ window.ATELIER={
       "id": "confit",
       "title": "허브 향을 품은 프렌치 덕 콩피",
       "cuisine": "french",
-      "image": "images/atelier-confit.jpg",
+      "image": "images/atelier-confit.svg",
       "minutes": 90,
       "chefId": "laurent",
       "productIds": [
@@ -444,7 +444,7 @@ window.ATELIER={
       "id": "carbonara",
       "title": "달걀과 치즈의 생면 카르보나라",
       "cuisine": "italian",
-      "image": "images/atelier-carbonara.jpg",
+      "image": "images/atelier-carbonara.svg",
       "minutes": 25,
       "chefId": "mateo",
       "productIds": [
@@ -503,7 +503,7 @@ window.ATELIER={
       "id": "soba",
       "title": "단새우와 우니를 곁들인 소바 테이블",
       "cuisine": "japanese",
-      "image": "images/atelier-soba.jpg",
+      "image": "images/atelier-soba.svg",
       "minutes": 25,
       "chefId": "haru",
       "productIds": [
@@ -561,7 +561,7 @@ window.ATELIER={
       "id": "kaoyu",
       "title": "향신료와 채소를 곁들인 사천 카오위",
       "cuisine": "chinese",
-      "image": "images/atelier-kaoyu.jpg",
+      "image": "images/atelier-kaoyu.svg",
       "minutes": 50,
       "chefId": "haru",
       "productIds": [
@@ -619,7 +619,7 @@ window.ATELIER={
       "id": "tomyum",
       "title": "레몬그라스 향의 똠얌꿍",
       "cuisine": "thai",
-      "image": "images/atelier-tomyum.jpg",
+      "image": "images/atelier-tomyum.svg",
       "minutes": 30,
       "chefId": "haru",
       "productIds": [
@@ -677,7 +677,7 @@ window.ATELIER={
       "id": "birria",
       "title": "따뜻한 콘소메와 비리아 타코",
       "cuisine": "mexican",
-      "image": "images/atelier-tacos.jpg",
+      "image": "images/atelier-tacos.svg",
       "minutes": 90,
       "chefId": "mateo",
       "productIds": [
@@ -735,7 +735,7 @@ window.ATELIER={
       "id": "abalone",
       "title": "전복과 감태의 모던 솥밥",
       "cuisine": "korean",
-      "image": "images/atelier-abalone.jpg",
+      "image": "images/atelier-abalone.svg",
       "minutes": 40,
       "chefId": "haru",
       "productIds": [
@@ -793,7 +793,7 @@ window.ATELIER={
       "id": "butter-chicken",
       "title": "크림과 향신료의 인디안 버터치킨",
       "cuisine": "indian",
-      "image": "images/atelier-butter-chicken.jpg",
+      "image": "images/atelier-butter-chicken.svg",
       "minutes": 45,
       "chefId": "laurent",
       "productIds": [
@@ -851,7 +851,7 @@ window.ATELIER={
       "id": "paella",
       "title": "주말의 해산물 파에야 테이블",
       "cuisine": "italian",
-      "image": "images/atelier-paella.jpg",
+      "image": "images/atelier-paella.svg",
       "minutes": 45,
       "chefId": "mateo",
       "productIds": [
@@ -909,7 +909,7 @@ window.ATELIER={
       "id": "ratatouille",
       "title": "계절 채소의 프렌치 라타투이",
       "cuisine": "french",
-      "image": "images/atelier-ratatouille.jpg",
+      "image": "images/atelier-ratatouille.svg",
       "minutes": 50,
       "chefId": "laurent",
       "productIds": [
@@ -967,7 +967,7 @@ window.ATELIER={
       "id": "hotpot",
       "title": "향신료와 채소의 사천 훠궈",
       "cuisine": "chinese",
-      "image": "images/atelier-hotpot.jpg",
+      "image": "images/atelier-hotpot.svg",
       "minutes": 35,
       "chefId": "haru",
       "productIds": [
@@ -1025,7 +1025,7 @@ window.ATELIER={
       "id": "octopus",
       "title": "올리브오일과 허브의 돌문어 샐러드",
       "cuisine": "italian",
-      "image": "images/atelier-octopus.jpg",
+      "image": "images/atelier-octopus.svg",
       "minutes": 25,
       "chefId": "mateo",
       "productIds": [
@@ -1083,7 +1083,7 @@ window.ATELIER={
       "id": "bruschetta",
       "title": "토마토와 바질의 브루스케타",
       "cuisine": "italian",
-      "image": "images/atelier-bruschetta.jpg",
+      "image": "images/atelier-bruschetta.svg",
       "minutes": 15,
       "chefId": "mateo",
       "productIds": [
@@ -1141,7 +1141,7 @@ window.ATELIER={
       "id": "artichoke",
       "title": "지중해 아티초크와 민트 샐러드",
       "cuisine": "italian",
-      "image": "images/atelier-artichoke.jpg",
+      "image": "images/atelier-artichoke.svg",
       "minutes": 15,
       "chefId": "mateo",
       "productIds": [
@@ -1202,7 +1202,7 @@ window.ATELIER={
       "name": "아틀리에 햇올리브 엑스트라버진 오일 500ml",
       "price": 23900,
       "originalPrice": 35000,
-      "image": "images/atelier-olive-oil.jpg",
+      "image": "images/atelier-olive-oil.svg",
       "category": "pantry",
       "intro": "부드러운 향과 신선한 올리브의 풍미를 요리에 더하는 팬트리 셀렉션입니다.",
       "specs": [
@@ -1222,7 +1222,7 @@ window.ATELIER={
       "name": "아틀리에 셰프 나이프 5종 & 스테인리스 도마",
       "price": 25900,
       "originalPrice": 148000,
-      "image": "images/atelier-knives.jpg",
+      "image": "images/atelier-knives.svg",
       "category": "tools",
       "intro": "재료를 손질하는 기본 동작부터 차분히 준비하는 키친웨어 예시입니다.",
       "specs": [
@@ -1241,7 +1241,7 @@ window.ATELIER={
       "name": "아틀리에 수동 생면 파스타 머신",
       "price": 139000,
       "originalPrice": 199000,
-      "image": "images/atelier-pasta-machine.jpg",
+      "image": "images/atelier-pasta-machine.svg",
       "category": "tools",
       "intro": "반죽을 밀고 두께를 맞추는 과정을 경험하는 생면 도구입니다.",
       "specs": [
@@ -1260,7 +1260,7 @@ window.ATELIER={
       "name": "카피르 라임 & 갈랑갈 향신 허브 키트",
       "price": 32800,
       "originalPrice": 49000,
-      "image": "images/atelier-herbs.jpg",
+      "image": "images/atelier-herbs.svg",
       "category": "pantry",
       "intro": "세계 요리의 향을 살펴보는 허브와 향신료 큐레이션입니다.",
       "specs": [
@@ -1280,7 +1280,7 @@ window.ATELIER={
       "name": "마스터 클래스 향신료 & 올리브오일 키트",
       "price": 89000,
       "originalPrice": 124000,
-      "image": "images/atelier-class-kit.jpg",
+      "image": "images/atelier-class-kit.svg",
       "category": "kits",
       "intro": "셰프 클래스의 향과 산도를 집에서 살펴볼 수 있는 쿠킹 키트 예시입니다.",
       "specs": [
@@ -1299,7 +1299,7 @@ window.ATELIER={
       "name": "세몰리나 생면 탈리올리니 200g",
       "price": 6900,
       "originalPrice": 7900,
-      "image": "images/atelier-pasta-ingredients.jpg",
+      "image": "images/atelier-pasta-ingredients.svg",
       "category": "pantry",
       "intro": "오일과 면수의 조합을 살펴보기 위한 생면 파스타 예시입니다.",
       "specs": [
@@ -1319,7 +1319,7 @@ window.ATELIER={
       "name": "보타르가 어란 셀렉션 30g",
       "price": 17400,
       "originalPrice": 19000,
-      "image": "images/atelier-bottarga-gallery.jpg",
+      "image": "images/atelier-bottarga-gallery.svg",
       "category": "pantry",
       "intro": "파스타의 풍미를 마무리하는 보타르가 예시 셀렉션입니다.",
       "specs": [
@@ -1339,7 +1339,7 @@ window.ATELIER={
       "id": "laurent",
       "name": "로렌 바우어",
       "role": "프렌치 테이블 마스터",
-      "image": "images/atelier-chef-laurent.jpg",
+      "image": "images/atelier-chef-laurent.svg",
       "intro": "채소와 버터, 천천히 익힌 소스의 풍미를 차분히 풀어내는 아틀리에의 예시 셰프입니다.",
       "recipeIds": [
         "bourguignon",
@@ -1351,7 +1351,7 @@ window.ATELIER={
       "id": "mateo",
       "name": "마테오 리",
       "role": "지중해·생면 파스타 마스터",
-      "image": "images/atelier-chef-mateo.jpg",
+      "image": "images/atelier-chef-mateo.svg",
       "intro": "반죽과 오일의 질감, 접시 위의 계절을 소개하는 아틀리에의 예시 셰프입니다.",
       "recipeIds": [
         "bottarga",
@@ -1363,7 +1363,7 @@ window.ATELIER={
       "id": "haru",
       "name": "하루 아오이",
       "role": "아시안 퀴진 마스터",
-      "image": "images/atelier-chef-haru.jpg",
+      "image": "images/atelier-chef-haru.svg",
       "intro": "향신료와 육수, 다양한 재료의 균형을 함께 살펴보는 아틀리에의 예시 셰프입니다.",
       "recipeIds": [
         "ramen",
@@ -1377,56 +1377,56 @@ window.ATELIER={
       "id": "french",
       "title": "프렌치 클래식",
       "intro": "버터와 소스, 천천히 익히는 테이블",
-      "image": "images/atelier-confit.jpg",
+      "image": "images/atelier-confit.svg",
       "url": "atelier-world-french.html"
     },
     {
       "id": "italian",
       "title": "이탈리안 & 지중해",
       "intro": "생면과 햇올리브오일의 계절",
-      "image": "images/atelier-carbonara.jpg",
+      "image": "images/atelier-carbonara.svg",
       "url": "atelier-world-italian.html"
     },
     {
       "id": "japanese",
       "title": "일식 가이세키",
       "intro": "육수와 계절 재료의 차분한 조합",
-      "image": "images/atelier-soba.jpg",
+      "image": "images/atelier-soba.svg",
       "url": "atelier-world-japanese.html"
     },
     {
       "id": "chinese",
       "title": "사천 & 중화 미식",
       "intro": "향신료와 불향의 깊은 맛",
-      "image": "images/atelier-kaoyu.jpg",
+      "image": "images/atelier-kaoyu.svg",
       "url": "atelier-world-chinese.html"
     },
     {
       "id": "thai",
       "title": "동남아 스트리트",
       "intro": "허브와 산미가 만나는 한 접시",
-      "image": "images/atelier-tomyum.jpg",
+      "image": "images/atelier-tomyum.svg",
       "url": "atelier-world-thai.html"
     },
     {
       "id": "mexican",
       "title": "라틴 & 타코",
       "intro": "토르티야와 나누는 즐거운 식탁",
-      "image": "images/atelier-tacos.jpg",
+      "image": "images/atelier-tacos.svg",
       "url": "atelier-world-mexican.html"
     },
     {
       "id": "korean",
       "title": "모던 코리안",
       "intro": "솥밥과 계절 재료의 새로운 시선",
-      "image": "images/atelier-abalone.jpg",
+      "image": "images/atelier-abalone.svg",
       "url": "atelier-world-korean.html"
     },
     {
       "id": "indian",
       "title": "인도 & 오리엔트",
       "intro": "향신료와 크림의 따뜻한 풍미",
-      "image": "images/atelier-butter-chicken.jpg",
+      "image": "images/atelier-butter-chicken.svg",
       "url": "atelier-world-indian.html"
     }
   ],
@@ -1435,29 +1435,29 @@ window.ATELIER={
       "id": "master",
       "title": "마스터 셰프가 전하는 전세계 퀴진의 시크릿 킥",
       "price": 0,
-      "image": "images/atelier-lesson-preview.jpg",
+      "image": "images/atelier-lesson-preview.svg",
       "url": "atelier-class-master.html",
       "duration": "6개 세션 · 이미지와 조리 노트",
       "chapters": [
         {
           "title": "사천의 향신료와 불향",
           "description": "향신료를 준비하고 채소의 향이 오일에 스며드는 과정을 살펴봅니다.",
-          "image": "images/atelier-oil-infusion.jpg"
+          "image": "images/atelier-oil-infusion.svg"
         },
         {
           "title": "지중해식 오일과 면수의 조합",
           "description": "면수와 오일을 섞으며 소스의 농도와 질감을 살펴봅니다.",
-          "image": "images/atelier-emulsion-step.jpg"
+          "image": "images/atelier-emulsion-step.svg"
         },
         {
           "title": "칠리와 라임의 균형",
           "description": "향과 산도를 조금씩 조절하며 한 접시의 균형을 맞추는 과정을 만납니다.",
-          "image": "images/atelier-lesson-preview.jpg"
+          "image": "images/atelier-lesson-preview.svg"
         },
         {
           "title": "버터와 채소의 풍미",
           "description": "색과 향을 관찰하며 버터와 채소가 만나는 변화를 기록합니다.",
-          "image": "images/atelier-chef-preview.jpg"
+          "image": "images/atelier-chef-preview.svg"
         }
       ],
       "recipeIds": [
@@ -1479,7 +1479,7 @@ window.ATELIER={
     {
       "id": "pairing",
       "title": "한 접시를 완성하는 미식 페어링",
-      "image": "images/atelier-pairing-bottle.jpg",
+      "image": "images/atelier-pairing-bottle.svg",
       "intro": "요리의 향과 식탁의 분위기가 만나는 순간을 기록합니다.",
       "paragraphs": [
         "오일의 향과 소스의 질감을 먼저 살펴보세요. 마무리에 더한 레몬과 허브는 접시의 인상을 조금씩 바꿉니다.",
@@ -1495,7 +1495,7 @@ window.ATELIER={
     {
       "id": "olive-harvest",
       "title": "햇올리브오일과 계절의 테이블",
-      "image": "images/atelier-olive-grower.jpg",
+      "image": "images/atelier-olive-grower.svg",
       "intro": "올리브의 향을 재료와 함께 바라보는 에디토리얼 노트.",
       "paragraphs": [
         "향을 맡고 적은 양을 접시에 더해 보세요. 익숙한 재료에서도 새로운 풍미를 발견할 수 있습니다.",

@@ -1,0 +1,573 @@
+{
+  "schemaVersion": 1,
+  "project": "atelier-cuisine",
+  "status": "reviewed",
+  "reviewDate": "2026-11-06",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "d9e7f06b75743b72a7424ec1cf331bfcab3545511af22ca05c6ee9526810f0f0",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-about.html": {
+      "sha256": "d550478949370c8f68e09c0f7c812d3b043dff5a0b9ac7b0f9c7b0d81cf6e41a",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-cart.html": {
+      "sha256": "fb09a1db0ec031fad812c0328218aaa84fcebef75071c9b8a858f760e3e761ae",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-checkout.html": {
+      "sha256": "649940d9e140e0725888610b8d437dfa4ba566a2d1ef3648fc7b8989ccf67625",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-chef-haru.html": {
+      "sha256": "594e31ae5223032cb8c684feee7fba2377349889a73dae033c45f6e80cc45a30",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-chef-laurent.html": {
+      "sha256": "697fad97bbd1d1ceb43bf601fe454ac179f0de704c030a2eb1cab8069a3d82f4",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-chef-mateo.html": {
+      "sha256": "4d779ed38497f76e997b0dbf20cce4d91ee237e3df01509e1cd45204007d5726",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-chefs.html": {
+      "sha256": "9470cf5b85fb3be3592c622fd56b5dad5e61a838ce75d592a2bed8bf7339a807",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-class-master.html": {
+      "sha256": "7c0ed8c916d59697585a0857a1df00643ccb20dceeec98552ff8f49d2b1309c1",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-class-notes.html": {
+      "sha256": "04a351243ae1f59d754609084a416cf9ca75b004cf82182c66140f855ec6a265",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-class-question.html": {
+      "sha256": "7c6b1e8da85230344a0bdbbc7a154e6fa92d0e7439bf02d400617c25a60ac84f",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-confirmation.html": {
+      "sha256": "0d311a0eb00c80c7da19b38275bf787d6c8da2d9bca133e2e06587fc26e3fec6",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-cuisine-build.mjs": {
+      "sha256": "723b91b2e746e9cea26a3d208f9fa674aee3d008e6bdaf449397b7e186dc56b9",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-cuisine-data.js": {
+      "sha256": "f3b3366d768aac69fe4a153858238c7cec44176ed9cb7989c898070ee76d14b3",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-cuisine.css": {
+      "sha256": "8503bce4e7a787cfee8cc1f89786b48f36d13924ae0bac434a9ed4aa8538a2f3",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-cuisine.js": {
+      "sha256": "e7b21753a77e83226863c1ad3fd7207c43eed16bc9c20c418fec8b24ada9a4d3",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-enroll.html": {
+      "sha256": "49899064f0bd7865ba88c042a218f653465a4b220eb6b63cd8f87e01430e1f0e",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-guidelines.html": {
+      "sha256": "87166adb99cf892ffbe31a22502d0d86da8df8c6d428420420e5cb0812ce4d17",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-login.html": {
+      "sha256": "54674274711a512634d2dc32df6f770a06db22e3092444574aec39bce3531ca4",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-market.html": {
+      "sha256": "69a9cb16d281114e86458f0a9f38073a12ca40041a33c4486b79100a95383ce6",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-monthly.html": {
+      "sha256": "cb679c4462e885ef37f301b86a674249670076c86c91aed0c1c8195eb8ca8e8b",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-notice.html": {
+      "sha256": "820e76fa837c540b886470f7182b3b9986b2c994993c436d2816f6e240f2ad91",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-partnership.html": {
+      "sha256": "05063f82974689dae537ca995a64b98633794b3c3b8c31fa2bfebe55286c527a",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-privacy.html": {
+      "sha256": "3f1b7ac9cc39aa64687b36d333071918778dc15c42116f40f9d94fac7f77bca6",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-product-bottarga.html": {
+      "sha256": "a00f264f9c381fcbd8b7bcd68bcc77a012cee179938c10a7404d2e4e2ca1ad96",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-product-class-kit.html": {
+      "sha256": "53c5995ed8b2366cd744ed16704a41afb3cb72b293f6257ccc26f161b94112da",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-product-fresh-pasta.html": {
+      "sha256": "5daf77180e8354c26b2d2e09683d8ecde5aba026c35c89e181b26182d8a79cf4",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-product-herb-kit.html": {
+      "sha256": "20ef4b4cc10448b2bd2a8de886183a9dff14bca468d88215bb47108db0a30357",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-product-knife-set.html": {
+      "sha256": "b5f5bdee5bebbcfb210e069a8a1543756f90c1c61aefcac6beb43ed6f2801a19",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-product-olive-oil.html": {
+      "sha256": "366524c597880cbe14c1f8e1e4ad5b354f5c2ecc741c96dc608459d4e3c9f7e9",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-product-pasta-machine.html": {
+      "sha256": "930282fa477be73e7cc68043889088ef63e5f7069a1f85e43eba632d7a182622",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-abalone.html": {
+      "sha256": "9d4c909c8cfa659ed50109bc9c75ba11754b741392f4fd231b5c857ac7b27c95",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-artichoke.html": {
+      "sha256": "85e2b09fb17bf3e04d76424974d63f4ebc19341e5be01d56806a033689af831a",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-birria.html": {
+      "sha256": "3ae9f0e50bdb022e2910d40847ebd0934f6b77ebd2a793332a5be43d6917242e",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-bottarga.html": {
+      "sha256": "c95d0b1bc5fb87d95e3287b5f51328970a60a63b25285c6d5a108a39fb367b5f",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-bourguignon.html": {
+      "sha256": "4b76f6d598aa718496492937d627e8238c4783a5a6a41db2b0d46623d46409f1",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-bruschetta.html": {
+      "sha256": "de3032ea75f1068ddb19f2341ed0b8e88e121c3f70d3798f602a58a0ea69a8a2",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-butter-chicken.html": {
+      "sha256": "d2b510f642ca9e2c712479726a6667b56926cb41258e263ce13841bbad86758e",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-carbonara.html": {
+      "sha256": "32636d70440008f9b79ca3f9651d0e45a9bc9b7095895edd7d917f69c5586245",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-confit.html": {
+      "sha256": "c3e7acfe1b43a665ed354c5d8ad4ef787b3c5bb3d0c41c682ca44a228701161a",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-dongpo.html": {
+      "sha256": "b4bfb7fe552a107edcc16afff7c760e066d47e932c5d1d3c88be1331641049d6",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-hotpot.html": {
+      "sha256": "f0a6c2500eac8a1809ad89a60130acd35f29f47c55283373b974813689644cd3",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-kaoyu.html": {
+      "sha256": "93164f220500f88d13893e54507e0b23ff37c5542248de257ede1f13cb5cacd6",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-mediterranean.html": {
+      "sha256": "898fb066c78d64c6ceb81e1b8b2fcbd2294b0389abd376dda2397e5213d409b7",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-octopus.html": {
+      "sha256": "33a25a7eb9c81767d11e9bedc9444393831fd6226f91613ca7eda87d20f4157f",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-paella.html": {
+      "sha256": "ab69d8327f4cfd3a941050765686d873f416b00ed9b18bfade85f00acadf3cba",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-ramen.html": {
+      "sha256": "1bfe5d854aed861e84cef8276a5d43d05aa6adca6cd160e0a7b0665807237d44",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-ratatouille.html": {
+      "sha256": "09b839e5b87ff052afdaea1fd609fac0b8fa006328106ff888001f5f8d8f1a4f",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-soba.html": {
+      "sha256": "a0505a7cfab747a95a4e825507077d8167c8ffa7d0738f09a9afcf714bd882f3",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-thai-curry.html": {
+      "sha256": "bac305e5c3d3ad746b8e74ad697216362eefa42ba793618a16bbf15e07ca2f57",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipe-tomyum.html": {
+      "sha256": "85dc92f1be7ab2b0fd194d403100f3dc7295cb14236396cdec382bd4557ce960",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-recipes.html": {
+      "sha256": "3c6b06616e55ff704b23f08a8e572e2e36efa156267fa0b0111466a91a5380b6",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-routes.json": {
+      "sha256": "99a996d11c0fe8c21d163dc0ebd981aad1608d5091abe3ebc6ac8d5a0567995e",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-scrapbook.html": {
+      "sha256": "48a6e93b8d243a527b1edd1b1b20f37359615951849545ec0256584c68b5809a",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-search.html": {
+      "sha256": "a8018042394d098f330a70412de713a6d3701e771cd45aa66587819fc071e4b2",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-share-table.html": {
+      "sha256": "b05b44179a6062582069daa8287f82ae402a6bf85b87df9a7ff60ee2b620e8fc",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-story-olive-harvest.html": {
+      "sha256": "78ece2757a6a05818bbd3a5c3d836ecbd561407748c7317e54649d81ca9ef6ef",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-story-pairing.html": {
+      "sha256": "cd8d3ee66649ded33745cf165ceec5784461aad2139d0997abfc5ba166cd1e47",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-studio.html": {
+      "sha256": "4ec5009237ed05b0cb581e74fc6f3618348519dff42a5de3470e36684604cc3c",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-submission.html": {
+      "sha256": "1c7878625b4704174839c4b7fc3a2d7ecb83a9a7e9fbd2dc16a1059207113b66",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-terms.html": {
+      "sha256": "37ef8fddabe0887a72bc997ecb84b90eaa1a605ddffc1557dc5bc752e6f16295",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-world-chinese.html": {
+      "sha256": "e91335630df04ba75abd7bed5f49bb52041fd53b8b19c751ae86d6ab022bd266",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-world-french.html": {
+      "sha256": "cd38a16df9b585677528ce5f7e6ebbe1b07b0ae866ee575a8e193416885d806b",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-world-indian.html": {
+      "sha256": "97326b35fb85f8436e834de6ad2c9ba865d311c33720580e7ac72390f4290ac8",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-world-italian.html": {
+      "sha256": "3afc328cb334bc73d4328f9aedf257c5b869d9be1e18c7f5a4ccb877902eaf7a",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-world-japanese.html": {
+      "sha256": "ebf07640cea80e58fc3f37eaac8501b7477f5f61f41444cbf2bf9175f6aa90e7",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-world-korean.html": {
+      "sha256": "3df6965d958d752c233cb33a305bf005473c042cdbb86d751c662c13d4efc6a0",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-world-mexican.html": {
+      "sha256": "fcce9680edfa1e6ff48167097962e13e06f2aae1cb65c9fb9f37875dd8ec243c",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-world-thai.html": {
+      "sha256": "e495393afd3bd45596098e86214faa8fdf1170b8de6fef8b1db11ef197daba03",
+      "origin": "reviewed-project-source"
+    },
+    "atelier-world.html": {
+      "sha256": "1a93e8596d72b3d7efcaef6d02ffc809ac7ccb8ca2e4d5055f55bfe93b095697",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/fonts.css": {
+      "sha256": "4c6bd7c9aada783306cfebc88a5c43da9ee976d612e67c48ad55c6f3260424ae",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/playfair-display-italic.ttf": {
+      "sha256": "6021680663c58b344d8404c289c755aadc662a02189ffe4f5ca79378f9e97840",
+      "origin": "open-font-license"
+    },
+    "fonts/Playfair-Display-OFL.txt": {
+      "sha256": "0bb2b43ffd21233963b5d0c0eb6f1abffa776ec53c56131b5818708f2730ffd6",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/playfair-display-regular.ttf": {
+      "sha256": "1609a54fa3ad1abc8d0037132f73700333241ea0b65672079998e352f151dea7",
+      "origin": "open-font-license"
+    },
+    "fonts/plus-jakarta-sans-bold.ttf": {
+      "sha256": "32971ad7976930539a11c79ce91ce84092df7f25c5be716b594601842f10a7ae",
+      "origin": "open-font-license"
+    },
+    "fonts/plus-jakarta-sans-medium.ttf": {
+      "sha256": "b4fc14ec283d54236fd302cdb92546f98ae0ff061ca5ee23453a02bdf4628791",
+      "origin": "open-font-license"
+    },
+    "fonts/Plus-Jakarta-Sans-OFL.txt": {
+      "sha256": "f9a8e776b4b048227f2f046b8716083eb04b1539d9ad1d4b87e81c1df28f86e3",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/plus-jakarta-sans-regular.ttf": {
+      "sha256": "076831b98043f50f829b6c91db3be4a844641f1c95bccff5c886ed87c661a852",
+      "origin": "open-font-license"
+    },
+    "fonts/plus-jakarta-sans-semibold.ttf": {
+      "sha256": "50357df108c5d297ec4ece76aeddf49561f3794f67af077cfc2c711b7a75b439",
+      "origin": "open-font-license"
+    },
+    "images/atelier-abalone.svg": {
+      "sha256": "45a5e0fbbf280656a0d01a2c8a38e24c30c6e85b6192f4770c79b7b6d2f6f7c4",
+      "origin": "original-vector"
+    },
+    "images/atelier-artichoke.svg": {
+      "sha256": "d4e1dd93414b592308c1de9591e873bd581d72b4ab5e82a106f38d6a3ee864c2",
+      "origin": "original-vector"
+    },
+    "images/atelier-bottarga-gallery.svg": {
+      "sha256": "4b31319e5625cb978fbe11cfe0724bfd63a095feabbabe7bed01ec2491f6fb99",
+      "origin": "original-vector"
+    },
+    "images/atelier-bottarga-serving.svg": {
+      "sha256": "f96a4cdb3ccdf6fa116010ddcc8f82cecaa9ac735aa50c1bf978c6bd0e4a09c4",
+      "origin": "original-vector"
+    },
+    "images/atelier-bottarga.svg": {
+      "sha256": "af9a44e5685f66171142ead278e48aa18f7f877bddcee57d0659fb0718866f37",
+      "origin": "original-vector"
+    },
+    "images/atelier-bourguignon.svg": {
+      "sha256": "9e53d13c7ef25ee631d07d4ad62c31d5166bc3d9dd935f568b8417f037493df1",
+      "origin": "original-vector"
+    },
+    "images/atelier-bruschetta.svg": {
+      "sha256": "109839daefd1c092d11133deb13f08b4a1a2baecccb52813c1f54eadb95fc44e",
+      "origin": "original-vector"
+    },
+    "images/atelier-butter-chicken.svg": {
+      "sha256": "1da02f6d04c74f22aaa0b1f22d670e7f51f4124693c87d9fa1dcf2449a975780",
+      "origin": "original-vector"
+    },
+    "images/atelier-carbonara.svg": {
+      "sha256": "214421d4337482dd99efc13443ff7adfaa64d444c493562cd19072e0eb453fa6",
+      "origin": "original-vector"
+    },
+    "images/atelier-chef-haru.svg": {
+      "sha256": "d4063e9044b078d17a64942de949d4d3d32d50eabd75674831edfe378b3de184",
+      "origin": "original-vector"
+    },
+    "images/atelier-chef-laurent.svg": {
+      "sha256": "2c65ac46a555554c0abd54410825227f4fc2bdb9f21de838ff4e6a2b8ffca9c9",
+      "origin": "original-vector"
+    },
+    "images/atelier-chef-mateo-portrait.svg": {
+      "sha256": "89f960665d0b6447e6b84ea500253bc818bbbe5a729d69cabcd4d02979a6286f",
+      "origin": "original-vector"
+    },
+    "images/atelier-chef-mateo-profile.svg": {
+      "sha256": "f217dde1001f37e73876261e88b1b8f8ee696bc85472e8b4835dcf05b1452e45",
+      "origin": "original-vector"
+    },
+    "images/atelier-chef-mateo.svg": {
+      "sha256": "52fbe4f7c5da45cba1107320cd92a4509c6410376fadcb43558a22a3c5d6c6ec",
+      "origin": "original-vector"
+    },
+    "images/atelier-chef-preview.svg": {
+      "sha256": "12eacbe6eef6de171c1f528ea9ece1a43e594673ce765805f42f99f5931cf632",
+      "origin": "original-vector"
+    },
+    "images/atelier-class-kit.svg": {
+      "sha256": "ec338acc0f9720506ea1834cf8463f56f157c4ff1f8c129c79b996cae3429904",
+      "origin": "original-vector"
+    },
+    "images/atelier-confit.svg": {
+      "sha256": "5c1d732a6a3821fd7f8809780dc46e7d5c85b11bbc68c2202e394434be4f5f7e",
+      "origin": "original-vector"
+    },
+    "images/atelier-dongpo.svg": {
+      "sha256": "b4959456479ad9c0eab358856b6d33dc3314265aea2acb89f6b40e8f40c60c88",
+      "origin": "original-vector"
+    },
+    "images/atelier-emulsion-step.svg": {
+      "sha256": "ccdc2e5b1ae1d2b135b5da94cdec0e0ecdce16cb655cf4813a5aef1b5d22cc6f",
+      "origin": "original-vector"
+    },
+    "images/atelier-herbs.svg": {
+      "sha256": "757fb9999d3536ff8b9e8119768bda078889b18e51648682550e1327bb574def",
+      "origin": "original-vector"
+    },
+    "images/atelier-hotpot.svg": {
+      "sha256": "56f7bf1f9699c2c73633a124f339b5da38048171fc276fffbc9f01eb7188df7f",
+      "origin": "original-vector"
+    },
+    "images/atelier-kaoyu.svg": {
+      "sha256": "8890925b4554090217521e443a40e20d2b847eb9247298e1fbc7589d2f784ad8",
+      "origin": "original-vector"
+    },
+    "images/atelier-knives.svg": {
+      "sha256": "d87cf6108f69e2f4c4c72b45ffabea17265f1d087d7ddd7b50aa4b828773612a",
+      "origin": "original-vector"
+    },
+    "images/atelier-korean-table.svg": {
+      "sha256": "31fb8fb477fa0c45d934086a7bd812d63bd35c1c35c22d9dba941885b20a18ac",
+      "origin": "original-vector"
+    },
+    "images/atelier-lesson-preview.svg": {
+      "sha256": "efbd6d71d90c852ec8ef915c5415238335e161dc17b1409f25071359e68b74d9",
+      "origin": "original-vector"
+    },
+    "images/atelier-mediterranean-pasta.svg": {
+      "sha256": "52664fdfe84222451ef9e83d78b742ddd153619272802a500a122c8d9490d577",
+      "origin": "original-vector"
+    },
+    "images/atelier-octopus.svg": {
+      "sha256": "dbbaaaace19e97360ec3e5d2f5c2268980bccbcaeb2f5a2ee386aee8a29bde89",
+      "origin": "original-vector"
+    },
+    "images/atelier-oil-infusion.svg": {
+      "sha256": "acad4ea57fd5489eb1df79710adea9eef0890fb7910a5442a23998956c15bb82",
+      "origin": "original-vector"
+    },
+    "images/atelier-oil-pouring.svg": {
+      "sha256": "e9d309ae1745dbd1635023290db3c4fc97b8f8071ba648e15f55bfa2b2c72b11",
+      "origin": "original-vector"
+    },
+    "images/atelier-olive-bottle.svg": {
+      "sha256": "6ca0f4e6bf2831c38469285b4ab1cf3471b14e632842d5e813e172646018e6d3",
+      "origin": "original-vector"
+    },
+    "images/atelier-olive-grove.svg": {
+      "sha256": "62c29d81a10244a76d4c341b16214c9e183e343cb0fb783b53935e1ac11f4783",
+      "origin": "original-vector"
+    },
+    "images/atelier-olive-grower.svg": {
+      "sha256": "fc2988679f536eb02cce629ee6cc5eab2d0494b079908beeae7d0cc00134e0c8",
+      "origin": "original-vector"
+    },
+    "images/atelier-olive-home.svg": {
+      "sha256": "be4b79760bba3a8c2869291f971d2223192ae75e97d55d784c69f0419512c3a6",
+      "origin": "original-vector"
+    },
+    "images/atelier-olive-label.svg": {
+      "sha256": "014b7e4a92ada7bed9533e35dbd37a5279365b5c0798cd05671c4a3bc9b0c382",
+      "origin": "original-vector"
+    },
+    "images/atelier-olive-oil.svg": {
+      "sha256": "c5f483e00e6252088263433af079d62abbc5f6a475db44198f7bca4200422ac4",
+      "origin": "original-vector"
+    },
+    "images/atelier-paella.svg": {
+      "sha256": "fdcb96c468dc67cc3b3aff6d1ecb5526c017f6e12fb98e79030e3fb602e762df",
+      "origin": "original-vector"
+    },
+    "images/atelier-pairing-bottle.svg": {
+      "sha256": "fe71ab8b60a5c892c003fd1a84ddef09bf4c564af00dd88b10284b768f795136",
+      "origin": "original-vector"
+    },
+    "images/atelier-pairing-table.svg": {
+      "sha256": "d0b09776d069f4b5c73427fc17795ca8c577e51fa093d9ff7f4df1e9b98cc88f",
+      "origin": "original-vector"
+    },
+    "images/atelier-pasta-boiling.svg": {
+      "sha256": "0fbd01057cac9c9b73ddabd32bd0f96466eb9a7310019bd951b2db808ec262cc",
+      "origin": "original-vector"
+    },
+    "images/atelier-pasta-emulsion.svg": {
+      "sha256": "95da3b62d6625ca7e21ef0a17deca54cc7b5c08f86cd7d641315ff2f2d82fd96",
+      "origin": "original-vector"
+    },
+    "images/atelier-pasta-ingredients.svg": {
+      "sha256": "6879e6c5e8b48ea09e21dadbe946924639a44fad555da9fb870e495cc6a90a90",
+      "origin": "original-vector"
+    },
+    "images/atelier-pasta-machine.svg": {
+      "sha256": "ab775e6c28020a305a9de59e8550d7cdec3e5b5a5642c517c609706f1a9d864c",
+      "origin": "original-vector"
+    },
+    "images/atelier-pasta-plating.svg": {
+      "sha256": "11fd50e05f533935b080bab27045fc311eab970b8ba373798f6f1eda283d268c",
+      "origin": "original-vector"
+    },
+    "images/atelier-ramen.svg": {
+      "sha256": "85907864019f3e09d947c91ae8014306c41280361a71fa5c69b926dd963f17a3",
+      "origin": "original-vector"
+    },
+    "images/atelier-ratatouille.svg": {
+      "sha256": "1aec9f6bcd87961011b9dd07881a036459b1de2aff0c418ddb4bf89320c73b71",
+      "origin": "original-vector"
+    },
+    "images/atelier-reader-pasta-one.svg": {
+      "sha256": "db8eca055a53ef2e1e5879c05394b838953b685fe0929f17e5f7040cccba04af",
+      "origin": "original-vector"
+    },
+    "images/atelier-reader-pasta-three.svg": {
+      "sha256": "75254493389b6fa65b6671097e939f3b51787daff938f118981bd41f21737d6f",
+      "origin": "original-vector"
+    },
+    "images/atelier-reader-pasta-two.svg": {
+      "sha256": "86e92e8a334cb280bffaefe39e33304910ec23c21323103b340c323597e18841",
+      "origin": "original-vector"
+    },
+    "images/atelier-soba-table.svg": {
+      "sha256": "4bca9c42f99c3e860a7ff9babad874d44429a63e50b40f0a116835a04d2e7627",
+      "origin": "original-vector"
+    },
+    "images/atelier-soba.svg": {
+      "sha256": "bf55621f80ba5df46d40ff8217c579bb6ba1ba5b7ab7be935be4df789fce2b9b",
+      "origin": "original-vector"
+    },
+    "images/atelier-taco-table.svg": {
+      "sha256": "1905b2755d89a9443d8ad451becc430b71214cc240371b7f419a788e37f9b212",
+      "origin": "original-vector"
+    },
+    "images/atelier-tacos.svg": {
+      "sha256": "8d1a201ca2ad9a3776fbc878281e007b995795f10605c8ad5389ea97736bedda",
+      "origin": "original-vector"
+    },
+    "images/atelier-thai-curry.svg": {
+      "sha256": "18552b0a5b84799c5c327e320c68791815f48652172b5cea9e2c6ebc48f01cab",
+      "origin": "original-vector"
+    },
+    "images/atelier-tomyum.svg": {
+      "sha256": "0e3e4edd578a9b53471b2b41afcdbe3d0bf5057c608465a33ee888e96b64b0ac",
+      "origin": "original-vector"
+    },
+    "index.html": {
+      "sha256": "a769b080fdae1c0f1f7097a81be2e7335aa6eb510240809838eda3ab4171f323",
+      "origin": "reviewed-project-source"
+    },
+    "layouts/class.html": {
+      "sha256": "8c0c0f6708993b2ff1e6ae8961096cb3bd78be953cb70ca73f0d13856dd29bed",
+      "origin": "reviewed-project-source"
+    },
+    "layouts/product.html": {
+      "sha256": "744685ff0db1ed5fb8f145a5803bd2978ecc626c07baa104ed81ccae481728df",
+      "origin": "reviewed-project-source"
+    },
+    "layouts/recipe.html": {
+      "sha256": "6e66084430470c5b07c9991bfe3fa7aae4e567989c463b6a32e6e4b6994cc72a",
+      "origin": "reviewed-project-source"
+    },
+    "licenses/Tailwind-Forms-MIT.txt": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "origin": "reviewed-project-source"
+    },
+    "licenses/Tailwind-MIT.txt": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "52ccc43bbadd2ebfb41142cd46e69bf734d3faddea03684d9d23b6bb44f33cab",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "097d18c99bbfe3d545196f58fa2afef613694d7d9261cbcfdc38d55dcaa0af32",
+      "origin": "reviewed-project-source"
+    }
+  }
+}
