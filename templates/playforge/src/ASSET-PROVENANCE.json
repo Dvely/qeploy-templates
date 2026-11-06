@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "project": "playforge",
+  "date": "2026-11-06",
+  "creator": "Qeploy contributors",
+  "origin": "original-vector",
+  "description": "New SVG illustrations authored directly as geometric vector code. No original raster pixels, external assets, copied SVG paths, photographs, or model-generated photographic images were used. Illustrations are fictional depictions, not records of actual people, places, medical outcomes or products.",
+  "permissions": {
+    "commercialUse": true,
+    "modification": true,
+    "sourceTemplateRedistribution": true,
+    "scope": "Only the new SVG artwork listed below; this statement does not grant rights to fonts, code, designs or other third-party materials."
+  },
+  "assets": [
+    {
+      "file": "fonts/playforge-font-1.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/chivo-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "b4c4c0770a30f7a10a8e3158076b215ba73827b2491d85dbfb446e0d10b496a7"
+    },
+    {
+      "file": "fonts/playforge-font-2.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/chivo-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "406625807e5836fc5e35c4547ea9296321fc264b3f499ca8b052652d3e09364a"
+    },
+    {
+      "file": "fonts/playforge-font-3.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/chivo-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "b0c632a082a551c97e337cd8ed04c1f7f25b5fd288a9963e0f73ecec23a18d34"
+    },
+    {
+      "file": "fonts/playforge-font-4.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/hankengrotesk-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "451376abefae9121f5dd0372d26865e7654b1041b9fdacdf57c6bd5cbf691da0"
+    },
+    {
+      "file": "fonts/playforge-font-5.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/hankengrotesk-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "366c9f60de8654362826a500399e568e6198696b8fbd999ba7d0c03c9ba742b6"
+    },
+    {
+      "file": "fonts/playforge-font-6.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/hankengrotesk-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "b7a672834374ef3a96e81abd2fd9bb61b282d3e75711fd4d9097e7e2e8c3b823"
+    },
+    {
+      "file": "fonts/playforge-font-7.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/hankengrotesk-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "e9d18189973e32e2614842ca777412639245271ee5016cbbc5024b9081d686dc"
+    },
+    {
+      "file": "fonts/playforge-font-8.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/spacemono-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "829aad32ab9525358de2a7ebc718d05a6b335e67421aad5e1e09cd1fa796af4e"
+    },
+    {
+      "file": "fonts/playforge-font-9.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/spacemono-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "5be2b984cdb8befc8ad1871d10f1aa8337f7d2bae3c6bf0ce720d0745ac1a8ec"
+    },
+    {
+      "file": "images/playforge-clubs-01.svg",
+      "replaces": "images/playforge-clubs-01.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "9b95f47b3bc07106a47721cdf0b0142e2323513e1fd20cc6ef15c6ac2bf2c3d2"
+    },
+    {
+      "file": "images/playforge-clubs-02.svg",
+      "replaces": "images/playforge-clubs-02.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "25ddb6364cd6941a1e88769e7ebe1acd7429912c5c1212b3392ddbe4ccb9788b"
+    },
+    {
+      "file": "images/playforge-clubs-03.svg",
+      "replaces": "images/playforge-clubs-03.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "1772d84c991dcc573009683e34ae2745b6789ab6be51989406d29d76b985dd9d"
+    },
+    {
+      "file": "images/playforge-futsal-01.svg",
+      "replaces": "images/playforge-futsal-01.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "4041b549b008a2a82c74ce5dba1144fe2593b49877a4bdef223e6ae8099fedda"
+    },
+    {
+      "file": "images/playforge-futsal-02.svg",
+      "replaces": "images/playforge-futsal-02.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "10a00349d8b9d9a4571dc325ff8f00c1a5d69e8501a318333eb318d0ca201b26"
+    },
+    {
+      "file": "images/playforge-home-01.svg",
+      "replaces": "images/playforge-home-01.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "1f123d0c2724c4942d6b76ff0a9ecc4ef998ecd64f9f5b4c81dd4c2cfff4613f"
+    },
+    {
+      "file": "images/playforge-home-02.svg",
+      "replaces": "images/playforge-home-02.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "57d59e9e22d133e2c5e21fbed3f87db765e78e77a725e51794fa49389eb30507"
+    },
+    {
+      "file": "images/playforge-home-03.svg",
+      "replaces": "images/playforge-home-03.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "acdc0772b5ba640dc2c79295fd87434b339728a44d1c2e4f229fe4b1251466dd"
+    },
+    {
+      "file": "images/playforge-home-04.svg",
+      "replaces": "images/playforge-home-04.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "5184a0f7fcdf58c0baf1ac64574ee4888b2365850a92f2c91b3953aa49bc84bc"
+    },
+    {
+      "file": "images/playforge-home-05.svg",
+      "replaces": "images/playforge-home-05.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "0da70757d39d325ba3fa22f6c8b9149d16aaeed58bdaa9a546ffd8398e7a57be"
+    },
+    {
+      "file": "images/playforge-home-06.svg",
+      "replaces": "images/playforge-home-06.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "25c5250f6c49acaf488062b3267e7ac8bb9d5d25140f8583f85c2143d5b3dd4c"
+    },
+    {
+      "file": "images/playforge-home-07.svg",
+      "replaces": "images/playforge-home-07.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "730ae0b1c35e19bd4ebb82ce4baa1b532f8a61c454b39c43f329e3a47f1ed2ba"
+    },
+    {
+      "file": "images/playforge-pingpong-01.svg",
+      "replaces": "images/playforge-pingpong-01.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "cc614d4973e02eab468bfa4cae12ccca419824dd2777ea116548248a42e282a3"
+    },
+    {
+      "file": "images/playforge-pingpong-02.svg",
+      "replaces": "images/playforge-pingpong-02.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "4c7759878f1a46a6d3468ff526f61417e68363da2b579554f71cbd16d35eedc4"
+    },
+    {
+      "file": "images/playforge-pingpong-03.svg",
+      "replaces": "images/playforge-pingpong-03.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "d3b2eb754ff23d84150f1b41d61aabe306638cd202074d1e9757ee7195013c57"
+    },
+    {
+      "file": "images/playforge-product-01.svg",
+      "replaces": "images/playforge-product-01.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "efed1fdf7468e4a47e18e6fc3f95bd3cdf98e2bc6e13a80d9bf6761d6e7c873f"
+    },
+    {
+      "file": "images/playforge-product-02.svg",
+      "replaces": "images/playforge-product-02.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "ed9e77c60589f82f052647162bf0f2f0f6fd388c5b8d316b4de4150452edb994"
+    },
+    {
+      "file": "images/playforge-product-03.svg",
+      "replaces": "images/playforge-product-03.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "26b3a6167862dda7e5877e48799de1903e86dce8147d89dd52c6057002baf112"
+    },
+    {
+      "file": "images/playforge-product-04.svg",
+      "replaces": "images/playforge-product-04.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "3be21587d2652e2f4b2fde161dd2b97f9e047463237853c4ed926b1e438a921f"
+    },
+    {
+      "file": "images/playforge-product-05.svg",
+      "replaces": "images/playforge-product-05.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "9993ed4cdbfe5e880c7f552320d71da329fe1ff54064e4d3993eadb62276497d"
+    },
+    {
+      "file": "images/playforge-product-06.svg",
+      "replaces": "images/playforge-product-06.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "cc84fa94709c16e4370d22b30d9cc8468befb97f5715082a10b61e70530925fc"
+    },
+    {
+      "file": "images/playforge-product-07.svg",
+      "replaces": "images/playforge-product-07.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "4484f4025a0f4096e14d09332a12927413a679505d7473ab8a465be0e67ba984"
+    },
+    {
+      "file": "images/playforge-product-08.svg",
+      "replaces": "images/playforge-product-08.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "88ffd805172d748d7d82de13f0f817cc95e1684c37e71150cae74351aadbed50"
+    },
+    {
+      "file": "thumbnail.svg",
+      "replaces": "thumbnail.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "44ae305bfe31eecddeeb34b8b4902c885b4208e58dea4363ca1f915185fa293b"
+    }
+  ],
+  "reviewed": "2026-11-06",
+  "scope": "File-level provenance and applicable conditions only, not a legal non-infringement guarantee."
+}

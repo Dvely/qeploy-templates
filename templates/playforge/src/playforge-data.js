@@ -200,28 +200,28 @@ window.PLAYFORGE = {
       "id": "gear-0",
       "title": "챔피온 스핀프로 PRO-8 대회용",
       "description": "25mm 고밀도 MDF 탑, 독립형 롤러 휠 세팅 및 자동 수평 보정 지지대.",
-      "image": "images/playforge-home-02.jpg",
+      "image": "images/playforge-home-02.svg",
       "price": 1400000
     },
     {
       "id": "gear-1",
       "title": "스타 더폴라리스 5000 공인구",
       "description": "열접착 무봉제 써멀 본딩 기술. 수분 흡수 0% 차단 및 완벽한 공기역학 궤적 보장.",
-      "image": "images/playforge-home-03.jpg",
+      "image": "images/playforge-home-03.svg",
       "price": 165000
     },
     {
       "id": "gear-2",
       "title": "버터플라이 비스카리아 ALC 플레어",
       "description": "세계 탑 랭커 실전 채용 아릴레이트 카본. 반발력과 컨트롤의 정밀한 황금비율.",
-      "image": "images/playforge-home-04.jpg",
+      "image": "images/playforge-home-04.svg",
       "price": 210000
     },
     {
       "id": "gear-3",
       "title": "다목적 이동식 배드민턴/족구 지주",
       "description": "주물 일체형 하중추 장착. 바닥 긁힘 방지 우레탄 휠과 미세 와이어 텐셔너 일체형.",
-      "image": "images/playforge-home-05.jpg",
+      "image": "images/playforge-home-05.svg",
       "price": 890000
     }
   ]

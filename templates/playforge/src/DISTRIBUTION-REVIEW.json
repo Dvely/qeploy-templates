@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "project": "playforge",
+  "status": "reviewed",
+  "reviewDate": "2026-11-06",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "42657da29cd8e7c7200a350235ab71e281a41d5ccec1ecad5840dcdc43059b93",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/chivo-OFL.txt": {
+      "sha256": "020e2c6261f39c64e8aecca0619dd8a56df03fbfc4c82e3ce1ad6482e32e374c",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/fonts.css": {
+      "sha256": "1ebc3e43b60547afe2af6c793992804a067aea921047938b131b5b65d1bebfe1",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/hankengrotesk-OFL.txt": {
+      "sha256": "bb93c61eef5b10204ac305aeb3d204ce74c22c40aa8398f9e2c3bdab2263f2d1",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/playforge-font-1.ttf": {
+      "sha256": "b4c4c0770a30f7a10a8e3158076b215ba73827b2491d85dbfb446e0d10b496a7",
+      "origin": "open-font-license"
+    },
+    "fonts/playforge-font-2.ttf": {
+      "sha256": "406625807e5836fc5e35c4547ea9296321fc264b3f499ca8b052652d3e09364a",
+      "origin": "open-font-license"
+    },
+    "fonts/playforge-font-3.ttf": {
+      "sha256": "b0c632a082a551c97e337cd8ed04c1f7f25b5fd288a9963e0f73ecec23a18d34",
+      "origin": "open-font-license"
+    },
+    "fonts/playforge-font-4.ttf": {
+      "sha256": "451376abefae9121f5dd0372d26865e7654b1041b9fdacdf57c6bd5cbf691da0",
+      "origin": "open-font-license"
+    },
+    "fonts/playforge-font-5.ttf": {
+      "sha256": "366c9f60de8654362826a500399e568e6198696b8fbd999ba7d0c03c9ba742b6",
+      "origin": "open-font-license"
+    },
+    "fonts/playforge-font-6.ttf": {
+      "sha256": "b7a672834374ef3a96e81abd2fd9bb61b282d3e75711fd4d9097e7e2e8c3b823",
+      "origin": "open-font-license"
+    },
+    "fonts/playforge-font-7.ttf": {
+      "sha256": "e9d18189973e32e2614842ca777412639245271ee5016cbbc5024b9081d686dc",
+      "origin": "open-font-license"
+    },
+    "fonts/playforge-font-8.ttf": {
+      "sha256": "829aad32ab9525358de2a7ebc718d05a6b335e67421aad5e1e09cd1fa796af4e",
+      "origin": "open-font-license"
+    },
+    "fonts/playforge-font-9.ttf": {
+      "sha256": "5be2b984cdb8befc8ad1871d10f1aa8337f7d2bae3c6bf0ce720d0745ac1a8ec",
+      "origin": "open-font-license"
+    },
+    "fonts/spacemono-OFL.txt": {
+      "sha256": "6758f6915b482dd45950b2a974c75d95692464fd0e5441418e87b2f92f2eea27",
+      "origin": "reviewed-project-source"
+    },
+    "images/playforge-clubs-01.svg": {
+      "sha256": "9b95f47b3bc07106a47721cdf0b0142e2323513e1fd20cc6ef15c6ac2bf2c3d2",
+      "origin": "original-vector"
+    },
+    "images/playforge-clubs-02.svg": {
+      "sha256": "25ddb6364cd6941a1e88769e7ebe1acd7429912c5c1212b3392ddbe4ccb9788b",
+      "origin": "original-vector"
+    },
+    "images/playforge-clubs-03.svg": {
+      "sha256": "1772d84c991dcc573009683e34ae2745b6789ab6be51989406d29d76b985dd9d",
+      "origin": "original-vector"
+    },
+    "images/playforge-futsal-01.svg": {
+      "sha256": "4041b549b008a2a82c74ce5dba1144fe2593b49877a4bdef223e6ae8099fedda",
+      "origin": "original-vector"
+    },
+    "images/playforge-futsal-02.svg": {
+      "sha256": "10a00349d8b9d9a4571dc325ff8f00c1a5d69e8501a318333eb318d0ca201b26",
+      "origin": "original-vector"
+    },
+    "images/playforge-home-01.svg": {
+      "sha256": "1f123d0c2724c4942d6b76ff0a9ecc4ef998ecd64f9f5b4c81dd4c2cfff4613f",
+      "origin": "original-vector"
+    },
+    "images/playforge-home-02.svg": {
+      "sha256": "57d59e9e22d133e2c5e21fbed3f87db765e78e77a725e51794fa49389eb30507",
+      "origin": "original-vector"
+    },
+    "images/playforge-home-03.svg": {
+      "sha256": "acdc0772b5ba640dc2c79295fd87434b339728a44d1c2e4f229fe4b1251466dd",
+      "origin": "original-vector"
+    },
+    "images/playforge-home-04.svg": {
+      "sha256": "5184a0f7fcdf58c0baf1ac64574ee4888b2365850a92f2c91b3953aa49bc84bc",
+      "origin": "original-vector"
+    },
+    "images/playforge-home-05.svg": {
+      "sha256": "0da70757d39d325ba3fa22f6c8b9149d16aaeed58bdaa9a546ffd8398e7a57be",
+      "origin": "original-vector"
+    },
+    "images/playforge-home-06.svg": {
+      "sha256": "25c5250f6c49acaf488062b3267e7ac8bb9d5d25140f8583f85c2143d5b3dd4c",
+      "origin": "original-vector"
+    },
+    "images/playforge-home-07.svg": {
+      "sha256": "730ae0b1c35e19bd4ebb82ce4baa1b532f8a61c454b39c43f329e3a47f1ed2ba",
+      "origin": "original-vector"
+    },
+    "images/playforge-pingpong-01.svg": {
+      "sha256": "cc614d4973e02eab468bfa4cae12ccca419824dd2777ea116548248a42e282a3",
+      "origin": "original-vector"
+    },
+    "images/playforge-pingpong-02.svg": {
+      "sha256": "4c7759878f1a46a6d3468ff526f61417e68363da2b579554f71cbd16d35eedc4",
+      "origin": "original-vector"
+    },
+    "images/playforge-pingpong-03.svg": {
+      "sha256": "d3b2eb754ff23d84150f1b41d61aabe306638cd202074d1e9757ee7195013c57",
+      "origin": "original-vector"
+    },
+    "images/playforge-product-01.svg": {
+      "sha256": "efed1fdf7468e4a47e18e6fc3f95bd3cdf98e2bc6e13a80d9bf6761d6e7c873f",
+      "origin": "original-vector"
+    },
+    "images/playforge-product-02.svg": {
+      "sha256": "ed9e77c60589f82f052647162bf0f2f0f6fd388c5b8d316b4de4150452edb994",
+      "origin": "original-vector"
+    },
+    "images/playforge-product-03.svg": {
+      "sha256": "26b3a6167862dda7e5877e48799de1903e86dce8147d89dd52c6057002baf112",
+      "origin": "original-vector"
+    },
+    "images/playforge-product-04.svg": {
+      "sha256": "3be21587d2652e2f4b2fde161dd2b97f9e047463237853c4ed926b1e438a921f",
+      "origin": "original-vector"
+    },
+    "images/playforge-product-05.svg": {
+      "sha256": "9993ed4cdbfe5e880c7f552320d71da329fe1ff54064e4d3993eadb62276497d",
+      "origin": "original-vector"
+    },
+    "images/playforge-product-06.svg": {
+      "sha256": "cc84fa94709c16e4370d22b30d9cc8468befb97f5715082a10b61e70530925fc",
+      "origin": "original-vector"
+    },
+    "images/playforge-product-07.svg": {
+      "sha256": "4484f4025a0f4096e14d09332a12927413a679505d7473ab8a465be0e67ba984",
+      "origin": "original-vector"
+    },
+    "images/playforge-product-08.svg": {
+      "sha256": "88ffd805172d748d7d82de13f0f817cc95e1684c37e71150cae74351aadbed50",
+      "origin": "original-vector"
+    },
+    "index.html": {
+      "sha256": "721123f7520dee2743a054343bcc580a1ba7a37c17e02fd02871bf6e7760b76a",
+      "origin": "reviewed-project-source"
+    },
+    "licenses/Tailwind-Forms-MIT.txt": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "origin": "reviewed-project-source"
+    },
+    "licenses/Tailwind-MIT.txt": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "origin": "reviewed-project-source"
+    },
+    "playforge-cart.html": {
+      "sha256": "95923ecd026bae277d0ad50f24ddfd5a4a6cf458be526c3b24752263fc2cd93f",
+      "origin": "reviewed-project-source"
+    },
+    "playforge-clubs.html": {
+      "sha256": "2f687f6139f1e14929b8b7e21327fb7e321bda3914df513e7afd7a75f02b58d7",
+      "origin": "reviewed-project-source"
+    },
+    "playforge-contact.html": {
+      "sha256": "845742618914951bc4c58db5b05301ef4786fcb17b407bb3096fa55594bc1088",
+      "origin": "reviewed-project-source"
+    },
+    "playforge-data.js": {
+      "sha256": "e5076a81107f09dbde4ab8ef50632042fb5ac6611394e39e873567a697e9cdbb",
+      "origin": "reviewed-project-source"
+    },
+    "playforge-estimate.html": {
+      "sha256": "34e794114d569a1144f4b65097220023e7a5f55bf56171c4a5d3bb43da0be039",
+      "origin": "reviewed-project-source"
+    },
+    "playforge-futsal.html": {
+      "sha256": "fbbc0e1ab965400848de55c2346f484b4cc8d82cc624588665c360817172c568",
+      "origin": "reviewed-project-source"
+    },
+    "playforge-gear.html": {
+      "sha256": "eb1d3da03d520806628f59996d56bd7c833fe4fdff328e764dc82b71c04545a5",
+      "origin": "reviewed-project-source"
+    },
+    "playforge-guide.html": {
+      "sha256": "143e1a925514669604dbad23101cc0a1b7638d99be7a5f1921dbe332690cbd67",
+      "origin": "reviewed-project-source"
+    },
+    "playforge-host.html": {
+      "sha256": "12c86ea7d559d222c5ec0db469b19a7118f97bd809e388086c3067b27e5ef77b",
+      "origin": "reviewed-project-source"
+    },
+    "playforge-membership.html": {
+      "sha256": "5b06fa3ee137f07981c3c9d1ee63683e5068dd097fb3440f3f943afaef1f3394",
+      "origin": "reviewed-project-source"
+    },
+    "playforge-pingpong.html": {
+      "sha256": "2e307d63cc18b562753db6b446e24da5cc76bf01ecf3f64a5ea9ff2ededb562b",
+      "origin": "reviewed-project-source"
+    },
+    "playforge-privacy.html": {
+      "sha256": "92726d981eb11cf49ad7975a02fdcf53913ff67a60042fc4ea32f035aec5f382",
+      "origin": "reviewed-project-source"
+    },
+    "playforge-product.html": {
+      "sha256": "dab166db1c91eb6b9975d79c009979782e7bdcd6b7d1eccc460fe25f6a162ae3",
+      "origin": "reviewed-project-source"
+    },
+    "playforge-safety.html": {
+      "sha256": "030f0586ab8d87341faf6edb3bb2cf50ad14cc511d25f334074c0d17d1076c5c",
+      "origin": "reviewed-project-source"
+    },
+    "playforge-stories.html": {
+      "sha256": "2b28a7278a35611ca3a389e1c7b7a5377adf387b7256185cef99df0ec8671fa6",
+      "origin": "reviewed-project-source"
+    },
+    "playforge-terms.html": {
+      "sha256": "ef9a12808014fb73baf52124158bdfef887a0f9d0ed73e8ba9df5a0638bb8cec",
+      "origin": "reviewed-project-source"
+    },
+    "playforge.css": {
+      "sha256": "1c9b1844535ebfefdca4e6ca4e89f4c1dc1b90e99076666fd4db5df406d3f739",
+      "origin": "reviewed-project-source"
+    },
+    "playforge.js": {
+      "sha256": "b39f899bf7468c024a54bc4160805502e7c1941b3f1826311f25a69a4c58c929",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "f9202e27abd0f83283eefb819f8e05989a4e198f4cfdfe6f6145522816258eee",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "097d18c99bbfe3d545196f58fa2afef613694d7d9261cbcfdc38d55dcaa0af32",
+      "origin": "reviewed-project-source"
+    },
+    "thumbnail.svg": {
+      "sha256": "44ae305bfe31eecddeeb34b8b4902c885b4208e58dea4363ca1f915185fa293b",
+      "origin": "original-vector"
+    }
+  }
+}
