@@ -1,7 +1,7 @@
 {
   "id": "rosiel",
   "name": "로지엘 뷰티",
-  "description": "원본의 전체 화면 히어로·흐림 메뉴·상품 옵션과 스크롤 효과를 유지하고 새로운 뷰티 브랜드 콘텐츠로 바꾼 사이트",
+  "description": "가볍게 이어지는 나의 루틴 · 독립 디자인과 자체 작성 UI를 갖춘 다중 페이지 템플릿",
   "tags": [
     "뷰티",
     "화장품",
@@ -15,38 +15,28 @@
   "contentHints": [
     {
       "key": "brand",
-      "where": "index.html",
-      "desc": "로고·캠페인 문구·브랜드 소개. 원본 요소 클래스와 모션 속성은 유지"
+      "where": "site-config.json",
+      "desc": "가상의 브랜드 문구·컬렉션·프로젝트·페이지 경로"
     },
     {
-      "key": "images",
-      "where": "images/",
-      "desc": "새 캠페인 사진·상품 컷아웃과 원본 비율의 SVG 프레임"
+      "key": "theme",
+      "where": "site.css",
+      "desc": "자체 작성한 테마 토큰·독립 레이아웃·반응형 스타일"
     },
     {
-      "key": "motion",
-      "where": "wp-content/themes/woodmart-child/",
-      "desc": "원본 헤더·메뉴·스크롤·마퀴 동작 모듈"
+      "key": "behavior",
+      "where": "site.js",
+      "desc": "메뉴·검색·정렬·보관함·구성·문의 시연"
     },
     {
-      "key": "hero",
-      "where": "index.html",
-      "desc": "RevSlider 초기화와 rs-layer 프레임 설정. 전환·지연·좌표·반응형 조건 유지"
+      "key": "generation",
+      "where": "original-build.mjs",
+      "desc": "외부 의존성 없는 정적 페이지 생성기"
     },
     {
-      "key": "content",
-      "where": "rosiel-data.js",
-      "desc": "가상 상품 이름·가격·컬렉션과 상세 경로"
-    },
-    {
-      "key": "demo",
-      "where": "rosiel-local.js",
-      "desc": "정적 검색·콘텐츠 연결과 시연용 안내. 실제 구매나 상담 접수는 하지 않음"
-    },
-    {
-      "key": "style",
-      "where": "wp-content/themes/woodmart-child/style-331e58be.css",
-      "desc": "원본 치수·색·타이포그래피·브레이크포인트·애니메이션 규칙. 자산 URL만 로컬화"
+      "key": "provenance",
+      "where": "ASSET-PROVENANCE.json",
+      "desc": "포함한 벡터·생성 사진·영상의 제작 기록과 해시"
     }
   ]
 }

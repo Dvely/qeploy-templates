@@ -1,0 +1,110 @@
+{
+  "reviewed": "2026-11-06",
+  "assets": [
+    {
+      "file": "images/rosiel-campaign-tint.png",
+      "sha256": "2318d56f226a8898f7586bd6cd89a8dc81b596413614f57abfff2a5dfc68361e",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/rosiel-campaign-calm.png",
+      "sha256": "a6df0bb4e63b21dd214f53b8b017c9178745638c24d469c86f4be58eb3b21624",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/rosiel-campaign-sun.png",
+      "sha256": "b6dbab92eb8a10ae3b7b7bdb3baceec7cad3a6aec78f6f1f42df0c5b0bf1a671",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/rosiel-campaign-glow.png",
+      "sha256": "ac04386e2f9d5316da888399c099091fe95e6b621b3717043ea714d94d7da8ad",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/rosiel-tint.png",
+      "sha256": "fd1c982b1cbede8733a30e8dc2e3aedb2e63d9cf88d14b4c88fceaf0a8250517",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/rosiel-cream.png",
+      "sha256": "bec987065a63f0e008afcdaa43e9ea203135b4af120f3db58051d679f693e5bd",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/rosiel-cleanser.png",
+      "sha256": "dfeac24b6b8d5512073efd390097c4f2c29f6db549663116a18b6016d38a3263",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/rosiel-sun.png",
+      "sha256": "212d1cc2d908059c9421cd4f0751abfc89f14b0950dc97d3d611c92c13033e1e",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/rosiel-toner.png",
+      "sha256": "4d1dcc059cc2ae50dc2d51f51cb5ff46af0bd2ac192217fb0fe9864379aaa5a7",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/rosiel-essence.png",
+      "sha256": "c618f84caa396f975dacb77e50ec4a02b573a8d607af5a341be32bcc9e606cfa",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/rosiel-mascara.png",
+      "sha256": "e67b33ed17981d38a2287093e1452c9ce7e61e9945a345b87ea90ba05741651b",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "images/rosiel-mask.png",
+      "sha256": "8392c9ba85f6c044aca81f7cbee9751aaee98c6431e12de7d8942968bcd0e090",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "media/rosiel-campaign.mp4",
+      "sha256": "8a6496e97b778bea09b2c3e754be78981ba7bd8810515a6a6e8764b74b3b993b",
+      "origin": "documented-generated-photo-video",
+      "record": "image-prompts.json",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    }
+  ],
+  "limitations": "Generated content is not a legal clearance or exclusive copyright guarantee. No source-site code, fonts, icons, media or proprietary plug-ins are included in this replacement."
+}

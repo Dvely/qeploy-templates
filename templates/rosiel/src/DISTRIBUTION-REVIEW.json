@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "project": "rosiel",
+  "status": "reviewed",
+  "reviewDate": "2026-11-06",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "ad7072a5a57c033522cf3c7ec98aab6407e766c2cdf9b7dffb01a7a4c60dd7c2",
+      "origin": "reviewed-project-source"
+    },
+    "brand-guide.txt": {
+      "sha256": "6af250c836b1761e2da18416e49b3f21fff4328a6ad20de0f21b6404a59de252",
+      "origin": "reviewed-project-source"
+    },
+    "image-prompts.json": {
+      "sha256": "d3e9580d90ba0f9aa56c9ca1fb5b604287188094bcf2c11736a695bc8c6f5945",
+      "origin": "reviewed-project-source"
+    },
+    "images/rosiel-campaign-calm.png": {
+      "sha256": "a6df0bb4e63b21dd214f53b8b017c9178745638c24d469c86f4be58eb3b21624",
+      "origin": "documented-ai-generation"
+    },
+    "images/rosiel-campaign-glow.png": {
+      "sha256": "ac04386e2f9d5316da888399c099091fe95e6b621b3717043ea714d94d7da8ad",
+      "origin": "documented-ai-generation"
+    },
+    "images/rosiel-campaign-sun.png": {
+      "sha256": "b6dbab92eb8a10ae3b7b7bdb3baceec7cad3a6aec78f6f1f42df0c5b0bf1a671",
+      "origin": "documented-ai-generation"
+    },
+    "images/rosiel-campaign-tint.png": {
+      "sha256": "2318d56f226a8898f7586bd6cd89a8dc81b596413614f57abfff2a5dfc68361e",
+      "origin": "documented-ai-generation"
+    },
+    "images/rosiel-cleanser.png": {
+      "sha256": "dfeac24b6b8d5512073efd390097c4f2c29f6db549663116a18b6016d38a3263",
+      "origin": "documented-ai-generation"
+    },
+    "images/rosiel-cream.png": {
+      "sha256": "bec987065a63f0e008afcdaa43e9ea203135b4af120f3db58051d679f693e5bd",
+      "origin": "documented-ai-generation"
+    },
+    "images/rosiel-essence.png": {
+      "sha256": "c618f84caa396f975dacb77e50ec4a02b573a8d607af5a341be32bcc9e606cfa",
+      "origin": "documented-ai-generation"
+    },
+    "images/rosiel-mascara.png": {
+      "sha256": "e67b33ed17981d38a2287093e1452c9ce7e61e9945a345b87ea90ba05741651b",
+      "origin": "documented-ai-generation"
+    },
+    "images/rosiel-mask.png": {
+      "sha256": "8392c9ba85f6c044aca81f7cbee9751aaee98c6431e12de7d8942968bcd0e090",
+      "origin": "documented-ai-generation"
+    },
+    "images/rosiel-sun.png": {
+      "sha256": "212d1cc2d908059c9421cd4f0751abfc89f14b0950dc97d3d611c92c13033e1e",
+      "origin": "documented-ai-generation"
+    },
+    "images/rosiel-tint.png": {
+      "sha256": "fd1c982b1cbede8733a30e8dc2e3aedb2e63d9cf88d14b4c88fceaf0a8250517",
+      "origin": "documented-ai-generation"
+    },
+    "images/rosiel-toner.png": {
+      "sha256": "4d1dcc059cc2ae50dc2d51f51cb5ff46af0bd2ac192217fb0fe9864379aaa5a7",
+      "origin": "documented-ai-generation"
+    },
+    "index.html": {
+      "sha256": "eeca72948093ea42bc233a26576c10d756a74b28e5f09185ecf6c6ba33dbff6f",
+      "origin": "reviewed-project-source"
+    },
+    "LICENSE.txt": {
+      "sha256": "fad141e7bd6dd211810cd79c0be32484e804295a2db61ed6f3865e788f4ada2b",
+      "origin": "reviewed-project-source"
+    },
+    "media/rosiel-campaign.mp4": {
+      "sha256": "8a6496e97b778bea09b2c3e754be78981ba7bd8810515a6a6e8764b74b3b993b",
+      "origin": "documented-generated-photo-video"
+    },
+    "original-build.mjs": {
+      "sha256": "be2509c63fe86a4d8ea0d85f1ad41ce656d1b2647ef875e2c13a3fc788516fc4",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "2dc1a65a3ada371ca679642cc34e24a47c8048ca36b14cf8db5ec3e29345b217",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-airy-whip-cleanser.html": {
+      "sha256": "7963831b1a6e53f92554b60a27c95a5a8c6c89840c35d8bb3c14f5e9205f3a7a",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-berry-water-tint.html": {
+      "sha256": "39ad71c0b8dadddf3e30f73bca0ec03a4fbef0b94c7a250f27d603416f7c4193",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-bloom-marker-tint.html": {
+      "sha256": "063455ccd8a8215bc38b74c77b76214bfe7119dcf6fa40c859453915fe0b40c9",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-brand.html": {
+      "sha256": "76c6c02a5ec9b75d5b996578cfcf8394738490050e182a1611c4bf910f05ccb5",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-calm-leaf-essence.html": {
+      "sha256": "8550f6e107ddb43659eab35b61042e7fa6b673b3396b228eaad832ef3c7dcbde",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-calm-leaf-toner.html": {
+      "sha256": "5a8e4972b25ac5f512284d81081ebd5948d96a2a7e47e37f3b3644b8525254ed",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-calm.html": {
+      "sha256": "6968604b50a4b6a62fad58a6bf50e228c31163c516418d017c8269130d5dd067",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-cart.html": {
+      "sha256": "e8074cfa7983991c299651e5e2281b53582a7d6663aaf5ed29a9dc4fcb5ba008",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-cloud-makeup-mist.html": {
+      "sha256": "e0f5d20ab9240378f6df91cb31ddeda3cb0038c5b5e172734eb01f8dc1aa97c0",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-collection.html": {
+      "sha256": "af4bb5b9fa3b3bdffef4568bbf856f0f166751af8e9be072887481339c093f4c",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-contact.html": {
+      "sha256": "4994f60a08d30ca25c69d3b97103dd8e64b9157a11a9f424d6b30d403654bc64",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-curl-rhythm-mascara.html": {
+      "sha256": "d24f666be58b849e5d512c89ba71d43479fa13d662e77199c7859297e5a1db06",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-daily-calm-cream.html": {
+      "sha256": "f82dac98656e58719d23ea0eedf2fb05417606002adb0f26e757c3179ace36b0",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-luminous-glow-cream.html": {
+      "sha256": "5e819d59167b03343f4888be28da6dfe7086f481b66f6b31a20f990583d799e7",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-media.html": {
+      "sha256": "5c42272fdb4cbeadc15aa1c5ff02a0e38a8d897a77287bf28bb25d257e922666",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-notice.html": {
+      "sha256": "529164da9dab82d84615c0aac764d569ce5a91bb22d3b357f2ff8f6153e53906",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-peach-night-lip-mask.html": {
+      "sha256": "b3711b51d86fd4948b239cedd3f40578c7eb9815259cc0bea1135c8d6693bd6b",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-sitemap.html": {
+      "sha256": "afd9f59111f31d63fa4c2a5d871ccf48619fc21f14ca1206c45f59867a9173cb",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-soft-foam-cleanser.html": {
+      "sha256": "8497dbab2a23deb344689c523df02c2bc85259ed77ffb61be4f9406488df95ce",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-sun-rhythm-milk.html": {
+      "sha256": "9ba33141306a0a6a2eaea9cc74129588640fd7c4d0aeb2a16a231982977b556e",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-sun.html": {
+      "sha256": "49915533fc9ea79adf3d68ea9c7dfaea144d05098fda13b775600f5d77fb3e30",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-terms.html": {
+      "sha256": "73f132e499c1071606f2c2f6ea16022ec18588639977486116921df7559276ae",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-tint.html": {
+      "sha256": "a33fa3a3287c79bf18d179d8610d4aefd44291d9a830d2f681d31f1935ddbb71",
+      "origin": "reviewed-project-source"
+    },
+    "rosiel-vegan.html": {
+      "sha256": "4d01fd4882fdb4c91408dbdedf39aa6effb48011438436db899f9156808b96cd",
+      "origin": "reviewed-project-source"
+    },
+    "site-config.json": {
+      "sha256": "f89d82c4ab4e9fe298d9d3b4702a19a023c739bf24b57c4c0ae65ab3d193e62d",
+      "origin": "reviewed-project-source"
+    },
+    "site.css": {
+      "sha256": "fb0bf6ff577040cccd0d3e5f4349976a82c0838cecd8a39f231a5c5afe71b2fb",
+      "origin": "reviewed-project-source"
+    },
+    "site.js": {
+      "sha256": "70482a8495d23ca784543109068bc7862a48585c6561d8223402c0fdfaa673c9",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "e76e9bbf0c20358d9b578e742c2cdc3bf188885f9623a81efd64ae6a636a90d1",
+      "origin": "reviewed-project-source"
+    }
+  }
+}
