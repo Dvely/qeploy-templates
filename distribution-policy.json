@@ -5,75 +5,75 @@
   "projects": {
     "aquafolio": {
       "status": "withheld",
-      "reason": "권리 근거 없는 자산 교체 진행 중"
+      "reason": "자체 일러스트 교체 및 배포 기록 반영 중"
     },
     "atelier-cuisine": {
       "status": "withheld",
-      "reason": "권리 근거 없는 자산 교체 진행 중"
+      "reason": "자체 일러스트 교체 및 배포 기록 반영 중"
     },
     "craft-roast": {
       "status": "withheld",
-      "reason": "권리 근거 없는 자산 교체 진행 중"
+      "reason": "자체 일러스트 교체 및 배포 기록 반영 중"
     },
     "daywell24": {
-      "status": "withheld",
-      "reason": "권리 근거 없는 자산 교체 진행 중"
+      "status": "ready",
+      "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "flexspace": {
       "status": "withheld",
-      "reason": "권리 근거 없는 자산 교체 진행 중"
+      "reason": "자체 일러스트 교체 및 배포 기록 반영 중"
     },
     "harutgyeol": {
       "status": "withheld",
-      "reason": "권리 근거 없는 자산 교체 진행 중"
+      "reason": "자체 일러스트 교체 및 배포 기록 반영 중"
     },
     "lumiere": {
       "status": "withheld",
-      "reason": "권리 근거 없는 자산 교체 진행 중"
+      "reason": "자체 일러스트 교체 및 배포 기록 반영 중"
     },
     "luon-studio": {
-      "status": "withheld",
-      "reason": "권리 근거 없는 자산 교체 진행 중"
+      "status": "ready",
+      "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "moav-live": {
-      "status": "withheld",
-      "reason": "권리 근거 없는 자산 교체 진행 중"
+      "status": "ready",
+      "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "ondam-foods": {
-      "status": "withheld",
-      "reason": "권리 근거 없는 자산 교체 진행 중"
+      "status": "ready",
+      "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "ongyeol-haus": {
       "status": "ready",
-      "reason": "독립 구현 및 자산 기록 확인"
+      "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "pages": {
       "status": "withheld",
-      "reason": "권리 근거 없는 자산 교체 진행 중"
+      "reason": "자체 일러스트 교체 및 배포 기록 반영 중"
     },
     "playforge": {
       "status": "withheld",
-      "reason": "권리 근거 없는 자산 교체 진행 중"
+      "reason": "자체 일러스트 교체 및 배포 기록 반영 중"
     },
     "portfolio-grid": {
       "status": "ready",
-      "reason": "독립 구현 및 자산 기록 확인"
+      "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "rosiel": {
-      "status": "withheld",
-      "reason": "권리 근거 없는 자산 교체 진행 중"
+      "status": "ready",
+      "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "samwonpaper": {
-      "status": "withheld",
-      "reason": "권리 근거 없는 자산 교체 진행 중"
+      "status": "ready",
+      "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "seon-apparel": {
-      "status": "withheld",
-      "reason": "권리 근거 없는 자산 교체 진행 중"
+      "status": "ready",
+      "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     },
     "workmora": {
       "status": "ready",
-      "reason": "독립 구현 및 자산 기록 확인"
+      "reason": "배포 자산 교체·제작 기록과 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     }
   }
 }
