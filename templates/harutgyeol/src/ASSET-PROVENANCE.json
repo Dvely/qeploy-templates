@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "project": "harutgyeol",
+  "date": "2026-11-06",
+  "creator": "Qeploy contributors",
+  "origin": "original-vector",
+  "description": "New SVG illustrations authored directly as geometric vector code. No original raster pixels, external assets, copied SVG paths, photographs, or model-generated photographic images were used. Illustrations are fictional depictions, not records of actual people, places, medical outcomes or products.",
+  "permissions": {
+    "commercialUse": true,
+    "modification": true,
+    "sourceTemplateRedistribution": true,
+    "scope": "Only the new SVG artwork listed below; this statement does not grant rights to fonts, code, designs or other third-party materials."
+  },
+  "assets": [
+    {
+      "file": "fonts/playfair-display-italic.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Playfair-Display-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "6021680663c58b344d8404c289c755aadc662a02189ffe4f5ca79378f9e97840"
+    },
+    {
+      "file": "fonts/playfair-display-regular.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Playfair-Display-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "1609a54fa3ad1abc8d0037132f73700333241ea0b65672079998e352f151dea7"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-bold.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "32971ad7976930539a11c79ce91ce84092df7f25c5be716b594601842f10a7ae"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-medium.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "b4fc14ec283d54236fd302cdb92546f98ae0ff061ca5ee23453a02bdf4628791"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-regular.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "076831b98043f50f829b6c91db3be4a844641f1c95bccff5c886ed87c661a852"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-semibold.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "50357df108c5d297ec4ece76aeddf49561f3794f67af077cfc2c711b7a75b439"
+    },
+    {
+      "file": "images/autumn.svg",
+      "replaces": "images/autumn.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "06d97d2cd7b60bc12479e5e34cc33dcbb141466ac29d80ac922ca33a8cba2366"
+    },
+    {
+      "file": "images/courtyard.svg",
+      "replaces": "images/courtyard.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "d2c5c346c0ab0cfc4a81a7054ef8e2e2d5ef9f777210b3f598d0e5822bfb16c1"
+    },
+    {
+      "file": "images/forest-sanctuary.svg",
+      "replaces": "images/forest-sanctuary.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "1c0b867df2f711a0ee46601e5305446693e36e050a737ea29db32226a32a370d"
+    },
+    {
+      "file": "images/forest.svg",
+      "replaces": "images/forest.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "164434394b877f17646f5509640d884d0ecee987632c1ee9e3ee3a2f1a1b01b3"
+    },
+    {
+      "file": "images/hanok.svg",
+      "replaces": "images/hanok.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "9882ac7474eb6647467949fff2769ceb712daf004deec10e772d7fdc88aded85"
+    },
+    {
+      "file": "images/journal-architecture.svg",
+      "replaces": "images/journal-architecture.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "10fb309f229d83ea8b2f44acd9a30bbe57a16e487f9a8b138748e87809598bed"
+    },
+    {
+      "file": "images/journal-interview.svg",
+      "replaces": "images/journal-interview.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "5caa55635491d1d70a4f4d6d7deb8d1f0dfff2b34db4bd0c0358d143daf27392"
+    },
+    {
+      "file": "images/journal-retreat.svg",
+      "replaces": "images/journal-retreat.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "7922697a7fdc40a036a606083c8bf3ce1f38dd83fd6bcc5711a11a9406f3c204"
+    },
+    {
+      "file": "images/mountain.svg",
+      "replaces": "images/mountain.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "2fb7e91d135b4a89bbc88d89459678bdff0c988f8baefb776484c921d13cc149"
+    },
+    {
+      "file": "images/path.svg",
+      "replaces": "images/path.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "24b766233661b99ea9f43a2605d7d169d198a9ed3a5edf6fee0c4199e7d2fbf2"
+    },
+    {
+      "file": "images/pool.svg",
+      "replaces": "images/pool.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "738e0190ab19bbc5d53d3588e90960e835a1b7b94bc5ff37d03ba796314259f4"
+    },
+    {
+      "file": "images/resort.svg",
+      "replaces": "images/resort.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "9d419384657cf9db856c39e5484b1cd2fac1dd0b5ee4c401a65cdd89db46445e"
+    },
+    {
+      "file": "images/sauna.svg",
+      "replaces": "images/sauna.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "edf1f90d78e7a54e3c54505930ac3e30dac2a08187183e90a0e06a9ef7e59e74"
+    },
+    {
+      "file": "images/spa.svg",
+      "replaces": "images/spa.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "9c71e96de1455fe872bb218ab2d3b1bbb8ff4f04581af49e0b4b67eab9000133"
+    },
+    {
+      "file": "images/tea.svg",
+      "replaces": "images/tea.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "5ee71b0e7fe1f582c73d19c30d3f7c524519c0d4c7859a11f40a6e4e376c16b0"
+    },
+    {
+      "file": "images/villa.svg",
+      "replaces": "images/villa.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "faefc3ef20679998f42e0a1a610617a994f82be1164b11f9eac38861ac91eb18"
+    }
+  ],
+  "reviewed": "2026-11-06",
+  "scope": "File-level provenance and applicable conditions only, not a legal non-infringement guarantee."
+}

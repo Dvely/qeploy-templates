@@ -16,7 +16,7 @@ window.HARUTGYEOL = {
         "architecture",
         "promotion"
       ],
-      "image": "images/courtyard.jpg",
+      "image": "images/courtyard.svg",
       "alt": "얕은 수공간과 흰 벽, 나무 벤치가 있는 고요한 안뜰",
       "tags": [
         "독채",
@@ -57,7 +57,7 @@ window.HARUTGYEOL = {
         "architecture",
         "pet"
       ],
-      "image": "images/hanok.jpg",
+      "image": "images/hanok.svg",
       "alt": "푸른 잔디와 넓은 툇마루가 있는 한옥",
       "tags": [
         "한옥",
@@ -97,7 +97,7 @@ window.HARUTGYEOL = {
         "pet",
         "promotion"
       ],
-      "image": "images/forest.jpg",
+      "image": "images/forest.svg",
       "alt": "저녁 숲을 밝히는 따뜻한 목조 독채",
       "tags": [
         "숲전망",
@@ -136,7 +136,7 @@ window.HARUTGYEOL = {
         "spa",
         "promotion"
       ],
-      "image": "images/spa.jpg",
+      "image": "images/spa.svg",
       "alt": "대나무 정원 앞 프라이빗 노천탕",
       "tags": [
         "노천탕",
@@ -176,7 +176,7 @@ window.HARUTGYEOL = {
         "forest",
         "architecture"
       ],
-      "image": "images/pool.jpg",
+      "image": "images/pool.svg",
       "alt": "소나무 숲속 독채의 야외 온수풀",
       "tags": [
         "사계절 온수풀",
@@ -216,7 +216,7 @@ window.HARUTGYEOL = {
         "forest",
         "promotion"
       ],
-      "image": "images/sauna.jpg",
+      "image": "images/sauna.svg",
       "alt": "따뜻한 조명과 편백 욕조가 있는 박공지붕 숙소",
       "tags": [
         "핀란드 사우나",
@@ -255,7 +255,7 @@ window.HARUTGYEOL = {
         "forest",
         "spa"
       ],
-      "image": "images/path.jpg",
+      "image": "images/path.svg",
       "alt": "안개 낀 소나무 숲 사이 돌길",
       "tags": [],
       "tagline": "숲 안으로, 한 걸음 더 깊이",
@@ -291,7 +291,7 @@ window.HARUTGYEOL = {
         "tea",
         "architecture"
       ],
-      "image": "images/tea.jpg",
+      "image": "images/tea.svg",
       "alt": "정원을 바라보는 나무 다도 라운지",
       "tags": [],
       "tagline": "차 한 잔이 채우는 넉넉한 여백",
@@ -327,7 +327,7 @@ window.HARUTGYEOL = {
         "forest",
         "tea"
       ],
-      "image": "images/mountain.jpg",
+      "image": "images/mountain.svg",
       "alt": "산 전망이 펼쳐지는 햇살 가득한 거실",
       "tags": [],
       "tagline": "산과 함께 깨어나는 아침",
@@ -362,7 +362,7 @@ window.HARUTGYEOL = {
       "categories": [
         "architecture"
       ],
-      "image": "images/villa.jpg",
+      "image": "images/villa.svg",
       "alt": "푸른 저녁빛 아래 절벽 위 건축 빌라",
       "tags": [
         "MASTERWORK"
@@ -400,7 +400,7 @@ window.HARUTGYEOL = {
         "architecture",
         "tea"
       ],
-      "image": "images/resort.jpg",
+      "image": "images/resort.svg",
       "alt": "초록 자연과 어우러지는 곡선 건축",
       "tags": [
         "ICONIC DESIGN"
@@ -438,7 +438,7 @@ window.HARUTGYEOL = {
         "architecture",
         "spa"
       ],
-      "image": "images/forest-sanctuary.jpg",
+      "image": "images/forest-sanctuary.svg",
       "alt": "저녁 숲을 바라보는 나무 독채의 툇마루",
       "tags": [
         "PRIVATE SANCTUARY"
@@ -467,7 +467,7 @@ window.HARUTGYEOL = {
     {
       "id": "architecture",
       "title": "좋은 쉼은 어떤 공간에서 시작될까",
-      "image": "images/journal-architecture.jpg",
+      "image": "images/journal-architecture.svg",
       "alt": "좋은 쉼은 어떤 공간에서 시작될까",
       "label": "RESORT ARCHITECTURE",
       "episode": "EP. 06",
@@ -508,7 +508,7 @@ window.HARUTGYEOL = {
     {
       "id": "interview",
       "title": "숲을 걷는 사람의 스테이 산책",
-      "image": "images/journal-interview.jpg",
+      "image": "images/journal-interview.svg",
       "alt": "숲을 걷는 사람의 스테이 산책",
       "label": "INTERVIEW",
       "episode": "EP. 05",
@@ -549,7 +549,7 @@ window.HARUTGYEOL = {
     {
       "id": "retreat",
       "title": "초록의 품에서, 쉼을 위한 여행",
-      "image": "images/journal-retreat.jpg",
+      "image": "images/journal-retreat.svg",
       "alt": "초록의 품에서, 쉼을 위한 여행",
       "label": "GLOBAL STAY",
       "episode": "CURATION 10",
@@ -593,7 +593,7 @@ window.HARUTGYEOL = {
       "id": "autumn",
       "name": "가을 풍경 앞 스테이",
       "eyebrow": "THIS SEASON · AUTUMN",
-      "image": "images/autumn.jpg",
+      "image": "images/autumn.svg",
       "description": "단풍이 깃든 툇마루와 물안개 피어오르는 노천탕. 깊어지는 계절에 어울리는 느긋한 쉼을 모았습니다.",
       "intro": "아침의 공기가 서늘해지고, 저녁의 실내 불빛이 더 따뜻하게 느껴지는 계절입니다. 숲과 마당을 가까이 두는 공간에서 가을의 변화를 천천히 만나보세요.",
       "stayIds": [
@@ -609,7 +609,7 @@ window.HARUTGYEOL = {
       "id": "spa",
       "name": "따스한 물속으로",
       "eyebrow": "THERMAL SPA & JACUZZI",
-      "image": "images/spa.jpg",
+      "image": "images/spa.svg",
       "description": "노천탕, 자쿠지, 온수풀. 바깥 공기를 느끼며 물의 온기에 쉬어가는 공간입니다.",
       "intro": "하루의 일정을 잠시 내려놓고, 물가에 앉아 천천히 쉬어보세요. 둘만의 스파부터 숲속 온수풀까지 각자의 휴식에 맞는 공간을 제안합니다.",
       "category": "spa"
@@ -618,7 +618,7 @@ window.HARUTGYEOL = {
       "id": "forest",
       "name": "숲속 고요한 독채",
       "eyebrow": "INTO THE FOREST",
-      "image": "images/path.jpg",
+      "image": "images/path.svg",
       "description": "나무의 그림자와 아침의 공기. 숲의 리듬으로 머무는 독채를 만나보세요.",
       "intro": "멀리 움직이지 않아도 창밖의 풍경이 하루를 채웁니다. 숲을 가까이 두는 집에서 산책과 휴식 사이의 여백을 누려보세요.",
       "category": "forest"
@@ -627,7 +627,7 @@ window.HARUTGYEOL = {
       "id": "architecture",
       "name": "건축가 컬렉션",
       "eyebrow": "MASTER ARCHITECTURE",
-      "image": "images/villa.jpg",
+      "image": "images/villa.svg",
       "description": "깊이 있는 물성과 자연을 향한 시선. 공간 그 자체가 목적지가 되는 집입니다.",
       "intro": "단순한 선과 부드러운 곡선, 재료를 다루는 섬세한 방식이 머무는 경험을 바꿉니다. 마음에 드는 건축의 장면에서 하루를 보내보세요.",
       "category": "architecture"
@@ -636,7 +636,7 @@ window.HARUTGYEOL = {
       "id": "pet",
       "name": "함께 떠나는 작은 동행",
       "eyebrow": "WITH YOUR COMPANION",
-      "image": "images/hanok.jpg",
+      "image": "images/hanok.svg",
       "description": "마당 산책도, 느긋한 오후도 함께. 반려견 동반 숙소를 모았습니다.",
       "intro": "함께 걷는 길과 편안하게 쉬어갈 자리를 고릅니다. 반려견 동반 기준과 준비할 내용은 각 숙소의 이용 안내에서 확인해주세요.",
       "category": "pet"
@@ -645,7 +645,7 @@ window.HARUTGYEOL = {
       "id": "promotion",
       "name": "미리 계획하는 느긋한 여행",
       "eyebrow": "EARLY PLANS · SPECIAL RATES",
-      "image": "images/forest.jpg",
+      "image": "images/forest.svg",
       "description": "일정을 먼저 정하고 마음에 드는 공간을 담아두세요. 예시 혜택이 있는 스테이를 소개합니다.",
       "intro": "가볍게 여행을 떠올려보는 시간부터 쉼은 시작됩니다. 관심 있는 숙소의 날짜와 프로그램 구성을 살펴보고 나에게 맞는 하루를 계획해보세요.",
       "category": "promotion"
@@ -654,7 +654,7 @@ window.HARUTGYEOL = {
       "id": "tea",
       "name": "다도와 명상의 방",
       "eyebrow": "A CUP OF QUIET",
-      "image": "images/tea.jpg",
+      "image": "images/tea.svg",
       "description": "차 한 잔을 나누고 마음의 속도를 낮추는 시간. 조용한 여백을 만나는 집입니다.",
       "intro": "낮은 테이블과 부드러운 빛이 놓인 자리에 앉아봅니다. 긴 일정 대신 차와 책, 창밖의 풍경으로 채우는 여행을 제안합니다.",
       "category": "tea"

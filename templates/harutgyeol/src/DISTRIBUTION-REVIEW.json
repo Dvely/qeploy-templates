@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "project": "harutgyeol",
+  "status": "reviewed",
+  "reviewDate": "2026-11-06",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "7af0457ca23270ea32255b53b4a3e1ce83e76b8eeb5ee8f18e02c5d3eefe9c8b",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/fonts.css": {
+      "sha256": "9923135f0b6e70e80c2d1e36c761d5a4b942a12afc083c316122d6cef24b0df9",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/playfair-display-italic.ttf": {
+      "sha256": "6021680663c58b344d8404c289c755aadc662a02189ffe4f5ca79378f9e97840",
+      "origin": "open-font-license"
+    },
+    "fonts/Playfair-Display-OFL.txt": {
+      "sha256": "566be814f8e96e93dfa16101331557eb6b5467e9e03f627c0910fe93ca12300e",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/playfair-display-regular.ttf": {
+      "sha256": "1609a54fa3ad1abc8d0037132f73700333241ea0b65672079998e352f151dea7",
+      "origin": "open-font-license"
+    },
+    "fonts/plus-jakarta-sans-bold.ttf": {
+      "sha256": "32971ad7976930539a11c79ce91ce84092df7f25c5be716b594601842f10a7ae",
+      "origin": "open-font-license"
+    },
+    "fonts/plus-jakarta-sans-medium.ttf": {
+      "sha256": "b4fc14ec283d54236fd302cdb92546f98ae0ff061ca5ee23453a02bdf4628791",
+      "origin": "open-font-license"
+    },
+    "fonts/Plus-Jakarta-Sans-OFL.txt": {
+      "sha256": "995c7199cab65954f545996326755daee7b63cc6b42b06c13da1f9502ab08a99",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/plus-jakarta-sans-regular.ttf": {
+      "sha256": "076831b98043f50f829b6c91db3be4a844641f1c95bccff5c886ed87c661a852",
+      "origin": "open-font-license"
+    },
+    "fonts/plus-jakarta-sans-semibold.ttf": {
+      "sha256": "50357df108c5d297ec4ece76aeddf49561f3794f67af077cfc2c711b7a75b439",
+      "origin": "open-font-license"
+    },
+    "harutgyeol-about.html": {
+      "sha256": "f469ed84168943553ec9f2e7d554611f89c77f74901732187025e41a531b024e",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-booking.html": {
+      "sha256": "e2857ff0513a06fe829e6e83c7be3026ea08cc903aefc3f69726cd68ace67f38",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-build.mjs": {
+      "sha256": "961acfd53bae46ba3e4f6f5377bb8032029d28eb39b52692f0168d4fd837f0e4",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-collection-architecture.html": {
+      "sha256": "3fcec6571c655dbf558782f5d8035325467ce1cbff35825fdc2d85e0ce77a3ac",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-collection-autumn.html": {
+      "sha256": "05fbb951bed08cc479ed758b978674508935b637af7958a4e8a67eb7b642ffde",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-collection-forest.html": {
+      "sha256": "da8221d891a8f01ffd8ccc7a2118812d380402046cac6515e572b67fceac6621",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-collection-pet.html": {
+      "sha256": "6ba36370db628f189be408edbc7c22b5dd9898ba3509d42450dbb817e44c50a7",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-collection-promotion.html": {
+      "sha256": "5e4b24234b827912efac48cd6df8f6a00afb75ef0e3e12db839a91166d9d5960",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-collection-spa.html": {
+      "sha256": "7805358a155ad0d7cbd2cd9c54112505bbad7df2d883fafbf69d5649324ab3cb",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-collection-tea.html": {
+      "sha256": "ba1ce570b8a278a3d42b6de3601bc5688596e013f4d3ae21806dfaf9ff406b64",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-collections.html": {
+      "sha256": "fc13328af9c61df08d8c54e975360e2f3ea311e01bd5af3e7e2825f6f55f7f6b",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-data.js": {
+      "sha256": "34be10a961b0408a17d57c6594aee2e888b66f30db2c52f48afaef5d1623e89b",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-journal-architecture.html": {
+      "sha256": "5caf8b496dd16df9dbf285ba114674e10353fa0766f0bc4c697e1d58c368f482",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-journal-interview.html": {
+      "sha256": "7eb1b620b8a2c7e9b1304c1fc52e195bc3ee9b36a7dae7c65427d7a84d70026b",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-journal-retreat.html": {
+      "sha256": "d4303f9005dea251d289eb2bf922a7e8bd22f4d5f6adc35ad9c4102051204785",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-journals.html": {
+      "sha256": "e823e42c0bc172cad7f269cf63131536c9b42c9b55b577ea75cbee0a9b1e4aff",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-pages.css": {
+      "sha256": "3aec4f08e2c9aa774c365fe4dc0cb3882666201fb6a839e80126e66480499477",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-saved.html": {
+      "sha256": "35b6fe207f26f8cc98ccd2f44eb52c2f464c6f1b368cc4336b01c37402a12f0f",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-stay-courtyard.html": {
+      "sha256": "bc98445543d51ba01d9c5d4ac2be4a07f0fa52c6c15a5d896a1938b464259d0d",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-stay-forest.html": {
+      "sha256": "a9dc7a7803f10b6527e4814d45562d3d29a1a596f1cc7c4ae55c8a5edc09d0b5",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-stay-hanok.html": {
+      "sha256": "1a1268c1e80852cf3e165c4b63f5e1808458b42b1b3eff9cc623b0f73e023fd9",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-stay-mountain.html": {
+      "sha256": "4867348ed5d7a99fae7a9ec268218f5e31d5a505cb07c894f94ac60eb24d0b31",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-stay-path.html": {
+      "sha256": "a28b38aa9b9030f0fbeae9aa7e1b9b9b0758c2c41e6665cea529091384a096f8",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-stay-pool.html": {
+      "sha256": "e27c7d898e797cc0c00b6141ca7793b081607ee8882280fad21abce6c97115c5",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-stay-resort.html": {
+      "sha256": "304175b93cec277a5c24f8fa655ff6945985b23d35ad137b2e4d8bcf0fd99c74",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-stay-sanctuary.html": {
+      "sha256": "46ca97f7a5ad9347f3d81a41a524aa792392874d11417857eeb667f6b68d5e7e",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-stay-sauna.html": {
+      "sha256": "ed1ac89fea54292348c31cf1e3652da8fd917bac1d4851c37968028378f127af",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-stay-spa.html": {
+      "sha256": "88ce82f152b49d6a649fba8d7923ac215351191dcf8a56ad8c67b01f6b7353c0",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-stay-tea.html": {
+      "sha256": "bec8f105e5d0c3d27eee276efa75cc11fe49f4918cec1e194fc6f3dcaffdf1d2",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-stay-villa.html": {
+      "sha256": "9334b6546699cade16326646c720465a16086f610cbf1e92c7ea2c3a247a1ffc",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol-stays.html": {
+      "sha256": "832dc01445d9742a71899476e22ba5186969288e97a7f00ecc4a177694c7e397",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol.css": {
+      "sha256": "294ab3387a4bfcdc3430736bef5ce193405a780fe14ac3d3a316c09b8fb6b428",
+      "origin": "reviewed-project-source"
+    },
+    "harutgyeol.js": {
+      "sha256": "9783ec545ae43546281360b038c3fd94d8ba469c41970dea147966ba4a790507",
+      "origin": "reviewed-project-source"
+    },
+    "images/autumn.svg": {
+      "sha256": "06d97d2cd7b60bc12479e5e34cc33dcbb141466ac29d80ac922ca33a8cba2366",
+      "origin": "original-vector"
+    },
+    "images/courtyard.svg": {
+      "sha256": "d2c5c346c0ab0cfc4a81a7054ef8e2e2d5ef9f777210b3f598d0e5822bfb16c1",
+      "origin": "original-vector"
+    },
+    "images/forest-sanctuary.svg": {
+      "sha256": "1c0b867df2f711a0ee46601e5305446693e36e050a737ea29db32226a32a370d",
+      "origin": "original-vector"
+    },
+    "images/forest.svg": {
+      "sha256": "164434394b877f17646f5509640d884d0ecee987632c1ee9e3ee3a2f1a1b01b3",
+      "origin": "original-vector"
+    },
+    "images/hanok.svg": {
+      "sha256": "9882ac7474eb6647467949fff2769ceb712daf004deec10e772d7fdc88aded85",
+      "origin": "original-vector"
+    },
+    "images/journal-architecture.svg": {
+      "sha256": "10fb309f229d83ea8b2f44acd9a30bbe57a16e487f9a8b138748e87809598bed",
+      "origin": "original-vector"
+    },
+    "images/journal-interview.svg": {
+      "sha256": "5caa55635491d1d70a4f4d6d7deb8d1f0dfff2b34db4bd0c0358d143daf27392",
+      "origin": "original-vector"
+    },
+    "images/journal-retreat.svg": {
+      "sha256": "7922697a7fdc40a036a606083c8bf3ce1f38dd83fd6bcc5711a11a9406f3c204",
+      "origin": "original-vector"
+    },
+    "images/mountain.svg": {
+      "sha256": "2fb7e91d135b4a89bbc88d89459678bdff0c988f8baefb776484c921d13cc149",
+      "origin": "original-vector"
+    },
+    "images/path.svg": {
+      "sha256": "24b766233661b99ea9f43a2605d7d169d198a9ed3a5edf6fee0c4199e7d2fbf2",
+      "origin": "original-vector"
+    },
+    "images/pool.svg": {
+      "sha256": "738e0190ab19bbc5d53d3588e90960e835a1b7b94bc5ff37d03ba796314259f4",
+      "origin": "original-vector"
+    },
+    "images/resort.svg": {
+      "sha256": "9d419384657cf9db856c39e5484b1cd2fac1dd0b5ee4c401a65cdd89db46445e",
+      "origin": "original-vector"
+    },
+    "images/sauna.svg": {
+      "sha256": "edf1f90d78e7a54e3c54505930ac3e30dac2a08187183e90a0e06a9ef7e59e74",
+      "origin": "original-vector"
+    },
+    "images/spa.svg": {
+      "sha256": "9c71e96de1455fe872bb218ab2d3b1bbb8ff4f04581af49e0b4b67eab9000133",
+      "origin": "original-vector"
+    },
+    "images/tea.svg": {
+      "sha256": "5ee71b0e7fe1f582c73d19c30d3f7c524519c0d4c7859a11f40a6e4e376c16b0",
+      "origin": "original-vector"
+    },
+    "images/villa.svg": {
+      "sha256": "faefc3ef20679998f42e0a1a610617a994f82be1164b11f9eac38861ac91eb18",
+      "origin": "original-vector"
+    },
+    "index.html": {
+      "sha256": "096b5a8fb515101bcaa996a9d5146f542940747113e2e5ffd93d0771f75b3ed6",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "99c099eb3c63ee60b6193e6078037117b439962a2792e703c86810c3b424368d",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "097d18c99bbfe3d545196f58fa2afef613694d7d9261cbcfdc38d55dcaa0af32",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

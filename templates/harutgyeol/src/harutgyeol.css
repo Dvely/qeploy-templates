@@ -279,6 +279,12 @@ h2 { font: 400 30px/1.45 var(--serif); letter-spacing: -.025em; }
   .filter-summary { align-items: flex-start; }
   .filter-summary p { max-width: 75%; font-size: 12px; }
 }
+@media (max-width: 360px) {
+  .header-bar { gap: 8px; padding-inline: 16px; }
+  .header-bar .brand { font-size: 18px; letter-spacing: .035em; }
+  .header-actions { gap: 2px; }
+  .hero h1 { font-size: 28px; word-break: keep-all; line-height: 1.4; }
+}
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
