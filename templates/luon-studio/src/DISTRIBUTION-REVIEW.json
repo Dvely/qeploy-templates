@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "project": "luon-studio",
+  "status": "reviewed",
+  "reviewDate": "2026-11-06",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "264283beec898183c2f1dd5463f5a49ca05118b5599c5faa12f12b4e0afec854",
+      "origin": "reviewed-project-source"
+    },
+    "assets/luon-campaign-art.png": {
+      "sha256": "829812549270216f4efcd3148a97bc33d119856bf127d4b55bfb1239a8421e44",
+      "origin": "documented-ai-generation"
+    },
+    "assets/luon-create.mp4": {
+      "sha256": "836bc74061a377720566a02538e027bf4c0c41e7f6ca54e67c66e7314f94d7a1",
+      "origin": "documented-generated-photo-video"
+    },
+    "assets/luon-creative-team.png": {
+      "sha256": "f2071543c92840513abc5f15a0fb94fe956ffe648303c2dfe214053558a20d2a",
+      "origin": "documented-ai-generation"
+    },
+    "assets/luon-design.mp4": {
+      "sha256": "fccb7e40803ba104fcc5943117dc4968668fb691cdb9c09cbeed355bb273d70c",
+      "origin": "documented-generated-photo-video"
+    },
+    "assets/luon-digital-space.png": {
+      "sha256": "71131c933074fb2683297f3b40fe9ccf944ec4c1b05d91ffc944beeb26341ca7",
+      "origin": "documented-ai-generation"
+    },
+    "assets/luon-explore.mp4": {
+      "sha256": "5d0fb96dcac0e841d0fe42f9740611efc5efb6369210bdc8654488d88eb4e7d5",
+      "origin": "documented-generated-photo-video"
+    },
+    "assets/luon-flow.mp4": {
+      "sha256": "fcbf605f1532a951d28fd367b6ff6c7e0d0538957da0c55085ebd7f7d310abc2",
+      "origin": "documented-generated-photo-video"
+    },
+    "assets/luon-location.html": {
+      "sha256": "d762bc18e88d3001191d109f8489d5d3d2235d97db081ad4fc57a952a853dd98",
+      "origin": "reviewed-project-source"
+    },
+    "assets/luon-portraits.png": {
+      "sha256": "d5655624e46b8dc8f02806c72e01c1805c6c643aa79a0749384822eb0603c520",
+      "origin": "documented-ai-generation"
+    },
+    "assets/luon-product-studio.png": {
+      "sha256": "d258fddc90171387fedd763bb1b91bac992c1ad52d1582b32d06113c2f3dd06f",
+      "origin": "documented-ai-generation"
+    },
+    "assets/luon-visual-system.png": {
+      "sha256": "999c0558a945c0c65f6ee90adf49b91cf259fd281df11b5d30c8ba7dd905b54e",
+      "origin": "documented-ai-generation"
+    },
+    "brand-guide.txt": {
+      "sha256": "cadc9ec56c78dfd02f08c915702b05ec28db0c2e7d2751f1b5a6b925715f7914",
+      "origin": "reviewed-project-source"
+    },
+    "IMAGE-PROMPTS.md": {
+      "sha256": "aa817d101e58d6fbbd996f596d4fc12af397c3c62a7bcbfa00b7f481b677c2f7",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "9c9dcb922d9366584b14ddb6123ca8f6714834ee09e217cb66ac45c8f0e03b88",
+      "origin": "reviewed-project-source"
+    },
+    "LICENSE.txt": {
+      "sha256": "fad141e7bd6dd211810cd79c0be32484e804295a2db61ed6f3865e788f4ada2b",
+      "origin": "reviewed-project-source"
+    },
+    "luon-about.html": {
+      "sha256": "b0b53afd1d1b666570cd79206f6ceb68dedb86af574d6737ebc2b602f0b1df2a",
+      "origin": "reviewed-project-source"
+    },
+    "luon-careers.html": {
+      "sha256": "c9d19e48b49bfc35f3677cd92f4cb827e55dc4a67b9db7e53734b1157ce55eeb",
+      "origin": "reviewed-project-source"
+    },
+    "luon-contact.html": {
+      "sha256": "1cb556d9d0fcb9639bc70940edb6c04270c997b7d46c924bd65f6428386f3be8",
+      "origin": "reviewed-project-source"
+    },
+    "luon-cos-projects-cli.html": {
+      "sha256": "73e6b52a7b387721b8aed91c4b4ee566d737d4736b8d4359663375e95e7fb14b",
+      "origin": "reviewed-project-source"
+    },
+    "luon-cos-projects-navi-vision.html": {
+      "sha256": "4a01b232f8e40bca234005f346c85593689b458c4018c5b8dd2354f51d75c340",
+      "origin": "reviewed-project-source"
+    },
+    "luon-cos-projects-wiki.html": {
+      "sha256": "0ce40dc8994f9cefd1ba03a0a36cb824c392a5d18349a6abf4a209722b4ccf42",
+      "origin": "reviewed-project-source"
+    },
+    "luon-cos-services-canvasly.html": {
+      "sha256": "d3780d222dab56496835b72903f6b6d08b93a3074493e63e585bb7002e70196c",
+      "origin": "reviewed-project-source"
+    },
+    "luon-cos-services-formnote.html": {
+      "sha256": "9ebde30a994d1e2b7c87be64c23e1e4f2c94da4c76964cc02377ba4ec5d1b755",
+      "origin": "reviewed-project-source"
+    },
+    "luon-cos-services-lens.html": {
+      "sha256": "9ebde30a994d1e2b7c87be64c23e1e4f2c94da4c76964cc02377ba4ec5d1b755",
+      "origin": "reviewed-project-source"
+    },
+    "luon-cos-services-momentroom.html": {
+      "sha256": "9ebde30a994d1e2b7c87be64c23e1e4f2c94da4c76964cc02377ba4ec5d1b755",
+      "origin": "reviewed-project-source"
+    },
+    "luon-cos-services-onyou-home.html": {
+      "sha256": "9ebde30a994d1e2b7c87be64c23e1e4f2c94da4c76964cc02377ba4ec5d1b755",
+      "origin": "reviewed-project-source"
+    },
+    "luon-cos-services-scenelog.html": {
+      "sha256": "9ebde30a994d1e2b7c87be64c23e1e4f2c94da4c76964cc02377ba4ec5d1b755",
+      "origin": "reviewed-project-source"
+    },
+    "luon-cos-services-tastenote.html": {
+      "sha256": "9ebde30a994d1e2b7c87be64c23e1e4f2c94da4c76964cc02377ba4ec5d1b755",
+      "origin": "reviewed-project-source"
+    },
+    "luon-cos-services.html": {
+      "sha256": "9ebde30a994d1e2b7c87be64c23e1e4f2c94da4c76964cc02377ba4ec5d1b755",
+      "origin": "reviewed-project-source"
+    },
+    "luon-cos.html": {
+      "sha256": "8273f6348e4523216383ec9059430976909cbc2751deef94e2c0499c16470c7f",
+      "origin": "reviewed-project-source"
+    },
+    "luon-english.html": {
+      "sha256": "77b036d4d03e34c32db664e9365cff5b76f8603f82743e8982b11e31875b4a28",
+      "origin": "reviewed-project-source"
+    },
+    "luon-journal-news-106.html": {
+      "sha256": "48912452b14faedbc7fb1732dcd54c1cdae1554c9307b157275aa09f31b4f437",
+      "origin": "reviewed-project-source"
+    },
+    "luon-journal-news-107.html": {
+      "sha256": "39dc44c5db75309174a41257cab7192981c60c48f55986186c49fbbb2ac83e27",
+      "origin": "reviewed-project-source"
+    },
+    "luon-journal-news-108.html": {
+      "sha256": "2e1a04fcbe0cbde0e25a6615857d82531b88e4c2af79a9c1d8a4f2ef9f7b6777",
+      "origin": "reviewed-project-source"
+    },
+    "luon-journal-news-109.html": {
+      "sha256": "ffdc8a51ed1930f0ebdc6cbf00dd28bf8123fe5eb8b04fd9e0a374de09c9b7d6",
+      "origin": "reviewed-project-source"
+    },
+    "luon-journal.html": {
+      "sha256": "0a86df150eecbf2ab65057ba7f3e0b80244ac56729bbf90c9c376b26a993cee8",
+      "origin": "reviewed-project-source"
+    },
+    "luon-plan.html": {
+      "sha256": "13eacf095c1a595505d3aeac2cf596386686b836b1ebdca0b65984dc4e3f00d7",
+      "origin": "reviewed-project-source"
+    },
+    "luon-privacy.html": {
+      "sha256": "458f4f61b5442741deeb129f5c6e8ad91118cc2c0df35ac5a96935a88d3e48a0",
+      "origin": "reviewed-project-source"
+    },
+    "luon-sitemap.html": {
+      "sha256": "3210060ac8be4a52e8bc8ce7a2954cee482f83040f4a5c724d109ed3608526fe",
+      "origin": "reviewed-project-source"
+    },
+    "luon-works-orbi-alice.html": {
+      "sha256": "fde07a624bebc7e5e6935a9c5dc22b25318640a8ff1896d7ce4ac69f11bf29e6",
+      "origin": "reviewed-project-source"
+    },
+    "luon-works-orbi-wonder.html": {
+      "sha256": "d05b928f70670f74fc6cf3bb650bf3923b44cf1611ee5354a7fd56321b009c26",
+      "origin": "reviewed-project-source"
+    },
+    "luon-works.html": {
+      "sha256": "764815bb2ef4ec3ccd4c03bf6675956b561003bdc01c398b17a291aa4e4942d6",
+      "origin": "reviewed-project-source"
+    },
+    "original-build.mjs": {
+      "sha256": "be2509c63fe86a4d8ea0d85f1ad41ce656d1b2647ef875e2c13a3fc788516fc4",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "8299375b2beecdcb42b721629707ffc129e13545a6b95ac1359f29ad2a51d582",
+      "origin": "reviewed-project-source"
+    },
+    "site-config.json": {
+      "sha256": "5faafaa21406d24e18b9b27fb56c5172a22efe14765915c2825dc2e03e100f53",
+      "origin": "reviewed-project-source"
+    },
+    "site.css": {
+      "sha256": "fb0bf6ff577040cccd0d3e5f4349976a82c0838cecd8a39f231a5c5afe71b2fb",
+      "origin": "reviewed-project-source"
+    },
+    "site.js": {
+      "sha256": "70482a8495d23ca784543109068bc7862a48585c6561d8223402c0fdfaa673c9",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "e76e9bbf0c20358d9b578e742c2cdc3bf188885f9623a81efd64ae6a636a90d1",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

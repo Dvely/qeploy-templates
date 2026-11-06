@@ -1,18 +1,42 @@
 {
   "id": "luon-studio",
   "name": "루온 스튜디오",
-  "description": "전체 화면 영상 전환, 스크롤 애니메이션, 프로젝트 필터, 자동 서비스 캐러셀과 저널 아코디언을 갖춘 크리에이티브 스튜디오 사이트",
-  "tags": ["기업", "스튜디오", "에이전시", "포트폴리오", "애니메이션", "반응형"],
+  "description": "관찰에서 시작하는 디지털 실험 · 독립 디자인과 자체 작성 UI를 갖춘 다중 페이지 템플릿",
+  "tags": [
+    "기업",
+    "스튜디오",
+    "에이전시",
+    "포트폴리오",
+    "애니메이션",
+    "반응형"
+  ],
   "stack": "vanilla",
   "entry": "index.html",
   "contentHints": [
-    {"key": "brand", "where": "index.html", "desc": "메인 섹션과 서버 렌더링 데이터. 하단 React 스트림의 동일 콘텐츠도 함께 수정"},
-    {"key": "logo", "where": "assets/luon-logo.svg", "desc": "새 루온 워드마크. 헤더 색상에 맞춰 마스크로 표시"},
-    {"key": "media", "where": "assets/", "desc": "새 창작 이미지 6장, Full HD 모션 영상 4개, 팀 일러스트와 로컬 지도"},
-    {"key": "motion", "where": "_next/static/chunks/", "desc": "원본 UI의 섹션 순서·치수·GSAP 모션·슬라이드·필터·아코디언·문의 흐름"},
-    {"key": "routes", "where": "luon-routes.json", "desc": "소개·작업·기술·서비스·저널·채용·문의와 25개 정적 HTML 경로"},
-    {"key": "local", "where": "luon-local.js", "desc": "로컬 페이지 이동, 언어 전환, 데이터 전송 없는 문의와 챗봇 시연"},
-    {"key": "tokens", "where": "luon-brand.css", "desc": "브랜드 컬러와 로고·시연 안내 스타일"},
-    {"key": "prompts", "where": "IMAGE-PROMPTS.md", "desc": "새 이미지별 파일과 실제 생성 프롬프트"}
+    {
+      "key": "brand",
+      "where": "site-config.json",
+      "desc": "가상의 브랜드 문구·컬렉션·프로젝트·페이지 경로"
+    },
+    {
+      "key": "theme",
+      "where": "site.css",
+      "desc": "자체 작성한 테마 토큰·독립 레이아웃·반응형 스타일"
+    },
+    {
+      "key": "behavior",
+      "where": "site.js",
+      "desc": "메뉴·검색·정렬·보관함·구성·문의 시연"
+    },
+    {
+      "key": "generation",
+      "where": "original-build.mjs",
+      "desc": "외부 의존성 없는 정적 페이지 생성기"
+    },
+    {
+      "key": "provenance",
+      "where": "ASSET-PROVENANCE.json",
+      "desc": "포함한 벡터·생성 사진·영상의 제작 기록과 해시"
+    }
   ]
 }

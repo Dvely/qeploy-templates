@@ -1,0 +1,86 @@
+{
+  "reviewed": "2026-11-06",
+  "assets": [
+    {
+      "file": "assets/luon-creative-team.png",
+      "sha256": "f2071543c92840513abc5f15a0fb94fe956ffe648303c2dfe214053558a20d2a",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/luon-campaign-art.png",
+      "sha256": "829812549270216f4efcd3148a97bc33d119856bf127d4b55bfb1239a8421e44",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/luon-product-studio.png",
+      "sha256": "d258fddc90171387fedd763bb1b91bac992c1ad52d1582b32d06113c2f3dd06f",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/luon-digital-space.png",
+      "sha256": "71131c933074fb2683297f3b40fe9ccf944ec4c1b05d91ffc944beeb26341ca7",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/luon-portraits.png",
+      "sha256": "d5655624e46b8dc8f02806c72e01c1805c6c643aa79a0749384822eb0603c520",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/luon-visual-system.png",
+      "sha256": "999c0558a945c0c65f6ee90adf49b91cf259fd281df11b5d30c8ba7dd905b54e",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/luon-explore.mp4",
+      "sha256": "5d0fb96dcac0e841d0fe42f9740611efc5efb6369210bdc8654488d88eb4e7d5",
+      "origin": "documented-generated-photo-video",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/luon-flow.mp4",
+      "sha256": "fcbf605f1532a951d28fd367b6ff6c7e0d0538957da0c55085ebd7f7d310abc2",
+      "origin": "documented-generated-photo-video",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/luon-create.mp4",
+      "sha256": "836bc74061a377720566a02538e027bf4c0c41e7f6ca54e67c66e7314f94d7a1",
+      "origin": "documented-generated-photo-video",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    },
+    {
+      "file": "assets/luon-design.mp4",
+      "sha256": "fccb7e40803ba104fcc5943117dc4968668fb691cdb9c09cbeed355bb273d70c",
+      "origin": "documented-generated-photo-video",
+      "record": "IMAGE-PROMPTS.md",
+      "distribution": "Included as generated example media in the template; no claim of exclusive copyright or universal non-infringement.",
+      "referenceInputEvidence": "Prompts retained; historical request parameters not fully available."
+    }
+  ],
+  "limitations": "Generated content is not a legal clearance or exclusive copyright guarantee. No source-site code, fonts, icons, media or proprietary plug-ins are included in this replacement."
+}
