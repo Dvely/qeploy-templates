@@ -1,0 +1,44 @@
+[
+  {
+    "id": "hero",
+    "path": "src/images/ongyeol-hero.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: 16:9 wide website hero photograph for a fictional Korean interior materials brand ONGYEOL HAUS. An elegant sunlit living room, light natural oak wood panel walls, floor to ceiling window overlooking green trees, cream curved sofa, round travertine coffee table, linen rug, subtly visible oak doorway. Premium architectural editorial photography, realistic wood grain, quiet earthy palette and restrained styling. Wide horizontal composition with room for white center headline. No text, logos, watermark, people. High resolution.",
+    "method": "built-in image_gen",
+    "referenceImages": []
+  },
+  {
+    "id": "door",
+    "path": "src/images/ongyeol-door.png",
+    "prompt": "Use case: product-mockup. Asset type: wide architectural product photo. A modern natural oak pivot door in a serene warm white corridor, thin black metal framed glass sliding partition on right, finely detailed vertical timber grain and brushed brass door handle, afternoon sunlight, understated Korean apartment interior, premium editorial photography, horizontal 3:2 composition. No text, logos, watermark or people.",
+    "method": "built-in image_gen",
+    "referenceImages": []
+  },
+  {
+    "id": "window",
+    "path": "src/images/ongyeol-window.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: wide architectural window product photo. Premium pale oak living room with generous black aluminum framed system windows and open sliding glass doors, lush green garden outside, linen lounge chair and very minimal furnishings. Focus on joinery and window construction. Soft morning sunlight, realistic materials, magazine quality, horizontal 3:2 composition. No text, logos, watermark or people.",
+    "method": "built-in image_gen",
+    "referenceImages": []
+  },
+  {
+    "id": "materials",
+    "path": "src/images/ongyeol-materials.png",
+    "prompt": "Use case: product-mockup. Asset type: horizontal interior materials editorial photograph. Close-up still life of pale oak and rich walnut wood boards, warm ivory decorative laminate sample, vertically fluted timber panel and thin stone texture sheet on an architect's work table. Beautifully organized natural materials with tactile wood grain, diagonal sunlight, soft warm neutral palette, premium realistic photography, wide 3:2 composition. No text, labels, logos or watermark.",
+    "method": "built-in image_gen",
+    "referenceImages": []
+  },
+  {
+    "id": "showroom",
+    "path": "src/images/ongyeol-showroom.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: wide showroom architectural photograph. A quiet contemporary Korean interior materials showroom with a long stone reception desk, wall of natural timber doors and sliding glass partitions, tall windows, indoor olive tree, subtle indirect lighting, oak ceiling beams, warm linen tones. Entire space seen in a wide angle architectural perspective, magazine quality, horizontal 16:9. No people, logos, text or watermark.",
+    "method": "built-in image_gen",
+    "referenceImages": []
+  },
+  {
+    "id": "craft",
+    "path": "src/images/ongyeol-craft.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: craftsmanship editorial photograph. Close-up of a craftsperson's hands carefully sanding a beautiful pale oak timber board on a sunlit studio workbench, light wood shavings, neatly arranged hand tools in background. Authentic tactile detail, quiet natural light, warm neutral tones, horizontal 3:2 composition. No face, text, logos or watermark.",
+    "method": "built-in image_gen",
+    "referenceImages": []
+  }
+]

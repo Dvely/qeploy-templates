@@ -1,0 +1,481 @@
+{
+  "schemaVersion": 1,
+  "project": "ongyeol-haus",
+  "status": "reviewed",
+  "reviewDate": "2026-11-06",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "b4937de976e96ce55b1f5c7ab4222b8273c133cbc13891b8dbf09d171bfcb0fa",
+      "origin": "reviewed-project-source"
+    },
+    "downloads/ongyeol-board-guide.txt": {
+      "sha256": "f43809aeabd48dea230178ae0c3b173a6320d96c88ae6326f2e521376a727502",
+      "origin": "reviewed-project-source"
+    },
+    "downloads/ongyeol-door-guide.txt": {
+      "sha256": "5b30da2cdafa977165fc37d4a958ed121293af8a893ce58b30911d53a36ead91",
+      "origin": "reviewed-project-source"
+    },
+    "downloads/ongyeol-film-guide.txt": {
+      "sha256": "612fea08ec90c8d4e103ac8b640a5db0bfe98fad0b5af43377d66e1dfa0a7a5f",
+      "origin": "reviewed-project-source"
+    },
+    "downloads/ongyeol-floor-guide.txt": {
+      "sha256": "e7fe570d3e04bdbed560f66364e6ea2b9a5acbfb785a550c772d2e2e486c3c93",
+      "origin": "reviewed-project-source"
+    },
+    "downloads/ongyeol-moulding-guide.txt": {
+      "sha256": "766b0a3267388cdc32507dc21299a11a2d98cc84ba6689afb6a281be22e6478d",
+      "origin": "reviewed-project-source"
+    },
+    "downloads/ongyeol-partition-guide.txt": {
+      "sha256": "9da03492e26da14e59381ed20a9ab6dbca96809f5024263232d65f52a89f0e1c",
+      "origin": "reviewed-project-source"
+    },
+    "downloads/ongyeol-timber-guide.txt": {
+      "sha256": "f0aa9683b370202854c35519932535e3a6431e3710921bdbad3e9715641a6b67",
+      "origin": "reviewed-project-source"
+    },
+    "downloads/ongyeol-window-guide.txt": {
+      "sha256": "2c7dd491444149bae997dc82fc331b5a307a4439050940ca36093e9c96901e46",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/Pretendard-OFL.txt": {
+      "sha256": "cc2582fa6dbd72ddfd229e709c0bae635f75a151ed1787adab9729a531b48a1f",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/PretendardVariable.woff2": {
+      "sha256": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4",
+      "origin": "open-font-license"
+    },
+    "generate.mjs": {
+      "sha256": "56ac187f3c949ee5f8cc4fe2b0221a91cf5c3bf0353507e5ba21782ce0eafde6",
+      "origin": "reviewed-project-source"
+    },
+    "IMAGE-PROMPTS.json": {
+      "sha256": "b79159a2a7a5156c8d4ce37e7d0b4d60eda8ae834bc843726c9b73975725efd1",
+      "origin": "reviewed-project-source"
+    },
+    "images/ongyeol-craft.png": {
+      "sha256": "f2febd69f5687f38fb27ed86cb12d1f8730fcd0dea01f68b958086a97b9417cb",
+      "origin": "documented-ai-generation"
+    },
+    "images/ongyeol-door.png": {
+      "sha256": "9dc09905acadf1ce8f225ca7bad738ec68a3812eee0661db6f707fced64be43c",
+      "origin": "documented-ai-generation"
+    },
+    "images/ongyeol-hero.png": {
+      "sha256": "6ab013198d5fbc95d96df2ab46e97d60d9f04724b4d98fca6b3912fc601d616f",
+      "origin": "documented-ai-generation"
+    },
+    "images/ongyeol-mark.svg": {
+      "sha256": "54d40d2d2a511a1fc2aab7749f708dfdfd5069a96d6799af7df5ff7bf2b346d2",
+      "origin": "original-vector"
+    },
+    "images/ongyeol-materials.png": {
+      "sha256": "5d9514f46c15589231e51ac4442c320f36a4babe2f8c8dc0f9015c0c0e196a7e",
+      "origin": "documented-ai-generation"
+    },
+    "images/ongyeol-showroom.png": {
+      "sha256": "24e021959376a051bf11b612a1ab954e8b545fa8dad205267346d857d5ea04ce",
+      "origin": "documented-ai-generation"
+    },
+    "images/ongyeol-window.png": {
+      "sha256": "3dd270aa1bd4d6a9be519fc8cd871cf10d58b5d39d2892cf5713829cf1164f82",
+      "origin": "documented-ai-generation"
+    },
+    "index.html": {
+      "sha256": "6ccf787522b62ccb30f1646ec5e8d469198850b84b69ab94211b6fe8aba6b9da",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-brand.html": {
+      "sha256": "6bded3da153e27b9f5a16b20dcdfcba9035dfc7f71eda7bb1292243f702bdb59",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-catalog.html": {
+      "sha256": "c6111908e4225fbde1ee8c525b561ca78aada9d2a14be70af1da9dd69e4b847b",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-category-board.html": {
+      "sha256": "92847fe02e7f6862767539c00d2ed0264160aeba680e7fcb50b6d6460a628604",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-category-door.html": {
+      "sha256": "f2121b9b04c8ba7dd81ddbef9b4af675dc65f77e58cdd1825112a5f0cad1a73d",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-category-film.html": {
+      "sha256": "647c3870c218ba13c4e33c6217be13a65ee3f40937e1bf6b5f8d8bb83835b170",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-category-floor.html": {
+      "sha256": "db89fa4a554ca3c77fa05e09a1938d742451467ac484307f929c1962a7ad004b",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-category-moulding.html": {
+      "sha256": "f7f8a392148cdeb716228f02e368612977fb903c56119fa63819222982b815d9",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-category-partition.html": {
+      "sha256": "197e6cf514c9d499272cc8e3e4657ab2538236d417ed3e679872ac2a86b7b564",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-category-timber.html": {
+      "sha256": "6e55d43cb4dd49f767aee9a81778950d6e4355ebf1a8b29a0b8161ab7ecef0eb",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-category-window.html": {
+      "sha256": "9bf6224d3d761499c877bf9429b50aaa0f39fcc92c670696c4a9cea97edde04b",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-board-1.html": {
+      "sha256": "74785e0b3cd3c799028c5698beb52e568450f57a86d45a0336f98261807c4372",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-board-2.html": {
+      "sha256": "519b9862e67c507090f06576b5392d01fab1cc9577b0f44778f771b408ccd7dc",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-board-3.html": {
+      "sha256": "ffb5b73992148a6264cf5105c7eb811c77b9d4ce90745bb5aed213921b285ac4",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-board-4.html": {
+      "sha256": "935585e71249b67889aba26c886c783e6a32501b42bf97605a8e0a90e6ad6ed2",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-board-5.html": {
+      "sha256": "a159285451c82cbce25edbf1e7c6f2b35cb737a2ea7ab28696f407c15d52f4d3",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-board-6.html": {
+      "sha256": "65fece9a4c5c7e40cb03b82974030b33d4e28b52a502992c1d9137a6bee8b788",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-door-1.html": {
+      "sha256": "50fed311e23fb4385cf00da74f5380458b314978c79488477d394a29b8167cdc",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-door-2.html": {
+      "sha256": "032f04429bdbdc2a41ace4fa1cfd3a101c5b5d66d0b50bfd8f1f69cfa8761c5d",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-door-3.html": {
+      "sha256": "f91d576b6d9805d9e78ec09768bafb5e9f7eefbd03c6bbc7a4716daca09e1cab",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-door-4.html": {
+      "sha256": "d7e44adaaf769c302756900028f11487e59b4f64afdff604fd7324a58fff4b0b",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-door-5.html": {
+      "sha256": "bb661af4914b4266e56ca8be5de47516e587a4259caa2d1539f26756b756cb74",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-door-6.html": {
+      "sha256": "2fdc2b62f1074df88b22b35abe64e8a8da62a6451e0916b50995e9c265ed1c28",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-door-7.html": {
+      "sha256": "b2fea2fd73dda5fda31c0da9c86ab7cda9507f07d9090842719531efdee4bb79",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-door-8.html": {
+      "sha256": "befbc2f1b25cafc55be32a97a54ec0195ab3905920b1d73de0a9c095e0525f73",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-door-9.html": {
+      "sha256": "42c334c4b31f776ec6a65f93b1c8a053e9ce19c5bad070a5b9fba3184d7110dc",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-film-1.html": {
+      "sha256": "3064fb8aeaf33d2317055db61bfd06a567bab48ab2451d3e1f92782fa5926cb7",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-film-2.html": {
+      "sha256": "e0d95a30240bef00bfce65d3363e28a8085e0adbd26ab71df09307cb7b5c45f9",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-film-3.html": {
+      "sha256": "2d90d6907a203d42df6f2e84f3207194653c78a4e6c194ab94c7099bfd19def2",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-film-4.html": {
+      "sha256": "73cbbd6cd5795da6c10c449a0ad4c51f062e4690d08e4668610cf70e75d67efd",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-floor-1.html": {
+      "sha256": "31f055b45c72f869ee1e78ed50ec3bd1026f8f1930eb563c7abc4800f799b39d",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-floor-2.html": {
+      "sha256": "05038148a8d221df864d1b975b8e3b03e3974a70f18e67625487d37d9fac0a23",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-moulding-1.html": {
+      "sha256": "7ca226d04a3120dfd42ad4d603157043d5d256637da144e88fd2e5c5724578b2",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-moulding-2.html": {
+      "sha256": "0c77e3c9dba2b67b3053c236165f0dfcd326933630fa0160d39b70be25be1830",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-partition-1.html": {
+      "sha256": "81df6846518603f54ced0780645c26e21e4082694246de751aeacf5a5f087b38",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-partition-2.html": {
+      "sha256": "4d0d3195641e3ccada1856c7ad5135374dbfedb564f34f5697af94d269875af6",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-partition-3.html": {
+      "sha256": "c0ffcae8c9adab589e68b7ec9c348c172da02550ef615429870a0a9ef8322636",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-partition-4.html": {
+      "sha256": "0092bd9edbcd630621abe2446f06972fb6173ec364fc8a06bbbc6ee2b58534c4",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-partition-5.html": {
+      "sha256": "3ee8014d8e892e6b8f230f7867023536b55f3c8c98bd43a5f66e53374ee533b9",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-timber-1.html": {
+      "sha256": "f0ac190e1b8ebb88df3552382da0bd54c4457ed2610b01e67ca5aa31c2a9159e",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-timber-2.html": {
+      "sha256": "16cf967c3d85d35c78a42ea3169fc49341106a66b5c560e1b1919d9b99c87bee",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-timber-3.html": {
+      "sha256": "698dcc25e5e54083ee65d627b126e75b2ddf094bac05525031ac59571a08c619",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-collection-window-1.html": {
+      "sha256": "b012dd2f3e6e91f7e6d7c06141f1f89bcee72687922bfab6bdb1dd919cc63dff",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-contact.html": {
+      "sha256": "393a4bafca71f90232db43db4485175ef033a0bbf360d78b32e1fa2b99c945d7",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-data.js": {
+      "sha256": "52e763ab2d3ccf381371002f3fd17d4ce2cea5f3bd7b71adf5cd5b173df883b5",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-email.html": {
+      "sha256": "7ac627e5f89031bbc39b2b8a594604ce6887d9ba1dac6e2d3ac1cb70b01492d0",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-faq.html": {
+      "sha256": "f5779c24e2b11482f8db148953adbc5ca486856c1babe4976ccedbe03dd2f393",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-gallery-material-library.html": {
+      "sha256": "ea4a00a80241a4caacdf5f40cc57566244add682c844799115f8b04e1ed178b4",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-gallery-open-boundary.html": {
+      "sha256": "e60918f9af27dba9178451c83c182df477355128eedcd620d921682e6df55c55",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-gallery-quiet-home.html": {
+      "sha256": "755bf7008d0c75a2368a7bf1b73ebf1a11da2cedb6474a97b8b177cb79803739",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-gallery-timber-studio.html": {
+      "sha256": "28290839b3888467dd352945f329c0e08a3dad6d252d4c5879b8ebeef7fa72b6",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-gallery.html": {
+      "sha256": "c2e5ea71e63c2d9379d86e690d0dbca30c4ec91951cd71111c41b80632ed79c0",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-manual.html": {
+      "sha256": "52f9fee85714fdffc402818505222987f8f05d1d076a06626010bfb598e86fd7",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-material-book.html": {
+      "sha256": "a7fab487d42f92e53c39b904682ef475f0d6ba7590c1a93852684a38b599ce42",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-mobile.css": {
+      "sha256": "aa1341999ee3c4050d4832a98967ab888e889ee9b9a6dd6ceaf8c2c0a257d4d1",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-partner.html": {
+      "sha256": "25397110ec20f204e826ef6f6a7588b1961a07b6070e7169e7fdc4363a364ae2",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-print.css": {
+      "sha256": "265491435d289a60bc31f3f5350ff5ba5bb985f1f06e5dd3b12385ed25fe5f00",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-privacy.html": {
+      "sha256": "84861a56d75139822125bc99bb6cba6cb62f88123f74d37b60c0f8c0f2d28a06",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-board-1.html": {
+      "sha256": "6c73d4bfcb054c52bc06851ccf1bbb24d7d4e27b3c57d6350571577f55ffddbf",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-board-2.html": {
+      "sha256": "205dbdd4a0cf4a565f277820893dbdd536f7b16e18aed1c333a38c31e536d876",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-board-3.html": {
+      "sha256": "05a301102c8868c16b186540900870767853e1964a84f7c6163c5324a0931a8e",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-board-4.html": {
+      "sha256": "ce6a4c764fd5ddc99b034957fc8027e0711f7505ed29946d43cd54fa76d8353c",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-board-5.html": {
+      "sha256": "ad35830894ea87c68f6d4724e1ee847d95596d650a3ceb44022c3932f5752561",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-board-6.html": {
+      "sha256": "990460c1ab3269486fc3d2542bf634b77360d67a3d31086296dab2def88de345",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-door-1.html": {
+      "sha256": "1be4659f0d735df0c14db0ec38c70c0fb6dc877d11ea3db5acefc29afa98a73a",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-door-2.html": {
+      "sha256": "8d7c9208490dfef8d8188aa941ef557344b94245e30dc470da39b994498d7fb8",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-door-3.html": {
+      "sha256": "6570e2994b1730405ea33006ee74860efbbf7c3eaeecb9a98d6e66d42a14a1d5",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-door-4.html": {
+      "sha256": "a2c46646fa21a00641ebaa338c15615b5a25bd6a33fc818a8143e6e85242114a",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-door-5.html": {
+      "sha256": "059aad9d41a89ee53ed7ab25787dbfe58478e9072a05f33ed06cfc02b286a69b",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-door-6.html": {
+      "sha256": "d5d001b168eeda5443f9b765e04f75ac645a2947c42e6e7640e77fdd42271942",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-door-7.html": {
+      "sha256": "8b4c2b2a71113658fb11486a694f008a22875c3f8af64cb9cbd9b261e86c623e",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-door-8.html": {
+      "sha256": "72adb18c7b8d2dc8a8c6f1ae008703e321adcc0ca69df66ac942e0dea4940117",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-door-9.html": {
+      "sha256": "e2c25465cc7ca92fecdde56377703c5971c67604cc4985b471113b9ad9ace28a",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-film-1.html": {
+      "sha256": "4b4489d4852ef0751d0151c39073a5dc4556f9e155c5c48bf058b8dd780b06e9",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-film-2.html": {
+      "sha256": "0ec28291d577f9bd89aa57bd2e80ed674459b1eb7d51eb769f7e7279256d0873",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-film-3.html": {
+      "sha256": "76dc6cf952fca39278dfdcac1f022276b9150954cf3becfd8bb80e625a9ab733",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-film-4.html": {
+      "sha256": "903f96e8bfc1516fef7641264091e5d623337f61f4cb4c02ca856caa2be3e48d",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-floor-1.html": {
+      "sha256": "ee54dd99b988c65e66aa57e1ad4431c014ce565c3f010514743532e6e2a63f3a",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-floor-2.html": {
+      "sha256": "abd6fc378380f732f0b08c62e172971c829b1bcdcc7a8e4b37a47b9eb8bf2059",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-moulding-1.html": {
+      "sha256": "8b34d63b1a70ceaeb53787928a8fa07d822edc1aab1fe4a93bc0cbd09ad63392",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-moulding-2.html": {
+      "sha256": "5b1f976323fa2ed1b698692e2b3f9419176dd6c51c0cc54006cff9c92edf448d",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-partition-1.html": {
+      "sha256": "01bde32c76991395c9b766fe4c8c4e64023873e4275ff9572ea4606d4758237a",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-partition-2.html": {
+      "sha256": "69b889802c03713bc3f88694fd853f82cfe16821d4f61de2ac5dc8638c592e4a",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-partition-3.html": {
+      "sha256": "12f97a098af9494b5342831273e6f4beae0b230500b7ce1cd1533e3c4e2da66e",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-partition-4.html": {
+      "sha256": "38e83e21478a3f82f2a624db931559869946554bdc12f33d79ce0dfc8f18cb4f",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-partition-5.html": {
+      "sha256": "8af73d22a4d42657a7581a51c5045a72f424024dbf3c2340678354b9504c15a9",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-timber-1.html": {
+      "sha256": "36ffb1043dd5244ac0b46698a7d72ed4526432afccb0f776f385af76ccea14ec",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-timber-2.html": {
+      "sha256": "0acafad91dfa990e48fd61a44121a0c9b8508b69e7dae2162a9f43e3e0c38a49",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-timber-3.html": {
+      "sha256": "af66e4717022a933b156ac62f92c9452beff18e148006644d9088b3f971fbc00",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-product-window-1.html": {
+      "sha256": "5cc52706a50066eb9cc07e49ce34b6e437432a56fd2ab82b699c66abf15fab66",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-products.html": {
+      "sha256": "6e152464a4215d69ef9995f9b29198d2de839025e1c6352ea19eaccf73ada3b5",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-service.html": {
+      "sha256": "220882155146386a068a378177a311bc51774d147f3720fa4bf615a0784d947e",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-showroom.html": {
+      "sha256": "3379ef7b766b59cb120b2801c029adf58a8e71148308b49a249d1afbd15d5316",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-story.html": {
+      "sha256": "39466a059df82c90f2924d4e0f909369af3177030a132a937b73f0ab6e102cf7",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol-views.js": {
+      "sha256": "ac1f135ca160e8cffd376663eddaa2159958d64d38ec093ccc72dc1eda0507d5",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol.css": {
+      "sha256": "ce6ae6bf64b875e3fd77dc0a4360abc7879adc9950e6401f2f0748b7372f1a36",
+      "origin": "reviewed-project-source"
+    },
+    "ongyeol.js": {
+      "sha256": "b44246f31ab924e1462992aa30f0251b2ade620af9fe925488cd96d4f82291e1",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "097d18c99bbfe3d545196f58fa2afef613694d7d9261cbcfdc38d55dcaa0af32",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

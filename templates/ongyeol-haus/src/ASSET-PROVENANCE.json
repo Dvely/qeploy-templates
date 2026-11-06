@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "project": "ongyeol-haus",
+  "reviewed": "2026-11-06",
+  "assets": [
+    {
+      "file": "fonts/PretendardVariable.woff2",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Pretendard-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4"
+    },
+    {
+      "file": "images/ongyeol-craft.png",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.json",
+      "distribution": "Generated example media included with the source template; no exclusive rights or legal-clearance guarantee.",
+      "sha256": "f2febd69f5687f38fb27ed86cb12d1f8730fcd0dea01f68b958086a97b9417cb"
+    },
+    {
+      "file": "images/ongyeol-door.png",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.json",
+      "distribution": "Generated example media included with the source template; no exclusive rights or legal-clearance guarantee.",
+      "sha256": "9dc09905acadf1ce8f225ca7bad738ec68a3812eee0661db6f707fced64be43c"
+    },
+    {
+      "file": "images/ongyeol-hero.png",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.json",
+      "distribution": "Generated example media included with the source template; no exclusive rights or legal-clearance guarantee.",
+      "sha256": "6ab013198d5fbc95d96df2ab46e97d60d9f04724b4d98fca6b3912fc601d616f"
+    },
+    {
+      "file": "images/ongyeol-mark.svg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "sourceTemplateRedistribution": true,
+      "sha256": "54d40d2d2a511a1fc2aab7749f708dfdfd5069a96d6799af7df5ff7bf2b346d2"
+    },
+    {
+      "file": "images/ongyeol-materials.png",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.json",
+      "distribution": "Generated example media included with the source template; no exclusive rights or legal-clearance guarantee.",
+      "sha256": "5d9514f46c15589231e51ac4442c320f36a4babe2f8c8dc0f9015c0c0e196a7e"
+    },
+    {
+      "file": "images/ongyeol-showroom.png",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.json",
+      "distribution": "Generated example media included with the source template; no exclusive rights or legal-clearance guarantee.",
+      "sha256": "24e021959376a051bf11b612a1ab954e8b545fa8dad205267346d857d5ea04ce"
+    },
+    {
+      "file": "images/ongyeol-window.png",
+      "origin": "documented-ai-generation",
+      "record": "IMAGE-PROMPTS.json",
+      "distribution": "Generated example media included with the source template; no exclusive rights or legal-clearance guarantee.",
+      "sha256": "3dd270aa1bd4d6a9be519fc8cd871cf10d58b5d39d2892cf5713829cf1164f82"
+    }
+  ],
+  "scope": "File-level provenance and applicable conditions only, not a legal non-infringement guarantee."
+}
