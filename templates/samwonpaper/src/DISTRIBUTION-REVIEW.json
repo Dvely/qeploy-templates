@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "project": "samwonpaper",
+  "status": "reviewed",
+  "reviewDate": "2026-11-06",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "39b1ce9bb9fc40821328605ac715cb21bf5b4043379b8e2588d956f38a737c7f",
+      "origin": "reviewed-project-source"
+    },
+    "assets/paper-01.svg": {
+      "sha256": "d7b13e0560a42dbd9e50fe2bce3c061c3d75ff51cf2326c494171ff40534d26b",
+      "origin": "original-vector"
+    },
+    "assets/paper-02.svg": {
+      "sha256": "9c16b0fe92f23bdcf35990dbb607d064f05f27802a46f742c28a5b831453994e",
+      "origin": "original-vector"
+    },
+    "assets/paper-03.svg": {
+      "sha256": "b5a079844ec348a9dd32857fd290981308902c158bc37575e1197d709a77f077",
+      "origin": "original-vector"
+    },
+    "assets/paper-04.svg": {
+      "sha256": "74f8700f6a4f3dcadcf117bc39287cde8b05bed4c679a4bd7a947b52d9c52b05",
+      "origin": "original-vector"
+    },
+    "assets/paper-05.svg": {
+      "sha256": "67691b093af1caa1fcc63dbd58acfaa8e02a66460807f918df517342c4844051",
+      "origin": "original-vector"
+    },
+    "assets/paper-06.svg": {
+      "sha256": "2919614ed1074df26398c21c42640eeb2a95d89b1cf91b0d3847335f413983d8",
+      "origin": "original-vector"
+    },
+    "brand-guide.txt": {
+      "sha256": "c990b4e67d32543a21dafe6a76fc312e171d19853194e141ca0e45269c8cc582",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "7e9116b51fb44661cabaab0ebb743dc730baff8d6a4d765cff96a796f047d745",
+      "origin": "reviewed-project-source"
+    },
+    "LICENSE.txt": {
+      "sha256": "fad141e7bd6dd211810cd79c0be32484e804295a2db61ed6f3865e788f4ada2b",
+      "origin": "reviewed-project-source"
+    },
+    "orbsheet-cart.html": {
+      "sha256": "37f9845884196aef216a0b3a9f2503925938759ad70bb5f7c29d080174026add",
+      "origin": "reviewed-project-source"
+    },
+    "orbsheet-paper-02.html": {
+      "sha256": "80480c8d4eb94e2e7f3db68678ff3a3edd68055b35542c48c94bda3583b2c03f",
+      "origin": "reviewed-project-source"
+    },
+    "orbsheet-paper-03.html": {
+      "sha256": "a6ae189cf00835ab71815200e09a04bf32b26b684a05d808c69a8a9af470ce4c",
+      "origin": "reviewed-project-source"
+    },
+    "orbsheet-paper-04.html": {
+      "sha256": "1cda2a294824f9d2c08eb432f091e649cbb7808e37fa06345e40e9aa2c7f9d70",
+      "origin": "reviewed-project-source"
+    },
+    "orbsheet-paper-05.html": {
+      "sha256": "1a30db38c033b7fd0b164de825b293cb4a964c1e6f81f9cee25d04b97866f662",
+      "origin": "reviewed-project-source"
+    },
+    "orbsheet-paper-06.html": {
+      "sha256": "459c2b0397d06533a219e04ca98a0a2e936ae5fd231bf6c9b4baded0892bd516",
+      "origin": "reviewed-project-source"
+    },
+    "orbsheet-sitemap.html": {
+      "sha256": "7f6f0374099fdcaf6ec0c8da712e1bb77449309db7f158d9118e57b6fd746557",
+      "origin": "reviewed-project-source"
+    },
+    "original-build.mjs": {
+      "sha256": "be2509c63fe86a4d8ea0d85f1ad41ce656d1b2647ef875e2c13a3fc788516fc4",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "f4990562b7ae11ac4b2903e4358d945f10a3db0c9306c6581855e23a3dd71b1b",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-affiliates.html": {
+      "sha256": "f19de028d5a94f8548514e7b52781d3e0eb778637feea6fad02d94eea47ee18f",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-art-supplies.html": {
+      "sha256": "ba954629e9e1c79fee443b1a1e7ff6b38f8a0c29c080cf9da9efc2100b8eec33",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-company.html": {
+      "sha256": "25ee9351855e2258ec86194e7b8898b93ef3c99e28f39e4d7010fb1c14a9d271",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-contact.html": {
+      "sha256": "d418378d7402e8250bba63f9ed1ecb9c8656f64112da95b50909c90430a11fbf",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-download-62.html": {
+      "sha256": "f8668b0a77e5abf680f4aba24d2ccb48669a8c48c077896e425bc96d9c99be58",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-download-63.html": {
+      "sha256": "f8668b0a77e5abf680f4aba24d2ccb48669a8c48c077896e425bc96d9c99be58",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-download-64.html": {
+      "sha256": "f8668b0a77e5abf680f4aba24d2ccb48669a8c48c077896e425bc96d9c99be58",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-download-65.html": {
+      "sha256": "f8668b0a77e5abf680f4aba24d2ccb48669a8c48c077896e425bc96d9c99be58",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-download-66.html": {
+      "sha256": "f8668b0a77e5abf680f4aba24d2ccb48669a8c48c077896e425bc96d9c99be58",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-download-67.html": {
+      "sha256": "f8668b0a77e5abf680f4aba24d2ccb48669a8c48c077896e425bc96d9c99be58",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-download-68.html": {
+      "sha256": "f8668b0a77e5abf680f4aba24d2ccb48669a8c48c077896e425bc96d9c99be58",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-download-69.html": {
+      "sha256": "f8668b0a77e5abf680f4aba24d2ccb48669a8c48c077896e425bc96d9c99be58",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-download-70.html": {
+      "sha256": "f8668b0a77e5abf680f4aba24d2ccb48669a8c48c077896e425bc96d9c99be58",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-download-71.html": {
+      "sha256": "f8668b0a77e5abf680f4aba24d2ccb48669a8c48c077896e425bc96d9c99be58",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-download-72.html": {
+      "sha256": "f8668b0a77e5abf680f4aba24d2ccb48669a8c48c077896e425bc96d9c99be58",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-download-73.html": {
+      "sha256": "f8668b0a77e5abf680f4aba24d2ccb48669a8c48c077896e425bc96d9c99be58",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-downloads.html": {
+      "sha256": "f8668b0a77e5abf680f4aba24d2ccb48669a8c48c077896e425bc96d9c99be58",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-faq.html": {
+      "sha256": "8f1e15255b2e6c40488a5be0335d60c3af3b6b4d451d4181823ccda9c8236115",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-find-paper.html": {
+      "sha256": "7132e9bcc5e0be82a9dbab17be7803ca046bca0087cc9ab213afe5abc24afb31",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-gallery-256.html": {
+      "sha256": "8bcccf70d2c61fe3b1f5b230326b8974772cc4e4a8e194197fe84a4d2c7da8d4",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-gallery-258.html": {
+      "sha256": "e15e4c7c6206f1c28de0b1e47c8a82d0d3bbede961c724266d598d56ee5884eb",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-gallery-262.html": {
+      "sha256": "e15e4c7c6206f1c28de0b1e47c8a82d0d3bbede961c724266d598d56ee5884eb",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-gallery-264.html": {
+      "sha256": "e15e4c7c6206f1c28de0b1e47c8a82d0d3bbede961c724266d598d56ee5884eb",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-gallery-265.html": {
+      "sha256": "e15e4c7c6206f1c28de0b1e47c8a82d0d3bbede961c724266d598d56ee5884eb",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-gallery-266.html": {
+      "sha256": "e15e4c7c6206f1c28de0b1e47c8a82d0d3bbede961c724266d598d56ee5884eb",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-gallery-268.html": {
+      "sha256": "e15e4c7c6206f1c28de0b1e47c8a82d0d3bbede961c724266d598d56ee5884eb",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-gallery-270.html": {
+      "sha256": "e15e4c7c6206f1c28de0b1e47c8a82d0d3bbede961c724266d598d56ee5884eb",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-locations.html": {
+      "sha256": "2a9a6a23474144149fea29e4fe2280b7f4585d2d1c0af0e59ab6a41b3e8fbc66",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-monthly-paper.html": {
+      "sha256": "3d3dcaf683d9579869a1fdd57472a25b3b76afe3520dcacbd976dcca6fffb1f0",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-news-gallery.html": {
+      "sha256": "e15e4c7c6206f1c28de0b1e47c8a82d0d3bbede961c724266d598d56ee5884eb",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-news-notice.html": {
+      "sha256": "3c7be161c8f06d23e32b5ce4b89233009665e354ade897e9200d4b3b22bebfe7",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-news-press.html": {
+      "sha256": "be1ec3d253ad6cbb72e8c475304f20915293f7e90f5a5689c4e4378eaec41ffb",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-notice-199.html": {
+      "sha256": "2b2a8a0ae15df9ae4fa03a49fe181e4cbde3d719b1961b9327d8cbe8587d5c71",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-notice-205.html": {
+      "sha256": "2e5b71ba323ee83b061f13a1617f7bb7e847bd072ffdd6ccc3e3a63e41fa1260",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-notice-207.html": {
+      "sha256": "971a2195364fd9cbb2e97459f18225392fa7418c3c8aee8aa7a4843b4c3471d4",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-notice-257.html": {
+      "sha256": "07c5bd912a664dbb9acd7d3c13f611d8c5668580d36226b76e63ab042e261b8a",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-notice-259.html": {
+      "sha256": "d68429a1017c1e4f6dd7346b1383012a35f6b62142fff10b9dc6961375f3bfee",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-notice-267.html": {
+      "sha256": "6dbe93e0f19e80c287179f7ed5747992578bcc75a59955223fd617a75f34f15f",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-paper-collection.html": {
+      "sha256": "c674030921336c9cf5f2daf5792d083c0be437c6d2b057a6773e63c53a6cce9a",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-paper-lab.html": {
+      "sha256": "ae1b052f954f9a6f2dbac198d8021e94d5ba1dc136f93fe5ac8d7c03fe4faa51",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-press-224.html": {
+      "sha256": "41de4ae8176437dd3acfa7a6e6cf94dae29eb935b01f477f8b589476bb0d55c8",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-press-242.html": {
+      "sha256": "93c6721d059a2488ffea0d453d34d7d3f777ec097897d7747f119cc14beb16ad",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-press-244.html": {
+      "sha256": "16882af8482c1ff25d2375b48703238dc22b0934a8a953365ce27e301dcbbedc",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-press-248.html": {
+      "sha256": "7d0ace8029f47772fd8db833e7fa8a6aba18edcb9402162849ab0f902f4a9058",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-press-249.html": {
+      "sha256": "19d6960a65aefe1d8c31d9418df868efa07d96fa736671b18c51354d7bb6dcb6",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-press-260.html": {
+      "sha256": "7c8ed733d2bc6b3e12c47c500cde0500800e000078e36bda13d341574206f238",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-press-261.html": {
+      "sha256": "5cf9cf1e10134505fd976dba4cb3a1678748831258f9ec5a5c52e9930863f223",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-press-263.html": {
+      "sha256": "4fb2bf594d3bc3d001aa28e5994ae402bc63f42499d881b8262e1d7e9110dabb",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-press-269.html": {
+      "sha256": "eb81bb5c7c484b2b72fcc04145f0be05fd0cca9b4b1ddbd5fa74611b03e6b49b",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-privacy.html": {
+      "sha256": "2f82da8c43dd043725781ed561a2d6c573365a44d39733b589c32c6d34017b82",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-product.html": {
+      "sha256": "c292b05206491eac85eb5588471a033a50154bdfc7bec05dff543d5505ea5a42",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-save-earth.html": {
+      "sha256": "bf501bd50cee28daeebb8d76f46693f246b83df3acb3b8f490d69463021c31fd",
+      "origin": "reviewed-project-source"
+    },
+    "samwonpaper-search.html": {
+      "sha256": "7132e9bcc5e0be82a9dbab17be7803ca046bca0087cc9ab213afe5abc24afb31",
+      "origin": "reviewed-project-source"
+    },
+    "site-config.json": {
+      "sha256": "3364846eb3d9214467bf0c9b9949bbc105c37bf47970fdbf6998a0596a7e76fe",
+      "origin": "reviewed-project-source"
+    },
+    "site.css": {
+      "sha256": "fb0bf6ff577040cccd0d3e5f4349976a82c0838cecd8a39f231a5c5afe71b2fb",
+      "origin": "reviewed-project-source"
+    },
+    "site.js": {
+      "sha256": "70482a8495d23ca784543109068bc7862a48585c6561d8223402c0fdfaa673c9",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "e76e9bbf0c20358d9b578e742c2cdc3bf188885f9623a81efd64ae6a636a90d1",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

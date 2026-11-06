@@ -1,0 +1,60 @@
+{
+  "reviewed": "2026-11-06",
+  "assets": [
+    {
+      "file": "assets/paper-01.svg",
+      "sha256": "d7b13e0560a42dbd9e50fe2bce3c061c3d75ff51cf2326c494171ff40534d26b",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "license": "MIT",
+      "created": "2026-11-06",
+      "sourceTemplateRedistribution": true
+    },
+    {
+      "file": "assets/paper-02.svg",
+      "sha256": "9c16b0fe92f23bdcf35990dbb607d064f05f27802a46f742c28a5b831453994e",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "license": "MIT",
+      "created": "2026-11-06",
+      "sourceTemplateRedistribution": true
+    },
+    {
+      "file": "assets/paper-03.svg",
+      "sha256": "b5a079844ec348a9dd32857fd290981308902c158bc37575e1197d709a77f077",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "license": "MIT",
+      "created": "2026-11-06",
+      "sourceTemplateRedistribution": true
+    },
+    {
+      "file": "assets/paper-04.svg",
+      "sha256": "74f8700f6a4f3dcadcf117bc39287cde8b05bed4c679a4bd7a947b52d9c52b05",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "license": "MIT",
+      "created": "2026-11-06",
+      "sourceTemplateRedistribution": true
+    },
+    {
+      "file": "assets/paper-05.svg",
+      "sha256": "67691b093af1caa1fcc63dbd58acfaa8e02a66460807f918df517342c4844051",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "license": "MIT",
+      "created": "2026-11-06",
+      "sourceTemplateRedistribution": true
+    },
+    {
+      "file": "assets/paper-06.svg",
+      "sha256": "2919614ed1074df26398c21c42640eeb2a95d89b1cf91b0d3847335f413983d8",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "license": "MIT",
+      "created": "2026-11-06",
+      "sourceTemplateRedistribution": true
+    }
+  ],
+  "limitations": "Generated content is not a legal clearance or exclusive copyright guarantee. No source-site code, fonts, icons, media or proprietary plug-ins are included in this replacement."
+}
