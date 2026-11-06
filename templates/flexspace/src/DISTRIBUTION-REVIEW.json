@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "project": "flexspace",
+  "status": "reviewed",
+  "reviewDate": "2026-11-06",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "fceb587246277b2368c77d925bfb99cd5763e14a8bf16f5ac796ea1f4750c15a",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-about.html": {
+      "sha256": "f1490746b331638a6251fe99a14b9a445a00a49df93eb7b410dec055883a750c",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-benefit-community.html": {
+      "sha256": "372621acfc996571f13f7b82ed5adaf37d456ba6763193e91658ba7a5fdc4330",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-benefit-infrastructure.html": {
+      "sha256": "e2b38bf293817645c0b95c49ff094b95f4a750b9156f49f3d4eac8c4aaa84441",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-benefit-meeting.html": {
+      "sha256": "1c5fd7f40334685c9806fe50fde7aa468376745a38213828543e7c2093a3e485",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-benefits.html": {
+      "sha256": "77a47339ed9b10eff0838353375fbb065be00c01630211bae63ec17a00d02adb",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-branch-cbd.html": {
+      "sha256": "4963d39ed50ae9124472eb541818c2ec24844b03c8ea0b9e104b712eaf2ce959",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-branch-gangnam.html": {
+      "sha256": "a888959d03f31f8a7cba479485c1e10634bb0ab2aec00fbb4a719509dfc8c8a8",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-branch-seongsu.html": {
+      "sha256": "0866d3595053410b4c419a4eb74959fe69c27cd2de70102fcc21930c51da575c",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-branch-yeouido.html": {
+      "sha256": "a56095fc25c7f5ea46063c67816f2734fb4d437b0a32ce5ab0e4deb078ee60d7",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-build.mjs": {
+      "sha256": "138a86bcba00d605edbf9ea58dab05ac590b8bd4906034ab452df7e45668a85d",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-case-ai.html": {
+      "sha256": "564ea040fd7cff906cacf2763d6ed292fc44a2ebed2b9b0b6ac9611d688d9477",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-case-fintech.html": {
+      "sha256": "847d628dd0f6d887abf3dad0a11b4a9b00357025d920b2761f2faa22458ca6b8",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-case-global.html": {
+      "sha256": "d7fc0c2ee3421dcff0d8159701d5d87edea6c7cea5a86fad7bb79085bfc883bf",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-cases.html": {
+      "sha256": "10ca49b6d8b12ca1115000e347118c2520915e5786ae9726882cc9182586cfd4",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-confirmation.html": {
+      "sha256": "528c85dbf41f7a9079da71d192bfc4a58c459e123c0943e1608664df01bbf150",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-contact.html": {
+      "sha256": "590ea89b1887e711d3ce845cf1742e9da9461154384368ffd61aee54c836f3c7",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-data.js": {
+      "sha256": "003209c59dd573e7e2d2a8565994da31a4bd24d2f19f7725a3eb2d3fe527bf66",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-estimate.html": {
+      "sha256": "b7dd365148d8ce17b610440dbd4aeb0a7363b3be81f0700b3ab3291e4cb089fd",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-faq.html": {
+      "sha256": "91548f8fcc4da8ee7889c5f6f86b6b3c5bbd2f7a3491c1be16dba4e42015bd64",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-guide.html": {
+      "sha256": "39ec73169430b6c82af1611b06486c1b505d545ddd85c8f491c0b9450f9a21ae",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-locations.html": {
+      "sha256": "f2cd1a235de6badbeb8de46ebefe0c09b2f9d6f94b17f51ff538cf2fdbb8d69f",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-privacy.html": {
+      "sha256": "7945ea436e87e29a45c4b3245769550a8992d7ab52646547dbd7be44554dc05b",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-quote.html": {
+      "sha256": "385c8bf9bf4edf4aaa4bfca0d427903c3fa71e34dfd456ec0431f78dfb330cf6",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-room-cbd-15.html": {
+      "sha256": "5f956393585c4aa6f065e3918cf718fae3bef0d1a86b0770d595b273519cce0f",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-room-cbd-2.html": {
+      "sha256": "56bcf25c1fc708efa027459a1d82cc0f8df460e5044081f369f49c5d8559c2c0",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-room-cbd-6.html": {
+      "sha256": "7c6a2f5319ad426b7a9e8f7226f8141bfeacd6e26d5e56abce3d32c471ae30e2",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-room-gangnam-15.html": {
+      "sha256": "8bcc771da475a134aed10060a8e3f45663c6de18ece63a663a5b30ba633ca5f2",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-room-gangnam-2.html": {
+      "sha256": "e6da67e3a90d6953617691e64251b3e0bb58bc2f87079f1dc5aa83c69e79b05c",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-room-gangnam-6.html": {
+      "sha256": "6ee44faff4660649f534053c69b1b19a491998edc62dc0b69df3cb2c0f79b4db",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-room-seongsu-15.html": {
+      "sha256": "fcbdb65ab66ce5e5067883ccf8d461009b4e15092b22c1464cebb81fee0fbaed",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-room-seongsu-2.html": {
+      "sha256": "507e51a031b9861ed30c9266adb5cf250ced256fa86de90531fb57306beeaaa8",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-room-seongsu-6.html": {
+      "sha256": "c5037883b1069dbd7b8adb3e602384617c95e121d5486a60e6c4b601b025aa12",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-room-yeouido-15.html": {
+      "sha256": "01b5d3ff221730f49a5cbd756afad454d9c886e9abd2e7473403d2f6ac49225f",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-room-yeouido-2.html": {
+      "sha256": "a0adb292cbc04e53be6853d5978b0149c13a8ad6c07d3796f47a322d07da4ca7",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-room-yeouido-6.html": {
+      "sha256": "7248938e9e5c9dcc178d45e2c41281cc4beeb3e8782d94c80e21e614df4565fa",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-routes.json": {
+      "sha256": "f6f617cd3a29f24cfc9f527b62e7abc2b44505803499ca1df9f9424f818ac6e0",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-saved.html": {
+      "sha256": "775eb87e1bc4ef4a7742e28dc757f3c4975617e59c43b75218ee576d0fd989e8",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-solution-enterprise.html": {
+      "sha256": "6e9e45ab24aa8a67f3959526e9658012291354c209cdf5d55a883165d76ba573",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-solution-event.html": {
+      "sha256": "435c5d0c856f483d1cb5e1d02df12c1f7ed70a4067f55581eb8ffb96a10c03d8",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-solution-lounge.html": {
+      "sha256": "1c7762e05a1e3c8e2e07f05bfde87d4d363aecb669e473fb70f3f343cb0703cc",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-solution-private.html": {
+      "sha256": "fcdb53c625e72dd230b0b57e1d168aa66b118d980ce7d8f6ca1ce87c7134da79",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-solutions.html": {
+      "sha256": "cc1ee8238c55891076c39002cb3e8ad00fbd92fc2683f7558059b1938b2e1e15",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-terms.html": {
+      "sha256": "36780a8ae7b78b665fa99bca5f25b5a180cf6d119c511dda369793745d77863e",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace-tour.html": {
+      "sha256": "05ebf17aec12575a82a9c62321db8790e7a021f1b345ccfba7c4c54be1e3b1f2",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace.css": {
+      "sha256": "85a0715b421f5199d835a831e278eab2f96904fc162e8fc9236992085d56a46b",
+      "origin": "reviewed-project-source"
+    },
+    "flexspace.js": {
+      "sha256": "0c1d0c27e9958c1fb11d2332b2e99863231c169a1c5b151bffc19f73d826702b",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/fonts.css": {
+      "sha256": "9f1970cf6c010cfeb7780fcac36bcf265aa4e2a8a8a24ace01dd6362a58dd241",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/plus-jakarta-sans-bold.ttf": {
+      "sha256": "32971ad7976930539a11c79ce91ce84092df7f25c5be716b594601842f10a7ae",
+      "origin": "open-font-license"
+    },
+    "fonts/plus-jakarta-sans-medium.ttf": {
+      "sha256": "b4fc14ec283d54236fd302cdb92546f98ae0ff061ca5ee23453a02bdf4628791",
+      "origin": "open-font-license"
+    },
+    "fonts/Plus-Jakarta-Sans-OFL.txt": {
+      "sha256": "f9a8e776b4b048227f2f046b8716083eb04b1539d9ad1d4b87e81c1df28f86e3",
+      "origin": "reviewed-project-source"
+    },
+    "fonts/plus-jakarta-sans-regular.ttf": {
+      "sha256": "076831b98043f50f829b6c91db3be4a844641f1c95bccff5c886ed87c661a852",
+      "origin": "open-font-license"
+    },
+    "fonts/plus-jakarta-sans-semibold.ttf": {
+      "sha256": "50357df108c5d297ec4ece76aeddf49561f3794f67af077cfc2c711b7a75b439",
+      "origin": "open-font-license"
+    },
+    "images/flexspace-case-ai.svg": {
+      "sha256": "eb5f55a01da1b4c7535381c4fc9ac84fe0fa86ebfe68880eaf4295deddc9f4d4",
+      "origin": "original-vector"
+    },
+    "images/flexspace-case-fintech.svg": {
+      "sha256": "866d6ce071920afb0b662a5b5ba83d0e27ac88d8088e2f0e47249a86e0edebb7",
+      "origin": "original-vector"
+    },
+    "images/flexspace-case-global.svg": {
+      "sha256": "c4d03f84fdf8c6ace549966cca4bc81833caa9762a7990437927b04cd6b2556e",
+      "origin": "original-vector"
+    },
+    "images/flexspace-cbd-branch.svg": {
+      "sha256": "dd0e443cc476d3c4b444c025b75ba133c2da17f7793356658a50c0e5c77029a3",
+      "origin": "original-vector"
+    },
+    "images/flexspace-community-lounge.svg": {
+      "sha256": "78b4f6a327a04f9f5c5f793542188392d59f8f3399bba6ccb511f30c8c961f3b",
+      "origin": "original-vector"
+    },
+    "images/flexspace-community-manager.svg": {
+      "sha256": "0f5f80b22bd78215f60b6c7b4a4ca88d46c70ff69e637ecc54075b0ce09b2b8c",
+      "origin": "original-vector"
+    },
+    "images/flexspace-custom-headquarters.svg": {
+      "sha256": "2d17629d9008e76876449ccd6c1926919aeb1a8dcb5dbb57fefb5836de402cf4",
+      "origin": "original-vector"
+    },
+    "images/flexspace-enterprise-plan.svg": {
+      "sha256": "fe59b50f1538cf9d0d5ef232d1e61bd566fdacad56028fc37177e25b3457fe92",
+      "origin": "original-vector"
+    },
+    "images/flexspace-estimate-lounge.svg": {
+      "sha256": "6c96f0fd44109664bc0a2a2527988c181debe6b01a6dad7e13083aa8251db19e",
+      "origin": "original-vector"
+    },
+    "images/flexspace-estimate-meeting.svg": {
+      "sha256": "7492b4afada5546363bebf8df84f97d8542bc1a956593224a520a22da57da8e1",
+      "origin": "original-vector"
+    },
+    "images/flexspace-estimate-private.svg": {
+      "sha256": "3e8ca9e753ebe9d96fde6ced0cd212575706ec3bd85ec0554729c3d75fb069fa",
+      "origin": "original-vector"
+    },
+    "images/flexspace-event-hall.svg": {
+      "sha256": "3070eabb74ee56108e70522263fd3905afa29b75b2a29442b961e91da15778d4",
+      "origin": "original-vector"
+    },
+    "images/flexspace-executive-room.svg": {
+      "sha256": "fb59ca82e40a90c2b52ddce79e6b815fbd0607d872c2519a9ee2beb84f1185a5",
+      "origin": "original-vector"
+    },
+    "images/flexspace-gangnam-branch.svg": {
+      "sha256": "ed035cf636870a801fa0546c5f5bbc4e1965b5a741f696bbd95f36abad9becb4",
+      "origin": "original-vector"
+    },
+    "images/flexspace-gangnam-lounge.svg": {
+      "sha256": "b2a92f98af29b8e43d8d6da5fe31d2594835fd36711e4e032264806e6a7f8ee4",
+      "origin": "original-vector"
+    },
+    "images/flexspace-lounge-plan.svg": {
+      "sha256": "24d1a6c029060d107c20e4b5e36238f5f032d620e3a626130be40de25c31c317",
+      "origin": "original-vector"
+    },
+    "images/flexspace-phone-booth.svg": {
+      "sha256": "a7a81899c39cfb83ad770fc114f076e3cd130fda9fec462c0705ec3401519d26",
+      "origin": "original-vector"
+    },
+    "images/flexspace-private-suite.svg": {
+      "sha256": "02b73be2d90ff8b1d49cf6b189138faf4bc4fad610729d0d9c96ffa94a4e8d5e",
+      "origin": "original-vector"
+    },
+    "images/flexspace-seongsu-branch.svg": {
+      "sha256": "22d2a7fa46837b27ad2a336e38313699ec6c7de47d9039ba33209297fd122d8a",
+      "origin": "original-vector"
+    },
+    "images/flexspace-tour-manager.svg": {
+      "sha256": "1f07411a346028f819878405fc3284c98b88d00ee5a4435571432e470c4bf46d",
+      "origin": "original-vector"
+    },
+    "images/flexspace-tour-space.svg": {
+      "sha256": "7db0846ff911d36894eaca98d3d807ed25e7b7199cc84ad31e52950cd0d68b55",
+      "origin": "original-vector"
+    },
+    "images/flexspace-yeouido-branch.svg": {
+      "sha256": "a006270e051284d130ff229e584128d36a0cbfae89f055551ee74440a1f6631f",
+      "origin": "original-vector"
+    },
+    "index.html": {
+      "sha256": "41f72fa70ddf60fae8368126da43161991821df615c0a1e12a70d6d9bd567323",
+      "origin": "reviewed-project-source"
+    },
+    "layouts/branch.html": {
+      "sha256": "d505296da8a9e6bf86bded0f1acf6ecdfac4b8a03fc160e07bdc4b45b9a05116",
+      "origin": "reviewed-project-source"
+    },
+    "layouts/estimate.html": {
+      "sha256": "0a7fcd478b3d6992dfa1bf7d6d0a209e00068edf28974103cd638e48a6e8de41",
+      "origin": "reviewed-project-source"
+    },
+    "layouts/tour.html": {
+      "sha256": "647c8dfa202db4df1ee9bb461841cb8dc4266f26dd0124244b18dfcbc3e85c3a",
+      "origin": "reviewed-project-source"
+    },
+    "licenses/Tailwind-Forms-MIT.txt": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "origin": "reviewed-project-source"
+    },
+    "licenses/Tailwind-MIT.txt": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "a8cfb67bc02adc5030799a2e993c0adfe0764602c3d8910df30ec08d41cf5a1b",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "097d18c99bbfe3d545196f58fa2afef613694d7d9261cbcfdc38d55dcaa0af32",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

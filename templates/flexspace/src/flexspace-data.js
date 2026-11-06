@@ -2,7 +2,7 @@ window.FLEXSPACE = {
   "branches": [
     {
       "id": "gangnam",
-      "cover": "images/flexspace-gangnam-branch.jpg",
+      "cover": "images/flexspace-gangnam-branch.svg",
       "name": "강남 테헤란로점",
       "region": "강남권역",
       "station": "역삼역 도보 4분",
@@ -10,11 +10,11 @@ window.FLEXSPACE = {
       "intro": "도심의 전망과 집중을 위한 프라이빗 룸, 편안한 라운지가 함께하는 비즈니스 거점입니다.",
       "rate": 620000,
       "priceFactor": 1,
-      "hero": "images/flexspace-gangnam-lounge.jpg",
+      "hero": "images/flexspace-gangnam-lounge.svg",
       "gallery": [
-        "images/flexspace-executive-room.jpg",
-        "images/flexspace-community-lounge.jpg",
-        "images/flexspace-phone-booth.jpg"
+        "images/flexspace-executive-room.svg",
+        "images/flexspace-community-lounge.svg",
+        "images/flexspace-phone-booth.svg"
       ],
       "tags": [
         "프라이빗 오피스",
@@ -40,11 +40,11 @@ window.FLEXSPACE = {
       "intro": "넓은 회의 공간과 독립 업무실을 중심으로 금융·전문 서비스 팀의 하루를 구성하는 오피스입니다.",
       "rate": 650000,
       "priceFactor": 1.05,
-      "hero": "images/flexspace-yeouido-branch.jpg",
+      "hero": "images/flexspace-yeouido-branch.svg",
       "gallery": [
-        "images/flexspace-case-fintech.jpg",
-        "images/flexspace-estimate-meeting.jpg",
-        "images/flexspace-community-lounge.jpg"
+        "images/flexspace-case-fintech.svg",
+        "images/flexspace-estimate-meeting.svg",
+        "images/flexspace-community-lounge.svg"
       ],
       "tags": [
         "전용층",
@@ -70,11 +70,11 @@ window.FLEXSPACE = {
       "intro": "유연하게 대화하고 몰입할 수 있는 라운지와 독립 룸을 연결한 크리에이티브 팀의 작업 공간입니다.",
       "rate": 540000,
       "priceFactor": 0.9,
-      "hero": "images/flexspace-seongsu-branch.jpg",
+      "hero": "images/flexspace-seongsu-branch.svg",
       "gallery": [
-        "images/flexspace-lounge-plan.jpg",
-        "images/flexspace-private-suite.jpg",
-        "images/flexspace-phone-booth.jpg"
+        "images/flexspace-lounge-plan.svg",
+        "images/flexspace-private-suite.svg",
+        "images/flexspace-phone-booth.svg"
       ],
       "tags": [
         "크리에이티브 팀",
@@ -100,11 +100,11 @@ window.FLEXSPACE = {
       "intro": "다양한 업무 거점에 가까운 도심형 오피스입니다. 외부 손님을 맞는 회의실과 차분한 독립 업무 공간을 제안합니다.",
       "rate": 580000,
       "priceFactor": 0.95,
-      "hero": "images/flexspace-cbd-branch.jpg",
+      "hero": "images/flexspace-cbd-branch.svg",
       "gallery": [
-        "images/flexspace-case-global.jpg",
-        "images/flexspace-estimate-lounge.jpg",
-        "images/flexspace-executive-room.jpg"
+        "images/flexspace-case-global.svg",
+        "images/flexspace-estimate-lounge.svg",
+        "images/flexspace-executive-room.svg"
       ],
       "tags": [
         "도심 접근성",
@@ -127,7 +127,7 @@ window.FLEXSPACE = {
       "id": "enterprise",
       "title": "엔터프라이즈 커스텀 오피스",
       "subtitle": "기업의 스케일과 아이덴티티를 담는 전용 공간",
-      "image": "images/flexspace-enterprise-plan.jpg",
+      "image": "images/flexspace-enterprise-plan.svg",
       "type": "enterprise",
       "count": 80,
       "capacity": "50–150인",
@@ -149,7 +149,7 @@ window.FLEXSPACE = {
       "id": "private",
       "title": "스마트 프라이빗 스위트",
       "subtitle": "집중과 협업을 균형 있게 연결하는 독립 오피스",
-      "image": "images/flexspace-private-suite.jpg",
+      "image": "images/flexspace-private-suite.svg",
       "type": "private",
       "count": 8,
       "capacity": "2–25인",
@@ -171,7 +171,7 @@ window.FLEXSPACE = {
       "id": "lounge",
       "title": "플렉시블 비즈니스 데스크 & 라운지",
       "subtitle": "필요한 시간과 자리만 유연하게 선택하는 업무 거점",
-      "image": "images/flexspace-lounge-plan.jpg",
+      "image": "images/flexspace-lounge-plan.svg",
       "type": "dedicated",
       "count": 4,
       "capacity": "1–10인",
@@ -193,7 +193,7 @@ window.FLEXSPACE = {
       "id": "event",
       "title": "공간 대여 & 이벤트 홀",
       "subtitle": "팀 행사와 발표, 새로운 만남을 위한 공간",
-      "image": "images/flexspace-event-hall.jpg",
+      "image": "images/flexspace-event-hall.svg",
       "type": "private",
       "count": 20,
       "capacity": "6–120인",
@@ -218,7 +218,7 @@ window.FLEXSPACE = {
       "title": "핀테크 팀의 독립 전용층",
       "company": "금융 서비스 Q팀",
       "branch": "yeouido",
-      "image": "images/flexspace-case-fintech.jpg",
+      "image": "images/flexspace-case-fintech.svg",
       "people": 140,
       "area": "320평",
       "weeks": "4.5주",
@@ -232,7 +232,7 @@ window.FLEXSPACE = {
       "title": "집중과 스크럼을 연결한 AI 팀 오피스",
       "company": "생성형 AI M팀",
       "branch": "gangnam",
-      "image": "images/flexspace-case-ai.jpg",
+      "image": "images/flexspace-case-ai.svg",
       "people": 85,
       "area": "190평",
       "weeks": "3.8주",
@@ -246,7 +246,7 @@ window.FLEXSPACE = {
       "title": "글로벌 팀의 도심 업무 거점",
       "company": "글로벌 SaaS N팀",
       "branch": "cbd",
-      "image": "images/flexspace-case-global.jpg",
+      "image": "images/flexspace-case-global.svg",
       "people": 50,
       "area": "120평",
       "weeks": "3.2주",
@@ -261,7 +261,7 @@ window.FLEXSPACE = {
       "id": "meeting",
       "title": "예약형 미팅룸",
       "description": "팀 규모와 회의 방식에 맞춰 회의 공간을 고르고, 필요한 장비와 시간을 확인합니다.",
-      "image": "images/flexspace-estimate-meeting.jpg",
+      "image": "images/flexspace-estimate-meeting.svg",
       "features": [
         "소규모 미팅부터 발표까지",
         "지점별 장비 안내",
@@ -272,7 +272,7 @@ window.FLEXSPACE = {
       "id": "community",
       "title": "라운지와 커뮤니티",
       "description": "쉬어 가는 라운지와 새로운 팀을 만나는 네트워킹 경험을 함께 제공합니다.",
-      "image": "images/flexspace-community-lounge.jpg",
+      "image": "images/flexspace-community-lounge.svg",
       "features": [
         "공용 라운지",
         "팀을 연결하는 프로그램",
@@ -283,7 +283,7 @@ window.FLEXSPACE = {
       "id": "infrastructure",
       "title": "업무 인프라와 운영 지원",
       "description": "업무를 시작하는 데 필요한 기본 시설과 운영 지원을 한 번에 살펴보세요.",
-      "image": "images/flexspace-phone-booth.jpg",
+      "image": "images/flexspace-phone-booth.svg",
       "features": [
         "고속 네트워크 옵션",
         "집중형 폰부스",

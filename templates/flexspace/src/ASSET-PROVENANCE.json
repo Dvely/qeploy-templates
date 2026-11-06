@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "project": "flexspace",
+  "date": "2026-11-06",
+  "creator": "Qeploy contributors",
+  "origin": "original-vector",
+  "description": "New SVG illustrations authored directly as geometric vector code. No original raster pixels, external assets, copied SVG paths, photographs, or model-generated photographic images were used. Illustrations are fictional depictions, not records of actual people, places, medical outcomes or products.",
+  "permissions": {
+    "commercialUse": true,
+    "modification": true,
+    "sourceTemplateRedistribution": true,
+    "scope": "Only the new SVG artwork listed below; this statement does not grant rights to fonts, code, designs or other third-party materials."
+  },
+  "assets": [
+    {
+      "file": "fonts/plus-jakarta-sans-bold.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "32971ad7976930539a11c79ce91ce84092df7f25c5be716b594601842f10a7ae"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-medium.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "b4fc14ec283d54236fd302cdb92546f98ae0ff061ca5ee23453a02bdf4628791"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-regular.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "076831b98043f50f829b6c91db3be4a844641f1c95bccff5c886ed87c661a852"
+    },
+    {
+      "file": "fonts/plus-jakarta-sans-semibold.ttf",
+      "origin": "open-font-license",
+      "license": "SIL OFL 1.1",
+      "licenseFile": "fonts/Plus-Jakarta-Sans-OFL.txt",
+      "distribution": "Bundled under its own license; retain notice and license text.",
+      "sha256": "50357df108c5d297ec4ece76aeddf49561f3794f67af077cfc2c711b7a75b439"
+    },
+    {
+      "file": "images/flexspace-case-ai.svg",
+      "replaces": "images/flexspace-case-ai.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "eb5f55a01da1b4c7535381c4fc9ac84fe0fa86ebfe68880eaf4295deddc9f4d4"
+    },
+    {
+      "file": "images/flexspace-case-fintech.svg",
+      "replaces": "images/flexspace-case-fintech.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "866d6ce071920afb0b662a5b5ba83d0e27ac88d8088e2f0e47249a86e0edebb7"
+    },
+    {
+      "file": "images/flexspace-case-global.svg",
+      "replaces": "images/flexspace-case-global.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "c4d03f84fdf8c6ace549966cca4bc81833caa9762a7990437927b04cd6b2556e"
+    },
+    {
+      "file": "images/flexspace-cbd-branch.svg",
+      "replaces": "images/flexspace-cbd-branch.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "dd0e443cc476d3c4b444c025b75ba133c2da17f7793356658a50c0e5c77029a3"
+    },
+    {
+      "file": "images/flexspace-community-lounge.svg",
+      "replaces": "images/flexspace-community-lounge.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "78b4f6a327a04f9f5c5f793542188392d59f8f3399bba6ccb511f30c8c961f3b"
+    },
+    {
+      "file": "images/flexspace-community-manager.svg",
+      "replaces": "images/flexspace-community-manager.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "0f5f80b22bd78215f60b6c7b4a4ca88d46c70ff69e637ecc54075b0ce09b2b8c"
+    },
+    {
+      "file": "images/flexspace-custom-headquarters.svg",
+      "replaces": "images/flexspace-custom-headquarters.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "2d17629d9008e76876449ccd6c1926919aeb1a8dcb5dbb57fefb5836de402cf4"
+    },
+    {
+      "file": "images/flexspace-enterprise-plan.svg",
+      "replaces": "images/flexspace-enterprise-plan.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "fe59b50f1538cf9d0d5ef232d1e61bd566fdacad56028fc37177e25b3457fe92"
+    },
+    {
+      "file": "images/flexspace-estimate-lounge.svg",
+      "replaces": "images/flexspace-estimate-lounge.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "6c96f0fd44109664bc0a2a2527988c181debe6b01a6dad7e13083aa8251db19e"
+    },
+    {
+      "file": "images/flexspace-estimate-meeting.svg",
+      "replaces": "images/flexspace-estimate-meeting.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "7492b4afada5546363bebf8df84f97d8542bc1a956593224a520a22da57da8e1"
+    },
+    {
+      "file": "images/flexspace-estimate-private.svg",
+      "replaces": "images/flexspace-estimate-private.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "3e8ca9e753ebe9d96fde6ced0cd212575706ec3bd85ec0554729c3d75fb069fa"
+    },
+    {
+      "file": "images/flexspace-event-hall.svg",
+      "replaces": "images/flexspace-event-hall.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "3070eabb74ee56108e70522263fd3905afa29b75b2a29442b961e91da15778d4"
+    },
+    {
+      "file": "images/flexspace-executive-room.svg",
+      "replaces": "images/flexspace-executive-room.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "fb59ca82e40a90c2b52ddce79e6b815fbd0607d872c2519a9ee2beb84f1185a5"
+    },
+    {
+      "file": "images/flexspace-gangnam-branch.svg",
+      "replaces": "images/flexspace-gangnam-branch.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "ed035cf636870a801fa0546c5f5bbc4e1965b5a741f696bbd95f36abad9becb4"
+    },
+    {
+      "file": "images/flexspace-gangnam-lounge.svg",
+      "replaces": "images/flexspace-gangnam-lounge.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "b2a92f98af29b8e43d8d6da5fe31d2594835fd36711e4e032264806e6a7f8ee4"
+    },
+    {
+      "file": "images/flexspace-lounge-plan.svg",
+      "replaces": "images/flexspace-lounge-plan.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "24d1a6c029060d107c20e4b5e36238f5f032d620e3a626130be40de25c31c317"
+    },
+    {
+      "file": "images/flexspace-phone-booth.svg",
+      "replaces": "images/flexspace-phone-booth.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "a7a81899c39cfb83ad770fc114f076e3cd130fda9fec462c0705ec3401519d26"
+    },
+    {
+      "file": "images/flexspace-private-suite.svg",
+      "replaces": "images/flexspace-private-suite.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "02b73be2d90ff8b1d49cf6b189138faf4bc4fad610729d0d9c96ffa94a4e8d5e"
+    },
+    {
+      "file": "images/flexspace-seongsu-branch.svg",
+      "replaces": "images/flexspace-seongsu-branch.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "22d2a7fa46837b27ad2a336e38313699ec6c7de47d9039ba33209297fd122d8a"
+    },
+    {
+      "file": "images/flexspace-tour-manager.svg",
+      "replaces": "images/flexspace-tour-manager.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "1f07411a346028f819878405fc3284c98b88d00ee5a4435571432e470c4bf46d"
+    },
+    {
+      "file": "images/flexspace-tour-space.svg",
+      "replaces": "images/flexspace-tour-space.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "7db0846ff911d36894eaca98d3d807ed25e7b7199cc84ad31e52950cd0d68b55"
+    },
+    {
+      "file": "images/flexspace-yeouido-branch.svg",
+      "replaces": "images/flexspace-yeouido-branch.jpg",
+      "origin": "original-vector",
+      "creator": "Qeploy contributors",
+      "date": "2026-11-06",
+      "sha256": "a006270e051284d130ff229e584128d36a0cbfae89f055551ee74440a1f6631f"
+    }
+  ],
+  "reviewed": "2026-11-06",
+  "scope": "File-level provenance and applicable conditions only, not a legal non-infringement guarantee."
+}
