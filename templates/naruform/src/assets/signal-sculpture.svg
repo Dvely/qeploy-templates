@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1200" viewBox="0 0 1400 1200" role="img" aria-labelledby="title desc">
+<title id="title">Folded color signal sculpture</title><desc id="desc">An original abstract sculpture of deep navy, coral, sky blue and butter yellow folded bands, arranged above a warm ivory surface.</desc>
+<defs>
+ <linearGradient id="navy" x1="0" y1="0" x2="1" y2=".85"><stop stop-color="#35556c"/><stop offset=".45" stop-color="#172a3c"/><stop offset="1" stop-color="#091d30"/></linearGradient>
+ <linearGradient id="coral" x1=".15" y1="0" x2=".75" y2="1"><stop stop-color="#ff9b76"/><stop offset=".43" stop-color="#fb704a"/><stop offset="1" stop-color="#ca4930"/></linearGradient>
+ <linearGradient id="butter" x1="0" y1="0" x2=".5" y2="1"><stop stop-color="#f7fac2"/><stop offset=".48" stop-color="#e9ee93"/><stop offset="1" stop-color="#b7c371"/></linearGradient>
+ <linearGradient id="sky" x1=".1" y1="0" x2=".9" y2="1"><stop stop-color="#d9e9f0"/><stop offset=".45" stop-color="#accde3"/><stop offset="1" stop-color="#749fbc"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff" stop-opacity=".5"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+ <radialGradient id="floor"><stop stop-color="#172a3c" stop-opacity=".18"/><stop offset="1" stop-color="#172a3c" stop-opacity="0"/></radialGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+ <filter id="cast" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="7" dy="25" stdDeviation="20" flood-color="#233d4e" flood-opacity=".16"/></filter>
+</defs>
+<rect width="1400" height="1200" fill="#f4f2ec"/>
+<ellipse cx="706" cy="1023" rx="491" ry="91" fill="url(#floor)"/>
+<g filter="url(#cast)">
+ <!-- A folded upright sky-blue sheet, with an inner cutout. -->
+ <path d="M497 204C397 252 342 351 366 457L449 813C461 867 501 906 556 910L758 923C804 926 838 895 844 851L894 462C900 413 876 371 833 348L585 212C553 194 523 191 497 204ZM521 325C530 319 539 320 551 327L754 438C765 444 771 455 769 469L727 794C726 808 721 813 708 812L577 803C566 802 559 795 556 782L484 474C468 406 487 347 521 325Z" fill="url(#sky)" fill-rule="evenodd"/>
+ <path d="M497 204C397 252 342 351 366 457L449 813C461 867 501 906 556 910L758 923L778 896L567 884C523 880 493 853 482 806L397 451C377 363 418 269 497 220Z" fill="#769db4" opacity=".7"/>
+ <!-- The navy broad band crosses the sculpture diagonally and folds forward. -->
+ <path d="M307 525C300 484 323 449 362 435L821 274C870 257 916 277 940 320L1071 554C1096 599 1085 652 1044 681L621 986C586 1011 539 999 520 961L326 576C315 554 310 540 307 525ZM435 530L592 849L943 596L831 394Z" fill="url(#navy)" fill-rule="evenodd"/>
+ <path d="M307 525C300 484 323 449 362 435L821 274C870 257 916 277 940 320L929 334C906 299 872 291 835 303L377 465C347 475 333 493 338 520L355 561L520 961C507 936 320 576 307 525Z" fill="#607a8b" opacity=".55"/>
+ <!-- A coral folded loop with a rounded open center. -->
+ <path d="M720 358C755 322 805 325 840 355L1112 593C1159 634 1171 696 1138 747L1031 911C998 962 943 977 890 947L614 792C564 764 547 710 579 660ZM793 474L691 693C685 705 690 715 703 722L937 855C951 863 964 859 972 846L1039 742C1050 725 1048 711 1032 698Z" fill="url(#coral)" fill-rule="evenodd"/>
+ <path d="M720 358C755 322 805 325 840 355L1112 593C1159 634 1171 696 1138 747L1120 752C1141 704 1128 657 1092 625L823 389C795 364 766 363 741 387L598 674C580 711 592 750 628 770L614 792C564 764 547 710 579 660Z" fill="#ffb08b" opacity=".45"/>
+ <!-- Butter-yellow paper ribbon, folded into a low, sculptural arch. -->
+ <path d="M276 747C302 702 352 682 400 697L802 825C840 837 865 872 862 911L857 975C855 1001 833 1021 806 1019L404 989C362 986 327 965 307 929L266 855C246 819 251 787 276 747ZM377 793C367 790 359 795 354 804C350 812 351 821 356 830L393 895C398 905 408 910 419 911L745 935L746 921Z" fill="url(#butter)" fill-rule="evenodd"/>
+ <path d="M276 747C302 702 352 682 400 697L802 825C840 837 865 872 862 911L846 921C844 885 825 863 794 853L394 725C353 712 314 731 291 768L276 747Z" fill="#feffd5" opacity=".65"/>
+ <path d="M404 989L806 1019C833 1021 855 1001 857 975L859 948C852 975 832 986 809 984L410 956C379 954 355 938 337 912L307 929C327 965 362 986 404 989Z" fill="#9fac63" opacity=".75"/>
+</g>
+<path d="M1135 339L1176 366L1144 413L1104 386Z" fill="#e9ee93" transform="rotate(-12 1140 375)"/>
+<path d="M238 600L276 586L298 626L260 641Z" fill="#accde3"/>
+</svg>

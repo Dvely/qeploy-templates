@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1050" viewBox="0 0 1400 1050" role="img" aria-labelledby="title desc"><title id="title">Atrium — spatial journal concept</title><desc id="desc">Original architectural editorial composition, with a sculpted apricot entrance, a staircase, and abstract publication blocks.</desc><defs><linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0b69a"/><stop offset="1" stop-color="#cf8063"/></linearGradient><linearGradient id="door"><stop stop-color="#824d3b"/><stop offset="1" stop-color="#b76c51"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#684d3f" flood-opacity=".12"/></filter></defs>
+<rect width="1400" height="1050" fill="#e6ded2"/>
+<g filter="url(#s)"><rect x="95" y="75" width="1210" height="900" rx="6" fill="#faf7f0"/>
+<path d="M135 130H1265" stroke="#a99684" stroke-width="2"/>
+<rect x="137" y="101" width="96" height="8" fill="#382e28"/><g fill="#88796c"><rect x="963" y="103" width="66" height="4"/><rect x="1060" y="103" width="67" height="4"/><rect x="1160" y="103" width="95" height="4"/></g>
+<g fill="#382e28"><rect x="137" y="185" width="356" height="25"/><rect x="137" y="226" width="271" height="25"/><rect x="137" y="293" width="230" height="6"/><rect x="137" y="309" width="193" height="6"/></g>
+<rect x="137" y="357" width="118" height="36" rx="18" fill="#c27659"/>
+<rect x="573" y="164" width="692" height="530" fill="#e9bd9d"/>
+<path d="M573 590L848 477L1265 616V694H573Z" fill="#f8dfbb"/>
+<path d="M686 249L1011 206L1144 271V572L821 627L686 550Z" fill="url(#wall)"/>
+<path d="M1011 206L1144 271V572L1011 517Z" fill="#bc7458"/>
+<path d="M757 575V407C757 312 898 286 898 387V551Z" fill="url(#door)"/>
+<path d="M786 564V408C786 358 844 337 865 371C850 347 830 344 818 359V557Z" fill="#704536"/>
+<path d="M947 582L947 552L991 545L991 515L1036 508L1036 478L1081 471L1081 441L1125 434L1125 563Z" fill="#f4d6b8"/>
+<g stroke="#c59173" stroke-width="2"><path d="M947 582L1125 553"/><path d="M991 545L1125 523"/><path d="M1036 508L1125 493"/><path d="M1081 471L1125 464"/></g>
+<path d="M1103 588L1118 442M1115 493C1061 505 1064 458 1109 472M1117 472C1160 455 1177 488 1115 506" stroke="#6b7c58" stroke-width="13" fill="none" stroke-linecap="round"/>
+<path d="M1084 588H1137L1128 634H1092Z" fill="#a45f45"/>
+<g fill="#a99684"><rect x="137" y="636" width="65" height="5"/><rect x="137" y="650" width="247" height="5"/></g>
+<path d="M137 733H1265" stroke="#cfbfb0"/>
+<rect x="137" y="774" width="331" height="154" fill="#d7c4ab"/>
+<path d="M165 928V823H437V928M191 928V849H411V928M218 928V875H385V928M245 928V901H359V928" fill="none" stroke="#faf7f0" stroke-width="12"/>
+<g fill="#382e28"><rect x="517" y="781" width="300" height="14"/><rect x="517" y="806" width="238" height="14"/></g>
+<g fill="#b8aa9c"><rect x="517" y="854" width="313" height="5"/><rect x="517" y="870" width="284" height="5"/><rect x="517" y="886" width="302" height="5"/></g>
+<circle cx="1176" cy="849" r="58" fill="#d88b6d"/><path d="M1150 849H1200M1184 833L1200 849L1184 865" fill="none" stroke="#faf7f0" stroke-width="3"/>
+</g></svg>

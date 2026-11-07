@@ -1,0 +1,15 @@
+{
+ "id":"naruform",
+ "name":"나루폼",
+ "description":"생각의 결을 경험의 형태로 · 조형 모션과 작업 탐색, 실험실, 프로젝트 브리프를 연결하는 디지털 스튜디오",
+ "tags":["스튜디오","포트폴리오","인터랙션","브랜딩","기업소개","반응형"],
+ "stack":"vanilla",
+ "entry":"index.html",
+ "contentHints":[
+  {"key":"content","where":"content.mjs","desc":"가상 스튜디오·작업·서비스·저널 콘텐츠"},
+  {"key":"design","where":"site.css","desc":"독립 시각 구성과 반응형·모션"},
+  {"key":"interaction","where":"site.js","desc":"조형 실험·검색·작업 필터·브리프 시연"},
+  {"key":"pages","where":"build.mjs","desc":"정적 상세 페이지 생성"},
+  {"key":"provenance","where":"ASSET-PROVENANCE.json","desc":"직접 제작한 벡터와 현재 파일 검토 기록"}
+ ]
+}

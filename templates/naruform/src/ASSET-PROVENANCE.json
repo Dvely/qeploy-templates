@@ -1,0 +1,63 @@
+{
+  "project": "naruform",
+  "reviewed": "2026-11-08",
+  "scope": "Newly authored code, copy and SVG graphics; not legal or trademark clearance.",
+  "assets": [
+    {
+      "file": "assets/favicon.svg",
+      "sha256": "3f89780f158e823cf7482c40faffe864e47d1318a047d732a5aa5d295cc61251",
+      "origin": "original-vector",
+      "record": "build.mjs",
+      "created": "2026-11-08"
+    },
+    {
+      "file": "assets/project-atrium.svg",
+      "sha256": "4a43b8d25fc6d30e5f873720171e02b620694713137d939a21ce9d7321c2bde6",
+      "origin": "original-vector",
+      "record": "assets/art-record.json",
+      "created": "2026-11-08"
+    },
+    {
+      "file": "assets/project-current.svg",
+      "sha256": "ff866328299ca5a292f133273ce040d6298a7b86a2ea3357d37f5d83ff5a35a4",
+      "origin": "original-vector",
+      "record": "assets/art-record.json",
+      "created": "2026-11-08"
+    },
+    {
+      "file": "assets/project-field.svg",
+      "sha256": "2709f505afcc514b23b58affd4e64415c85c11e4888d2a2a8927280a6a3ec215",
+      "origin": "original-vector",
+      "record": "build.mjs",
+      "created": "2026-11-08"
+    },
+    {
+      "file": "assets/project-grain.svg",
+      "sha256": "60096087b01ad2bb76f5ece0eda1eb5a2549ff9235839134e3e1f8baf0fb849f",
+      "origin": "original-vector",
+      "record": "assets/art-record.json",
+      "created": "2026-11-08"
+    },
+    {
+      "file": "assets/project-index.svg",
+      "sha256": "c7852ab8235a5d203b869e6441c44d90c01f2d07a3473a147695ebaa33995052",
+      "origin": "original-vector",
+      "record": "build.mjs",
+      "created": "2026-11-08"
+    },
+    {
+      "file": "assets/project-pulse.svg",
+      "sha256": "3241698dee242eec27529a73176a5bfd07ca721d8eb50965f9398a9ed3a3ca5e",
+      "origin": "original-vector",
+      "record": "build.mjs",
+      "created": "2026-11-08"
+    },
+    {
+      "file": "assets/signal-sculpture.svg",
+      "sha256": "7620af0d262c83a9fe8a2e6255587887939393eb68931f237c94c68bb715d268",
+      "origin": "original-vector",
+      "record": "assets/art-record.json",
+      "created": "2026-11-08"
+    }
+  ]
+}

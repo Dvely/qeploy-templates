@@ -1,0 +1,44 @@
+{
+  "project": "NARUFORM / 나루폼",
+  "creator": "Codex",
+  "method": "Original SVG primitives, paths and color gradients authored for this project. No reference images, third-party media, fonts, libraries or source artwork were used.",
+  "createdAt": "2026-11-08",
+  "assets": [
+    {
+      "file": "signal-sculpture.svg",
+      "width": 1400,
+      "height": 1200,
+      "description": "Original interwoven folded plate sculpture in navy, coral, butter and sky blue; broad paper-like surfaces and own cubic curve geometry.",
+      "sha256": "7620af0d262c83a9fe8a2e6255587887939393eb68931f237c94c68bb715d268",
+      "source": "authored SVG vector code",
+      "license": "Project-owned original artwork; no third-party asset permissions required."
+    },
+    {
+      "file": "project-atrium.svg",
+      "width": 1400,
+      "height": 1050,
+      "description": "Original architectural publication mockup with an apricot arched entrance and geometric staircase.",
+      "sha256": "4a43b8d25fc6d30e5f873720171e02b620694713137d939a21ce9d7321c2bde6",
+      "source": "authored SVG vector code",
+      "license": "Project-owned original artwork; no third-party asset permissions required."
+    },
+    {
+      "file": "project-current.svg",
+      "width": 1400,
+      "height": 1050,
+      "description": "Original blue editorial dashboard concept with algorithmically authored cubic contour curves and basic data marks.",
+      "sha256": "ff866328299ca5a292f133273ce040d6298a7b86a2ea3357d37f5d83ff5a35a4",
+      "source": "authored SVG vector code",
+      "license": "Project-owned original artwork; no third-party asset permissions required."
+    },
+    {
+      "file": "project-grain.svg",
+      "width": 1400,
+      "height": 1050,
+      "description": "Original terracotta culture publication mockup with original geometric paper and arch motifs.",
+      "sha256": "60096087b01ad2bb76f5ece0eda1eb5a2549ff9235839134e3e1f8baf0fb849f",
+      "source": "authored SVG vector code",
+      "license": "Project-owned original artwork; no third-party asset permissions required."
+    }
+  ]
+}

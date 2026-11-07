@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1050" viewBox="0 0 1400 1050" role="img" aria-labelledby="title desc"><title id="title">Grain — culture publication concept</title><desc id="desc">Original terracotta and cream publication composition with geometric paper, grain and folded forms.</desc><defs><filter id="s"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#7e3a26" flood-opacity=".13"/></filter><pattern id="stripes" width="15" height="15" patternUnits="userSpaceOnUse" patternTransform="rotate(30)"><path d="M0 0V15" stroke="#703c2b" stroke-width="4"/></pattern></defs><rect width="1400" height="1050" fill="#bf6b4d"/><g filter="url(#s)"><rect x="92" y="70" width="1216" height="910" fill="#f5eddb"/>
+<path d="M131 146H1269" stroke="#5c3a2d" stroke-width="2"/>
+<g fill="#6e3b2b"><rect x="133" y="104" width="129" height="10"/><rect x="949" y="108" width="68" height="4"/><rect x="1049" y="108" width="68" height="4"/><rect x="1149" y="108" width="117" height="4"/></g>
+<rect x="132" y="184" width="1136" height="410" fill="#d37f5f"/>
+<path d="M134 594V479L492 184H735L330 594Z" fill="#e6ac7e"/>
+<path d="M792 184C628 272 617 441 769 510C903 570 1025 480 1021 373C1018 294 960 238 879 253C831 262 807 298 812 339C817 385 860 401 901 379" fill="none" stroke="#f5eddb" stroke-width="77"/>
+<path d="M1002 594L1249 184H1268V594Z" fill="#6e3b2b"/>
+<rect x="176" y="225" width="159" height="159" rx="80" fill="url(#stripes)"/>
+<path d="M176 556H351M176 538H297" stroke="#6e3b2b" stroke-width="7"/>
+<g fill="#6e3b2b"><rect x="132" y="642" width="530" height="24"/><rect x="132" y="682" width="391" height="24"/></g><g fill="#9b7d64"><rect x="804" y="649" width="399" height="6"/><rect x="804" y="668" width="431" height="6"/><rect x="804" y="687" width="414" height="6"/></g>
+<path d="M132 748H1268" stroke="#b8a68b"/>
+<rect x="132" y="788" width="327" height="151" fill="#e6bb85"/>
+<path d="M185 939V861C185 825 215 800 249 800C283 800 313 825 313 861V939" fill="#b25e43"/><path d="M277 939V866C277 837 300 814 331 814C361 814 385 837 385 866V939" fill="#f5eddb"/>
+<rect x="500" y="788" width="327" height="151" fill="#6f4934"/>
+<path d="M539 864C578 807 607 918 647 862S718 919 782 824" fill="none" stroke="#e6bb85" stroke-width="17"/>
+<rect x="868" y="788" width="400" height="151" fill="#e6dbbe"/>
+<g fill="#6e3b2b"><rect x="896" y="813" width="210" height="9"/><rect x="896" y="834" width="278" height="9"/></g><g fill="#ac9275"><rect x="896" y="874" width="272" height="5"/><rect x="896" y="890" width="244" height="5"/></g><circle cx="1222" cy="903" r="15" fill="#c77351"/>
+</g></svg>

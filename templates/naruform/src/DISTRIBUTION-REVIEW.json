@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "project": "naruform",
+  "status": "reviewed",
+  "reviewDate": "2026-11-08",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "1658c340bc50ef9672b1611e99c124e12216fc5275c120a579ccc31e3cb3f497",
+      "origin": "reviewed-project-source"
+    },
+    "assets/art-record.json": {
+      "sha256": "b1bbefde35d911483796e861b69669d79ff1235de5ab8b4130885672d9dd0682",
+      "origin": "reviewed-project-source"
+    },
+    "assets/favicon.svg": {
+      "sha256": "3f89780f158e823cf7482c40faffe864e47d1318a047d732a5aa5d295cc61251",
+      "origin": "original-vector"
+    },
+    "assets/project-atrium.svg": {
+      "sha256": "4a43b8d25fc6d30e5f873720171e02b620694713137d939a21ce9d7321c2bde6",
+      "origin": "original-vector"
+    },
+    "assets/project-current.svg": {
+      "sha256": "ff866328299ca5a292f133273ce040d6298a7b86a2ea3357d37f5d83ff5a35a4",
+      "origin": "original-vector"
+    },
+    "assets/project-field.svg": {
+      "sha256": "2709f505afcc514b23b58affd4e64415c85c11e4888d2a2a8927280a6a3ec215",
+      "origin": "original-vector"
+    },
+    "assets/project-grain.svg": {
+      "sha256": "60096087b01ad2bb76f5ece0eda1eb5a2549ff9235839134e3e1f8baf0fb849f",
+      "origin": "original-vector"
+    },
+    "assets/project-index.svg": {
+      "sha256": "c7852ab8235a5d203b869e6441c44d90c01f2d07a3473a147695ebaa33995052",
+      "origin": "original-vector"
+    },
+    "assets/project-pulse.svg": {
+      "sha256": "3241698dee242eec27529a73176a5bfd07ca721d8eb50965f9398a9ed3a3ca5e",
+      "origin": "original-vector"
+    },
+    "assets/signal-sculpture.svg": {
+      "sha256": "7620af0d262c83a9fe8a2e6255587887939393eb68931f237c94c68bb715d268",
+      "origin": "original-vector"
+    },
+    "build.mjs": {
+      "sha256": "c4ac371221027179eeae9d1fd191d964fed9dd1f6b695efcdf88ea56e1e73b3f",
+      "origin": "reviewed-project-source"
+    },
+    "careers.html": {
+      "sha256": "a445f64758cddee6b262e8c27afd66f8633f6272b5c9fd048c1de48182eac27e",
+      "origin": "reviewed-project-source"
+    },
+    "company.html": {
+      "sha256": "c3a1420a611590d68bfce6637bba6c9daba2e5b6572f339afa70683618486021",
+      "origin": "reviewed-project-source"
+    },
+    "contact.html": {
+      "sha256": "3c8b6572995cfa6c04af46a802fa20a9586637eb19f825fb06931b048e896a8a",
+      "origin": "reviewed-project-source"
+    },
+    "content.mjs": {
+      "sha256": "f1572eb0b1c31c00b68522779d7590a45a299775b1f51f1091654600ec85b8c3",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "d3473d16b21ef30675a135ea7e9acdcd3fc9999b1a99d1f49f427597c3d60fc0",
+      "origin": "reviewed-project-source"
+    },
+    "journal-material.html": {
+      "sha256": "6f3d5c456fbbd13cf86416c25456b9022569d3a2e9b383c0742b78a9c65afb16",
+      "origin": "reviewed-project-source"
+    },
+    "journal-pace.html": {
+      "sha256": "af57d77a37f9e190c9892e002f0221bd0b0ce6dbcfa5e4e0b84e46aa3d393ae3",
+      "origin": "reviewed-project-source"
+    },
+    "journal-structure.html": {
+      "sha256": "5d2de115778497378dde7faf1b156b7fd6e0b0f3182fe515851c6fab56c4238b",
+      "origin": "reviewed-project-source"
+    },
+    "journal.html": {
+      "sha256": "f602900a67e6fe2a42089d8714764cb89302623fee7356320b54374443310d03",
+      "origin": "reviewed-project-source"
+    },
+    "lab.html": {
+      "sha256": "e80ed41c2f04890ca296e22e18575653e313715e93580cfd5cb67c9e550fdb15",
+      "origin": "reviewed-project-source"
+    },
+    "LICENSE.txt": {
+      "sha256": "023cf38fe8f7f8e4870fe6653866b0e00711c823a9e03ba52d646e7d04d25d93",
+      "origin": "reviewed-project-source"
+    },
+    "policy.html": {
+      "sha256": "d1c7b816f7dd84a782dd13e556f27357595c0485d220f9021de19d976d25abf2",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "a5ed61675657639e25cfdb2f3a3915c374cd7d94e8e8984d5d2623e0f826f525",
+      "origin": "reviewed-project-source"
+    },
+    "services.html": {
+      "sha256": "5ca864dc1e58be5eab10b12fb89de547c15a31a4f5ba2b46e0034bfc615f3e1b",
+      "origin": "reviewed-project-source"
+    },
+    "site.css": {
+      "sha256": "2e8a6a035273782c17009e706d40951244946adc3c3b870e5eb54b9a562ac53e",
+      "origin": "reviewed-project-source"
+    },
+    "site.js": {
+      "sha256": "e9e6817336a9b9688653c1a2f650a22c60310d452d604f13a6f57465a9b42185",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "f4c34ba9567a6a67ad6391a7ca6121eec27d97c2fc6d7d64663918c2bf2eef31",
+      "origin": "reviewed-project-source"
+    },
+    "work-atrium.html": {
+      "sha256": "eb1d6fbfb387a8048da24952f75c291d255a797bda7aa402761c2482d77054ab",
+      "origin": "reviewed-project-source"
+    },
+    "work-current.html": {
+      "sha256": "286d65374f58d4de368b6469d281571f01d79b887819c73af203d3ac77330238",
+      "origin": "reviewed-project-source"
+    },
+    "work-field.html": {
+      "sha256": "b21c3f5e926172b157891ad9f2af008e124bcfc3244b09f5a3e7b6c7e837e41d",
+      "origin": "reviewed-project-source"
+    },
+    "work-grain.html": {
+      "sha256": "83627bc93206f469356f62ba17783e5084dc56d7a2d6e632c87b6dd387718a4c",
+      "origin": "reviewed-project-source"
+    },
+    "work-index.html": {
+      "sha256": "16723618b853829c99aa6aa4a1d44509a7e4b1ce46e5adaa18ff11e34d13b858",
+      "origin": "reviewed-project-source"
+    },
+    "work-pulse.html": {
+      "sha256": "0a5eef01f8830689f491ec1888708a93f465754ddd38fc1a21d04cd7f649062f",
+      "origin": "reviewed-project-source"
+    },
+    "works.html": {
+      "sha256": "8520ad6030b4bea0d71edcd2d0ad8e17065464b72f98d871057b04ebc102c8a7",
+      "origin": "reviewed-project-source"
+    }
+  }
+}
