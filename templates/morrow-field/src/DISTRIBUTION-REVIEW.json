@@ -42,7 +42,7 @@
       "origin": "original-vector"
     },
     "build.mjs": {
-      "sha256": "8e3584d8fff795217428c396ba901dc76f891d4fb28496805a77e495b20480b4",
+      "sha256": "ef4f01d390a8193ebdbefcaef558930113434e278e3993bb0562d867de93210b",
       "origin": "reviewed-project-source"
     },
     "content.mjs": {
@@ -58,11 +58,11 @@
       "origin": "reviewed-project-source"
     },
     "index.html": {
-      "sha256": "de1fb458cfd0e4e8f8b00129eb66fc8b972aff7843c29039c10024f31b155846",
+      "sha256": "9014096bbe63de286dad8eb699507c63c8bdb25b6ecc5b45c8a866178187168d",
       "origin": "reviewed-project-source"
     },
     "journal.html": {
-      "sha256": "c4003ecfb5a672da5972cf6df4d6ce0b241df42e1e0b5436792627dd4198d718",
+      "sha256": "d0533eb8c2590fe1e6329bef988d476fd36ee8614f4863a54e1a7a0920fc4b69",
       "origin": "reviewed-project-source"
     },
     "LICENSE.txt": {
@@ -94,7 +94,7 @@
       "origin": "reviewed-project-source"
     },
     "README.md": {
-      "sha256": "0200f9c84d5cbe64fe2d05bd874dc9a1915d3af293bbd4ca9b6c6ef4f67444bb",
+      "sha256": "3b2b05192d723fcfa0c3cad581dd17b14b4b4d39073a069669dd729e55999853",
       "origin": "reviewed-project-source"
     },
     "reserve.html": {
@@ -106,7 +106,7 @@
       "origin": "reviewed-project-source"
     },
     "site.js": {
-      "sha256": "69c24a83b4a5caa4a23da9ad10a9375bc4565f3db595a43ea73bc9157d2187b4",
+      "sha256": "e9e1d2e245fe5a3d9d591aab463cda00235c0b8d75158eaa3049cf96123898bc",
       "origin": "reviewed-project-source"
     },
     "space-forum.html": {

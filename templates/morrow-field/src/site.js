@@ -8,8 +8,9 @@
  let toastTimer;
  function toast(message){$('.toast').textContent=message;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('.toast').textContent='',4000);}
  const menu=$('.mobile-menu'),toggle=$('.menu-toggle');
- function closeMenu(){menu.hidden=true;toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','전체 메뉴 열기');document.body.classList.remove('menu-open');}
- toggle.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')!=='true';menu.hidden=!open;toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'전체 메뉴 닫기':'전체 메뉴 열기');document.body.classList.toggle('menu-open',open);if(open)$('a',menu).focus();});
+ function setBackgroundInert(inert){$$('main,.footer,.to-top').forEach(el=>el.inert=inert);}
+ function closeMenu(){menu.hidden=true;toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','전체 메뉴 열기');document.body.classList.remove('menu-open');setBackgroundInert(false);}
+ toggle.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')!=='true';menu.hidden=!open;toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'전체 메뉴 닫기':'전체 메뉴 열기');document.body.classList.toggle('menu-open',open);setBackgroundInert(open);if(open)$('a',menu).focus();});
  document.addEventListener('keydown',e=>{
   if(e.key==='Escape'&&!menu.hidden){closeMenu();toggle.focus();}
   if(e.key==='Tab'&&!menu.hidden){
@@ -51,7 +52,13 @@
  const copy=$('[data-copy-address]');
  if(copy)copy.addEventListener('click',async()=>{const address='학습용 예시 위치: (08221) 서울특별시 구로구 경인로 445 동양미래대학교';try{await navigator.clipboard.writeText(address);toast('학습용 예시 주소를 복사했습니다.');}catch{toast('복사가 지원되지 않습니다. 화면의 예시 주소를 직접 선택해 주세요.');}});
  const storeKey='morrow-field-visits-v1';
- const validVisit=v=>v&&typeof v==='object'&&programs.some(p=>p.id===v.program)&&typeof v.code==='string'&&/^MF-[A-Z0-9-]{5,40}$/.test(v.code)&&typeof v.date==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(v.date)&&!Number.isNaN(new Date(`${v.date}T12:00:00`).getTime())&&programs.find(p=>p.id===v.program).times.includes(v.time)&&Number.isInteger(v.guests)&&v.guests>=1&&v.guests<=8;
+ const validVisit=v=>{
+  if(!v||typeof v!=='object')return false;
+  const p=programs.find(p=>p.id===v.program);
+  if(!p||typeof v.code!=='string'||!/^MF-[A-Z0-9-]{5,40}$/.test(v.code)||typeof v.date!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(v.date))return false;
+  const d=new Date(`${v.date}T12:00:00`),parts=v.date.split('-').map(Number);
+  return d.getFullYear()===parts[0]&&d.getMonth()+1===parts[1]&&d.getDate()===parts[2]&&p.times.includes(v.time)&&Number.isInteger(v.guests)&&v.guests>=1&&v.guests<=Number(p.group.match(/\d+/g).at(-1));
+ };
  function loadVisits(){try{const saved=JSON.parse(localStorage.getItem(storeKey)||'[]');return Array.isArray(saved)?saved.filter(validVisit).slice(0,30):[];}catch{return [];}}
  function saveVisits(visits){try{localStorage.setItem(storeKey,JSON.stringify(visits));return true;}catch{return false;}}
  const dateLabel=iso=>new Intl.DateTimeFormat('ko-KR',{year:'numeric',month:'long',day:'numeric',weekday:'short'}).format(new Date(`${iso}T12:00:00`));

@@ -10,7 +10,7 @@
 
 ## 실행과 수정
 
-빌드된 `src/index.html`을 열거나 정적 서버로 `src/`를 제공합니다. 런타임에는 외부 의존성·네트워크 API·데이터 fetch가 필요하지 않습니다. 내용은 `content.mjs`, 디자인은 `site.css`, 동작은 `site.js`, 공통 HTML은 `build.mjs`에서 수정합니다.
+정적 서버로 `src/`를 제공해 실행합니다. 사전 생성 HTML을 포함하며, 파일을 직접 여는 방식은 브라우저 정책에 따라 제한될 수 있습니다. 런타임에는 외부 의존성·네트워크 API·데이터 fetch가 필요하지 않습니다. 내용은 `content.mjs`, 디자인은 `site.css`, 동작은 `site.js`, 공통 HTML은 `build.mjs`에서 수정합니다.
 
 ```sh
 node build.mjs
