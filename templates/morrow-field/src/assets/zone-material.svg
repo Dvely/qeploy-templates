@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc"><title id="title">재료의 가능성</title><desc id="desc">파란 관형 구조, 주황색 골지 실린더, 연두색 모듈을 서로 다른 높이의 받침대에 배치한 독립적인 재료 연구 공간.</desc><defs>
+ <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f3f0e8"/><stop offset="1" stop-color="#dcded3"/></linearGradient>
+ <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#354d43"/><stop offset="1" stop-color="#1b2725"/></linearGradient>
+ <linearGradient id="lime" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edfaac"/><stop offset="1" stop-color="#b3d336"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d6e7ed"/><stop offset="1" stop-color="#88aab9"/></linearGradient>
+ <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e6a183"/><stop offset="1" stop-color="#b85d3d"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#d8ef68" stop-opacity=".55"/><stop offset="1" stop-color="#d8ef68" stop-opacity="0"/></radialGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" seed="8"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".06"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+</defs><g filter="url(#grain)"><rect width="1200" height="900" fill="url(#wall)"/><path d="M0 600 600 300 1200 600V900H0Z" fill="#e8e8dc"/><path d="M0 600 600 300 1200 600" fill="none" stroke="#c9cec2" stroke-width="2"/><path d="M600 300V70M0 752 600 452 1200 752M0 900 600 600 1200 900M300 450 1200 900M900 450 0 900" fill="none" stroke="#cbd0c5" stroke-width="1.5" opacity=".5"/>
+<ellipse cx="617" cy="689" rx="365" ry="72" fill="#1b2725" opacity=".13" filter="url(#shadow)"/>
+<path d="M180 606 602 395 1031 610 609 821Z" fill="#dce0d3"/><path d="M180 606v20l429 215v-20Z" fill="#c4ccba"/><path d="m609 821 422-211v20L609 841Z" fill="#afbaa6"/>
+<path d="m229 492 161-80 155 77-161 81Z" fill="#bdc7af"/><path d="M229 492v143l155 77V570Z" fill="#d7decf"/><path d="m384 570 161-81v143l-161 80Z" fill="#aab79d"/>
+<path d="M271 441v-97c0-80 149-80 149 0v97" fill="none" stroke="#b3cbd8" stroke-width="35"/>
+<path d="M279 438v-94c0-67 133-67 133 0v94" fill="none" stroke="#d9e6e7" stroke-width="5"/>
+<ellipse cx="343" cy="460" rx="73" ry="34" fill="url(#blue)"/><ellipse cx="343" cy="451" rx="73" ry="34" fill="#c6dce2"/>
+<path d="m596 522 166-83 153 77-166 83Z" fill="#e2e2ce"/><path d="M596 522v148l153 76V599Z" fill="#eeeadd"/><path d="m749 599 166-83v147l-166 83Z" fill="#c8cdb6"/>
+<path d="M675 494V320c0-51 135-51 135 0v174" fill="url(#orange)"/><ellipse cx="742" cy="320" rx="67" ry="32" fill="#e4a98d"/><ellipse cx="742" cy="320" rx="37" ry="18" fill="#a9573d"/>
+<g stroke="#f1ba9e" stroke-width="3" opacity=".7"><path d="M696 341v133M719 350v133M744 354v133M769 350v133M792 340v133"/></g>
+<path d="m427 676 165-83 157 79-165 82Z" fill="#ebefd9"/><path d="M427 676v49l157 79v-50Z" fill="#c5d4aa"/><path d="m584 754 165-82v50l-165 82Z" fill="#a2b580"/>
+<g fill="url(#lime)"><path d="m484 662 50-25 48 24-50 25Z"/><path d="m544 634 50-25 48 24-50 25Z"/><path d="m544 692 50-25 48 24-50 25Z"/><path d="m604 663 50-25 48 24-50 25Z"/></g>
+<g fill="#98b74d"><path d="m484 662 48 24v19l-48-24Z"/><path d="m544 634 48 24v19l-48-24Z"/><path d="m544 692 48 24v19l-48-24Z"/><path d="m604 663 48 24v19l-48-24Z"/></g>
+<path d="m584 254 60-30 60 30-60 30Z" fill="#1b2725"/><path d="m584 254 60 30v108l-60-30Z" fill="#385247"/><path d="m644 284 60-30v108l-60 30Z" fill="#1b2725"/>
+<g stroke="#849381" stroke-width="2" fill="none"><path d="M204 300v-93l190-95v95M913 423v-135l118-59v135"/></g>
+<g fill="#1b2725"><circle cx="948" cy="572" r="12"/><path d="m937 590-3 62 25 7 1-57Z"/><path d="m938 648-12 47h8l14-41 5 44h8l-1-46Z"/></g>
+</g></svg>

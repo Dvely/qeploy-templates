@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc"><title id="title">함께 그리는 미래</title><desc id="desc">연두색, 파란색, 주황색 좌석이 원형으로 모인 대화 공간과 천장 링 조명으로 구성한 독립적인 포럼 일러스트.</desc><defs>
+ <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f3f0e8"/><stop offset="1" stop-color="#dcded3"/></linearGradient>
+ <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#354d43"/><stop offset="1" stop-color="#1b2725"/></linearGradient>
+ <linearGradient id="lime" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edfaac"/><stop offset="1" stop-color="#b3d336"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d6e7ed"/><stop offset="1" stop-color="#88aab9"/></linearGradient>
+ <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e6a183"/><stop offset="1" stop-color="#b85d3d"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#d8ef68" stop-opacity=".55"/><stop offset="1" stop-color="#d8ef68" stop-opacity="0"/></radialGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" seed="8"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".06"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+</defs><g filter="url(#grain)"><rect width="1200" height="900" fill="url(#wall)"/><path d="M0 600 600 300 1200 600V900H0Z" fill="#e8e8dc"/><path d="M0 600 600 300 1200 600" fill="none" stroke="#c9cec2" stroke-width="2"/><path d="M600 300V70M0 752 600 452 1200 752M0 900 600 600 1200 900M300 450 1200 900M900 450 0 900" fill="none" stroke="#cbd0c5" stroke-width="1.5" opacity=".5"/>
+<ellipse cx="600" cy="692" rx="366" ry="79" fill="#1b2725" opacity=".14" filter="url(#shadow)"/>
+<path d="M154 602 600 379 1046 602 600 825Z" fill="#e1e4d7"/><path d="M154 602v18l446 223v-18Z" fill="#c8d0be"/><path d="m600 825 446-223v18L600 843Z" fill="#b4bea9"/>
+<path d="M310 467v88c0 169 580 169 580 0v-88" fill="#314b40"/><ellipse cx="600" cy="467" rx="290" ry="145" fill="#4e6959"/><ellipse cx="600" cy="467" rx="217" ry="107" fill="#dfe5d4"/>
+<path d="M383 467v59c0 141 434 141 434 0v-59" fill="#c4cfb8"/><ellipse cx="600" cy="526" rx="217" ry="107" fill="#e7ecdd"/>
+<path d="M299 457c0-69 76-132 191-154l19 64c-92 22-126 57-126 100Z" fill="url(#lime)"/>
+<path d="M511 301c104-14 228 8 303 51l-50 47c-65-30-135-43-217-31Z" fill="url(#blue)"/>
+<path d="M832 361c52 32 70 68 61 114l-79-4c7-27-8-54-38-68Z" fill="url(#orange)"/>
+<path d="M305 484c9 51 64 98 141 125l42-59c-64-23-96-49-104-77Z" fill="url(#orange)"/>
+<path d="M463 614c91 28 214 27 304-3l-41-59c-80 20-154 21-224 1Z" fill="url(#blue)"/>
+<path d="M786 604c69-29 106-65 111-113l-82-4c-4 29-29 52-70 69Z" fill="url(#lime)"/>
+<path d="M532 495v42c0 44 136 44 136 0v-42Z" fill="#b3bf9f"/><ellipse cx="600" cy="495" rx="68" ry="34" fill="#f3f0e8"/><ellipse cx="600" cy="494" rx="14" ry="7" fill="#cf714d"/>
+<g stroke="#9bab96" stroke-width="2"><path d="M600 85v155M346 145v138M854 145v138"/></g>
+<ellipse cx="600" cy="244" rx="225" ry="70" fill="none" stroke="#859b69" stroke-width="20"/><ellipse cx="600" cy="233" rx="225" ry="70" fill="none" stroke="#d8ef68" stroke-width="17"/>
+<g fill="#1b2725"><circle cx="404" cy="405" r="13"/><path d="m395 422-4 31 29 14 8-27-15-17Z"/><path d="m416 455 33 25-4 8-35-18Z"/><circle cx="723" cy="403" r="13"/><path d="m711 422-7 30 27 12 11-29-11-13Z"/><path d="m709 450-22 36 9 5 27-34Z"/></g>
+<path d="m876 654 45-23 70 35-45 23Z" fill="#f3f0e8" stroke="#bdc8b2"/><path d="m893 655 29-14 28 14-29 15Z" fill="#cf714d"/>
+</g></svg>

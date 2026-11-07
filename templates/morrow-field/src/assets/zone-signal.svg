@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc"><title id="title">신호의 풍경</title><desc id="desc">신호 막대가 빛나는 입체 모놀리스와 인터랙티브 테이블을 표현한 독립적인 전시 일러스트.</desc><defs>
+ <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f3f0e8"/><stop offset="1" stop-color="#dcded3"/></linearGradient>
+ <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#354d43"/><stop offset="1" stop-color="#1b2725"/></linearGradient>
+ <linearGradient id="lime" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edfaac"/><stop offset="1" stop-color="#b3d336"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d6e7ed"/><stop offset="1" stop-color="#88aab9"/></linearGradient>
+ <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e6a183"/><stop offset="1" stop-color="#b85d3d"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#d8ef68" stop-opacity=".55"/><stop offset="1" stop-color="#d8ef68" stop-opacity="0"/></radialGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" seed="8"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".06"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+</defs><g filter="url(#grain)"><rect width="1200" height="900" fill="url(#wall)"/><path d="M0 600 600 300 1200 600V900H0Z" fill="#e8e8dc"/><path d="M0 600 600 300 1200 600" fill="none" stroke="#c9cec2" stroke-width="2"/><path d="M600 300V70M0 752 600 452 1200 752M0 900 600 600 1200 900M300 450 1200 900M900 450 0 900" fill="none" stroke="#cbd0c5" stroke-width="1.5" opacity=".5"/>
+<ellipse cx="600" cy="705" rx="360" ry="65" fill="#1b2725" opacity=".16" filter="url(#shadow)"/>
+<path d="M199 622 581 430 998 640 616 830Z" fill="#d8ddcf"/><path d="M199 622v17l417 211v-20Z" fill="#c0c8b8"/><path d="m616 830 382-190v17L616 850Z" fill="#aebaa7"/>
+<path d="M379 659V207l224-112 189 95v453L568 755Z" fill="url(#dark)"/>
+<path d="M603 95v454l189 94V190Z" fill="#111f1c"/><path d="m379 207 189 94 224-111-189-95Z" fill="#50645b"/>
+<path d="M411 247 550 317v369l-139-70Z" fill="#0c1e1b"/>
+<path d="m627 155 137 69v337l-137-69Z" fill="#18332c"/>
+<g fill="#d8ef68"><path d="m430 300 18 9v80l-18-9Z"/><path d="m459 333 18 9v152l-18-9Z"/><path d="m488 389 18 9v211l-18-9Z"/><path d="m517 373 18 9v134l-18-9Z"/></g>
+<g fill="#b3cbd8"><path d="m647 242 14 7v35l-14-7Z"/><path d="m672 226 14 7v77l-14-7Z"/><path d="m697 274 14 7v127l-14-7Z"/><path d="m722 309 14 7v59l-14-7Z"/></g>
+<g stroke="#d8ef68" stroke-width="2" opacity=".65" fill="none"><path d="m431 553 104 52M431 567l104 52M431 581l72 36"/><path d="m647 457 89 44M647 470l56 28"/></g>
+<path d="m230 622 92-46 75 38-92 46Z" fill="url(#blue)"/><path d="M230 622v42l75 38v-42Z" fill="#8eafbc"/><path d="m305 660 92-46v42l-92 46Z" fill="#789da9"/>
+<path d="m243 613 65-32 57 28-65 33Z" fill="#d8ef68"/><path d="m260 613 47-23 27 13-47 24Z" fill="#1b2725"/>
+<g fill="#cf714d"><ellipse cx="858" cy="704" rx="59" ry="28"/><path d="M799 704v37c0 38 118 38 118 0v-37Z"/><ellipse cx="858" cy="703" rx="59" ry="28" fill="#e49c7f"/></g>
+<g fill="#1b2725"><circle cx="951" cy="521" r="13"/><path d="m940 541-6 66 26 5 3-61Z"/><path d="m938 602-10 58h8l13-49 4 51h8l3-53Z"/></g>
+<g stroke="#8ba494" fill="none" opacity=".7"><path d="M808 297q136 58 136 175M820 268q163 65 166 211M831 242q189 75 194 244"/></g>
+</g></svg>

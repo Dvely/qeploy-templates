@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc"><title id="title">감각의 흐름</title><desc id="desc">빛에 반응하는 연두색 리본 조각과 낮은 조명 기둥을 배치한 독립적인 공간 일러스트.</desc><defs>
+ <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f3f0e8"/><stop offset="1" stop-color="#dcded3"/></linearGradient>
+ <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#354d43"/><stop offset="1" stop-color="#1b2725"/></linearGradient>
+ <linearGradient id="lime" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edfaac"/><stop offset="1" stop-color="#b3d336"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d6e7ed"/><stop offset="1" stop-color="#88aab9"/></linearGradient>
+ <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e6a183"/><stop offset="1" stop-color="#b85d3d"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#d8ef68" stop-opacity=".55"/><stop offset="1" stop-color="#d8ef68" stop-opacity="0"/></radialGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" seed="8"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".06"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+</defs><g filter="url(#grain)"><rect width="1200" height="900" fill="url(#wall)"/><path d="M0 600 600 300 1200 600V900H0Z" fill="#e8e8dc"/><path d="M0 600 600 300 1200 600" fill="none" stroke="#c9cec2" stroke-width="2"/><path d="M600 300V70M0 752 600 452 1200 752M0 900 600 600 1200 900M300 450 1200 900M900 450 0 900" fill="none" stroke="#cbd0c5" stroke-width="1.5" opacity=".5"/>
+<ellipse cx="603" cy="694" rx="353" ry="62" fill="#1b2725" opacity=".13" filter="url(#shadow)"/>
+<path d="M184 608 602 400 1035 614 610 827Z" fill="#c7cebc"/><path d="M184 608v18l426 216v-15z" fill="#aeb8a5"/><path d="m610 827 425-213v18L610 842Z" fill="#98a38f"/>
+<ellipse cx="590" cy="608" rx="350" ry="190" fill="url(#glow)"/>
+<g fill="url(#dark)"><path d="m289 591 40-20 34 18v120l-35 19-39-19Z"/><path d="m819 550 41-20 35 18v127l-35 18-41-18Z"/></g>
+<g stroke="#b7beb2" stroke-width="2"><path d="M345 143v215M849 121v226M583 91v220"/></g>
+<path d="M287 415C312 242 481 196 608 273s213 127 293-6" fill="none" stroke="#839641" stroke-width="83"/>
+<path d="M287 394C312 221 481 175 608 252s213 127 293-6" fill="none" stroke="url(#lime)" stroke-width="76"/>
+<path d="M288 367C331 220 463 208 594 276s237 107 301-13" fill="none" stroke="#f2facd" stroke-width="4" opacity=".8"/>
+<path d="M287 415c-37 185 154 222 302 150s239-18 277 103" fill="none" stroke="#78953b" stroke-width="83"/>
+<path d="M287 394c-37 185 154 222 302 150s239-18 277 103" fill="none" stroke="url(#lime)" stroke-width="76"/>
+<path d="M290 384c-28 154 125 217 285 151s237-9 279 108" fill="none" stroke="#edf9b6" stroke-width="4"/>
+<g fill="url(#blue)"><path d="m393 613 27-14 26 13v94l-26 14-27-14Z"/><path d="m706 642 27-14 26 13v94l-26 14-27-14Z"/></g>
+<g fill="#f8ffe4"><ellipse cx="420" cy="601" rx="26" ry="13"/><ellipse cx="733" cy="629" rx="26" ry="13"/></g>
+<g fill="#1b2725"><circle cx="1005" cy="492" r="13"/><path d="m994 510-5 70 22 9 9-65Z"/><path d="m994 576-15 52 7 3 23-49 7 50h8l-2-49Z"/></g>
+<path d="m203 726 34-17 87 43-34 17Z" fill="#f3f0e8" stroke="#bbc4b2"/><circle cx="250" cy="734" r="5" fill="#cf714d"/>
+</g></svg>

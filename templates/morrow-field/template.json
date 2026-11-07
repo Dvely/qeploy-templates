@@ -1,0 +1,15 @@
+{
+  "id": "morrow-field",
+  "name": "모로우 필드",
+  "description": "내일의 감각을 탐험하는 디자인 랩 · 공간 탐색부터 프로그램 선택과 방문 예약까지 이어지는 반응형 템플릿",
+  "tags": ["전시", "체험", "디자인", "문화공간", "예약", "반응형"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    {"key": "brand", "where": "content.mjs", "desc": "가상 브랜드와 공간·프로그램·저널 콘텐츠"},
+    {"key": "design", "where": "site.css", "desc": "독립 레이아웃과 모션·반응형 디자인"},
+    {"key": "behavior", "where": "site.js", "desc": "모바일 메뉴·탐색·단계별 로컬 예약 시연"},
+    {"key": "generation", "where": "build.mjs", "desc": "19개 정적 페이지 생성기"},
+    {"key": "provenance", "where": "ASSET-PROVENANCE.json", "desc": "자체 작성 벡터·새 생성 이미지의 제작 기록과 해시"}
+  ]
+}

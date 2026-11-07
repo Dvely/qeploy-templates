@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "project": "morrow-field",
+  "status": "reviewed",
+  "reviewDate": "2026-11-07",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "about.html": {
+      "sha256": "c8c66d572e433fc08bdfa1d76ddac8fa8615026deb11de90be63839d470a8fd9",
+      "origin": "reviewed-project-source"
+    },
+    "ASSET-PROVENANCE.json": {
+      "sha256": "53976d22ebac68b12c3596405bb77ee66466185101f92903ba44b51476fdb813",
+      "origin": "reviewed-project-source"
+    },
+    "assets/favicon.svg": {
+      "sha256": "735b45af609e934fb68ab2b87dc1e98b73cb75150970f6d2e2b014bdf8e5428e",
+      "origin": "original-vector"
+    },
+    "assets/morrow-gallery.png": {
+      "sha256": "8e9680ad91127350e7d31f73251669827cab406ef98660decd0323ba39ccc209",
+      "origin": "documented-ai-generation"
+    },
+    "assets/vector-record.json": {
+      "sha256": "6f9aca7cea9755b1ec1916d46fa321822db774ca9fab46d6d2487103b2a146c8",
+      "origin": "reviewed-project-source"
+    },
+    "assets/zone-forum.svg": {
+      "sha256": "9a8ff11d09a48cad752d303a490decf3c17f7fb3fd43c0d37f7c2e3889104324",
+      "origin": "original-vector"
+    },
+    "assets/zone-material.svg": {
+      "sha256": "557c2fe5bc737ee66012e633027434869aec918b5321dc2c8ce72e51ee3b4cde",
+      "origin": "original-vector"
+    },
+    "assets/zone-sense.svg": {
+      "sha256": "c04847e4099556663e3c13c00a7a3042367d37c0b184194f7b3da9fb1ae9d223",
+      "origin": "original-vector"
+    },
+    "assets/zone-signal.svg": {
+      "sha256": "262fee04fa1638969409fb54c4ed0da5770f6a7fba0ed71caac943b6c2d2b43c",
+      "origin": "original-vector"
+    },
+    "build.mjs": {
+      "sha256": "8e3584d8fff795217428c396ba901dc76f891d4fb28496805a77e495b20480b4",
+      "origin": "reviewed-project-source"
+    },
+    "content.mjs": {
+      "sha256": "42cbb82eb080174fbe2110035137b6d248b0c763db25598a8b07b2552ba62376",
+      "origin": "reviewed-project-source"
+    },
+    "guide.html": {
+      "sha256": "af25452070e096bdd6babbb793f26d9467f64fd55d75b1a3146d79940c70ce8f",
+      "origin": "reviewed-project-source"
+    },
+    "image-prompts.json": {
+      "sha256": "a7e4a3392eafa77559befcede9ad07bfe4a3dfeb28f4119dbc4091490b20ce2d",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "de1fb458cfd0e4e8f8b00129eb66fc8b972aff7843c29039c10024f31b155846",
+      "origin": "reviewed-project-source"
+    },
+    "journal.html": {
+      "sha256": "c4003ecfb5a672da5972cf6df4d6ce0b241df42e1e0b5436792627dd4198d718",
+      "origin": "reviewed-project-source"
+    },
+    "LICENSE.txt": {
+      "sha256": "a04124756426d12bfc4331650566bafb4d8b7ee30e0bff3a0fa83888ac245ebd",
+      "origin": "reviewed-project-source"
+    },
+    "my-visit.html": {
+      "sha256": "e87b890c753d5091a0656a7253d9ba92828b303f4c01b8f0afd8813ce200abbc",
+      "origin": "reviewed-project-source"
+    },
+    "policy.html": {
+      "sha256": "e647e1134728e07f2dc8075fa8bdb4c1f09d2878f5f31203cdda427fe7017b07",
+      "origin": "reviewed-project-source"
+    },
+    "program-dialogue.html": {
+      "sha256": "cd0ae21d3e6d80f13fc60cc0ace966ef38cbb3833847731908b9fe23ed1042df",
+      "origin": "reviewed-project-source"
+    },
+    "program-maker.html": {
+      "sha256": "8018ce6f88a08e8015b4a6581d71adce5ab01f632d752aad33c5ce2605b07a13",
+      "origin": "reviewed-project-source"
+    },
+    "program-walk.html": {
+      "sha256": "4cc877d5988fb045ed2e03d833df318039c418e87a6d1974fb68477c37dbe1e8",
+      "origin": "reviewed-project-source"
+    },
+    "programs.html": {
+      "sha256": "7ca4b9545cca27365621b1fda784cb4d49609ee4a6f25f9cbb022e068d892512",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "0200f9c84d5cbe64fe2d05bd874dc9a1915d3af293bbd4ca9b6c6ef4f67444bb",
+      "origin": "reviewed-project-source"
+    },
+    "reserve.html": {
+      "sha256": "e33dd3864b684ee8fc5a422d8af696e63930f8837935ef641578dda8671dd774",
+      "origin": "reviewed-project-source"
+    },
+    "site.css": {
+      "sha256": "f2cd593790184ea3d79b7286882f196e7fa301fb735ca899a1c318676a61bd14",
+      "origin": "reviewed-project-source"
+    },
+    "site.js": {
+      "sha256": "69c24a83b4a5caa4a23da9ad10a9375bc4565f3db595a43ea73bc9157d2187b4",
+      "origin": "reviewed-project-source"
+    },
+    "space-forum.html": {
+      "sha256": "e423dbf660d54f75f8fc6271bfd7b0c84231d11eed45a458665b1b7369f1c447",
+      "origin": "reviewed-project-source"
+    },
+    "space-material.html": {
+      "sha256": "1f0c3dbd250abf9e5b1f9e4494e3de475ba1cc83c787d7e32e5fff7ac6e0a24e",
+      "origin": "reviewed-project-source"
+    },
+    "space-sense.html": {
+      "sha256": "1207404af22b3788578c1534e0bee24f311b498e975613dd49532d9f0931f187",
+      "origin": "reviewed-project-source"
+    },
+    "space-signal.html": {
+      "sha256": "c05e1f50e685aa9684b5685da9dd521377214816cda023e8f30f6dd39d21313b",
+      "origin": "reviewed-project-source"
+    },
+    "spaces.html": {
+      "sha256": "3bbcef226eeb1a37f4ccbdb3ce28f4efe816db168257173d8808b08d0038cf04",
+      "origin": "reviewed-project-source"
+    },
+    "story-questions.html": {
+      "sha256": "055ea313ad33513ebf0c11f6f161bd757de53dce50859fa43aa2502a333716f4",
+      "origin": "reviewed-project-source"
+    },
+    "story-slow.html": {
+      "sha256": "4ccdf7bbc10b295dea815f6185001416cfbc2e1a145ba51abb685d538fd84c92",
+      "origin": "reviewed-project-source"
+    },
+    "story-touch.html": {
+      "sha256": "9d1c5211702764fa5cd387e0ecb719b635cbfb92129da87c81b7e8fe5f615e2c",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "3799502654fc94d41006498bfb1132450558b8731ded089726debec1475b0b7e",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

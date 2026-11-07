@@ -1,0 +1,49 @@
+{
+  "project": "morrow-field",
+  "reviewed": "2026-11-07",
+  "scope": "Newly authored code/vector/copy and text-only generated concept image. Not a legal clearance or trademark certification.",
+  "assets": [
+    {
+      "file": "assets/favicon.svg",
+      "sha256": "735b45af609e934fb68ab2b87dc1e98b73cb75150970f6d2e2b014bdf8e5428e",
+      "origin": "original-vector",
+      "record": "THIRD_PARTY_NOTICES.md",
+      "created": "2026-11-07"
+    },
+    {
+      "file": "assets/morrow-gallery.png",
+      "sha256": "8e9680ad91127350e7d31f73251669827cab406ef98660decd0323ba39ccc209",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "created": "2026-11-07"
+    },
+    {
+      "file": "assets/zone-forum.svg",
+      "sha256": "9a8ff11d09a48cad752d303a490decf3c17f7fb3fd43c0d37f7c2e3889104324",
+      "origin": "original-vector",
+      "record": "assets/vector-record.json",
+      "created": "2026-11-07"
+    },
+    {
+      "file": "assets/zone-material.svg",
+      "sha256": "557c2fe5bc737ee66012e633027434869aec918b5321dc2c8ce72e51ee3b4cde",
+      "origin": "original-vector",
+      "record": "assets/vector-record.json",
+      "created": "2026-11-07"
+    },
+    {
+      "file": "assets/zone-sense.svg",
+      "sha256": "c04847e4099556663e3c13c00a7a3042367d37c0b184194f7b3da9fb1ae9d223",
+      "origin": "original-vector",
+      "record": "assets/vector-record.json",
+      "created": "2026-11-07"
+    },
+    {
+      "file": "assets/zone-signal.svg",
+      "sha256": "262fee04fa1638969409fb54c4ed0da5770f6a7fba0ed71caac943b6c2d2b43c",
+      "origin": "original-vector",
+      "record": "assets/vector-record.json",
+      "created": "2026-11-07"
+    }
+  ]
+}

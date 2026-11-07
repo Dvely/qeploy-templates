@@ -1,0 +1,40 @@
+{
+  "created": "2026-11-07",
+  "brand": "MORROW FIELD / 모로우 필드",
+  "origin": "Original vector artwork authored specifically for this fictional project in SVG code. No external source artwork, photographs, brand assets, stock resources, fonts, or dependencies were used.",
+  "license": "Project-original vector artwork; may be used with this template. No claim of exclusive rights over generic geometry or concepts.",
+  "assets": [
+    {
+      "file": "zone-sense.svg",
+      "width": 1200,
+      "height": 900,
+      "concept": "Responsive light and continuous ribbon sculpture",
+      "creator": "Codex",
+      "creation_method": "New SVG geometry, paths, gradients, and optional procedural noise; no embedded raster content."
+    },
+    {
+      "file": "zone-signal.svg",
+      "width": 1200,
+      "height": 900,
+      "concept": "Interactive digital signal monolith and control table",
+      "creator": "Codex",
+      "creation_method": "New SVG geometry, paths, gradients, and optional procedural noise; no embedded raster content."
+    },
+    {
+      "file": "zone-material.svg",
+      "width": 1200,
+      "height": 900,
+      "concept": "Tactile modular material study pods",
+      "creator": "Codex",
+      "creation_method": "New SVG geometry, paths, gradients, and optional procedural noise; no embedded raster content."
+    },
+    {
+      "file": "zone-forum.svg",
+      "width": 1200,
+      "height": 900,
+      "concept": "Circular conversation seating with suspended ring light",
+      "creator": "Codex",
+      "creation_method": "New SVG geometry, paths, gradients, and optional procedural noise; no embedded raster content."
+    }
+  ]
+}
