@@ -18,6 +18,7 @@ import { buildAtelierCuisine } from './atelier-cuisine-pages.mjs';
 import { buildFlexspacePages } from './flexspace-pages.mjs';
 import { buildOriginalSites } from './remediation/build-original-sites.mjs';
 import { verifyTemplateDirectory } from './remediation/verify-distribution.mjs';
+import { buildMorrowField } from '../templates/morrow-field/src/build.mjs';
 
 const run = promisify(execFile);
 const ROOT = path.resolve(import.meta.dirname, '..');
@@ -29,6 +30,7 @@ const REQUIRED = ['id', 'name', 'description', 'stack', 'contentHints'];
 const distributionPolicy = JSON.parse(await readFile(path.join(ROOT, 'distribution-policy.json'), 'utf8'));
 
 await buildOriginalSites(ROOT);
+await buildMorrowField();
 await buildHarutgyeolPages();
 await buildPagesDetails();
 await buildAtelierCuisine();

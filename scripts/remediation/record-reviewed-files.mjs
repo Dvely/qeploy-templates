@@ -17,6 +17,6 @@ for(const id of requested){
   const asset=assets.get(file);
   files[file]={sha256:hash(await readFile(path.join(directory,file))),origin:asset?.origin||'reviewed-project-source'};
  }
- await writeFile(path.join(directory,REVIEW_FILE),JSON.stringify({schemaVersion:1,project:id,status:'reviewed',reviewDate:'2026-11-06',scope:'현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.',files},null,2)+'\n');
+ await writeFile(path.join(directory,REVIEW_FILE),JSON.stringify({schemaVersion:1,project:id,status:'reviewed',reviewDate:new Date().toISOString().slice(0,10),scope:'현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.',files},null,2)+'\n');
  console.log(`${id}: ${Object.keys(files).length}개 파일 검토 기록`);
 }
