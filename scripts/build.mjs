@@ -19,6 +19,7 @@ import { buildFlexspacePages } from './flexspace-pages.mjs';
 import { buildOriginalSites } from './remediation/build-original-sites.mjs';
 import { verifyTemplateDirectory } from './remediation/verify-distribution.mjs';
 import { buildMorrowField } from '../templates/morrow-field/src/build.mjs';
+import { buildOngilSafe } from '../templates/ongil-safe/src/build.mjs';
 
 const run = promisify(execFile);
 const ROOT = path.resolve(import.meta.dirname, '..');
@@ -31,6 +32,7 @@ const distributionPolicy = JSON.parse(await readFile(path.join(ROOT, 'distributi
 
 await buildOriginalSites(ROOT);
 await buildMorrowField();
+await buildOngilSafe();
 await buildHarutgyeolPages();
 await buildPagesDetails();
 await buildAtelierCuisine();
