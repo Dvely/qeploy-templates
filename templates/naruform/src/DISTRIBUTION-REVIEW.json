@@ -46,7 +46,7 @@
       "origin": "original-vector"
     },
     "build.mjs": {
-      "sha256": "c4ac371221027179eeae9d1fd191d964fed9dd1f6b695efcdf88ea56e1e73b3f",
+      "sha256": "944abd97da54b20c5adb47357fac7f2d9857e5267c9245a8758f05c4531ee127",
       "origin": "reviewed-project-source"
     },
     "careers.html": {
@@ -106,7 +106,7 @@
       "origin": "reviewed-project-source"
     },
     "site.css": {
-      "sha256": "2e8a6a035273782c17009e706d40951244946adc3c3b870e5eb54b9a562ac53e",
+      "sha256": "12f9f9145f03312e80cd5ae05d11d6cb1e2d9a6b1efdf3e6ac1482bc986b5f31",
       "origin": "reviewed-project-source"
     },
     "site.js": {
@@ -118,27 +118,27 @@
       "origin": "reviewed-project-source"
     },
     "work-atrium.html": {
-      "sha256": "eb1d6fbfb387a8048da24952f75c291d255a797bda7aa402761c2482d77054ab",
+      "sha256": "d45891f0f34b545f3a23e852a721456111d8d939673b76bfdfdd4a59b58b89c5",
       "origin": "reviewed-project-source"
     },
     "work-current.html": {
-      "sha256": "286d65374f58d4de368b6469d281571f01d79b887819c73af203d3ac77330238",
+      "sha256": "4617a3a80b49dcddbd17aed03368e6b9ea1727f26d6cf1a36a664109a0d6b9ac",
       "origin": "reviewed-project-source"
     },
     "work-field.html": {
-      "sha256": "b21c3f5e926172b157891ad9f2af008e124bcfc3244b09f5a3e7b6c7e837e41d",
+      "sha256": "1dab1e7c1a3fcfc6f08eaef254c158e1de9b6cb22ce74700943e80a7e9f3d7fb",
       "origin": "reviewed-project-source"
     },
     "work-grain.html": {
-      "sha256": "83627bc93206f469356f62ba17783e5084dc56d7a2d6e632c87b6dd387718a4c",
+      "sha256": "f7843938d34ae0667e98e9c304ac4ed71507bfc62adf331072e9cd9723e76ff2",
       "origin": "reviewed-project-source"
     },
     "work-index.html": {
-      "sha256": "16723618b853829c99aa6aa4a1d44509a7e4b1ce46e5adaa18ff11e34d13b858",
+      "sha256": "bf74adbbad5c810625999b9a05ef941cf129553c36db1390795a904d8bc29436",
       "origin": "reviewed-project-source"
     },
     "work-pulse.html": {
-      "sha256": "0a5eef01f8830689f491ec1888708a93f465754ddd38fc1a21d04cd7f649062f",
+      "sha256": "4355ae8e8bee139577063b5072b631a4e2b15f6bb59ea23ec8072b48d08846dc",
       "origin": "reviewed-project-source"
     },
     "works.html": {
