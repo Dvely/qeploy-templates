@@ -1,0 +1,84 @@
+{
+  "project": "ongil-safe",
+  "reviewed": "2026-11-08",
+  "scope": "Newly authored code/vector/copy and text-only generated architectural concept. No legal clearance or trademark certification.",
+  "assets": [
+    {
+      "file": "assets/favicon.svg",
+      "sha256": "1034d737a716d6038f178512cb9e51d9737190f294c094707beb8fef9293bc5f",
+      "origin": "original-vector",
+      "record": "THIRD_PARTY_NOTICES.md",
+      "created": "2026-11-08"
+    },
+    {
+      "file": "assets/ongil-neighborhood.png",
+      "sha256": "f391c0fbab00db0732a886640c39d23d13b47c929d31036b0d4f8f5127b9542e",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "created": "2026-11-08"
+    },
+    {
+      "file": "assets/product-bell.svg",
+      "sha256": "2ce315afab820c94604ce99905ab7ec5163816bdc602b731ff5c99783224382c",
+      "origin": "original-vector",
+      "record": "build.mjs",
+      "created": "2026-11-08"
+    },
+    {
+      "file": "assets/product-board.svg",
+      "sha256": "3746f2639c14f2ed06ecef2c4d814ad0e230173e234a9ff25398d438ab4b14e4",
+      "origin": "original-vector",
+      "record": "build.mjs",
+      "created": "2026-11-08"
+    },
+    {
+      "file": "assets/product-light.svg",
+      "sha256": "66c9874bf9a42ed99699dffaec63d6837de674f40a702a27336553d7deabbbd1",
+      "origin": "original-vector",
+      "record": "build.mjs",
+      "created": "2026-11-08"
+    },
+    {
+      "file": "assets/product-node.svg",
+      "sha256": "04857c6711012efaedafcb98c1f6944a75c3b5a116054cdd6fa5937c7f7b4ff5",
+      "origin": "original-vector",
+      "record": "build.mjs",
+      "created": "2026-11-08"
+    },
+    {
+      "file": "assets/product-path.svg",
+      "sha256": "415d2658c2a21b7818240bc86c5173f3394dd9b08e6cc9d6e746d53dcd800e76",
+      "origin": "original-vector",
+      "record": "build.mjs",
+      "created": "2026-11-08"
+    },
+    {
+      "file": "assets/product-reserve.svg",
+      "sha256": "231ad925190b55a7647083fff84601ed9947d4f31ebcd210514cf4d98b5e3e9a",
+      "origin": "original-vector",
+      "record": "build.mjs",
+      "created": "2026-11-08"
+    },
+    {
+      "file": "assets/service-care.svg",
+      "sha256": "c0ed601d9c9866c4730884b25f26deb455fbe97ce13416c82f65e54f3e3dfde3",
+      "origin": "original-vector",
+      "record": "assets/vector-record.json",
+      "created": "2026-11-08"
+    },
+    {
+      "file": "assets/service-connect.svg",
+      "sha256": "67ef9badd8cf1fa4000e6f025037faaa4b513483dc374c5cd865304e5b2c8913",
+      "origin": "original-vector",
+      "record": "assets/vector-record.json",
+      "created": "2026-11-08"
+    },
+    {
+      "file": "assets/service-plan.svg",
+      "sha256": "a8083c8454ed40b3ac6e0c4748efbaf5475a6786b6c8d326a7de3f1cdce8bf66",
+      "origin": "original-vector",
+      "record": "assets/vector-record.json",
+      "created": "2026-11-08"
+    }
+  ]
+}

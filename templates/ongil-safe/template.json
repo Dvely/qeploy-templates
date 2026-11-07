@@ -1,0 +1,15 @@
+{
+  "id": "ongil-safe",
+  "name": "온길 세이프",
+  "description": "평범한 하루를 든든하게 · 공간 그래픽과 제품 탐색, 사례, 단계별 문의 초안을 연결한 안전 서비스 기업 템플릿",
+  "tags": ["기업소개", "안전", "설비", "일러스트", "문의", "반응형"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    {"key":"content","where":"content.mjs","desc":"가상 브랜드·사업·제품·예시 사례·소식"},
+    {"key":"design","where":"site.css","desc":"독립 화면 구성·모션·반응형 스타일"},
+    {"key":"behavior","where":"site.js","desc":"공간 포인트·필터·관심 제품·문의 초안 시연"},
+    {"key":"generation","where":"build.mjs","desc":"25개 정적 페이지 생성기"},
+    {"key":"provenance","where":"ASSET-PROVENANCE.json","desc":"새 생성 이미지와 직접 작성한 벡터의 제작 기록"}
+  ]
+}

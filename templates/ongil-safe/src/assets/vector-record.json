@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "project": "ongil-safe",
+  "created": "2026-11-08",
+  "creator": "Codex",
+  "method": "Original SVG paths and geometric compositions authored directly in code",
+  "externalSources": [],
+  "referencePolicy": "No downloaded graphics, copied reference paths, brand marks, real people or third-party architecture. General service concepts only.",
+  "palette": [
+    "#173F50",
+    "#CBE7E8",
+    "#FF936E",
+    "#FBF8F1",
+    "#FFE5AC"
+  ],
+  "assets": [
+    {
+      "file": "service-plan.svg",
+      "sha256": "a8083c8454ed40b3ac6e0c4748efbaf5475a6786b6c8d326a7de3f1cdce8bf66",
+      "dimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "format": "image/svg+xml",
+      "rightsBasis": "New independently authored vector artwork; no third-party artwork embedded"
+    },
+    {
+      "file": "service-care.svg",
+      "sha256": "c0ed601d9c9866c4730884b25f26deb455fbe97ce13416c82f65e54f3e3dfde3",
+      "dimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "format": "image/svg+xml",
+      "rightsBasis": "New independently authored vector artwork; no third-party artwork embedded"
+    },
+    {
+      "file": "service-connect.svg",
+      "sha256": "67ef9badd8cf1fa4000e6f025037faaa4b513483dc374c5cd865304e5b2c8913",
+      "dimensions": {
+        "width": 1200,
+        "height": 900
+      },
+      "format": "image/svg+xml",
+      "rightsBasis": "New independently authored vector artwork; no third-party artwork embedded"
+    }
+  ]
+}

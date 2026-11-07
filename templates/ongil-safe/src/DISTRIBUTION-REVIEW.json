@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "project": "ongil-safe",
+  "status": "reviewed",
+  "reviewDate": "2026-11-08",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "about.html": {
+      "sha256": "626c34c0ff3f898ba6d7d6819e31fa16807b3b16dad63c7abd4f15145fc06db4",
+      "origin": "reviewed-project-source"
+    },
+    "ASSET-PROVENANCE.json": {
+      "sha256": "60ae1744b39c13be42c77f4edb2e882bea36e0feb913c138a3dd041f2f5d315a",
+      "origin": "reviewed-project-source"
+    },
+    "assets/favicon.svg": {
+      "sha256": "1034d737a716d6038f178512cb9e51d9737190f294c094707beb8fef9293bc5f",
+      "origin": "original-vector"
+    },
+    "assets/ongil-neighborhood.png": {
+      "sha256": "f391c0fbab00db0732a886640c39d23d13b47c929d31036b0d4f8f5127b9542e",
+      "origin": "documented-ai-generation"
+    },
+    "assets/product-bell.svg": {
+      "sha256": "2ce315afab820c94604ce99905ab7ec5163816bdc602b731ff5c99783224382c",
+      "origin": "original-vector"
+    },
+    "assets/product-board.svg": {
+      "sha256": "3746f2639c14f2ed06ecef2c4d814ad0e230173e234a9ff25398d438ab4b14e4",
+      "origin": "original-vector"
+    },
+    "assets/product-light.svg": {
+      "sha256": "66c9874bf9a42ed99699dffaec63d6837de674f40a702a27336553d7deabbbd1",
+      "origin": "original-vector"
+    },
+    "assets/product-node.svg": {
+      "sha256": "04857c6711012efaedafcb98c1f6944a75c3b5a116054cdd6fa5937c7f7b4ff5",
+      "origin": "original-vector"
+    },
+    "assets/product-path.svg": {
+      "sha256": "415d2658c2a21b7818240bc86c5173f3394dd9b08e6cc9d6e746d53dcd800e76",
+      "origin": "original-vector"
+    },
+    "assets/product-reserve.svg": {
+      "sha256": "231ad925190b55a7647083fff84601ed9947d4f31ebcd210514cf4d98b5e3e9a",
+      "origin": "original-vector"
+    },
+    "assets/service-care.svg": {
+      "sha256": "c0ed601d9c9866c4730884b25f26deb455fbe97ce13416c82f65e54f3e3dfde3",
+      "origin": "original-vector"
+    },
+    "assets/service-connect.svg": {
+      "sha256": "67ef9badd8cf1fa4000e6f025037faaa4b513483dc374c5cd865304e5b2c8913",
+      "origin": "original-vector"
+    },
+    "assets/service-plan.svg": {
+      "sha256": "a8083c8454ed40b3ac6e0c4748efbaf5475a6786b6c8d326a7de3f1cdce8bf66",
+      "origin": "original-vector"
+    },
+    "assets/vector-record.json": {
+      "sha256": "d8ca1a7ba1118399d9055cceb87eb6e95cbccb898543238619cb985281dd9844",
+      "origin": "reviewed-project-source"
+    },
+    "build.mjs": {
+      "sha256": "73a4c38633b6316fdda578615e42b028515cca094907e6b8df025c9cd75c9f45",
+      "origin": "reviewed-project-source"
+    },
+    "careers.html": {
+      "sha256": "7be7de3414109db1ece46b206e7b3c281f5248c5b848c54f60f36677f5fdbdfd",
+      "origin": "reviewed-project-source"
+    },
+    "case-learning.html": {
+      "sha256": "eb5fc38a43b31e9deb9619dafa269f9eee9377dd32240547128a49b6731fc233",
+      "origin": "reviewed-project-source"
+    },
+    "case-lounge.html": {
+      "sha256": "78609769bd2671c04d731ca57ac13498b7380952898e4f9a39b6716697a296e1",
+      "origin": "reviewed-project-source"
+    },
+    "case-office.html": {
+      "sha256": "b03b933f72b46429ab455555dfe17f23e94b882e96b4356b9076078bc1ffc482",
+      "origin": "reviewed-project-source"
+    },
+    "case-workshop.html": {
+      "sha256": "921e79430de53ba25be20800fe609a9f2510c74462ff6db2821febead5b6d878",
+      "origin": "reviewed-project-source"
+    },
+    "cases.html": {
+      "sha256": "7535b5444a38d29adfdddffb4b6232095d718e411cd5ccccc75b69c55f4e2ad4",
+      "origin": "reviewed-project-source"
+    },
+    "contact.html": {
+      "sha256": "9055c53d4c6348214bca8e61760bf633e901db45254edb9421e7b3b6ed28437f",
+      "origin": "reviewed-project-source"
+    },
+    "content.mjs": {
+      "sha256": "aac7506e7b17c279da6fb13a7d69b9e6928d25500898b015578837bcfcb709ae",
+      "origin": "reviewed-project-source"
+    },
+    "image-prompts.json": {
+      "sha256": "4423409b6f2c0696ee8d88193276dbe98a88f993583d49f0cc18e34e0c29bd4b",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "9711181aab67d9aa6bb3730b6f227de78568320285588fbc06151808c301ef99",
+      "origin": "reviewed-project-source"
+    },
+    "LICENSE.txt": {
+      "sha256": "a04124756426d12bfc4331650566bafb4d8b7ee30e0bff3a0fa83888ac245ebd",
+      "origin": "reviewed-project-source"
+    },
+    "news-note.html": {
+      "sha256": "7faa7cae840ecd3d9fc2fe7b0070ae05e44af27395bf3e88fb10b679b8b953dc",
+      "origin": "reviewed-project-source"
+    },
+    "news-record.html": {
+      "sha256": "ca1189d8747f75dcf9be8379db887d32b59aa69646473cc9843ccdb0dc6f6884",
+      "origin": "reviewed-project-source"
+    },
+    "news-visit.html": {
+      "sha256": "df0a584c2b17cb64aeb396e15d471e4249f979e3180ddfc0bf545e8346b92d5f",
+      "origin": "reviewed-project-source"
+    },
+    "news.html": {
+      "sha256": "c42d133857a23884159e57a9430e15a829e85d331ea906af8c86b8447e29249d",
+      "origin": "reviewed-project-source"
+    },
+    "policy.html": {
+      "sha256": "0350f2dc866cfcf2a3cedec79826072624ee275cfd99a83ff9bcb4fb6811a1f1",
+      "origin": "reviewed-project-source"
+    },
+    "product-bell.html": {
+      "sha256": "94327d2616a8a1a84b565b4dbd30f9684feb788962f000794410cd4f0083c8d8",
+      "origin": "reviewed-project-source"
+    },
+    "product-board.html": {
+      "sha256": "d160801a53c015c9a64da4dffca3e8448b6911a1757285be228633771034b3d4",
+      "origin": "reviewed-project-source"
+    },
+    "product-light.html": {
+      "sha256": "0086e01176f2c836fd7c172d7f1d6837020b36312b410f1274f918c4c2972963",
+      "origin": "reviewed-project-source"
+    },
+    "product-node.html": {
+      "sha256": "a03de64c5686ee70bf6fa19984edbd0a5ee0bd9c68a9fa1b4485180779d5d91b",
+      "origin": "reviewed-project-source"
+    },
+    "product-path.html": {
+      "sha256": "a1660debb4d0c1c23f0f1f3516c0ca47bf8fea2aae158d345125aef77e934a12",
+      "origin": "reviewed-project-source"
+    },
+    "product-reserve.html": {
+      "sha256": "6c725a113ca8686bdb878b6f676c47ba2eb6f5cb631a837319049a78f704f39f",
+      "origin": "reviewed-project-source"
+    },
+    "products.html": {
+      "sha256": "49a4f6867d6ce7c1b3a34c33297cab1c786c691c88ba1bb670f89a0be2ff2bc3",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "f357ac87889aeeb30d624b0bbf040ecf4636e17e7b218dca61cd2397275eaaab",
+      "origin": "reviewed-project-source"
+    },
+    "service-care.html": {
+      "sha256": "7660958097590d0ff3f3e7c5d788429ff0529221862ea4f6b8ac2fbf8c5ff798",
+      "origin": "reviewed-project-source"
+    },
+    "service-connect.html": {
+      "sha256": "8ff1aed52e0c97755bb14d1773626f8ee81bed2cb341550b471e83c1f7c4ecfd",
+      "origin": "reviewed-project-source"
+    },
+    "service-plan.html": {
+      "sha256": "b16f46ceebfe73b275dc3bca3ac0d6d94dc15153bf951b075068bef2465262d5",
+      "origin": "reviewed-project-source"
+    },
+    "services.html": {
+      "sha256": "f7ab2be48de125134c90f783c05f2085d3c2c02b19417cecdd68bd800714524a",
+      "origin": "reviewed-project-source"
+    },
+    "site.css": {
+      "sha256": "0a2462a207f6bded7f487d21f047ac83ba83bb749884e56bca55f7a12074b89a",
+      "origin": "reviewed-project-source"
+    },
+    "site.js": {
+      "sha256": "ccdf4eb3593f71eb8574fb91a136b8b37cd71b508efdb0e5aed54395ffbe761f",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "2b921a91ab9cfdeab800f6c2cec7abae793564d223c18c537c161d75bd805198",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

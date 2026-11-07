@@ -1,0 +1,13 @@
+{
+  "created": "2026-11-08",
+  "tool": "OpenAI built-in image_gen",
+  "referenceImages": [],
+  "originalSiteMediaProvidedAsInput": false,
+  "assets": [
+    {
+      "file": "assets/ongil-neighborhood.png",
+      "prompt": "Use case: stylized-concept. Asset type: original hero artwork for a fictional safety services company website. Create a refined miniature architectural still life, a 3D clay-and-painted-wood sculpture of one small cutaway community building with a rounded arch entry, a pale teal roof and cream walls. Three separated building volumes form a compact welcoming courtyard around a small apricot circular bench. A slender warm-yellow glowing cylindrical beacon, a coral rounded abstract protective loop, and 2 or 3 tiny simplified trees. A flowing deep blue curved path winds just around the compact plinth, not an entire city. No people. No actual brand or equipment model. Composition: 4:3 landscape, isolated object cluster occupying center on a completely plain warm ivory background, generous negative space around edges, ground plane seamless with backdrop, isometric view from above about 30 degrees. Premium tactile maquette, matte surfaces, soft realistic contact shadows, sophisticated editorial 3D illustration, clean precise detail, daylight studio lighting. Palette deep navy #173F50, pale aqua, light apricot, butter yellow, cream #FBF8F1. Entirely original fictional architectural scene. Do not imitate any existing website, known architecture, village map or existing illustration. No text, no numbers, no labels, no watermark, no emergency medical symbols, no logo.",
+      "note": "New fictional architectural maquette, not an actual facility. No exclusive-copyright or universal non-infringement claim."
+    }
+  ]
+}

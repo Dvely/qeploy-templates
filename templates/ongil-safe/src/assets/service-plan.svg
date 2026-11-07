@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">안전을 설계하는 도구</title>
+  <desc id="desc">크림색 바탕 위에 놓인 입체 도면, 측정 블록과 작은 아치형 출입구를 표현한 온길 세이프의 독창적인 벡터 일러스트입니다.</desc>
+  <defs>
+    <linearGradient id="base" x2="0" y2="1"><stop stop-color="#F0E9DA"/><stop offset="1" stop-color="#E1D7C5"/></linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#EEF4EF"/></linearGradient>
+    <linearGradient id="blue" x2="1" y2="1"><stop stop-color="#DFEEEE"/><stop offset="1" stop-color="#9DC9CE"/></linearGradient>
+    <linearGradient id="orange" x2="1" y2="1"><stop stop-color="#FFB69C"/><stop offset="1" stop-color="#EF805C"/></linearGradient>
+    <linearGradient id="dark" x2="1" y2="1"><stop stop-color="#2B5968"/><stop offset="1" stop-color="#173F50"/></linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="190%"><feDropShadow dx="0" dy="21" stdDeviation="18" flood-color="#173F50" flood-opacity=".12"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="20"/></filter>
+  </defs>
+  <path fill="#FBF8F1" d="M0 0h1200v900H0z"/>
+  <ellipse cx="600" cy="684" rx="388" ry="68" fill="#173F50" opacity=".07" filter="url(#soft)"/>
+  <g filter="url(#shadow)">
+    <path d="m181 533 441-219 402 217v42L584 795 181 575Z" fill="url(#base)"/>
+    <path d="m181 533 441-219 402 217-440 220Z" fill="#F5F0E5"/>
+    <path d="m584 751 440-220v42L584 795Z" fill="#E3D9C7"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="m270 511 315-156 305 164-316 159Z" fill="url(#paper)"/>
+    <path d="m290 513 295-145 279 151-291 146Z" fill="none" stroke="#B4CCCD" stroke-width="2"/>
+    <g fill="none" stroke="#82ADB5" stroke-linejoin="round" stroke-width="4">
+      <path d="m396 511 105-52 143 78-105 54Z"/>
+      <path d="m501 459 80-40 144 78-81 40M463 547l78-40 53 29M541 507l-40-48M644 537l-33 17M679 472l-34 17"/>
+      <path d="m340 524 61 32m24 13 98 53m35 18 38-19m133-67 70-35" stroke-width="2"/>
+      <path d="m438 455 110-54m-5 8 5-8-15 2m-89 55-6-3 6-7" stroke-width="2"/>
+    </g>
+    <path d="m271 511 37 20 314-156-37-20Z" fill="#E2EDE9"/>
+    <path d="M271 511c-25-11-27-40-7-49 12-5 29 0 44 8l314-156c-18-12-40-15-56-8L251 462" fill="#fff"/>
+    <path d="M271 511c-26-12-28-40-7-49 13-5 31 0 44 8-22-3-35 9-32 23 1 8 5 12 12 15Z" fill="#CBE7E8"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="m660 440 47 25 133-67-47-25Z" fill="#C8E3E3"/>
+    <path d="M660 440V277c0-71 83-113 139-82l41 22v181l-47-25V244c-30-18-86 8-86 53v168Z" fill="url(#blue)"/>
+    <path d="M707 465V303c0-71 83-113 139-82l-47-26c-56-31-139 11-139 82v163Z" fill="#D9ECE8"/>
+    <path d="M707 465V303c0-71 83-113 139-82v180l-28-15V256c-33-10-80 17-80 58v135Z" fill="url(#dark)"/>
+    <path d="M738 449V314c0-41 47-68 80-58v130Z" fill="#FBF8F1"/>
+    <path d="m707 465 31-16V314c0-41 47-68 80-58l-25-12c-30-18-86 8-86 53Z" fill="#82B5BE"/>
+    <circle cx="806" cy="359" r="5" fill="#FFE5AC"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="m331 609 70-35 71 37v60l-70 35-71-38Z" fill="url(#orange)"/>
+    <path d="m331 609 70-35 71 37-70 35Z" fill="#FFC2A9"/>
+    <path d="m402 646 70-35v60l-70 35Z" fill="#DE7456"/>
+    <path d="m424 628 21-10m-3 21 12-6m-30 27 21-10" stroke="#FFF4DC" stroke-width="4"/>
+    <path d="m483 688 43-22 43 24v36l-43 21-43-24Z" fill="#173F50"/>
+    <path d="m483 688 43-22 43 24-43 22Z" fill="#3D6876"/>
+  </g>
+  <path d="m927 366 12-29 12 29 28 12-28 12-12 29-12-29-29-12Z" fill="#FF936E"/>
+  <circle cx="268" cy="351" r="13" fill="#FFE5AC"/><circle cx="937" cy="643" r="8" fill="#CBE7E8"/>
+</svg>

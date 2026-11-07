@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">세심하게 점검하는 안전 도구</title>
+  <desc id="desc">크림색 바탕에 청록색 클립보드, 살구색 감지 모듈과 둥근 공구함이 놓여 있는 독창적인 입체 벡터 일러스트입니다.</desc>
+  <defs>
+    <linearGradient id="board" x2="1" y2="1"><stop stop-color="#426E7A"/><stop offset="1" stop-color="#173F50"/></linearGradient>
+    <linearGradient id="orange" x2=".7" y2="1"><stop stop-color="#FFC0A8"/><stop offset="1" stop-color="#FF936E"/></linearGradient>
+    <linearGradient id="mint" x2=".8" y2="1"><stop stop-color="#DFEFEA"/><stop offset="1" stop-color="#9AC6CC"/></linearGradient>
+    <linearGradient id="paper" x2=".5" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#EBF0E5"/></linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="210%" height="210%"><feDropShadow dx="4" dy="24" stdDeviation="19" flood-color="#173F50" flood-opacity=".14"/></filter>
+    <filter id="blur"><feGaussianBlur stdDeviation="20"/></filter>
+  </defs>
+  <path fill="#FBF8F1" d="M0 0h1200v900H0z"/>
+  <ellipse cx="603" cy="728" rx="360" ry="57" fill="#173F50" opacity=".08" filter="url(#blur)"/>
+  <g filter="url(#shadow)" transform="rotate(-12 454 449)">
+    <rect x="272" y="190" width="343" height="490" rx="35" fill="#0D303D"/>
+    <rect x="264" y="180" width="343" height="490" rx="35" fill="url(#board)"/>
+    <rect x="287" y="213" width="297" height="426" rx="17" fill="url(#paper)"/>
+    <path d="M385 187c0-26 19-46 45-46h11c26 0 45 20 45 46h20c12 0 21 10 21 22v34H344v-34c0-12 9-22 21-22Z" fill="#A7CED1"/>
+    <path d="M407 185c0-15 10-25 27-25s28 10 28 25v8h-55Z" fill="#173F50"/>
+    <rect x="356" y="218" width="158" height="11" rx="5" fill="#E7F1E8"/>
+    <g fill="none" stroke="#A5BEC0" stroke-width="3"><rect x="317" y="297" width="34" height="34" rx="9"/><rect x="317" y="389" width="34" height="34" rx="9"/><rect x="317" y="481" width="34" height="34" rx="9"/></g>
+    <g fill="none" stroke="#3D7E86" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="m325 311 9 9 17-21M325 403l9 9 17-21M325 495l9 9 17-21"/></g>
+    <g fill="#B9CCCC"><rect x="375" y="299" width="160" height="10" rx="5"/><rect x="375" y="320" width="103" height="7" rx="3"/><rect x="375" y="391" width="138" height="10" rx="5"/><rect x="375" y="412" width="158" height="7" rx="3"/><rect x="375" y="483" width="160" height="10" rx="5"/><rect x="375" y="504" width="119" height="7" rx="3"/></g>
+    <rect x="317" y="568" width="217" height="35" rx="12" fill="#FFE5AC"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M661 488v-62c0-36 26-63 61-63h48c36 0 61 27 61 63v62h-30v-57c0-22-13-35-34-35h-42c-21 0-34 13-34 35v57Z" fill="#173F50"/>
+    <path d="M644 471h205c40 0 69 28 69 66v128c0 39-29 68-69 68H644c-39 0-67-29-67-68V537c0-38 28-66 67-66Z" fill="#8FBBC0"/>
+    <rect x="559" y="459" width="341" height="263" rx="65" fill="url(#mint)"/>
+    <path d="M559 547v-23c0-36 29-65 65-65h211c36 0 65 29 65 65v23Z" fill="#D6EBE6"/>
+    <path d="M559 555h341" stroke="#88B7BC" stroke-width="4"/>
+    <rect x="642" y="531" width="33" height="50" rx="11" fill="#173F50"/><rect x="789" y="531" width="33" height="50" rx="11" fill="#173F50"/>
+    <rect x="653" y="541" width="11" height="18" rx="5" fill="#FFE5AC"/><rect x="800" y="541" width="11" height="18" rx="5" fill="#FFE5AC"/>
+    <rect x="683" y="614" width="91" height="46" rx="23" fill="#F3F6E9"/>
+    <path d="m717 628 11 10 15-17" fill="none" stroke="#356776" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M797 251c0-26 21-47 47-47h45c26 0 47 21 47 47v83c0 26-21 47-47 47h-45c-26 0-47-21-47-47Z" fill="#E67F5E"/>
+    <rect x="781" y="195" width="139" height="177" rx="47" fill="url(#orange)"/>
+    <circle cx="850" cy="257" r="29" fill="#FFE9CC"/><circle cx="850" cy="257" r="17" fill="#173F50"/>
+    <circle cx="844" cy="251" r="6" fill="#9ED8D7"/>
+    <rect x="816" y="307" width="69" height="7" rx="3" fill="#B4644D"/><rect x="825" y="323" width="51" height="7" rx="3" fill="#B4644D"/>
+    <path d="M815 164c17-14 53-14 70 0M802 141c28-23 68-23 96 0" stroke="#90B9BE" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+  <circle cx="240" cy="731" r="14" fill="#FF936E"/><path d="m662 199 8-20 9 20 20 9-20 8-9 21-8-21-21-8Z" fill="#FFE5AC"/>
+</svg>

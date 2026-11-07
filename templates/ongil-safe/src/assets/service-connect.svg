@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">이어지는 일상의 안전</title>
+  <desc id="desc">크림색 배경 위에서 부드러운 길과 세 개의 작은 모듈이 연결된 모습을 표현한 독창적인 입체 벡터 일러스트입니다.</desc>
+  <defs>
+    <linearGradient id="navy" x2="1" y2="1"><stop stop-color="#477584"/><stop offset="1" stop-color="#173F50"/></linearGradient>
+    <linearGradient id="mint" x2="1" y2="1"><stop stop-color="#E0EFE9"/><stop offset="1" stop-color="#9BC8CB"/></linearGradient>
+    <linearGradient id="orange" x2="1" y2="1"><stop stop-color="#FFC5AB"/><stop offset="1" stop-color="#FF936E"/></linearGradient>
+    <linearGradient id="path" x2=".5" y2="1"><stop stop-color="#D6E8E4"/><stop offset="1" stop-color="#B4D5D7"/></linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="210%"><feDropShadow dx="1" dy="19" stdDeviation="17" flood-color="#173F50" flood-opacity=".13"/></filter>
+    <filter id="blur"><feGaussianBlur stdDeviation="21"/></filter>
+  </defs>
+  <path fill="#FBF8F1" d="M0 0h1200v900H0z"/>
+  <ellipse cx="601" cy="683" rx="381" ry="65" fill="#173F50" opacity=".06" filter="url(#blur)"/>
+  <path d="M286 594c78 72 163 130 239 102s-3-126 93-160 182 71 251 21 25-114-62-160" fill="none" stroke="#A8CDCF" stroke-width="74" stroke-linecap="round" opacity=".35" transform="translate(0 12)"/>
+  <path d="M286 594c78 72 163 130 239 102s-3-126 93-160 182 71 251 21 25-114-62-160" fill="none" stroke="url(#path)" stroke-width="74" stroke-linecap="round"/>
+  <path d="M286 594c78 72 163 130 239 102s-3-126 93-160 182 71 251 21 25-114-62-160" fill="none" stroke="#FBF8F1" stroke-width="4" stroke-linecap="round" stroke-dasharray="13 18"/>
+  <g filter="url(#shadow)">
+    <path d="m190 497 130-65 139 71v55l-130 65-139-71Z" fill="#E9D7B6"/>
+    <path d="m190 497 130-65 139 71-130 65Z" fill="#FFE5AC"/>
+    <path d="m329 568 130-65v55l-130 65Z" fill="#E9C987"/>
+    <path d="m246 466 71-36 71 37v-120l-71-48-71 46Z" fill="url(#orange)"/>
+    <path d="m246 345 71-46 71 48-71 35Z" fill="#FFCEB5"/>
+    <path d="m317 382 71-35v120l-71 36Z" fill="#EB8262"/>
+    <path d="m247 345 70-46v131l-71 36Z" fill="#FFAA88"/>
+    <path d="m282 449 23-11v-46l-23 11Z" fill="#FFF4DC"/>
+    <path d="m340 417 23-12v-30l-23 12Z" fill="#173F50"/>
+    <path d="m340 464 23-12v-25l-23 12Z" fill="#FFE5AC"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="m675 345 124-62 146 75v45l-124 62-146-75Z" fill="#98BDC0"/>
+    <path d="m675 345 124-62 146 75-124 62Z" fill="#CBE7E8"/>
+    <path d="m821 420 124-62v45l-124 62Z" fill="#7EADB4"/>
+    <path d="m725 322 77-39 85 44V218l-85-45-77 39Z" fill="url(#navy)"/>
+    <path d="m725 212 77-39 85 45-77 39Z" fill="#426F7D"/>
+    <path d="m810 257 77-39v109l-77 39Z" fill="#173F50"/>
+    <path d="m748 253 28 14v40l-28-15Z" fill="#CBE7E8"/>
+    <path d="m830 285 29-15v39l-29 15Z" fill="#FFE5AC"/>
+    <path d="m781 327 16 9v-39l-16-8Z" fill="#F4F4E6"/>
+    <rect x="793" y="134" width="10" height="46" rx="5" fill="#9EBFC2"/>
+    <circle cx="798" cy="130" r="10" fill="#FF936E"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="m517 509 121-60 130 67v46l-121 60-130-67Z" fill="#E2DCCF"/>
+    <path d="m517 509 121-60 130 67-121 60Z" fill="#F3EEE3"/>
+    <path d="m647 576 121-60v46l-121 60Z" fill="#DDD4C3"/>
+    <path d="m570 491 68-34 75 39V373l-75-39-68 34Z" fill="url(#mint)"/>
+    <path d="m570 368 68-34 75 39-68 34Z" fill="#E3F0E9"/>
+    <path d="m645 407 68-34v123l-68 34Z" fill="#9CC8CC"/>
+    <path d="m594 426 27 14v44l-27-14Z" fill="#173F50"/>
+    <path d="m662 443 28-14v31l-28 14Z" fill="#FBF8F1"/>
+    <path d="m662 483 28-14v14l-28 14Z" fill="#FF936E"/>
+    <path d="M586 364v-26c0-24 42-46 65-34l17 9v32l-14-7v-15c-13-4-43 12-43 27v27Z" fill="#477584"/>
+  </g>
+  <g transform="translate(937 547)"><path d="M0 58V0" stroke="#173F50" stroke-width="9" stroke-linecap="round"/><path d="M0 17c-36-1-54-20-49-43C-22-28-2-11 0 17" fill="#9ECAC7"/><path d="M0 39C36 38 54 19 49-4 22-6 2 11 0 39" fill="#CBE7E8"/></g>
+  <circle cx="493" cy="258" r="31" fill="#FFE5AC"/>
+  <path d="m466 460 9-21 8 21 22 9-22 8-8 22-9-22-21-8Z" fill="#FF936E"/>
+  <circle cx="850" cy="708" r="10" fill="#CBE7E8"/>
+</svg>
