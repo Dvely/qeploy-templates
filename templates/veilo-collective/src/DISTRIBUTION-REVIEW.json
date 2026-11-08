@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "project": "veilo-collective",
+  "status": "reviewed",
+  "reviewDate": "2026-11-09",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "e188b9b5322aed5a7e2984ae11390062460d94c93969ecb549ff524bbe87600c",
+      "origin": "reviewed-project-source"
+    },
+    "assets/beauty.jpg": {
+      "sha256": "b1fa2ee1311181ff926627d18e23e17a59541e6853c7319c7795a92646b4c2d2",
+      "origin": "documented-ai-generation"
+    },
+    "assets/campaign.jpg": {
+      "sha256": "b8cdf7b708be52d2422f4d259de89e01ad555cc80221145e50f069d83c634446",
+      "origin": "documented-ai-generation"
+    },
+    "assets/living.jpg": {
+      "sha256": "45548f92678ca5089e8c991f6f1154a3b80a39f82ae861a86893a709d68e25cb",
+      "origin": "documented-ai-generation"
+    },
+    "assets/mark.svg": {
+      "sha256": "1acddcc83e0b975a709912ab2e02087802fbbb7bc76c017862364e0b34f6cea0",
+      "origin": "original-vector"
+    },
+    "assets/studio.svg": {
+      "sha256": "40c46b7a4c8f03e82cd20ddd51998c6cc5b206f1399700dfa8e0e543ede5d31a",
+      "origin": "original-vector"
+    },
+    "assets/vector-notes.md": {
+      "sha256": "4be817ab05eeb46828c9f6d0dade28728837c7aed4f8f05b0c4d4481373255ce",
+      "origin": "reviewed-project-source"
+    },
+    "brand-atelier.html": {
+      "sha256": "dcc460226ec7b7d8748c8ef8ad9a6f6901f816834987110dafd5e6f6b844b743",
+      "origin": "reviewed-project-source"
+    },
+    "brand-beauty.html": {
+      "sha256": "1ff04d78529ccc1478ec877932b40c794fc695575c2f807ba168282e85290ea6",
+      "origin": "reviewed-project-source"
+    },
+    "brand-living.html": {
+      "sha256": "34a89439ad9c40b15214f854720657476566e325d69b034276ddbe132904170d",
+      "origin": "reviewed-project-source"
+    },
+    "brand-studio.html": {
+      "sha256": "d51577843d622f433d0a94fc7c1700b7b7e4683892ab2f1c47cf9e0d74a1febf",
+      "origin": "reviewed-project-source"
+    },
+    "build.mjs": {
+      "sha256": "f2e1cbfbf13e77140eb3d652a99e7cd5cea3ca70a3cca8c828a7658af3818ff8",
+      "origin": "reviewed-project-source"
+    },
+    "business.html": {
+      "sha256": "be8715411d187a6c03f23ef20883f7fda5c40072a2ee4b6e85dd767c7cd23760",
+      "origin": "reviewed-project-source"
+    },
+    "company.html": {
+      "sha256": "2afd9a0307fd526a0e51add5beac31c35ae3168184a069b19a5f33fb787f0ff5",
+      "origin": "reviewed-project-source"
+    },
+    "contact.html": {
+      "sha256": "8c62d25870e4764fc192471bbba426ff414c5b405a9d44393727fd97ab3c2b57",
+      "origin": "reviewed-project-source"
+    },
+    "content.mjs": {
+      "sha256": "d2937e66824e28df19b0cca34782635fdc96241527561d8d0b43c11ec821a294",
+      "origin": "reviewed-project-source"
+    },
+    "en-brand-atelier.html": {
+      "sha256": "ca2f3734d2db6e7cd7af65b60de35038a9bbfd3c6f452c832b6950a82b9889a8",
+      "origin": "reviewed-project-source"
+    },
+    "en-brand-beauty.html": {
+      "sha256": "2943676601d02daa9d3335d95cc841e06dc929c08943d28253300dbf7c675b7e",
+      "origin": "reviewed-project-source"
+    },
+    "en-brand-living.html": {
+      "sha256": "77efa23ca5e03a9843f0feb4d1e12794056d7e53db05622744010c19e99d5ea8",
+      "origin": "reviewed-project-source"
+    },
+    "en-brand-studio.html": {
+      "sha256": "8abc5b198decde6608a8016417912ec33fd49b79a6e688df2cf543c67d2271d3",
+      "origin": "reviewed-project-source"
+    },
+    "en-business.html": {
+      "sha256": "ab2cc92ad018b6290a03805e11b296695ec6888e695cc18611a9e342a8628423",
+      "origin": "reviewed-project-source"
+    },
+    "en-company.html": {
+      "sha256": "382678c3b94d63d5110a61707a2873bcd69187d9129fadd8a46d7da235bd4848",
+      "origin": "reviewed-project-source"
+    },
+    "en-contact.html": {
+      "sha256": "5f1db3ee4cc591a17a377aca06d4afe751a387f45707023d8b682775c450c737",
+      "origin": "reviewed-project-source"
+    },
+    "en-index.html": {
+      "sha256": "d9f4fad30817675d4def5ac898a111060db1d7c71ea3297c691d2e1a8b0f589e",
+      "origin": "reviewed-project-source"
+    },
+    "en-investors.html": {
+      "sha256": "83578feca733b1e280466c43a723624201d7c28f67df5b6be4cfa2301c38811a",
+      "origin": "reviewed-project-source"
+    },
+    "en-news-light.html": {
+      "sha256": "0935a0d8d0d66c8a1141c3894f4b926ea5ce1bf071196225e94310441365c037",
+      "origin": "reviewed-project-source"
+    },
+    "en-news-objects.html": {
+      "sha256": "b0e3949e6c3cbee24a5b936c5d6565d085b22a8f7c117781eb5863f75a0ceff4",
+      "origin": "reviewed-project-source"
+    },
+    "en-news-room.html": {
+      "sha256": "101fd171d94b4c987d3572af708cb938b74a6bf5760e38e8dd0f23cf937d9be6",
+      "origin": "reviewed-project-source"
+    },
+    "en-news.html": {
+      "sha256": "eaf1c291650d5259b189c2acb32e8ae51ecb41d38bb2c3b235ee14c0a66672e3",
+      "origin": "reviewed-project-source"
+    },
+    "en-people.html": {
+      "sha256": "7b030187f6e89cc91b5e574c768079f851f8a56fdaba9e91f02bfca3e93e5582",
+      "origin": "reviewed-project-source"
+    },
+    "en-responsibility.html": {
+      "sha256": "31ce9428b92b4abbb8c56310f8763795b852210e04038ddecd00b9cb2685ffa5",
+      "origin": "reviewed-project-source"
+    },
+    "en-sitemap.html": {
+      "sha256": "cd1b63b4dd7551467c87ee2649a7627a2683915caa86525a58e40830e403ad74",
+      "origin": "reviewed-project-source"
+    },
+    "image-prompts.json": {
+      "sha256": "03fd5d74cc22a105583c0a0a4595102f113fed777d6dec313a837c553be93306",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "b5ff721b3dc7dd0db579cb9cefcedf8cfb23df7fc9c0ddac1999b6aabe13439c",
+      "origin": "reviewed-project-source"
+    },
+    "investors.html": {
+      "sha256": "b8a0e881f04b19bbca8d455a771e995eeabace5ed742f250617300199916fbc5",
+      "origin": "reviewed-project-source"
+    },
+    "news-light.html": {
+      "sha256": "4de38553b9c5a09ff4e8436f23e499b375e59ad02750dc52404a8adbddb272f4",
+      "origin": "reviewed-project-source"
+    },
+    "news-objects.html": {
+      "sha256": "8801bff89818ac4753336f537e79b95cd95a656a35595efc9748907cbe84ba57",
+      "origin": "reviewed-project-source"
+    },
+    "news-room.html": {
+      "sha256": "e3b50918d0cf4974f9a8f06102fe7d13de2042016bf46fa270c011ce5c150efc",
+      "origin": "reviewed-project-source"
+    },
+    "news.html": {
+      "sha256": "692d0f65061ce6273941491117fa2911b61af1f12e28dae799fdbdab9a7c6994",
+      "origin": "reviewed-project-source"
+    },
+    "people.html": {
+      "sha256": "d4faf7c822dfe212d08474a197a96cbf579ad7ccc3fe59a3ece67cd3b21dc9b5",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "5a63dce04501f93abcba242c6df9ec717aea4189eea13531173c69431f948aa9",
+      "origin": "reviewed-project-source"
+    },
+    "responsibility.html": {
+      "sha256": "fbdce866dade05e01249ce74ed74d417ef3e4bdf12af2cef271205093732c80b",
+      "origin": "reviewed-project-source"
+    },
+    "site.css": {
+      "sha256": "96c712fafe54a244f37ed8458a9766123f036a183becdcde305d6a1710950bb0",
+      "origin": "reviewed-project-source"
+    },
+    "site.js": {
+      "sha256": "f78d10cbe6d9a665fa3daa2df4b957367342f006996899795427ebecda3377ba",
+      "origin": "reviewed-project-source"
+    },
+    "sitemap.html": {
+      "sha256": "754eb498f967de4af6f215708825c15f26788ad5674c548ae03376da63a29dab",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "90c3171b8e6603301f3ed4982adf5239d3a943712290cdc30b7b37ddc48196cd",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

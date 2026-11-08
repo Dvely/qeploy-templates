@@ -1,0 +1,19 @@
+{
+  "created": "2026-11-09",
+  "tool": "OpenAI built-in image_gen",
+  "referenceImages": [],
+  "files": [
+    {
+      "file": "assets/campaign.jpg",
+      "prompt": "Use case: ads-marketing. Asset type: wide landscape editorial fashion website hero. Original fictitious campaign, late afternoon at quiet warm limestone brutalist gallery with narrow reflecting water channel. Fashion model in elegant dark plum fluid sculptural tailored coat, in midstride on the right half, seen from a distance, architectural geometry and long shadows, autumn mood. Left third is dark purple brown shadowed stone, uncluttered for overlay white headline. Widescreen 16:9 photograph, high-end cinematic fashion editorial, deep plum, pale ivory and muted bronze, natural textures. No text, logos, brands, watermark, no reference image, no existing campaign resemblance."
+    },
+    {
+      "file": "assets/beauty.jpg",
+      "prompt": "Use case: product-mockup. Asset type: landscape editorial cover for fictional skincare collection. Original premium still life with pale frosted lavender cylindrical bottles and rounded unmarked ivory caps, one polished translucent glass pebble, on lilac stone plinths, strong single source sunlight through a thin veil. Quiet tactile material study, realistic refraction, soft lavender and ivory, no lettering or logo or watermark, no reference image. Composition centered with breathing room for cropping."
+    },
+    {
+      "file": "assets/living.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape lifestyle editorial photo. An original sculptural low chair of walnut and burgundy fabric beside a small ceramic vessel and a pale ecru draped fabric in a warm modern interior, indirect afternoon sunlight and asymmetrical composition. Premium interiors magazine photography, authentic subtle texture, clay, burgundy and ivory. No humans, no text, logos or watermarks, no reference image, no reproductions of existing designer chairs."
+    }
+  ]
+}

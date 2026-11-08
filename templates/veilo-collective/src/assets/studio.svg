@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="studio-title studio-description">
+  <title id="studio-title">베일로 소재 연구</title>
+  <desc id="studio-description">따뜻한 아이보리 바탕 위에 겹친 자주색과 연보라색 종이 조형물.</desc>
+  <defs>
+    <linearGradient id="backdrop" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f5ede0"/>
+      <stop offset=".62" stop-color="#e9ddcf"/>
+      <stop offset="1" stop-color="#c8b1ab"/>
+    </linearGradient>
+    <radialGradient id="light" cx=".35" cy=".25" r=".75">
+      <stop stop-color="#fff8e9" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#fff8e9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="board" x1=".1" y1="0" x2=".9" y2="1">
+      <stop stop-color="#d0b6ca"/>
+      <stop offset=".6" stop-color="#af90ac"/>
+      <stop offset="1" stop-color="#85677f"/>
+    </linearGradient>
+    <linearGradient id="outer" x1=".16" y1=".18" x2=".84" y2="1">
+      <stop stop-color="#795569"/>
+      <stop offset=".4" stop-color="#55394e"/>
+      <stop offset="1" stop-color="#341d35"/>
+    </linearGradient>
+    <linearGradient id="inner" x1="0" y1=".2" x2="1" y2=".9">
+      <stop stop-color="#593a53"/>
+      <stop offset=".54" stop-color="#372138"/>
+      <stop offset="1" stop-color="#9a728b"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1=".2" y1="0" x2=".8" y2="1">
+      <stop stop-color="#f8e6eb"/>
+      <stop offset=".45" stop-color="#d8bed0"/>
+      <stop offset=".84" stop-color="#b497b5"/>
+      <stop offset="1" stop-color="#8f718d"/>
+    </linearGradient>
+    <linearGradient id="fold" x1="0" y1="0" x2="1" y2=".5">
+      <stop stop-color="#8d6b89"/>
+      <stop offset=".36" stop-color="#b497b5"/>
+      <stop offset="1" stop-color="#e5cfdd"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2=".95" y2="1">
+      <stop stop-color="#fff1df"/>
+      <stop offset=".63" stop-color="#f4e3d4"/>
+      <stop offset="1" stop-color="#c6a6a1"/>
+    </linearGradient>
+    <linearGradient id="crease" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#fff5e8"/>
+      <stop offset="1" stop-color="#b88788"/>
+    </linearGradient>
+    <filter id="blur" x="-.4" y="-.7" width="1.8" height="2.4">
+      <feGaussianBlur stdDeviation="27"/>
+    </filter>
+    <filter id="cast" x="-.25" y="-.25" width="1.5" height="1.6">
+      <feDropShadow dx="24" dy="37" stdDeviation="25" flood-color="#392235" flood-opacity=".28"/>
+    </filter>
+    <pattern id="grain" width="31" height="25" patternUnits="userSpaceOnUse">
+      <path d="M2 7h2m6 10h3m5-13h2m4 7h1m1 10h2m-26 1h2m8-19h1m8 12h2" stroke="#624151" stroke-width=".55" opacity=".21"/>
+      <path d="M7 11h2m4-4h2m2 15h2m7-17h2m1 9h1" stroke="#fff8eb" stroke-width=".65" opacity=".44"/>
+    </pattern>
+    <clipPath id="leaf-bounds">
+      <path d="M392 533C482 330 633 212 792 214C892 215 971 266 1040 319L1150 429C1017 381 892 385 796 432C667 495 618 630 492 660L392 533Z"/>
+    </clipPath>
+  </defs>
+  <path d="M0 0h1440v900H0z" fill="url(#backdrop)"/>
+  <path d="M0 0h1440v900H0z" fill="url(#light)"/>
+  <path d="M0 0h1440v900H0z" fill="url(#grain)" opacity=".55"/>
+  <ellipse cx="810" cy="711" rx="475" ry="96" fill="#51364c" opacity=".2" filter="url(#blur)" transform="rotate(-10 810 711)"/>
+
+  <!-- An offset base sheet and a thick, open mat. -->
+  <g filter="url(#cast)">
+    <path d="M307 264 1047 140l133 503-745 133-128-512Z" fill="#6c4e67"/>
+    <path d="M302 253 1047 125l125 507-744 129-126-508Z" fill="url(#board)"/>
+    <path d="M302 253 1047 125l125 507-744 129-126-508Z" fill="url(#grain)" opacity=".63"/>
+    <path d="M280 226 978 96l172 506-696 137-174-513Zm112 59 106 348 543-101L924 204 392 285Z" fill="url(#outer)" fill-rule="evenodd"/>
+    <path d="m392 285 532-81 117 328-21 4-111-312-509 79-8-18Z" fill="url(#inner)"/>
+    <path d="m498 633 543-101 109 70-696 137 44-106Z" fill="#322035" opacity=".51"/>
+    <path d="M280 226 978 96l172 506" fill="none" stroke="#b286a0" stroke-opacity=".65" stroke-width="2"/>
+  </g>
+
+  <!-- Embossed lilac leaf, with the reverse of the paper curling inward. -->
+  <path d="M415 556C537 353 701 242 847 267C1004 293 1073 401 1175 459C1040 420 907 437 805 488C694 544 645 672 511 701Z" fill="#432e42" opacity=".35" filter="url(#blur)"/>
+  <path d="M392 533C482 330 633 212 792 214C892 215 971 266 1040 319L1150 429C1017 381 892 385 796 432C667 495 618 630 492 660L392 533Z" fill="url(#leaf)"/>
+  <path d="M392 533C482 330 633 212 792 214C892 215 971 266 1040 319L1150 429C1017 381 892 385 796 432C667 495 618 630 492 660L392 533Z" fill="url(#grain)" opacity=".7"/>
+  <g clip-path="url(#leaf-bounds)" fill="none" stroke-linecap="round">
+    <g stroke="#704c6a" stroke-opacity=".33" stroke-width="1.45">
+      <path d="M410 556C519 353 639 230 813 239C912 244 1002 296 1110 391"/>
+      <path d="M423 570C529 371 658 249 818 257C927 262 1006 314 1120 400"/>
+      <path d="M437 586C547 387 667 273 826 276C934 277 1016 334 1125 410"/>
+      <path d="M453 601C565 404 687 292 838 296C945 298 1026 356 1139 421"/>
+      <path d="M472 617C586 427 699 314 844 314C952 315 1038 374 1142 434"/>
+      <path d="M490 632C601 449 717 333 854 334C962 337 1042 390 1151 444"/>
+      <path d="M508 647C617 469 734 353 864 355C976 358 1056 412 1156 453"/>
+      <path d="M526 664C637 488 746 374 879 374C982 377 1071 429 1158 465"/>
+    </g>
+    <path d="M398 530C493 337 633 215 792 218C883 219 973 273 1038 323" stroke="#fce9f0" stroke-opacity=".7" stroke-width="2"/>
+  </g>
+  <path d="M492 660C618 630 667 495 796 432C892 385 1017 381 1150 429C1077 422 1003 433 937 463C810 518 715 643 595 708Z" fill="url(#fold)"/>
+  <path d="M492 660C618 630 667 495 796 432C892 385 1017 381 1150 429" fill="none" stroke="#f0dce8" stroke-width="2" opacity=".67"/>
+
+  <!-- The small, hand-folded ivory sheet in the foreground. -->
+  <path d="M658 585C765 518 878 510 1001 536L1089 638C952 592 838 627 757 696Z" fill="#473048" opacity=".25" filter="url(#blur)"/>
+  <path d="M622 566C715 488 827 470 935 504C998 524 1048 568 1103 618C967 569 867 591 781 659L734 698Z" fill="url(#paper)"/>
+  <path d="M622 566C715 488 827 470 935 504C998 524 1048 568 1103 618C967 569 867 591 781 659L734 698Z" fill="url(#grain)" opacity=".49"/>
+  <path d="M734 698C827 611 909 565 1030 601L1103 618C991 601 906 638 815 724Z" fill="url(#crease)"/>
+  <path d="M734 698C827 611 909 565 1030 601L1103 618" fill="none" stroke="#fff4e5" stroke-width="2"/>
+  <path d="M646 569C732 510 822 497 911 520M657 583C738 527 823 512 901 533M669 597C746 544 821 528 890 546" fill="none" stroke="#ae878a" stroke-opacity=".48" stroke-width="1.4" stroke-linecap="round"/>
+</svg>

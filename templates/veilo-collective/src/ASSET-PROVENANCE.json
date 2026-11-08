@@ -1,0 +1,41 @@
+{
+  "project": "veilo-collective",
+  "reviewed": "2026-11-09",
+  "assets": [
+    {
+      "file": "assets/beauty.jpg",
+      "sha256": "b1fa2ee1311181ff926627d18e23e17a59541e6853c7319c7795a92646b4c2d2",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "created": "2026-11-09"
+    },
+    {
+      "file": "assets/campaign.jpg",
+      "sha256": "b8cdf7b708be52d2422f4d259de89e01ad555cc80221145e50f069d83c634446",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "created": "2026-11-09"
+    },
+    {
+      "file": "assets/living.jpg",
+      "sha256": "45548f92678ca5089e8c991f6f1154a3b80a39f82ae861a86893a709d68e25cb",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json",
+      "created": "2026-11-09"
+    },
+    {
+      "file": "assets/mark.svg",
+      "sha256": "1acddcc83e0b975a709912ab2e02087802fbbb7bc76c017862364e0b34f6cea0",
+      "origin": "original-vector",
+      "record": "assets/vector-notes.md",
+      "created": "2026-11-09"
+    },
+    {
+      "file": "assets/studio.svg",
+      "sha256": "40c46b7a4c8f03e82cd20ddd51998c6cc5b206f1399700dfa8e0e543ede5d31a",
+      "origin": "original-vector",
+      "record": "assets/vector-notes.md",
+      "created": "2026-11-09"
+    }
+  ]
+}

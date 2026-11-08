@@ -1,0 +1,15 @@
+{
+  "id":"veilo-collective",
+  "name":"베일로 컬렉티브",
+  "description":"패션·뷰티·리빙을 잇는 가상 라이프스타일 그룹의 한영 기업 홈페이지",
+  "tags":["기업소개","패션","뷰티","리빙","다국어","반응형"],
+  "stack":"vanilla",
+  "entry":"index.html",
+  "contentHints":[
+    {"key":"content","where":"content.mjs","desc":"한영 사업 분야와 소식"},
+    {"key":"layouts","where":"build.mjs","desc":"정적 페이지와 언어 전환 링크 생성"},
+    {"key":"design","where":"site.css","desc":"캠페인·카테고리·반응형 스타일"},
+    {"key":"behavior","where":"site.js","desc":"캠페인 전환·모바일 메뉴·목록 필터"},
+    {"key":"provenance","where":"ASSET-PROVENANCE.json","desc":"직접 제작 및 생성 자산의 기록"}
+  ]
+}
