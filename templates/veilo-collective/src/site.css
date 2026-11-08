@@ -154,7 +154,7 @@ body:not(.home) main{padding-top:var(--header)}
   .scene-copy>p:not(.eyebrow){margin-top:20px}
   .hero-bar{bottom:15px}
   .carousel-control{gap:5px}
-  .carousel-control button{width:39px;height:39px}
+  .carousel-control button{width:44px;height:44px}
   .carousel-control .playback{margin-left:3px}
   .slide-count{padding-inline:0;font-size:.67rem}
   .scroll-link{gap:5px}

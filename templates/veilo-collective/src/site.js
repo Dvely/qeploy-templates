@@ -35,13 +35,14 @@
   if (hero) {
     const slides = $$('.scene', hero), display = $('.slide-count'), playback = $('.playback');
     let current = 0, paused = reduced.matches, timer, inView = true;
-    const show = next => {
+    const show = (next, manual = false) => {
       current = (next + slides.length) % slides.length;
       slides.forEach((slide, i) => {
         slide.hidden = i !== current;
         slide.classList.toggle('is-active', i === current);
       });
       display.textContent = String(current + 1).padStart(2, '0') + ' / ' + String(slides.length).padStart(2, '0');
+      if (manual) $('.slide-announcement', hero).textContent = display.textContent + ' · ' + $('h2', slides[current]).innerText.replace(/\s+/g, ' ');
     };
     function schedule() {
       clearTimeout(timer);
@@ -54,8 +55,8 @@
       playback.textContent = paused ? '▷' : 'Ⅱ';
       schedule();
     }
-    $('[data-prev]').addEventListener('click', () => { show(current - 1); schedule(); });
-    $('[data-next]').addEventListener('click', () => { show(current + 1); schedule(); });
+    $('[data-prev]').addEventListener('click', () => { show(current - 1, true); schedule(); });
+    $('[data-next]').addEventListener('click', () => { show(current + 1, true); schedule(); });
     playback.addEventListener('click', () => { paused = !paused; updatePlayback(); });
     hero.addEventListener('focusin', schedule);
     hero.addEventListener('focusout', () => queueMicrotask(schedule));
