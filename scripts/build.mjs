@@ -22,6 +22,7 @@ import { buildMorrowField } from '../templates/morrow-field/src/build.mjs';
 import { buildOngilSafe } from '../templates/ongil-safe/src/build.mjs';
 import { buildNaruform } from '../templates/naruform/src/build.mjs';
 import { buildVeiloCollective } from '../templates/veilo-collective/src/build.mjs';
+import { buildLoopShelf } from '../templates/loop-shelf/src/build.mjs';
 
 const run = promisify(execFile);
 const ROOT = path.resolve(import.meta.dirname, '..');
@@ -37,6 +38,7 @@ await buildMorrowField();
 await buildOngilSafe();
 await buildNaruform();
 await buildVeiloCollective();
+await buildLoopShelf();
 await buildHarutgyeolPages();
 await buildPagesDetails();
 await buildAtelierCuisine();
