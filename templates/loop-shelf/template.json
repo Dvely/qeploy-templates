@@ -1,0 +1,15 @@
+{
+  "id":"loop-shelf",
+  "name":"루프선반",
+  "description":"가상의 독립 음반과 굿즈를 탐색하는 반응형 쇼핑몰 시연",
+  "tags":["음반","굿즈","쇼핑몰","카탈로그","장바구니","반응형"],
+  "stack":"vanilla",
+  "entry":"index.html",
+  "contentHints":[
+    {"key":"catalog","where":"catalog.mjs","desc":"가상의 상품·아티스트·기획전"},
+    {"key":"pages","where":"build.mjs","desc":"홈, 상품 상세, 장바구니 등 생성"},
+    {"key":"design","where":"site.css","desc":"브랜드·캠페인·상품 화면"},
+    {"key":"interactions","where":"site.js","desc":"검색·분류·찜·장바구니 시연"},
+    {"key":"provenance","where":"ASSET-PROVENANCE.json","desc":"신규 제작 자산과 생성 근거"}
+  ]
+}

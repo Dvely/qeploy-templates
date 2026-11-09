@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "project": "loop-shelf",
+  "status": "reviewed",
+  "reviewDate": "2026-11-09",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "artists.html": {
+      "sha256": "816276a9db9e36d8e13b7bf6fdbc16f0b329ad54921c56fd4e83398be5993f40",
+      "origin": "reviewed-project-source"
+    },
+    "ASSET-PROVENANCE.json": {
+      "sha256": "cbc99f2f761c5ea42e6b83d20271b0ba666a5421107f334b09f0dc4840b0deef",
+      "origin": "reviewed-project-source"
+    },
+    "assets/book-echo.svg": {
+      "sha256": "f09ed86d7090822a8011b37c6dae2474f46e885b2e32176fc6a3fb398ed05583",
+      "origin": "original-vector"
+    },
+    "assets/card-wave.svg": {
+      "sha256": "d20c8fb4cb573c1ffe3ec7b769007020854a2fc6ed7481db79e1703710d98b19",
+      "origin": "original-vector"
+    },
+    "assets/cover-hours.svg": {
+      "sha256": "4b9d6bd67c822114fe721a7b87f8afc92b5410ec54768a8ddae933b4450b9d39",
+      "origin": "original-vector"
+    },
+    "assets/cover-index.svg": {
+      "sha256": "88c27999e453d86a207f1af1aa9ec393b7e75096554fcf8c28427f2f2edab52e",
+      "origin": "original-vector"
+    },
+    "assets/cover-moon.svg": {
+      "sha256": "5a63b8ff07ae4ca1413c4b48d2845ba839ce5bb356d450c45fdea0fbf6687163",
+      "origin": "original-vector"
+    },
+    "assets/cover-signal.svg": {
+      "sha256": "659a38d7a532b95a2bc48aaa31eb11b0f7672f56c3f5895b40b9ed45c9854ae0",
+      "origin": "original-vector"
+    },
+    "assets/goods-set.jpg": {
+      "sha256": "dac1f799107e0431bebd09a60baad8f3ed7578e7474a65a09a87acb39ca589e6",
+      "origin": "documented-ai-generation"
+    },
+    "assets/hero-record.jpg": {
+      "sha256": "1fb45ecd1cfbd57517b28493d26a48f7ee77c76bb5239f98ecb7054ec17cb36b",
+      "origin": "documented-ai-generation"
+    },
+    "assets/mark.svg": {
+      "sha256": "d3990289e5c4c564ec8f5cd6db4ab4721f125fe5ef624fb1e9a1dedbd96ac1b1",
+      "origin": "original-vector"
+    },
+    "assets/vector-notes.md": {
+      "sha256": "bf991b993963a3b053ac8a6b87b1fa664a4561dc1aff92135f19be19cb7c223b",
+      "origin": "reviewed-project-source"
+    },
+    "build.mjs": {
+      "sha256": "d540d0eca0ec60d9cb366ba6055b27036c536ec75cb783ed9a40f24973621c46",
+      "origin": "reviewed-project-source"
+    },
+    "cart.html": {
+      "sha256": "1f95a89ea942ca687e804af2276312e7a2656d5a568da83a6f03c9d56fd2e8b9",
+      "origin": "reviewed-project-source"
+    },
+    "catalog.html": {
+      "sha256": "bdaea20c35cc1fc5dda5ec348a52b176a0d12e169add85daba6fbde2ed86cd9e",
+      "origin": "reviewed-project-source"
+    },
+    "catalog.mjs": {
+      "sha256": "6efbcd3f675d02269569031dd5b0a007c8eeb56d0f74caad7c04f44819677f17",
+      "origin": "reviewed-project-source"
+    },
+    "event-collecting.html": {
+      "sha256": "48dda0327aace2dd799143a52c7f3d6ba0e9bdeedd17b01c0dfd92eb0575c38d",
+      "origin": "reviewed-project-source"
+    },
+    "event-listening.html": {
+      "sha256": "6f4192895d5bb0ce1c38cdb60cf01eb42403dae31adbe9b395b40646d13b32c5",
+      "origin": "reviewed-project-source"
+    },
+    "events.html": {
+      "sha256": "a86aa164cf75389e540130d0dd80c0510c4e9ec74c1c794b5f724d598e1b44c2",
+      "origin": "reviewed-project-source"
+    },
+    "guide.html": {
+      "sha256": "7f5d4e1a6b90597f5efa058e4e001c8089368cd7031958bc6ce2f50714a5f000",
+      "origin": "reviewed-project-source"
+    },
+    "image-prompts.json": {
+      "sha256": "49eee5a0d8568ead7268a7f2e7dbab97c4ba5634f8c28a4d611fb1f4f13df29f",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "b6f9616d8f41a61fa33de36d632af1ffe29e7a3db8b91c97e47204c14b80ec42",
+      "origin": "reviewed-project-source"
+    },
+    "product-blue-room.html": {
+      "sha256": "d3f66ae39c617628559e3da9cfb8cdc10af8d6eb4a946931ba387d5253d1db5e",
+      "origin": "reviewed-project-source"
+    },
+    "product-echo.html": {
+      "sha256": "c270fe92b24e076d86f16cf4238bb2f7005e892d804ad9141382c6e50a55bfa9",
+      "origin": "reviewed-project-source"
+    },
+    "product-little-index.html": {
+      "sha256": "35174f5a9158a8b5cf360aea56249602d59116d032adba9086e604d864186275",
+      "origin": "reviewed-project-source"
+    },
+    "product-moon-step.html": {
+      "sha256": "36a9f0182847b9fd51995c7fb4aed275752ac7e2b20558f35141dd8c6c78367e",
+      "origin": "reviewed-project-source"
+    },
+    "product-signal.html": {
+      "sha256": "1c972cb48bc9c22d285f1d77f77ce3f2ca1b21f061b886ff23022184fe2478e2",
+      "origin": "reviewed-project-source"
+    },
+    "product-soft-hours.html": {
+      "sha256": "57f893625180a237af5715a294ed10b4f42c7e70d23bab887c2ccc2d0572ecbe",
+      "origin": "reviewed-project-source"
+    },
+    "product-wave-cards.html": {
+      "sha256": "889ca7788e1420e61f7dc46e68b50444005bc19fa52f29c8840d04c2bea70b5f",
+      "origin": "reviewed-project-source"
+    },
+    "product-wave-key.html": {
+      "sha256": "37d74581d7da64a164367a9f474423b7736fd59f3e6f35426675387ee80f411f",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "75543192d5d4a9bd451d5f1c65b8f4e21fafbbc03dae32bad14b44f0d9ae3dd5",
+      "origin": "reviewed-project-source"
+    },
+    "saved.html": {
+      "sha256": "f2ac835a564f14555741d9f5582d6e9213bcce06605895e8cb35e0f24f02fdd3",
+      "origin": "reviewed-project-source"
+    },
+    "site.css": {
+      "sha256": "4d3328e42606ff86500f1dd472a1356dcca6765c05321a281721b65f82f909cf",
+      "origin": "reviewed-project-source"
+    },
+    "site.js": {
+      "sha256": "f1cc20be7ccc940bb31dda836d510fc9f42a723b9785e810f7656346933ede68",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "0f07179286af1c924012f479040b6fcddd86fa1ea99459050298960747ec85cd",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

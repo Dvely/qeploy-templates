@@ -1,0 +1,14 @@
+{
+  "tool": "OpenAI built-in image_gen",
+  "referenceImages": [],
+  "files": [
+    {
+      "file": "assets/hero-record.jpg",
+      "prompt": "Use case: product-mockup. Asset type: square feature image for an original fictional indie record shop. Art-directed contemporary still life on soft butter yellow studio floor and backdrop, a cobalt blue unlettered square record sleeve tilted slightly with an illustrated fine lime concentric wave and one bold off-center pale disc, with translucent cobalt vinyl protruding at the top right and casting a playful curved shadow. A tiny white paper insert lies at lower right. Beautiful tangible matte paper, premium smooth gradients of daylight, professional product photography, center and lower composition all items inside the frame, no people, no lettering or logos, no watermark, no existing brand or reference images. Palette cobalt, butter and ivory."
+    },
+    {
+      "file": "assets/goods-set.jpg",
+      "prompt": "Use case: product-mockup. Asset type: square photo for an original fictional indie record shop accessory. A softly lit studio packshot of a transparent violet acrylic charm shaped like a small irregular audio waveform, silver ring and a small cobalt enamel circle, plus a butter-yellow woven strap, arranged neatly over a pastel lavender sheet with mild shadows. Editorial youth culture style, crisp tangible close up, all objects fully in frame, no people, no lettering, no watermark, no existing brand and no reference images."
+    }
+  ]
+}

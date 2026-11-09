@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-labelledby="title description">
+<title id="title">시그널 음반 패키지</title><desc id="description">아이보리와 산호색 픽셀 띠를 사용한 오리지널 미니앨범 박스와 콤팩트 디스크.</desc>
+<defs>
+ <filter id="blur" x="-50%" y="-120%" width="200%" height="340%"><feGaussianBlur stdDeviation="24"/></filter>
+ <pattern id="grain" width="15" height="12" patternUnits="userSpaceOnUse"><path d="M2 4h1m7 4h1m-7 3h1m7-10h1" fill="none" stroke="#242238" stroke-width=".65" opacity=".13"/><path d="M2 7h1m7-3h1m2 6h1" fill="none" stroke="#fff" stroke-width=".6" opacity=".38"/></pattern>
+ 
+ <linearGradient id="background" x2="1" y2="1"><stop stop-color="#f6dbcf"/><stop offset="1" stop-color="#eab1a4"/></linearGradient>
+ <linearGradient id="coral" x2="1" y2="1"><stop stop-color="#f78471"/><stop offset="1" stop-color="#d5474f"/></linearGradient>
+ <linearGradient id="ivory" x2=".8" y2="1"><stop stop-color="#fff7dc"/><stop offset="1" stop-color="#f4dec3"/></linearGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2="1" y2=".9"><stop stop-color="#c5c7ee"/><stop offset=".23" stop-color="#f4efef"/><stop offset=".43" stop-color="#e2d0ee"/><stop offset=".62" stop-color="#fff0b8"/><stop offset=".76" stop-color="#e7f1e4"/><stop offset="1" stop-color="#b0b7d5"/></linearGradient>
+ <pattern id="pixels" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M0 0h8v8H0zM8 8h8v8H8z" fill="#f6debf"/></pattern>
+
+</defs>
+
+<path d="M0 0h720v720H0z" fill="url(#background)"/>
+<path d="M0 0h720v720H0z" fill="url(#grain)" opacity=".85"/>
+<ellipse cx="364" cy="560" rx="252" ry="56" fill="#70404e" opacity=".24" filter="url(#blur)" transform="rotate(9 364 560)"/>
+<g transform="rotate(11 460 384)">
+ <rect x="314" y="225" width="295" height="297" rx="6" fill="#703847" opacity=".26"/>
+ <rect x="302" y="215" width="300" height="298" rx="5" fill="url(#ivory)" stroke="#b96f6c" stroke-width="1.5"/>
+ <rect x="316" y="227" width="273" height="271" rx="4" fill="#ecad9e"/>
+ <rect x="322" y="233" width="261" height="259" rx="3" fill="#e5ad9c" stroke="#f9ded0" stroke-width="1"/>
+ <circle cx="452" cy="362" r="111" fill="url(#silver)" stroke="#e9e3f6" stroke-width="1.2"/>
+ <circle cx="452" cy="362" r="106" fill="none" stroke="#63658a" stroke-opacity=".32"/>
+ <path d="m452 362-69-87a111 111 0 0 1 154 10Zm0 0 68 88a111 111 0 0 1-134 4Z" fill="#fff" opacity=".3"/>
+ <circle cx="452" cy="362" r="47" fill="#f2cebd"/>
+ <circle cx="452" cy="362" r="38" fill="none" stroke="#ae7378" stroke-opacity=".55"/>
+ <circle cx="452" cy="362" r="12" fill="#e5ad9c" stroke="#fbf3e6" stroke-width="2"/>
+ <path d="M402 320h9v-9h9v-9h10m63 103h-9v9h-9v9h-10" fill="none" stroke="#d56c67" stroke-width="4"/>
+ <path d="M307 218h290M306 222v285h292" fill="none" stroke="#fff3e6" stroke-opacity=".67"/>
+</g>
+<g transform="rotate(-11 285 353)">
+ <rect x="117" y="175" width="330" height="349" rx="4" fill="#993d48"/>
+ <rect x="114" y="163" width="330" height="348" rx="3" fill="url(#ivory)"/>
+ <rect x="125" y="173" width="307" height="328" fill="url(#coral)"/>
+ <rect x="125" y="173" width="307" height="328" fill="url(#grain)" opacity=".7"/>
+ <path d="M126 259h69v-32h73v28h61v42h102v58h-66v-22h-68v-21h-63v18h-55v37h-53z" fill="#ffdfba"/>
+ <path d="M126 358h63v-35h68v36h72v30h103v40h-125v-18h-75v-20h-59v26h-47z" fill="#c6384b" opacity=".8"/>
+ <path d="M126 304h43v-33h74v17h67v29h53v28h69v16h-88v-25h-63v-30h-49v-17h-47v37h-59z" fill="url(#pixels)"/>
+ <g fill="#faf0d8"><rect x="146" y="191" width="71" height="7"/><rect x="146" y="205" width="31" height="3"/><rect x="374" y="191" width="36" height="4"/><rect x="391" y="199" width="19" height="3"/></g>
+ <path d="M146 473h84m-84 8h59m145-6h59m-33 7h33" stroke="#ffe2c6" stroke-width="2"/>
+ <path d="M117 165h324v343" fill="none" stroke="#fff4e0"/>
+</g>
+
+</svg>

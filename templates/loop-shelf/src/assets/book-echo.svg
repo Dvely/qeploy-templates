@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-labelledby="title description">
+<title id="title">에코 포토북</title><desc id="description">세이지색 표지에 자주색 산 능선을 겹쳐 그린 닫힌 포토북과 접지.</desc>
+<defs>
+ <filter id="blur" x="-50%" y="-120%" width="200%" height="340%"><feGaussianBlur stdDeviation="24"/></filter>
+ <pattern id="grain" width="15" height="12" patternUnits="userSpaceOnUse"><path d="M2 4h1m7 4h1m-7 3h1m7-10h1" fill="none" stroke="#242238" stroke-width=".65" opacity=".13"/><path d="M2 7h1m7-3h1m2 6h1" fill="none" stroke="#fff" stroke-width=".6" opacity=".38"/></pattern>
+ 
+ <linearGradient id="background" x2="1" y2=".9"><stop stop-color="#e7e9d9"/><stop offset="1" stop-color="#c7cfb9"/></linearGradient>
+ <linearGradient id="cover" x2=".85" y2="1"><stop stop-color="#a4ae90"/><stop offset=".58" stop-color="#7a8a77"/><stop offset="1" stop-color="#6d7c6c"/></linearGradient>
+ <linearGradient id="pages" x2="0" y2="1"><stop stop-color="#e0d5bd"/><stop offset=".45" stop-color="#f0e5d0"/><stop offset="1" stop-color="#b4aa95"/></linearGradient>
+ <linearGradient id="plum" x2="1" y2="1"><stop stop-color="#8b6678"/><stop offset="1" stop-color="#5d455c"/></linearGradient>
+ <clipPath id="art"><rect x="184" y="200" width="307" height="249" rx="1"/></clipPath>
+
+</defs>
+
+<path d="M0 0h720v720H0z" fill="url(#background)"/>
+<path d="M0 0h720v720H0z" fill="url(#grain)" opacity=".75"/>
+<ellipse cx="379" cy="531" rx="238" ry="64" fill="#3c4d41" opacity=".27" filter="url(#blur)" transform="rotate(12 379 531)"/>
+<g transform="rotate(-13 442 381)">
+ <rect x="350" y="232" width="221" height="339" fill="#715368" opacity=".23"/>
+ <path d="M338 215h232v343H338z" fill="url(#plum)"/>
+ <path d="M355 232h198v309H355z" fill="none" stroke="#d8b8bb" stroke-opacity=".75"/>
+ <path d="M350 464c48-37 93-27 134-65 22-20 47-38 77-42m-211 121c43-24 84-19 125-52 29-24 52-45 86-50m-211 118c38-16 79-14 118-44 36-28 60-48 93-55" stroke="#d6aebd" stroke-width="1.4" fill="none"/>
+ <circle cx="501" cy="348" r="21" fill="#cfa3ae"/>
+ <path d="M368 250h59m-59 10h29" stroke="#e6c3bd" stroke-width="2"/>
+</g>
+<g transform="rotate(11 341 353)">
+ <path d="M158 152h367v365l-6 20H161l-14-12V166z" fill="#3f5247"/>
+ <path d="M162 490h354l-1 42H163l-10-10z" fill="url(#pages)"/>
+ <path d="M514 506H164m350 5H161m353 6H158m355 6H158m355 5H161" stroke="#877b6a" opacity=".35" stroke-width="1"/>
+ <rect x="149" y="136" width="374" height="372" rx="4" fill="url(#cover)"/>
+ <rect x="149" y="136" width="374" height="372" rx="4" fill="url(#grain)"/>
+ <rect x="152" y="139" width="14" height="368" fill="#617061"/>
+ <path d="M169 141v363M151 139H521" stroke="#e1e4c8" stroke-opacity=".5" fill="none"/>
+ <rect x="184" y="200" width="307" height="249" rx="1" fill="#ced4b6"/>
+ <g clip-path="url(#art)">
+  <circle cx="410" cy="267" r="34" fill="#e3d1b7"/>
+  <path d="M158 408C212 346 236 345 263 306C285 274 304 294 331 317C354 339 374 347 402 325C433 300 457 318 516 367V458H158Z" fill="#968b8b"/>
+  <path d="M152 430C205 411 227 402 249 370C285 319 305 321 347 367C365 388 398 394 427 373C451 355 483 365 507 402V456H152Z" fill="url(#plum)"/>
+  <path d="M168 426C221 410 237 398 260 366C286 329 308 337 343 373C366 398 394 405 432 382C462 365 485 380 506 409M168 437C226 421 245 409 270 376C293 347 310 350 338 380C366 409 396 416 436 391C466 376 486 387 507 416M169 447C230 430 249 420 279 384C300 360 313 365 333 389C361 419 400 428 442 401C471 385 488 399 506 427" fill="none" stroke="#e2c5c3" stroke-opacity=".76" stroke-width="1.3"/>
+  <rect x="184" y="200" width="307" height="249" fill="url(#grain)" opacity=".8"/>
+ </g>
+ <path d="M185 164h98m-98 12h46m220-9h36m-16 8h16m-302 297h59m-59 10h83m176-10h45" stroke="#f5edcf" stroke-width="2"/>
+</g>
+
+</svg>
