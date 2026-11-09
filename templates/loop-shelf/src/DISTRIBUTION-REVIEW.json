@@ -54,7 +54,7 @@
       "origin": "reviewed-project-source"
     },
     "build.mjs": {
-      "sha256": "d540d0eca0ec60d9cb366ba6055b27036c536ec75cb783ed9a40f24973621c46",
+      "sha256": "35f07f75d60ec7938beaeac5b05e2ca11e5ff8cceac3fec9e71de5529d92ba8b",
       "origin": "reviewed-project-source"
     },
     "cart.html": {
@@ -62,7 +62,7 @@
       "origin": "reviewed-project-source"
     },
     "catalog.html": {
-      "sha256": "bdaea20c35cc1fc5dda5ec348a52b176a0d12e169add85daba6fbde2ed86cd9e",
+      "sha256": "a139b3fb67cb16bdf1fba11d2d302af8f99f5b58dfbefc0bded58310b1b8c0b8",
       "origin": "reviewed-project-source"
     },
     "catalog.mjs": {
@@ -78,7 +78,7 @@
       "origin": "reviewed-project-source"
     },
     "events.html": {
-      "sha256": "a86aa164cf75389e540130d0dd80c0510c4e9ec74c1c794b5f724d598e1b44c2",
+      "sha256": "c59aa69f773f17ef4fb907290295530e009ea296d2a72245985f8f00a126ec5a",
       "origin": "reviewed-project-source"
     },
     "guide.html": {
@@ -90,39 +90,39 @@
       "origin": "reviewed-project-source"
     },
     "index.html": {
-      "sha256": "b6f9616d8f41a61fa33de36d632af1ffe29e7a3db8b91c97e47204c14b80ec42",
+      "sha256": "6c8fcf35e20b23a716d3b1f3d3c39b186503c646a2bcb4f452aede0948978f6c",
       "origin": "reviewed-project-source"
     },
     "product-blue-room.html": {
-      "sha256": "d3f66ae39c617628559e3da9cfb8cdc10af8d6eb4a946931ba387d5253d1db5e",
+      "sha256": "c90a6f07120949111c933ef3ae3283fc8ff13dc227e93b5411be8f50302fef37",
       "origin": "reviewed-project-source"
     },
     "product-echo.html": {
-      "sha256": "c270fe92b24e076d86f16cf4238bb2f7005e892d804ad9141382c6e50a55bfa9",
+      "sha256": "b28ed2a8a328ff2e91a98a7d33b2867a84cc2f5605669e97e1c8db5cfed5b757",
       "origin": "reviewed-project-source"
     },
     "product-little-index.html": {
-      "sha256": "35174f5a9158a8b5cf360aea56249602d59116d032adba9086e604d864186275",
+      "sha256": "078f506ca2e55ee20c0794f642518e8ab429b23a49edd2d68be0f6b39efe835e",
       "origin": "reviewed-project-source"
     },
     "product-moon-step.html": {
-      "sha256": "36a9f0182847b9fd51995c7fb4aed275752ac7e2b20558f35141dd8c6c78367e",
+      "sha256": "3864fd832e8b62ca02430570194b2e3f51dd8a4f45129e653fc00ee9c946cfb3",
       "origin": "reviewed-project-source"
     },
     "product-signal.html": {
-      "sha256": "1c972cb48bc9c22d285f1d77f77ce3f2ca1b21f061b886ff23022184fe2478e2",
+      "sha256": "2a09185a0491e8747690ab23aa1ff7ce5e3a650bf352a1aee034b077fcad2a72",
       "origin": "reviewed-project-source"
     },
     "product-soft-hours.html": {
-      "sha256": "57f893625180a237af5715a294ed10b4f42c7e70d23bab887c2ccc2d0572ecbe",
+      "sha256": "b971083cc8f5fbaf39070a58ccdd7aa361c8a37762ef743feed764c2878d3f10",
       "origin": "reviewed-project-source"
     },
     "product-wave-cards.html": {
-      "sha256": "889ca7788e1420e61f7dc46e68b50444005bc19fa52f29c8840d04c2bea70b5f",
+      "sha256": "7c08b788a435ad66da21d4f3b024127fc2f0b7867f4eada781c16fa47af0a677",
       "origin": "reviewed-project-source"
     },
     "product-wave-key.html": {
-      "sha256": "37d74581d7da64a164367a9f474423b7736fd59f3e6f35426675387ee80f411f",
+      "sha256": "f7bfd3634a997fcbdd71453615ac7162bc2243c6c5c1be2872f43f9f8bee621a",
       "origin": "reviewed-project-source"
     },
     "README.md": {
@@ -130,11 +130,11 @@
       "origin": "reviewed-project-source"
     },
     "saved.html": {
-      "sha256": "f2ac835a564f14555741d9f5582d6e9213bcce06605895e8cb35e0f24f02fdd3",
+      "sha256": "15cd23b64b248230b4388d3f526e8bf0ca12a777374bce6cb76d040731ca2353",
       "origin": "reviewed-project-source"
     },
     "site.css": {
-      "sha256": "4d3328e42606ff86500f1dd472a1356dcca6765c05321a281721b65f82f909cf",
+      "sha256": "8e267aa53e1241d9f42b5d914d00c5d723a18de6d5e875c71667d3685dae5e96",
       "origin": "reviewed-project-source"
     },
     "site.js": {
