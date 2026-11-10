@@ -59,6 +59,7 @@
       cards.forEach((el,id)=>{el.hidden=!selected.includes(id);});
       selected.forEach(id=>grid.append(cards.get(id)));
       $('#'+kind+'-empty').hidden=selected.length>0;
+      if(kind==='recent')$('#clear-recent').disabled=selected.length===0;
     }
   }
   function add(id,option,qty){
@@ -82,6 +83,10 @@
     if(quick)toast(add(quick.dataset.add,0,1));
   });
   badge();refreshArchives();
+  $('#clear-recent')?.addEventListener('click',()=>{
+    const kept=store('recent',[]);recent=[];refreshArchives();$('#recent-empty a').focus();
+    toast(kept?'최근 본 상품 기록을 비웠어요.':'현재 화면에서만 기록을 비웠어요.');
+  });
   $('[data-top]').addEventListener('click',()=>window.scrollTo({top:0,behavior:reduce.matches?'instant':'smooth'}));
 
   function open(dialog,opener){

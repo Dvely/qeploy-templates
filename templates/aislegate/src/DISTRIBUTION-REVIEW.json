@@ -54,7 +54,7 @@
       "origin": "reviewed-project-source"
     },
     "build.mjs": {
-      "sha256": "1009f18f0d88ec0b14aeb6e8bd4a62a2b66ef43680981b1b27b4cb60c3fe1ef9",
+      "sha256": "c62da11ad09d9afd225e4025f94259aeb8157908994588bc83776f558c0d05dc",
       "origin": "reviewed-project-source"
     },
     "cart.html": {
@@ -138,7 +138,7 @@
       "origin": "reviewed-project-source"
     },
     "recent.html": {
-      "sha256": "694f7a65772d2c656094a22a06d0719d8d6557910ea11f87f50bcb7788f71d9f",
+      "sha256": "e6242039e2198baa54c3142aeeee61b57889db8b4cc17c2b62cbbd842ea68759",
       "origin": "reviewed-project-source"
     },
     "saved.html": {
@@ -146,11 +146,11 @@
       "origin": "reviewed-project-source"
     },
     "site.css": {
-      "sha256": "c6f00b54d9bd28005047ed1e66a9dab3eec631fdd80b5004b724f4a96e2349ac",
+      "sha256": "87fb60cc7e21cd8aa68af30ee4c8445c19207e0512d976a57289d65d3be53ca7",
       "origin": "reviewed-project-source"
     },
     "site.js": {
-      "sha256": "c1be86592f4b7d562e8caefe956a55f1509de9ad7a9481ee9a7433cfee7b1a47",
+      "sha256": "0a629669e5a956c9dd0b65294aab0405dd14b324251ddf07ac4615ed45bb1882",
       "origin": "reviewed-project-source"
     },
     "THIRD_PARTY_NOTICES.md": {
