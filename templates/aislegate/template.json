@@ -1,0 +1,15 @@
+{
+  "id":"aislegate",
+  "name":"아일게이트",
+  "description":"여행 전 상품을 둘러보고 공항 수령 흐름을 체험하는 가상 쇼핑몰",
+  "tags":["쇼핑몰","여행","뷰티","상품탐색","장바구니","반응형"],
+  "stack":"vanilla",
+  "entry":"index.html",
+  "contentHints":[
+    {"key":"catalog","where":"catalog.mjs","desc":"가상 브랜드, 상품, 기획전"},
+    {"key":"pages","where":"build.mjs","desc":"카탈로그·상품·수령 시연 등 정적 화면"},
+    {"key":"design","where":"site.css","desc":"캠페인·카테고리·반응형 디자인"},
+    {"key":"interactions","where":"site.js","desc":"검색, 가격 표시, 최근 본 상품, 장바구니, 수령 시연"},
+    {"key":"provenance","where":"ASSET-PROVENANCE.json","desc":"자체 제작 자산과 생성 이미지 기록"}
+  ]
+}

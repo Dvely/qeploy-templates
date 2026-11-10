@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+    <title id="title">민트 트래블 미스트</title><desc id="desc">민트색 원통형 미스트 용기와 반투명 뚜껑.</desc>
+    <defs>
+      <linearGradient id="backdrop" x2="1" y2="1"><stop offset="0" stop-color="#e7f0e8"/><stop offset="1" stop-color="#bcd7c9"/></linearGradient>
+      <radialGradient id="light" cx=".23" cy=".16" r=".94"><stop stop-color="#fff" stop-opacity=".48"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+      <filter id="soft" x="-50%" y="-200%" width="200%" height="500%"><feGaussianBlur stdDeviation="24"/></filter>
+      <filter id="shadow" x="-35%" y="-60%" width="170%" height="220%"><feDropShadow dx="9" dy="20" stdDeviation="13" flood-color="#282d38" flood-opacity=".2"/></filter>
+      <pattern id="grain" width="17" height="11" patternUnits="userSpaceOnUse"><path d="M2 3h1m6 2h1m3 4h1m-10 0h1m10-8h1" stroke="#433c45" stroke-width=".45" opacity=".24"/><path d="M4 6h1m7-4h1m-6 8h1m6-3h1" stroke="#fff" stroke-width=".55" opacity=".34"/></pattern>
+      <linearGradient id="bottle" x2="1" y2="0"><stop offset="0" stop-color="#6fb7a4"/><stop offset="0.23" stop-color="#a8dfce"/><stop offset="0.47" stop-color="#c2ead9"/><stop offset="0.75" stop-color="#81c8b4"/><stop offset="1" stop-color="#5ea594"/></linearGradient><linearGradient id="glass" x2="1" y2="0"><stop offset="0" stop-color="#f6f9e9"/><stop offset="0.36" stop-color="#d7eade"/><stop offset="0.77" stop-color="#b4d5cb"/><stop offset="1" stop-color="#7bac9d"/></linearGradient><linearGradient id="paper" x2="1" y2="0"><stop offset="0" stop-color="#deece0"/><stop offset="0.42" stop-color="#f9f8e7"/><stop offset="1" stop-color="#d1e3d3"/></linearGradient>
+    </defs>
+    <path d="M0 0h720v720H0z" fill="url(#backdrop)"/>
+    <path d="M0 0h720v720H0z" fill="url(#light)"/>
+    <path d="M0 0h720v720H0z" fill="url(#grain)" opacity=".48"/>
+    
+<ellipse cx="366" cy="573" rx="184" ry="35" fill="#254c42" opacity=".25" filter="url(#soft)"/>
+<g transform="rotate(-9 359 365)" filter="url(#shadow)">
+  <path d="M248 264c0-37 20-58 45-71l8-7h117l10 7c26 13 45 34 45 71v278c0 29-43 46-113 46s-112-18-112-46V264Z" fill="url(#bottle)" stroke="#579f8e" stroke-opacity=".55" stroke-width="2"/>
+  <path d="M251 528c24 28 183 37 219 0v15c0 28-40 44-109 44s-109-17-110-44Z" fill="#559f90" opacity=".37"/>
+  <path d="M263 267c7-31 22-51 49-66m-46 80v223" fill="none" stroke="#edf9e8" stroke-width="4.5" stroke-linecap="round" opacity=".65"/>
+  <path d="M280 327c37-13 113-13 165 0v132c-49 14-123 14-165 0Z" fill="url(#paper)"/>
+  <path d="M296 345h18m-18 8h27m-27 87h32m-32 8h21" stroke="#477b70" stroke-width="2" opacity=".7"/>
+  <path d="M333 399c18-37 38-41 63-16-21-2-28 35-63 16Z" fill="#70b9a3"/>
+  <path d="M333 404c17-15 35-22 61-21" fill="none" stroke="#39766a" stroke-width="1.5"/>
+  <path d="M297 132c0-15 29-24 63-24 35 0 63 9 63 24v95c0 12-28 23-63 23s-63-11-63-23Z" fill="url(#glass)" stroke="#98b8a8" stroke-width="2"/>
+  <ellipse cx="360" cy="131" rx="63" ry="23" fill="#dceae0"/>
+  <ellipse cx="359" cy="129" rx="50" ry="15" fill="#edf3e4" opacity=".79"/>
+  <path d="M310 146v73c8 7 22 11 34 12" stroke="#f7f8ee" stroke-width="3" opacity=".7" fill="none"/>
+  <path d="M364 164c19 1 29-3 36-8v42c-7 8-21 11-36 10Z" fill="#6aafa0" opacity=".26"/>
+  <path d="M251 267c32 23 173 31 217 3" stroke="#f2f5e7" stroke-opacity=".21" stroke-width="2" fill="none"/>
+</g>
+    </svg>

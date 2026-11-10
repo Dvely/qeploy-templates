@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+    <title id="title">그린 러기지 태그</title><desc id="desc">올리브 녹색 직조 태그와 은빛 고리 버클.</desc>
+    <defs>
+      <linearGradient id="backdrop" x2="1" y2="1"><stop offset="0" stop-color="#ebeee0"/><stop offset="1" stop-color="#c9d4bb"/></linearGradient>
+      <radialGradient id="light" cx=".23" cy=".16" r=".94"><stop stop-color="#fff" stop-opacity=".48"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+      <filter id="soft" x="-50%" y="-200%" width="200%" height="500%"><feGaussianBlur stdDeviation="24"/></filter>
+      <filter id="shadow" x="-35%" y="-60%" width="170%" height="220%"><feDropShadow dx="9" dy="20" stdDeviation="13" flood-color="#282d38" flood-opacity=".2"/></filter>
+      <pattern id="grain" width="17" height="11" patternUnits="userSpaceOnUse"><path d="M2 3h1m6 2h1m3 4h1m-10 0h1m10-8h1" stroke="#433c45" stroke-width=".45" opacity=".24"/><path d="M4 6h1m7-4h1m-6 8h1m6-3h1" stroke="#fff" stroke-width=".55" opacity=".34"/></pattern>
+      <linearGradient id="strap" x2="1" y2="1"><stop offset="0" stop-color="#597358"/><stop offset="0.43" stop-color="#83966d"/><stop offset="1" stop-color="#465e4b"/></linearGradient><linearGradient id="body" x2="1" y2="1"><stop offset="0" stop-color="#9ba879"/><stop offset="0.42" stop-color="#789168"/><stop offset="0.76" stop-color="#68815e"/><stop offset="1" stop-color="#536b50"/></linearGradient><linearGradient id="metal" x2="1" y2="1"><stop offset="0" stop-color="#555e60"/><stop offset="0.29" stop-color="#e8e9dc"/><stop offset="0.5" stop-color="#a7b1ae"/><stop offset="0.69" stop-color="#faf1d8"/><stop offset="1" stop-color="#73807e"/></linearGradient><linearGradient id="insert" x2="1" y2="1"><stop offset="0" stop-color="#f2e9ca"/><stop offset="0.52" stop-color="#f8f0d5"/><stop offset="1" stop-color="#d4d3ac"/></linearGradient><pattern id="weave" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M0 1h7M0 5h7" stroke="#dfddad" stroke-width=".55" opacity=".45"/><path d="M1 0v7M5 0v7" stroke="#374b3e" stroke-width=".55" opacity=".36"/></pattern>
+    </defs>
+    <path d="M0 0h720v720H0z" fill="url(#backdrop)"/>
+    <path d="M0 0h720v720H0z" fill="url(#light)"/>
+    <path d="M0 0h720v720H0z" fill="url(#grain)" opacity=".48"/>
+    
+<ellipse cx="374" cy="572" rx="198" ry="45" fill="#4d684e" opacity=".27" filter="url(#soft)" transform="rotate(-9 374 572)"/>
+<g transform="rotate(-17 360 366)" filter="url(#shadow)">
+ <path d="M339 302c-29-19-70-54-90-96-17-36-8-76 19-95 38-28 102-12 132 36 27 43 18 101-11 151l-30-17c24-44 28-85 8-117-20-30-60-42-80-25-14 11-15 33-6 53 17 32 54 66 76 82Z" fill="url(#strap)" stroke="#495d4b" stroke-width="2"/>
+ <path d="M339 302c-29-19-70-54-90-96-17-36-8-76 19-95 38-28 102-12 132 36 27 43 18 101-11 151l-30-17c24-44 28-85 8-117-20-30-60-42-80-25-14 11-15 33-6 53 17 32 54 66 76 82Z" fill="url(#weave)" opacity=".77"/>
+ <path d="M337 289c-29-20-62-51-78-85-15-31-9-63 11-81m104 40c22 38 14 83-6 117" fill="none" stroke="#d7deb7" stroke-width="1.8" stroke-dasharray="3 4" opacity=".78"/>
+ <g transform="rotate(12 397 239)">
+  <rect x="371" y="213" width="57" height="52" rx="11" fill="none" stroke="#526362" stroke-width="10"/>
+  <rect x="369" y="210" width="57" height="52" rx="11" fill="none" stroke="url(#metal)" stroke-width="8"/>
+  <path d="M372 236h45" stroke="url(#metal)" stroke-width="6" stroke-linecap="round"/>
+ </g>
+ <path d="M255 322c0-11 8-20 16-25l67-42c13-8 29-8 42 0l67 42c9 5 16 14 16 25v233c0 19-15 35-35 35H291c-20 0-36-16-36-35Z" fill="#435d47" stroke="#405344" stroke-width="2"/>
+ <path d="M247 314c0-11 8-20 16-25l67-42c13-8 29-8 42 0l67 42c9 5 16 14 16 25v233c0 19-15 35-35 35H283c-20 0-36-16-36-35Z" fill="url(#body)" stroke="#597052" stroke-width="2"/>
+ <path d="M247 314c0-11 8-20 16-25l67-42c13-8 29-8 42 0l67 42c9 5 16 14 16 25v233c0 19-15 35-35 35H283c-20 0-36-16-36-35Z" fill="url(#weave)"/>
+ <path d="M258 318c0-8 5-13 13-18l65-41c10-6 23-6 33 0l64 41c8 5 12 10 12 18v225c0 16-10 29-26 29H283c-15 0-25-13-25-29Z" fill="none" stroke="#d7ddb4" stroke-width="2" stroke-dasharray="3 4" opacity=".75"/>
+ <rect x="327" y="276" width="49" height="19" rx="8" fill="#3e5945" stroke="#bed3a7" stroke-width="2"/>
+ <path d="M338 280h27" stroke="#edeed0" stroke-opacity=".52"/>
+ <rect x="286" y="341" width="131" height="184" rx="9" fill="#607853" stroke="#4c654d" stroke-width="2"/>
+ <rect x="293" y="348" width="117" height="170" rx="7" fill="url(#insert)"/>
+ <path d="M308 368h39m-39 8h25m-25 36h84m-84 22h84m-84 22h84m-84 22h52" stroke="#7e8b6d" stroke-opacity=".75" stroke-width="1.5"/>
+ <path d="M297 352h109v18c-37 6-65 47-109 65Z" fill="#fffde0" opacity=".39"/>
+ <path d="M291 345h121v176H291z" fill="none" stroke="#d0dcaf" stroke-opacity=".61"/>
+</g>
+    </svg>

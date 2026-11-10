@@ -1,0 +1,65 @@
+{
+  "project": "aislegate",
+  "assets": [
+    {
+      "file": "assets/balm.svg",
+      "sha256": "9b207df69ac878024831d395a5b86a0fb6e7969238031e70e466d8984a4a0728",
+      "origin": "original-vector",
+      "record": "assets/vector-notes.md"
+    },
+    {
+      "file": "assets/campaign.jpg",
+      "sha256": "65f37f716fda31d63410d312dc74482dac9c1511c50c7eed918289bc2db13ff6",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/case.jpg",
+      "sha256": "a45c6b68e115a1e407356db3f90e33e16c14fad27a3635335b01c48890cf4501",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/cream.svg",
+      "sha256": "1ef30e55965c1445530b17dfc2656bd99e46dac08ce64af7f98c24d9de2f101e",
+      "origin": "original-vector",
+      "record": "assets/vector-notes.md"
+    },
+    {
+      "file": "assets/glasses.svg",
+      "sha256": "4e383648f54c9d7ec2c428b6356029346b2128a1ec97af39340d592da0917b23",
+      "origin": "original-vector",
+      "record": "assets/vector-notes.md"
+    },
+    {
+      "file": "assets/mark.svg",
+      "sha256": "392d5941200ad33b7e5fea997910f1ad9fe72d1f1fa95ab6fb689b55ae4d5747",
+      "origin": "original-vector",
+      "record": "assets/vector-notes.md"
+    },
+    {
+      "file": "assets/mist.svg",
+      "sha256": "0e60f20a36dd7d05a1e2e67ba3205c61e47ddab0e17d7f892ec14dc068385b0d",
+      "origin": "original-vector",
+      "record": "assets/vector-notes.md"
+    },
+    {
+      "file": "assets/pouch.svg",
+      "sha256": "5a690e75ce5554e2f8ebd04a765b21f590911a0a6d7fd33cd9ab297f769c051f",
+      "origin": "original-vector",
+      "record": "assets/vector-notes.md"
+    },
+    {
+      "file": "assets/scent.jpg",
+      "sha256": "dc60cee4e243c74423f810e876a01c7a0d975b352a50add672b3e0e9b537078d",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/tag.svg",
+      "sha256": "ac9ee5a2449da3c0495d329274e0684ba052d9639b37641071950fd76d2412de",
+      "origin": "original-vector",
+      "record": "assets/vector-notes.md"
+    }
+  ]
+}

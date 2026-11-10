@@ -1,0 +1,19 @@
+{
+  "created": "2026-11-10",
+  "tool": "OpenAI built-in image_gen",
+  "referenceImages": [],
+  "files": [
+    {
+      "file": "assets/campaign.jpg",
+      "prompt": "Use case: ads-marketing. Asset type: landscape homepage banner for a fictional airport travel beauty shop. Original photoreal premium still life: translucent sea-glass green rectangular perfume bottle with blank label, matte mint skincare mist cylinder and a folded ivory paper on a carved pale limestone shelf at the right side. Sunlight filters through tall arched windows, creating distinct soft beams and curved architectural shadows. Dark forest green left half, largely empty for website copy, subject entirely in right half and image edge has forest green space. Sophisticated deep forest green, pale mint, ivory, slightly golden daylight. Wide 16:9 horizontal editorial photograph. No text, no branding, no logo, no watermark, no reference images."
+    },
+    {
+      "file": "assets/scent.jpg",
+      "prompt": "Use case: product-mockup. Asset type: square cosmetic product card. Photoreal premium sea-glass green rectangular perfume bottle with softly curved shoulders, clean opaque forest green cap, unlettered tiny ivory paper label; on mint ivory limestone with shadow from an arch window. 1:1 framing, one bottle centered and entirely visible, subtle green gradients, original physical product design, no text, no logo, no watermark, no reference image."
+    },
+    {
+      "file": "assets/case.jpg",
+      "prompt": "Use case: product-mockup. Asset type: square fictional premium travel shop product image. A small compact pale sand hard-shell cabin carry-on with shallow horizontal ribs, rounded corners, inset brown handles and four tiny charcoal spinner wheels, original unbranded design, three-quarter angle on the floor of a pale peach studio with diagonal golden window shadows. Centered full object with margin, authentic molded texture, no text or logo or watermark, no reference image."
+    }
+  ]
+}

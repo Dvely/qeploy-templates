@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+    <title id="title">샌드 트래블 파우치</title><desc id="desc">모래색 직물과 금속 지퍼를 그린 여행용 파우치.</desc>
+    <defs>
+      <linearGradient id="backdrop" x2="1" y2="1"><stop offset="0" stop-color="#f3ecdf"/><stop offset="1" stop-color="#d9c3a6"/></linearGradient>
+      <radialGradient id="light" cx=".23" cy=".16" r=".94"><stop stop-color="#fff" stop-opacity=".48"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+      <filter id="soft" x="-50%" y="-200%" width="200%" height="500%"><feGaussianBlur stdDeviation="24"/></filter>
+      <filter id="shadow" x="-35%" y="-60%" width="170%" height="220%"><feDropShadow dx="9" dy="20" stdDeviation="13" flood-color="#282d38" flood-opacity=".2"/></filter>
+      <pattern id="grain" width="17" height="11" patternUnits="userSpaceOnUse"><path d="M2 3h1m6 2h1m3 4h1m-10 0h1m10-8h1" stroke="#433c45" stroke-width=".45" opacity=".24"/><path d="M4 6h1m7-4h1m-6 8h1m6-3h1" stroke="#fff" stroke-width=".55" opacity=".34"/></pattern>
+      <linearGradient id="fabric" x2="1" y2="1"><stop offset="0" stop-color="#f0d4a7"/><stop offset="0.35" stop-color="#d4b28b"/><stop offset="0.67" stop-color="#c9a57c"/><stop offset="1" stop-color="#a87d5d"/></linearGradient><linearGradient id="rim" x2="1" y2="1"><stop offset="0" stop-color="#a57d59"/><stop offset="0.42" stop-color="#e7c499"/><stop offset="1" stop-color="#b08964"/></linearGradient><linearGradient id="metal" x2="1" y2="1"><stop offset="0" stop-color="#75645c"/><stop offset="0.46" stop-color="#e4d3b0"/><stop offset="1" stop-color="#786b61"/></linearGradient><pattern id="weave" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M1 0v6M4 0v6" stroke="#6b4c3c" stroke-width=".48" opacity=".29"/><path d="M0 1h6M0 4h6" stroke="#fff0cd" stroke-width=".47" opacity=".51"/></pattern>
+    </defs>
+    <path d="M0 0h720v720H0z" fill="url(#backdrop)"/>
+    <path d="M0 0h720v720H0z" fill="url(#light)"/>
+    <path d="M0 0h720v720H0z" fill="url(#grain)" opacity=".48"/>
+    
+<ellipse cx="360" cy="548" rx="245" ry="43" fill="#79573e" opacity=".27" filter="url(#soft)" transform="rotate(-6 360 548)"/>
+<g transform="rotate(-9 358 384)" filter="url(#shadow)">
+  <path d="M515 308c43-35 105-40 117-11 14 33-48 75-111 91l-13-33c45-11 87-33 88-44-14-6-49 13-66 26Z" fill="url(#rim)" stroke="#9c7454" stroke-width="2"/>
+  <path d="M530 321c42-25 73-28 78-20 4 10-11 25-41 43" fill="none" stroke="#fae0b9" stroke-opacity=".64" stroke-width="2" stroke-dasharray="2 4"/>
+  <path d="M151 270c52-21 278-28 354 2 42 17 60 58 63 101l7 89c4 46-34 76-73 80l-293 8c-58 2-105-29-102-77l6-113c2-43 12-79 38-90Z" fill="url(#fabric)" stroke="#ab845f" stroke-width="2"/>
+  <path d="M151 270c52-21 278-28 354 2 42 17 60 58 63 101l7 89c4 46-34 76-73 80l-293 8c-58 2-105-29-102-77l6-113c2-43 12-79 38-90Z" fill="url(#weave)" opacity=".78"/>
+  <path d="M122 347c15-48 26-55 61-62 59-12 254-12 311 8 36 13 52 33 59 61M121 477c16 43 56 60 93 59l289-9c30-2 54-20 65-48" fill="none" stroke="#8a614d" stroke-width="2.2" stroke-dasharray="2 5" opacity=".8"/>
+  <path d="M140 285c56-19 263-20 359 4 16 4 25 14 36 26-42-14-121-24-214-23-76 1-146 4-181 16Z" fill="#785b4b"/>
+  <path d="M144 292c67-16 251-18 349 4 13 3 26 9 35 14" stroke="#d0b48a" stroke-width="4" stroke-dasharray="2 3" fill="none"/>
+  <path d="M461 288l27 5-4 13-28-4z" fill="url(#metal)" stroke="#6e5b4e"/>
+  <path d="M466 302c1 8-11 25-24 38-5 5-15 2-16-3 6-13 20-34 29-38z" fill="url(#metal)" stroke="#806855"/>
+  <rect x="244" y="377" width="184" height="78" rx="4" fill="#d0ae84" stroke="#9c7555" stroke-opacity=".68"/>
+  <rect x="251" y="384" width="170" height="64" rx="2" fill="none" stroke="#eed5a8" stroke-dasharray="3 3"/>
+  <path d="M310 430v-16l19-12v8l-11 7v13zm21 0v-12l16-10 10 7v15h-8v-11l-3-2-7 5v8z" fill="#815a44" opacity=".76"/>
+</g>
+    </svg>

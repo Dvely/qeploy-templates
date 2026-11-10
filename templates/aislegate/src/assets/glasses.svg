@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+    <title id="title">다크 토터스 선글라스</title><desc id="desc">짙은 갈색 얼룩 무늬 프레임과 반사광을 그린 선글라스.</desc>
+    <defs>
+      <linearGradient id="backdrop" x2="1" y2="1"><stop offset="0" stop-color="#ece8e0"/><stop offset="1" stop-color="#c7beb4"/></linearGradient>
+      <radialGradient id="light" cx=".23" cy=".16" r=".94"><stop stop-color="#fff" stop-opacity=".48"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+      <filter id="soft" x="-50%" y="-200%" width="200%" height="500%"><feGaussianBlur stdDeviation="24"/></filter>
+      <filter id="shadow" x="-35%" y="-60%" width="170%" height="220%"><feDropShadow dx="9" dy="20" stdDeviation="13" flood-color="#282d38" flood-opacity=".2"/></filter>
+      <pattern id="grain" width="17" height="11" patternUnits="userSpaceOnUse"><path d="M2 3h1m6 2h1m3 4h1m-10 0h1m10-8h1" stroke="#433c45" stroke-width=".45" opacity=".24"/><path d="M4 6h1m7-4h1m-6 8h1m6-3h1" stroke="#fff" stroke-width=".55" opacity=".34"/></pattern>
+      <linearGradient id="frame" x2="1" y2="1"><stop offset="0" stop-color="#281d24"/><stop offset="0.36" stop-color="#764838"/><stop offset="0.67" stop-color="#492a28"/><stop offset="1" stop-color="#201c23"/></linearGradient><linearGradient id="lens" x2="1" y2="1"><stop offset="0" stop-color="#88706a"/><stop offset="0.31" stop-color="#63535a"/><stop offset="0.7" stop-color="#382d35"/><stop offset="1" stop-color="#292832"/></linearGradient><linearGradient id="shine" x2="1" y2="1"><stop offset="0" stop-color="#e5c9ae"/><stop offset="0.35" stop-color="#a78b82"/><stop offset="1" stop-color="#85707a"/></linearGradient><clipPath id="front"><path d="M84 324c23-42 142-58 231-19 13 6 21 12 29 21 14-5 27-5 40 1 10-9 24-16 39-21 76-26 164-25 211 5 19 12 25 30 21 54l-14 67c-14 56-39 85-97 92-77 9-130-18-156-62-12-20-18-50-20-69-5-11-19-11-26 0-3 32-14 65-40 89-32 28-84 43-140 30-39-9-64-42-74-84l-16-67c-4-17-4-28 2-37Z"/></clipPath>
+    </defs>
+    <path d="M0 0h720v720H0z" fill="url(#backdrop)"/>
+    <path d="M0 0h720v720H0z" fill="url(#light)"/>
+    <path d="M0 0h720v720H0z" fill="url(#grain)" opacity=".48"/>
+    
+<ellipse cx="371" cy="502" rx="264" ry="52" fill="#39282a" opacity=".29" filter="url(#soft)" transform="rotate(-7 371 502)"/>
+<g transform="rotate(-10 358 393)" filter="url(#shadow)">
+  <path d="M91 353 200 235c12-14 32-25 46-25h210c13 0 32 7 41 16l116 105-30 11-112-86c-11-8-22-12-31-12H256c-13 0-23 7-30 16l-89 103Z" fill="#423238"/>
+  <path d="M204 239c12-14 31-24 45-24h207c13 0 33 7 41 15" fill="none" stroke="#b3937c" stroke-opacity=".67" stroke-width="4"/>
+  <path d="M84 324c23-42 142-58 231-19 13 6 21 12 29 21 14-5 27-5 40 1 10-9 24-16 39-21 76-26 164-25 211 5 19 12 25 30 21 54l-14 67c-14 56-39 85-97 92-77 9-130-18-156-62-12-20-18-50-20-69-5-11-19-11-26 0-3 32-14 65-40 89-32 28-84 43-140 30-39-9-64-42-74-84l-16-67c-4-17-4-28 2-37Z" fill="url(#frame)" stroke="#281d23" stroke-width="3"/>
+  <g clip-path="url(#front)" fill="#aa6c43" opacity=".56">
+    <path d="M70 355q24-42 63-30t71-33h23q-6 26-38 38t-28 48q4 31-19 33t-40-27Zm112 151q36-42 71-36t39-17q29-24 37 8t-33 70Zm116-209q27 25 32 50t28 25q27 6 39-33t50-33l-40-26Zm185 11q16 36 58 31t51 15q10 35 40 21t54 5l-1-65-96-30Zm-83 182q50-31 83-12t55 8q20-14 39 2t45 1l-21 44-127 17Z"/>
+  </g>
+  <path d="M104 340c19-28 116-41 185-15 21 8 35 24 34 44-2 39-15 76-42 100-31 28-74 36-116 26-31-7-51-32-59-67l-13-60c-4-15 0-21 11-28Z" fill="url(#lens)" stroke="#261d25" stroke-width="3"/>
+  <path d="M421 328c65-25 150-26 195-3 16 8 23 20 19 38l-11 58c-10 49-32 75-78 80-65 7-111-13-135-50-16-25-19-49-21-71-2-25 8-42 31-52Z" fill="url(#lens)" stroke="#261d25" stroke-width="3"/>
+  <path d="M103 344c32-29 119-36 182-13 18 7 27 16 30 23-63-17-150-11-205 30l-10-15c-4-10-3-19 3-25Zm320-11c61-23 142-24 186-4 15 7 19 14 20 22-72-19-164-8-232 39-2-24 4-46 26-57Z" fill="url(#shine)" opacity=".43"/>
+  <path d="M85 331c11-20 50-30 74-32m414 2c37 1 66 17 73 29" fill="none" stroke="#f0c49f" stroke-width="2.5" opacity=".59" stroke-linecap="round"/>
+  <g fill="#e0bd94"><circle cx="91" cy="351" r="3.5"/><circle cx="643" cy="347" r="3.5"/></g>
+</g>
+    </svg>

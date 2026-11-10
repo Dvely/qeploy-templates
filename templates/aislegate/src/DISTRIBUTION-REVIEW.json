@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "project": "aislegate",
+  "status": "reviewed",
+  "reviewDate": "2026-11-10",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "43ee1cf9792334ce0c8b31b63bef2ab352054526befc4e415d29d2c548d3a3ed",
+      "origin": "reviewed-project-source"
+    },
+    "assets/balm.svg": {
+      "sha256": "9b207df69ac878024831d395a5b86a0fb6e7969238031e70e466d8984a4a0728",
+      "origin": "original-vector"
+    },
+    "assets/campaign.jpg": {
+      "sha256": "65f37f716fda31d63410d312dc74482dac9c1511c50c7eed918289bc2db13ff6",
+      "origin": "documented-ai-generation"
+    },
+    "assets/case.jpg": {
+      "sha256": "a45c6b68e115a1e407356db3f90e33e16c14fad27a3635335b01c48890cf4501",
+      "origin": "documented-ai-generation"
+    },
+    "assets/cream.svg": {
+      "sha256": "1ef30e55965c1445530b17dfc2656bd99e46dac08ce64af7f98c24d9de2f101e",
+      "origin": "original-vector"
+    },
+    "assets/glasses.svg": {
+      "sha256": "4e383648f54c9d7ec2c428b6356029346b2128a1ec97af39340d592da0917b23",
+      "origin": "original-vector"
+    },
+    "assets/mark.svg": {
+      "sha256": "392d5941200ad33b7e5fea997910f1ad9fe72d1f1fa95ab6fb689b55ae4d5747",
+      "origin": "original-vector"
+    },
+    "assets/mist.svg": {
+      "sha256": "0e60f20a36dd7d05a1e2e67ba3205c61e47ddab0e17d7f892ec14dc068385b0d",
+      "origin": "original-vector"
+    },
+    "assets/pouch.svg": {
+      "sha256": "5a690e75ce5554e2f8ebd04a765b21f590911a0a6d7fd33cd9ab297f769c051f",
+      "origin": "original-vector"
+    },
+    "assets/scent.jpg": {
+      "sha256": "dc60cee4e243c74423f810e876a01c7a0d975b352a50add672b3e0e9b537078d",
+      "origin": "documented-ai-generation"
+    },
+    "assets/tag.svg": {
+      "sha256": "ac9ee5a2449da3c0495d329274e0684ba052d9639b37641071950fd76d2412de",
+      "origin": "original-vector"
+    },
+    "assets/vector-notes.md": {
+      "sha256": "5f27c632c738a17fc8b4e9d69c5a72e9eb082fb96c806ed82ee8fdc64d46781e",
+      "origin": "reviewed-project-source"
+    },
+    "build.mjs": {
+      "sha256": "1009f18f0d88ec0b14aeb6e8bd4a62a2b66ef43680981b1b27b4cb60c3fe1ef9",
+      "origin": "reviewed-project-source"
+    },
+    "cart.html": {
+      "sha256": "6d13ca19ee7c89ab9580692e33d80bae4217f8be35cdb7f467e5c2edda873e5c",
+      "origin": "reviewed-project-source"
+    },
+    "catalog.html": {
+      "sha256": "c1cff147002aeb14d9a71633cf15612c476285092f878b595c63cfc11df085e7",
+      "origin": "reviewed-project-source"
+    },
+    "catalog.mjs": {
+      "sha256": "2cdaea652996b1e04a94e1ec8f2d0ada8a54b8a98a0c9c421f109b1a1a99a409",
+      "origin": "reviewed-project-source"
+    },
+    "guide.html": {
+      "sha256": "f00cca5250a324e2c87f32ba4f329934f22518085da9675a66f222fb2b6bab4d",
+      "origin": "reviewed-project-source"
+    },
+    "image-prompts.json": {
+      "sha256": "606094cd044a75d9d197f36965719d074329c3bb2c611a76fa1f70ea2fd2099b",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "80f9b2369125ebb4358765bf184e8c0c96f0b121a2b78c77d8a54df7c217d3a5",
+      "origin": "reviewed-project-source"
+    },
+    "offer-cabin.html": {
+      "sha256": "c4e5126ff72dc115347ec588531744bf6699259412c8b98a941e0a2b53c9770c",
+      "origin": "reviewed-project-source"
+    },
+    "offer-fragrance.html": {
+      "sha256": "4ff615bf16194444518f4971e96c51f7a01c6a2616bcb52fa8569621c2789e47",
+      "origin": "reviewed-project-source"
+    },
+    "offer-green.html": {
+      "sha256": "9a8f597c55d5669203dcdbc09adb03df5b56b149443dbeaf1c979c8a8d3b2606",
+      "origin": "reviewed-project-source"
+    },
+    "offers.html": {
+      "sha256": "ada2d3c2f7481911b34bf0f64d3baadfb359cce198f1261979aea0354536f43a",
+      "origin": "reviewed-project-source"
+    },
+    "pickup.html": {
+      "sha256": "45ccdc7a87957f1fc83fcdddb7cff9fd90e0838eed4f8505d09a97aa20890f21",
+      "origin": "reviewed-project-source"
+    },
+    "product-balm.html": {
+      "sha256": "8c1019d7948a4f594ff7afe07b1b56fe755d3de591d504d0287194e68f7515a5",
+      "origin": "reviewed-project-source"
+    },
+    "product-case.html": {
+      "sha256": "12722edafe51b7637a93d2a55aa386797ca0c652b708a4df7edab9c6227cc3fc",
+      "origin": "reviewed-project-source"
+    },
+    "product-cream.html": {
+      "sha256": "98a7bbf5d16d3f571019e0768062f3ed98e0b57edbfd0d8317c431fa30bdf10d",
+      "origin": "reviewed-project-source"
+    },
+    "product-glass.html": {
+      "sha256": "4468edee1abea983b7def5ddef564b1edd46846531ac4f1e8d2b9ed2268c5ee5",
+      "origin": "reviewed-project-source"
+    },
+    "product-glasses.html": {
+      "sha256": "c7b4d27bb6641e7a2d507fb149cf929d21c3770c674d34c5a5bf5f592157b57d",
+      "origin": "reviewed-project-source"
+    },
+    "product-mist.html": {
+      "sha256": "f88275775640af24fe0d2a4fd9e443b1b1d16a01c652988be92b02327dba0201",
+      "origin": "reviewed-project-source"
+    },
+    "product-pouch.html": {
+      "sha256": "c1fa70716a03a50d55285d1c1781ea39daff0edbce5fe4a96a5452368fd8183a",
+      "origin": "reviewed-project-source"
+    },
+    "product-tag.html": {
+      "sha256": "40bcf038bf271b3416270f09892ac32788a718786dbfbc3497b18ee55b45b16c",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "26f23bbe86d70ab5c7301bcd612764fa7f46ea2ee4f71fdbaa05842daa74f1af",
+      "origin": "reviewed-project-source"
+    },
+    "recent.html": {
+      "sha256": "694f7a65772d2c656094a22a06d0719d8d6557910ea11f87f50bcb7788f71d9f",
+      "origin": "reviewed-project-source"
+    },
+    "saved.html": {
+      "sha256": "49ff344a3475f3ea60b169e573e4a5498296141cf399ae0370e19e458865b4f3",
+      "origin": "reviewed-project-source"
+    },
+    "site.css": {
+      "sha256": "c6f00b54d9bd28005047ed1e66a9dab3eec631fdd80b5004b724f4a96e2349ac",
+      "origin": "reviewed-project-source"
+    },
+    "site.js": {
+      "sha256": "c1be86592f4b7d562e8caefe956a55f1509de9ad7a9481ee9a7433cfee7b1a47",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "be1c6039c0c6e7732feaea1da4dbf2ab33a4f9fb8edd3612671bc2f3b2b3360d",
+      "origin": "reviewed-project-source"
+    }
+  }
+}
