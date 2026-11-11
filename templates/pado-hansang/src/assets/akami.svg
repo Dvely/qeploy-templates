@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+<title id="title">참다랑어 아카미</title><desc id="desc">진한 루비색 아카미 조각을 짙은 청회색 트레이에 차곡차곡 담았다.</desc>
+<defs>
+ <linearGradient id="backdrop" x2="1" y2="1"><stop offset="0" stop-color="#f2eee5"/><stop offset="1" stop-color="#d7dce0"/></linearGradient>
+ <radialGradient id="light" cx=".2" cy=".12" r=".95"><stop stop-color="#fff" stop-opacity=".43"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+ <pattern id="paper-grain" width="19" height="13" patternUnits="userSpaceOnUse"><path d="M2 3h2m6 3h1m4 4h1m-11 1h1m7-10h1" fill="none" stroke="#494041" stroke-width=".6" opacity=".18"/><path d="M1 8h1m7-6h1m1 8h1m4-5h2" fill="none" stroke="#fff" stroke-width=".8" opacity=".44"/></pattern>
+ <filter id="blur" x="-50%" y="-150%" width="200%" height="400%"><feGaussianBlur stdDeviation="22"/></filter>
+ <filter id="shadow" x="-30%" y="-55%" width="160%" height="220%"><feDropShadow dx="4" dy="12" stdDeviation="9" flood-color="#192631" flood-opacity=".24"/></filter>
+ <linearGradient id="tray" x2="1" y2="1"><stop offset="0" stop-color="#526477"/><stop offset="1" stop-color="#283e51"/></linearGradient><linearGradient id="lining" x2="1" y2="1"><stop offset="0" stop-color="#3b4b5b"/><stop offset="1" stop-color="#28394a"/></linearGradient><linearGradient id="meat" x2="1" y2="1"><stop offset="0" stop-color="#c75e69"/><stop offset="0.34" stop-color="#a44452"/><stop offset="0.72" stop-color="#7c3549"/><stop offset="1" stop-color="#642d40"/></linearGradient>
+</defs>
+<path d="M0 0h720v720H0z" fill="url(#backdrop)"/>
+<path d="M0 0h720v720H0z" fill="url(#light)"/>
+<path d="M0 0h720v720H0z" fill="url(#paper-grain)" opacity=".52"/>
+<ellipse cx="360" cy="552" rx="267" ry="55" fill="#2f4258" opacity=".27" filter="url(#blur)" transform="rotate(-9 360 552)"/>
+<g transform="rotate(-10 360 360)">
+<g filter="url(#shadow)">
+ <rect x="101" y="174" width="520" height="402" rx="32" fill="#263744"/>
+ <rect x="95" y="161" width="524" height="402" rx="32" fill="url(#tray)"/>
+ <rect x="111" y="177" width="492" height="370" rx="24" fill="url(#lining)" stroke="#95a8aa" stroke-opacity=".42" stroke-width="1.5"/>
+ <rect x="115" y="181" width="484" height="362" rx="20" fill="none" stroke="#e0ded0" stroke-opacity=".15"/>
+ <path d="M128 166h456c16 0 28 11 31 24" stroke="#c6cdd1" stroke-opacity=".48" stroke-width="2" fill="none"/>
+</g>
+<path d="M132 217c153 3 308 96 444 233v77H135Z" fill="#243a4b" opacity=".32"/>
+<g filter="url(#shadow)">
+ <g transform="translate(247 286) rotate(-12)">
+<path d="M-89-32c4-21 23-26 43-26l120 3c16 1 26 10 25 26l-4 63c-1 14-13 25-27 27l-133 4c-15 0-23-12-24-23Z" fill="#5a2735"/>
+<path d="M-94-44c4-18 24-23 43-23l126 2c16 1 24 10 24 26l-4 62c-1 16-12 25-26 26l-134 5c-16 0-25-9-27-24Z" fill="url(#meat)" stroke="#ae565d" stroke-opacity=".65" stroke-width="1.2"/>
+<path d="M-86-40c30-11 89-14 165-4m-160 14c50-9 115-10 167-3m-169 14c54-6 117-5 165-4m-165 16c60-8 115-5 168-4m-164 16c62-5 115-3 158-4m-159 16c53-7 98-4 155-5m-152 16c51-6 96-2 144-3m-137 13c45-5 98-3 131-4" fill="none" stroke="#e58d85" stroke-width="1.55" stroke-linecap="round" opacity=".43"/>
+<path d="M-86-49c21-13 106-16 161-9" fill="none" stroke="#f1a39c" stroke-width="2.3" stroke-linecap="round" opacity=".65"/>
+</g>
+ <g transform="translate(301 322) rotate(-11)">
+<path d="M-89-32c4-21 23-26 43-26l120 3c16 1 26 10 25 26l-4 63c-1 14-13 25-27 27l-133 4c-15 0-23-12-24-23Z" fill="#5a2735"/>
+<path d="M-94-44c4-18 24-23 43-23l126 2c16 1 24 10 24 26l-4 62c-1 16-12 25-26 26l-134 5c-16 0-25-9-27-24Z" fill="url(#meat)" stroke="#ae565d" stroke-opacity=".65" stroke-width="1.2"/>
+<path d="M-86-40c30-11 89-14 165-4m-160 14c50-9 115-10 167-3m-169 14c54-6 117-5 165-4m-165 16c60-8 115-5 168-4m-164 16c62-5 115-3 158-4m-159 16c53-7 98-4 155-5m-152 16c51-6 96-2 144-3m-137 13c45-5 98-3 131-4" fill="none" stroke="#e58d85" stroke-width="1.55" stroke-linecap="round" opacity=".43"/>
+<path d="M-86-49c21-13 106-16 161-9" fill="none" stroke="#f1a39c" stroke-width="2.3" stroke-linecap="round" opacity=".65"/>
+</g>
+ <g transform="translate(355 359) rotate(-10)">
+<path d="M-89-32c4-21 23-26 43-26l120 3c16 1 26 10 25 26l-4 63c-1 14-13 25-27 27l-133 4c-15 0-23-12-24-23Z" fill="#5a2735"/>
+<path d="M-94-44c4-18 24-23 43-23l126 2c16 1 24 10 24 26l-4 62c-1 16-12 25-26 26l-134 5c-16 0-25-9-27-24Z" fill="url(#meat)" stroke="#ae565d" stroke-opacity=".65" stroke-width="1.2"/>
+<path d="M-86-40c30-11 89-14 165-4m-160 14c50-9 115-10 167-3m-169 14c54-6 117-5 165-4m-165 16c60-8 115-5 168-4m-164 16c62-5 115-3 158-4m-159 16c53-7 98-4 155-5m-152 16c51-6 96-2 144-3m-137 13c45-5 98-3 131-4" fill="none" stroke="#e58d85" stroke-width="1.55" stroke-linecap="round" opacity=".43"/>
+<path d="M-86-49c21-13 106-16 161-9" fill="none" stroke="#f1a39c" stroke-width="2.3" stroke-linecap="round" opacity=".65"/>
+</g>
+ <g transform="translate(408 396) rotate(-9)">
+<path d="M-89-32c4-21 23-26 43-26l120 3c16 1 26 10 25 26l-4 63c-1 14-13 25-27 27l-133 4c-15 0-23-12-24-23Z" fill="#5a2735"/>
+<path d="M-94-44c4-18 24-23 43-23l126 2c16 1 24 10 24 26l-4 62c-1 16-12 25-26 26l-134 5c-16 0-25-9-27-24Z" fill="url(#meat)" stroke="#ae565d" stroke-opacity=".65" stroke-width="1.2"/>
+<path d="M-86-40c30-11 89-14 165-4m-160 14c50-9 115-10 167-3m-169 14c54-6 117-5 165-4m-165 16c60-8 115-5 168-4m-164 16c62-5 115-3 158-4m-159 16c53-7 98-4 155-5m-152 16c51-6 96-2 144-3m-137 13c45-5 98-3 131-4" fill="none" stroke="#e58d85" stroke-width="1.55" stroke-linecap="round" opacity=".43"/>
+<path d="M-86-49c21-13 106-16 161-9" fill="none" stroke="#f1a39c" stroke-width="2.3" stroke-linecap="round" opacity=".65"/>
+</g>
+ <g transform="translate(461 434) rotate(-8)">
+<path d="M-89-32c4-21 23-26 43-26l120 3c16 1 26 10 25 26l-4 63c-1 14-13 25-27 27l-133 4c-15 0-23-12-24-23Z" fill="#5a2735"/>
+<path d="M-94-44c4-18 24-23 43-23l126 2c16 1 24 10 24 26l-4 62c-1 16-12 25-26 26l-134 5c-16 0-25-9-27-24Z" fill="url(#meat)" stroke="#ae565d" stroke-opacity=".65" stroke-width="1.2"/>
+<path d="M-86-40c30-11 89-14 165-4m-160 14c50-9 115-10 167-3m-169 14c54-6 117-5 165-4m-165 16c60-8 115-5 168-4m-164 16c62-5 115-3 158-4m-159 16c53-7 98-4 155-5m-152 16c51-6 96-2 144-3m-137 13c45-5 98-3 131-4" fill="none" stroke="#e58d85" stroke-width="1.55" stroke-linecap="round" opacity=".43"/>
+<path d="M-86-49c21-13 106-16 161-9" fill="none" stroke="#f1a39c" stroke-width="2.3" stroke-linecap="round" opacity=".65"/>
+</g>
+</g>
+<g transform="translate(151 453) rotate(-2)">
+<g transform="translate(0 0)">
+ <rect x="1" y="3" width="124" height="76" rx="3" fill="#15232d" opacity=".22"/>
+ <rect width="124" height="76" rx="3" fill="#f5eddb"/>
+ <rect width="124" height="76" rx="3" fill="url(#paper-grain)" opacity=".68"/>
+ <path d="M13 50c10 2 14-10 24-10 5 0 9 4 14 3-4 9-10 14-19 14-8 0-15-3-19-7Z" fill="#3063b2"/>
+ <circle cx="44" cy="33" r="3" fill="#df8a51"/>
+ <path d="M63 30h46m-46 8h34m-34 10h45m-45 8h25" fill="none" stroke="#5b6470" stroke-width="1.7" stroke-linecap="round" opacity=".59"/>
+</g></g>
+</g>
+</svg>

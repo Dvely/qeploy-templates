@@ -1,0 +1,80 @@
+import {writeFile} from 'node:fs/promises';
+import {fileURLToPath} from 'node:url';
+import {categories,products,recipes,notes,money,byId} from './catalog.mjs';
+const dir=new URL('./',import.meta.url);
+const esc=v=>String(v).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
+const glyphs={
+ search:'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/>',bag:'<path d="M5 9h14l1 12H4L5 9Z"/><path d="M9 11V7a3 3 0 0 1 6 0v4"/>',
+ heart:'<path d="M12 20.5 4.6 13a4.5 4.5 0 0 1 7.4-5 4.5 4.5 0 0 1 7.4 5Z"/>',menu:'<path d="M4 6h16M4 12h16M4 18h16"/>',close:'<path d="m6 6 12 12M6 18 18 6"/>',
+ gift:'<path d="M4 10h16v10H4zm-1-4h18v4H3zm9 0v14M12 6c-4 0-5-5-2-4 2 1 2 4 2 4Zm0 0c4 0 5-5 2-4-2 1-2 4-2 4Z"/>',
+ tuna:'<path d="M4 12c4-6 10-6 14-1l4-3v8l-4-3c-4 5-10 5-14-1Z"/><path d="M8 11h.01"/>',
+ salmon:'<path d="M3 14 8 6l10 2 3 8-6 4H7zm4-1 7 5m-3-8 7 5"/>',
+ seafood:'<path d="M3 19c1-7 5-12 9-12s8 5 9 12H3Zm9-9v9M8 11l1 8m7-8-1 8"/>',
+ pantry:'<path d="M8 4h8v4H8zm0 4-2 3v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-8l-2-3M8 13h8v4H8"/>',
+ recipe:'<path d="M6 3h12v18H6zm3 5h6m-6 4h6m-6 4h4"/>'
+};
+const icon=name=>'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">'+glyphs[name]+'</svg>';
+const brand='<img src="assets/mark.svg" alt="" width="41" height="41"><span>파도한상<small>PADO HANSANG</small></span>';
+const links=[['catalog.html','전체 상품'],['catalog.html?cat=best','베스트'],['recipes.html','레시피'],['notes.html','바다 노트'],['guide.html','이용 안내']];
+const nav=()=>links.map(([url,t])=>'<a href="'+url+'">'+t+'</a>').join('');
+const searchForm=(id,cls='')=>'<form class="search-form '+cls+'" action="catalog.html"><label class="sr" for="'+id+'">상품 검색어</label><input id="'+id+'" name="q" type="search" maxlength="80" placeholder="참치, 연어, 선물세트"><button type="submit" aria-label="검색 실행">'+icon('search')+'</button></form>';
+const close=t=>'<button type="button" class="icon-button" data-close aria-label="'+t+'">'+icon('close')+'</button>';
+function header(){
+ return '<a class="skip" href="#main">본문 바로가기</a><div class="notice"><div class="wrap"><span>오늘 차리는 작은 바다</span><a href="guide.html">쇼핑 시연 · 이용 안내 ↗</a></div></div><header class="site-header"><div class="wrap mast"><a class="brand" href="index.html" aria-label="파도한상 홈">'+brand+'</a>'+searchForm('top-query','top-search')+'<div class="utilities"><button type="button" class="icon-button mobile-search" data-open="search" aria-label="검색 열기">'+icon('search')+'</button><a class="icon-button saved-link" href="saved.html" aria-label="찜한 상품">'+icon('heart')+'</a><a class="icon-button cart-link" href="cart.html" aria-label="장바구니">'+icon('bag')+'<span class="cart-badge" aria-hidden="true">0</span></a><button type="button" class="icon-button mobile-menu" data-open="menu" aria-label="메뉴 열기">'+icon('menu')+'</button></div></div><div class="navline"><div class="wrap navigation"><button type="button" data-open="menu">'+icon('menu')+' 카테고리</button><nav aria-label="주 메뉴">'+nav()+'</nav><a class="gift-nav" href="catalog.html?cat=gift">'+icon('gift')+' 선물세트</a></div></div></header>'
+ +'<dialog id="search" class="dialog" aria-labelledby="search-title"><div class="dialog-head"><h2 id="search-title">어떤 상품을 찾으세요?</h2>'+close('검색 닫기')+'</div>'+searchForm('quick-query')+'<div class="chips"><a href="catalog.html?q=참다랑어">참다랑어</a><a href="catalog.html?cat=salmon">연어</a><a href="catalog.html?cat=gift">선물세트</a></div></dialog>'
+ +'<dialog id="menu" class="dialog drawer" aria-labelledby="menu-title"><div class="dialog-head"><h2 id="menu-title">전체 카테고리</h2>'+close('메뉴 닫기')+'</div><nav aria-label="전체 메뉴">'+Object.entries(categories).map(([k,v])=>'<a href="catalog.html?cat='+k+'">'+v+'</a>').join('')+'<a href="recipes.html">레시피</a><a href="notes.html">바다 노트</a><a href="saved.html">찜한 상품</a><a href="guide.html">이용 안내</a></nav></dialog>';
+}
+const footer=()=>'<footer class="footer"><div class="wrap foot-grid"><div><a class="brand" href="index.html">'+brand+'</a><p>바다의 색으로 채우는 오늘의 식탁.<br>수산물 쇼핑몰 디자인 시연입니다.</p></div><div><h2>둘러보기</h2><a href="catalog.html">전체 상품</a><a href="recipes.html">레시피</a><a href="notes.html">바다 노트</a></div><div><h2>이용 안내</h2><a href="guide.html">자주 묻는 질문</a><a href="saved.html">찜한 상품</a><a href="cart.html">장바구니</a></div><div><h2>학습용 예시 위치</h2><p>서울특별시 구로구 경인로 445<br>동양미래대학교 (08221)</p><p>실제 매장이나 제휴 관계가 아닙니다.</p></div></div><div class="wrap foot-base"><span>© 2026 PADO HANSANG · 창작 콘셉트</span><button type="button" data-top>맨 위로 ↑</button></div></footer>';
+function shell(t,body,page){
+ return '<!doctype html>\n<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#e9f3f1"><meta name="description" content="수산물과 레시피를 둘러보는 파도한상 쇼핑몰 시연"><title>'+esc(t)+(page==='home'?' · 오늘의 바다':' | 파도한상')+'</title><link rel="stylesheet" href="site.css"><link rel="icon" href="assets/mark.svg" type="image/svg+xml"><script src="site.js" defer></script></head><body data-page="'+page+'">'+header()+'<main id="main">'+body+'</main>'+footer()+'<div class="toast" role="status" aria-live="polite"></div><script type="application/json" id="catalog-data">'+JSON.stringify(products).replaceAll('<','\\u003c')+'</script></body></html>\n';
+}
+const eye=t=>'<p class="eyebrow">'+t+'</p>';
+const btn=(u,t,c='primary')=>'<a class="button '+c+'" href="'+u+'">'+t+' <span aria-hidden="true">↗</span></a>';
+const url=p=>'product-'+p.id+'.html';
+const picture=(p,early=false,alt=p.title+' 창작 이미지')=>'<img src="assets/'+p.asset+'" alt="'+esc(alt)+'"'+(p.asset==='campaign.jpg'?' class="tuna-image"':'')+' loading="'+(early?'eager':'lazy')+'" decoding="async">';
+const save=p=>'<button type="button" class="icon-button save" data-save="'+p.id+'" aria-pressed="false" aria-label="'+p.title+' 찜">'+icon('heart')+'</button>';
+const deal=p=>p.list>p.price?'<b class="discount">'+Math.round((p.list-p.price)/p.list*100)+'%</b>':'';
+const old=p=>p.list>p.price?'<del>'+money(p.list)+'</del>':'';
+const card=p=>'<article class="product-card" data-product="'+p.id+'"><div class="product-art" style="--tone:'+p.tone+'"><a href="'+url(p)+'" aria-label="'+p.title+' 상세 보기">'+picture(p)+'</a>'+save(p)+(p.fresh?'<span class="fresh">한상 추천</span>':'')+'</div><div class="product-copy">'+eye(p.artist+' · '+p.format)+'<h3><a href="'+url(p)+'">'+p.title+'</a></h3><div class="prices">'+deal(p)+'<strong>'+money(p.price)+'</strong>'+old(p)+'</div><div class="card-actions"><a class="card-link" href="'+url(p)+'">구성 보기 <span aria-hidden="true">↗</span></a>'+(p.options.length===1?'<button class="icon-button quick-add" type="button" data-quick="'+p.id+'" aria-label="'+p.title+' 장바구니 담기">'+icon('bag')+'</button>':'<a class="icon-button quick-add" href="'+url(p)+'#product-form" aria-label="'+p.title+' 구성 선택">'+icon('bag')+'</a>')+'</div></div></article>';
+const title=(t,h,p)=>'<div class="page-head">'+eye(t)+'<h1>'+h+'</h1><p>'+p+'</p></div>';
+const grid=(ps,id='')=>'<div class="product-grid"'+(id?' id="'+id+'"':'')+'>'+ps.map(card).join('')+'</div>';
+const sectionHead=(t,h,u,a)=>'<div class="section-head"><div>'+eye(t)+'<h2>'+h+'</h2></div>'+btn(u,a,'quiet')+'</div>';
+const stories=(set,type)=>'<div class="story-grid">'+set.map(s=>'<article><a href="'+type+'-'+s.id+'.html">'+picture(byId(s.product),false,'')+'<div>'+eye(s.tag)+'<h3>'+s.title+'</h3><p>'+s.lead+'</p><span aria-hidden="true">↗</span></div></a></article>').join('')+'</div>';
+const campaigns=[
+ ['table-tuna','01 / THE TUNA TABLE','오늘의 바다를<br>식탁 가까이','참다랑어의 선명한 색을 담은 한상 모둠.','참치 모둠 보기','sea'],
+ ['salmon','02 / DAILY COAST','가볍게 차리는<br>연어 한 접시','레몬과 허브를 더해 오늘의 한 끼를 준비해요.','연어 필렛 보기','peach'],
+ ['gift','03 / FROM THE SEA','마음을 담은<br>바다의 상자','참치와 연어를 한 상자에 담은 선물 구성.','선물 상자 보기','gold']
+];
+function home(){
+ const quick=[['gift','선물세트','catalog.html?cat=gift'],['tuna','참치','catalog.html?cat=tuna'],['salmon','연어','catalog.html?cat=salmon'],['seafood','수산물','catalog.html?cat=seafood'],['pantry','곁들임','catalog.html?cat=pantry'],['recipe','레시피','recipes.html']];
+ return '<h1 class="sr">파도한상</h1><section class="hero" aria-label="파도한상 캠페인"><div class="wrap hero-frame"><div class="slides">'+campaigns.map(([id,k,h,d,a,t],i)=>{const p=byId(id);return '<article class="slide '+t+'"'+(i?' hidden':'')+'><div class="slide-art">'+picture(p,i===0,'')+'</div><div class="slide-copy">'+eye(k)+'<h2>'+h+'</h2><p>'+d+'</p>'+btn(url(p),a,'primary')+'</div></article>';}).join('')+'</div><div class="slide-controls"><span class="hero-caption">바다에서 떠올린 세 가지 식탁</span><div><button type="button" data-slide="-1" aria-label="이전 캠페인">←</button><span class="slide-number">01 / 03</span><button type="button" data-slide="1" aria-label="다음 캠페인">→</button><button type="button" data-play aria-label="자동 전환 멈추기" aria-pressed="false">Ⅱ</button><span class="sr slide-status" role="status"></span></div></div></div></section>'
+ +'<nav class="wrap quick-grid" aria-label="빠른 메뉴">'+quick.map(([i,t,u])=>'<a href="'+u+'"><span>'+icon(i)+'</span><strong>'+t+'</strong></a>').join('')+'</nav>'
+ +'<section class="wrap section">'+sectionHead('PADO BEST','한상 베스트','catalog.html?cat=best','베스트 더 보기')+grid(products.filter(p=>p.pick).slice(0,4))+'</section>'
+ +'<section class="wrap gift-band"><div>'+eye('A GIFT FROM THE SEA')+'<h2>함께 차리는 날,<br>바다 한 상자를.</h2><p>참치와 연어가 한 상자에 담긴 가상의 선물 컬렉션입니다.</p>'+btn('catalog.html?cat=gift','선물세트 둘러보기','light')+'</div>'+picture(byId('gift'))+'</section>'
+ +'<section class="wrap section">'+sectionHead('PADO KITCHEN','오늘의 한상 레시피','recipes.html','레시피 더 보기')+stories(recipes,'recipe')+'</section>'
+ +'<section class="note-band"><div class="wrap section">'+sectionHead('THE COAST JOURNAL','식탁으로 이어지는 바다 노트','notes.html','노트 더 보기')+stories(notes,'note')+'</div></section>';
+}
+function catalog(){
+ return '<section class="wrap page">'+title('PADO MARKET','수산물 둘러보기','파도한상이 그린 가상의 상품과 선물 구성을 만나보세요.')+searchForm('catalog-query','catalog-search')+'<div class="filters chips" aria-label="상품 분류">'+Object.entries(categories).map(([k,t])=>'<a class="chip" href="catalog.html?cat='+k+'" data-filter="'+k+'">'+t+'</a>').join('')+'</div><div class="list-head"><p class="result-count" role="status"></p><label for="sort">정렬</label><select id="sort"><option value="default">기본순</option><option value="low">낮은 가격순</option><option value="high">높은 가격순</option><option value="new">새 구성 먼저</option></select></div><h2 class="sr">상품 목록</h2>'+grid(products,'results')+'<div id="no-results" class="empty" hidden><h2>검색 결과가 없어요.</h2><p>다른 검색어로 찾아보세요.</p>'+btn('catalog.html','전체 상품 보기','quiet')+'</div></section>';
+}
+function product(p){
+ return '<section class="wrap page product-page"><nav class="crumb" aria-label="현재 위치"><a href="index.html">홈</a> / <a href="catalog.html?cat='+p.category+'">'+categories[p.category]+'</a> / '+p.title+'</nav><div class="detail"><figure class="detail-photo" style="--tone:'+p.tone+'">'+picture(p,true)+'</figure><div class="detail-copy">'+eye(p.artist+' / '+p.format)+'<h1>'+p.title+'</h1><div class="detail-price prices">'+deal(p)+'<strong>'+money(p.price)+'</strong>'+old(p)+'</div><p class="detail-desc">'+p.intro+'</p><form id="product-form" data-id="'+p.id+'"><div class="option-label"><label for="variant">구성</label><select id="variant" name="option">'+p.options.map((o,i)=>'<option value="'+i+'">'+o+'</option>').join('')+'</select></div><div class="quantity-line"><label for="qty">수량</label><div class="stepper"><button type="button" data-qty="-1" aria-label="수량 줄이기">−</button><input id="qty" name="qty" type="number" min="1" max="9" value="1" required><button type="button" data-qty="1" aria-label="수량 늘리기">+</button></div></div><div class="subtotal"><span>예상 상품 금액</span><strong id="product-total">'+money(p.price)+'</strong></div><div class="buy-actions"><button class="button primary" type="submit">장바구니 담기</button>'+save(p)+'</div><div class="after-add" role="status"></div><a class="text-link" href="cart.html">장바구니 보기 ↗</a></form></div></div><div class="detail-info"><details open><summary>상품 구성</summary><p>'+p.spec+'</p></details><details><summary>판매와 배송 안내</summary><p>사진과 상품은 창작 예시입니다. 실제 판매, 배송 및 결제는 운영하지 않습니다.</p></details></div></section>'
+ +'<section class="wrap section related">'+sectionHead('PADO MARKET','함께 둘러보기','catalog.html','전체 상품')+grid(products.filter(q=>q.id!==p.id).sort((a,b)=>Number(b.category===p.category)-Number(a.category===p.category)).slice(0,4))+'</section>';
+}
+function library(type,set){
+ const recipe=type==='recipe';
+ return '<section class="wrap page">'+title(recipe?'PADO KITCHEN':'COAST JOURNAL',recipe?'파도한상 레시피':'바다 노트',recipe?'익혀 먹는 수산물 메뉴와 곁들임을 만나보세요.':'식탁과 재료에서 떠올린 짧은 이야기를 모았습니다.')+'<h2 class="sr">글 목록</h2>'+stories(set,type)+'</section>';
+}
+function story(s,type){
+ const recipe=type==='recipe',p=byId(s.product);
+ return '<section class="wrap page">'+title(s.tag,s.title,s.lead)+'<div class="story-detail"><figure>'+picture(p,true,recipe?'레시피 연출을 위한 창작 이미지':p.title+' 창작 이미지')+'</figure><div>'+(recipe?'<h2>준비할 재료</h2><ul class="ingredient">'+s.ingredients.map(t=>'<li>'+t+'</li>').join('')+'</ul><h2>만드는 순서</h2><ol>'+s.steps.map(t=>'<li>'+t+'</li>').join('')+'</ol><p class="note">가열용 수산물은 제품에 표시된 조리 안내를 따르세요. 사진은 연출 예시입니다.</p>':'<h2>파도한상 이야기</h2>'+s.body.map(t=>'<p>'+t+'</p>').join(''))+btn(url(p),'관련 상품 보기')+'</div></div>'+btn(recipe?'recipes.html':'notes.html','목록으로 돌아가기','quiet')+'</section>';
+}
+const guide=()=>'<section class="wrap page">'+title('SHOP GUIDE','이용 안내','파도한상에서 상품과 레시피를 찾아보는 방법입니다.')+'<div class="detail-info"><details open><summary>실제 판매 상품인가요?</summary><p>수산물, 가격, 사진, 구성은 쇼핑몰 디자인 시연을 위해 만든 가상의 예시입니다.</p></details><details><summary>찜과 장바구니는 어디에 저장되나요?</summary><p>상품과 구성, 수량만 이 브라우저에 저장합니다. 계정이나 결제 정보를 받지 않습니다.</p></details><details><summary>주문·배송이 되나요?</summary><p>장바구니의 구성과 금액을 확인할 수 있지만 실제 판매, 주문 전송, 결제와 배송은 하지 않습니다.</p></details><details><summary>오프라인 매장이 있나요?</summary><p>푸터에 있는 주소는 학습용 위치 예시이며 매장이나 제휴 관계가 아닙니다.</p></details></div></section>';
+const saved=()=>'<section class="wrap page">'+title('YOUR PICKS','찜한 상품','마음에 든 구성에 하트를 눌러 모아 두세요.')+'<h2 class="sr">찜 목록</h2>'+grid(products,'saved-results')+'<div id="saved-empty" class="empty" hidden><h2>아직 찜한 상품이 없어요.</h2>'+btn('catalog.html','상품 둘러보기')+'</div></section>';
+const cart=()=>'<section class="wrap page">'+title('YOUR BASKET','장바구니','선택한 구성과 수량을 확인해 보세요. 실제 결제는 진행되지 않습니다.')+'<div class="cart-layout" hidden><section><h2 class="sr">담은 상품</h2><div class="cart-toolbar"><label><input type="checkbox" id="select-all" checked> 전체 선택</label><button type="button" id="remove-selected">선택 삭제</button></div><div id="cart-items"></div></section><aside class="cart-summary"><h2>선택한 상품</h2><p><span>수량</span><strong id="selected-qty">0개</strong></p><p><span>예상 상품 금액</span><strong id="cart-total">0원</strong></p><button type="button" class="button primary" id="review-order">구성 미리보기</button><small>실제 주문과 배송은 운영하지 않습니다.</small></aside></div><div id="cart-empty" class="empty"><h2>장바구니가 비어 있어요.</h2>'+btn('catalog.html','상품 둘러보기')+'</div><dialog id="review" class="dialog" aria-labelledby="review-title"><div class="dialog-head"><h2 id="review-title">선택한 상품 구성</h2>'+close('미리보기 닫기')+'</div><div id="review-items"></div><p class="note">디자인 시연 화면이며 주문이 접수되지 않습니다.</p></dialog></section>';
+export async function buildPadoHansang(){
+ const pages=[['index','파도한상',home(),'home'],['catalog','수산물 둘러보기',catalog(),'catalog'],['recipes','레시피',library('recipe',recipes),'recipes'],['notes','바다 노트',library('note',notes),'notes'],['guide','이용 안내',guide(),'guide'],['saved','찜한 상품',saved(),'saved'],['cart','장바구니',cart(),'cart'],...products.map(p=>['product-'+p.id,p.title,product(p),'product']),...recipes.map(r=>['recipe-'+r.id,r.title,story(r,'recipe'),'recipe']),...notes.map(n=>['note-'+n.id,n.title,story(n,'note'),'note'])];
+ await Promise.all(pages.map(([id,t,body,page])=>writeFile(new URL(id+'.html',dir),shell(t,body,page))));
+ console.log('파도한상 '+pages.length+'개 페이지 생성');
+}
+if(process.argv[1]===fileURLToPath(import.meta.url))await buildPadoHansang();

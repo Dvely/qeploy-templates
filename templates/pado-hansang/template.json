@@ -1,0 +1,15 @@
+{
+  "id":"pado-hansang",
+  "name":"파도한상",
+  "description":"가상 수산물, 선물 세트와 레시피를 둘러보는 반응형 쇼핑몰",
+  "tags":["수산물","식품","레시피","카탈로그","장바구니","반응형"],
+  "stack":"vanilla",
+  "entry":"index.html",
+  "contentHints":[
+    {"key":"content","where":"catalog.mjs","desc":"가상 상품과 레시피·바다 노트"},
+    {"key":"build","where":"build.mjs","desc":"정적 쇼핑몰 화면 생성"},
+    {"key":"design","where":"site.css","desc":"캠페인, 상품 카드, 반응형 디자인"},
+    {"key":"interaction","where":"site.js","desc":"검색·정렬·찜·수량과 장바구니"},
+    {"key":"provenance","where":"ASSET-PROVENANCE.json","desc":"신규 제작 자산과 생성 이미지"}
+  ]
+}

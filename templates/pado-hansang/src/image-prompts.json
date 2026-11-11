@@ -1,0 +1,19 @@
+{
+  "created": "2026-11-11",
+  "tool": "OpenAI built-in image_gen",
+  "referenceImages": [],
+  "files": [
+    {
+      "file": "assets/campaign.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide 16:9 campaign photograph for an original Korean seafood shop. Elegant dark indigo ceramic platter on a rich walnut table, artfully arranged ruby red tuna sashimi and thin light pink marbled tuna slices, a small mound of grated wasabi and a few shiso leaves, small pale ceramic dipping bowl, warm slanted daylight, premium Korean Japanese contemporary food editorial. Place the whole platter in the right two thirds, dark uncluttered walnut in left third for copy. Natural realistic fish texture and hand made ceramics. No people, logos, packaging, text, or reference images."
+    },
+    {
+      "file": "assets/salmon.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: square seafood product editorial photograph. One golden oven roasted salmon portion with tender coral flakes, lemon wedge and dill on a round ivory ceramic plate. On pale peach linen table with gentle window light, fresh and simple, center complete plate with breathing room. Natural food texture, no people, no text, logos, watermark or reference images."
+    },
+    {
+      "file": "assets/gift.jpg",
+      "prompt": "Use case: product-mockup. Asset type: square original Korean seafood gift box editorial photo. Open premium rigid matte dark cobalt gift box on a warm cream paper table, neatly compartmented food-safe sealed transparent portions of ruby tuna and coral salmon on ivory inserts, simple plain cotton ribbon in muted gold, modest dark blue lid at upper right. Professional still life, soft daylight and shadows, no branding, text, people, or reference images."
+    }
+  ]
+}

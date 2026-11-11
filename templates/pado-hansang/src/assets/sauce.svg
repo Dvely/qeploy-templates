@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+<title id="title">곁들임 소스 두 병</title><desc id="desc">황토빛 소스와 세이지색 소스를 담은 작은 유리병 두 개.</desc>
+<defs>
+ <linearGradient id="backdrop" x2="1" y2="1"><stop offset="0" stop-color="#f4ede1"/><stop offset="1" stop-color="#d9ccb5"/></linearGradient>
+ <radialGradient id="light" cx=".2" cy=".12" r=".95"><stop stop-color="#fff" stop-opacity=".43"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+ <pattern id="paper-grain" width="19" height="13" patternUnits="userSpaceOnUse"><path d="M2 3h2m6 3h1m4 4h1m-11 1h1m7-10h1" fill="none" stroke="#494041" stroke-width=".6" opacity=".18"/><path d="M1 8h1m7-6h1m1 8h1m4-5h2" fill="none" stroke="#fff" stroke-width=".8" opacity=".44"/></pattern>
+ <filter id="blur" x="-50%" y="-150%" width="200%" height="400%"><feGaussianBlur stdDeviation="22"/></filter>
+ <filter id="shadow" x="-30%" y="-55%" width="160%" height="220%"><feDropShadow dx="4" dy="12" stdDeviation="9" flood-color="#192631" flood-opacity=".24"/></filter>
+ <linearGradient id="ochre" x2="1" y2="0"><stop offset="0" stop-color="#a17444"/><stop offset="0.28" stop-color="#c99557"/><stop offset="0.55" stop-color="#d9ab6c"/><stop offset="0.79" stop-color="#b78752"/><stop offset="1" stop-color="#906039"/></linearGradient><linearGradient id="sage" x2="1" y2="0"><stop offset="0" stop-color="#627650"/><stop offset="0.28" stop-color="#8f9c69"/><stop offset="0.58" stop-color="#a7ae7a"/><stop offset="0.8" stop-color="#7d8c59"/><stop offset="1" stop-color="#597048"/></linearGradient><linearGradient id="cap1" x2="1" y2="0"><stop offset="0" stop-color="#6d5541"/><stop offset="0.43" stop-color="#947e57"/><stop offset="0.73" stop-color="#a18c62"/><stop offset="1" stop-color="#74624d"/></linearGradient><linearGradient id="cap2" x2="1" y2="0"><stop offset="0" stop-color="#51584b"/><stop offset="0.4" stop-color="#77816c"/><stop offset="0.72" stop-color="#828c75"/><stop offset="1" stop-color="#525e4e"/></linearGradient><linearGradient id="top1" x2="1" y2="1"><stop offset="0" stop-color="#d9c295"/><stop offset="1" stop-color="#9a8157"/></linearGradient><linearGradient id="top2" x2="1" y2="1"><stop offset="0" stop-color="#aeb393"/><stop offset="1" stop-color="#74806a"/></linearGradient>
+</defs>
+<path d="M0 0h720v720H0z" fill="url(#backdrop)"/>
+<path d="M0 0h720v720H0z" fill="url(#light)"/>
+<path d="M0 0h720v720H0z" fill="url(#paper-grain)" opacity=".52"/>
+<ellipse cx="365" cy="545" rx="232" ry="49" fill="#625d4b" opacity=".24" filter="url(#blur)"/>
+<path d="M109 525c89-38 242-47 348-27l147 77c-152 27-353 41-488-8Z" fill="#f2e5cc" opacity=".55"/>
+<g filter="url(#shadow)">
+ <g transform="translate(433 385) rotate(9) scale(1.07)">
+<path d="M-93-82c0-22 42-40 93-40 53 0 95 18 95 40v163c0 27-43 44-95 44-51 0-93-17-93-44Z" fill="url(#sage)" stroke="#7d715b" stroke-opacity=".48" stroke-width="1.7"/>
+<path d="M-89 61c25 28 151 31 179 2v16c0 24-41 42-90 42s-89-17-89-41Z" fill="#3a3b2e" opacity=".23"/>
+<path d="M-80-18c34 21 125 23 161 0v73c-32 23-124 24-161 0Z" fill="#f5eddb"/>
+<path d="M-80-18c34 21 125 23 161 0v73c-32 23-124 24-161 0Z" fill="url(#paper-grain)" opacity=".64"/>
+<path d="M-55 42c14-1 15-12 25-12 7 0 11 4 18 3-3 9-12 15-22 15-9 0-16-2-21-6Z" fill="#667b66" opacity=".72"/>
+<path d="M5 29h51m-51 8h44m-44 8h29" stroke="#667b66" stroke-opacity=".65" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M-82-66c10-16 23-24 45-29m-45 43v19" stroke="#fff7d7" stroke-opacity=".46" stroke-width="2.3" stroke-linecap="round" fill="none"/>
+<path d="M-98-112c0-23 44-43 98-43 55 0 100 20 100 43v28c0 23-45 41-100 41-54 0-98-18-98-41Z" fill="url(#cap2)" stroke="#5b584b" stroke-opacity=".56" stroke-width="1.5"/>
+<ellipse cx="1" cy="-111" rx="98" ry="43" fill="url(#top2)"/>
+<ellipse cx="1" cy="-112" rx="86" ry="35" fill="none" stroke="#fdf2d9" stroke-opacity=".58" stroke-width="1.6"/>
+<path d="M-95-92c26 28 155 34 190 0" fill="none" stroke="#fdf2d9" stroke-opacity=".33" stroke-width="1.4"/>
+</g>
+ <g transform="translate(272 402) rotate(-9) scale(1.1)">
+<path d="M-93-82c0-22 42-40 93-40 53 0 95 18 95 40v163c0 27-43 44-95 44-51 0-93-17-93-44Z" fill="url(#ochre)" stroke="#7d715b" stroke-opacity=".48" stroke-width="1.7"/>
+<path d="M-89 61c25 28 151 31 179 2v16c0 24-41 42-90 42s-89-17-89-41Z" fill="#3a3b2e" opacity=".23"/>
+<path d="M-80-18c34 21 125 23 161 0v73c-32 23-124 24-161 0Z" fill="#f5eddb"/>
+<path d="M-80-18c34 21 125 23 161 0v73c-32 23-124 24-161 0Z" fill="url(#paper-grain)" opacity=".64"/>
+<path d="M-55 42c14-1 15-12 25-12 7 0 11 4 18 3-3 9-12 15-22 15-9 0-16-2-21-6Z" fill="#a37151" opacity=".72"/>
+<path d="M5 29h51m-51 8h44m-44 8h29" stroke="#a37151" stroke-opacity=".65" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M-82-66c10-16 23-24 45-29m-45 43v19" stroke="#fff7d7" stroke-opacity=".46" stroke-width="2.3" stroke-linecap="round" fill="none"/>
+<path d="M-98-112c0-23 44-43 98-43 55 0 100 20 100 43v28c0 23-45 41-100 41-54 0-98-18-98-41Z" fill="url(#cap1)" stroke="#5b584b" stroke-opacity=".56" stroke-width="1.5"/>
+<ellipse cx="1" cy="-111" rx="98" ry="43" fill="url(#top1)"/>
+<ellipse cx="1" cy="-112" rx="86" ry="35" fill="none" stroke="#fdf2d9" stroke-opacity=".58" stroke-width="1.6"/>
+<path d="M-95-92c26 28 155 34 190 0" fill="none" stroke="#fdf2d9" stroke-opacity=".33" stroke-width="1.4"/>
+</g>
+</g>
+</svg>

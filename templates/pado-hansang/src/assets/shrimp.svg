@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+<title id="title">손질 분홍새우</title><desc id="desc">크림색 종이 패키지 속 연분홍 새우.</desc>
+<defs>
+ <linearGradient id="backdrop" x2="1" y2="1"><stop offset="0" stop-color="#f4e7dc"/><stop offset="1" stop-color="#e1c6ba"/></linearGradient>
+ <radialGradient id="light" cx=".2" cy=".12" r=".95"><stop stop-color="#fff" stop-opacity=".43"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+ <pattern id="paper-grain" width="19" height="13" patternUnits="userSpaceOnUse"><path d="M2 3h2m6 3h1m4 4h1m-11 1h1m7-10h1" fill="none" stroke="#494041" stroke-width=".6" opacity=".18"/><path d="M1 8h1m7-6h1m1 8h1m4-5h2" fill="none" stroke="#fff" stroke-width=".8" opacity=".44"/></pattern>
+ <filter id="blur" x="-50%" y="-150%" width="200%" height="400%"><feGaussianBlur stdDeviation="22"/></filter>
+ <filter id="shadow" x="-30%" y="-55%" width="160%" height="220%"><feDropShadow dx="4" dy="12" stdDeviation="9" flood-color="#192631" flood-opacity=".24"/></filter>
+ <linearGradient id="tray" x2="1" y2="1"><stop offset="0" stop-color="#fff6e4"/><stop offset="1" stop-color="#ddcab5"/></linearGradient><linearGradient id="lining" x2="1" y2="1"><stop offset="0" stop-color="#e9d8c4"/><stop offset="1" stop-color="#d5bcae"/></linearGradient><linearGradient id="shrimp" x2="1" y2="1"><stop offset="0" stop-color="#f6bdab"/><stop offset="0.34" stop-color="#eea293"/><stop offset="0.72" stop-color="#d87972"/><stop offset="1" stop-color="#c76160"/></linearGradient>
+</defs>
+<path d="M0 0h720v720H0z" fill="url(#backdrop)"/>
+<path d="M0 0h720v720H0z" fill="url(#light)"/>
+<path d="M0 0h720v720H0z" fill="url(#paper-grain)" opacity=".52"/>
+<ellipse cx="357" cy="558" rx="252" ry="48" fill="#9b6d6b" opacity=".27" filter="url(#blur)" transform="rotate(-8 357 558)"/>
+<g transform="rotate(-8 360 360)">
+<g filter="url(#shadow)">
+ <rect x="103" y="178" width="518" height="407" rx="23" fill="#b69d87"/>
+ <rect x="100" y="164" width="518" height="408" rx="23" fill="url(#tray)"/>
+ <rect x="122" y="187" width="474" height="362" rx="15" fill="url(#lining)" stroke="#b69a83" stroke-opacity=".45"/>
+ <rect x="126" y="191" width="466" height="354" rx="12" fill="url(#paper-grain)" opacity=".88"/>
+</g>
+<g filter="url(#shadow)">
+ <g transform="translate(235 279) rotate(-17) scale(1.02)">
+<path d="M-78 16c-8-33 13-57 40-66C7-66 47-46 64-8 74 13 67 36 54 51l24 16-20-2 11 19-18-11-7 11-9-32C51 31 49 4 32-8 14-21-8-20-21-6-34 8-29 22-19 32c-21 6-51-1-59-16Z" fill="#b95c58" opacity=".44"/>
+<path d="M-79 10c-8-33 13-57 40-66 45-16 85 4 102 42 10 21 3 44-10 59l24 16-20-2 11 19-18-11-7 11-9-32C50 25 48-2 31-14 13-27-9-26-22-12-35 2-30 16-20 26c-21 6-51-1-59-16Z" fill="url(#shrimp)" stroke="#cf8075" stroke-width="1.25"/>
+<path d="M-67 18c-3-15 0-36 17-57m-3 62c-1-18 4-38 22-60m-2 63c-4-18 3-39 21-56m-6 13c2-16 16-35 26-40m-10 32c14-17 30-24 39-24m-10 33c16-5 31-6 39-1M44 3c9 0 18 2 23 8M44 20c8 2 13 5 16 9" fill="none" stroke="#fce1c9" stroke-opacity=".71" stroke-width="3.25" stroke-linecap="round"/>
+<path d="M-70-6c4-22 22-34 45-41 23-6 45-2 61 10" fill="none" stroke="#fde7d1" stroke-opacity=".78" stroke-width="2.4" stroke-linecap="round"/>
+</g>
+ <g transform="translate(354 266) rotate(-10) scale(.95)">
+<path d="M-78 16c-8-33 13-57 40-66C7-66 47-46 64-8 74 13 67 36 54 51l24 16-20-2 11 19-18-11-7 11-9-32C51 31 49 4 32-8 14-21-8-20-21-6-34 8-29 22-19 32c-21 6-51-1-59-16Z" fill="#b95c58" opacity=".44"/>
+<path d="M-79 10c-8-33 13-57 40-66 45-16 85 4 102 42 10 21 3 44-10 59l24 16-20-2 11 19-18-11-7 11-9-32C50 25 48-2 31-14 13-27-9-26-22-12-35 2-30 16-20 26c-21 6-51-1-59-16Z" fill="url(#shrimp)" stroke="#cf8075" stroke-width="1.25"/>
+<path d="M-67 18c-3-15 0-36 17-57m-3 62c-1-18 4-38 22-60m-2 63c-4-18 3-39 21-56m-6 13c2-16 16-35 26-40m-10 32c14-17 30-24 39-24m-10 33c16-5 31-6 39-1M44 3c9 0 18 2 23 8M44 20c8 2 13 5 16 9" fill="none" stroke="#fce1c9" stroke-opacity=".71" stroke-width="3.25" stroke-linecap="round"/>
+<path d="M-70-6c4-22 22-34 45-41 23-6 45-2 61 10" fill="none" stroke="#fde7d1" stroke-opacity=".78" stroke-width="2.4" stroke-linecap="round"/>
+</g>
+ <g transform="translate(481 283) rotate(17) scale(1.05)">
+<path d="M-78 16c-8-33 13-57 40-66C7-66 47-46 64-8 74 13 67 36 54 51l24 16-20-2 11 19-18-11-7 11-9-32C51 31 49 4 32-8 14-21-8-20-21-6-34 8-29 22-19 32c-21 6-51-1-59-16Z" fill="#b95c58" opacity=".44"/>
+<path d="M-79 10c-8-33 13-57 40-66 45-16 85 4 102 42 10 21 3 44-10 59l24 16-20-2 11 19-18-11-7 11-9-32C50 25 48-2 31-14 13-27-9-26-22-12-35 2-30 16-20 26c-21 6-51-1-59-16Z" fill="url(#shrimp)" stroke="#cf8075" stroke-width="1.25"/>
+<path d="M-67 18c-3-15 0-36 17-57m-3 62c-1-18 4-38 22-60m-2 63c-4-18 3-39 21-56m-6 13c2-16 16-35 26-40m-10 32c14-17 30-24 39-24m-10 33c16-5 31-6 39-1M44 3c9 0 18 2 23 8M44 20c8 2 13 5 16 9" fill="none" stroke="#fce1c9" stroke-opacity=".71" stroke-width="3.25" stroke-linecap="round"/>
+<path d="M-70-6c4-22 22-34 45-41 23-6 45-2 61 10" fill="none" stroke="#fde7d1" stroke-opacity=".78" stroke-width="2.4" stroke-linecap="round"/>
+</g>
+ <g transform="translate(232 413) rotate(-20) scale(1.05)">
+<path d="M-78 16c-8-33 13-57 40-66C7-66 47-46 64-8 74 13 67 36 54 51l24 16-20-2 11 19-18-11-7 11-9-32C51 31 49 4 32-8 14-21-8-20-21-6-34 8-29 22-19 32c-21 6-51-1-59-16Z" fill="#b95c58" opacity=".44"/>
+<path d="M-79 10c-8-33 13-57 40-66 45-16 85 4 102 42 10 21 3 44-10 59l24 16-20-2 11 19-18-11-7 11-9-32C50 25 48-2 31-14 13-27-9-26-22-12-35 2-30 16-20 26c-21 6-51-1-59-16Z" fill="url(#shrimp)" stroke="#cf8075" stroke-width="1.25"/>
+<path d="M-67 18c-3-15 0-36 17-57m-3 62c-1-18 4-38 22-60m-2 63c-4-18 3-39 21-56m-6 13c2-16 16-35 26-40m-10 32c14-17 30-24 39-24m-10 33c16-5 31-6 39-1M44 3c9 0 18 2 23 8M44 20c8 2 13 5 16 9" fill="none" stroke="#fce1c9" stroke-opacity=".71" stroke-width="3.25" stroke-linecap="round"/>
+<path d="M-70-6c4-22 22-34 45-41 23-6 45-2 61 10" fill="none" stroke="#fde7d1" stroke-opacity=".78" stroke-width="2.4" stroke-linecap="round"/>
+</g>
+ <g transform="translate(368 410) rotate(-11)">
+<path d="M-78 16c-8-33 13-57 40-66C7-66 47-46 64-8 74 13 67 36 54 51l24 16-20-2 11 19-18-11-7 11-9-32C51 31 49 4 32-8 14-21-8-20-21-6-34 8-29 22-19 32c-21 6-51-1-59-16Z" fill="#b95c58" opacity=".44"/>
+<path d="M-79 10c-8-33 13-57 40-66 45-16 85 4 102 42 10 21 3 44-10 59l24 16-20-2 11 19-18-11-7 11-9-32C50 25 48-2 31-14 13-27-9-26-22-12-35 2-30 16-20 26c-21 6-51-1-59-16Z" fill="url(#shrimp)" stroke="#cf8075" stroke-width="1.25"/>
+<path d="M-67 18c-3-15 0-36 17-57m-3 62c-1-18 4-38 22-60m-2 63c-4-18 3-39 21-56m-6 13c2-16 16-35 26-40m-10 32c14-17 30-24 39-24m-10 33c16-5 31-6 39-1M44 3c9 0 18 2 23 8M44 20c8 2 13 5 16 9" fill="none" stroke="#fce1c9" stroke-opacity=".71" stroke-width="3.25" stroke-linecap="round"/>
+<path d="M-70-6c4-22 22-34 45-41 23-6 45-2 61 10" fill="none" stroke="#fde7d1" stroke-opacity=".78" stroke-width="2.4" stroke-linecap="round"/>
+</g>
+ <g transform="translate(492 414) rotate(16) scale(.98)">
+<path d="M-78 16c-8-33 13-57 40-66C7-66 47-46 64-8 74 13 67 36 54 51l24 16-20-2 11 19-18-11-7 11-9-32C51 31 49 4 32-8 14-21-8-20-21-6-34 8-29 22-19 32c-21 6-51-1-59-16Z" fill="#b95c58" opacity=".44"/>
+<path d="M-79 10c-8-33 13-57 40-66 45-16 85 4 102 42 10 21 3 44-10 59l24 16-20-2 11 19-18-11-7 11-9-32C50 25 48-2 31-14 13-27-9-26-22-12-35 2-30 16-20 26c-21 6-51-1-59-16Z" fill="url(#shrimp)" stroke="#cf8075" stroke-width="1.25"/>
+<path d="M-67 18c-3-15 0-36 17-57m-3 62c-1-18 4-38 22-60m-2 63c-4-18 3-39 21-56m-6 13c2-16 16-35 26-40m-10 32c14-17 30-24 39-24m-10 33c16-5 31-6 39-1M44 3c9 0 18 2 23 8M44 20c8 2 13 5 16 9" fill="none" stroke="#fce1c9" stroke-opacity=".71" stroke-width="3.25" stroke-linecap="round"/>
+<path d="M-70-6c4-22 22-34 45-41 23-6 45-2 61 10" fill="none" stroke="#fde7d1" stroke-opacity=".78" stroke-width="2.4" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(449 461) rotate(-2)">
+<g transform="translate(0 0)">
+ <rect x="1" y="3" width="124" height="76" rx="3" fill="#15232d" opacity=".22"/>
+ <rect width="124" height="76" rx="3" fill="#f5eddb"/>
+ <rect width="124" height="76" rx="3" fill="url(#paper-grain)" opacity=".68"/>
+ <path d="M13 50c10 2 14-10 24-10 5 0 9 4 14 3-4 9-10 14-19 14-8 0-15-3-19-7Z" fill="#3063b2"/>
+ <circle cx="44" cy="33" r="3" fill="#df8a51"/>
+ <path d="M63 30h46m-46 8h34m-34 10h45m-45 8h25" fill="none" stroke="#5b6470" stroke-width="1.7" stroke-linecap="round" opacity=".59"/>
+</g></g>
+</g>
+</svg>

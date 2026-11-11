@@ -1,0 +1,59 @@
+{
+  "project": "pado-hansang",
+  "assets": [
+    {
+      "file": "assets/akami.svg",
+      "sha256": "6954ea671160a12a237e186475e954ac24d5200340cd44b302ae6af17da5b488",
+      "origin": "original-vector",
+      "record": "assets/vector-notes.md"
+    },
+    {
+      "file": "assets/buri.svg",
+      "sha256": "3369c18f325e19449f64d6335cc053d58d7c177b5a6231c34b0b96437195c6d1",
+      "origin": "original-vector",
+      "record": "assets/vector-notes.md"
+    },
+    {
+      "file": "assets/campaign.jpg",
+      "sha256": "fb6cef16059fd3cabf57606882ac7845935af9da20c783815cf5311ea48df271",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/gift.jpg",
+      "sha256": "f8b8c67a9b7d0f77bf8c55aa902fd843d9e1695e4fa6849b89be6eedcf5bd681",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/mark.svg",
+      "sha256": "f5eca4ce945e665487aba9c06f8dee51a26c27a61e433ae7dab821e4e43fc6b3",
+      "origin": "original-vector",
+      "record": "assets/vector-notes.md"
+    },
+    {
+      "file": "assets/salmon.jpg",
+      "sha256": "b27953a64faceab9317f9b73c34e80078350c97d98e013d4e1390d0bb7c624c1",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/sauce.svg",
+      "sha256": "b575e9fd2c2251e276f2dc29f56d8c047561f64c5916a03981efb2fb2ec557b9",
+      "origin": "original-vector",
+      "record": "assets/vector-notes.md"
+    },
+    {
+      "file": "assets/shrimp.svg",
+      "sha256": "d0c457077ebaceb28b982e2b4a96e303200591d09524b949c79fbbebe5d079de",
+      "origin": "original-vector",
+      "record": "assets/vector-notes.md"
+    },
+    {
+      "file": "assets/steak.svg",
+      "sha256": "d2366459809ce69ae86417f9c2dac03d6dd689de83d910d0452f1d8b27ae06cb",
+      "origin": "original-vector",
+      "record": "assets/vector-notes.md"
+    }
+  ]
+}

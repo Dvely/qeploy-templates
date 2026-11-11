@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "project": "pado-hansang",
+  "status": "reviewed",
+  "reviewDate": "2026-11-11",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "d497d21dd69d6ce4f61a382db66b0fdb8a038cf08bd2a0b7a4d81a35c77c8c1f",
+      "origin": "reviewed-project-source"
+    },
+    "assets/akami.svg": {
+      "sha256": "6954ea671160a12a237e186475e954ac24d5200340cd44b302ae6af17da5b488",
+      "origin": "original-vector"
+    },
+    "assets/buri.svg": {
+      "sha256": "3369c18f325e19449f64d6335cc053d58d7c177b5a6231c34b0b96437195c6d1",
+      "origin": "original-vector"
+    },
+    "assets/campaign.jpg": {
+      "sha256": "fb6cef16059fd3cabf57606882ac7845935af9da20c783815cf5311ea48df271",
+      "origin": "documented-ai-generation"
+    },
+    "assets/gift.jpg": {
+      "sha256": "f8b8c67a9b7d0f77bf8c55aa902fd843d9e1695e4fa6849b89be6eedcf5bd681",
+      "origin": "documented-ai-generation"
+    },
+    "assets/mark.svg": {
+      "sha256": "f5eca4ce945e665487aba9c06f8dee51a26c27a61e433ae7dab821e4e43fc6b3",
+      "origin": "original-vector"
+    },
+    "assets/salmon.jpg": {
+      "sha256": "b27953a64faceab9317f9b73c34e80078350c97d98e013d4e1390d0bb7c624c1",
+      "origin": "documented-ai-generation"
+    },
+    "assets/sauce.svg": {
+      "sha256": "b575e9fd2c2251e276f2dc29f56d8c047561f64c5916a03981efb2fb2ec557b9",
+      "origin": "original-vector"
+    },
+    "assets/shrimp.svg": {
+      "sha256": "d0c457077ebaceb28b982e2b4a96e303200591d09524b949c79fbbebe5d079de",
+      "origin": "original-vector"
+    },
+    "assets/steak.svg": {
+      "sha256": "d2366459809ce69ae86417f9c2dac03d6dd689de83d910d0452f1d8b27ae06cb",
+      "origin": "original-vector"
+    },
+    "assets/vector-notes.md": {
+      "sha256": "22b606a90040e289aa8d466925900fe575f50818c5d484ba25f906f5346a5075",
+      "origin": "reviewed-project-source"
+    },
+    "build.mjs": {
+      "sha256": "8412b4d229292625f07b1b496d18be749b410d9f20920016a825bc7d4546742a",
+      "origin": "reviewed-project-source"
+    },
+    "cart.html": {
+      "sha256": "f9b9a8c5f2703e282ba8580141f060b9ccef50efd010bfd2ae2497d05ae86ffd",
+      "origin": "reviewed-project-source"
+    },
+    "catalog.html": {
+      "sha256": "9d2af4bddc8934823c0a52fafff5735db399af8fa7e124547f4becf9d8e65fd0",
+      "origin": "reviewed-project-source"
+    },
+    "catalog.mjs": {
+      "sha256": "a64720424adeaf86af94a481746333ed3f460d467c0ae5393515427ca3d4fe05",
+      "origin": "reviewed-project-source"
+    },
+    "guide.html": {
+      "sha256": "5df707cfd95ae4000a648822c14f42af9b684976d0d42ea135bf60d005e0f1b5",
+      "origin": "reviewed-project-source"
+    },
+    "image-prompts.json": {
+      "sha256": "4e3b1e1a0996a9a493a968f3fd5010f7c5c2a7950e043b0431039928af974a16",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "a1e127e331a2014bb6c1c6dadb90b6770a0e820b29c6a70eecb1dcbc05df96b0",
+      "origin": "reviewed-project-source"
+    },
+    "note-cut.html": {
+      "sha256": "42bba3c64821d3263bdfa201c353f33e6bbfd5800eab37ad2b27d09030df78d3",
+      "origin": "reviewed-project-source"
+    },
+    "note-gift.html": {
+      "sha256": "102921c509dfb3b9752678eeb2e595c701b7071c82843674ae98e4b8ded6e7c7",
+      "origin": "reviewed-project-source"
+    },
+    "notes.html": {
+      "sha256": "eb2d71da69dbd22210f9e4c6a629419e60628d389f54c220727ad48d7b5a8b9b",
+      "origin": "reviewed-project-source"
+    },
+    "product-akami.html": {
+      "sha256": "9dc4be1e34570b1bb072f284d7666fdb16b161815f93cb01713c3f699bdd0563",
+      "origin": "reviewed-project-source"
+    },
+    "product-buri.html": {
+      "sha256": "a12afe38eae5c8a9f625c18b5b33fd69aa231cd150b68ad1a16dda301a43a157",
+      "origin": "reviewed-project-source"
+    },
+    "product-gift.html": {
+      "sha256": "62c2bee64dc59ce4a52bfab0d29d9169a3a52c0f6c981bf63dd3db7bdefbd02c",
+      "origin": "reviewed-project-source"
+    },
+    "product-salmon.html": {
+      "sha256": "2b1dbd5348d7543dec18b1e0f72b72492ba7d6d0bdc8f92fb356d6a7e1c464cf",
+      "origin": "reviewed-project-source"
+    },
+    "product-sauce.html": {
+      "sha256": "c41f808ba83fc469ad47f093800aee0873c56382bc72aa6e8afd535b058e7e7c",
+      "origin": "reviewed-project-source"
+    },
+    "product-shrimp.html": {
+      "sha256": "fc489f7fe495e14a5db2649ca552402d5f5ea1a9b5d5eb8c62e17ef688174645",
+      "origin": "reviewed-project-source"
+    },
+    "product-steak.html": {
+      "sha256": "f52df08c2a51d328cf9f02bdf049c207d96136362dcd996cb8d3ae5ec1bd196d",
+      "origin": "reviewed-project-source"
+    },
+    "product-table-tuna.html": {
+      "sha256": "884841d23750bcc8c2f53872c41d89739c0b5bb11cf8af58b733c5f84481dfed",
+      "origin": "reviewed-project-source"
+    },
+    "README.md": {
+      "sha256": "7c8c66c44a776ad14562e51bf26d94f12a5c27c9a54ab7e927dce46704af1a84",
+      "origin": "reviewed-project-source"
+    },
+    "recipe-lemon.html": {
+      "sha256": "f230722d28a6541ec0bd1fcd090a47402c830673c4b7dbca729e4fe7937d8ccc",
+      "origin": "reviewed-project-source"
+    },
+    "recipe-pan.html": {
+      "sha256": "efc4941b0339a1d2c00f3340e86a8713e34223f7da286f12894fcadb96e8ab8b",
+      "origin": "reviewed-project-source"
+    },
+    "recipe-shrimp.html": {
+      "sha256": "4c1c2908d990288beed79a8e97cb8b0656cf53a3c8f68f5ef21d91109ecbe74a",
+      "origin": "reviewed-project-source"
+    },
+    "recipes.html": {
+      "sha256": "85b292cde12b26bb84075c823d5240384a08e092e5df7f970404cb8bf36cd213",
+      "origin": "reviewed-project-source"
+    },
+    "saved.html": {
+      "sha256": "bfb22ef453625569d5d7d8d4a361c7786e1767d311cb7f4b0fd997d518dbea5a",
+      "origin": "reviewed-project-source"
+    },
+    "site.css": {
+      "sha256": "f3621cf8211e230fc4c2441bfdcaa84704e962f8156bf19a5ec32558f32e353c",
+      "origin": "reviewed-project-source"
+    },
+    "site.js": {
+      "sha256": "2ec0ec48866e28140e9ac91325834609fd697703a788b7d10bc31798c3506e58",
+      "origin": "reviewed-project-source"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "8be977b64e5634eb594adcd60c3788b9b7d136f5f3cd4ac9ed9237a11c708cc7",
+      "origin": "reviewed-project-source"
+    }
+  }
+}
