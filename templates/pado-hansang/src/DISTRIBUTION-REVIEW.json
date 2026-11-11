@@ -146,11 +146,11 @@
       "origin": "reviewed-project-source"
     },
     "site.css": {
-      "sha256": "f3621cf8211e230fc4c2441bfdcaa84704e962f8156bf19a5ec32558f32e353c",
+      "sha256": "861f3c3b661119d937a76b5bbe1ef3d591aff418f43af3e0d05c8df8c68e87c7",
       "origin": "reviewed-project-source"
     },
     "site.js": {
-      "sha256": "2ec0ec48866e28140e9ac91325834609fd697703a788b7d10bc31798c3506e58",
+      "sha256": "1bad9c7bd5a6dd827a6bab519404f332cf12e9fc5302eacf0e3d4f08b9f4ccf8",
       "origin": "reviewed-project-source"
     },
     "THIRD_PARTY_NOTICES.md": {

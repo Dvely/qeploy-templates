@@ -132,21 +132,26 @@
     const cat=chips.some(chip=>chip.dataset.filter===params.get('cat'))?params.get('cat'):'all';
     const q=(params.get('q')||'').trim().slice(0,80);
     const sort=$('#sort');
+    if([...sort.options].some(option=>option.value===params.get('sort')))sort.value=params.get('sort');
     const cards=new Map($$('[data-product]',results).map(card=>[card.dataset.product,card]));
+    const categoryNames=new Map(chips.map(chip=>[chip.dataset.filter,chip.textContent]));
     $('#catalog-query').value=q;$('#top-query').value=q;
     chips.forEach(chip=>{
       if(chip.dataset.filter===cat)chip.setAttribute('aria-current','true');
       if(q){const url=new URL(chip.href);url.searchParams.set('q',q);chip.href=url;}
     });
-    if(cat!=='all'){const field=document.createElement('input');field.type='hidden';field.name='cat';field.value=cat;$('.catalog-search').append(field);}
+    const form=$('.catalog-search');
+    if(cat!=='all'){const field=document.createElement('input');field.type='hidden';field.name='cat';field.value=cat;form.append(field);}
+    const orderField=document.createElement('input');orderField.type='hidden';orderField.name='sort';form.append(orderField);
     const norm=s=>s.normalize('NFC').toLocaleLowerCase('ko');
     const terms=norm(q).split(/\s+/).filter(Boolean);
-    const list=products.filter(p=>(cat==='all'||cat==='best'&&p.pick||p.category===cat)&&terms.every(term=>norm([p.artist,p.title,p.format,...p.options].join(' ')).includes(term)));
-    function render() {
+    const list=products.filter(p=>(cat==='all'||cat==='best'&&p.pick||p.category===cat)&&terms.every(term=>norm([p.artist,p.title,p.format,categoryNames.get(p.category),...p.options].join(' ')).includes(term)));
+    function render(){
       const visible=new Set(list.map(p=>p.id));
       cards.forEach((card,id)=>{card.hidden=!visible.has(id);});
-      const ordered=[...list].sort((a,b)=>sort.value==='low'?a.price-b.price:sort.value==='high'?b.price-a.price:sort.value==='new'?Number(b.fresh)-Number(a.fresh):0);
-      ordered.forEach(p=>results.append(cards.get(p.id)));
+      [...list].sort((a,b)=>sort.value==='low'?a.price-b.price:sort.value==='high'?b.price-a.price:sort.value==='new'?Number(b.fresh)-Number(a.fresh):0).forEach(p=>results.append(cards.get(p.id)));
+      orderField.disabled=sort.value==='default';orderField.value=sort.value;
+      chips.forEach(chip=>{const u=new URL(chip.href);if(orderField.disabled)u.searchParams.delete('sort');else u.searchParams.set('sort',sort.value);chip.href=u;});
       $('.result-count').textContent=(q?'“'+q+'” · ':'')+list.length+'개 상품';
       $('#no-results').hidden=list.length!==0;
     }
