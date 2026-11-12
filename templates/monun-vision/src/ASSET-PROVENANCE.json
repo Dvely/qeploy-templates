@@ -1,0 +1,65 @@
+{
+  "project": "monun-vision",
+  "assets": [
+    {
+      "file": "assets/bullet.jpg",
+      "sha256": "5c0a89eaf8cd4aa13e9ba6ee7566fa41decc4b37e4bc58aead09709b45123c3a",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/dome.jpg",
+      "sha256": "c11b4ba26a984c6b7f824796fb1201389c4eba8c44692b67b2a6ca4b4029db84",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/hero.jpg",
+      "sha256": "38d121add6cb68ed0ff6c6ab031b3acd2aa48f5e3c4cca5240a854c7f93ee280",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/logistics.jpg",
+      "sha256": "b538c367043b35bf8a52c34e11101defc2538f0d16b0a113a4808e9e5a200510",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/mark.svg",
+      "sha256": "7eb2c31bb3ae317626359403e8f9c89b8a6b53ff20520b789d689ef8cb4a8b26",
+      "origin": "original-vector",
+      "record": "asset-notes.md"
+    },
+    {
+      "file": "assets/rail.jpg",
+      "sha256": "5f71527805e84ad4ded63b0989ef8e8053bccf94c60d26bcee39764796dfbc12",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/recorder.jpg",
+      "sha256": "c4c59244cf52e15bcab0f7429f87a287ce97ddea0c01b1e193f107745aa2fa64",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/retail.jpg",
+      "sha256": "fc9ab083f0a663aca8a17fc3c2c579060d7a11fc9a8b203437dc29802c2a56e7",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/technology.jpg",
+      "sha256": "e980379970472cf68a2e2539fcc4ce38b61abd2975d611e75edc5d128fa0f0c8",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/turret.jpg",
+      "sha256": "f0af08aa1bdabf2408f12110420e3a6bedc66df9c7ac1e367b02498e166c9035",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    }
+  ]
+}

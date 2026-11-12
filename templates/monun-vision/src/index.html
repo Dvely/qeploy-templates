@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="네트워크 카메라와 영상 관리 솔루션을 소개하는 가상 기업 웹사이트">
+  <meta name="theme-color" content="#122821">
+  <title>홈 | 모눈비전</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="theme.css">
+  <script type="module" src="site.mjs"></script>
+  <script type="module" src="vision.mjs"></script>
+</head>
+<body class="monun home-page">
+  <a href="#main" class="skip">본문으로 바로가기</a>
+  <header class="site-header">
+    <div class="wrap head-inner">
+      <a class="brand" href="index.html" aria-label="모눈비전 홈"><img src="assets/mark.svg" width="35" height="35" alt=""><span>모눈비전</span></a>
+      <nav class="top-nav" aria-label="주요 메뉴"><a href="applications.html">솔루션</a><a href="products.html">제품</a><a href="learning.html">학습</a><a href="partners.html">파트너</a><a href="support.html">지원</a><a href="about.html">회사정보</a><a href="news.html">뉴스 및 이벤트</a></nav>
+      <div class="head-actions">
+        <button class="icon-button" type="button" data-dialog="site-search" aria-label="검색 열기"><svg aria-hidden="true" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></button>
+        <button class="icon-button" type="button" data-dialog="site-menu" aria-label="전체 메뉴 열기"><svg aria-hidden="true" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+      </div>
+    </div>
+  </header>
+  <dialog id="site-search" class="site-dialog" aria-labelledby="site-search-title">
+    <div class="dialog-top"><h2 id="site-search-title">사이트 검색</h2><form method="dialog"><button class="icon-button" aria-label="검색 닫기">×</button></form></div>
+    <form class="search-form" action="search.html" role="search">
+    <input name="q" type="search" placeholder="제품, 품번, 기술 자료 검색" aria-label="사이트 검색" maxlength="80"><button aria-label="사이트 검색 실행"><svg aria-hidden="true" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></button>
+  </form>
+    <nav class="suggestions" aria-label="주요 제품"><a href="product-dome.html">드리프트 돔 카메라 <span aria-hidden="true">↗</span></a><a href="product-bullet.html">라인 불릿 카메라 <span aria-hidden="true">↗</span></a><a href="product-turret.html">핀 터릿 카메라 <span aria-hidden="true">↗</span></a><a href="product-recorder.html">스택 영상 레코더 <span aria-hidden="true">↗</span></a><a href="product-desk.html">모눈 데스크 <span aria-hidden="true">↗</span></a></nav>
+  </dialog>
+  <dialog id="site-menu" class="site-dialog menu-dialog" aria-labelledby="site-menu-title">
+    <div class="dialog-top"><h2 id="site-menu-title">전체 메뉴</h2><form method="dialog"><button class="icon-button" aria-label="메뉴 닫기">×</button></form></div>
+    <nav class="menu-grid" aria-label="전체 메뉴"><div class="menu-group"><a href="applications.html">솔루션</a><ul><li><a href="applications.html">산업별 적용 사례</a></li><li><a href="technology.html">영상 기술</a></li></ul></div><div class="menu-group"><a href="products.html">제품</a><ul><li><a href="product-dome.html">드리프트 돔 카메라</a></li><li><a href="product-bullet.html">라인 불릿 카메라</a></li><li><a href="product-turret.html">핀 터릿 카메라</a></li><li><a href="product-recorder.html">스택 영상 레코더</a></li><li><a href="product-desk.html">모눈 데스크</a></li><li><a href="applications.html">적용 분야</a></li></ul></div><div class="menu-group"><a href="learning.html">학습</a><ul><li><a href="learning.html">현장 검토 순서</a></li></ul></div><div class="menu-group"><a href="partners.html">파트너</a><ul><li><a href="partners.html">설계 및 구축 협력</a></li></ul></div><div class="menu-group"><a href="support.html">지원</a><ul><li><a href="resources.html">자료 다운로드</a></li><li><a href="support.html#inquiry">도입 문의 미리보기</a></li></ul></div><div class="menu-group"><a href="about.html">회사정보</a></div><div class="menu-group"><a href="news.html">뉴스 및 이벤트</a><ul><li><a href="story-lens.html">공간을 기준으로 렌즈를 고르는 방법</a></li><li><a href="story-recording.html">영상 레코더를 검토할 때 보는 항목</a></li><li><a href="story-transport.html">환승 구역의 영상 배치를 검토하는 순서</a></li></ul></div></nav>
+  </dialog>
+  <main id="main" tabindex="-1"><section class="hero" aria-label="주요 기술 소개" aria-roledescription="캐러셀">
+    <h1 class="sr-only">모눈비전</h1>
+    <article class="slide slide-hero" aria-roledescription="슬라이드" aria-label="1 / 3">
+      <img src="assets/hero.jpg" alt="" fetchpriority="high"><div class="wrap slide-content"><p class="eyebrow">산업별 영상 솔루션</p>
+      <h2>현장의 장면을<br>한눈에 읽다.</h2><p class="slide-description">이동과 작업이 이어지는 공간을 하나의 시야로 연결합니다.</p><a href="applications.html" class="button">산업별 솔루션 보기 <span aria-hidden="true">↗</span></a></div>
+    </article><article class="slide slide-technology" hidden aria-roledescription="슬라이드" aria-label="2 / 3">
+      <img src="assets/technology.jpg" alt="" loading="lazy"><div class="wrap slide-content"><p class="eyebrow">영상 기술</p>
+      <h2>렌즈에서 관제까지<br>영상의 흐름을 잇다.</h2><p class="slide-description">촬영, 전송, 기록과 검색이 이어지는 과정을 살펴보세요.</p><a href="technology.html" class="button">영상 기술 살펴보기 <span aria-hidden="true">↗</span></a></div>
+    </article><article class="slide slide-dome" hidden aria-roledescription="슬라이드" aria-label="3 / 3">
+      <img src="assets/dome.jpg" alt="" loading="lazy"><div class="wrap slide-content"><p class="eyebrow">네트워크 카메라</p>
+      <h2>공간에 맞춰<br>시야를 설계하다.</h2><p class="slide-description">천장형과 방향형 카메라의 차이를 비교해 보세요.</p><a href="products.html?type=네트워크%20카메라" class="button">카메라 제품 비교 <span aria-hidden="true">↗</span></a></div>
+    </article>
+    <div class="wrap hero-nav">
+      <div class="hero-tabs" aria-label="슬라이드 선택"><button type="button" data-slide="0" aria-current="true">산업별 영상 솔루션</button><button type="button" data-slide="1" aria-current="false">영상 기술</button><button type="button" data-slide="2" aria-current="false">네트워크 카메라</button></div>
+      <div class="hero-actions">
+        <button class="icon-button" type="button" data-prev aria-label="이전 슬라이드">‹</button>
+        <button class="icon-button" type="button" data-play aria-label="자동 전환 일시 정지"><span aria-hidden="true">Ⅱ</span></button>
+        <button class="icon-button" type="button" data-next aria-label="다음 슬라이드">›</button>
+      </div><span class="sr-only" id="slide-status" role="status"></span>
+    </div><a class="hero-scroll" href="#highlights">솔루션 살펴보기 <span aria-hidden="true">↓</span></a>
+  </section>
+  <section class="section wrap" id="highlights"><div class="section-title"><h2>영상 솔루션의 구성</h2></div>
+    <div class="feature-grid">
+      <article class="feature-main"><img src="assets/technology.jpg" alt="" loading="lazy"><div><h3>렌즈에서 기록까지</h3><p>촬영·전송·검색이 이어지는 영상 기술</p><a href="technology.html" class="button">기술 알아보기 <span aria-hidden="true">↗</span></a></div></article>
+      <a class="feature-small" href="products.html?type=네트워크%20카메라"><img src="assets/dome.jpg" alt="" loading="lazy"><div><h3>네트워크 카메라</h3><p>공간에 맞는 외형과 시야</p><span><span aria-hidden="true">↗</span></span></div></a>
+      <a class="feature-small" href="product-desk.html"><img src="assets/recorder.jpg" alt="" loading="lazy"><div><h3>영상 관리</h3><p>구역별 보기와 기록 검색</p><span><span aria-hidden="true">↗</span></span></div></a>
+    </div></section><section class="product-band"><div class="wrap section" data-reel>
+      <div class="section-title"><div><h2>제품 살펴보기</h2><p>카메라, 레코더, 영상 관리 도구를 비교해 보세요.</p></div><a href="products.html" class="button">제품 전체 보기 <span aria-hidden="true">↗</span></a></div>
+      <div class="reel-tools" aria-label="제품 목록 이동"><button class="icon-button" type="button" data-reel-step="-1" aria-label="이전 제품" disabled>‹</button><button class="icon-button" type="button" data-reel-step="1" aria-label="다음 제품" disabled>›</button></div>
+      <div class="product-reel" id="featured-products" tabindex="0" aria-label="추천 제품"><article class="product-card" data-product data-code="MV-D240" data-type="네트워크 카메라">
+    <a class="product-link" href="product-dome.html">
+      <div class="card-media"><img src="assets/dome.jpg" alt="" loading="lazy"></div>
+      <div class="card-text"><p class="eyebrow">네트워크 카메라 <span>MV-D240</span></p><h3>드리프트 돔 카메라</h3><p>로비와 복도에 배치하기 좋은 천장형 카메라.</p><span class="card-arrow" aria-hidden="true">↗</span></div>
+    </a>
+  </article><article class="product-card" data-product data-code="MV-B320" data-type="네트워크 카메라">
+    <a class="product-link" href="product-bullet.html">
+      <div class="card-media"><img src="assets/bullet.jpg" alt="" loading="lazy"></div>
+      <div class="card-text"><p class="eyebrow">네트워크 카메라 <span>MV-B320</span></p><h3>라인 불릿 카메라</h3><p>길게 이어지는 통로와 출입 구역을 바라보는 방향형 카메라.</p><span class="card-arrow" aria-hidden="true">↗</span></div>
+    </a>
+  </article><article class="product-card" data-product data-code="MV-T160" data-type="네트워크 카메라">
+    <a class="product-link" href="product-turret.html">
+      <div class="card-media"><img src="assets/turret.jpg" alt="" loading="lazy"></div>
+      <div class="card-text"><p class="eyebrow">네트워크 카메라 <span>MV-T160</span></p><h3>핀 터릿 카메라</h3><p>공간 모서리에서 필요한 방향을 맞추는 소형 카메라.</p><span class="card-arrow" aria-hidden="true">↗</span></div>
+    </a>
+  </article><article class="product-card" data-product data-code="MV-R410" data-type="레코더">
+    <a class="product-link" href="product-recorder.html">
+      <div class="card-media"><img src="assets/recorder.jpg" alt="" loading="lazy"></div>
+      <div class="card-text"><p class="eyebrow">레코더 <span>MV-R410</span></p><h3>스택 영상 레코더</h3><p>여러 카메라의 영상을 시간순으로 모으는 기록 장비.</p><span class="card-arrow" aria-hidden="true">↗</span></div>
+    </a>
+  </article><article class="product-card" data-product data-code="MV-S100" data-type="영상 관리 소프트웨어">
+    <a class="product-link" href="product-desk.html">
+      <div class="card-media"><img src="assets/technology.jpg" alt="" loading="lazy"></div>
+      <div class="card-text"><p class="eyebrow">영상 관리 소프트웨어 <span>MV-S100</span></p><h3>모눈 데스크</h3><p>공간별 카메라를 묶고 기록을 찾아보는 영상 관리 도구.</p><span class="card-arrow" aria-hidden="true">↗</span></div>
+    </a>
+  </article></div>
+    </div></section><section class="wrap section" id="industries">
+    <div class="section-title"><div><h2>산업별 적용 사례</h2><p>공간을 선택하고 영상 장비를 배치하는 방법을 살펴보세요.</p></div><a href="applications.html" class="button">산업 전체 보기 <span aria-hidden="true">↗</span></a></div>
+    <div class="industry-tabs filters" aria-label="산업 선택"><button type="button" data-industry="rail" aria-controls="industry-rail" aria-pressed="true">철도와 교통</button><button type="button" data-industry="logistics" aria-controls="industry-logistics" aria-pressed="false">물류와 유통</button><button type="button" data-industry="retail" aria-controls="industry-retail" aria-pressed="false">매장과 상업 공간</button></div>
+    <article class="industry-panel" id="industry-rail">
+      <img src="assets/rail.jpg" alt="" loading="lazy"><div><h3>철도와 교통</h3><p>역사 출입구, 대합실, 환승 동선을 한 화면에서 살피는 구성입니다.</p><a href="case-rail.html" class="button solid">사례 보기 <span aria-hidden="true">↗</span></a></div></article><article class="industry-panel" id="industry-logistics" hidden>
+      <img src="assets/logistics.jpg" alt="" loading="lazy"><div><h3>물류와 유통</h3><p>입출고 구역과 적재 통로의 상황을 시간대별로 확인합니다.</p><a href="case-logistics.html" class="button solid">사례 보기 <span aria-hidden="true">↗</span></a></div></article><article class="industry-panel" id="industry-retail" hidden>
+      <img src="assets/retail.jpg" alt="" loading="lazy"><div><h3>매장과 상업 공간</h3><p>매장 입구와 공용 통로를 중심으로 공간에 맞는 영상 배치를 살펴봅니다.</p><a href="case-retail.html" class="button solid">사례 보기 <span aria-hidden="true">↗</span></a></div></article>
+  </section>
+  <section class="section wrap"><div class="section-title"><div><h2>뉴스 및 인사이트</h2><p>제품 가이드와 현장 노트를 살펴보세요.</p></div><a href="news.html" class="button">기사 전체 보기 <span aria-hidden="true">↗</span></a></div><div class="filters" aria-label="뉴스 분류">
+      <button type="button" data-news-filter="전체" aria-pressed="true">전체</button><button type="button" data-news-filter="기술 노트" aria-pressed="false">기술 노트</button><button type="button" data-news-filter="제품 가이드" aria-pressed="false">제품 가이드</button><button type="button" data-news-filter="현장 인사이트" aria-pressed="false">현장 인사이트</button>
+    </div>
+    <div class="cards" id="news-cards">
+      <article class="product-card" data-news-type="기술 노트"><a class="product-link" href="story-lens.html">
+        <div class="card-media"><img src="assets/technology.jpg" alt="" loading="lazy"></div><div class="card-text"><p class="eyebrow">기술 노트</p>
+        <h3>공간을 기준으로 렌즈를 고르는 방법</h3><p>촬영 거리와 필요한 시야 범위부터 확인합니다.</p><span class="card-arrow" aria-hidden="true">↗</span></div></a></article><article class="product-card" data-news-type="제품 가이드"><a class="product-link" href="story-recording.html">
+        <div class="card-media"><img src="assets/recorder.jpg" alt="" loading="lazy"></div><div class="card-text"><p class="eyebrow">제품 가이드</p>
+        <h3>영상 레코더를 검토할 때 보는 항목</h3><p>연결 채널, 보관 기간, 검색 방식의 관계를 정리합니다.</p><span class="card-arrow" aria-hidden="true">↗</span></div></a></article><article class="product-card" data-news-type="현장 인사이트"><a class="product-link" href="story-transport.html">
+        <div class="card-media"><img src="assets/rail.jpg" alt="" loading="lazy"></div><div class="card-text"><p class="eyebrow">현장 인사이트</p>
+        <h3>환승 구역의 영상 배치를 검토하는 순서</h3><p>출입구부터 대합실까지 한 구역씩 살펴봅니다.</p><span class="card-arrow" aria-hidden="true">↗</span></div></a></article>
+    </div><p id="news-status" class="sr-only" role="status"></p></section>
+  <section class="resource-band"><div class="wrap"><div><h2>제품 자료와 도입 지원</h2><p>예시 사양을 내려받거나 검토 내용을 정리할 수 있습니다.</p></div>
+    <div class="actions"><a href="resources.html" class="button solid">자료 다운로드 <span aria-hidden="true">↗</span></a><a href="support.html#inquiry" class="button">도입 문의 미리보기 <span aria-hidden="true">↗</span></a></div></div></section>
+  <details class="vision-quick"><summary>빠른 메뉴</summary><nav aria-label="빠른 메뉴">
+    <a href="products.html">제품 찾기 <span aria-hidden="true">↗</span></a><a href="resources.html">자료 다운로드 <span aria-hidden="true">↗</span></a><a href="support.html#inquiry">도입 문의 <span aria-hidden="true">↗</span></a>
+  </nav></details></main>
+  <footer class="footer"><div class="wrap footer-inner">
+    <div><a class="brand" href="index.html" aria-label="모눈비전 홈"><img src="assets/mark.svg" width="35" height="35" alt=""><span>모눈비전</span></a><p>네트워크 카메라와 영상 관리 솔루션을 소개하는 가상 기업 웹사이트</p></div>
+    <nav aria-label="푸터 메뉴"><a href="applications.html">솔루션</a><a href="products.html">제품</a><a href="learning.html">학습</a><a href="partners.html">파트너</a><a href="support.html">지원</a><a href="about.html">회사정보</a><a href="news.html">뉴스 및 이벤트</a></nav>
+    <small>© 2026 모눈비전 · 기업 웹사이트 시연</small>
+    <a class="to-top" href="#main">맨 위로 <span aria-hidden="true">↑</span></a>
+  </div></footer>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "id": "monun-vision",
+  "name": "모눈비전",
+  "description": "영상 보안 카메라와 기록 장비, 산업별 적용 사례를 소개하는 반응형 기업 사이트",
+  "tags": ["영상 보안", "네트워크 카메라", "기업", "카탈로그", "반응형"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    {"key": "home", "where": "index.html", "desc": "배너, 핵심 기술, 제품 캐러셀, 사례와 뉴스"},
+    {"key": "products", "where": "products.html", "desc": "모델 번호 검색과 제품군 필터"},
+    {"key": "resources", "where": "resources.html", "desc": "제품별 텍스트 자료 다운로드"},
+    {"key": "assets", "where": "ASSET-PROVENANCE.json", "desc": "자체 제작 로고 및 생성 이미지 출처"}
+  ]
+}

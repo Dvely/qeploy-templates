@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "project": "monun-vision",
+  "status": "reviewed",
+  "reviewDate": "2026-11-12",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "about.html": {
+      "sha256": "cd0be6e0caa304742035e0fbdf0dcc4f9ad0bd5651d111076aff9892c74040f6",
+      "origin": "reviewed-project-source"
+    },
+    "applications.html": {
+      "sha256": "48504a0d4375054638a33424188986ef46e623b643a472d98f4cd5a67fb6893f",
+      "origin": "reviewed-project-source"
+    },
+    "asset-notes.md": {
+      "sha256": "5720f2bf005ae391d96f0963e9d8f8c34c0a746ef0f004a547261db73b7d253e",
+      "origin": "reviewed-project-source"
+    },
+    "ASSET-PROVENANCE.json": {
+      "sha256": "03f9afb7304e05fea1756885f0cf7b39a1b8153b112def4280fcc40d30314bef",
+      "origin": "reviewed-project-source"
+    },
+    "assets/bullet.jpg": {
+      "sha256": "5c0a89eaf8cd4aa13e9ba6ee7566fa41decc4b37e4bc58aead09709b45123c3a",
+      "origin": "documented-ai-generation"
+    },
+    "assets/dome.jpg": {
+      "sha256": "c11b4ba26a984c6b7f824796fb1201389c4eba8c44692b67b2a6ca4b4029db84",
+      "origin": "documented-ai-generation"
+    },
+    "assets/hero.jpg": {
+      "sha256": "38d121add6cb68ed0ff6c6ab031b3acd2aa48f5e3c4cca5240a854c7f93ee280",
+      "origin": "documented-ai-generation"
+    },
+    "assets/logistics.jpg": {
+      "sha256": "b538c367043b35bf8a52c34e11101defc2538f0d16b0a113a4808e9e5a200510",
+      "origin": "documented-ai-generation"
+    },
+    "assets/mark.svg": {
+      "sha256": "7eb2c31bb3ae317626359403e8f9c89b8a6b53ff20520b789d689ef8cb4a8b26",
+      "origin": "original-vector"
+    },
+    "assets/rail.jpg": {
+      "sha256": "5f71527805e84ad4ded63b0989ef8e8053bccf94c60d26bcee39764796dfbc12",
+      "origin": "documented-ai-generation"
+    },
+    "assets/recorder.jpg": {
+      "sha256": "c4c59244cf52e15bcab0f7429f87a287ce97ddea0c01b1e193f107745aa2fa64",
+      "origin": "documented-ai-generation"
+    },
+    "assets/retail.jpg": {
+      "sha256": "fc9ab083f0a663aca8a17fc3c2c579060d7a11fc9a8b203437dc29802c2a56e7",
+      "origin": "documented-ai-generation"
+    },
+    "assets/technology.jpg": {
+      "sha256": "e980379970472cf68a2e2539fcc4ce38b61abd2975d611e75edc5d128fa0f0c8",
+      "origin": "documented-ai-generation"
+    },
+    "assets/turret.jpg": {
+      "sha256": "f0af08aa1bdabf2408f12110420e3a6bedc66df9c7ac1e367b02498e166c9035",
+      "origin": "documented-ai-generation"
+    },
+    "base.css": {
+      "sha256": "86a8cfce59ed39bd5e44db17222289f347eac03d2eeced6bd4f37ab63e15bfe2",
+      "origin": "reviewed-project-source"
+    },
+    "case-logistics.html": {
+      "sha256": "d7abf7b4c16cdb105f9532eb743967a94b3ef0ac4898bc12f584032cc882f725",
+      "origin": "reviewed-project-source"
+    },
+    "case-rail.html": {
+      "sha256": "e6a07f459954344b70480ad34b0d0cb7c0139a5b85835aa780d7772f2ec5390d",
+      "origin": "reviewed-project-source"
+    },
+    "case-retail.html": {
+      "sha256": "32ecd96dd5040855e45265464558b3ee1fd4875600bdf16250acfbb5f9437a46",
+      "origin": "reviewed-project-source"
+    },
+    "image-prompts.json": {
+      "sha256": "932a68b926b0dd0ad48e6370e25bd45b2965d4f6e40f2f5069e7b0facba9f047",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "8f094e863bda12087fb5873180e9fe22778d207b9fd95e768b84698b674c1694",
+      "origin": "reviewed-project-source"
+    },
+    "learning.html": {
+      "sha256": "b462f1c3a19da08c7cfae9fbcc5374cccd785d9397806a4ff81b700f3a234c8c",
+      "origin": "reviewed-project-source"
+    },
+    "news.html": {
+      "sha256": "f753f38ceec75e18fe5c5975b2f8bf58ada44775127b4baa9b04ac71dd607415",
+      "origin": "reviewed-project-source"
+    },
+    "partners.html": {
+      "sha256": "cd970a696570625703a6b1fadafc029b073d7cf05d1e8fb6a9a889ca3b8927dc",
+      "origin": "reviewed-project-source"
+    },
+    "product-bullet.html": {
+      "sha256": "d63879e170ef110d50439f766f6d90c143577dbaedbeb66102fbcd559712b08c",
+      "origin": "reviewed-project-source"
+    },
+    "product-desk.html": {
+      "sha256": "66beb3c4b3964c79a572d1db78a4837083a716115e4eb48b8e38a76b18f6b45c",
+      "origin": "reviewed-project-source"
+    },
+    "product-dome.html": {
+      "sha256": "d89a63342479bd07cd3cfaa737a84d1b757819a9e1842a4a13a17af28d886a91",
+      "origin": "reviewed-project-source"
+    },
+    "product-recorder.html": {
+      "sha256": "f4cb9cbbcea998b4407e159d7f5ca562b9ea9d9ffc16789f664dda7014204d4b",
+      "origin": "reviewed-project-source"
+    },
+    "product-turret.html": {
+      "sha256": "2aaf4fcc233e14943659ebaa1dea73bfd94c2713aceac1b2d2c4dcd2c1c40e3c",
+      "origin": "reviewed-project-source"
+    },
+    "products.html": {
+      "sha256": "4763dc2fca2d798cd3b71eef876e216c1ec74433d0c597f5e265df203b7d502e",
+      "origin": "reviewed-project-source"
+    },
+    "resources/MV-B320.txt": {
+      "sha256": "dbb87e89f867104b6c4cc217f0313c373c9b4236dd86a63883df3c38df795578",
+      "origin": "reviewed-project-source"
+    },
+    "resources/MV-D240.txt": {
+      "sha256": "9114f3f92ecf6e260ad3bf24056fff8eb4fd6ae9ab4bdc391b4f2bebca52b77a",
+      "origin": "reviewed-project-source"
+    },
+    "resources/MV-R410.txt": {
+      "sha256": "14a70cb2eed8a6d15c209289a34d2d758219be61c85761e087353fc0883d93e9",
+      "origin": "reviewed-project-source"
+    },
+    "resources/MV-S100.txt": {
+      "sha256": "b0a69a33a364de0b2fceb73a9e9d2858bc688e31b51ea557f9581a1dc9ba1ebb",
+      "origin": "reviewed-project-source"
+    },
+    "resources/MV-T160.txt": {
+      "sha256": "a83625ac2ceb4d2d7f3252f6c7aa36e0558b3e7039f38e0b3bf537b4439bd6e8",
+      "origin": "reviewed-project-source"
+    },
+    "resources.html": {
+      "sha256": "3aefbc5aa82f34d08baf3e80cae6e40599894e1d37276cd2d348900dd22639de",
+      "origin": "reviewed-project-source"
+    },
+    "search-index.mjs": {
+      "sha256": "d2a4ff3f9384aaa212b23900e11fb4df41a4f92e90f4d0daabac6e6d788fae62",
+      "origin": "reviewed-project-source"
+    },
+    "search.html": {
+      "sha256": "4cdefdb7f8f88a099f34fde02dd666409ea577a1a801498ffe462404d970170f",
+      "origin": "reviewed-project-source"
+    },
+    "site.mjs": {
+      "sha256": "176b4ab86acd5fc2181312413f08074b53ce603274adf09a1bed49e81e22dd0a",
+      "origin": "reviewed-project-source"
+    },
+    "story-lens.html": {
+      "sha256": "1fd95080bf54eeb69cd573578aa505261999eedc1677ba101799e0cc42d4f1a3",
+      "origin": "reviewed-project-source"
+    },
+    "story-recording.html": {
+      "sha256": "8cdd5504101cafabd4929191f20745f4464977350f53893fe2c8bab32a866e6f",
+      "origin": "reviewed-project-source"
+    },
+    "story-transport.html": {
+      "sha256": "81ea41c618827dc21d3ad914b923e96d4d9ddfe8c9147abc480eb686ce88b282",
+      "origin": "reviewed-project-source"
+    },
+    "support.html": {
+      "sha256": "d835ea11d946d1fe8875a7b2bd1c10313364c528e4570492a86cfd1a7cc8113f",
+      "origin": "reviewed-project-source"
+    },
+    "technology.html": {
+      "sha256": "33265cd20ec7364ba387d02f19f02907e99eb2b154febb390aa54d7074c291be",
+      "origin": "reviewed-project-source"
+    },
+    "theme.css": {
+      "sha256": "a76bd96cfa708436f4ac4571279ed5c1525588be69185c20387aa414d74630fe",
+      "origin": "reviewed-project-source"
+    },
+    "vision.mjs": {
+      "sha256": "16476388fbb8e75ad66c1d22520acd76aee003e2156f31616ecda257dde26f42",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

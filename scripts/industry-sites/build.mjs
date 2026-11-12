@@ -24,8 +24,9 @@ function menuLinks(site, active) {
       ? [ ...site.products.map(p => [p.title, 'product-' + p.id + '.html']), ['적용 분야', 'applications.html'] ]
       : slug === 'news' ? site.stories.map(s => [s.title, 'story-' + s.id + '.html'])
       : slug === 'about' && site.theme === 'depth' ? [['직무 안내', 'careers.html']] : [];
-    return `<div class="menu-group"><a href="${slug}.html"${current}>${label}</a>${details.length
-      ? `<ul>${details.map(([name, href]) => `<li><a href="${href}">${name}</a></li>`).join('')}</ul>` : ''}</div>`;
+    const items = [...(site.menu?.[slug] ?? []), ...details];
+    return `<div class="menu-group"><a href="${slug}.html"${current}>${label}</a>${items.length
+      ? `<ul>${items.map(([name, href]) => `<li><a href="${href}">${name}</a></li>`).join('')}</ul>` : ''}</div>`;
   }).join('');
 }
 
@@ -44,12 +45,12 @@ function shell(site, page, title, content, active = page) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="${site.description}">
-  <meta name="theme-color" content="${site.theme === 'depth' ? '#101b19' : '#16182c'}">
+  <meta name="theme-color" content="${site.themeColor ?? (site.theme === 'depth' ? '#101b19' : '#16182c')}">
   <title>${title} | ${site.brand}</title>
   <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
   <link rel="stylesheet" href="base.css">
   <link rel="stylesheet" href="theme.css">
-  <script type="module" src="site.mjs"></script>
+  <script type="module" src="site.mjs"></script>${site.extraModule ? '\n  <script type="module" src="' + site.extraModule + '"></script>' : ''}
 </head>
 <body class="${site.theme}${page === 'index' ? ' home-page' : ''}">
   <a href="#main" class="skip">본문으로 바로가기</a>
@@ -107,7 +108,7 @@ function stories(site) {
   </article>`).join('')}</div>`;
 }
 
-function carousel(site) {
+function carousel(site, afterControls = '') {
   return `<section class="hero" aria-label="주요 기술 소개" aria-roledescription="캐러셀">
     <h1 class="sr-only">${site.brand}</h1>
     ${site.hero.map((slide, index) => `<article class="slide slide-${slide.image}"${index ? ' hidden' : ''} aria-roledescription="슬라이드" aria-label="${index + 1} / ${site.hero.length}">
@@ -122,7 +123,7 @@ function carousel(site) {
         <button class="icon-button" type="button" data-play aria-label="자동 전환 일시 정지"><span aria-hidden="true">Ⅱ</span></button>
         <button class="icon-button" type="button" data-next aria-label="다음 슬라이드">›</button>
       </div><span class="sr-only" id="slide-status" role="status"></span>
-    </div>
+    </div>${afterControls}
   </section>`;
 }
 
@@ -180,7 +181,7 @@ function catalog(site) {
       <button aria-label="제품 검색 실행">${searchIcon}</button>
     </form>
     <div class="filters" aria-label="제품군">
-      ${['전체', ...site.products.map(p => p.type)].map(type => `<button type="button" data-filter="${type}" aria-pressed="${type === '전체'}">${type}</button>`).join('')}
+      ${['전체', ...new Set(site.products.map(p => p.type))].map(type => `<button type="button" data-filter="${type}" aria-pressed="${type === '전체'}">${type}</button>`).join('')}
     </div>
     <p id="product-count" class="count" role="status"></p><h2 class="sr-only">제품 검색 결과</h2>
     <div class="cards" id="product-list">${site.products.map(productCard).join('')}</div>
@@ -251,9 +252,9 @@ function searchPage() {
     </section>`;
 }
 
-function entries(site) {
+function entries(site, homePage = home(site)) {
   const pages = [
-    ['index', '홈', home(site), '', site.description],
+    ['index', '홈', homePage, '', site.description],
     ['about', '기업 소개', editorial('기업정보', site.about), 'about', site.about.text],
     ['products', '제품정보', catalog(site), 'products', '제품 이름, 품번과 제품군으로 검색'],
     ['applications', '적용 분야', applications(site), 'applications', site.applications.map(item => item.title + ' ' + item.text).join(' ')],
@@ -269,18 +270,21 @@ function entries(site) {
   return pages;
 }
 
-export async function buildIndustrySites(root) {
-  for (const site of [depth, components]) {
-    const directory = path.join(root, 'templates', site.id, 'src');
-    const pages = entries(site);
-    const index = pages.filter(([id]) => id !== 'search' && id !== 'index')
-      .map(([id, title, , , text]) => ({ href: id + '.html', title, text }));
-    await Promise.all([
-      ...pages.map(([id, title, content, active]) => writeFile(path.join(directory, id + '.html'), shell(site, id, title, content, active))),
-      writeFile(path.join(directory, 'search-index.mjs'), 'export const index = ' + JSON.stringify(index, null, 2) + ';\n'),
-      copyFile(new URL('./base.css', import.meta.url), path.join(directory, 'base.css')),
-      copyFile(new URL('./site.mjs', import.meta.url), path.join(directory, 'site.mjs')),
-    ]);
-    console.log(`${site.brand}: ${pages.length}개 페이지 생성`);
-  }
+export async function writeIndustrySite(root, site, pages) {
+  const directory = path.join(root, 'templates', site.id, 'src');
+  const index = pages.filter(([id]) => id !== 'search' && id !== 'index')
+    .map(([id, title, , , text]) => ({ href: id + '.html', title, text }));
+  await Promise.all([
+    ...pages.map(([id, title, content, active]) => writeFile(path.join(directory, id + '.html'), shell(site, id, title, content, active))),
+    writeFile(path.join(directory, 'search-index.mjs'), 'export const index = ' + JSON.stringify(index, null, 2) + ';\n'),
+    copyFile(new URL('./base.css', import.meta.url), path.join(directory, 'base.css')),
+    copyFile(new URL('./site.mjs', import.meta.url), path.join(directory, 'site.mjs')),
+  ]);
+  console.log(`${site.brand}: ${pages.length}개 페이지 생성`);
 }
+
+export async function buildIndustrySites(root) {
+  for (const site of [depth, components]) await writeIndustrySite(root, site, entries(site));
+}
+
+export { carousel, cta, editorial, entries, header, img, productCard };

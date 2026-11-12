@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="네트워크 카메라와 영상 관리 솔루션을 소개하는 가상 기업 웹사이트">
+  <meta name="theme-color" content="#122821">
+  <title>모눈 데스크 | 모눈비전</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="theme.css">
+  <script type="module" src="site.mjs"></script>
+  <script type="module" src="vision.mjs"></script>
+</head>
+<body class="monun">
+  <a href="#main" class="skip">본문으로 바로가기</a>
+  <header class="site-header">
+    <div class="wrap head-inner">
+      <a class="brand" href="index.html" aria-label="모눈비전 홈"><img src="assets/mark.svg" width="35" height="35" alt=""><span>모눈비전</span></a>
+      <nav class="top-nav" aria-label="주요 메뉴"><a href="applications.html">솔루션</a><a href="products.html" aria-current="page">제품</a><a href="learning.html">학습</a><a href="partners.html">파트너</a><a href="support.html">지원</a><a href="about.html">회사정보</a><a href="news.html">뉴스 및 이벤트</a></nav>
+      <div class="head-actions">
+        <button class="icon-button" type="button" data-dialog="site-search" aria-label="검색 열기"><svg aria-hidden="true" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></button>
+        <button class="icon-button" type="button" data-dialog="site-menu" aria-label="전체 메뉴 열기"><svg aria-hidden="true" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+      </div>
+    </div>
+  </header>
+  <dialog id="site-search" class="site-dialog" aria-labelledby="site-search-title">
+    <div class="dialog-top"><h2 id="site-search-title">사이트 검색</h2><form method="dialog"><button class="icon-button" aria-label="검색 닫기">×</button></form></div>
+    <form class="search-form" action="search.html" role="search">
+    <input name="q" type="search" placeholder="제품, 품번, 기술 자료 검색" aria-label="사이트 검색" maxlength="80"><button aria-label="사이트 검색 실행"><svg aria-hidden="true" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></button>
+  </form>
+    <nav class="suggestions" aria-label="주요 제품"><a href="product-dome.html">드리프트 돔 카메라 <span aria-hidden="true">↗</span></a><a href="product-bullet.html">라인 불릿 카메라 <span aria-hidden="true">↗</span></a><a href="product-turret.html">핀 터릿 카메라 <span aria-hidden="true">↗</span></a><a href="product-recorder.html">스택 영상 레코더 <span aria-hidden="true">↗</span></a><a href="product-desk.html">모눈 데스크 <span aria-hidden="true">↗</span></a></nav>
+  </dialog>
+  <dialog id="site-menu" class="site-dialog menu-dialog" aria-labelledby="site-menu-title">
+    <div class="dialog-top"><h2 id="site-menu-title">전체 메뉴</h2><form method="dialog"><button class="icon-button" aria-label="메뉴 닫기">×</button></form></div>
+    <nav class="menu-grid" aria-label="전체 메뉴"><div class="menu-group"><a href="applications.html">솔루션</a><ul><li><a href="applications.html">산업별 적용 사례</a></li><li><a href="technology.html">영상 기술</a></li></ul></div><div class="menu-group"><a href="products.html" aria-current="page">제품</a><ul><li><a href="product-dome.html">드리프트 돔 카메라</a></li><li><a href="product-bullet.html">라인 불릿 카메라</a></li><li><a href="product-turret.html">핀 터릿 카메라</a></li><li><a href="product-recorder.html">스택 영상 레코더</a></li><li><a href="product-desk.html">모눈 데스크</a></li><li><a href="applications.html">적용 분야</a></li></ul></div><div class="menu-group"><a href="learning.html">학습</a><ul><li><a href="learning.html">현장 검토 순서</a></li></ul></div><div class="menu-group"><a href="partners.html">파트너</a><ul><li><a href="partners.html">설계 및 구축 협력</a></li></ul></div><div class="menu-group"><a href="support.html">지원</a><ul><li><a href="resources.html">자료 다운로드</a></li><li><a href="support.html#inquiry">도입 문의 미리보기</a></li></ul></div><div class="menu-group"><a href="about.html">회사정보</a></div><div class="menu-group"><a href="news.html">뉴스 및 이벤트</a><ul><li><a href="story-lens.html">공간을 기준으로 렌즈를 고르는 방법</a></li><li><a href="story-recording.html">영상 레코더를 검토할 때 보는 항목</a></li><li><a href="story-transport.html">환승 구역의 영상 배치를 검토하는 순서</a></li></ul></div></nav>
+  </dialog>
+  <main id="main" tabindex="-1"><section class="sub-hero"><div class="wrap"><p class="eyebrow">영상 관리 소프트웨어</p><h1>모눈 데스크</h1><p>공간별 카메라를 묶고 기록을 찾아보는 영상 관리 도구.</p></div></section>
+    <div class="wrap section">
+      <a class="back" href="products.html">‹ 전체 제품</a>
+      <section class="detail"><div class="detail-image"><img src="assets/technology.jpg" alt="모눈 데스크 콘셉트 이미지" fetchpriority="high"></div>
+      <div class="detail-copy"><p class="eyebrow">MV-S100</p><h2>구성과 특징</h2><p>카메라 목록, 구역별 보기, 시간대 검색을 한 화면에 배치하는 소프트웨어 콘셉트입니다. 운영자 권한과 영상 보관 정책은 도입 환경에 맞춰 정합니다.</p>
+      <dl class="facts"><div><dt>분류</dt><dd>영상 관리 소프트웨어</dd></div><div><dt>화면 구성</dt><dd>구역 보기와 시간대 검색</dd></div><div><dt>검토 항목</dt><dd>운영 권한, 기록 정책</dd></div></dl>
+      <p class="fine-print">이 페이지의 모델과 품번은 제품 탐색 시연을 위한 예시입니다.</p>
+      <div class="actions"><a href="applications.html#rail" class="button">관련 적용 분야 <span aria-hidden="true">↗</span></a><a href="support.html?product=desk#inquiry" class="button solid">기술 문의 미리보기 <span aria-hidden="true">↗</span></a></div></div></section>
+    </div></main>
+  <footer class="footer"><div class="wrap footer-inner">
+    <div><a class="brand" href="index.html" aria-label="모눈비전 홈"><img src="assets/mark.svg" width="35" height="35" alt=""><span>모눈비전</span></a><p>네트워크 카메라와 영상 관리 솔루션을 소개하는 가상 기업 웹사이트</p></div>
+    <nav aria-label="푸터 메뉴"><a href="applications.html">솔루션</a><a href="products.html">제품</a><a href="learning.html">학습</a><a href="partners.html">파트너</a><a href="support.html">지원</a><a href="about.html">회사정보</a><a href="news.html">뉴스 및 이벤트</a></nav>
+    <small>© 2026 모눈비전 · 기업 웹사이트 시연</small>
+    <a class="to-top" href="#main">맨 위로 <span aria-hidden="true">↑</span></a>
+  </div></footer>
+</body>
+</html>
