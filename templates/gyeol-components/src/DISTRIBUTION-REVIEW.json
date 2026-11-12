@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "project": "gyeol-components",
+  "status": "reviewed",
+  "reviewDate": "2026-11-12",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "about.html": {
+      "sha256": "bbab7c8af1cccaa40179452c4e8a0782a304744842c61a28cc64ad9cd93f18ff",
+      "origin": "reviewed-project-source"
+    },
+    "applications.html": {
+      "sha256": "29cd024233b891dd58cc40f6322b9c6997174f717257a99bceb5d05dd6ed51e7",
+      "origin": "reviewed-project-source"
+    },
+    "asset-notes.md": {
+      "sha256": "231bc5fa726ae8756d98ddc1e1a4054bfc04e333186fbf778bd123c18ab540fc",
+      "origin": "reviewed-project-source"
+    },
+    "ASSET-PROVENANCE.json": {
+      "sha256": "0c67ac9ba07893291b7f35d2b68096a6b06438fb1dd0caa2cc49a360e16f2b1c",
+      "origin": "reviewed-project-source"
+    },
+    "assets/camera.jpg": {
+      "sha256": "6300efb4da21947c8ef39f15c3b323e0df9ba652467ca761318e71a071c275b3",
+      "origin": "documented-ai-generation"
+    },
+    "assets/capacitor.jpg": {
+      "sha256": "2afa9c7e723e2de83d38fb46429d0a3b52ca8b238061cf01dba892453fa120d9",
+      "origin": "documented-ai-generation"
+    },
+    "assets/facility.jpg": {
+      "sha256": "b9d5a872454e3b63256c7133e1a9aa066a0e06d1123fdca36fe0d812c8863392",
+      "origin": "documented-ai-generation"
+    },
+    "assets/hero.jpg": {
+      "sha256": "8bab3f3f4fd06f27d9cdb4f57cf9ca4fafa10879fbd84c875d3071f4965d2d19",
+      "origin": "documented-ai-generation"
+    },
+    "assets/mark.svg": {
+      "sha256": "9051fd9912fffc63d7ce09e14e2bc7528d4349a94f3de26536df5eed7b08e464",
+      "origin": "original-vector"
+    },
+    "assets/substrate.jpg": {
+      "sha256": "eaa897354e830ac04dc65d832b0a6ee0b7c101430eb8f6625c505559896ec62d",
+      "origin": "documented-ai-generation"
+    },
+    "base.css": {
+      "sha256": "86a8cfce59ed39bd5e44db17222289f347eac03d2eeced6bd4f37ab63e15bfe2",
+      "origin": "reviewed-project-source"
+    },
+    "careers.html": {
+      "sha256": "ef4cf83c45eea6074f84d2e19ac31078e003377886cf64f2ba35787ccc4f38f8",
+      "origin": "reviewed-project-source"
+    },
+    "image-prompts.json": {
+      "sha256": "89d380a45386431e9fe3a71059ee175601e3651de051c80daba2013410767bf6",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "9830bf6cd836b42b6ee8dc85f99282022b50f5268fe0ed427003c3dcfff3eece",
+      "origin": "reviewed-project-source"
+    },
+    "news.html": {
+      "sha256": "2d0ab2e2d6bda6423675dd6f825c871133a73791dd325eccbe1df4c01ee9a709",
+      "origin": "reviewed-project-source"
+    },
+    "product-camera.html": {
+      "sha256": "68a3104f201146230b7f41cce1126e9d7f107bde64fbbff9ef5a211c4e815bc4",
+      "origin": "reviewed-project-source"
+    },
+    "product-capacitor.html": {
+      "sha256": "4bf2c1a5b14279cfa8fc459df81ad6870a94aa0c8dc62af21f9f37f11a8606df",
+      "origin": "reviewed-project-source"
+    },
+    "product-substrate.html": {
+      "sha256": "6d695ac24a9b344ce6c418a6e7643d4f8942c4a803322de06fcdd36648230a9b",
+      "origin": "reviewed-project-source"
+    },
+    "products.html": {
+      "sha256": "bdcccab41d3b53267edb676e073a990e3cd3b0b7a7ac26ec5c320d0df6582926",
+      "origin": "reviewed-project-source"
+    },
+    "search-index.mjs": {
+      "sha256": "023a0c26dfc6f90450feff7d2edb3a2bb0fa0284aae3cd5f94e9ca0ab1bf5790",
+      "origin": "reviewed-project-source"
+    },
+    "search.html": {
+      "sha256": "22926d74f97e8db90ee1ab106122949fee8570b692a2fc40ea5ae0c83eaca083",
+      "origin": "reviewed-project-source"
+    },
+    "site.mjs": {
+      "sha256": "176b4ab86acd5fc2181312413f08074b53ce603274adf09a1bed49e81e22dd0a",
+      "origin": "reviewed-project-source"
+    },
+    "story-layers.html": {
+      "sha256": "df3ab8a1de8461933dcdd72018997c4acccb2920721b8a442fe1ef00080409f6",
+      "origin": "reviewed-project-source"
+    },
+    "story-workplace.html": {
+      "sha256": "9920bd59ced7dc9abf5bef211b2bff0324c84766e09741d19cb9480ed3471d37",
+      "origin": "reviewed-project-source"
+    },
+    "support.html": {
+      "sha256": "d6e5836b44b6c0caacd5d765630fc130f984aa75dfc06670c564f25f82a52c2f",
+      "origin": "reviewed-project-source"
+    },
+    "sustainability.html": {
+      "sha256": "c87e88969bee825f53ddc2dd0e18dd81a7eeb00ffb23ce8020b0ef3da7d6664a",
+      "origin": "reviewed-project-source"
+    },
+    "theme.css": {
+      "sha256": "deb9aa3c87cbdb50d0fbadb0f197733ec10fb1126d39a7c3559e05135049b947",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

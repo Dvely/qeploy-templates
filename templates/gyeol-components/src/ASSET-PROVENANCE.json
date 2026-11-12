@@ -1,0 +1,41 @@
+{
+  "project": "gyeol-components",
+  "assets": [
+    {
+      "file": "assets/camera.jpg",
+      "sha256": "6300efb4da21947c8ef39f15c3b323e0df9ba652467ca761318e71a071c275b3",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/capacitor.jpg",
+      "sha256": "2afa9c7e723e2de83d38fb46429d0a3b52ca8b238061cf01dba892453fa120d9",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/facility.jpg",
+      "sha256": "b9d5a872454e3b63256c7133e1a9aa066a0e06d1123fdca36fe0d812c8863392",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/hero.jpg",
+      "sha256": "8bab3f3f4fd06f27d9cdb4f57cf9ca4fafa10879fbd84c875d3071f4965d2d19",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/mark.svg",
+      "sha256": "9051fd9912fffc63d7ce09e14e2bc7528d4349a94f3de26536df5eed7b08e464",
+      "origin": "original-vector",
+      "record": "asset-notes.md"
+    },
+    {
+      "file": "assets/substrate.jpg",
+      "sha256": "eaa897354e830ac04dc65d832b0a6ee0b7c101430eb8f6625c505559896ec62d",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    }
+  ]
+}

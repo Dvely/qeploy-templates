@@ -1,0 +1,40 @@
+:root {
+  --paper: #fdfdff;
+  --ink: #24243e;
+  --muted: #555973;
+  --surface: #eff0f8;
+  --line: #dcddeb;
+  --accent: #454181;
+  --accent-on: white;
+  --hero-accent: #e8ddff;
+  --radius: 16px;
+}
+.components .site-header { background: #fdfdfff8; }
+.components .slide { min-height: clamp(500px, 72vh, 720px); }
+.components .slide-content h2 { font-size: clamp(39px, 5.6vw, 80px); }
+.components .slide-capacitor > img, .components .slide-camera > img { width: 67%; left: auto; }
+.components .slide-capacitor, .components .slide-camera { background: #252543; }
+.components .slide-capacitor::after, .components .slide-camera::after {
+  background: linear-gradient(90deg,#1a1a38 18%,#1a1a38b5 45%,#1a1a3810 78%), linear-gradient(0deg,#16162dd2,transparent 40%);
+}
+.notice-bar { border-bottom: 1px solid var(--line); background: #f1effa; }
+.notice-bar .wrap { display: flex; align-items: center; gap: 22px; padding-block: 11px; }
+.notice-bar strong { flex: none; color: var(--accent); }
+.notice-bar .wrap > div { display: flex; gap: 7px 25px; flex-wrap: wrap; }
+.notice-bar a { font-size: 14px; font-weight: 650; }
+.notice-bar a span { color: var(--accent); padding-left: 3px; }
+.components .application-band { background: #eeedf8; }
+.components .application-inner img { grid-column: 2; grid-row: 1; }
+.components .application-inner > div { grid-column: 1; grid-row: 1; }
+.components .product-card { background: #f7f7fc; }
+.components .support-band { background: #eae8f5; }
+@media (max-width: 720px) {
+  .components .slide-capacitor > img, .components .slide-camera > img { width: 100%; }
+  .components .slide-capacitor::after, .components .slide-camera::after { background: linear-gradient(90deg,#191833dc,#16182b52), linear-gradient(0deg,#16162dcd,transparent 37%); }
+  .components .application-inner img, .components .application-inner > div { grid-column: auto; grid-row: auto; }
+}
+@media (max-width: 500px) {
+  .notice-bar .wrap { align-items: start; gap: 12px; }
+  .notice-bar strong { font-size: 13px; }
+  .notice-bar a { font-size: 12px; }
+}

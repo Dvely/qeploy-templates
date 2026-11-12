@@ -27,6 +27,7 @@ const QUALITY = 78;
 const MIME = {
     '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8',
     '.js': 'text/javascript; charset=utf-8', '.json': 'application/json',
+    '.mjs': 'text/javascript; charset=utf-8',
     '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg',
     '.svg': 'image/svg+xml', '.webp': 'image/webp', '.ico': 'image/x-icon',
     '.woff': 'font/woff', '.woff2': 'font/woff2',

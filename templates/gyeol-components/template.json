@@ -1,0 +1,14 @@
+{
+  "id": "gyeol-components",
+  "name": "결층소자",
+  "description": "전자부품 카탈로그와 품번 검색, 기업·지속가능성·채용 정보를 갖춘 반응형 웹사이트",
+  "tags": ["전자부품", "제조", "카탈로그", "품번 검색", "반응형"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    {"key": "products", "where": "products.html", "desc": "품번 검색과 제품군 필터"},
+    {"key": "corporate", "where": "sustainability.html", "desc": "전자부품 제조 과정의 지속가능성 안내"},
+    {"key": "style", "where": "theme.css", "desc": "결층소자의 색상과 반응형 레이아웃"},
+    {"key": "assets", "where": "ASSET-PROVENANCE.json", "desc": "독립 제작 로고와 생성 이미지 출처"}
+  ]
+}

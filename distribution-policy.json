@@ -106,6 +106,14 @@
     "sodam-kan": {
       "status": "ready",
       "reason": "독립 제작 화면과 문구, 자체 로고 및 생성 상품 이미지의 출처 기록 확인"
+    },
+    "gyeol-depth": {
+      "status": "ready",
+      "reason": "독립 제작 화면과 문구, 자체 로고 및 생성 라이다 이미지의 출처 기록 확인"
+    },
+    "gyeol-components": {
+      "status": "ready",
+      "reason": "독립 제작 화면과 문구, 자체 로고 및 생성 전자부품 이미지의 출처 기록 확인"
     }
   }
 }
