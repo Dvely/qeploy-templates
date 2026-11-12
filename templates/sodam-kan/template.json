@@ -1,0 +1,14 @@
+{
+  "id": "sodam-kan",
+  "name": "소담칸",
+  "description": "생활용품과 식료품을 한곳에서 둘러보는 모바일 중심 쇼핑몰",
+  "tags": ["생활용품", "식료품", "카탈로그", "장바구니", "반응형"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    {"key": "catalog", "where": "products.mjs", "desc": "상품과 카테고리"},
+    {"key": "layout", "where": "build.mjs", "desc": "정적 홈과 상세 화면 생성"},
+    {"key": "style", "where": "shop.css", "desc": "반응형 쇼핑몰 스타일"},
+    {"key": "interaction", "where": "shop.mjs", "desc": "검색, 정렬, 찜, 장바구니"}
+  ]
+}

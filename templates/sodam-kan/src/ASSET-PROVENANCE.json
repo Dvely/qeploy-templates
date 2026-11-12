@@ -1,0 +1,71 @@
+{
+  "project": "sodam-kan",
+  "assets": [
+    {
+      "file": "assets/brush.jpg",
+      "sha256": "77af59c2c1616b39ef25b43ea97db0fdb5f996130f7254643a6ebf69523e03fb",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/home.jpg",
+      "sha256": "02c8e2ca30bfe8b3ef45aeb3f3e20738d8e149b05f69ca6983caa39f5ea25f97",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/laundry.jpg",
+      "sha256": "822fdd631704c4c56d667d5dcbf16dbc88f6c5051dafb0d5a42806485430c74a",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/mark.svg",
+      "sha256": "055753765391ea07a7d504c3129be0b8e355b6aefb67361d5b0303ec99c6b369",
+      "origin": "original-vector",
+      "record": "assets/mark-origin.md"
+    },
+    {
+      "file": "assets/oats.jpg",
+      "sha256": "0ce7ffa750cbbc90e79eed6596781af3ee7e2f943e19f78b3fc7a467d8246f36",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/pantry.jpg",
+      "sha256": "2259d66f20bee6247ae6908ef8279b9df71bd232b4e2867ebe11c14a20beb4d8",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/paper.jpg",
+      "sha256": "c3bc3ff741379f6b73a3f2230f1528276a629f8c10a8b9b60e3a423d72353bfd",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/seaweed.jpg",
+      "sha256": "ba6aa0312c22c6190dbb15f24980c31c5636c06ce0e8975bc5a1b99e2989f6eb",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/soap.jpg",
+      "sha256": "af9f20a511e48bad0e581ba918f8427291204db8a23545eb669243d77e32ecce",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/tea.jpg",
+      "sha256": "c6c0945ad0cebada19bbfefedd72be7fe86d4db4438009c185842f713a52ae00",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/towels.jpg",
+      "sha256": "dab1eac810bbbad753cc11dc0e6bcf9852665c1b290b7ec0b26121e7663c2702",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    }
+  ]
+}

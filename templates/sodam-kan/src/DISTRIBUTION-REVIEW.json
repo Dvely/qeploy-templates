@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "project": "sodam-kan",
+  "status": "reviewed",
+  "reviewDate": "2026-11-12",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "ASSET-PROVENANCE.json": {
+      "sha256": "9e781eb1a2964cf9fea1ed40527443440fca3e0ad905da989c89210ac1dcb7e6",
+      "origin": "reviewed-project-source"
+    },
+    "assets/brush.jpg": {
+      "sha256": "77af59c2c1616b39ef25b43ea97db0fdb5f996130f7254643a6ebf69523e03fb",
+      "origin": "documented-ai-generation"
+    },
+    "assets/home.jpg": {
+      "sha256": "02c8e2ca30bfe8b3ef45aeb3f3e20738d8e149b05f69ca6983caa39f5ea25f97",
+      "origin": "documented-ai-generation"
+    },
+    "assets/laundry.jpg": {
+      "sha256": "822fdd631704c4c56d667d5dcbf16dbc88f6c5051dafb0d5a42806485430c74a",
+      "origin": "documented-ai-generation"
+    },
+    "assets/mark-origin.md": {
+      "sha256": "4ea88e1bdec0306bb10261ec58b689846065a34ec08ee22104aa4a79a66a352a",
+      "origin": "reviewed-project-source"
+    },
+    "assets/mark.svg": {
+      "sha256": "055753765391ea07a7d504c3129be0b8e355b6aefb67361d5b0303ec99c6b369",
+      "origin": "original-vector"
+    },
+    "assets/oats.jpg": {
+      "sha256": "0ce7ffa750cbbc90e79eed6596781af3ee7e2f943e19f78b3fc7a467d8246f36",
+      "origin": "documented-ai-generation"
+    },
+    "assets/pantry.jpg": {
+      "sha256": "2259d66f20bee6247ae6908ef8279b9df71bd232b4e2867ebe11c14a20beb4d8",
+      "origin": "documented-ai-generation"
+    },
+    "assets/paper.jpg": {
+      "sha256": "c3bc3ff741379f6b73a3f2230f1528276a629f8c10a8b9b60e3a423d72353bfd",
+      "origin": "documented-ai-generation"
+    },
+    "assets/seaweed.jpg": {
+      "sha256": "ba6aa0312c22c6190dbb15f24980c31c5636c06ce0e8975bc5a1b99e2989f6eb",
+      "origin": "documented-ai-generation"
+    },
+    "assets/soap.jpg": {
+      "sha256": "af9f20a511e48bad0e581ba918f8427291204db8a23545eb669243d77e32ecce",
+      "origin": "documented-ai-generation"
+    },
+    "assets/tea.jpg": {
+      "sha256": "c6c0945ad0cebada19bbfefedd72be7fe86d4db4438009c185842f713a52ae00",
+      "origin": "documented-ai-generation"
+    },
+    "assets/towels.jpg": {
+      "sha256": "dab1eac810bbbad753cc11dc0e6bcf9852665c1b290b7ec0b26121e7663c2702",
+      "origin": "documented-ai-generation"
+    },
+    "build.mjs": {
+      "sha256": "4a09af9083b2a68b159e1a8112a2710f915ea9fb6c1c12cbaef4dc697a2bd0fe",
+      "origin": "reviewed-project-source"
+    },
+    "cart.html": {
+      "sha256": "3c21458fe38101ee61f635e2d6d8a3bff925aa04c394a959dd4bcc1a947ba55e",
+      "origin": "reviewed-project-source"
+    },
+    "categories.html": {
+      "sha256": "01daa16c30b6ff8978009b32787043d9b2f3c2c40b674877e7181ac4bc70b977",
+      "origin": "reviewed-project-source"
+    },
+    "guide.html": {
+      "sha256": "789daa5c8bfa30dd62c3fa20dd4593a32e17cb9b9f9d67742084a57d0fae349c",
+      "origin": "reviewed-project-source"
+    },
+    "image-prompts.json": {
+      "sha256": "915832e017a0662c7fdbb25c52584000de5bd6ba84b4d85f6d7b5b25eed9c00b",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "74e1dc754a0a202b4d410dd82e8f773b7142d1ae92252ec6aa5855c44553bbaf",
+      "origin": "reviewed-project-source"
+    },
+    "product-brush.html": {
+      "sha256": "1bf3a8269d0a09511fb19bd1c849f2821820545a37c36920750e8601ad90bcbf",
+      "origin": "reviewed-project-source"
+    },
+    "product-laundry.html": {
+      "sha256": "9a76713d73a79e269a323b2016452b89e3b23c8b3ac08496c70afaf31535c30b",
+      "origin": "reviewed-project-source"
+    },
+    "product-oats.html": {
+      "sha256": "2b6d3005b3654a0a4d685b514e0940198c385dfff8f1eb130187960e6c195e58",
+      "origin": "reviewed-project-source"
+    },
+    "product-paper.html": {
+      "sha256": "d257088e1f68fa7482bd2fab93c027718e7dc57aac90af4e5c5157851484a288",
+      "origin": "reviewed-project-source"
+    },
+    "product-seaweed.html": {
+      "sha256": "a6d8e5f4c70d72082b1762f696680207ca5e83c9134c550d249c7126f548f18d",
+      "origin": "reviewed-project-source"
+    },
+    "product-soap.html": {
+      "sha256": "dd58c14691fad3dd9613459c574990897e6cfd1950844efe531201effe8e82fc",
+      "origin": "reviewed-project-source"
+    },
+    "product-tea.html": {
+      "sha256": "5baf6b204ff1280a5474a6e90f5680815881a697404cda6cce338f764d1db037",
+      "origin": "reviewed-project-source"
+    },
+    "product-towels.html": {
+      "sha256": "d3fbf9478aa34701b533f31540f2fa59bdb6205a9e44642fc556cf7baa618909",
+      "origin": "reviewed-project-source"
+    },
+    "products.mjs": {
+      "sha256": "3cfbba69f35b66b5c5bde2d64b98b8f47e2145437b3ace2f4f5bff5697653b9d",
+      "origin": "reviewed-project-source"
+    },
+    "saved.html": {
+      "sha256": "b9342575ff48be9cb652b678338155b6deb05d1c02bc6901ccd0126a42738e5f",
+      "origin": "reviewed-project-source"
+    },
+    "shop.css": {
+      "sha256": "32f707c216f902c5bbd726ed36c832dcd5e148ced3329a91aa31bf4aea550605",
+      "origin": "reviewed-project-source"
+    },
+    "shop.html": {
+      "sha256": "43ec294b7067c2f686acf7ad5090f1b27ed239c24b1f2c7474ce85342a45eb5c",
+      "origin": "reviewed-project-source"
+    },
+    "shop.mjs": {
+      "sha256": "8ac8ac2a8331d705a8d128bcaba020f1f7cdd96e6c66b3db35658d6a3405b83a",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

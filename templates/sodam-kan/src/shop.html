@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5ed">
+  <meta name="description" content="소담칸에서 주방, 욕실, 생활용품과 먹거리를 둘러보세요.">
+  <title>상품 찾기 | 소담칸</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="shop.css">
+  <script type="module" src="shop.mjs"></script>
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 건너뛰기</a>
+  <div class="layout">
+    <aside class="side" aria-label="소담칸 소개">
+      <a class="logo" href="index.html" aria-label="소담칸 홈"><img src="assets/mark.svg" width="38" height="38" alt=""><span>소담칸</span></a>
+      <p class="side-title">자주 쓰는 것부터<br>소담하게.</p>
+      <p>주방과 욕실, 찬장에 두고<br>매일 쓰는 물건을 골랐어요.</p>
+      <nav aria-label="빠른 탐색">
+        <a href="shop.html?group=best">인기 상품 <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>
+        <a href="shop.html?group=new">새로 들어온 상품 <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>
+      </nav>
+    </aside>
+    <div class="storefront">
+      <header class="header">
+        <a class="logo" href="index.html" aria-label="소담칸 홈"><img src="assets/mark.svg" width="38" height="38" alt=""><span>소담칸</span></a>
+        <nav aria-label="상단 메뉴">
+          <a class="icon-link" href="shop.html#search" aria-label="검색"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></a>
+          <a class="icon-link cart-icon" href="cart.html" aria-label="장바구니"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h16l-1.4 12H5.4zM9 9V6a3 3 0 0 1 6 0v3"/></svg><span data-cart-count hidden aria-hidden="true">0</span></a>
+        </nav>
+      </header>
+      <main id="main" tabindex="-1"><section class="page-head"><h1>상품 찾기</h1></section>
+  <div class="page-content">
+    <form class="search" id="search" action="shop.html" role="search"><label class="sr-only" for="query">상품 검색</label><input id="query" name="q" type="search" placeholder="상품 이름 또는 카테고리 검색"><button aria-label="검색 실행"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></button></form>
+    <nav class="chips" aria-label="상품 카테고리"><a data-category="all" href="shop.html">전체</a><a data-category="kitchen" href="shop.html?cat=kitchen">주방</a><a data-category="bath" href="shop.html?cat=bath">욕실</a><a data-category="home" href="shop.html?cat=home">생활</a><a data-category="food" href="shop.html?cat=food">먹거리</a></nav>
+    <div class="list-tools"><p id="result-count" aria-live="polite"></p><label>정렬 <select id="sort"><option value="recommended">추천순</option><option value="low">낮은 가격순</option><option value="high">높은 가격순</option></select></label></div>
+    <h2 class="sr-only">상품 목록</h2>
+    <div class="product-grid" id="shop-results"><article class="product-card" data-product="paper">
+    <div class="card-image">
+      <a href="product-paper.html" aria-label="도톰한 주방 종이타월 상세 보기"><img src="assets/paper.jpg" width="438" height="438" alt="" loading="lazy"></a>
+      <button type="button" class="heart" data-save="paper" aria-label="도톰한 주방 종이타월 찜" aria-pressed="false"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-8-4.7-8-10a4.4 4.4 0 0 1 8-2.5A4.4 4.4 0 0 1 20 10c0 5.3-8 10-8 10Z"/></svg></button>
+    </div>
+    <div class="card-body">
+      <h3><a href="product-paper.html">도톰한 주방 종이타월</a></h3>
+      <p class="size">150매 × 2롤</p>
+      <div class="prices"><span class="discount">20%</span><strong>3,900원</strong><del>4,900원</del></div>
+      <button class="add" type="button" data-add="paper" aria-label="도톰한 주방 종이타월 담기"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg> 담기</button>
+    </div>
+  </article><article class="product-card" data-product="soap">
+    <div class="card-image">
+      <a href="product-soap.html" aria-label="유자향 거품 손세정제 상세 보기"><img src="assets/soap.jpg" width="438" height="438" alt="" loading="lazy"></a>
+      <button type="button" class="heart" data-save="soap" aria-label="유자향 거품 손세정제 찜" aria-pressed="false"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-8-4.7-8-10a4.4 4.4 0 0 1 8-2.5A4.4 4.4 0 0 1 20 10c0 5.3-8 10-8 10Z"/></svg></button>
+    </div>
+    <div class="card-body">
+      <h3><a href="product-soap.html">유자향 거품 손세정제</a></h3>
+      <p class="size">300mL</p>
+      <div class="prices"><span class="discount">19%</span><strong>5,200원</strong><del>6,400원</del></div>
+      <button class="add" type="button" data-add="soap" aria-label="유자향 거품 손세정제 담기"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg> 담기</button>
+    </div>
+  </article><article class="product-card" data-product="brush">
+    <div class="card-image">
+      <a href="product-brush.html" aria-label="작은 헤드 칫솔 세트 상세 보기"><img src="assets/brush.jpg" width="438" height="438" alt="" loading="lazy"></a>
+      <button type="button" class="heart" data-save="brush" aria-label="작은 헤드 칫솔 세트 찜" aria-pressed="false"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-8-4.7-8-10a4.4 4.4 0 0 1 8-2.5A4.4 4.4 0 0 1 20 10c0 5.3-8 10-8 10Z"/></svg></button>
+    </div>
+    <div class="card-body">
+      <h3><a href="product-brush.html">작은 헤드 칫솔 세트</a></h3>
+      <p class="size">3개입</p>
+      <div class="prices"><strong>4,500원</strong></div>
+      <button class="add" type="button" data-add="brush" aria-label="작은 헤드 칫솔 세트 담기"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg> 담기</button>
+    </div>
+  </article><article class="product-card" data-product="oats">
+    <div class="card-image">
+      <a href="product-oats.html" aria-label="아침에 먹는 압착 귀리 상세 보기"><img src="assets/oats.jpg" width="438" height="438" alt="" loading="lazy"></a>
+      <button type="button" class="heart" data-save="oats" aria-label="아침에 먹는 압착 귀리 찜" aria-pressed="false"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-8-4.7-8-10a4.4 4.4 0 0 1 8-2.5A4.4 4.4 0 0 1 20 10c0 5.3-8 10-8 10Z"/></svg></button>
+    </div>
+    <div class="card-body">
+      <h3><a href="product-oats.html">아침에 먹는 압착 귀리</a></h3>
+      <p class="size">450g</p>
+      <div class="prices"><span class="discount">16%</span><strong>5,800원</strong><del>6,900원</del></div>
+      <button class="add" type="button" data-add="oats" aria-label="아침에 먹는 압착 귀리 담기"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg> 담기</button>
+    </div>
+  </article><article class="product-card" data-product="towels">
+    <div class="card-image">
+      <a href="product-towels.html" aria-label="물빛 코튼 타월 상세 보기"><img src="assets/towels.jpg" width="438" height="438" alt="" loading="lazy"></a>
+      <button type="button" class="heart" data-save="towels" aria-label="물빛 코튼 타월 찜" aria-pressed="false"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-8-4.7-8-10a4.4 4.4 0 0 1 8-2.5A4.4 4.4 0 0 1 20 10c0 5.3-8 10-8 10Z"/></svg></button>
+    </div>
+    <div class="card-body">
+      <h3><a href="product-towels.html">물빛 코튼 타월</a></h3>
+      <p class="size">40 × 80cm · 3장</p>
+      <div class="prices"><span class="discount">19%</span><strong>12,900원</strong><del>15,900원</del></div>
+      <button class="add" type="button" data-add="towels" aria-label="물빛 코튼 타월 담기"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg> 담기</button>
+    </div>
+  </article><article class="product-card" data-product="laundry">
+    <div class="card-image">
+      <a href="product-laundry.html" aria-label="무향 데일리 세탁세제 상세 보기"><img src="assets/laundry.jpg" width="438" height="438" alt="" loading="lazy"></a>
+      <button type="button" class="heart" data-save="laundry" aria-label="무향 데일리 세탁세제 찜" aria-pressed="false"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-8-4.7-8-10a4.4 4.4 0 0 1 8-2.5A4.4 4.4 0 0 1 20 10c0 5.3-8 10-8 10Z"/></svg></button>
+    </div>
+    <div class="card-body">
+      <h3><a href="product-laundry.html">무향 데일리 세탁세제</a></h3>
+      <p class="size">1L</p>
+      <div class="prices"><strong>7,900원</strong></div>
+      <button class="add" type="button" data-add="laundry" aria-label="무향 데일리 세탁세제 담기"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg> 담기</button>
+    </div>
+  </article><article class="product-card" data-product="seaweed">
+    <div class="card-image">
+      <a href="product-seaweed.html" aria-label="바삭한 구운 김 상세 보기"><img src="assets/seaweed.jpg" width="438" height="438" alt="" loading="lazy"></a>
+      <button type="button" class="heart" data-save="seaweed" aria-label="바삭한 구운 김 찜" aria-pressed="false"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-8-4.7-8-10a4.4 4.4 0 0 1 8-2.5A4.4 4.4 0 0 1 20 10c0 5.3-8 10-8 10Z"/></svg></button>
+    </div>
+    <div class="card-body">
+      <h3><a href="product-seaweed.html">바삭한 구운 김</a></h3>
+      <p class="size">4g × 8봉</p>
+      <div class="prices"><strong>4,600원</strong></div>
+      <button class="add" type="button" data-add="seaweed" aria-label="바삭한 구운 김 담기"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg> 담기</button>
+    </div>
+  </article><article class="product-card" data-product="tea">
+    <div class="card-image">
+      <a href="product-tea.html" aria-label="순하게 우린 보리차 상세 보기"><img src="assets/tea.jpg" width="438" height="438" alt="" loading="lazy"></a>
+      <button type="button" class="heart" data-save="tea" aria-label="순하게 우린 보리차 찜" aria-pressed="false"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-8-4.7-8-10a4.4 4.4 0 0 1 8-2.5A4.4 4.4 0 0 1 20 10c0 5.3-8 10-8 10Z"/></svg></button>
+    </div>
+    <div class="card-body">
+      <h3><a href="product-tea.html">순하게 우린 보리차</a></h3>
+      <p class="size">500mL</p>
+      <div class="prices"><strong>1,900원</strong></div>
+      <button class="add" type="button" data-add="tea" aria-label="순하게 우린 보리차 담기"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg> 담기</button>
+    </div>
+  </article></div>
+    <div class="empty" id="no-results" hidden><h2>검색 결과가 없어요</h2><p>다른 상품 이름이나 카테고리로 찾아보세요.</p><a class="primary" href="shop.html">전체 상품 보기</a></div>
+  </div></main>
+      <footer class="footer">
+        <a class="logo" href="index.html" aria-label="소담칸 홈"><img src="assets/mark.svg" width="38" height="38" alt=""><span>소담칸</span></a>
+        <nav aria-label="하단 안내"><a href="guide.html">이용 안내</a><a href="categories.html">상품 분류</a></nav>
+        <p>가상 생활용품 쇼핑몰 · 주문 미리보기</p>
+        <small>© 2026 소담칸</small>
+      </footer>
+      <nav class="dock" aria-label="주요 메뉴">
+        <a href="categories.html"><svg aria-hidden="true" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg><span>카테고리</span></a><a href="shop.html" aria-current="page"><svg aria-hidden="true" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><span>상품 찾기</span></a><a href="index.html"><svg aria-hidden="true" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 9-7 9 7v9H3zM9 20v-6h6v6"/></svg><span>홈</span></a><a href="saved.html"><svg aria-hidden="true" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-8-4.7-8-10a4.4 4.4 0 0 1 8-2.5A4.4 4.4 0 0 1 20 10c0 5.3-8 10-8 10Z"/></svg><span>찜</span></a><a href="cart.html"><svg aria-hidden="true" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h16l-1.4 12H5.4zM9 9V6a3 3 0 0 1 6 0v3"/></svg><span>장바구니</span></a>
+      </nav>
+    </div>
+  </div>
+  <p class="toast" role="status" aria-live="polite" aria-atomic="true"></p>
+</body>
+</html>
