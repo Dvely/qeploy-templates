@@ -25,6 +25,7 @@ import { buildVeiloCollective } from '../templates/veilo-collective/src/build.mj
 import { buildLoopShelf } from '../templates/loop-shelf/src/build.mjs';
 import { buildAislegate } from '../templates/aislegate/src/build.mjs';
 import { buildPadoHansang } from '../templates/pado-hansang/src/build.mjs';
+import { buildSodamKan } from '../templates/sodam-kan/src/build.mjs';
 
 const run = promisify(execFile);
 const ROOT = path.resolve(import.meta.dirname, '..');
@@ -43,6 +44,7 @@ await buildVeiloCollective();
 await buildLoopShelf();
 await buildAislegate();
 await buildPadoHansang();
+await buildSodamKan();
 await buildHarutgyeolPages();
 await buildPagesDetails();
 await buildAtelierCuisine();
