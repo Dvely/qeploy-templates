@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="거리 측정 센서와 공간 인식 기술을 소개하는 가상 라이다 기업">
+  <meta name="theme-color" content="#101b19">
+  <title>제품정보 | 깊이결 라이다</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="theme.css">
+  <script type="module" src="site.mjs"></script>
+</head>
+<body class="depth">
+  <a href="#main" class="skip">본문으로 바로가기</a>
+  <header class="site-header">
+    <div class="wrap head-inner">
+      <a class="brand" href="index.html" aria-label="깊이결 라이다 홈"><img src="assets/mark.svg" width="35" height="35" alt=""><span>GYEOL DEPTH</span></a>
+      <nav class="top-nav" aria-label="주요 메뉴"><a href="products.html" aria-current="page">제품</a><a href="applications.html">적용 분야</a><a href="technology.html">기술</a><a href="support.html">기술 지원</a><a href="about.html">회사</a><a href="news.html">소식</a></nav>
+      <div class="head-actions">
+        <button class="icon-button" type="button" data-dialog="site-search" aria-label="검색 열기"><svg aria-hidden="true" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></button>
+        <button class="icon-button" type="button" data-dialog="site-menu" aria-label="전체 메뉴 열기"><svg aria-hidden="true" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+      </div>
+    </div>
+  </header>
+  <dialog id="site-search" class="site-dialog" aria-labelledby="site-search-title">
+    <div class="dialog-top"><h2 id="site-search-title">사이트 검색</h2><form method="dialog"><button class="icon-button" aria-label="검색 닫기">×</button></form></div>
+    <form class="search-form" action="search.html" role="search">
+    <input name="q" type="search" placeholder="제품, 품번, 기술 자료 검색" aria-label="사이트 검색" maxlength="80"><button aria-label="사이트 검색 실행"><svg aria-hidden="true" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></button>
+  </form>
+    <nav class="suggestions" aria-label="주요 제품"><a href="product-volume.html">볼륨 V30 <span aria-hidden="true">↗</span></a><a href="product-plane.html">플레인 P12 <span aria-hidden="true">↗</span></a><a href="product-mapping.html">맵뷰 M01 <span aria-hidden="true">↗</span></a></nav>
+  </dialog>
+  <dialog id="site-menu" class="site-dialog menu-dialog" aria-labelledby="site-menu-title">
+    <div class="dialog-top"><h2 id="site-menu-title">전체 메뉴</h2><form method="dialog"><button class="icon-button" aria-label="메뉴 닫기">×</button></form></div>
+    <nav class="menu-grid" aria-label="전체 메뉴"><div class="menu-group"><a href="products.html" aria-current="page">제품</a><ul><li><a href="product-volume.html">볼륨 V30</a></li><li><a href="product-plane.html">플레인 P12</a></li><li><a href="product-mapping.html">맵뷰 M01</a></li><li><a href="applications.html">적용 분야</a></li></ul></div><div class="menu-group"><a href="applications.html">적용 분야</a></div><div class="menu-group"><a href="technology.html">기술</a></div><div class="menu-group"><a href="support.html">기술 지원</a></div><div class="menu-group"><a href="about.html">회사</a><ul><li><a href="careers.html">직무 안내</a></li></ul></div><div class="menu-group"><a href="news.html">소식</a><ul><li><a href="story-scan-layout.html">라이다를 설치할 때 확인할 세 가지</a></li><li><a href="story-point-cloud.html">점군으로 작업 구역을 나누는 방법</a></li></ul></div></nav>
+  </dialog>
+  <main id="main" tabindex="-1"><section class="sub-hero"><div class="wrap"><p class="eyebrow">제품정보</p><h1>라이다 제품</h1><p>제품 이름이나 품번으로 찾고, 제품군별로 비교할 수 있습니다.</p></div></section>
+  <section class="section wrap" aria-label="제품 목록">
+    <form id="product-search" class="search-form" action="products.html" role="search">
+      <input type="search" name="part" aria-label="제품 이름 또는 품번" placeholder="예: GD-V30" maxlength="80">
+      <button aria-label="제품 검색 실행"><svg aria-hidden="true" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></button>
+    </form>
+    <div class="filters" aria-label="제품군">
+      <button type="button" data-filter="전체" aria-pressed="true">전체</button><button type="button" data-filter="3D 라이다" aria-pressed="false">3D 라이다</button><button type="button" data-filter="2D 라이다" aria-pressed="false">2D 라이다</button><button type="button" data-filter="공간 분석" aria-pressed="false">공간 분석</button>
+    </div>
+    <p id="product-count" class="count" role="status"></p><h2 class="sr-only">제품 검색 결과</h2>
+    <div class="cards" id="product-list"><article class="product-card" data-product data-code="GD-V30" data-type="3D 라이다">
+    <a class="product-link" href="product-volume.html">
+      <div class="card-media"><img src="assets/volume.jpg" alt="" loading="lazy"></div>
+      <div class="card-text"><p class="eyebrow">3D 라이다 <span>GD-V30</span></p><h3>볼륨 V30</h3><p>공간의 높낮이와 물체 윤곽을 점 데이터로 읽는 센서 콘셉트.</p><span class="card-arrow" aria-hidden="true">↗</span></div>
+    </a>
+  </article><article class="product-card" data-product data-code="GD-P12" data-type="2D 라이다">
+    <a class="product-link" href="product-plane.html">
+      <div class="card-media"><img src="assets/plane.jpg" alt="" loading="lazy"></div>
+      <div class="card-text"><p class="eyebrow">2D 라이다 <span>GD-P12</span></p><h3>플레인 P12</h3><p>한 평면에서 거리와 윤곽을 탐지하는 스캔 센서 콘셉트.</p><span class="card-arrow" aria-hidden="true">↗</span></div>
+    </a>
+  </article><article class="product-card" data-product data-code="GD-M01" data-type="공간 분석">
+    <a class="product-link" href="product-mapping.html">
+      <div class="card-media"><img src="assets/mapping.jpg" alt="" loading="lazy"></div>
+      <div class="card-text"><p class="eyebrow">공간 분석 <span>GD-M01</span></p><h3>맵뷰 M01</h3><p>센서에서 수집한 거리 데이터를 구역 단위로 정리하는 도구.</p><span class="card-arrow" aria-hidden="true">↗</span></div>
+    </a>
+  </article></div>
+    <p class="empty" id="no-products" hidden>검색 결과가 없습니다. 다른 제품 이름이나 품번을 입력하세요.</p>
+  </section></main>
+  <footer class="footer"><div class="wrap footer-inner">
+    <div><a class="brand" href="index.html" aria-label="깊이결 라이다 홈"><img src="assets/mark.svg" width="35" height="35" alt=""><span>GYEOL DEPTH</span></a><p>거리 측정 센서와 공간 인식 기술을 소개하는 가상 라이다 기업</p></div>
+    <nav aria-label="푸터 메뉴"><a href="products.html">제품</a><a href="applications.html">적용 분야</a><a href="technology.html">기술</a><a href="support.html">기술 지원</a><a href="about.html">회사</a><a href="news.html">소식</a></nav>
+    <small>© 2026 깊이결 라이다 · 기업 웹사이트 시연</small>
+    <a class="to-top" href="#main">맨 위로 <span aria-hidden="true">↑</span></a>
+  </div></footer>
+</body>
+</html>

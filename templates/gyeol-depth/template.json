@@ -1,0 +1,14 @@
+{
+  "id": "gyeol-depth",
+  "name": "깊이결 라이다",
+  "description": "라이다 센서, 공간 분석, 산업별 적용 사례를 소개하는 반응형 기업 웹사이트",
+  "tags": ["라이다", "로봇", "제조", "기업", "반응형"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    {"key": "products", "where": "products.html", "desc": "3차원·2차원 센서와 공간 분석 제품"},
+    {"key": "applications", "where": "applications.html", "desc": "이동 로봇, 물류, 공간 관제 적용 예시"},
+    {"key": "style", "where": "theme.css", "desc": "깊이결의 색상과 반응형 레이아웃"},
+    {"key": "assets", "where": "ASSET-PROVENANCE.json", "desc": "독립 제작 로고와 생성 이미지 출처"}
+  ]
+}

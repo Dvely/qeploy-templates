@@ -1,0 +1,44 @@
+:root {
+  color-scheme: dark;
+  --paper: #101b19;
+  --ink: #f3f7f4;
+  --muted: #bdcdc5;
+  --surface: #172622;
+  --line: #344840;
+  --accent: #c4f7b9;
+  --accent-on: #16291c;
+  --hero-accent: #c4f7b9;
+  --radius: 8px;
+}
+.depth .site-header { background: #101b19f7; }
+.depth .hero { background: #13221f; }
+.depth .slide::after { background: linear-gradient(90deg, #0e1918f5, #10221c81 49%, #0b1a1415 80%), linear-gradient(0deg, #0e1918e8, transparent 36%); }
+.depth .slide-mapping > img { object-position: 78% 47%; }
+.depth .slide-mapping::after { background: linear-gradient(90deg, #111c1bf5, #15262280 60%, #15262229 100%), linear-gradient(0deg, #0e1918db, transparent 42%); }
+.depth .product-card { border-radius: 5px; }
+.depth .application-band { background: #203129; }
+.depth .support-band { background: #22362a; }
+.depth .section-title h2 { letter-spacing: -.07em; }
+@media (max-width: 720px) {
+  .depth .slide > img { object-position: 66% 50%; }
+  .depth .slide::after { background: linear-gradient(90deg,#0f1918dd,#0f191873), linear-gradient(0deg,#0e1918e8,transparent 40%); }
+}
+.depth.home-page .site-header { position: absolute; inset: 0 0 auto; background: #101b1945; border-bottom-color: #d3e6de37; }
+.depth-hero .slide { min-height: clamp(620px, 100svh, 940px); }
+.depth-hero .slide-content { padding-block: 128px 95px; }
+.depth-hero h1 { font-size: clamp(39px, 6.2vw, 91px); }
+.depth-hero .button.solid { color: var(--accent-on); border-color: var(--accent); }
+.depth-hero .button.solid:hover { background: #d9ffd2; }
+.depth-hero-bottom { position: absolute; inset: auto 0 0; border-top: 1px solid #d3e6de50; }
+.depth-hero-bottom a { display: inline-flex; gap: 14px; align-items: center; min-height: 58px; font-size: 14px; font-weight: 750; }
+.depth-intro { background: #24362f; border-bottom: 1px solid var(--line); }
+.depth-intro > div { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 13px; padding-block: 24px; }
+.depth-intro h2 { font-size: clamp(22px, 3vw, 39px); }
+.industry-panel { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); align-items: center; gap: clamp(17px, 5vw, 66px); }
+.industry-panel img { width: 100%; aspect-ratio: 1.74; object-fit: cover; border-radius: var(--radius); }
+.industry-panel h3 { font-size: clamp(24px, 4vw, 45px); }
+.industry-panel .button { margin-top: 14px; }
+@media (max-width: 720px) {
+  .depth-hero .slide { min-height: min(670px, max(490px, 88svh)); }
+  .industry-panel { grid-template-columns: 1fr; }
+}

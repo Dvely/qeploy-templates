@@ -1,0 +1,35 @@
+{
+  "project": "gyeol-depth",
+  "assets": [
+    {
+      "file": "assets/hero.jpg",
+      "sha256": "946bf1c6d73f0e58b44c459a9118c1b6c64bb2e0221cb4f6667cd9823417fcb7",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/mapping.jpg",
+      "sha256": "07feef7b7ac5ac456b9752476dadbce89d9b2549721b87eccfb448a7e98b81c2",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/mark.svg",
+      "sha256": "b10ef6c3892d4c3474ec0a5bb2212f43f50e071473b02f7f2aeb90e08cd373b1",
+      "origin": "original-vector",
+      "record": "asset-notes.md"
+    },
+    {
+      "file": "assets/plane.jpg",
+      "sha256": "f0c8de708a829fadd07ca31387a1339e24a1e58bd74b2f9d773f6e2820a65440",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/volume.jpg",
+      "sha256": "abfd66c636b6c2c38970ad26a7773c806776ae35a3e03ab64b8eb3e48502b2bb",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    }
+  ]
+}

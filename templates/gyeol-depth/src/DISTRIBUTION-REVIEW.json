@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "project": "gyeol-depth",
+  "status": "reviewed",
+  "reviewDate": "2026-11-12",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "about.html": {
+      "sha256": "4e0d668c8fd0a4ca6dda6b60a35d6e6815c4c403e908a774d4c3e326dbb38839",
+      "origin": "reviewed-project-source"
+    },
+    "applications.html": {
+      "sha256": "2cdcb817092b20b05f4b2906a1717099321692cf947f20ac49c89e8598ea1486",
+      "origin": "reviewed-project-source"
+    },
+    "asset-notes.md": {
+      "sha256": "231bc5fa726ae8756d98ddc1e1a4054bfc04e333186fbf778bd123c18ab540fc",
+      "origin": "reviewed-project-source"
+    },
+    "ASSET-PROVENANCE.json": {
+      "sha256": "6c8d78808b2924b75ca754b7ef4965bfac81dcb19378c2b01a23ee121e67ccef",
+      "origin": "reviewed-project-source"
+    },
+    "assets/hero.jpg": {
+      "sha256": "946bf1c6d73f0e58b44c459a9118c1b6c64bb2e0221cb4f6667cd9823417fcb7",
+      "origin": "documented-ai-generation"
+    },
+    "assets/mapping.jpg": {
+      "sha256": "07feef7b7ac5ac456b9752476dadbce89d9b2549721b87eccfb448a7e98b81c2",
+      "origin": "documented-ai-generation"
+    },
+    "assets/mark.svg": {
+      "sha256": "b10ef6c3892d4c3474ec0a5bb2212f43f50e071473b02f7f2aeb90e08cd373b1",
+      "origin": "original-vector"
+    },
+    "assets/plane.jpg": {
+      "sha256": "f0c8de708a829fadd07ca31387a1339e24a1e58bd74b2f9d773f6e2820a65440",
+      "origin": "documented-ai-generation"
+    },
+    "assets/volume.jpg": {
+      "sha256": "abfd66c636b6c2c38970ad26a7773c806776ae35a3e03ab64b8eb3e48502b2bb",
+      "origin": "documented-ai-generation"
+    },
+    "base.css": {
+      "sha256": "86a8cfce59ed39bd5e44db17222289f347eac03d2eeced6bd4f37ab63e15bfe2",
+      "origin": "reviewed-project-source"
+    },
+    "careers.html": {
+      "sha256": "018c6fbcdec9af8f90dcb4d34c96601df238e430db61a666a7527654b866c996",
+      "origin": "reviewed-project-source"
+    },
+    "image-prompts.json": {
+      "sha256": "c8eb57d2b4440fc903b726589a91c9a4fdd01f120944bdd172c45365e0aa4f36",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "843c4365bbe3f2156645e1964b3e079d873ca7160bad0a30f6de3c838c9f003c",
+      "origin": "reviewed-project-source"
+    },
+    "news.html": {
+      "sha256": "01ee0907a62786621934e37e3f7211e16f82b2793f09653b641e6ef6692be0e5",
+      "origin": "reviewed-project-source"
+    },
+    "product-mapping.html": {
+      "sha256": "81fb5855a62c9bf852f4698cff05b5fe7c0b47457574bb72048d48e047affa30",
+      "origin": "reviewed-project-source"
+    },
+    "product-plane.html": {
+      "sha256": "68309f08f6b2b46e684eb9b9eb634c18812e64d7480387f9340fee22e129a03c",
+      "origin": "reviewed-project-source"
+    },
+    "product-volume.html": {
+      "sha256": "f8684fdb861f3ed0e69bd62dcc68993abaca9ecd965a8ada8d7870b405142d7b",
+      "origin": "reviewed-project-source"
+    },
+    "products.html": {
+      "sha256": "18748c6e1432cffaa83d37aa04f344b981e9a8049e9e8692910ec4991ec986d1",
+      "origin": "reviewed-project-source"
+    },
+    "search-index.mjs": {
+      "sha256": "c058d57cceec508e9b3ae5d9cc75b10403f1a036ad9a43ed5727b04bcab757f7",
+      "origin": "reviewed-project-source"
+    },
+    "search.html": {
+      "sha256": "f89638b97a27706888050e37201e5bff797ca53cffc06fdaf1293c3e64bd1136",
+      "origin": "reviewed-project-source"
+    },
+    "site.mjs": {
+      "sha256": "176b4ab86acd5fc2181312413f08074b53ce603274adf09a1bed49e81e22dd0a",
+      "origin": "reviewed-project-source"
+    },
+    "story-point-cloud.html": {
+      "sha256": "0d2272922c2bf9bbe81a50b46b3fa011d1538eaa1e7fdf52b0bbb4c147963979",
+      "origin": "reviewed-project-source"
+    },
+    "story-scan-layout.html": {
+      "sha256": "8abdaa6e756a229256dfcf30f055e5e0e6011bc7f16e572571bfa9af5264c58a",
+      "origin": "reviewed-project-source"
+    },
+    "support.html": {
+      "sha256": "b7749723ee685841d2e6a1dca9186139fe36572ee8fbc0461d9fef03268fbe2f",
+      "origin": "reviewed-project-source"
+    },
+    "technology.html": {
+      "sha256": "92e55e09993320a94f869535168828c5631bf45c6f69cc189d070200c1932a68",
+      "origin": "reviewed-project-source"
+    },
+    "theme.css": {
+      "sha256": "01a69d256aaeb38a3fca954a011ccd15d8865608675247436978bb73ddd7b991",
+      "origin": "reviewed-project-source"
+    }
+  }
+}
