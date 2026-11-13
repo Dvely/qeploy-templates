@@ -28,6 +28,7 @@ import { buildPadoHansang } from '../templates/pado-hansang/src/build.mjs';
 import { buildSodamKan } from '../templates/sodam-kan/src/build.mjs';
 import { buildIndustrySites } from './industry-sites/build.mjs';
 import { buildMonunVision } from './monun-vision/build.mjs';
+import { buildBrionMobility } from '../templates/brion-mobility/src/build.mjs';
 
 const run = promisify(execFile);
 const ROOT = path.resolve(import.meta.dirname, '..');
@@ -49,6 +50,7 @@ await buildPadoHansang();
 await buildSodamKan();
 await buildIndustrySites(ROOT);
 await buildMonunVision(ROOT);
+await buildBrionMobility();
 await buildHarutgyeolPages();
 await buildPagesDetails();
 await buildAtelierCuisine();
