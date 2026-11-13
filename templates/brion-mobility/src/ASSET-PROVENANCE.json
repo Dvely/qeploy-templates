@@ -1,0 +1,41 @@
+{
+  "project": "brion-mobility",
+  "assets": [
+    {
+      "file": "assets/charging.jpg",
+      "sha256": "e575eb019eb96f0e1eebdf0c19788fce54aecc4d9c7db08ae2e9d8364b8d1f68",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/controller.jpg",
+      "sha256": "5b0cbd4cb5ca06b5a573a0b0e8257e724302b4173124988e22d3a4bef73779ec",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/hero.jpg",
+      "sha256": "3b6a712abb70536baabbd5f3106c64db922953cb7181377abd4a82a2453ca2d6",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/mark.svg",
+      "sha256": "d4fc6d4e4a95ed11df04c1d1b939e6500fbcc7dced473c1d441ce59de7657847",
+      "origin": "original-vector",
+      "record": "asset-notes.md"
+    },
+    {
+      "file": "assets/validation.jpg",
+      "sha256": "01feec94db119512b87379d660eb29fa0ff21fcc8572565c8780266408d4d43d",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/workshop.jpg",
+      "sha256": "a34ea173f082ffb7ad4bfaae66cbc23fe5081ed80a69a899e7d9d2b12bcab269",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    }
+  ]
+}

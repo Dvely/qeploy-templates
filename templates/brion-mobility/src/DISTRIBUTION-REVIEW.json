@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "project": "brion-mobility",
+  "status": "reviewed",
+  "reviewDate": "2026-11-13",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "about.html": {
+      "sha256": "bd43c77a2620de50fdd415a3fa0c03da86ea56c5ed0febc36220861f35661eca",
+      "origin": "reviewed-project-source"
+    },
+    "asset-notes.md": {
+      "sha256": "5c665bcfb99311a86c9e1ed3b337a0d018bb285e0320aeb66e7629d41cfa9c2f",
+      "origin": "reviewed-project-source"
+    },
+    "ASSET-PROVENANCE.json": {
+      "sha256": "762772585ffa52d79d23c7478183cb428075711e11b4815a82844ee727969b32",
+      "origin": "reviewed-project-source"
+    },
+    "assets/charging.jpg": {
+      "sha256": "e575eb019eb96f0e1eebdf0c19788fce54aecc4d9c7db08ae2e9d8364b8d1f68",
+      "origin": "documented-ai-generation"
+    },
+    "assets/controller.jpg": {
+      "sha256": "5b0cbd4cb5ca06b5a573a0b0e8257e724302b4173124988e22d3a4bef73779ec",
+      "origin": "documented-ai-generation"
+    },
+    "assets/hero.jpg": {
+      "sha256": "3b6a712abb70536baabbd5f3106c64db922953cb7181377abd4a82a2453ca2d6",
+      "origin": "documented-ai-generation"
+    },
+    "assets/mark.svg": {
+      "sha256": "d4fc6d4e4a95ed11df04c1d1b939e6500fbcc7dced473c1d441ce59de7657847",
+      "origin": "original-vector"
+    },
+    "assets/validation.jpg": {
+      "sha256": "01feec94db119512b87379d660eb29fa0ff21fcc8572565c8780266408d4d43d",
+      "origin": "documented-ai-generation"
+    },
+    "assets/workshop.jpg": {
+      "sha256": "a34ea173f082ffb7ad4bfaae66cbc23fe5081ed80a69a899e7d9d2b12bcab269",
+      "origin": "documented-ai-generation"
+    },
+    "build.mjs": {
+      "sha256": "78fa1c55bcc4e594cbe5195fe14ad3cc5149810d34bb4c295a24bf07e16fd24b",
+      "origin": "reviewed-project-source"
+    },
+    "business.html": {
+      "sha256": "894bd653600553b4e8a3fcc503a2b18d8300f542321f1680babda1c696df0545",
+      "origin": "reviewed-project-source"
+    },
+    "careers.html": {
+      "sha256": "c6c256d61d7bf3961e8ad91a047ceef32827b3db2278e64eefd016987bbcf835",
+      "origin": "reviewed-project-source"
+    },
+    "charging.html": {
+      "sha256": "f5b9e165b6bf46fc20bee57e0d14b8aeb49c1f24bc6dde98b75583d5d1af6ebf",
+      "origin": "reviewed-project-source"
+    },
+    "company.html": {
+      "sha256": "5c01163bd4ed27d6cfcd3c57fb36a20d62258896773cc4443974ffca054e7ab5",
+      "origin": "reviewed-project-source"
+    },
+    "connectivity.html": {
+      "sha256": "bd5d95a27c459475d39e29ee9a098a17c1df1859bddd498d12198c9678ee902e",
+      "origin": "reviewed-project-source"
+    },
+    "contact.html": {
+      "sha256": "93dd4f61eac9a2856790a663c33c5e06d5ce67a5a64871f75c25916c9286f0ad",
+      "origin": "reviewed-project-source"
+    },
+    "content.mjs": {
+      "sha256": "2d3056acde76452a693f238d61d866064136c134fba9d275726459e2d942ea7e",
+      "origin": "reviewed-project-source"
+    },
+    "controllers.html": {
+      "sha256": "9b4477563a10c572dccd49a01145727dd959c5c33abb16e542601577e85d5752",
+      "origin": "reviewed-project-source"
+    },
+    "demo.html": {
+      "sha256": "a6edc95b47226ee42831d0f4fb3268518f24e4de9ab8d951110b9cf30e9d0544",
+      "origin": "reviewed-project-source"
+    },
+    "image-prompts.json": {
+      "sha256": "26e801ae8f756a35cd8c36be7d61ac544d504e639f31edb1654383bb85ed9ba9",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "3046d181de20f3e1ab7c68f28330663bf391e904f232578c35db96d0a9f2345e",
+      "origin": "reviewed-project-source"
+    },
+    "infrastructure.html": {
+      "sha256": "83461231e19a9e07ea62760ee67e9a24660b0d1d371a58bc0990e3438ce721c8",
+      "origin": "reviewed-project-source"
+    },
+    "notes.html": {
+      "sha256": "f670c30726d03cc0db5c6298a169667688520cf3b688f964a70e451e5463263f",
+      "origin": "reviewed-project-source"
+    },
+    "partnership.html": {
+      "sha256": "b6dd5e0f8ad56456fe4c09a6d9e1c54d2f4c47c5d859a19854d6261e9e14b6c0",
+      "origin": "reviewed-project-source"
+    },
+    "resources.html": {
+      "sha256": "b16a7a820ac33bacb9ea559742360223ecdb821dfd634c9507a69220e07cd586",
+      "origin": "reviewed-project-source"
+    },
+    "seminar.html": {
+      "sha256": "66d6aae2fc3026fcbd31530ec60019c0d455e48580f0a84818d1fa672727d624",
+      "origin": "reviewed-project-source"
+    },
+    "site.css": {
+      "sha256": "ee633dc989bb2d99ccc7eeeab89d29787390bd38f45ae7c69f8aceef030644cb",
+      "origin": "reviewed-project-source"
+    },
+    "site.mjs": {
+      "sha256": "9509beee860db50cf2a6a834710c46488251674b40c0ca8ac708ee763ef148a2",
+      "origin": "reviewed-project-source"
+    },
+    "vehicle-security.html": {
+      "sha256": "eaca957bd36ccfd12ccbbe4b1cea4fd1035a41c8b86c119a1b270200003c6b75",
+      "origin": "reviewed-project-source"
+    }
+  }
+}
