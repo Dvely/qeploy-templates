@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "project": "moren-mobile",
+  "status": "reviewed",
+  "reviewDate": "2026-11-13",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "accessories.html": {
+      "sha256": "48b477599db88daac4fff7364a28a138af1d161da6b09514fcf4ec9fad8e5848",
+      "origin": "reviewed-project-source"
+    },
+    "asset-notes.md": {
+      "sha256": "7c012f1fb9b5f8716e867884bd0cf93cf4e9a2917fdc7c74efa5b1b498bac795",
+      "origin": "reviewed-project-source"
+    },
+    "ASSET-PROVENANCE.json": {
+      "sha256": "2c82cd8c4c93e8ea2e0f65b92464d6d824da2c45dfe2e362a20cf9e3ba6c92a1",
+      "origin": "reviewed-project-source"
+    },
+    "assets/finish.jpg": {
+      "sha256": "aa2923154d77d2a323eff491e14ebe37e612bbdab5cb236ca13378c6dfe97664",
+      "origin": "documented-ai-generation"
+    },
+    "assets/fold.jpg": {
+      "sha256": "7754505bd8211a00833e361ea1cba1a333d6193a5e844c80184e5b7e6ff890cd",
+      "origin": "documented-ai-generation"
+    },
+    "assets/gear.jpg": {
+      "sha256": "013f8bfe019dd76e24d27e5c6231bb635fcf830022dd8fdfb537fb2cfcf21a48",
+      "origin": "documented-ai-generation"
+    },
+    "assets/hero-fold.jpg": {
+      "sha256": "16d16bdafd5cde03e888add794b3d2a182fae4d2d18c6c0e0867d66e92eec77a",
+      "origin": "documented-ai-generation"
+    },
+    "assets/hero-studio.jpg": {
+      "sha256": "dfee139cb3886475bb28eef6399ad75c753e4f2926a882195ad8b585d8077003",
+      "origin": "documented-ai-generation"
+    },
+    "assets/lens.jpg": {
+      "sha256": "4961165eef1cc107b0f91d2a60103686561be60b2e7b1f8072ccd3d9e75f7ca8",
+      "origin": "documented-ai-generation"
+    },
+    "assets/line.jpg": {
+      "sha256": "108f1cb39795bbd062332f259242644036d16fc6baa9d7e824a276e470de1afb",
+      "origin": "documented-ai-generation"
+    },
+    "assets/mark.svg": {
+      "sha256": "1c802d1b6b7a9c712ce7b3d5900af8c23c30cf02e96b60963c0794c3a2f239d9",
+      "origin": "original-vector"
+    },
+    "assets/one.jpg": {
+      "sha256": "5c1d1e3170926d861e57d5ec4ab6fcdf7a753627d9277ad5ad2d7953005b207f",
+      "origin": "documented-ai-generation"
+    },
+    "assets/studio.jpg": {
+      "sha256": "20f2e20f67216610111efe836e0b5a47755182cff0613efa7370434ebedd4099",
+      "origin": "documented-ai-generation"
+    },
+    "assets/transfer.jpg": {
+      "sha256": "083248146b33b411959165a2340e3a3336b3d7d4eca596ea6806994a3cbaf2f1",
+      "origin": "documented-ai-generation"
+    },
+    "bag.html": {
+      "sha256": "b6aa49fc10846af527e9577755c437e8b800871e52545b4c936904d0167368bf",
+      "origin": "reviewed-project-source"
+    },
+    "build.mjs": {
+      "sha256": "ae1c10cf47657841ce14db9d619caad9935656a97ab42acb38db0b0681b4ffe6",
+      "origin": "reviewed-project-source"
+    },
+    "catalog.mjs": {
+      "sha256": "0d1501e93f42697f154dfc84addccc29ae8d323c8d02f4a86cb71c5ded5fff67",
+      "origin": "reviewed-project-source"
+    },
+    "compare.html": {
+      "sha256": "28be523f5d90e0724cb4ef94c81d8184dbac65c4792d8ce8a2ad653a6fa29e77",
+      "origin": "reviewed-project-source"
+    },
+    "configure.html": {
+      "sha256": "f0238b38f9b618e42bc90fe675ab8656b364f9d0ac68351ebfdc99f55173bbef",
+      "origin": "reviewed-project-source"
+    },
+    "guide.html": {
+      "sha256": "3c650b476fc85264253171e6fcb8e8d21e965edf19b26fe10439e495af26b03f",
+      "origin": "reviewed-project-source"
+    },
+    "image-prompts.json": {
+      "sha256": "084ce742b83f6191885461c292191f93d92c5c92bd2fb687c6a27d59d5b45c86",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "54471e77b326e0966a53a0aa451d51f754585d04b8d88a45bb93e72e96df9437",
+      "origin": "reviewed-project-source"
+    },
+    "model-fold.html": {
+      "sha256": "b04056093f11c6c1f552b3a6a627a0df0ae65903d9d9f3e35c24e6c5661e9408",
+      "origin": "reviewed-project-source"
+    },
+    "model-line.html": {
+      "sha256": "91f7eaf9802996a7d8a1288af2b9c15dc1793acf3a7b66d2bb18bcc6f1cb0dd9",
+      "origin": "reviewed-project-source"
+    },
+    "model-one.html": {
+      "sha256": "ac68e69d551d0fbcc88775f7f542fba27b514bfbc9e8d5d84601c6912d508421",
+      "origin": "reviewed-project-source"
+    },
+    "model-studio.html": {
+      "sha256": "089929bd5cb5a80a5a6069577ce7a921d40816aaec34123277d772efd067278d",
+      "origin": "reviewed-project-source"
+    },
+    "site.css": {
+      "sha256": "d433db00f3544028adfa1a4d5061c154b6f612508b70ba47e03fa2b1587fe3f8",
+      "origin": "reviewed-project-source"
+    },
+    "site.mjs": {
+      "sha256": "ee2611e62af2a8a4dc1e83fa1b1288ad3f6b782d436d30523597b85292d034ee",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

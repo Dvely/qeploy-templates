@@ -1,0 +1,13 @@
+{
+  "id": "moren-mobile",
+  "name": "모렌 모바일",
+  "description": "스마트폰 라인업과 기능을 둘러보고 모델을 비교하는 반응형 제품 사이트",
+  "tags": ["스마트폰", "전자제품", "제품 비교", "반응형"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    {"key":"products","where":"catalog.mjs","desc":"가상 스마트폰의 색상, 구성과 비교 항목"},
+    {"key":"layout","where":"build.mjs","desc":"홈, 상세, 모델 비교, 구성 화면 생성"},
+    {"key":"style","where":"site.css","desc":"가로 배너와 반응형 제품 배치"}
+  ]
+}

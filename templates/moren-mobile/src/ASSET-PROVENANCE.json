@@ -1,0 +1,71 @@
+{
+  "project": "moren-mobile",
+  "assets": [
+    {
+      "file": "assets/finish.jpg",
+      "sha256": "aa2923154d77d2a323eff491e14ebe37e612bbdab5cb236ca13378c6dfe97664",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/fold.jpg",
+      "sha256": "7754505bd8211a00833e361ea1cba1a333d6193a5e844c80184e5b7e6ff890cd",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/gear.jpg",
+      "sha256": "013f8bfe019dd76e24d27e5c6231bb635fcf830022dd8fdfb537fb2cfcf21a48",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/hero-fold.jpg",
+      "sha256": "16d16bdafd5cde03e888add794b3d2a182fae4d2d18c6c0e0867d66e92eec77a",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/hero-studio.jpg",
+      "sha256": "dfee139cb3886475bb28eef6399ad75c753e4f2926a882195ad8b585d8077003",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/lens.jpg",
+      "sha256": "4961165eef1cc107b0f91d2a60103686561be60b2e7b1f8072ccd3d9e75f7ca8",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/line.jpg",
+      "sha256": "108f1cb39795bbd062332f259242644036d16fc6baa9d7e824a276e470de1afb",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/mark.svg",
+      "sha256": "1c802d1b6b7a9c712ce7b3d5900af8c23c30cf02e96b60963c0794c3a2f239d9",
+      "origin": "original-vector",
+      "record": "asset-notes.md"
+    },
+    {
+      "file": "assets/one.jpg",
+      "sha256": "5c1d1e3170926d861e57d5ec4ab6fcdf7a753627d9277ad5ad2d7953005b207f",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/studio.jpg",
+      "sha256": "20f2e20f67216610111efe836e0b5a47755182cff0613efa7370434ebedd4099",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/transfer.jpg",
+      "sha256": "083248146b33b411959165a2340e3a3336b3d7d4eca596ea6806994a3cbaf2f1",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    }
+  ]
+}
