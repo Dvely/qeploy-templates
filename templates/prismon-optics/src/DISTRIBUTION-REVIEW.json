@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "project": "prismon-optics",
+  "status": "reviewed",
+  "reviewDate": "2026-11-15",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "assembly-note.html": {
+      "sha256": "b20c1ca43c1aa17ce5049161626bd43c027b200a818c6956b7dd2e86c5c86b1b",
+      "origin": "reviewed-project-source"
+    },
+    "asset-notes.md": {
+      "sha256": "56e76428d6bede5c7c56e3e0ab401fbf950b53df9cbe389b59df123234afcebe",
+      "origin": "reviewed-project-source"
+    },
+    "ASSET-PROVENANCE.json": {
+      "sha256": "f3bb516ae35ccb522bd958f1faaf692e0837b7f7f2b7487b0e3914e6a68c7405",
+      "origin": "reviewed-project-source"
+    },
+    "assets/campus.jpg": {
+      "sha256": "03b9af496f631902460195f87702f670355722bfd66b90175ea9cb5d6e6377e4",
+      "origin": "documented-ai-generation"
+    },
+    "assets/engineers.jpg": {
+      "sha256": "08f19cf345d27a33638d4ec8b894cd5861fff7301914818edaa301092c20b74e",
+      "origin": "documented-ai-generation"
+    },
+    "assets/garden.jpg": {
+      "sha256": "3a25fa909328834642ca335a783d1b7b2a752f3e039837c0db1672912e4fc1a6",
+      "origin": "documented-ai-generation"
+    },
+    "assets/lab.jpg": {
+      "sha256": "fc1e64ac19cda3c5cc6c5db7c7f89306705668f86edcf63244905ff254fd1f80",
+      "origin": "documented-ai-generation"
+    },
+    "assets/line.jpg": {
+      "sha256": "91db5d41daf793201b610b3891464fadb57ece076f5037652ea00c75cd0b9dd5",
+      "origin": "documented-ai-generation"
+    },
+    "assets/mark.svg": {
+      "sha256": "73f57c95ae1c163d7b3d602b3178082ba0279d9c0ddbab27086713b691a923e6",
+      "origin": "original-vector"
+    },
+    "assets/meeting.jpg": {
+      "sha256": "9bf847aba953a78cdd3114c3da9e3ef30aaf8a8b9e268e197135d7e82b7048f9",
+      "origin": "documented-ai-generation"
+    },
+    "assets/optics.jpg": {
+      "sha256": "a8be4e97e1de7bf88abce3e5bc889cf683342b3c40c1acef3d881a12e11ceaad",
+      "origin": "documented-ai-generation"
+    },
+    "build.mjs": {
+      "sha256": "98ac4434239771b7431edccd4d4030e3a291c7c146e20f17867b09b8087237c6",
+      "origin": "reviewed-project-source"
+    },
+    "business.html": {
+      "sha256": "3029e53705527625cff2607faaa67ec6f2dcc8db38502083279b0dbc2dbd1657",
+      "origin": "reviewed-project-source"
+    },
+    "camera.html": {
+      "sha256": "9b28676dae2629de33bc769b7223dd9f6164f1b04c58a46e046c9deec88d3391",
+      "origin": "reviewed-project-source"
+    },
+    "careers.html": {
+      "sha256": "e73e2e0c37a58ee7304dd3d85554b7c7da2d8006f634f95153c94eb9e127504a",
+      "origin": "reviewed-project-source"
+    },
+    "company.html": {
+      "sha256": "db187f62de50e0403eb1a396bbf612375ba46e44dd2e6a0b0f86bbc76e86e903",
+      "origin": "reviewed-project-source"
+    },
+    "contact.html": {
+      "sha256": "7030ff0e7c7701f99f83e7f888c476f02288badbc3819d9edf59186de3fb3320",
+      "origin": "reviewed-project-source"
+    },
+    "content.mjs": {
+      "sha256": "b2fd6e3fecbb0cb24f2301499467df3a02e4b22c99475b111a28d1d654563940",
+      "origin": "reviewed-project-source"
+    },
+    "disclosures.html": {
+      "sha256": "af5eabc6825d7be589652d4af1d260ca52daa0648011078f7e6a7d7ffba275b3",
+      "origin": "reviewed-project-source"
+    },
+    "environment.html": {
+      "sha256": "01dc7fc75dfa63da51e97487e408cba33f3ebaf06bd33969fde40e94fbb80129",
+      "origin": "reviewed-project-source"
+    },
+    "esg.html": {
+      "sha256": "f4c710e2aa93cb946d5f4f0dfb1a75783e4b1be1c34a9f06c6049214f266ff98",
+      "origin": "reviewed-project-source"
+    },
+    "finance.html": {
+      "sha256": "43192af091f6a1125af3b84939dab99c5d494ea67f6b045304fb42d981aab644",
+      "origin": "reviewed-project-source"
+    },
+    "governance.html": {
+      "sha256": "c3d9330c13bd0a69df9b264a1e73f0ef4d3271f70ddf1cc7fa1db427425ee6a7",
+      "origin": "reviewed-project-source"
+    },
+    "image-prompts.json": {
+      "sha256": "ca99c1b08f5f8bc6629aba37d7035c3468b13056e45165f0f14cf4bb5535c750",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "84be09e942bb12127350056622d0fc3d41273284efefe9624b8c5e15e51729b0",
+      "origin": "reviewed-project-source"
+    },
+    "industrial.html": {
+      "sha256": "8049e4c69e79a6ecde6623afa1f6385482a906df7b8d67a2a887165a6dd6bce4",
+      "origin": "reviewed-project-source"
+    },
+    "investors.html": {
+      "sha256": "ef27531c7a6dad19fa4616053f0845b3848b2ecc602c4ceba9a33e6e80832417",
+      "origin": "reviewed-project-source"
+    },
+    "lens-note.html": {
+      "sha256": "4a9cf5f0134a5e7fd641de4d4228a354a98dbb1779371be24ec156cfa42505b0",
+      "origin": "reviewed-project-source"
+    },
+    "light-note.html": {
+      "sha256": "d8f41eba7857d1944e5d3236e069fb5287d9ad6b379f5e05824c77194d220fa3",
+      "origin": "reviewed-project-source"
+    },
+    "materials-note.html": {
+      "sha256": "d8dfa70e70a08b0baa91c5f20e8605e89dbfe969a59c22100e4eb64208a9fbbe",
+      "origin": "reviewed-project-source"
+    },
+    "news.html": {
+      "sha256": "18f230a9ef605c94d1609137d839cfd7930ef563de5bc62694e769ddcec211e0",
+      "origin": "reviewed-project-source"
+    },
+    "people.html": {
+      "sha256": "2c24567265c4633fa15c5e24110c845ab1e1311255115fdcf22fe03a471e058d",
+      "origin": "reviewed-project-source"
+    },
+    "prismon-overview.txt": {
+      "sha256": "74ee3980b11ff959fdda302fec249c518d8c28811ef56dee0d8bd2a4f5c09ed1",
+      "origin": "reviewed-project-source"
+    },
+    "process.html": {
+      "sha256": "fb98d5520036a74cf5e16870b21e5ebe7d160bd4c2d9a845651630977fbe791e",
+      "origin": "reviewed-project-source"
+    },
+    "recruitment.html": {
+      "sha256": "043831c230484e1c0cf0b4e5e915647ec39f05d035684e3bbac314ddec534b60",
+      "origin": "reviewed-project-source"
+    },
+    "reports.html": {
+      "sha256": "3d384175b6afdfdb90622a45acf25748a088b78d3ea873dc4846ba5b4c21f3f9",
+      "origin": "reviewed-project-source"
+    },
+    "roles.html": {
+      "sha256": "dd35d32461635111e8eff3c441146497b236a45b37b014086253708b8e0088e4",
+      "origin": "reviewed-project-source"
+    },
+    "search-index.mjs": {
+      "sha256": "44b7fcec4977586dd76b4c2660ac869fd6d2644da5b73d0eaadd86fa075e295f",
+      "origin": "reviewed-project-source"
+    },
+    "site.css": {
+      "sha256": "759906a18d405376efa78ab097b0ccc6b77d2756b282a7e59587c77f74dd217f",
+      "origin": "reviewed-project-source"
+    },
+    "site.mjs": {
+      "sha256": "08d12523a9e1ca0afcc5bfd3fac51e17a58537a645f631ae9fefdb0c21ac06b8",
+      "origin": "reviewed-project-source"
+    },
+    "vision.html": {
+      "sha256": "3a672a06483b18a10054c9c5433f517d27dd8b788f5219b89665d8213e9a4e0e",
+      "origin": "reviewed-project-source"
+    },
+    "work-note.html": {
+      "sha256": "21431778b455c2ff591fdb71db75369cf690d1549db79351b72e2e83735a9752",
+      "origin": "reviewed-project-source"
+    },
+    "workplace.html": {
+      "sha256": "a5e2ff981fcda67e541569a6710e95e78c2d34735335785bcfdcae2357432f75",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "prismon-optics",
+  "name": "프리즘온",
+  "description": "정밀광학, 영상 모듈, 기업 자료와 채용을 소개하는 반응형 기업 사이트",
+  "tags": ["정밀광학", "카메라", "기업", "반응형"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    {"key": "content", "where": "content.mjs", "desc": "사업, 기업 자료, 뉴스, ESG와 채용"},
+    {"key": "layout", "where": "build.mjs", "desc": "홈과 하위 페이지 생성"},
+    {"key": "style", "where": "site.css", "desc": "반응형 홈과 메뉴"}
+  ]
+}

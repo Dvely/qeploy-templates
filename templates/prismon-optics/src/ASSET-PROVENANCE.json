@@ -1,0 +1,53 @@
+{
+  "project": "prismon-optics",
+  "assets": [
+    {
+      "file": "assets/campus.jpg",
+      "sha256": "03b9af496f631902460195f87702f670355722bfd66b90175ea9cb5d6e6377e4",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/engineers.jpg",
+      "sha256": "08f19cf345d27a33638d4ec8b894cd5861fff7301914818edaa301092c20b74e",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/garden.jpg",
+      "sha256": "3a25fa909328834642ca335a783d1b7b2a752f3e039837c0db1672912e4fc1a6",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/lab.jpg",
+      "sha256": "fc1e64ac19cda3c5cc6c5db7c7f89306705668f86edcf63244905ff254fd1f80",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/line.jpg",
+      "sha256": "91db5d41daf793201b610b3891464fadb57ece076f5037652ea00c75cd0b9dd5",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/mark.svg",
+      "sha256": "73f57c95ae1c163d7b3d602b3178082ba0279d9c0ddbab27086713b691a923e6",
+      "origin": "original-vector",
+      "record": "asset-notes.md"
+    },
+    {
+      "file": "assets/meeting.jpg",
+      "sha256": "9bf847aba953a78cdd3114c3da9e3ef30aaf8a8b9e268e197135d7e82b7048f9",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/optics.jpg",
+      "sha256": "a8be4e97e1de7bf88abce3e5bc889cf683342b3c40c1acef3d881a12e11ceaad",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    }
+  ]
+}
