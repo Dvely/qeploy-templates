@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "project": "modulroom-studio",
+  "status": "reviewed",
+  "reviewDate": "2026-11-21",
+  "scope": "현재 파일 목록과 제작/라이선스 기록. 법률상 비침해나 상표 등록 가능성의 보증이 아님.",
+  "files": {
+    "about.html": {
+      "sha256": "501b353b486ff5fa61346a60281d313f91d4672ead156fff4cd4d39f4c5b7331",
+      "origin": "reviewed-project-source"
+    },
+    "asset-notes.md": {
+      "sha256": "56121f184f35bb93742082cd64ef6b37092cc38c40e09303121eec0afea41018",
+      "origin": "reviewed-project-source"
+    },
+    "ASSET-PROVENANCE.json": {
+      "sha256": "813692702ef105aaa505ce588638840f09b861068f290937ef45ee4e80a44f9c",
+      "origin": "reviewed-project-source"
+    },
+    "assets/architecture.jpg": {
+      "sha256": "169133f82163f33abeef98589bbe9a4a7f820a357fdc95d4f0984e6d551bbe37",
+      "origin": "documented-ai-generation"
+    },
+    "assets/coffee.jpg": {
+      "sha256": "a7b12c986de9b65da46699d17df4d8d95ca48e72851ca7098bc979ebf0870aa1",
+      "origin": "documented-ai-generation"
+    },
+    "assets/culture.jpg": {
+      "sha256": "fe725e6c532371ebe8a4bec7f74893236c05ea4db2cb859a7cfa0d976c12a7bd",
+      "origin": "documented-ai-generation"
+    },
+    "assets/garden.jpg": {
+      "sha256": "e91aea996ffde6e7faadea7fb82c8acecc4e294720a6d4130575fbb452b4365b",
+      "origin": "documented-ai-generation"
+    },
+    "assets/living.jpg": {
+      "sha256": "1ea5a8c13f5a09ee392859c7072ee66967cafbd438623dc3940ca9f68d814c56",
+      "origin": "documented-ai-generation"
+    },
+    "assets/mark.svg": {
+      "sha256": "92febe51f05a754d2814afacbdd8117a58b4d95b00a49422017caa0ec21e57f5",
+      "origin": "original-vector"
+    },
+    "assets/skincare.jpg": {
+      "sha256": "9d54929d767968173cfa099e5a50f18d026722d1697ac4c580826c9480458327",
+      "origin": "documented-ai-generation"
+    },
+    "assets/sound.jpg": {
+      "sha256": "395ea23dabfa4fc300f8a99b178933177c0f946822ad374aa2a681c13036018a",
+      "origin": "documented-ai-generation"
+    },
+    "build.mjs": {
+      "sha256": "c991aaa8dbe15560dfcf8129ec7abe497ddccb16cbc0e87bf773c46c4459428d",
+      "origin": "reviewed-project-source"
+    },
+    "contact.html": {
+      "sha256": "434797c73db6b6cba5bdb05b479e15dfd0312b5a0f10bdc12c6c00134955c4fc",
+      "origin": "reviewed-project-source"
+    },
+    "content.mjs": {
+      "sha256": "1468c319404a29bd25628f7c14c224eaf294862ee1e9261bda6b8a63072d81bb",
+      "origin": "reviewed-project-source"
+    },
+    "image-prompts.json": {
+      "sha256": "2659490635b72b213c5033290ca67b7f3de070608d3bb778dc6db37b67dc9211",
+      "origin": "reviewed-project-source"
+    },
+    "index.html": {
+      "sha256": "69e1e8ad6caa33a028791c7a36360ff42ca42548d9dc0b68869d91da5b7c8a25",
+      "origin": "reviewed-project-source"
+    },
+    "insights.html": {
+      "sha256": "89a4eca6cfbfef6edbdeadec10592e75cb7da9219f00bb26efeae476af00b5b4",
+      "origin": "reviewed-project-source"
+    },
+    "journal-content-system.html": {
+      "sha256": "8c5d0b4f9c44e01c39cf691c9b8d0716fc8fa8c707b04bcffd165ca6b5413275",
+      "origin": "reviewed-project-source"
+    },
+    "journal-motion-with-purpose.html": {
+      "sha256": "d1d4fcc54ae04835a85ffa0cedabc5360ae71821b713e6db7a4681f50f2997b7",
+      "origin": "reviewed-project-source"
+    },
+    "journal-small-screen.html": {
+      "sha256": "e004135a6240d1fad7b2836199aa059d6b775f69ef35f1f77b96526dbce6ab92",
+      "origin": "reviewed-project-source"
+    },
+    "privacy.html": {
+      "sha256": "6f849767ee41f1b25b46bebde004b3dec1139d107e1d56a49552570fbae35653",
+      "origin": "reviewed-project-source"
+    },
+    "product.html": {
+      "sha256": "3c4340d79dbdac755d1ecadf047ef54e9ca0112088321abad9b5a88481bafa01",
+      "origin": "reviewed-project-source"
+    },
+    "quote.html": {
+      "sha256": "723f6f12179e069bf67ff631ffb1e301a021a950086fd40123c2868960facde5",
+      "origin": "reviewed-project-source"
+    },
+    "renewal.html": {
+      "sha256": "575fd295368944dc6ec3fac0215ee73c6514b5c0149df3b5e8c79e5a69cf84ea",
+      "origin": "reviewed-project-source"
+    },
+    "services.html": {
+      "sha256": "bdc68f158c5a45e9a589334ccafb6b46f5189e0e4047151b19c4d65cea31bf57",
+      "origin": "reviewed-project-source"
+    },
+    "site.css": {
+      "sha256": "66c39260e20ada14b326d8d65db9d8d04d0251c5e38939b54a7b8a80e2085443",
+      "origin": "reviewed-project-source"
+    },
+    "site.mjs": {
+      "sha256": "5b5f2f1454336eb08ea6b8aa3ecfec1f40d0c04fbf98fd5ab7d75ac50af81564",
+      "origin": "reviewed-project-source"
+    },
+    "work-form-living.html": {
+      "sha256": "ee40b3c9e4ef09021c1f3d1b35c305374450adc7b69096d4a1f016c846ed2ef6",
+      "origin": "reviewed-project-source"
+    },
+    "work-lila-care.html": {
+      "sha256": "13d9314a558ac48c147843d8f0b3c571fe3048f6c5ba5c09b1d5c7a3d0736db1",
+      "origin": "reviewed-project-source"
+    },
+    "work-paper-current.html": {
+      "sha256": "4bd775d757ce2a4f4e637cf12bc77d7e2fa8ca0a22563b0214fd86964e1d842c",
+      "origin": "reviewed-project-source"
+    },
+    "work-roam-coffee.html": {
+      "sha256": "134115dc7e5e23ac16acf5665be997a480900adf03ca11fcea992aabe327575c",
+      "origin": "reviewed-project-source"
+    },
+    "work-still-garden.html": {
+      "sha256": "ccedc0a4f104395aff9c91c6e09fa87baa2992243cb1fac7e539a7cf6fa71810",
+      "origin": "reviewed-project-source"
+    },
+    "work-tone-object.html": {
+      "sha256": "aec62947696c4bf6c04cdec269d2565a4499dc0dac0bb98e3783fa2738655673",
+      "origin": "reviewed-project-source"
+    },
+    "works.html": {
+      "sha256": "fe5547d5fd67a49f68b3763b5d74ed44a963baf565ef4f5afac48155147c98f4",
+      "origin": "reviewed-project-source"
+    }
+  }
+}

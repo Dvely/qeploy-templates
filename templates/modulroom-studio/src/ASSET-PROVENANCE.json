@@ -1,0 +1,53 @@
+{
+  "project": "modulroom-studio",
+  "assets": [
+    {
+      "file": "assets/architecture.jpg",
+      "sha256": "169133f82163f33abeef98589bbe9a4a7f820a357fdc95d4f0984e6d551bbe37",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/coffee.jpg",
+      "sha256": "a7b12c986de9b65da46699d17df4d8d95ca48e72851ca7098bc979ebf0870aa1",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/culture.jpg",
+      "sha256": "fe725e6c532371ebe8a4bec7f74893236c05ea4db2cb859a7cfa0d976c12a7bd",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/garden.jpg",
+      "sha256": "e91aea996ffde6e7faadea7fb82c8acecc4e294720a6d4130575fbb452b4365b",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/living.jpg",
+      "sha256": "1ea5a8c13f5a09ee392859c7072ee66967cafbd438623dc3940ca9f68d814c56",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/mark.svg",
+      "sha256": "92febe51f05a754d2814afacbdd8117a58b4d95b00a49422017caa0ec21e57f5",
+      "origin": "original-vector",
+      "record": "asset-notes.md"
+    },
+    {
+      "file": "assets/skincare.jpg",
+      "sha256": "9d54929d767968173cfa099e5a50f18d026722d1697ac4c580826c9480458327",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    },
+    {
+      "file": "assets/sound.jpg",
+      "sha256": "395ea23dabfa4fc300f8a99b178933177c0f946822ad374aa2a681c13036018a",
+      "origin": "documented-ai-generation",
+      "record": "image-prompts.json"
+    }
+  ]
+}
