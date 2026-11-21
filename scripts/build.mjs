@@ -31,6 +31,7 @@ import { buildMonunVision } from './monun-vision/build.mjs';
 import { buildBrionMobility } from '../templates/brion-mobility/src/build.mjs';
 import { buildMorenMobile } from '../templates/moren-mobile/src/build.mjs';
 import { buildPrismon } from '../templates/prismon-optics/src/build.mjs';
+import { buildModulroom } from '../templates/modulroom-studio/src/build.mjs';
 
 const run = promisify(execFile);
 const ROOT = path.resolve(import.meta.dirname, '..');
@@ -55,6 +56,7 @@ await buildMonunVision(ROOT);
 await buildBrionMobility();
 await buildMorenMobile();
 await buildPrismon();
+await buildModulroom();
 await buildHarutgyeolPages();
 await buildPagesDetails();
 await buildAtelierCuisine();

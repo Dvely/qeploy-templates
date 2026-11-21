@@ -130,6 +130,10 @@
     "prismon-optics": {
       "status": "ready",
       "reason": "독립 제작 화면, 문구 및 로고와 생성 이미지의 출처 기록 확인"
+    },
+    "modulroom-studio": {
+      "status": "ready",
+      "reason": "독립 제작한 화면·문구·인터랙션과 이미지 제작 기록, 파일 목록 검토 완료; 법률상 무문제 보증 아님"
     }
   }
 }
