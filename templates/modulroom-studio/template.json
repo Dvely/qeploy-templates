@@ -1,0 +1,13 @@
+{
+  "id": "modulroom-studio",
+  "name": "모듈룸 스튜디오",
+  "description": "입체 브라우저 모션과 흑백 스크롤 전환으로 작업물과 서비스를 소개하는 디지털 스튜디오",
+  "tags": ["디지털 스튜디오", "포트폴리오", "인터랙션", "반응형"],
+  "stack": "vanilla",
+  "entry": "index.html",
+  "contentHints": [
+    {"key": "content", "where": "content.mjs", "desc": "프로젝트와 서비스, 저널 콘텐츠"},
+    {"key": "layout", "where": "build.mjs", "desc": "홈과 하위 페이지 생성"},
+    {"key": "style", "where": "site.css", "desc": "입체 모션과 모바일 레이아웃"}
+  ]
+}

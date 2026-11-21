@@ -1,0 +1,33 @@
+{
+  "tool": "ImageGen",
+  "assets": [
+    {
+      "file": "assets/architecture.jpg",
+      "prompt": "Use case: photorealistic-natural\nAsset type: original website project image for MODULROOM STUDIO.\nPrimary request: A quiet contemporary glass pavilion beside a reflecting lake, pale blue mountain silhouettes, minimalist concrete cantilever, warm timber interior, early morning soft light, editorial architectural photography. Wide landscape composition, calm and precise, no people, no logos, no text.\nConstraints: high resolution polished professional image. No watermark, no existing brand identities. Fill entire landscape canvas."
+    },
+    {
+      "file": "assets/living.jpg",
+      "prompt": "Use case: product-mockup\nAsset type: original website project image for MODULROOM STUDIO.\nPrimary request: Premium portfolio campaign photograph for fictional design studio: a sculptural cream lounge chair and small aluminum side table in a vivid cobalt blue architectural room, long sunlight shadows, large orange spherical object, editorial furniture art direction, bold geometric composition, very high quality landscape image, no logos, no text.\nConstraints: high resolution polished professional image. No watermark, no existing brand identities. Fill entire landscape canvas."
+    },
+    {
+      "file": "assets/skincare.jpg",
+      "prompt": "Use case: product-mockup\nAsset type: original website project image for MODULROOM STUDIO.\nPrimary request: Premium fictional skincare campaign still life, frosted lavender glass bottles and pale green ceramic cylinder on a pastel lilac stepped plinth, translucent soft gel and water reflections, delicate daylight, precise shadows, graphic editorial product photography, wide landscape, no labels, no text or logos.\nConstraints: high resolution polished professional image. No watermark, no existing brand identities. Fill entire landscape canvas."
+    },
+    {
+      "file": "assets/culture.jpg",
+      "prompt": "Use case: ads-marketing\nAsset type: original website project image for MODULROOM STUDIO.\nPrimary request: Original cultural exhibition visual for fictional design studio portfolio, enormous coral orange and acid yellow abstract folded paper sculptures, gallery white floor, overhead composition with black metal wire arcs, bold modern art direction, wide landscape, no text, no logos.\nConstraints: high resolution polished professional image. No watermark, no existing brand identities. Fill entire landscape canvas."
+    },
+    {
+      "file": "assets/coffee.jpg",
+      "prompt": "Use case: product-mockup\nAsset type: original website project image for MODULROOM STUDIO.\nPrimary request: Fictional specialty coffee brand campaign still life, glossy burgundy coffee pouch, silver coffee dripper, cream ceramic espresso cup and sculptural burnt orange objects on deep oxblood background, dramatic editorial studio product photography, wide landscape image, no lettering, no logos.\nConstraints: high resolution polished professional image. No watermark, no existing brand identities. Fill entire landscape canvas."
+    },
+    {
+      "file": "assets/sound.jpg",
+      "prompt": "Use case: product-mockup\nAsset type: original website project image for MODULROOM STUDIO.\nPrimary request: Futuristic sculptural wireless speaker, matte ivory rounded aluminum cube with fine perforated grille on monochromatic dark charcoal architectural plinth, a looping chrome cable and luminous pale green translucent disc, premium industrial design editorial photography, wide landscape, no text no logos.\nConstraints: high resolution polished professional image. No watermark, no existing brand identities. Fill entire landscape canvas."
+    },
+    {
+      "file": "assets/garden.jpg",
+      "prompt": "Use case: photorealistic-natural\nAsset type: original website project image for MODULROOM STUDIO.\nPrimary request: Editorial architectural photograph of a peaceful sunlit indoor courtyard with olive tree, beautiful travertine benches, curved white walls, reflecting pool and natural linen lounge chairs, warm minimal hospitality design, wide landscape, no people, no text no logos.\nConstraints: high resolution polished professional image. No watermark, no existing brand identities. Fill entire landscape canvas."
+    }
+  ]
+}
