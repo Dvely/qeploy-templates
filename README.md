@@ -44,3 +44,7 @@ scripts/build.mjs  templates/ → site/ 빌드
 레이아웃보다 **상호·로고·카피·사진**이 위험하다. 실재하는 회사·가게·단체의 이름을 쓰면 그 단체의 공식 사이트로 오인될 수 있다. 예시 콘텐츠는 가상의 이름으로 짓고, 연락처는 `example.com` 을 쓴다.
 
 원본 사이트의 독창적인 화면·그래픽·애니메이션 표현과 전용 HTML/CSS/JS도 별도 권리 검토 대상이다. 이름과 사진을 바꾸거나 출처를 적는 것만으로 코드·디자인의 이용허락을 대신하지 않는다. 현재 배포 자산의 기록·검토 절차는 [DISTRIBUTION.md](DISTRIBUTION.md)에 정리했다.
+
+## 라이선스
+
+저장소의 스크립트 · 빌드 도구 · 문서는 루트 [LICENSE](LICENSE)(MIT)를 따른다. 각 템플릿(`templates/<id>/`)은 그 폴더의 `src/LICENSE.txt`(자체 작성 코드), `THIRD_PARTY_NOTICES.md`(폰트 OFL 등 제3자 고지), `ASSET-PROVENANCE.json`(그림 · 사진 · 영상 · 폰트의 제작 기록)을 따른다. 루트 MIT 는 다른 권리자의 콘텐츠나 생성 이미지의 권리까지 주지 않는다. 자세한 기준은 [DISTRIBUTION.md](DISTRIBUTION.md)에 있다.
